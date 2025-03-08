@@ -4,10 +4,14 @@ import Link from 'next/link';
 import type { Location } from '../types/Location';
 import locationData from '../data/locations.json';
 
-// Import Map component dynamically to avoid SSR issues with mapbox-gl
+// Import Map component dynamically to avoid SSR issues
 const Map = dynamic(() => import('../components/Map'), {
   ssr: false,
-  loading: () => <div>Loading map...</div>
+  loading: () => (
+    <div className="w-full h-full flex items-center justify-center bg-secondary">
+      <div className="text-primary text-xl">Loading map...</div>
+    </div>
+  )
 });
 
 export default function Home() {
@@ -31,6 +35,10 @@ export default function Home() {
       loc => loc.episode.youtubeTitle === selectedEpisode
     );
   }, [selectedEpisode]);
+
+  const handleLocationSelect = (location: Location | null) => {
+    setSelectedLocation(location);
+  };
 
   return (
     <main className="min-h-screen flex flex-col bg-secondary">
@@ -115,35 +123,44 @@ export default function Home() {
         </div>
 
         {/* Map Container */}
-        <div className="flex-1 relative min-h-[calc(100vh-116px)]">
+        <div className="flex-1 relative min-h-[calc(100vh-116px)] z-[1]">
           <Map 
-            locations={filteredLocations} 
-            onLocationSelect={setSelectedLocation}
+            locations={filteredLocations}
+            selectedLocation={selectedLocation}
+            onLocationSelect={handleLocationSelect}
           />
+        </div>
 
-          {/* Location Details Modal */}
+        {/* Location Details Drawer */}
+        <div 
+          className={`fixed top-[116px] right-0 h-[calc(100vh-116px)] w-96 bg-white shadow-lg transform transition-transform duration-300 ease-in-out z-[2] ${
+            selectedLocation ? 'translate-x-0' : 'translate-x-full'
+          }`}
+        >
           {selectedLocation && (
-            <div className="absolute right-4 top-4 bg-white p-4 rounded-lg shadow-lg max-w-md z-10">
-              <button 
-                onClick={() => setSelectedLocation(null)}
-                className="absolute right-2 top-2 text-primary-hover hover:text-primary"
-              >
-                ×
-              </button>
-              <h2 className="text-xl font-bold mb-2 text-primary">{selectedLocation.name}</h2>
-              <p className="text-primary-hover mb-2">{selectedLocation.description}</p>
-              <div className="text-sm text-primary-hover">
+            <div className="h-full p-6 overflow-y-auto">
+              <div className="flex justify-between items-start mb-6">
+                <h2 className="text-xl font-bold text-primary pr-8">{selectedLocation.name}</h2>
+                <button 
+                  onClick={() => handleLocationSelect(null)}
+                  className="text-primary-hover hover:text-primary text-2xl leading-none"
+                >
+                  ×
+                </button>
+              </div>
+              <p className="text-primary-hover mb-6">{selectedLocation.description}</p>
+              <div className="text-sm text-primary-hover space-y-3">
                 <p>📍 {selectedLocation.address}</p>
                 <p>🌍 {selectedLocation.country}</p>
                 <p>🎥 {selectedLocation.episode.show}</p>
                 <p>📅 {selectedLocation.episode.title} ({selectedLocation.episode.date})</p>
-                <div className="mt-3 space-y-2">
+                <div className="mt-6 space-y-4">
                   {selectedLocation.websiteUrl && (
                     <a 
                       href={selectedLocation.websiteUrl} 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="text-primary hover:text-primary-hover block"
+                      className="text-primary hover:text-primary-hover block transition-colors"
                     >
                       🍽️ Odwiedź stronę restauracji →
                     </a>
@@ -153,7 +170,7 @@ export default function Home() {
                       href={selectedLocation.episode.youtubeUrl} 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="text-primary hover:text-primary-hover block"
+                      className="text-primary hover:text-primary-hover block transition-colors"
                     >
                       📺 {selectedLocation.episode.youtubeTitle} (YT)
                     </a>
