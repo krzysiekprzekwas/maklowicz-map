@@ -36,21 +36,35 @@ function ChangeView({ locations }: { locations: Location[] }) {
 const Map = ({ locations, selectedLocation, onLocationSelect }: MapProps) => {
     const krakowPosition: LatLngExpression = [50.0614300, 19.9365800];
 
-    const customIcon = (isSelected: boolean): DivIcon => new L.DivIcon({
-        className: 'custom-marker',
-        html: `<div style="
-            width: 24px;
-            height: 24px;
-            background-color: ${isSelected ? 'rgb(88, 202, 229)' : '#2c1810'};
-            border: 2px solid #f8f5f0;
-            border-radius: 50%;
-            cursor: pointer;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-            transition: background-color 0.3s ease;
-        "></div>`,
-        iconSize: [24, 24],
-        iconAnchor: [12, 12],
-    });
+    const customIcon = (location: Location, isSelected: boolean): DivIcon => {
+        let icon = '📍'; // default icon for 'other'
+        if (location.type === 'restaurant') {
+            icon = '🍴';
+        } else if (location.type === 'attraction') {
+            icon = '🏛️';
+        }
+
+        return new L.DivIcon({
+            className: 'custom-marker',
+            html: `<div style="
+                width: 32px;
+                height: 32px;
+                background-color: ${isSelected ? 'rgb(88, 202, 229)' : '#2c1810'};
+                border: 2px solid #f8f5f0;
+                border-radius: 50%;
+                cursor: pointer;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+                transition: background-color 0.3s ease;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 16px;
+                color: #f8f5f0;
+            ">${icon}</div>`,
+            iconSize: [32, 32],
+            iconAnchor: [16, 16],
+        });
+    };
 
     return (
         <div className="w-full h-full relative bg-secondary">
@@ -73,7 +87,7 @@ const Map = ({ locations, selectedLocation, onLocationSelect }: MapProps) => {
                         <Marker
                             key={location.id}
                             position={position}
-                            icon={customIcon(isSelected)}
+                            icon={customIcon(location, isSelected)}
                             eventHandlers={{
                                 click: () => onLocationSelect(location),
                             }}

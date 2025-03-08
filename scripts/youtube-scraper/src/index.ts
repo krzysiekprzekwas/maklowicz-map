@@ -11,13 +11,32 @@ const youtube = google.youtube({
   auth: process.env.YOUTUBE_API_KEY
 });
 
+interface Location {
+  id: string;
+  name: string;
+  description: string;
+  latitude: number;
+  longitude: number;
+  address: string;
+  country: string;
+  cuisine: string[];
+  isStillOperating: boolean;
+  websiteUrl?: string;
+}
+
 interface Video {
   videoId: string;
+  videoUrl: string;
   title: string;
-  description: string;
-  publishedAt: string;
   playlistId: string;
   playlistTitle: string;
+  date: string;
+  show: string;
+  locations: Location[];
+}
+
+interface LocationData {
+  videos: Video[];
 }
 
 async function getChannelId(): Promise<string> {
@@ -70,8 +89,8 @@ async function getPlaylists(channelId: string): Promise<youtube_v3.Schema$Playli
 }
 
 async function getPlaylistVideos(playlistId: string, playlistTitle: string): Promise<Video[]> {
-  const videos: Video[] = [];
   let pageToken: string | undefined | null = undefined;
+  const videos: Video[] = [];
 
   try {
     do {
@@ -85,27 +104,33 @@ async function getPlaylistVideos(playlistId: string, playlistTitle: string): Pro
       const items = response.data.items || [];
       console.log(`Found ${items.length} videos in playlist ${playlistTitle}`);
       
-      for (const item of items) {
-        if (item.snippet?.resourceId?.videoId && item.snippet.title) {
+      // Process all videos in the playlist
+      items.forEach(item => {
+        if (item.snippet?.resourceId?.videoId) {
           videos.push({
             videoId: item.snippet.resourceId.videoId,
-            title: item.snippet.title,
-            description: item.snippet.description || '',
-            publishedAt: item.snippet.publishedAt || '',
+            videoUrl: `https://www.youtube.com/watch?v=${item.snippet.resourceId.videoId}`,
+            title: item.snippet.title || '',
             playlistId,
-            playlistTitle
+            playlistTitle,
+            date: item.snippet.publishedAt || new Date().toISOString(),
+            show: 'Robert Makłowicz w podróży',
+            locations: []
           });
         }
-      }
+      });
 
       pageToken = response.data.nextPageToken;
     } while (pageToken);
 
-    console.log(`Total videos in playlist ${playlistTitle}: ${videos.length}`);
+    if (videos.length === 0) {
+      throw new Error('No videos found in playlist');
+    }
+
     return videos;
   } catch (error) {
     console.error(`Error fetching videos for playlist ${playlistTitle}:`, error);
-    return [];
+    throw error;
   }
 }
 
@@ -119,18 +144,20 @@ async function main() {
     const playlists = await getPlaylists(channelId);
     console.log(`Found ${playlists.length} playlists`);
 
-    // Get videos from each playlist
-    const videos: Video[] = [];
+    // Get all videos from each playlist
+    const allVideos: Video[] = [];
     for (const playlist of playlists) {
       if (!playlist.id || !playlist.snippet?.title) continue;
       console.log(`Fetching videos from playlist: ${playlist.snippet.title}`);
-      const playlistVideos = await getPlaylistVideos(playlist.id, playlist.snippet.title);
-      videos.push(...playlistVideos);
-      console.log(`Total videos so far: ${videos.length}`);
+      try {
+        const playlistVideos = await getPlaylistVideos(playlist.id, playlist.snippet.title);
+        allVideos.push(...playlistVideos);
+      } catch (error) {
+        console.error(`Error processing playlist ${playlist.snippet.title}:`, error);
+      }
     }
 
-    console.log(`Successfully scraped ${videos.length} videos`);
-    console.log('First video:', videos[0]);
+    console.log(`Successfully processed ${allVideos.length} videos`);
 
     // Create output directory if it doesn't exist
     const outputDir = path.join(__dirname, '..', 'output');
@@ -138,9 +165,10 @@ async function main() {
       fs.mkdirSync(outputDir, { recursive: true });
     }
 
-    // Write results to file
+    // Write results to file in the format the app expects
     const outputPath = path.join(outputDir, 'videos.json');
-    fs.writeFileSync(outputPath, JSON.stringify({ videos }, null, 2));
+    const locationData: LocationData = { videos: allVideos };
+    fs.writeFileSync(outputPath, JSON.stringify(locationData, null, 2));
     console.log(`Videos saved to ${outputPath}`);
   } catch (error) {
     console.error('Error in main:', error);

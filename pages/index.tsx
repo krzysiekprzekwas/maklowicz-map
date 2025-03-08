@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
-import type { Location, Episode } from '../types/Location';
+import type { Location, LocationData } from '../types/Location';
 import locationData from '../data/locations.json';
 
 // Import Map component dynamically to avoid SSR issues
@@ -17,7 +17,13 @@ const Map = dynamic(() => import('../components/Map'), {
 interface PlaylistData {
   id: string;
   title: string;
-  episodes: Set<string>;
+  episodes: {
+    videoId: string;
+    title: string;
+    date: string;
+    show: string;
+    locations: Location[];
+  }[];
   locations: Location[];
 }
 
@@ -32,38 +38,50 @@ export default function Home() {
   const playlists = useMemo(() => {
     const playlistMap: Record<string, PlaylistData> = {};
 
-    locationData.locations.forEach((location) => {
-      const { playlistId, playlistTitle, youtubeTitle } = location.episode;
+    locationData.videos.forEach((video) => {
+      const { playlistId, playlistTitle, videoId, title, date, show, locations } = video;
       
       if (!playlistMap[playlistId]) {
         playlistMap[playlistId] = {
           id: playlistId,
           title: playlistTitle,
-          episodes: new Set(),
+          episodes: [],
           locations: [],
         };
       }
 
-      playlistMap[playlistId].episodes.add(youtubeTitle);
-      playlistMap[playlistId].locations.push(location);
+      playlistMap[playlistId].episodes.push({
+        videoId,
+        title,
+        date,
+        show,
+        locations,
+      });
+
+      playlistMap[playlistId].locations.push(...locations);
     });
 
     return Object.values(playlistMap).sort((a, b) => a.title.localeCompare(b.title));
-  }, [locationData.locations]);
+  }, [locationData.videos]);
 
   // Filter locations based on selection
   const filteredLocations = useMemo(() => {
     if (!selectedPlaylist && !selectedEpisode) {
-      return locationData.locations;
+      return locationData.videos.flatMap(video => video.locations);
     }
 
-    return locationData.locations.filter((location) => {
-      if (selectedEpisode) {
-        return location.episode.youtubeTitle === selectedEpisode;
-      }
-      return location.episode.playlistId === selectedPlaylist;
-    });
-  }, [locationData.locations, selectedPlaylist, selectedEpisode]);
+    const selectedVideo = locationData.videos.find(video => 
+      selectedEpisode ? video.videoId === selectedEpisode : video.playlistId === selectedPlaylist
+    );
+
+    if (selectedVideo) {
+      return selectedVideo.locations;
+    }
+
+    return locationData.videos
+      .filter(video => video.playlistId === selectedPlaylist)
+      .flatMap(video => video.locations);
+  }, [locationData.videos, selectedPlaylist, selectedEpisode]);
 
   const handlePlaylistClick = (playlistId: string) => {
     setExpandedPlaylists(prev => {
@@ -79,8 +97,8 @@ export default function Home() {
     setSelectedEpisode(null);
   };
 
-  const handleEpisodeClick = (episodeTitle: string) => {
-    setSelectedEpisode(episodeTitle);
+  const handleEpisodeClick = (videoId: string) => {
+    setSelectedEpisode(videoId);
   };
 
   const handleLocationSelect = (location: Location | null) => {
@@ -90,6 +108,11 @@ export default function Home() {
       setSelectedLocation(location);
     }
   };
+
+  const totalLocations = useMemo(() => 
+    locationData.videos.reduce((acc, video) => acc + video.locations.length, 0),
+    [locationData.videos]
+  );
 
   return (
     <main className="min-h-screen flex flex-col bg-secondary">
@@ -156,7 +179,7 @@ export default function Home() {
                       : 'hover:bg-secondary text-primary-hover'
                   }`}
                 >
-                  🌍 Wszystkie lokacje ({locationData.locations.length})
+                  🌍 Wszystkie lokacje ({totalLocations})
                 </button>
 
                 {/* Playlists Section */}
@@ -197,19 +220,19 @@ export default function Home() {
                                   {playlist.locations.length} lokacji
                                 </span>
                                 <span className="text-sm text-gray-500">
-                                  {Array.from(playlist.episodes).length} odcinków
+                                  {playlist.episodes.length} odcinków
                                 </span>
                               </div>
                             )}
-                            {Array.from(playlist.episodes).map((episodeTitle) => (
+                            {playlist.episodes.map((episode) => (
                               <button
-                                key={episodeTitle}
-                                onClick={() => handleEpisodeClick(episodeTitle)}
+                                key={episode.videoId}
+                                onClick={() => handleEpisodeClick(episode.videoId)}
                                 className={`block w-full text-left text-sm ${
-                                  selectedEpisode === episodeTitle ? 'text-blue-600' : 'text-gray-600'
+                                  selectedEpisode === episode.videoId ? 'text-blue-600' : 'text-gray-600'
                                 } hover:text-blue-600`}
                               >
-                                {episodeTitle}
+                                {episode.title}
                               </button>
                             ))}
                           </div>
@@ -249,44 +272,50 @@ export default function Home() {
           style={{ zIndex: 2 }}
         >
           {selectedLocation && (
-            <div className="h-full p-6 overflow-y-auto relative">
-              <div className="flex justify-between items-start mb-6">
-                <h2 className="text-xl font-bold text-primary pr-8">{selectedLocation.name}</h2>
-                <button 
-                  onClick={() => handleLocationSelect(null)}
-                  className="text-primary-hover hover:text-primary text-2xl leading-none absolute top-4 right-4"
-                >
-                  ×
-                </button>
-              </div>
-              <p className="text-primary-hover mb-6">{selectedLocation.description}</p>
-              <div className="text-sm text-primary-hover space-y-3">
-                <p>📍 {selectedLocation.address}</p>
-                <p>🌍 {selectedLocation.country}</p>
-                <p>🎥 {selectedLocation.episode.show}</p>
-                <p>📅 {selectedLocation.episode.title} ({selectedLocation.episode.date})</p>
-                <div className="mt-6 space-y-4">
-                  {selectedLocation.websiteUrl && (
-                    <a 
-                      href={selectedLocation.websiteUrl} 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-primary hover:text-primary-hover block transition-colors"
-                    >
-                      🍽️ Odwiedź stronę restauracji →
-                    </a>
-                  )}
-                  {selectedLocation.episode.youtubeUrl && (
-                    <a 
-                      href={selectedLocation.episode.youtubeUrl} 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-primary hover:text-primary-hover block transition-colors"
-                    >
-                      📺 {selectedLocation.episode.youtubeTitle} (YT)
-                    </a>
-                  )}
+            <div className="p-6">
+              <h2 className="text-2xl font-bold mb-4">{selectedLocation.name}</h2>
+              <p className="text-gray-600 mb-4">{selectedLocation.description}</p>
+              
+              <div className="space-y-4">
+                <div>
+                  <h3 className="font-semibold mb-1">Adres</h3>
+                  <p>{selectedLocation.address}</p>
                 </div>
+                
+                <div>
+                  <h3 className="font-semibold mb-1">Kraj</h3>
+                  <p>{selectedLocation.country}</p>
+                </div>
+
+                {selectedLocation.cuisine && (
+                  <div>
+                    <h3 className="font-semibold mb-1">Kuchnia</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {selectedLocation.cuisine.map((type) => (
+                        <span
+                          key={type}
+                          className="px-2 py-1 bg-secondary text-primary rounded-full text-sm"
+                        >
+                          {type}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {selectedLocation.websiteUrl && (
+                  <div>
+                    <h3 className="font-semibold mb-1">Strona internetowa</h3>
+                    <a
+                      href={selectedLocation.websiteUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:text-blue-800"
+                    >
+                      {selectedLocation.websiteUrl}
+                    </a>
+                  </div>
+                )}
               </div>
             </div>
           )}

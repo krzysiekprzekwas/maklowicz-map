@@ -8,6 +8,8 @@ export interface Episode {
     playlistTitle: string;
 }
 
+export type LocationType = 'restaurant' | 'attraction' | 'other';
+
 export interface Location {
     id: string;
     name: string;
@@ -16,9 +18,22 @@ export interface Location {
     longitude: number;
     address: string;
     country: string;
-    episode: Episode;
     cuisine: string[];
-    isStillOperating?: boolean;
-    imageUrl?: string;
+    isStillOperating: boolean;
     websiteUrl?: string;
+    type: LocationType;
+}
+
+export interface Video {
+    videoId: string;
+    title: string;
+    playlistId: string;
+    playlistTitle: string;
+    date: string;
+    show: string;
+    locations: Location[];
+}
+
+export interface LocationData {
+    videos: Video[];
 } 
