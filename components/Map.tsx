@@ -62,7 +62,7 @@ const Map = ({ locations, selectedLocation, onLocationSelect }: MapProps) => {
             >
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                    url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"
                 />
                 <ChangeView locations={locations} />
                 {locations.map((location) => {
@@ -84,13 +84,56 @@ const Map = ({ locations, selectedLocation, onLocationSelect }: MapProps) => {
             <style jsx global>{`
                 .leaflet-container {
                     background-color: #f8f5f0 !important;
+                    font-family: inherit;
                 }
                 .leaflet-tile {
-                    filter: sepia(20%) hue-rotate(10deg) brightness(105%);
+                    filter: sepia(10%) hue-rotate(10deg) brightness(103%) contrast(95%) saturate(85%);
                 }
                 .custom-marker {
                     background: none;
                     border: none;
+                }
+                /* Control styling */
+                .leaflet-control-zoom {
+                    border: none !important;
+                    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+                }
+                .leaflet-control-zoom a {
+                    background-color: #f8f5f0 !important;
+                    color: #2c1810 !important;
+                    border: 1px solid #e6dfd7 !important;
+                    width: 32px !important;
+                    height: 32px !important;
+                    line-height: 30px !important;
+                    font-size: 16px !important;
+                    transition: all 0.2s ease;
+                }
+                .leaflet-control-zoom a:hover {
+                    background-color: #f4ede4 !important;
+                    color: #6b4c40 !important;
+                }
+                .leaflet-control-zoom-in {
+                    border-top-left-radius: 6px !important;
+                    border-top-right-radius: 6px !important;
+                }
+                .leaflet-control-zoom-out {
+                    border-bottom-left-radius: 6px !important;
+                    border-bottom-right-radius: 6px !important;
+                }
+                /* Attribution styling */
+                .leaflet-control-attribution {
+                    background-color: rgba(248, 245, 240, 0.9) !important;
+                    color: #6b4c40 !important;
+                    font-size: 11px !important;
+                    padding: 3px 8px !important;
+                    border-radius: 4px !important;
+                }
+                .leaflet-control-attribution a {
+                    color: #2c1810 !important;
+                }
+                /* Remove tile borders */
+                .leaflet-tile-container img {
+                    border: none !important;
                 }
             `}</style>
         </div>
