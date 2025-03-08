@@ -1,0 +1,155 @@
+{
+    "locations": [
+        {
+            "id": "1",
+            "name": "Restauracja Hawełka",
+            "description": "One of the oldest restaurants in Kraków, serving traditional Polish cuisine since 1876.",
+            "latitude": 50.0614300,
+            "longitude": 19.9365800,
+            "address": "Rynek Główny 34, 31-010 Kraków",
+            "country": "Poland",
+            "episode": {
+                "title": "Galicja po galicyjsku",
+                "date": "2004-09-15",
+                "show": "Podróże kulinarne Roberta Makłowicza",
+                "youtubeUrl": "https://www.youtube.com/watch?v=8Bcj1h0Qteg",
+                "youtubeTitle": "Kraków - Tradycyjna kuchnia galicyjska"
+            },
+            "cuisine": ["Polish", "Galician"],
+            "isStillOperating": true,
+            "websiteUrl": "https://hawelka.pl"
+        },
+        {
+            "id": "2",
+            "name": "Konoba Batelina",
+            "description": "Famous fish restaurant in Istria, known for its fresh seafood and creative preparations.",
+            "latitude": 44.8853,
+            "longitude": 13.8179,
+            "address": "Čimulje 25, 52100, Banjole",
+            "country": "Croatia",
+            "episode": {
+                "title": "Istria - Croatian Tuscany",
+                "date": "2011-06-20",
+                "show": "Makłowicz w podróży",
+                "youtubeUrl": "https://www.youtube.com/watch?v=yYO7PvN8nxY",
+                "youtubeTitle": "Chorwacja - Smaki Istrii"
+            },
+            "cuisine": ["Croatian", "Seafood"],
+            "isStillOperating": true,
+            "websiteUrl": "http://www.batelina.com"
+        },
+        {
+            "id": "3",
+            "name": "Zur Letzten Instanz",
+            "description": "Berlin's oldest restaurant, dating back to 1621, serving traditional German cuisine.",
+            "latitude": 52.5169,
+            "longitude": 13.4158,
+            "address": "Waisenstraße 14-16, 10179 Berlin",
+            "country": "Germany",
+            "episode": {
+                "title": "Berlin wschodni",
+                "date": "2009-03-15",
+                "show": "Makłowicz w podróży",
+                "youtubeUrl": "https://www.youtube.com/watch?v=K8nYJKUBWGo",
+                "youtubeTitle": "Berlin - Wschodni smak historii"
+            },
+            "cuisine": ["German", "Berlin"],
+            "isStillOperating": true,
+            "websiteUrl": "https://www.zurletzteninstanz.de"
+        },
+        {
+            "id": "4",
+            "name": "Figlmüller",
+            "description": "Famous Viennese restaurant known for their enormous schnitzels since 1905.",
+            "latitude": 48.2084,
+            "longitude": 16.3731,
+            "address": "Wollzeile 5, 1010 Wien",
+            "country": "Austria",
+            "episode": {
+                "title": "Wiedeń miasto cesarzy",
+                "date": "2008-11-22",
+                "show": "Makłowicz w podróży",
+                "youtubeUrl": "https://www.youtube.com/watch?v=3fR7EF4wfts",
+                "youtubeTitle": "Wiedeń - Cesarskie przysmaki"
+            },
+            "cuisine": ["Austrian", "Viennese"],
+            "isStillOperating": true,
+            "websiteUrl": "https://www.figlmueller.at"
+        },
+        {
+            "id": "5",
+            "name": "Gundel",
+            "description": "Iconic Hungarian restaurant serving refined traditional cuisine since 1894.",
+            "latitude": 47.5182,
+            "longitude": 19.0827,
+            "address": "Gundel Károly út 4, 1146 Budapest",
+            "country": "Hungary",
+            "episode": {
+                "title": "Budapeszt od kuchni",
+                "date": "2010-04-10",
+                "show": "Makłowicz w podróży",
+                "youtubeUrl": "https://www.youtube.com/watch?v=XQR8P8eN1T4",
+                "youtubeTitle": "Budapeszt - Węgierska uczta"
+            },
+            "cuisine": ["Hungarian", "Fine Dining"],
+            "isStillOperating": true,
+            "websiteUrl": "https://gundel.hu"
+        },
+        {
+            "id": "6",
+            "name": "U Modré kachničky",
+            "description": "Traditional Czech restaurant in Prague's Old Town, known for duck dishes.",
+            "latitude": 50.0831,
+            "longitude": 14.4147,
+            "address": "Nebovidská 6, 118 00 Malá Strana, Prague",
+            "country": "Czech Republic",
+            "episode": {
+                "title": "Praga dla smakoszy",
+                "date": "2009-09-25",
+                "show": "Makłowicz w podróży",
+                "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                "youtubeTitle": "Praga - Czeskie specjały"
+            },
+            "cuisine": ["Czech", "Traditional"],
+            "isStillOperating": true,
+            "websiteUrl": "https://www.umodrekachnicky.cz"
+        },
+        {
+            "id": "7",
+            "name": "Schweizerhaus",
+            "description": "Famous Viennese beer garden known for its crispy pork knuckle and beer.",
+            "latitude": 48.2169,
+            "longitude": 16.3975,
+            "address": "Prater 116, 1020 Wien",
+            "country": "Austria",
+            "episode": {
+                "title": "Wiedeń - w poszukiwaniu smaku cesarstwa",
+                "date": "2008-11-23",
+                "show": "Makłowicz w podróży",
+                "youtubeUrl": "https://www.youtube.com/watch?v=3fR7EF4wfts",
+                "youtubeTitle": "Wiedeń - W poszukiwaniu smaku cesarstwa"
+            },
+            "cuisine": ["Austrian", "Beer Garden"],
+            "isStillOperating": true,
+            "websiteUrl": "https://www.schweizerhaus.at"
+        },
+        {
+            "id": "8",
+            "name": "Taverna Otto",
+            "description": "Traditional Dalmatian tavern known for fresh seafood and local wines.",
+            "latitude": 43.5081,
+            "longitude": 16.4401,
+            "address": "Hrvojeva 6, 21000 Split",
+            "country": "Croatia",
+            "episode": {
+                "title": "Split - miasto cesarza",
+                "date": "2012-07-15",
+                "show": "Makłowicz w podróży",
+                "youtubeUrl": "https://www.youtube.com/watch?v=yYO7PvN8nxY",
+                "youtubeTitle": "Split - Dalmackie przysmaki"
+            },
+            "cuisine": ["Croatian", "Dalmatian", "Seafood"],
+            "isStillOperating": true
+        }
+    ]
+} 
