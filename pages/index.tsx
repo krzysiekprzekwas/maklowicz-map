@@ -37,7 +37,12 @@ export default function Home() {
   }, [selectedEpisode]);
 
   const handleLocationSelect = (location: Location | null) => {
-    setSelectedLocation(location);
+    // If clicking the same location, close the drawer
+    if (selectedLocation?.id === location?.id) {
+      setSelectedLocation(null);
+    } else {
+      setSelectedLocation(location);
+    }
   };
 
   return (
