@@ -14,99 +14,113 @@ const Map = dynamic(() => import('../components/Map'), {
   )
 });
 
-interface PlaylistData {
-  id: string;
-  title: string;
-  episodes: {
+interface CountryData {
+  name: string;
+  locations: Location[];
+  videos: {
     videoId: string;
     title: string;
     date: string;
     show: string;
     locations: Location[];
   }[];
-  locations: Location[];
 }
 
 export default function Home() {
   const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
-  const [selectedPlaylist, setSelectedPlaylist] = useState<string | null>(null);
-  const [selectedEpisode, setSelectedEpisode] = useState<string | null>(null);
+  const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
+  const [selectedVideo, setSelectedVideo] = useState<string | null>(null);
   const [isFiltersOpen, setIsFiltersOpen] = useState(true);
-  const [expandedPlaylists, setExpandedPlaylists] = useState<Set<string>>(new Set());
+  const [expandedCountries, setExpandedCountries] = useState<Set<string>>(new Set());
+  const [expandedVideos, setExpandedVideos] = useState<Set<string>>(new Set());
 
-  // Organize data by playlists and episodes
-  const playlists = useMemo(() => {
-    const playlistMap: Record<string, PlaylistData> = {};
+  // Organize data by countries and videos
+  const countries = useMemo(() => {
+    const countryMap: Record<string, CountryData> = {};
 
     locationData.videos.forEach((video) => {
-      const { playlistId, playlistTitle, videoId, title, date, show, locations } = video;
-      
-      if (!playlistMap[playlistId]) {
-        playlistMap[playlistId] = {
-          id: playlistId,
-          title: playlistTitle,
-          episodes: [],
-          locations: [],
-        };
-      }
+      video.locations.forEach((location) => {
+        if (!countryMap[location.country]) {
+          countryMap[location.country] = {
+            name: location.country,
+            locations: [],
+            videos: [],
+          };
+        }
 
-      playlistMap[playlistId].episodes.push({
-        videoId,
-        title,
-        date,
-        show,
-        locations,
+        // Add location if not already added
+        if (!countryMap[location.country].locations.some(loc => loc.id === location.id)) {
+          countryMap[location.country].locations.push(location);
+        }
+
+        // Add video if not already added
+        if (!countryMap[location.country].videos.some(v => v.videoId === video.videoId)) {
+          countryMap[location.country].videos.push({
+            videoId: video.videoId,
+            title: video.title,
+            date: video.date,
+            show: video.show,
+            locations: video.locations.filter(loc => loc.country === location.country),
+          });
+        }
       });
-
-      playlistMap[playlistId].locations.push(...locations);
     });
 
-    return Object.values(playlistMap).sort((a, b) => a.title.localeCompare(b.title));
+    return Object.values(countryMap).sort((a, b) => a.name.localeCompare(b.name));
   }, [locationData.videos]);
 
   // Filter locations based on selection
   const filteredLocations = useMemo(() => {
-    if (!selectedPlaylist && !selectedEpisode) {
-      return locationData.videos.flatMap(video => video.locations);
-    }
-
-    const selectedVideo = locationData.videos.find(video => 
-      selectedEpisode ? video.videoId === selectedEpisode : video.playlistId === selectedPlaylist
-    );
-
     if (selectedVideo) {
-      return selectedVideo.locations;
+      const video = locationData.videos.find(v => v.videoId === selectedVideo);
+      return video ? video.locations : [];
     }
 
-    return locationData.videos
-      .filter(video => video.playlistId === selectedPlaylist)
-      .flatMap(video => video.locations);
-  }, [locationData.videos, selectedPlaylist, selectedEpisode]);
+    if (selectedCountry) {
+      return countries.find(c => c.name === selectedCountry)?.locations || [];
+    }
 
-  const handlePlaylistClick = (playlistId: string) => {
-    setExpandedPlaylists(prev => {
+    return locationData.videos.flatMap(video => video.locations);
+  }, [locationData.videos, selectedCountry, selectedVideo, countries]);
+
+  const handleCountryClick = (countryName: string) => {
+    // Toggle expansion state
+    setExpandedCountries(prev => {
       const newSet = new Set(prev);
-      if (newSet.has(playlistId)) {
-        newSet.delete(playlistId);
+      if (newSet.has(countryName)) {
+        newSet.delete(countryName);
       } else {
-        newSet.add(playlistId);
+        newSet.add(countryName);
       }
       return newSet;
     });
-    setSelectedPlaylist(playlistId);
-    setSelectedEpisode(null);
+
+    // Update selection and clear video selection
+    setSelectedCountry(countryName === selectedCountry ? null : countryName);
+    setSelectedVideo(null);
   };
 
-  const handleEpisodeClick = (videoId: string) => {
-    setSelectedEpisode(videoId);
+  const handleVideoClick = (videoId: string, event: React.MouseEvent) => {
+    // Prevent triggering parent's click handler
+    event.stopPropagation();
+    
+    // Toggle expansion state
+    setExpandedVideos(prev => {
+      const newSet = new Set(prev);
+      if (newSet.has(videoId)) {
+        newSet.delete(videoId);
+      } else {
+        newSet.add(videoId);
+      }
+      return newSet;
+    });
+    setSelectedVideo(videoId === selectedVideo ? null : videoId);
   };
 
-  const handleLocationSelect = (location: Location | null) => {
-    if (selectedLocation?.id === location?.id) {
-      setSelectedLocation(null);
-    } else {
-      setSelectedLocation(location);
-    }
+  const handleLocationClick = (location: Location, event: React.MouseEvent) => {
+    // Prevent triggering parent's click handlers
+    event.stopPropagation();
+    setSelectedLocation(location);
   };
 
   const totalLocations = useMemo(() => 
@@ -157,24 +171,24 @@ export default function Home() {
       {/* Map and Filters Section */}
       <div className="flex flex-1 relative">
         {/* Filters */}
-        <div 
-          className={`absolute top-0 bottom-0 left-0 transition-transform duration-300 ease-in-out transform ${
+        <aside 
+          className={`fixed top-[116px] bottom-0 left-0 transition-transform duration-300 ease-in-out transform ${
             isFiltersOpen ? 'translate-x-0' : '-translate-x-80'
           }`}
-          style={{ zIndex: 2 }}
+          style={{ zIndex: 9999 }}
         >
           <div className="relative h-full">
             {/* Filters Content */}
-            <div className="w-80 h-full bg-white shadow-lg">
+            <div className="w-80 h-full bg-white shadow-xl overflow-y-auto">
               <div className="p-4">
                 {/* All Locations Button */}
                 <button
                   onClick={() => {
-                    setSelectedPlaylist(null);
-                    setSelectedEpisode(null);
+                    setSelectedCountry(null);
+                    setSelectedVideo(null);
                   }}
                   className={`w-full text-left px-3 py-2 rounded-lg transition-colors mb-4 ${
-                    !selectedPlaylist && !selectedEpisode
+                    !selectedCountry && !selectedVideo
                       ? 'bg-secondary-darker text-primary' 
                       : 'hover:bg-secondary text-primary-hover'
                   }`}
@@ -182,58 +196,85 @@ export default function Home() {
                   🌍 Wszystkie lokacje ({totalLocations})
                 </button>
 
-                {/* Playlists Section */}
+                {/* Countries Section */}
                 <div className="border border-secondary-border rounded-lg overflow-hidden">
                   <div className="w-full flex items-center justify-between p-3 bg-secondary">
-                    <span className="font-bold text-primary">📺 Playlisty</span>
+                    <span className="font-bold text-primary">🗺️ Kraje</span>
                   </div>
                   
                   <div className="p-2 space-y-1 max-h-[calc(100vh-300px)] overflow-y-auto">
-                    {playlists.map((playlist) => (
-                      <div key={playlist.id} className="space-y-1">
-                        {/* Playlist Button */}
+                    {countries.map((country) => (
+                      <div key={country.name} className="space-y-1">
+                        {/* Country Button */}
                         <button
-                          onClick={() => handlePlaylistClick(playlist.id)}
+                          onClick={() => handleCountryClick(country.name)}
                           className={`w-full text-left px-3 py-2 rounded-lg transition-colors flex items-center justify-between ${
-                            selectedPlaylist === playlist.id && !selectedEpisode
+                            selectedCountry === country.name
                               ? 'bg-secondary-darker text-primary' 
                               : 'hover:bg-secondary text-primary-hover'
                           }`}
                         >
                           <span className="flex-1 truncate pr-2">
-                            {playlist.title}
+                            {country.name}
                           </span>
                           <span className="text-xs opacity-70">
-                            ({playlist.locations.length})
+                            ({country.locations.length})
                           </span>
                           <span className="ml-2">
-                            {expandedPlaylists.has(playlist.id) ? '▼' : '▶'}
+                            {expandedCountries.has(country.name) ? '▼' : '▶'}
                           </span>
                         </button>
 
-                        {/* Episodes */}
-                        {expandedPlaylists.has(playlist.id) && (
-                          <div className="ml-4 space-y-2">
-                            {playlist.locations.length > 0 && (
-                              <div className="flex items-center justify-between">
-                                <span className="text-sm text-gray-500">
-                                  {playlist.locations.length} lokacji
-                                </span>
-                                <span className="text-sm text-gray-500">
-                                  {playlist.episodes.length} odcinków
-                                </span>
+                        {/* Videos Level */}
+                        {expandedCountries.has(country.name) && (
+                          <div className="ml-4 space-y-1">
+                            {country.videos.map((video) => (
+                              <div key={video.videoId} className="space-y-1">
+                                {/* Video Button */}
+                                <button
+                                  onClick={(e) => handleVideoClick(video.videoId, e)}
+                                  className={`w-full text-left px-3 py-2 rounded-lg transition-colors flex items-center justify-between ${
+                                    selectedVideo === video.videoId
+                                      ? 'bg-secondary-darker text-primary' 
+                                      : 'hover:bg-secondary text-primary-hover'
+                                  }`}
+                                >
+                                  <span className="flex-1 truncate pr-2 text-sm">
+                                    {video.title}
+                                  </span>
+                                  <span className="text-xs opacity-70">
+                                    ({video.locations.length})
+                                  </span>
+                                  <span className="ml-2">
+                                    {expandedVideos.has(video.videoId) ? '▼' : '▶'}
+                                  </span>
+                                </button>
+
+                                {/* Locations Level */}
+                                {expandedVideos.has(video.videoId) && (
+                                  <div className="ml-4 space-y-1">
+                                    {video.locations.map((location) => (
+                                      <button
+                                        key={location.id}
+                                        onClick={(e) => handleLocationClick(location, e)}
+                                        className={`w-full text-left px-3 py-1.5 rounded-lg transition-colors flex items-center ${
+                                          selectedLocation?.id === location.id
+                                            ? 'bg-secondary-darker text-primary' 
+                                            : 'hover:bg-secondary text-primary-hover'
+                                        }`}
+                                      >
+                                        <span className="flex-1 truncate pr-2 text-sm">
+                                          {location.name}
+                                        </span>
+                                        <span className="text-xs opacity-70">
+                                          {location.type === 'restaurant' ? '🍴' : 
+                                           location.type === 'attraction' ? '🏛️' : '📍'}
+                                        </span>
+                                      </button>
+                                    ))}
+                                  </div>
+                                )}
                               </div>
-                            )}
-                            {playlist.episodes.map((episode) => (
-                              <button
-                                key={episode.videoId}
-                                onClick={() => handleEpisodeClick(episode.videoId)}
-                                className={`block w-full text-left text-sm ${
-                                  selectedEpisode === episode.videoId ? 'text-blue-600' : 'text-gray-600'
-                                } hover:text-blue-600`}
-                              >
-                                {episode.title}
-                              </button>
                             ))}
                           </div>
                         )}
@@ -248,28 +289,27 @@ export default function Home() {
             <button
               onClick={() => setIsFiltersOpen(!isFiltersOpen)}
               className="absolute top-4 -right-8 bg-white shadow-lg rounded-r-lg px-2 py-4 text-primary hover:text-primary-hover transition-colors"
-              aria-label={isFiltersOpen ? 'Zwiń filtry' : 'Rozwiń filtry'}
             >
               {isFiltersOpen ? '◀' : '▶'}
             </button>
           </div>
-        </div>
+        </aside>
 
-        {/* Map Container */}
-        <div className="flex-1 relative min-h-[calc(100vh-116px)]" style={{ zIndex: 1 }}>
+        {/* Map */}
+        <div className="flex-1 min-h-[calc(100vh-116px)]">
           <Map 
             locations={filteredLocations}
             selectedLocation={selectedLocation}
-            onLocationSelect={handleLocationSelect}
+            onLocationSelect={handleLocationClick}
           />
         </div>
 
         {/* Location Details Drawer */}
-        <div 
-          className={`fixed top-[116px] right-0 h-[calc(100vh-116px)] w-96 bg-white shadow-lg transform transition-transform duration-300 ease-in-out ${
+        <aside 
+          className={`fixed top-[116px] right-0 h-[calc(100vh-116px)] w-96 bg-white shadow-xl transform transition-transform duration-300 ease-in-out ${
             selectedLocation ? 'translate-x-0' : 'translate-x-full'
           }`}
-          style={{ zIndex: 2 }}
+          style={{ zIndex: 9999 }}
         >
           {selectedLocation && (
             <div className="p-6">
@@ -287,7 +327,7 @@ export default function Home() {
                   <p>{selectedLocation.country}</p>
                 </div>
 
-                {selectedLocation.cuisine && (
+                {selectedLocation.cuisine && selectedLocation.cuisine.length > 0 && (
                   <div>
                     <h3 className="font-semibold mb-1">Kuchnia</h3>
                     <div className="flex flex-wrap gap-2">
@@ -316,10 +356,20 @@ export default function Home() {
                     </a>
                   </div>
                 )}
+
+                <div>
+                  <h3 className="font-semibold mb-1">Typ miejsca</h3>
+                  <p className="capitalize">{selectedLocation.type}</p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold mb-1">Status</h3>
+                  <p>{selectedLocation.isStillOperating ? 'Działa' : 'Zamknięte'}</p>
+                </div>
               </div>
             </div>
           )}
-        </div>
+        </aside>
       </div>
     </main>
   );
