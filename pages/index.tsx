@@ -17,7 +17,7 @@ const Map = dynamic(() => import('../components/Map'), {
 export default function Home() {
   const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
   const [selectedEpisode, setSelectedEpisode] = useState<string | null>(null);
-  const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const [isFiltersOpen, setIsFiltersOpen] = useState(true);
 
   // Get unique episodes and sort them by date
   const episodes = useMemo(() => {
@@ -86,44 +86,63 @@ export default function Home() {
       </header>
 
       {/* Map and Filters Section */}
-      <div className="flex flex-1">
+      <div className="flex flex-1 relative">
         {/* Filters */}
-        <div className="w-80 bg-white shadow-lg">
-          <div className="p-4">
-            {/* All Locations Button */}
-            <button
-              onClick={() => setSelectedEpisode(null)}
-              className={`w-full text-left px-3 py-2 rounded-lg transition-colors mb-4 ${
-                !selectedEpisode 
-                  ? 'bg-secondary-darker text-primary' 
-                  : 'hover:bg-secondary'
-              }`}
-            >
-              🌍 Wszystkie lokacje ({locationData.locations.length})
-            </button>
+        <div 
+          className={`absolute top-0 bottom-0 left-0 transition-transform duration-300 ease-in-out transform ${
+            isFiltersOpen ? 'translate-x-0' : '-translate-x-80'
+          }`}
+          style={{ zIndex: 2 }}
+        >
+          <div className="relative h-full">
+            {/* Filters Content */}
+            <div className="w-80 h-full bg-white shadow-lg">
+              <div className="p-4">
+                {/* All Locations Button */}
+                <button
+                  onClick={() => setSelectedEpisode(null)}
+                  className={`w-full text-left px-3 py-2 rounded-lg transition-colors mb-4 ${
+                    !selectedEpisode 
+                      ? 'bg-secondary-darker text-primary' 
+                      : 'hover:bg-secondary'
+                  }`}
+                >
+                  🌍 Wszystkie lokacje ({locationData.locations.length})
+                </button>
 
-            {/* Episodes Section */}
-            <div className="border border-secondary-border rounded-lg overflow-hidden">
-              <div className="w-full flex items-center justify-between p-3 bg-secondary">
-                <span className="font-bold text-primary">📺 Odcinki</span>
-              </div>
-              
-              <div className="p-2 space-y-1 max-h-[calc(100vh-300px)] overflow-y-auto">
-                {episodes.map((episode) => (
-                  <button
-                    key={episode}
-                    onClick={() => setSelectedEpisode(episode)}
-                    className={`w-full text-left px-3 py-2 rounded-lg transition-colors ${
-                      selectedEpisode === episode 
-                        ? 'bg-secondary-darker text-primary' 
-                        : 'hover:bg-secondary text-primary-hover'
-                    }`}
-                  >
-                    {episode}
-                  </button>
-                ))}
+                {/* Episodes Section */}
+                <div className="border border-secondary-border rounded-lg overflow-hidden">
+                  <div className="w-full flex items-center justify-between p-3 bg-secondary">
+                    <span className="font-bold text-primary">📺 Odcinki</span>
+                  </div>
+                  
+                  <div className="p-2 space-y-1 max-h-[calc(100vh-300px)] overflow-y-auto">
+                    {episodes.map((episode) => (
+                      <button
+                        key={episode}
+                        onClick={() => setSelectedEpisode(episode)}
+                        className={`w-full text-left px-3 py-2 rounded-lg transition-colors ${
+                          selectedEpisode === episode 
+                            ? 'bg-secondary-darker text-primary' 
+                            : 'hover:bg-secondary text-primary-hover'
+                        }`}
+                      >
+                        {episode}
+                      </button>
+                    ))}
+                  </div>
+                </div>
               </div>
             </div>
+
+            {/* Toggle Ribbon */}
+            <button
+              onClick={() => setIsFiltersOpen(!isFiltersOpen)}
+              className="absolute top-4 -right-8 bg-white shadow-lg rounded-r-lg px-2 py-4 text-primary hover:text-primary-hover transition-colors"
+              aria-label={isFiltersOpen ? 'Zwiń filtry' : 'Rozwiń filtry'}
+            >
+              {isFiltersOpen ? '◀' : '▶'}
+            </button>
           </div>
         </div>
 
