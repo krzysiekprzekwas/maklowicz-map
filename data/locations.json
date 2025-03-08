@@ -48,7 +48,7 @@
         {
           "id": "cafe-san-alberto-cartagena",
           "name": "Café San Alberto Cartagena",
-          "description": "Kawiarnia z podobno jedną z najlepszych kaw w Kolumbii.",
+          "description": "Unikalny lokal serwujący kawę w niestandardowy XIX-wieczny sposób",
           "latitude": 10.424851892925137, 
           "longitude": -75.55200231202488, 
           "address": "Plaza Santo Domingo, Cra. 3 #35-18, Kartagena",
@@ -57,6 +57,32 @@
           "isStillOperating": true,
           "websiteUrl": "",
           "type": "restaurant"
+        },
+        {
+          "id": "lena-y-carbon",
+          "name": "Leña y Carbon ",
+          "description": "Regianalna kuchnia specjalizująca się w daniach z grilla.",
+          "latitude": 10.400848010027762, 
+          "longitude": -75.55725924118696, 
+          "address": "Avenida san martin calle 6#6-40, Kartagena",
+          "country": "Kolumbia",
+          "cuisine": [],
+          "isStillOperating": true,
+          "websiteUrl": "",
+          "type": "restaurant"
+        },
+        {
+          "id": "la-serrezuela",
+          "name": "La Serrezuela",
+          "description": "XIX-wieczna budynek początkowo jako miejsce spotkań, potem arena do walk byków, teat, a obecniegaleria handlowa",
+          "latitude": 10.428583359676724, 
+          "longitude": -75.54582509799896, 
+          "address": "Cra. 11 #39-21, San Diego, Kartagena",
+          "country": "Kolumbia",
+          "cuisine": [],
+          "isStillOperating": true,
+          "websiteUrl": "",
+          "type": "attraction"
         }
       ]
     },
