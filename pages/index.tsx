@@ -181,7 +181,7 @@ export default function Home() {
                             {playlist.title}
                           </span>
                           <span className="text-xs opacity-70">
-                            ({playlist.episodes.reduce((acc, ep) => acc + ep.locations.length, 0)})
+                            ({playlist.locations.length})
                           </span>
                           <span className="ml-2">
                             {expandedPlaylists.has(playlist.id) ? '▼' : '▶'}
