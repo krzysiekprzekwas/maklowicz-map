@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
-import type { Location, LocationData } from '../types/Location';
+import type { Location, LocationData, LocationType } from '../types/Location';
 import locationData from '../data/locations.json';
 
 // Import Map component dynamically to avoid SSR issues
@@ -26,6 +26,15 @@ interface CountryData {
   }[];
 }
 
+// Add this helper function at the top level of the file, before the Home component
+function validateLocationType(type: string): LocationType {
+  if (type === 'restaurant' || type === 'attraction' || type === 'other') {
+    return type;
+  }
+  console.warn(`Invalid location type: ${type}, defaulting to 'other'`);
+  return 'other';
+}
+
 export default function Home() {
   const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
@@ -39,7 +48,13 @@ export default function Home() {
     const countryMap: Record<string, CountryData> = {};
 
     locationData.videos.forEach((video) => {
-      video.locations.forEach((location) => {
+      video.locations.forEach((loc) => {
+        // Validate and cast location type
+        const location: Location = {
+          ...loc,
+          type: validateLocationType(loc.type)
+        };
+
         if (!countryMap[location.country]) {
           countryMap[location.country] = {
             name: location.country,
@@ -49,7 +64,7 @@ export default function Home() {
         }
 
         // Add location if not already added
-        if (!countryMap[location.country].locations.some(loc => loc.id === location.id)) {
+        if (!countryMap[location.country].locations.some(l => l.id === location.id)) {
           countryMap[location.country].locations.push(location);
         }
 
@@ -60,7 +75,9 @@ export default function Home() {
             title: video.title,
             date: video.date,
             show: video.show,
-            locations: video.locations.filter(loc => loc.country === location.country),
+            locations: video.locations
+              .filter(l => l.country === location.country)
+              .map(l => ({ ...l, type: validateLocationType(l.type) })),
           });
         }
       });
@@ -73,14 +90,17 @@ export default function Home() {
   const filteredLocations = useMemo(() => {
     if (selectedVideo) {
       const video = locationData.videos.find(v => v.videoId === selectedVideo);
-      return video ? video.locations : [];
+      return video ? video.locations.map(l => ({ ...l, type: validateLocationType(l.type) })) : [];
     }
 
     if (selectedCountry) {
-      return countries.find(c => c.name === selectedCountry)?.locations || [];
+      const countryLocations = countries.find(c => c.name === selectedCountry)?.locations || [];
+      return countryLocations.map(l => ({ ...l, type: validateLocationType(l.type) }));
     }
 
-    return locationData.videos.flatMap(video => video.locations);
+    return locationData.videos.flatMap(video => 
+      video.locations.map(l => ({ ...l, type: validateLocationType(l.type) }))
+    );
   }, [locationData.videos, selectedCountry, selectedVideo, countries]);
 
   const handleCountryClick = (countryName: string) => {
@@ -117,9 +137,7 @@ export default function Home() {
     setSelectedVideo(videoId === selectedVideo ? null : videoId);
   };
 
-  const handleLocationClick = (location: Location, event: React.MouseEvent) => {
-    // Prevent triggering parent's click handlers
-    event.stopPropagation();
+  const handleLocationClick = (location: Location) => {
     setSelectedLocation(location);
   };
 
@@ -256,7 +274,7 @@ export default function Home() {
                                     {video.locations.map((location) => (
                                       <button
                                         key={location.id}
-                                        onClick={(e) => handleLocationClick(location, e)}
+                                        onClick={(e) => handleLocationClick(location)}
                                         className={`w-full text-left px-3 py-1.5 rounded-lg transition-colors flex items-center ${
                                           selectedLocation?.id === location.id
                                             ? 'bg-secondary-darker text-primary' 
