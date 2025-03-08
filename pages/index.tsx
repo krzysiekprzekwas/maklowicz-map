@@ -128,7 +128,7 @@ export default function Home() {
         </div>
 
         {/* Map Container */}
-        <div className="flex-1 relative min-h-[calc(100vh-116px)] z-[1]">
+        <div className="flex-1 relative min-h-[calc(100vh-116px)]" style={{ zIndex: 1 }}>
           <Map 
             locations={filteredLocations}
             selectedLocation={selectedLocation}
@@ -138,17 +138,18 @@ export default function Home() {
 
         {/* Location Details Drawer */}
         <div 
-          className={`fixed top-[116px] right-0 h-[calc(100vh-116px)] w-96 bg-white shadow-lg transform transition-transform duration-300 ease-in-out z-[2] ${
+          className={`fixed top-[116px] right-0 h-[calc(100vh-116px)] w-96 bg-white shadow-lg transform transition-transform duration-300 ease-in-out ${
             selectedLocation ? 'translate-x-0' : 'translate-x-full'
           }`}
+          style={{ zIndex: 2 }}
         >
           {selectedLocation && (
-            <div className="h-full p-6 overflow-y-auto">
+            <div className="h-full p-6 overflow-y-auto relative">
               <div className="flex justify-between items-start mb-6">
                 <h2 className="text-xl font-bold text-primary pr-8">{selectedLocation.name}</h2>
                 <button 
                   onClick={() => handleLocationSelect(null)}
-                  className="text-primary-hover hover:text-primary text-2xl leading-none"
+                  className="text-primary-hover hover:text-primary text-2xl leading-none absolute top-4 right-4"
                 >
                   ×
                 </button>
