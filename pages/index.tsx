@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
-import type { Location } from '../types/Location';
+import type { Location, Episode } from '../types/Location';
 import locationData from '../data/locations.json';
 
 // Import Map component dynamically to avoid SSR issues
@@ -14,30 +14,90 @@ const Map = dynamic(() => import('../components/Map'), {
   )
 });
 
+interface PlaylistData {
+  id: string;
+  title: string;
+  episodes: {
+    title: string;
+    youtubeTitle: string;
+    locations: Location[];
+  }[];
+}
+
 export default function Home() {
   const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
+  const [selectedPlaylist, setSelectedPlaylist] = useState<string | null>(null);
   const [selectedEpisode, setSelectedEpisode] = useState<string | null>(null);
   const [isFiltersOpen, setIsFiltersOpen] = useState(true);
+  const [expandedPlaylists, setExpandedPlaylists] = useState<Set<string>>(new Set());
 
-  // Get unique episodes and sort them by date
-  const episodes = useMemo(() => {
-    const uniqueEpisodes = Array.from(
-      new Set(locationData.locations.map(loc => loc.episode.youtubeTitle))
-    ).filter(Boolean) as string[];
-    
-    return uniqueEpisodes.sort((a, b) => a.localeCompare(b));
+  // Organize data by playlists and episodes
+  const playlists = useMemo(() => {
+    const playlistMap: Record<string, PlaylistData> = {};
+
+    locationData.locations.forEach((location) => {
+      const { playlistId, playlistTitle, youtubeTitle } = location.episode;
+      
+      if (!playlistMap[playlistId]) {
+        playlistMap[playlistId] = {
+          id: playlistId,
+          title: playlistTitle,
+          episodes: []
+        };
+      }
+
+      const playlist = playlistMap[playlistId];
+      let episode = playlist.episodes.find(ep => ep.youtubeTitle === youtubeTitle);
+      
+      if (!episode) {
+        episode = {
+          title: location.episode.title,
+          youtubeTitle: youtubeTitle || '',
+          locations: []
+        };
+        playlist.episodes.push(episode);
+      }
+      
+      episode.locations.push(location);
+    });
+
+    return Object.values(playlistMap).sort((a, b) => a.title.localeCompare(b.title));
   }, []);
 
-  // Filter locations based on selected episode
+  // Filter locations based on selection
   const filteredLocations = useMemo(() => {
-    if (!selectedEpisode) return locationData.locations;
-    return locationData.locations.filter(
-      loc => loc.episode.youtubeTitle === selectedEpisode
-    );
-  }, [selectedEpisode]);
+    if (selectedEpisode) {
+      return locationData.locations.filter(
+        loc => loc.episode.youtubeTitle === selectedEpisode
+      );
+    }
+    if (selectedPlaylist) {
+      return locationData.locations.filter(
+        loc => loc.episode.playlistId === selectedPlaylist
+      );
+    }
+    return locationData.locations;
+  }, [selectedPlaylist, selectedEpisode]);
+
+  const handlePlaylistClick = (playlistId: string) => {
+    setExpandedPlaylists(prev => {
+      const newSet = new Set(prev);
+      if (newSet.has(playlistId)) {
+        newSet.delete(playlistId);
+      } else {
+        newSet.add(playlistId);
+      }
+      return newSet;
+    });
+    setSelectedPlaylist(playlistId);
+    setSelectedEpisode(null);
+  };
+
+  const handleEpisodeClick = (episodeTitle: string) => {
+    setSelectedEpisode(episodeTitle);
+  };
 
   const handleLocationSelect = (location: Location | null) => {
-    // If clicking the same location, close the drawer
     if (selectedLocation?.id === location?.id) {
       setSelectedLocation(null);
     } else {
@@ -100,35 +160,74 @@ export default function Home() {
               <div className="p-4">
                 {/* All Locations Button */}
                 <button
-                  onClick={() => setSelectedEpisode(null)}
+                  onClick={() => {
+                    setSelectedPlaylist(null);
+                    setSelectedEpisode(null);
+                  }}
                   className={`w-full text-left px-3 py-2 rounded-lg transition-colors mb-4 ${
-                    !selectedEpisode 
+                    !selectedPlaylist && !selectedEpisode
                       ? 'bg-secondary-darker text-primary' 
-                      : 'hover:bg-secondary'
+                      : 'hover:bg-secondary text-primary-hover'
                   }`}
                 >
                   🌍 Wszystkie lokacje ({locationData.locations.length})
                 </button>
 
-                {/* Episodes Section */}
+                {/* Playlists Section */}
                 <div className="border border-secondary-border rounded-lg overflow-hidden">
                   <div className="w-full flex items-center justify-between p-3 bg-secondary">
-                    <span className="font-bold text-primary">📺 Odcinki</span>
+                    <span className="font-bold text-primary">📺 Playlisty</span>
                   </div>
                   
                   <div className="p-2 space-y-1 max-h-[calc(100vh-300px)] overflow-y-auto">
-                    {episodes.map((episode) => (
-                      <button
-                        key={episode}
-                        onClick={() => setSelectedEpisode(episode)}
-                        className={`w-full text-left px-3 py-2 rounded-lg transition-colors ${
-                          selectedEpisode === episode 
-                            ? 'bg-secondary-darker text-primary' 
-                            : 'hover:bg-secondary text-primary-hover'
-                        }`}
-                      >
-                        {episode}
-                      </button>
+                    {playlists.map((playlist) => (
+                      <div key={playlist.id} className="space-y-1">
+                        {/* Playlist Button */}
+                        <button
+                          onClick={() => handlePlaylistClick(playlist.id)}
+                          className={`w-full text-left px-3 py-2 rounded-lg transition-colors flex items-center justify-between ${
+                            selectedPlaylist === playlist.id && !selectedEpisode
+                              ? 'bg-secondary-darker text-primary' 
+                              : 'hover:bg-secondary text-primary-hover'
+                          }`}
+                        >
+                          <span className="flex-1 truncate pr-2">
+                            {playlist.title}
+                          </span>
+                          <span className="text-xs opacity-70">
+                            ({playlist.episodes.reduce((acc, ep) => acc + ep.locations.length, 0)})
+                          </span>
+                          <span className="ml-2">
+                            {expandedPlaylists.has(playlist.id) ? '▼' : '▶'}
+                          </span>
+                        </button>
+
+                        {/* Episodes */}
+                        {expandedPlaylists.has(playlist.id) && (
+                          <div className="ml-4 space-y-1">
+                            {playlist.episodes.map((episode) => (
+                              <button
+                                key={episode.youtubeTitle}
+                                onClick={() => handleEpisodeClick(episode.youtubeTitle)}
+                                className={`w-full text-left px-3 py-2 rounded-lg transition-colors text-sm ${
+                                  selectedEpisode === episode.youtubeTitle
+                                    ? 'bg-secondary-darker text-primary' 
+                                    : 'hover:bg-secondary text-primary-hover'
+                                }`}
+                              >
+                                <div className="flex items-center justify-between">
+                                  <span className="flex-1 truncate pr-2">
+                                    {episode.youtubeTitle}
+                                  </span>
+                                  <span className="text-xs opacity-70">
+                                    ({episode.locations.length})
+                                  </span>
+                                </div>
+                              </button>
+                            ))}
+                          </div>
+                        )}
+                      </div>
                     ))}
                   </div>
                 </div>

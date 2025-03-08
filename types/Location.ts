@@ -1,3 +1,13 @@
+export interface Episode {
+    title: string;
+    date: string;
+    show: string;
+    youtubeUrl?: string;
+    youtubeTitle?: string;
+    playlistId: string;
+    playlistTitle: string;
+}
+
 export interface Location {
     id: string;
     name: string;
@@ -6,13 +16,7 @@ export interface Location {
     longitude: number;
     address: string;
     country: string;
-    episode: {
-        title: string;
-        date: string;
-        show: string;
-        youtubeUrl?: string;
-        youtubeTitle?: string;
-    };
+    episode: Episode;
     cuisine: string[];
     isStillOperating?: boolean;
     imageUrl?: string;
