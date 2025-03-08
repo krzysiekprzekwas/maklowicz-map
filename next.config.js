@@ -1,5 +1,11 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
+const nextConfig = {
+  output: 'export',
+  basePath: '/maklowicz-map',
+  images: {
+    unoptimized: true,
+  },
   reactStrictMode: true,
-  swcMinify: true,
-} 
+}
+
+module.exports = nextConfig 

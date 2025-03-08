@@ -17,11 +17,8 @@ const Map = dynamic(() => import('../components/Map'), {
 interface PlaylistData {
   id: string;
   title: string;
-  episodes: {
-    title: string;
-    youtubeTitle: string;
-    locations: Location[];
-  }[];
+  episodes: Set<string>;
+  locations: Location[];
 }
 
 export default function Home() {
@@ -42,42 +39,31 @@ export default function Home() {
         playlistMap[playlistId] = {
           id: playlistId,
           title: playlistTitle,
-          episodes: []
+          episodes: new Set(),
+          locations: [],
         };
       }
 
-      const playlist = playlistMap[playlistId];
-      let episode = playlist.episodes.find(ep => ep.youtubeTitle === youtubeTitle);
-      
-      if (!episode) {
-        episode = {
-          title: location.episode.title,
-          youtubeTitle: youtubeTitle || '',
-          locations: []
-        };
-        playlist.episodes.push(episode);
-      }
-      
-      episode.locations.push(location);
+      playlistMap[playlistId].episodes.add(youtubeTitle);
+      playlistMap[playlistId].locations.push(location);
     });
 
     return Object.values(playlistMap).sort((a, b) => a.title.localeCompare(b.title));
-  }, []);
+  }, [locationData.locations]);
 
   // Filter locations based on selection
   const filteredLocations = useMemo(() => {
-    if (selectedEpisode) {
-      return locationData.locations.filter(
-        loc => loc.episode.youtubeTitle === selectedEpisode
-      );
+    if (!selectedPlaylist && !selectedEpisode) {
+      return locationData.locations;
     }
-    if (selectedPlaylist) {
-      return locationData.locations.filter(
-        loc => loc.episode.playlistId === selectedPlaylist
-      );
-    }
-    return locationData.locations;
-  }, [selectedPlaylist, selectedEpisode]);
+
+    return locationData.locations.filter((location) => {
+      if (selectedEpisode) {
+        return location.episode.youtubeTitle === selectedEpisode;
+      }
+      return location.episode.playlistId === selectedPlaylist;
+    });
+  }, [locationData.locations, selectedPlaylist, selectedEpisode]);
 
   const handlePlaylistClick = (playlistId: string) => {
     setExpandedPlaylists(prev => {
@@ -204,25 +190,26 @@ export default function Home() {
 
                         {/* Episodes */}
                         {expandedPlaylists.has(playlist.id) && (
-                          <div className="ml-4 space-y-1">
-                            {playlist.episodes.map((episode) => (
+                          <div className="ml-4 space-y-2">
+                            {playlist.locations.length > 0 && (
+                              <div className="flex items-center justify-between">
+                                <span className="text-sm text-gray-500">
+                                  {playlist.locations.length} lokacji
+                                </span>
+                                <span className="text-sm text-gray-500">
+                                  {Array.from(playlist.episodes).length} odcinków
+                                </span>
+                              </div>
+                            )}
+                            {Array.from(playlist.episodes).map((episodeTitle) => (
                               <button
-                                key={episode.youtubeTitle}
-                                onClick={() => handleEpisodeClick(episode.youtubeTitle)}
-                                className={`w-full text-left px-3 py-2 rounded-lg transition-colors text-sm ${
-                                  selectedEpisode === episode.youtubeTitle
-                                    ? 'bg-secondary-darker text-primary' 
-                                    : 'hover:bg-secondary text-primary-hover'
-                                }`}
+                                key={episodeTitle}
+                                onClick={() => handleEpisodeClick(episodeTitle)}
+                                className={`block w-full text-left text-sm ${
+                                  selectedEpisode === episodeTitle ? 'text-blue-600' : 'text-gray-600'
+                                } hover:text-blue-600`}
                               >
-                                <div className="flex items-center justify-between">
-                                  <span className="flex-1 truncate pr-2">
-                                    {episode.youtubeTitle}
-                                  </span>
-                                  <span className="text-xs opacity-70">
-                                    ({episode.locations.length})
-                                  </span>
-                                </div>
+                                {episodeTitle}
                               </button>
                             ))}
                           </div>
