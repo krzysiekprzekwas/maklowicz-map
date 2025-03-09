@@ -83,6 +83,32 @@
           "isStillOperating": true,
           "websiteUrl": "",
           "type": "attraction"
+        },
+        {
+          "id": "parque-centenario",
+          "name": "Parque Centenario",
+          "description": "Park zbudowany w 1916 roku, w czasie którego wydarzyły się wydarzenia związane z wyzwoleniem miasta od hiszpańskich władz",
+          "latitude": 10.422837770799225,
+          "longitude": -75.54659471127223, 
+          "address": "Media, Getsemaní, Cartagena",
+          "country": "Kolumbia",
+          "cuisine": [],
+          "isStillOperating": true,
+          "websiteUrl": "",
+          "type": "attraction"
+        },
+        {
+          "id": "basilica-pizzería-café",
+          "name": "Basilica Pizzería Café",
+          "description": "Pizzerio-kawiarnia z przepysznym napojem kokosowym Coco Loco",
+          "latitude": 10.41911754439779, 
+          "longitude": -75.54558463830094, 
+          "address": "Cl. 26 #10b-78, Getsemaní, Cartagena",
+          "country": "Kolumbia",
+          "cuisine": [],
+          "isStillOperating": true,
+          "websiteUrl": "",
+          "type": "restaurant"
         }
       ]
     },
