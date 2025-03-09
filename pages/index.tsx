@@ -119,16 +119,30 @@ export default function Home() {
   const filteredLocations = useMemo(() => {
     if (selectedVideo) {
       const video = locationData.videos.find(v => v.videoId === selectedVideo);
-      return video ? video.locations.map(l => ({ ...l, type: validateLocationType(l.type) })) : [];
+      return video ? video.locations.map(l => ({ 
+        ...l, 
+        type: validateLocationType(l.type),
+        videoId: video.videoId
+      })) : [];
     }
 
     if (selectedCountry) {
       const countryLocations = countries.find(c => c.name === selectedCountry)?.locations || [];
-      return countryLocations.map(l => ({ ...l, type: validateLocationType(l.type) }));
+      return countryLocations.map(l => ({ 
+        ...l, 
+        type: validateLocationType(l.type),
+        videoId: locationData.videos.find(v => 
+          v.locations.some(loc => loc.id === l.id)
+        )?.videoId
+      }));
     }
 
     return locationData.videos.flatMap(video => 
-      video.locations.map(l => ({ ...l, type: validateLocationType(l.type) }))
+      video.locations.map(l => ({ 
+        ...l, 
+        type: validateLocationType(l.type),
+        videoId: video.videoId
+      }))
     );
   }, [locationData.videos, selectedCountry, selectedVideo, countries]);
 

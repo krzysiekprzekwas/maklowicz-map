@@ -17,8 +17,6 @@
             "longitude":  -75.55561815563627,
             "address": "Vía al Valle del Cocora #Km 2, Salento, Quindío",
             "country": "Kolumbia",
-            "cuisine": [],
-            "isStillOperating": true,
             "type": "other"
           },
           {
@@ -29,9 +27,6 @@
             "longitude": -75.57060564387156,
             "address": "Cra. 6a #6-14, Salento, Quindío",
             "country": "Kolumbia",
-            "cuisine": [],
-            "isStillOperating": true,
-            "websiteUrl": "",
             "type": "restaurant"
           }
       ]
@@ -53,9 +48,6 @@
           "longitude": -75.55200231202488, 
           "address": "Plaza Santo Domingo, Cra. 3 #35-18, Kartagena",
           "country": "Kolumbia",
-          "cuisine": [],
-          "isStillOperating": true,
-          "websiteUrl": "",
           "type": "restaurant"
         },
         {
@@ -66,9 +58,6 @@
           "longitude": -75.55725924118696, 
           "address": "Avenida san martin calle 6#6-40, Kartagena",
           "country": "Kolumbia",
-          "cuisine": [],
-          "isStillOperating": true,
-          "websiteUrl": "",
           "type": "restaurant"
         },
         {
@@ -79,9 +68,6 @@
           "longitude": -75.54582509799896, 
           "address": "Cra. 11 #39-21, San Diego, Kartagena",
           "country": "Kolumbia",
-          "cuisine": [],
-          "isStillOperating": true,
-          "websiteUrl": "",
           "type": "attraction"
         },
         {
@@ -92,9 +78,6 @@
           "longitude": -75.54659471127223, 
           "address": "Media, Getsemaní, Cartagena",
           "country": "Kolumbia",
-          "cuisine": [],
-          "isStillOperating": true,
-          "websiteUrl": "",
           "type": "attraction"
         },
         {
@@ -105,10 +88,48 @@
           "longitude": -75.54558463830094, 
           "address": "Cl. 26 #10b-78, Getsemaní, Cartagena",
           "country": "Kolumbia",
-          "cuisine": [],
-          "isStillOperating": true,
-          "websiteUrl": "",
           "type": "restaurant"
+        },
+        {
+          "id": "rebelion-alma-sabor",
+          "name": "Rebelión Alma & Sabor",
+          "description": "Doskonała lokalna kuchnia karaibska. Rebelia duszy i smaku.",
+          "latitude": 10.420361103417386,
+          "longitude": -75.54438578193484, 
+          "address": "Cra. 10c #29-02, Getsemaní, Cartagena",
+          "country": "Kolumbia",
+          "type": "restaurant"
+        }
+      ]
+    },
+    {
+      "videoId": "BgEuER3gmTw",
+      "videoUrl": "https://www.youtube.com/watch?v=BgEuER3gmTw",
+      "title": "„Perła Karaibów\" - ROBERT MAKŁOWICZ KOLUMBIA odc.211",
+      "playlistId": "PLpTn8onHfnD1Qe8Udfm03-iBLeDs6ALMz",
+      "playlistTitle": "KOLUMBIA",
+      "date": "2025-01-22T11:16:16Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "san-felipe-de-barajas",
+          "name": "San Felipe de Barajas",
+          "description": "Hiszpańska twierdza zbudowana w latach 1539-1545, zlokalizowana na wzgórzu, które nosi nazwę Cielo Mar. Kluczowy obiekt w historii Kolumbii.",
+          "latitude": 10.42247705800818, 
+          "longitude": -75.53927702276529, 
+          "address": "Cielo mar, La Boquilla, Kartagena",
+          "country": "Kolumbia",
+          "type": "attraction"
+        },
+        {
+          "id": "monumento-torre-del-reloj",
+          "name": "Monumento Torre del Reloj",
+          "description": "Brama do historycznej Kartageny wraz z pomnikiem jej założyciela, Alonso de Ojeda oraz placem skrywającym czarniejsze historie z czasów kolonialnych.",
+          "latitude": 10.422978987819615,
+          "longitude": -75.54921028968327, 
+          "address": "Boca del Puente, El Centro, Cartagena",
+          "country": "Kolumbia",
+          "type": "attraction"
         }
       ]
     },

@@ -19,10 +19,12 @@ export interface Location {
     address: string;
     country: string;
     type: LocationType;
+    videoId?: string;
 }
 
 export interface Video {
     videoId: string;
+    videoUrl: string;
     title: string;
     playlistId: string;
     playlistTitle: string;
