@@ -330,8 +330,17 @@ export default function Home() {
           style={{ zIndex: 9999 }}
         >
           {selectedLocation && (
-            <div className="p-6">
-              <h2 className="text-2xl font-bold mb-4">{selectedLocation.name}</h2>
+            <div className="p-6 relative">
+              {/* Close Button */}
+              <button
+                onClick={() => setSelectedLocation(null)}
+                className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors"
+                aria-label="Zamknij szczegóły"
+              >
+                <span className="text-gray-500 text-xl">×</span>
+              </button>
+
+              <h2 className="text-2xl font-bold mb-4 pr-8">{selectedLocation.name}</h2>
               <p className="text-gray-600 mb-4">{selectedLocation.description}</p>
               
               <div className="space-y-4">
