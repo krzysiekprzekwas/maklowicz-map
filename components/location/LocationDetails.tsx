@@ -18,62 +18,77 @@ export function LocationDetails({ location, onClose }: LocationDetailsProps) {
                   location.type === 'attraction' ? '🏛️' : '📍';
 
   return (
-    <aside 
-      className={`fixed top-[116px] right-0 h-[calc(100vh-116px)] w-96 bg-white shadow-xl transform transition-transform duration-300 ease-in-out ${
-        location ? 'translate-x-0' : 'translate-x-full'
-      }`}
-      style={{ zIndex: 9999 }}
-    >
-      <div className="p-6 relative">
-        {/* Close Button */}
-        <button
-          onClick={onClose}
-          className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors"
-          aria-label="Zamknij szczegóły"
-        >
-          <span className="text-gray-500 text-xl">×</span>
-        </button>
+    <>
+      {/* Overlay for mobile */}
+      <div 
+        className={`md:hidden fixed inset-0 bg-black bg-opacity-50 transition-opacity ${
+          location ? 'opacity-100' : 'opacity-0 pointer-events-none'
+        }`}
+        onClick={onClose}
+      />
 
-        <div className="flex items-center gap-2 mb-4">
-          <span className="text-xl">{typeIcon}</span>
-          <h2 className="text-2xl font-bold pr-8">{location.name}</h2>
-        </div>
-        <p className="text-gray-600 mb-4">{location.description}</p>
-        
-        <div className="space-y-4">
-          <div>
-            <h3 className="font-semibold mb-1">Adres</h3>
-            <p>{location.address}</p>
+      {/* Details Panel */}
+      <aside 
+        className={`fixed md:top-[116px] bottom-0 right-0 w-full md:w-96 bg-white shadow-xl transform transition-transform duration-300 ease-in-out 
+          h-[85vh] md:h-[calc(100vh-116px)] max-h-screen
+          ${location ? 'translate-x-0' : 'translate-x-full'} 
+          ${location ? 'md:translate-x-0 translate-y-0' : 'md:translate-x-full translate-y-full'}`}
+        style={{ zIndex: 9999 }}
+      >
+        <div className="p-6 relative h-full overflow-y-auto">
+          {/* Close Button */}
+          <button
+            onClick={onClose}
+            className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors"
+            aria-label="Zamknij szczegóły"
+          >
+            <span className="text-gray-500 text-xl">×</span>
+          </button>
+
+          {/* Mobile Handle */}
+          <div className="md:hidden w-12 h-1 bg-gray-300 rounded-full mx-auto mb-4" />
+
+          <div className="flex items-center gap-2 mb-4">
+            <span className="text-xl">{typeIcon}</span>
+            <h2 className="text-xl md:text-2xl font-bold pr-8">{location.name}</h2>
           </div>
+          <p className="text-gray-600 mb-4">{location.description}</p>
           
-          <div>
-            <h3 className="font-semibold mb-1">Kraj</h3>
-            <p>{location.country}</p>
-          </div>
-
-          <div>
-            <h3 className="font-semibold mb-1">Typ miejsca</h3>
-            <p className="capitalize">{location.type}</p>
-          </div>
-
-          {video && (
+          <div className="space-y-4">
             <div>
-              <h3 className="font-semibold mb-1">Film</h3>
-              <div className="space-y-2">
-                <p className="text-sm text-gray-600">{video.title}</p>
-                <a 
-                  href={videoUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center space-x-2 text-primary hover:text-primary-darker transition-colors"
-                >
-                  <span>▶️ Zobacz na YouTube</span>
-                </a>
-              </div>
+              <h3 className="font-semibold mb-1">Adres</h3>
+              <p>{location.address}</p>
             </div>
-          )}
+            
+            <div>
+              <h3 className="font-semibold mb-1">Kraj</h3>
+              <p>{location.country}</p>
+            </div>
+
+            <div>
+              <h3 className="font-semibold mb-1">Typ miejsca</h3>
+              <p className="capitalize">{location.type}</p>
+            </div>
+
+            {video && (
+              <div>
+                <h3 className="font-semibold mb-1">Film</h3>
+                <div className="space-y-2">
+                  <p className="text-sm text-gray-600">{video.title}</p>
+                  <a 
+                    href={videoUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center space-x-2 text-primary hover:text-primary-darker transition-colors"
+                  >
+                    <span>▶️ Zobacz na YouTube</span>
+                  </a>
+                </div>
+              </div>
+            )}
+          </div>
         </div>
-      </div>
-    </aside>
+      </aside>
+    </>
   );
 } 
