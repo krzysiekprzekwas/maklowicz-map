@@ -42,15 +42,34 @@ export default function Home() {
   const [isFiltersOpen, setIsFiltersOpen] = useState(true);
   const [expandedCountries, setExpandedCountries] = useState<Set<string>>(new Set());
   const [expandedVideos, setExpandedVideos] = useState<Set<string>>(new Set());
+  const [searchQuery, setSearchQuery] = useState('');
 
-  // Organize data by countries and videos
+  // Filter and organize data by countries and videos
   const countries = useMemo(() => {
     const countryMap: Record<string, CountryData> = {};
+    const query = searchQuery.toLowerCase().trim();
 
     locationData.videos.forEach((video) => {
-      video.locations.forEach((loc) => {
-        // Validate and cast location type
-        const location: Location = {
+      const videoMatches = !query || video.title.toLowerCase().includes(query);
+
+      // Filter locations that match the search query
+      const matchingLocations = video.locations.filter((loc) => {
+        const location = {
+          ...loc,
+          type: validateLocationType(loc.type)
+        };
+
+        return !query || 
+          location.name.toLowerCase().includes(query) ||
+          location.country.toLowerCase().includes(query) ||
+          location.description.toLowerCase().includes(query) ||
+          location.address.toLowerCase().includes(query) ||
+          videoMatches; // Include all locations if video title matches
+      });
+
+      // Process only matching locations
+      matchingLocations.forEach((loc) => {
+        const location = {
           ...loc,
           type: validateLocationType(loc.type)
         };
@@ -68,14 +87,15 @@ export default function Home() {
           countryMap[location.country].locations.push(location);
         }
 
-        // Add video if not already added
-        if (!countryMap[location.country].videos.some(v => v.videoId === video.videoId)) {
+        // Add video with only matching locations
+        const existingVideo = countryMap[location.country].videos.find(v => v.videoId === video.videoId);
+        if (!existingVideo) {
           countryMap[location.country].videos.push({
             videoId: video.videoId,
             title: video.title,
             date: video.date,
             show: video.show,
-            locations: video.locations
+            locations: matchingLocations
               .filter(l => l.country === location.country)
               .map(l => ({ ...l, type: validateLocationType(l.type) })),
           });
@@ -83,8 +103,15 @@ export default function Home() {
       });
     });
 
+    // Remove empty countries
+    Object.keys(countryMap).forEach(key => {
+      if (countryMap[key].locations.length === 0) {
+        delete countryMap[key];
+      }
+    });
+
     return Object.values(countryMap).sort((a, b) => a.name.localeCompare(b.name));
-  }, [locationData.videos]);
+  }, [locationData.videos, searchQuery]);
 
   // Filter locations based on selection
   const filteredLocations = useMemo(() => {
@@ -199,6 +226,22 @@ export default function Home() {
             {/* Filters Content */}
             <div className="w-80 h-full bg-white shadow-xl overflow-y-auto">
               <div className="p-4">
+                {/* Search Field */}
+                <div className="mb-4">
+                  <div className="relative">
+                    <input
+                      type="text"
+                      value={searchQuery}
+                      onChange={(e) => setSearchQuery(e.target.value)}
+                      placeholder="Szukaj lokacji, filmów..."
+                      className="w-full px-4 py-2 pr-10 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                    />
+                    <span className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400">
+                      🔍
+                    </span>
+                  </div>
+                </div>
+
                 {/* All Locations Button */}
                 <button
                   onClick={() => {
