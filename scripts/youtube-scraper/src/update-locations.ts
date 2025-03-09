@@ -11,9 +11,6 @@ interface Location {
   longitude: number;
   address: string;
   country: string;
-  cuisine: string[];
-  isStillOperating: boolean;
-  websiteUrl?: string;
   type: LocationType;
 }
 

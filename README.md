@@ -13,9 +13,7 @@ An interactive map showcasing restaurants, attractions, and other locations visi
   - Description
   - Address
   - Country
-  - Cuisine types
-  - Operating status
-  - Website (if available)
+  - Type (restaurant/attraction/other)
 
 ## Tech Stack
 
@@ -85,9 +83,6 @@ interface Location {
     longitude: number;
     address: string;
     country: string;
-    cuisine: string[];
-    isStillOperating: boolean;
-    websiteUrl?: string;
     type: 'restaurant' | 'attraction' | 'other';
 }
 ```

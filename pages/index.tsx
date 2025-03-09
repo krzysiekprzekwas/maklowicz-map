@@ -345,44 +345,9 @@ export default function Home() {
                   <p>{selectedLocation.country}</p>
                 </div>
 
-                {selectedLocation.cuisine && selectedLocation.cuisine.length > 0 && (
-                  <div>
-                    <h3 className="font-semibold mb-1">Kuchnia</h3>
-                    <div className="flex flex-wrap gap-2">
-                      {selectedLocation.cuisine.map((type) => (
-                        <span
-                          key={type}
-                          className="px-2 py-1 bg-secondary text-primary rounded-full text-sm"
-                        >
-                          {type}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                )}
-
-                {selectedLocation.websiteUrl && (
-                  <div>
-                    <h3 className="font-semibold mb-1">Strona internetowa</h3>
-                    <a
-                      href={selectedLocation.websiteUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-blue-600 hover:text-blue-800"
-                    >
-                      {selectedLocation.websiteUrl}
-                    </a>
-                  </div>
-                )}
-
                 <div>
                   <h3 className="font-semibold mb-1">Typ miejsca</h3>
                   <p className="capitalize">{selectedLocation.type}</p>
-                </div>
-
-                <div>
-                  <h3 className="font-semibold mb-1">Status</h3>
-                  <p>{selectedLocation.isStillOperating ? 'Działa' : 'Zamknięte'}</p>
                 </div>
               </div>
             </div>
