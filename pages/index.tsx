@@ -41,7 +41,7 @@ export default function Home() {
   const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
   const [selectedVideo, setSelectedVideo] = useState<string | null>(null);
-  const [isFiltersOpen, setIsFiltersOpen] = useState(true);
+  const [isFiltersOpen, setIsFiltersOpen] = useState(false);
   const [expandedCountries, setExpandedCountries] = useState<Set<string>>(new Set());
   const [expandedVideos, setExpandedVideos] = useState<Set<string>>(new Set());
   const [searchQuery, setSearchQuery] = useState('');
