@@ -19,7 +19,7 @@ export interface Location {
     address: string;
     country: string;
     type: LocationType;
-    videoId?: string;
+    websiteUrl?: string;
 }
 
 export interface Video {

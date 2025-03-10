@@ -67,6 +67,7 @@ The application will be available at [http://localhost:3000](http://localhost:30
 - `npm run lint` - Run linting
 - `npm run scrape` - Update video data from YouTube
 - `npm run update-locations` - Update locations data
+- `npm run parse-location` - Parse Google Maps URL into location data (usage: `npm run parse-location "https://maps.google.com/..."`)
 
 ## Data Structure
 

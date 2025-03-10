@@ -24,6 +24,7 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
 
 # vercel
 .vercel
@@ -33,4 +34,9 @@ yarn-error.log*
 next-env.d.ts
 
 # youtube scraper
-scripts/youtube-scraper/node_modules 
+scripts/youtube-scraper/node_modules
+scripts/youtube-scraper/output
+
+# location parser
+scripts/location-parser/output
+scripts/location-parser/dist 
