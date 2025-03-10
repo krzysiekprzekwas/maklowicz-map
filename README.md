@@ -70,22 +70,26 @@ The application will be available at [http://localhost:3000](http://localhost:30
 
 ## Data Structure
 
-The application uses two main data files:
+The application uses a single data file:
 
-1. `videos.json` - Contains video information from YouTube
-2. `locations.json` - Contains location data with the following structure:
-```typescript
-interface Location {
-    id: string;
-    name: string;
-    description: string;
-    latitude: number;
-    longitude: number;
-    address: string;
-    country: string;
-    type: 'restaurant' | 'attraction' | 'other';
-}
-```
+1. `locations.json` - Contains all location data organized by videos, where each video contains:
+   - `videoId`: YouTube video ID
+   - `videoUrl`: Full YouTube video URL
+   - `title`: Video title
+   - `playlistId`: YouTube playlist ID
+   - `playlistTitle`: Playlist title
+   - `date`: Video upload date
+   - `show`: Show name
+   - `locations`: Array of locations featured in the video, each containing:
+     - `id`: Unique identifier
+     - `name`: Location name
+     - `description`: Location description
+     - `latitude`: Geographic latitude
+     - `longitude`: Geographic longitude
+     - `address`: Full address
+     - `country`: Country name
+     - `type`: Location type ('restaurant', 'attraction', or 'other')
+     - `websiteUrl`: Website URL (optional)
 
 ## Contributing
 
