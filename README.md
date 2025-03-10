@@ -37,6 +37,13 @@ Create a `.env.local` file in the root directory with:
 
 ```env
 YOUTUBE_API_KEY=your_youtube_api_key_here
+NEXT_PUBLIC_GA_MEASUREMENT_ID=your_google_analytics_id_here
+```
+
+Create a `.env` file in the root directory with:
+
+```env
+GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
 ```
 
 ### Installation
@@ -103,4 +110,40 @@ This project is open source and available under the [MIT License](LICENSE).
 ## Acknowledgments
 
 - Robert Makłowicz for his amazing culinary travel shows
-- All contributors who help maintain and improve this project 
+- All contributors who help maintain and improve this project
+
+## Analytics
+
+The application uses Google Analytics 4 (GA4) to track user interactions and gather usage statistics. The following events are tracked:
+
+- Page views
+- Location views (when a user selects a location)
+- Search queries and results count
+- Filter applications (country, video)
+
+### Setting up Google Analytics
+
+1. Create a Google Analytics 4 property in the [Google Analytics console](https://analytics.google.com/)
+2. Get your Measurement ID (starts with "G-")
+3. Add it to your `.env.local` file as `NEXT_PUBLIC_GA_MEASUREMENT_ID`
+
+### Custom Events
+
+The application uses a custom hook (`useAnalytics`) to track events. You can use this hook in any component:
+
+```tsx
+import { useAnalytics } from '../hooks/useAnalytics';
+
+function MyComponent() {
+  const analytics = useAnalytics();
+  
+  const handleAction = () => {
+    // Track a custom event
+    analytics.trackEvent('custom_action', { 
+      custom_property: 'value' 
+    });
+  };
+  
+  return <button onClick={handleAction}>Click me</button>;
+}
+``` 

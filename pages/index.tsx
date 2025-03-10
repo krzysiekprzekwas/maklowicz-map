@@ -1,10 +1,12 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import dynamic from 'next/dynamic';
+import { useRouter } from 'next/router';
 import type { Location, LocationData, LocationType } from '../types/Location';
 import locationData from '../data/locations.json';
 import { Header } from '../components/layout/Header';
 import { Filters } from '../components/filters/Filters';
 import { LocationDetails } from '../components/location/LocationDetails';
+import { useAnalytics } from '../hooks/useAnalytics';
 
 // Import Map component dynamically to avoid SSR issues
 const Map = dynamic(() => import('../components/Map'), {
@@ -45,6 +47,17 @@ export default function Home() {
   const [expandedCountries, setExpandedCountries] = useState<Set<string>>(new Set());
   const [expandedVideos, setExpandedVideos] = useState<Set<string>>(new Set());
   const [searchQuery, setSearchQuery] = useState('');
+  
+  const router = useRouter();
+  const analytics = useAnalytics();
+
+  // Track page view on component mount
+  useEffect(() => {
+    analytics.trackPageView(
+      window.location.href,
+      'Maklowicz Map - Home'
+    );
+  }, [analytics]);
 
   // Filter and organize data by countries and videos
   const countries = useMemo(() => {
@@ -180,8 +193,28 @@ export default function Home() {
     setSelectedVideo(videoId === selectedVideo ? null : videoId);
   };
 
-  const handleLocationClick = (location: Location) => {
+  const handleLocationSelect = (location: Location) => {
     setSelectedLocation(location);
+    analytics.trackLocationView(location.id, location.name);
+  };
+
+  const handleSearch = (query: string) => {
+    setSearchQuery(query);
+    
+    // Calculate the number of results for analytics
+    const results = filteredLocations.filter(location => 
+      location.name.toLowerCase().includes(query.toLowerCase()) ||
+      location.country.toLowerCase().includes(query.toLowerCase())
+    );
+    
+    analytics.trackSearch(query, results.length);
+  };
+
+  const handleCountrySelect = (country: string | null) => {
+    setSelectedCountry(country);
+    if (country) {
+      analytics.trackFilter('country', country);
+    }
   };
 
   const totalLocations = useMemo(() => 
@@ -197,7 +230,7 @@ export default function Home() {
         <Filters
           isOpen={isFiltersOpen}
           searchQuery={searchQuery}
-          onSearchChange={setSearchQuery}
+          onSearchChange={handleSearch}
           countries={countries}
           selectedCountry={selectedCountry}
           selectedVideo={selectedVideo}
@@ -205,9 +238,9 @@ export default function Home() {
           expandedCountries={expandedCountries}
           expandedVideos={expandedVideos}
           totalLocations={totalLocations}
-          onCountryClick={handleCountryClick}
+          onCountryClick={handleCountrySelect}
           onVideoClick={handleVideoClick}
-          onLocationClick={handleLocationClick}
+          onLocationClick={handleLocationSelect}
           onToggleFilters={() => setIsFiltersOpen(!isFiltersOpen)}
           onResetFilters={() => {
             setSelectedCountry(null);
@@ -219,7 +252,7 @@ export default function Home() {
           <Map 
             locations={filteredLocations}
             selectedLocation={selectedLocation}
-            onLocationSelect={handleLocationClick}
+            onLocationSelect={handleLocationSelect}
           />
         </div>
 
