@@ -130,39 +130,6 @@
           "address": "Boca del Puente, El Centro, Cartagena",
           "country": "Kolumbia",
           "type": "attraction"
-        },
-        {
-          "id": "cancha-restaurante-ceviches-sushi",
-          "name": "CANCHA RESTAURANTE CEVICHES SUSHI",
-          "description": "Wyborna restauracja z kuchnia oparta o ryby i ceviche - potrawy gotowane w soku z limetek.",
-          "latitude": 10.4257255,
-          "longitude": -75.5581115,
-          "address": "CCGR+7Q Turbaco, Bolivar, Colombia",
-          "country": "Kolumbia",
-          "type": "restaurant",
-          "websiteUrl": ""
-        },
-        {
-          "id": "abaco-libros-y-cafe",
-          "name": "Ábaco Libros y Café",
-          "description": "Niezwykle klimatyczna kawiarnia będąca równocześnie niesamowitą biblioteką.",
-          "latitude": 10.4249438,
-          "longitude": -75.5538559,
-          "address": "Cl. 36 #2-80, El Centro, Cartagena de Indias, Provincia de Cartagena, Bolívar",
-          "country": "Kolumbia",
-          "type": "restaurant",
-          "websiteUrl": ""
-        },
-        {
-          "id": "hotel-movich-cartagena-de-indias",
-          "name": "Hotel Movich",
-          "description": "Klimatyczny hotel zlokalizowany w centrum Kartageny z uniklaną restaruacją na dachu o powalających widokach.",
-          "latitude": 10.4228428,
-          "longitude": -75.5532268,
-          "address": "Carrera 2 #32-50, Calle del Triunfo, El Centro, Provincia de Cartagena, Bolívar",
-          "country": "Kolumbia",
-          "type": "other",
-          "websiteUrl": ""
         }
       ]
     },
