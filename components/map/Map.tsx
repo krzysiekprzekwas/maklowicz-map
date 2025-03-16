@@ -36,7 +36,6 @@ function ChangeView({ locations }: { locations: Location[] }) {
 }
 
 const Map = ({ locations, selectedLocation, onLocationSelect }: MapProps) => {
-    const krakowPosition: LatLngExpression = [50.0614300, 19.9365800];
     const customIcon = (location: Location, isSelected: boolean): DivIcon => {
         let icon = ReactDOMServer.renderToString(<LocationIcon location={location} />);
 
@@ -65,7 +64,6 @@ const Map = ({ locations, selectedLocation, onLocationSelect }: MapProps) => {
     return (
         <div className="w-full h-full relative bg-secondary">
             <MapContainer
-                center={krakowPosition}
                 zoom={4}
                 style={{ height: '100%', width: '100%', background: '#f8f5f0' }}
                 scrollWheelZoom={true}

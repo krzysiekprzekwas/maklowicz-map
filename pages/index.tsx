@@ -215,7 +215,7 @@ export default function Home() {
           }}
         />
 
-        <div className="flex-1 min-h-[calc(100vh-116px)]">
+        <div className="flex-1">
           <Map 
             locations={filteredLocations}
             selectedLocation={selectedLocation}
