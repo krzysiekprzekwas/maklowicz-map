@@ -475,7 +475,80 @@
       "playlistTitle": "CZECHY",
       "date": "2024-12-12T22:05:02Z",
       "show": "Robert Makłowicz w podróży",
-      "locations": []
+      "locations": [
+        {
+          "id": "katedra-wniebowziecia-nmp-i-sw-jana-chrzciciela",
+          "name": "Katedra Wniebowzięcia NMP i św. Jana Chrzciciela",
+          "description": "Świątynia cystersów w Sedlcu z czasów Korony Świętego Wacława z szczątkami świętego Feliksa i świętego Wincentego.",
+          "latitude": 49.9600733953973, 
+          "longitude": 15.290029873265013,
+          "address": "Opletalova 178, Šipší, 284 01 Kutná Hora-Kutná Hora 1, Czechia",
+          "country": "Czechy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/vK11ViZVWHgSaPRn8"
+        },
+        {
+          "id": "kaplica-czaszek-w-kutnej-horze",
+          "name": "Kaplica Czaszek w Kutnej Horze",
+          "description": "Niewielka gotycka kaplica pełniąca role osuarium. Ozdobiona girlandami z ludzkich czaszek oraz żyrandolem i kielichami z kości.",
+          "latitude": 49.96175367731296, 
+          "longitude": 15.28795198584228,
+          "address": "Starosedlecká 72, Sedlec, 284 03 Kutná Hora-Kutná Hora 3, Czechia",
+          "country": "Czechy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/zY7gm1VK1NbyBxcy6"
+        },
+        {
+          "id": "the-fortress-malesov",
+          "name": "The fortress Malešov",
+          "description": "Mała twierdza niegdyś bogatego rodu Ruthardów, pełniąca też role faularną w grze Kingdom Come: Deliverance.",
+          "latitude": 49.91099567708513, 
+          "longitude": 15.221202749572017,
+          "address": "Žižkovo nám. 54, 285 41 Malešov, Czechia",
+          "country": "Czechy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/mX7LRdnFEC36JfFp9"
+        },
+        {
+          "id": "malesov-craft-brewery",
+          "name": "Malešov craft brewery",
+          "description": "Miejscowa browar zlokalizowany w Malešovie.",
+          "latitude": 49.91171216055367, 
+          "longitude": 15.222040316271427,
+          "address": "Malešov 56, 285 41 Malešov, Czechia",
+          "country": "Czechy",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/fHKt5jpYoWwp6KSz9"
+        },
+        {
+          "id": "restaurace-u-gregoru",
+          "name": "Restaurace U Gregorů",
+          "description": "Urokliwa restauracja zlokalizowana w Nymburku, rodzinnym mieście znanego pisarza Bohumil Hrabal.",
+          "latitude": 50.186953617062485, 
+          "longitude": 15.043516653885975,
+          "address": "Dlouhá tř. 103/13, 288 02 Nymburk-Nymburk 2, Czechia",
+          "country": "Czechy",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/gc1rBbE5cfKhXvt89"
+        },
+        {
+          "id": "nymburk-brewery",
+          "name": "Nymburk Brewery",
+          "description": "Miejscowy browar, fabularnie i hisorycznie nawiązujący do pisarza Bohumila Hrabala i jego dzieła \"Postrzyżyny\".",
+          "latitude": 50.178074308795225, 
+          "longitude": 15.038238530057212,
+          "address": "Pražská 581/22, 288 02 Nymburk-Nymburk 2, Czechia",
+          "country": "Czechy",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/b3svcueJMwYKKqER7"
+        }
+      ]
     },
     {
       "videoId": "0yho5TDn3as",
