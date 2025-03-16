@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Analytics } from '@vercel/analytics/next';
 
 export function Header() {
   return (
@@ -39,6 +40,7 @@ export function Header() {
           </nav>
         </div>
       </div>
+      <Analytics />
     </header>
   );
 } 
