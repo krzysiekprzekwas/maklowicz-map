@@ -84,6 +84,15 @@ export function LocationDetails({ location, onClose }: LocationDetailsProps) {
                 </div>
               </div>
             )}
+
+            {location.GoogleMapsLink && (
+              <div>
+                <h3 className="font-semibold mb-1">Google Maps</h3>
+                <a href={location.GoogleMapsLink} target="_blank" rel="noopener noreferrer">
+                  <span>🗺️ Otwórz w Google Maps</span>
+                </a>
+              </div>
+            )}
           </div>
         </div>
       </aside>

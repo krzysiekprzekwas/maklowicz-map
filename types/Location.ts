@@ -20,6 +20,7 @@ export interface Location {
     country: string;
     type: LocationType;
     websiteUrl?: string;
+    GoogleMapsLink?: string;
 }
 
 export interface Video {

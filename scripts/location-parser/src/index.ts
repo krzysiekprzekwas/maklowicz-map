@@ -3,22 +3,10 @@ import * as path from 'path';
 import { Client } from '@googlemaps/google-maps-services-js';
 import * as dotenv from 'dotenv';
 import axios from 'axios';
+import { Location } from '../../../types/Location';
 
 // Load environment variables from root .env file
 dotenv.config({ path: path.join(__dirname, '../../../.env') });
-
-// Define our own Location interface without requiring isStillOperating
-interface LocationOutput {
-  id: string;
-  name: string;
-  description: string;
-  latitude: number;
-  longitude: number;
-  address: string;
-  country: string;
-  type: 'restaurant' | 'attraction' | 'other';
-  websiteUrl?: string;
-}
 
 interface GoogleMapsData {
   name: string;
@@ -397,7 +385,7 @@ async function parseGoogleMapsUrl(url: string): Promise<GoogleMapsData> {
   }
 }
 
-function createLocation(data: GoogleMapsData): LocationOutput {
+function createLocation(data: GoogleMapsData, link: string): Location {
   return {
     id: generateId(data.name),
     name: data.name,
@@ -407,7 +395,8 @@ function createLocation(data: GoogleMapsData): LocationOutput {
     address: data.address,
     country: data.country,
     type: data.type,
-    websiteUrl: data.websiteUrl
+    websiteUrl: data.websiteUrl,
+    GoogleMapsLink: link
   };
 }
 
@@ -426,7 +415,7 @@ async function main() {
 
   try {
     const mapsData = await parseGoogleMapsUrl(url);
-    const location = createLocation(mapsData);
+    const location = createLocation(mapsData, url);
 
     // Create output directory if it doesn't exist
     const outputDir = path.join(__dirname, '../output');
