@@ -581,22 +581,93 @@
       "locations": []
     },
     {
-      "videoId": "jMWP5O-mztA",
-      "videoUrl": "https://www.youtube.com/watch?v=jMWP5O-mztA",
-      "title": "ROBERT MAKŁOWICZ PORTUGALIA odc.162  „ Na tarasach Madery\".",
-      "playlistId": "PLpTn8onHfnD37_3zf6b0QTCbTKa14d_df",
-      "playlistTitle": "Madera",
-      "date": "2024-01-26T09:44:45Z",
-      "show": "Robert Makłowicz w podróży",
-      "locations": []
-    },
-    {
       "videoId": "4TQISlxeZDU",
       "videoUrl": "https://www.youtube.com/watch?v=4TQISlxeZDU",
       "title": "ROBERT MAKŁOWICZ MAURITIUS odc.166  „W skarbnicy wielu kultur\".",
       "playlistId": "PLpTn8onHfnD1ALL8getHCODWcEWFtikNw",
       "playlistTitle": "Mauritius",
       "date": "2024-01-26T09:41:02Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": []
+    },
+    {
+      "videoId": "1pEEJUQidq0",
+      "videoUrl": "https://www.youtube.com/watch?v=1pEEJUQidq0",
+      "title": "ROBERT MAKŁOWICZ MAURITIUS odc.163 „Znaczek z Mauritiusa\".",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2023-12-23T09:41:02Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "seasense-boutique-hotel-spa",
+          "name": "Seasense Boutique Hotel & Spa",
+          "description": "Kameralny ośrodek wypoczynkowy dla dorosłych o wysokim standardzie.",
+          "latitude": -20.215114147577726, 
+          "longitude": 57.793558753579575,
+          "address": "B59, Quatre Cocos, Mauritius",
+          "country": "Mauritius",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/iY9GS9Zj5v8Vcdpq5"
+        },
+        {
+          "id": "la-cambuse-public-beach",
+          "name": "La Cambuse Public Beach",
+          "description": "Publiczna plaża w okolicach zatoki Blue Bay, znana z dużej ilości koralowca i płytkiej wody.",
+          "latitude": -20.453250246122128, 
+          "longitude": 57.69949115119449,
+          "address": "Marine Training Establishment Barrack, Mahebourg, Mauritius",
+          "country": "Mauritius",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/KUWL3ophC1N792rEA"
+        },
+        {
+          "id": "coco-de-la-cambuse",
+          "name": "Coco de La Cambuse",
+          "description": "Małe stanowisko z ulicznym jedzeniem, owocami i napojami.",
+          "latitude": -20.453709058161884, 
+          "longitude": 57.69861634329416,
+          "address": "GMWX+8F, Plaine Magnien, Mauritius",
+          "country": "Mauritius",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/wR41oVfnD4dzAgYd6"
+        },
+        {
+          "id": "la-case-poisson",
+          "name": "La Case Poisson",
+          "description": "Kreolska restauracja zlokalizowana w Trou d'Eau Douce serwująca owoce morza i ryby.",
+          "latitude": -20.23875661853614, 
+          "longitude": 57.78964051964387,
+          "address": "QQ6Q+82J, Trou d'Eau Douce, Mauritius",
+          "country": "Mauritius",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/frK2YM9yTC1ry3t26"
+        },
+        {
+          "id": "eglise-trou-d-eau-douce-notre-dame-du-bon-secours",
+          "name": "Eglise Trou d'Eau Douce - Notre Dame Du Bon Secours",
+          "description": "Nowoczesny kościół z roku zaledwie 1990, utrzymany jednak w tradycyjnym stylu kolonialnym.",
+          "latitude": -20.239695646601945, 
+          "longitude": 57.786297632635566,
+          "address": "JFG8+RC Vacoas-Phoenix, Mauritius",
+          "country": "Mauritius",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/8DNH58EmDQ35GMrD6"
+        }
+      ]
+    },
+    {
+      "videoId": "jMWP5O-mztA",
+      "videoUrl": "https://www.youtube.com/watch?v=jMWP5O-mztA",
+      "title": "ROBERT MAKŁOWICZ PORTUGALIA odc.162  „ Na tarasach Madery\".",
+      "playlistId": "PLpTn8onHfnD37_3zf6b0QTCbTKa14d_df",
+      "playlistTitle": "Madera",
+      "date": "2024-01-26T09:44:45Z",
       "show": "Robert Makłowicz w podróży",
       "locations": []
     },
