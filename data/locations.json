@@ -174,7 +174,96 @@
       "playlistTitle": "Francja",
       "date": "2024-12-12T22:03:02Z",
       "show": "Robert Makłowicz w podróży",
-      "locations": []
+      "locations": [
+        {
+          "id": "pa-ac-ksiazat-burgundzkich-w-dijon",
+          "name": "Pałac książąt burgundzkich w Dijon",
+          "description": "Pałac będący niegdyś siedzibą książąt burgundzkich, obecnie siedziba muzeum.",
+          "latitude": 47.3218121,
+          "longitude": 5.0390068,
+          "address": "72 Rue de la Liberté, 21000 Dijon, France",
+          "country": "France",
+          "type": "attraction",
+          "websiteUrl": ""
+        },
+        {
+          "id": "b-comme-bourgogne",
+          "name": "B Comme Bourgogne",
+          "description": "Sklep spożywczy z winnem oferujący wyborne lokalne specjały.",
+          "latitude": 47.3221413,
+          "longitude": 5.0386048,
+          "address": "68 Rue de la Liberté, 21000 Dijon, France",
+          "country": "France",
+          "type": "other",
+          "websiteUrl": ""
+        },
+        {
+          "id": "dijon-burgundy-theatre",
+          "name": "Dijon Burgundy Theatre",
+          "description": "Teatr zlokalizowany w budynku historycznego ześwieczczonego kościoła gotyckiego.",
+          "latitude": 47.3204421,
+          "longitude": 5.0334623,
+          "address": "18 Rue Condorcet, 21000 Dijon, France",
+          "country": "France",
+          "type": "other",
+          "websiteUrl": ""
+        },
+        {
+          "id": "katedra-saint-benigne-w-dijon",
+          "name": "Katedra Saint-Bénigne w Dijon",
+          "description": "Pierwotnie romańska, później gotycka katedra pod wezwaniem świętego Benignusa. Najstarszy romański zabytek w Burgudnii.",
+          "latitude": 47.3214953,
+          "longitude": 5.0319419,
+          "address": "5 Rem de la Miséricorde, 21000 Dijon, France",
+          "country": "France",
+          "type": "other",
+          "websiteUrl": ""
+        },
+        {
+          "id": "tonnellerie-meyrieux",
+          "name": "Tonnellerie Meyrieux",
+          "description": "Fabryka beczek do produkcji wina, których w światowej skali 75% pochodzi z Francji.",
+          "latitude": 47.1090398,
+          "longitude": 4.8697472,
+          "address": "19 Rte de Marey, 21700 Villers-la-Faye, France",
+          "country": "France",
+          "type": "other",
+          "websiteUrl": ""
+        },
+        {
+          "id": "hotel-dieu-museum-hospices-de-beaune",
+          "name": "Hôtel-Dieu Museum - Hospices de Beaune",
+          "description": "Nietuzinkowy budynek średniowiecznego burgundzkiego przytułku mieszczący obecnie muzeum miejscowej sztuki .",
+          "latitude": 47.022027,
+          "longitude": 4.8315798,
+          "address": "9 Rle Morlot, 21200 Beaune, France",
+          "country": "France",
+          "type": "attraction",
+          "websiteUrl": ""
+        },
+        {
+          "id": "biz-tro-chic-gourmand",
+          "name": "Biz'tro \"Chic & Gourmand\"",
+          "description": "Miejscowe bistro z kuchnią lokalną.",
+          "latitude": 47.0209051,
+          "longitude": 4.8402184,
+          "address": "7 Bd Perpreuil, 21200 Beaune, France",
+          "country": "France",
+          "type": "restaurant",
+          "websiteUrl": ""
+        },
+        {
+          "id": "la-moutarderie-fallot",
+          "name": "La Moutarderie Fallot",
+          "description": "Fabryka musztardy zlokalizowana w centrum Burgundii.",
+          "latitude": 47.0210284,
+          "longitude": 4.8297211,
+          "address": "1 Rue des Levées, 21200 Beaune, France",
+          "country": "France",
+          "type": "other",
+          "websiteUrl": ""
+        }
+      ]
     },
     {
       "videoId": "ohjWxpSXMAg",
