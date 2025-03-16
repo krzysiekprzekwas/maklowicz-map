@@ -166,7 +166,65 @@
         }
       ]
     },
-
+    {
+      "videoId": "0REySF_blwU",
+      "videoUrl": "https://www.youtube.com/watch?v=0REySF_blwU",
+      "title": "„Wigilijny Toruń\" - ROBERT MAKŁOWICZ POLSKA odc.209",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-12-20T11:16:16Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "muzeum-torunskiego-piernika",
+          "name": "Muzeum Toruńskiego Piernika",
+          "description": "Muzeum specjału miasta kopernikańskiego mieszkące się w dawnej fabryce piernika z czasów przedwojennych.",
+          "latitude": 53.01118004386583, 
+          "longitude": 18.608540254966123,
+          "address": "Szczytna 16, 87-100 Toruń, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "GoogleMapsLink": "https://maps.app.goo.gl/BJ9snSxF7cX9WFRg7",
+          "websiteUrl": ""
+        },
+        {
+          "id": "iga-sarzynska-wzrusza-torun-pierniki-i-czekolada",
+          "name": "Iga Sarzyńska ''Wzrusza Toruń'', pierniki i czekolada",
+          "description": "Wyrafinowana wystawa pierników i czekolady.",
+          "latitude": 53.010515378730844, 
+          "longitude": 18.60743379212438,
+          "address": "Szeroka 19, 87-100 Toruń, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/3dYmRDEk1FD9QySA7"
+        },
+        {
+          "id": "intek-art-pracownia-witrazy-intek-s-awomir",
+          "name": "Pracownia Witraży \"Intek-Art.\"  Intek Sławomir",
+          "description": "Pracownia witraży łącząca tradycję z nowoczesnością.",
+          "latitude": 53.01143725118617, 
+          "longitude": 18.605114095155365,
+          "address": "Franciszkańska 15/21, 87-100 Toruń, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/FCDqehZsx3Z4jFr29"
+        },
+        {
+          "id": "spichrz-restauracja-w-toruniu",
+          "name": "Spichrz - Restauracja w Toruniu",
+          "description": "Restauracja serwująca dania na podstawie historycznych receptur. Połączona z hotelem.",
+          "latitude": 53.00879148348049, 
+          "longitude": 18.608730882368025,
+          "address": "Łazienna 4A, 87-100 Toruń, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/t9pr9vCTodfUmA8v9"
+        }
+      ]
+    },
     {
       "videoId": "1IwnfwMU25Y",
       "videoUrl": "https://www.youtube.com/watch?v=1IwnfwMU25Y",
