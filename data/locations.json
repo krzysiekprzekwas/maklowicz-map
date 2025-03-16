@@ -166,6 +166,117 @@
         }
       ]
     },
+
+    {
+      "videoId": "1IwnfwMU25Y",
+      "videoUrl": "https://www.youtube.com/watch?v=1IwnfwMU25Y",
+      "title": "„Spoglądając z Akropolu\" - ROBERT MAKŁOWICZ GRECJA odc.206",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-11-29T22:03:02Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "teatr-dionizosa",
+          "name": "Teatr Dionizosa",
+          "description": "Historyczny teatr, sibtelnie modernizowany i aktywny do dziś.",
+          "latitude": 37.97031871131802, 
+          "longitude": 23.727808738538144,
+          "address": "Apostolou Pavlou 9, Athina 118 51, Greece",
+          "country": "Grecja",
+          "type": "attraction",
+          "websiteUrl": ""
+        },
+        {
+          "id": "agora-atenska",
+          "name": "Agora Ateńska",
+          "description": "Powszechnie uznawana za miejsce narodzin nowożytnej demokracji.",
+          "latitude": 37.97488703526647, 
+          "longitude": 23.722085883944914,
+          "address": "Adrianou 11, Athina 105 55, Greece",
+          "country": "Grecja",
+          "type": "attraction",
+          "websiteUrl": ""
+        },
+        {
+          "id": "partenon",
+          "name": "Partenon",
+          "description": "Świątynia bogini Ateny, zbudowana w V w. p.n.e. przez Fidiasza.",
+          "latitude": 37.97152509967964, 
+          "longitude": 23.726715820037107,
+          "address": "Apostolou Pavlou 1, Athina 118 51, Greece",
+          "country": "Grecja",
+          "type": "attraction",
+          "websiteUrl": ""
+        },
+        {
+          "id": "centralny-rynek-komunalny-w-atenach",
+          "name": "Centralny Rynek Komunalny w Atenach",
+          "description": "Karmicielka Aten, hala targowa z owocami, warzymami i rybami.",
+          "latitude": 37.98045293397884, 
+          "longitude": 23.72720256595007,
+          "address": "Diplari 3, Athina 105 52, Greece",
+          "country": "Grecja",
+          "type": "other",
+          "websiteUrl": ""
+        },
+        {
+          "id": "miran-athens",
+          "name": "Miran Athens",
+          "description": "Lokalne delikatesy z specjałami śródziemnomorskimi.",
+          "latitude": 37.97998756422207, 
+          "longitude": 23.725829081776034,
+          "address": "Evmorfopoulou 8, Athina 105 53, Greece",
+          "country": "Grecja",
+          "type": "other",
+          "websiteUrl": ""
+        },
+        {
+          "id": "tavern-klimataria",
+          "name": "Tavern Klimataria",
+          "description": "Lokalna restauracja czynna nieprzerwanie od lat 1920-tych.",
+          "latitude": 37.9806486,
+          "longitude": 23.719756,
+          "address": "Pireos 68A, Athina 104 36, Greece",
+          "country": "Grecja",
+          "type": "restaurant",
+          "websiteUrl": ""
+        },
+        {
+          "id": "monastiraki-square",
+          "name": "Monastiraki Square",
+          "description": "Przjęty plac centralny Aten.",
+          "latitude": 37.97640056050702, 
+          "longitude": 23.725886647291944,
+          "address": "Pl. Monastirakiou 10, Athina 105 55, Greece",
+          "country": "Grecja",
+          "type": "attraction",
+          "websiteUrl": ""
+        },
+        {
+          "id": "biblioteka-hadriana",
+          "name": "Biblioteka Hadriana",
+          "description": "Biblioteka swego czasu zawierająca najcenniejsze działa inteligencji rzymskiej.",
+          "latitude": 37.97549172504948, 
+          "longitude": 23.726029656828,
+          "address": "Stoa Attalou, Athina 105 55, Greece",
+          "country": "Grecja",
+          "type": "attraction",
+          "websiteUrl": ""
+        },
+        {
+          "id": "dopios",
+          "name": "Dopios",
+          "description": "Bezpretensjonalna restauracja grecka z dużym tarasem serwująca tradycyjne suwlaki, steki i dania z owocami morza.",
+          "latitude": 37.97915335652434, 
+          "longitude": 23.729901796764285,
+          "address": "Vlachava 3, Athina 105 51, Greece",
+          "country": "Grecja",
+          "type": "restaurant",
+          "websiteUrl": ""
+        }
+      ]
+    },
     {
       "videoId": "kQOEoIIiqSk",
       "videoUrl": "https://www.youtube.com/watch?v=kQOEoIIiqSk",
