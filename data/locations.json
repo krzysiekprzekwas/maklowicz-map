@@ -686,44 +686,6 @@
       "date": "2020-09-10T21:36:11Z",
       "show": "Robert Makłowicz w podróży",
       "locations": [
-        {
-          "id": "hawelka_krakow",
-          "name": "Restauracja Hawełka",
-          "description": "Jedna z najstarszych restauracji w Krakowie, założona w 1876 roku. Słynie z tradycyjnej kuchni polskiej i galicyjskiej.",
-          "latitude": 50.061825,
-          "longitude": 19.937458,
-          "address": "Rynek Główny 34, 31-010 Kraków",
-          "country": "Poland",
-          "cuisine": ["Polish", "Galician"],
-          "isStillOperating": true,
-          "websiteUrl": "https://hawelka.pl",
-          "type": "restaurant"
-        },
-        {
-          "id": "sukiennice_krakow",
-          "name": "Sukiennice",
-          "description": "Zabytkowy budynek handlowy z XIV wieku, jeden z symboli Krakowa. Obecnie mieści Galerię Sztuki Polskiej XIX wieku.",
-          "latitude": 50.061667,
-          "longitude": 19.937222,
-          "address": "Rynek Główny 1-3, 31-042 Kraków",
-          "country": "Poland",
-          "cuisine": [],
-          "isStillOperating": true,
-          "websiteUrl": "https://mnk.pl/oddzial/galeria-w-sukiennicach",
-          "type": "attraction"
-        },
-        {
-          "id": "rynek_krakow",
-          "name": "Rynek Główny",
-          "description": "Największy średniowieczny rynek w Europie, centrum historycznego Krakowa.",
-          "latitude": 50.061389,
-          "longitude": 19.937222,
-          "address": "Rynek Główny, 31-042 Kraków",
-          "country": "Poland",
-          "cuisine": [],
-          "isStillOperating": true,
-          "type": "other"
-        }
       ]
     },
     {
