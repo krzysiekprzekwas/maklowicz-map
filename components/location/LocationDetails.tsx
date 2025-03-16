@@ -1,5 +1,6 @@
 import { Location } from '../../types/Location';
 import locationData from '../../data/locations.json';
+import LocationIcon from './LocationIcon';
 
 interface LocationDetailsProps {
   location: Location | null;
@@ -13,9 +14,6 @@ export function LocationDetails({ location, onClose }: LocationDetailsProps) {
     v.locations.some(loc => loc.id === location.id)
   );
   const videoUrl = video?.videoUrl;
-
-  const typeIcon = location.type === 'restaurant' ? '🍴' : 
-                  location.type === 'attraction' ? '🏛️' : '📍';
 
   return (
     <>
@@ -49,7 +47,7 @@ export function LocationDetails({ location, onClose }: LocationDetailsProps) {
           <div className="md:hidden w-12 h-1 bg-gray-300 rounded-full mx-auto mb-4" />
 
           <div className="flex items-center gap-2 mb-4">
-            <span className="text-xl">{typeIcon}</span>
+            <span className="text-xl"><LocationIcon location={location} /></span>
             <h2 className="text-xl md:text-2xl font-bold pr-8">{location.name}</h2>
           </div>
           <p className="text-gray-600 mb-4">{location.description}</p>

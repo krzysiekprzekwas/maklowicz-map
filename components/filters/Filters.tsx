@@ -1,4 +1,5 @@
 import { Location } from '../../types/Location';
+import LocationIcon from '../location/LocationIcon';
 import { SearchInput } from './SearchInput';
 
 interface CountryData {
@@ -156,8 +157,7 @@ export function Filters({
                                         {location.name}
                                       </span>
                                       <span className="text-xs opacity-70">
-                                        {location.type === 'restaurant' ? '🍴' : 
-                                         location.type === 'attraction' ? '🏛️' : '📍'}
+                                        <LocationIcon location={location} />
                                       </span>
                                     </button>
                                   ))}

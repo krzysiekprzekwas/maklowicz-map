@@ -7,7 +7,7 @@ import { Filters } from '../components/filters/Filters';
 import { LocationDetails } from '../components/location/LocationDetails';
 
 // Import Map component dynamically to avoid SSR issues
-const Map = dynamic(() => import('../components/Map'), {
+const Map = dynamic(() => import('../components/map/Map'), {
   ssr: false,
   loading: () => (
     <div className="w-full h-full flex items-center justify-center bg-secondary">

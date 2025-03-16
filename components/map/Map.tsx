@@ -2,8 +2,9 @@ import React from 'react';
 import { MapContainer, TileLayer, Marker, useMap } from 'react-leaflet';
 import { LatLngBoundsExpression, LatLngExpression, DivIcon } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import { Location } from '../types/Location';
+import { Location } from '../../types/Location';
 import L from 'leaflet';
+import LocationIcon from '../location/LocationIcon';
 
 // Fix for default marker icons in Leaflet
 delete (L.Icon.Default.prototype as any)._getIconUrl;
@@ -35,14 +36,8 @@ function ChangeView({ locations }: { locations: Location[] }) {
 
 const Map = ({ locations, selectedLocation, onLocationSelect }: MapProps) => {
     const krakowPosition: LatLngExpression = [50.0614300, 19.9365800];
-
     const customIcon = (location: Location, isSelected: boolean): DivIcon => {
-        let icon = '📍'; // default icon for 'other'
-        if (location.type === 'restaurant') {
-            icon = '🍴';
-        } else if (location.type === 'attraction') {
-            icon = '🏛️';
-        }
+        let icon = LocationIcon({ location });
 
         return new L.DivIcon({
             className: 'custom-marker',
@@ -60,7 +55,7 @@ const Map = ({ locations, selectedLocation, onLocationSelect }: MapProps) => {
                 justify-content: center;
                 font-size: 16px;
                 color: #f8f5f0;
-            ">${icon}</div>`,
+            "><${icon}></div>`,
             iconSize: [32, 32],
             iconAnchor: [16, 16],
         });
