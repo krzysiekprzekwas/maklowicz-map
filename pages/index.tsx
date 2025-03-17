@@ -31,9 +31,6 @@ export default function Home() {
     handleVideoClick,
   } = useLocationState();
 
-  const locationState = useLocationState();
-console.log(locationState);
-
   const { countries, filteredLocations, totalLocations } = useLocations(searchQuery, selectedCountry, selectedVideo);
 
   return (
