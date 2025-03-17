@@ -1012,6 +1012,101 @@
       "locations": []
     },
     {
+      "videoId": "ShjRh2eOVak",
+      "videoUrl": "https://www.youtube.com/watch?v=ShjRh2eOVak",
+      "title": "ROBERT MAKŁOWICZ KRETA odc.134 „Góry i morze\".",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2023-05-26T15:24:05Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "lithos",
+          "name": "Lithos",
+          "description": "Restauracjia w spokojniej, pobocznej miejscowosci Mochos.",
+          "latitude": 35.26342664075608, 
+          "longitude": 25.422811811421862,
+          "address": "7C7C+7G Mochos, Greece",
+          "country": "Grecja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/C1ViSSt7kPcLwU4x9"
+        },
+        {
+          "id": "",
+          "name": "Μνημειακός Πλάτανος",
+          "description": "Drzewny platan szacowany na 2000 lat.",
+          "latitude": 35.23366926130626, 
+          "longitude": 25.469250025685955,
+          "address": "6FM9+PH Malia, Greece",
+          "country": "Grecja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/pd64Mq24JteGxiGo9"
+        },
+        {
+          "id": "megali-vrysi",
+          "name": "Megáli Vrýsi",
+          "description": "Historyczna pralnia z czasów otomańskich zachowana w idealnym stanie.",
+          "latitude": 35.23343110056276, 
+          "longitude": 25.469255872513155,
+          "address": "6FM9+9M, Krasi 700 05, Greece",
+          "country": "Grecja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/v69nquHjoERxcyZc7"
+        },
+        {
+          "id": "lasithi-plateau-windmills",
+          "name": "Lasithi Plateau Windmills",
+          "description": "Wiatrak będący napędzanym siłą wiatru młynem.",
+          "latitude": 35.20487774227898, 
+          "longitude": 25.45501253581015,
+          "address": "Ελασας 28, Ηράκλειο 714 10, Greece",
+          "country": "Grecja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/oguPpkWa1PXmLNAW9"
+        },
+        {
+          "id": "forteca-spinalonga",
+          "name": "Forteca Spinalonga",
+          "description": "Wenecka twierdza strzegąca wejścia do zatoki Agios Nikolaos.",
+          "latitude": 35.29757914079385, 
+          "longitude": 25.738037922423903,
+          "address": "7PXP+35 Agios Nikolaos, Greece",
+          "country": "Grecja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/YyaUX2tUvamdJt228"
+        },
+        {
+          "id": "ta-kymata",
+          "name": "Ta Kymata",
+          "description": "Restauracja z świeżymi rybami i owocemi morza.",
+          "latitude": 35.29970364058562, 
+          "longitude": 25.727823637622173,
+          "address": "Epar.Od. Agiou Nikolaou - Vrouchas 52, Ag. Nikolaos 720 53, Greece",
+          "country": "Grecja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/G4BrFZcwbPYwpFw66"
+        },
+        {  
+          "id": "ajos-nikolaos-grecja",
+          "name": "Ajos Nikolaos, Grecja",
+          "description": "Najważniejsze miasto w tej części wyspy.",
+          "latitude": 35.19102927665975, 
+          "longitude": 25.718561179424647,
+          "address": "5MVF+RQ Agios Nikolaos, Greece",
+          "country": "Grecja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/mvJ7wRTwT6Xb7ddTA"
+        }
+      ]
+    },
+    {
       "videoId": "2h_D3CpHhf8",
       "videoUrl": "https://www.youtube.com/watch?v=2h_D3CpHhf8",
       "title": "ROBERT MAKŁOWICZ JORDANIA odc.129  „ Wadi Rum i Morze Czerwone\".",
