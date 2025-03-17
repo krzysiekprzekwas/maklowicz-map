@@ -717,6 +717,89 @@
       ]
     },
     {
+      "videoId": "mn1TgQ9tANM",
+      "videoUrl": "https://www.youtube.com/watch?v=mn1TgQ9tANM",
+      "title": "ROBERT MAKŁOWICZ BOŚNIA odc.195 „Bośniackie sery i dusery\".",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-07-30T14:28:31Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "dzamija-hadzi-ahmeta-dukatara",
+          "name": "Džamija hadži Ahmeta Dukatara",
+          "description": "Lokalny historyczny meczet.",
+          "latitude": 43.8303556826524, 
+          "longitude": 17.009528878780245,
+          "address": "Livno, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/C93Y3ogBEat8PHb87"
+        },
+        {
+          "id": "dzamija-milosnik",
+          "name": "Džamija Milošnik",
+          "description": "Meczet dobrze odzwierciedlający proces przenikania się wpływów architektonicznych w rejonach Bośni.",
+          "latitude": 43.82867178561458, 
+          "longitude": 17.009776019278306,
+          "address": "Kalajdžinica, Livno, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZxRhyomRQg4zErAv8"
+        },
+        {
+          "id": "stari-most",
+          "name": "Stari most",
+          "description": "Turecki most nad Bystrzycą z przełomu XVII i XVIII wieku.",
+          "latitude": 43.83162339997653, 
+          "longitude": 17.008234557705094,
+          "address": "Zastinjska, Livno, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/BGc8wv76tdQVB5Z17"
+        },
+        {
+          "id": "mljekara-livno",
+          "name": "Mljekara Livno",
+          "description": "Lokalna kolektywa mleczarska produkujaca lokalny specjał w postaci sera livańskiego.",
+          "latitude": 43.82322297024638, 
+          "longitude": 16.997920273292404,
+          "address": "Splitska 27, Livno, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/qdHoRh49JjtjuzW29"
+        },
+        {
+          "id": "eko-sir-pu-a",
+          "name": "Eko-sir Puđa",
+          "description": "Fabryka źółtych serów w bośniackim wydaniu.",
+          "latitude": 43.70939255063393, 
+          "longitude": 17.01521886762027,
+          "address": "Bilo Polje, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/1gfrr2qxfbSYTBkR9"
+        },
+        {
+          "id": "libro-restaurant",
+          "name": "Libro Restaurant",
+          "description": "Lokal dla miejscowych pokazujący najlepsze odbicie hercegowińskiej kuchni.",
+          "latitude": 43.35229793752036, 
+          "longitude": 17.761792717255343,
+          "address": "9Q24+WP Ilići, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/FKkDiQ7CpvyRSfmz8"
+        }
+      ]
+    },
+    {
       "videoId": "0yho5TDn3as",
       "videoUrl": "https://www.youtube.com/watch?v=0yho5TDn3as",
       "title": "ROBERT MAKŁOWICZ TENERYFA odc.178  „Gwizdanie na wulkanie\".",
