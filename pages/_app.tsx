@@ -7,10 +7,10 @@ import Head from 'next/head';
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
+      <Head>
+        <title>Śladami Roberta Makłowicza</title>
+      </Head>
       <div className="min-h-screen flex flex-col">
-        <Head>
-          <title>Śladami Roberta Makłowicza</title>
-        </Head>
         <Header />
         <Component {...pageProps} className="flex-1" />
       </div>

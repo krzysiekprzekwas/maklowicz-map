@@ -1,0 +1,87 @@
+import { useMemo } from 'react';
+import type { Location, LocationType } from '../types/Location';
+import locationData from '../data/locations.json';
+
+interface CountryData {
+  name: string;
+  locations: Location[];
+  videos: {
+    videoId: string;
+    title: string;
+    date: string;
+    show: string;
+    locations: Location[];
+  }[];
+}
+
+function validateLocationType(type: string): LocationType {
+    if (type === 'restaurant' || type === 'attraction' || type === 'other') {
+      return type;
+    }
+    console.warn(`Invalid location type: ${type}, defaulting to 'other'`);
+    return 'other';
+  }
+
+export function useLocations(searchQuery: string, selectedCountry: string | null, selectedVideo: string | null) {
+  const countries = useMemo(() => {
+    const countryMap: Record<string, CountryData> = {};
+    const query = searchQuery.toLowerCase().trim();
+
+    locationData.videos.forEach((video) => {
+      const videoMatches = !query || video.title.toLowerCase().includes(query);
+      const matchingLocations = video.locations.filter((loc) =>
+        [loc.name, loc.country, loc.description, loc.address].some((field) =>
+          field.toLowerCase().includes(query)
+        ) || videoMatches
+      );
+
+      matchingLocations.forEach((loc) => {
+        const location = { ...loc, type: validateLocationType(loc.type) };
+        if (!countryMap[location.country]) {
+          countryMap[location.country] = { name: location.country, locations: [], videos: [] };
+        }
+
+        if (!countryMap[location.country].locations.some((l) => l.id === location.id)) {
+          countryMap[location.country].locations.push(location);
+        }
+
+        const existingVideo = countryMap[location.country].videos.find((v) => v.videoId === video.videoId);
+        if (!existingVideo) {
+          countryMap[location.country].videos.push({
+            ...video,
+            locations: matchingLocations.map((l) => ({ ...l, type: validateLocationType(l.type) })),
+          });
+        }
+      });
+    });
+
+    return Object.values(countryMap).sort((a, b) => a.name.localeCompare(b.name));
+  }, [searchQuery]);
+
+  const filteredLocations = useMemo(() => {
+    if (selectedVideo) {
+      return locationData.videos.find((v) => v.videoId === selectedVideo)?.locations.map((l) => ({
+        ...l,
+        type: validateLocationType(l.type),
+      })) || [];
+    }
+
+    if (selectedCountry) {
+      return countries.find((c) => c.name === selectedCountry)?.locations.map((l) => ({
+        ...l,
+        type: validateLocationType(l.type),
+      })) || [];
+    }
+
+    return locationData.videos.flatMap((video) =>
+      video.locations.map((l) => ({ ...l, type: validateLocationType(l.type) }))
+    );
+  }, [selectedCountry, selectedVideo, countries]);
+
+  const totalLocations = useMemo(
+    () => locationData.videos.reduce((acc, video) => acc + video.locations.length, 0),
+    []
+  );
+
+  return { countries, filteredLocations, totalLocations };
+}
