@@ -468,6 +468,65 @@
       ]
     },
     {
+      "videoId": "1TwDMCLheCQ",
+      "videoUrl": "https://www.youtube.com/watch?v=1TwDMCLheCQ",
+      "title": "„Zeppelin i zupa serowa\" - ROBERT MAKŁOWICZ NIEMCY odc.202.",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-11-01T09:50:58Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "stift-st-florian",
+          "name": "Stift St. Florian",
+          "description": "Opactwo pod wezwaniem świętego Floriana, drugie pod względem wielkości w Austrii.",
+          "latitude": 48.20781344538489, 
+          "longitude": 14.378607754337525,
+          "address": "Brucknerstraße 1, 4490 St. Florian, Austria",
+          "country": "Austria",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/g1fXVmuURdqj512c8"
+        },
+        {
+          "id": "hotel-restaurant-am-obstgarten",
+          "name": "Hotel & Restaurant \"Am Obstgarten\"",
+          "description": "Gasthaus z wyborną restauracją w poblizu Jeziora Bodeńskiego.",
+          "latitude": 47.73793449941936, 
+          "longitude": 9.46150464179361,
+          "address": "Gehrenbergstraße 31, 88094 Oberteuringen, Germany",
+          "country": "Niemcy",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/1r3VQsdxHi4z2rQx7"
+        },
+        {
+          "id": "zeppelin-museum-friedrichshafen",
+          "name": "Zeppelin Museum Friedrichshafen",
+          "description": "Muzeum na część generała i inżyniera Ferdinanda von Zeppelina oraz jego dzieł w postaci sterowców.",
+          "latitude": 47.65080675459402, 
+          "longitude": 9.48292162499943,
+          "address": "Karlstraße 13, 88045 Friedrichshafen, Germany",
+          "country": "Niemcy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/mcFrqmQP1xUCTyfm8"
+        },
+        {
+          "id": "gutsschanke",
+          "name": "Gutsschänke",
+          "description": "Restauracja należąca do lokalnej kooperatywy winiarskiej z przepięknym widokiem na jezioro.",
+          "latitude": 47.693004278834316, 
+          "longitude": 9.273086880647709,
+          "address": "Seminarstraße 5, 88709 Meersburg, Germany",
+          "country": "Niemcy",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/tMGiQfXmFtPFSZvR7"
+        }
+      ]
+    },
+    {
       "videoId": "uA0dLICT_sU",
       "videoUrl": "https://www.youtube.com/watch?v=uA0dLICT_sU",
       "title": "„Przystanek Linz\" - ROBERT MAKŁOWICZ AUSTRIA odc.201.",
