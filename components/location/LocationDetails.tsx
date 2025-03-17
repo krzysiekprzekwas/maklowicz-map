@@ -17,14 +17,6 @@ export function LocationDetails({ location, onClose }: LocationDetailsProps) {
 
   return (
     <>
-      {/* Overlay for mobile */}
-      <div 
-        className={`md:hidden fixed inset-0 bg-black bg-opacity-50 transition-opacity ${
-          location ? 'opacity-100' : 'opacity-0 pointer-events-none'
-        }`}
-        onClick={onClose}
-      />
-
       {/* Details Panel */}
       <aside 
         className={`fixed md:top-[116px] bottom-0 right-0 w-full md:w-96 bg-white shadow-xl transform transition-transform duration-300 ease-in-out 
@@ -37,14 +29,11 @@ export function LocationDetails({ location, onClose }: LocationDetailsProps) {
           {/* Close Button */}
           <button
             onClick={onClose}
-            className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors"
+            className="absolute top-4 right-4 w-12 h-12 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors"
             aria-label="Zamknij szczegóły"
           >
-            <span className="text-gray-500 text-xl">×</span>
+            <span className="text-gray-500 text-xl">x</span>
           </button>
-
-          {/* Mobile Handle */}
-          <div className="md:hidden w-12 h-1 bg-gray-300 rounded-full mx-auto mb-4" />
 
           <div className="flex items-center gap-2 mb-4">
             <span className="text-xl"><LocationIcon location={location} /></span>

@@ -15,7 +15,7 @@ export function Header() {
               <li>
                 <Link 
                   href="/" 
-                  className="text-secondary border-b-2 border-secondary"
+                  className="hover:text-secondary-darker transition-colors border-b-2 border-primary hover:border-secondary-darker"
                 >
                   Mapa
                 </Link>
