@@ -1,41 +1,50 @@
-import Link from 'next/link';
-import { Analytics } from '@vercel/analytics/next';
+import { useRouter } from "next/router";
+import Link from "next/link";
+import { Analytics } from "@vercel/analytics/next";
+
+const styles = {
+  header: "bg-primary text-secondary",
+  container: "container mx-auto px-4 md:px-6 py-4",
+  layout: "flex flex-col md:flex-row md:justify-between md:items-center gap-4",
+  title: "text-2xl md:text-3xl font-bold mb-2",
+  subtitle: "text-base md:text-lg opacity-90",
+  nav: "flex space-x-4 md:space-x-6 items-center text-base md:text-lg",
+  link: "transition-colors border-b-2 border-primary hover:border-secondary-darker",
+  activeLink: "border-secondary-darker text-secondary-darker font-bold",
+};
 
 export function Header() {
+  const router = useRouter();
+  const pathname = router.pathname;
+
+  const navLinks = [
+    { href: "/", label: "Mapa" },
+    { href: "/about", label: "O projekcie" },
+    { href: "/contact", label: "Kontakt" },
+  ];
+
   return (
-    <header className="bg-primary text-secondary">
-      <div className="container mx-auto px-4 md:px-6 py-4">
-        <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-4">
+    <header className={styles.header}>
+      <div className={styles.container}>
+        <div className={styles.layout}>
           <div>
-            <h1 className="text-2xl md:text-3xl font-bold mb-2">Śladami Roberta Makłowicza</h1>
-            <p className="text-base md:text-lg opacity-90">Interaktywna mapa restauracji i atrakcji odwiedzonych przez Roberta Makłowicza</p>
+            <h1 className={styles.title}>Śladami Roberta Makłowicza</h1>
+            <p className={styles.subtitle}>
+              Interaktywna mapa restauracji i atrakcji odwiedzonych przez Roberta Makłowicza
+            </p>
           </div>
-          <nav className="flex justify-end">
-            <ul className="flex space-x-4 md:space-x-6 items-center text-base md:text-lg">
-              <li>
-                <Link 
-                  href="/" 
-                  className="hover:text-secondary-darker transition-colors border-b-2 border-primary hover:border-secondary-darker"
-                >
-                  Mapa
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  href="/about" 
-                  className="hover:text-secondary-darker transition-colors border-b-2 border-primary hover:border-secondary-darker"
-                >
-                  O projekcie
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  href="/contact" 
-                  className="hover:text-secondary-darker transition-colors border-b-2 border-primary hover:border-secondary-darker"
-                >
-                  Kontakt
-                </Link>
-              </li>
+          <nav>
+            <ul className={styles.nav}>
+              {navLinks.map(({ href, label }) => (
+                <li key={href}>
+                  <Link
+                    href={href}
+                    className={`${styles.link} ${pathname === href ? styles.activeLink : ""}`}
+                  >
+                    {label}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </nav>
         </div>
@@ -43,4 +52,4 @@ export function Header() {
       <Analytics />
     </header>
   );
-} 
+}
