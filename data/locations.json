@@ -717,6 +717,77 @@
       ]
     },
     {
+      "videoId": "4A6vwcVhPwU",
+      "videoUrl": "https://www.youtube.com/watch?v=4A6vwcVhPwU",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc.196 „Z ziemi włoskiej do śląskiej\".",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-09-20T14:28:31Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "fca-poland-s-a",
+          "name": "FCA Poland S.A",
+          "description": "Fabryka produkująca auta z koncernu Stelantis. Między innymimarki Fiat, Alfa Romeo i Lancia.",
+          "latitude": 50.10736173369971, 
+          "longitude": 19.076833049066376,
+          "address": "4338+MC, 43-109 Tychy, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/gHGtnAhWJ7hWp3T6A"
+        },
+        {
+          "id": "la-fontana-pizza-napoletana",
+          "name": "La Fontana Pizza Napoletana",
+          "description": "Pizzeria neapolitańska w centrum Tych.",
+          "latitude": 50.12575550373082, 
+          "longitude": 18.982624452892097,
+          "address": "Brzechwy 3, 43-100 Tychy, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/AZGAguvejyCoNuqU9"
+        },
+        {
+          "id": "muzeum-zamkowe-w-pszczynie",
+          "name": "Muzeum Zamkowe w Pszczynie",
+          "description": "Unikalny barokowy zamek pełniący funkcje muzeum. W 80% nadal oryginalny.",
+          "latitude": 49.978108616489216, 
+          "longitude": 18.94048649037167,
+          "address": "Pszczyna Castle, Brama Wybrańców 1, 43-200 Pszczyna, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/D6znvczsgKud3EH1A"
+        },
+        {
+          "id": "wodna-wieza",
+          "name": "Wodna Wieża",
+          "description": "Dawna wieża ciśnień, dziś łaźnia, restauracja i hotel.",
+          "latitude": 49.9742083,
+          "longitude": 18.9389501,
+          "address": "dr. Witolda Antesa 6, 43-200 Pszczyna, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/rSbABcy6yt4voo6b6"
+        },
+        {
+          "id": "pa-ac-czeczow",
+          "name": "Pałac Czeczów",
+          "description": "Dawniej prywatny pałac, a dziś przepiękna biblioteka.",
+          "latitude": 49.846052421928356, 
+          "longitude": 19.142312938900183,
+          "address": "Pasażerska 23, 43-300 Bielsko-Biała, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/R3T1eashW6iv3ZFj8"
+        }
+      ]
+    },
+    {
       "videoId": "mn1TgQ9tANM",
       "videoUrl": "https://www.youtube.com/watch?v=mn1TgQ9tANM",
       "title": "ROBERT MAKŁOWICZ BOŚNIA odc.195 „Bośniackie sery i dusery\".",

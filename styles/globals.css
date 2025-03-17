@@ -11,3 +11,9 @@ body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-rgb));
 } 
+
+html, body, #__next {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

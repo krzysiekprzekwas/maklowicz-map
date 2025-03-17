@@ -2,11 +2,18 @@ import React from 'react';
 import type { AppProps } from 'next/app';
 import '../styles/globals.css';
 import { Header } from '../components/layout/Header';
+import Head from 'next/head';
+
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Header />
-      <Component {...pageProps} />
+      <div className="min-h-screen flex flex-col">
+        <Head>
+          <title>Śladami Roberta Makłowicza</title>
+        </Head>
+        <Header />
+        <Component {...pageProps} className="flex-1" />
+      </div>
     </>
   );
 }
