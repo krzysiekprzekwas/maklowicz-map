@@ -468,6 +468,113 @@
       ]
     },
     {
+      "videoId": "uA0dLICT_sU",
+      "videoUrl": "https://www.youtube.com/watch?v=uA0dLICT_sU",
+      "title": "„Przystanek Linz\" - ROBERT MAKŁOWICZ AUSTRIA odc.201.",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-10-25T22:05:02Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "restaurant-rauner",
+          "name": "Restaurant Rauner",
+          "description": "Resturacja ciesząca się najlepszą opinią w łączeniu tradycji z nowoczesnością.",
+          "latitude": 48.28826079699857, 
+          "longitude": 14.304349048865191,
+          "address": "Lissagasse 8, 4020 Linz, Austria",
+          "country": "Austria",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/tEP8ShNsV3oEY5Mr5"
+        },
+        {
+          "id": "hauptplatz-linz",
+          "name": "Hauptplatz Linz",
+          "description": "Główny plac, tudzież rynek z barokową morową kolumną.",
+          "latitude": 48.30566537331205, 
+          "longitude": 14.286617597125153,
+          "address": "Hauptpl. 13, 4020 Linz, Austria",
+          "country": "Austria",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/26pTNqdgrYwm3Ypy9"
+        },
+        {
+          "id": "leberkas-pepi-linz-rathausgasse",
+          "name": "Leberkas-Pepi Linz Rathausgasse",
+          "description": "Nejlepsze Leberkase w Linz, lokalnym przysmakiem w postaci kajzerki i pieczeni.",
+          "latitude": 48.30634855414715, 
+          "longitude": 14.287345129637913,
+          "address": "Kapuzinerstraße 68, 4020 Linz, Austria",
+          "country": "Austria",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/pzS3ot2dpwef9Wj3A"
+        },
+        {
+          "id": "muzeum-zamkowe-w-linz",
+          "name": "Muzeum zamkowe w Linz",
+          "description": "Muzeum zamkowe w Linz, zlokalizowane w zamku Linz, który był siedzibą wielu władców. Dziś przykład interesującego połączenia historycznej i nowoczesnej architektury, wraz z ciekawym punktem widokowym na centrum miasta.",
+          "latitude": 48.3053816572792, 
+          "longitude": 14.282347465920498,
+          "address": "Martingasse 1, 4020 Linz, Austria",
+          "country": "Austria",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/qGVdbUzhfNKWQfti7"
+        },
+        {
+          "id": "k-u-k-hofbackerei-cafe",
+          "name": "k.u.k. Hofbäckerei Café",
+          "description": "Cesarsko-królewska piekarnia zlokalizowana w zamku Linz w starym lokalu gildii piekarskiej pełna historycznych wspominów z czasów cesarskich.",
+          "latitude": 48.30580884802384, 
+          "longitude": 14.288367709841006,
+          "address": "Hofgasse 23, 4020 Linz, Austria",
+          "country": "Austria",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/yNm7wKgQKBqFmTHv6"
+        },
+        {
+          "id": "ars-electronica",
+          "name": "Ars Electronica",
+          "description": "Muzeum cyfrowych sztuk wizualnych, manifest postnazistyczny, siedziba europejskiej agencji kosmicznej.",
+          "latitude": 48.309642505138655, 
+          "longitude": 14.28441299810383,
+          "address": "Neugasse 3, 4040 Linz, Austria",
+          "country": "Austria",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Nk6F6hfQJD8zqPsD8"
+        },
+        {
+          "id": "postlingberg",
+          "name": "Pöstlingberg",
+          "description": "Wzgórze nieopodal Linzu z historyczną twierdzą. Wjechać na nie można korzystająć z miejskiego tramwaju, który na tej lini jest nastromszym w Europie. Na miejscu przywita nas przepiękny panoramiczny widok na Linz.",
+          "latitude": 48.3240215975453, 
+          "longitude": 14.258244903391049,
+          "address": "Am Pöstlingberg 15, 4040 Linz, Austria",
+          "country": "Austria",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZeA8XVs38cJ7XEPa7"
+        },
+        {
+          "id": "die-wirtsleut-im-leopoldistuberl",
+          "name": "Die Wirtsleut im Leopoldistüberl",
+          "description": "Lokal w stylu sztuby, z krótkim menu i historycznymi lokalnymipotrawami.",
+          "latitude": 48.306731913629655, 
+          "longitude": 14.287125596328561,
+          "address": "Ob. Donaulände 17, 4020 Linz, Austria",
+          "country": "Austria",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/t1Cxsgx3fTEM9Wgo7"
+        }
+      ]
+    },
+    {
       "videoId": "ohjWxpSXMAg",
       "videoUrl": "https://www.youtube.com/watch?v=ohjWxpSXMAg",
       "title": "ROBERT MAKŁOWICZ CZECHY odc.200  „Husyci, Hrabal  i Hermelin\".",

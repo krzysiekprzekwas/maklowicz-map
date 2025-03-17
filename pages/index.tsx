@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import dynamic from 'next/dynamic';
-import type { Location, LocationData, LocationType } from '../types/Location';
+import type { Location, LocationType } from '../types/Location';
 import locationData from '../data/locations.json';
 import { Header } from '../components/layout/Header';
 import { Filters } from '../components/filters/Filters';
