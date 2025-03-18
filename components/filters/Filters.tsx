@@ -68,10 +68,6 @@ export function Filters({
         style={{ zIndex: 9999 }}
       >
         <div className="relative h-full">
-          {/* Mobile Handle */}
-          <div className="md:hidden w-12 h-1 bg-gray-300 rounded-full mx-auto mt-2" />
-
-          {/* Content */}
           <div className="w-full h-full overflow-y-auto">
             <div className="p-4">
               <SearchInput
