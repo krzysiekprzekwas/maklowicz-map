@@ -1161,7 +1161,7 @@
           "latitude": 49.47050608800283, 
           "longitude": 6.36666386403565,
           "address": "6 Rue Robert Goebbels, 5444 Schengen, Luxembourg",
-          "country": "Luxembourg",
+          "country": "Luksemburg",
           "type": "attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/7TNGDUdVy5amRBBM9"
@@ -1170,10 +1170,10 @@
           "id": "pa-ac-wielkich-ksiazat-w-luksemburgu",
           "name": "Pałac Wielkich Książąt w Luksemburgu",
           "description": "Rezydencja wielkiego księcia Luksemburgu.",
-          "latitude": 449.61089203226022, 
+          "latitude": 49.61089203226022, 
           "longitude": 6.132727900772976,
           "address": "42 Pl. Guillaume II, 2090 Ville-Haute Luxembourg",
-          "country": "Luxembourg",
+          "country": "Luksemburg",
           "type": "attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/snaMGvRVBDxPdKRS9"
@@ -1185,7 +1185,7 @@
           "latitude": 49.61033070755902,
           "longitude": 6.1304929773612695,
           "address": "36 Rue Philippe II, 2340 Ville-Haute Luxembourg",
-          "country": "Luxembourg",
+          "country": "Luksemburg",
           "type": "attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/Limtce3rC2wNJTNL7"
@@ -1197,8 +1197,8 @@
           "latitude": 49.6101981,
           "longitude": 6.1275041,
           "address": "29 Rue Aldringen, 1118 Ville-Haute Luxembourg",
-          "country": "Luxembourg",
-          "type": "other",
+          "country": "Luksemburg",
+          "type": "attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/iF4j91gGPFvrUjgi6"
         },
@@ -1209,7 +1209,7 @@
           "latitude": 49.61201257084448, 
           "longitude": 6.131262970382719,
           "address": "20 Grand-Rue, 1660 Ville-Haute Luxembourg",
-          "country": "Luxembourg",
+          "country": "Luksemburg",
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/tgytC7r45A1eSRZW8"
@@ -1221,7 +1221,7 @@
           "latitude": 49.60021460390374, 
           "longitude": 6.134033291987887,
           "address": "7 Rue de Reims, 2417 Gare Luxembourg",
-          "country": "Luxembourg",
+          "country": "Luksemburg",
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/mqQvyGp4uwhz5ZM28"
@@ -1233,7 +1233,7 @@
           "latitude": 49.618597449624914, 
           "longitude": 6.142341125682589,
           "address": "J49Q+CX Luxembourg",
-          "country": "Luxembourg",
+          "country": "Luksemburg",
           "type": "attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/mneUdtSeYCRaYSdg6"
@@ -1245,7 +1245,7 @@
           "latitude": 49.62081477744693,
           "longitude":  6.140924940706748,
           "address": "45 Boulevard Konrad Adenauer, 1115 Kirchberg-Plateau Luxemburg, Luxembourg",
-          "country": "Luxembourg",
+          "country": "Luksemburg",
           "type": "attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/7w3USDeQu6RJkKnn8"
@@ -1257,7 +1257,7 @@
           "latitude": 49.62798602273347, 
           "longitude": 6.422205584039386,
           "address": "22 CR142, 5401 Ahn Wormeldange, Luxembourg",
-          "country": "Luxembourg",
+          "country": "Luksemburg",
           "type": "attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/aRtUq8E8oqQGUAQd8"
