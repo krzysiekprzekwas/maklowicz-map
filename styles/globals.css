@@ -13,7 +13,7 @@ body {
 } 
 
 html, body, #__next {
-  height: 100%;
+  height: 100dvh;
   margin: 0;
   padding: 0;
 }
