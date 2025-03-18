@@ -167,6 +167,65 @@
       ]
     },
     {
+      "videoId": "JJ_77-wzelU",
+      "videoUrl": "https://www.youtube.com/watch?v=JJ_77-wzelU",
+      "title": "„Toruń korzenny\" - ROBERT MAKŁOWICZ POLSKA odc.210",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-12-27T11:16:16Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "monka-restauracja-torun-breakfast-bakery-restaurant",
+          "name": "MONKA - Restauracja Toruń - BREAKFAST | BAKERY | RESTAURANT",
+          "description": "Restauracja umiejscowiona w dawnym spichlerzu, jednym z niewielu przykładów barokowego budownictwa w Toruniu.",
+          "latitude": 53.00848947615667, 
+          "longitude": 18.602721935161355,
+          "address": "al. Jana Pawła II 2, 87-100 Toruń, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/PY1tx6p7e8o6zfq98"
+        },
+        {
+          "id": "dom-miko-aja-kopernika",
+          "name": "Dom Mikołaja Kopernika",
+          "description": "Dawny dom, a dziś muzeum upamiętniające najsławniejszego toruńskiego astronoma.",
+          "latitude": 53.00933991967382, 
+          "longitude": 18.6038625688808,
+          "address": "Mikołaja Kopernika 14, 87-100 Toruń, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/39F2ZV6xGiYAog1d9"
+        },
+        {
+          "id": "4-pory-roku-restauracja",
+          "name": "4 Pory Roku Restauracja",
+          "description": "Restauracja mająca swój lokal w danym budynku młynu na toruńskim podzamczu.",
+          "latitude": 53.009839043099085, 
+          "longitude": 18.611079465804874,
+          "address": "Mikołaja Kopernika 6, 87-100 Toruń, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ndZLfFowbDoTECQ36"
+        },
+        {
+          "id": "rejsy-w-toruniu-nasuta-copernicus",
+          "name": "Rejsy w Toruniu - Nasuta Copernicus",
+          "description": "Replika średniowiecznego statku towarowego. Odzworowany na podstawie dawnego fresku.",
+          "latitude": 53.00773681805917, 
+          "longitude": 18.606706674153177,
+          "address": "Bulwar Filadelfijski 5, 87-100 Toruń, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/pkeqVjj1tbpSyq8S9"
+        }
+      ]
+    },
+    {
       "videoId": "0REySF_blwU",
       "videoUrl": "https://www.youtube.com/watch?v=0REySF_blwU",
       "title": "„Wigilijny Toruń\" - ROBERT MAKŁOWICZ POLSKA odc.209",
