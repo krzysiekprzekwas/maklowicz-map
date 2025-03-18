@@ -1146,6 +1146,125 @@
       "locations": []
     },
     {
+      "videoId": "Od1M5mUCY7c",
+      "videoUrl": "https://www.youtube.com/watch?v=Od1M5mUCY7c",
+      "title": "ROBERT MAKŁOWICZ LUKSEMBURG odc.158 „Luksemburg. Urocze maleństwo\".",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2023-11-24T18:08:33Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "place-des-etoiles",
+          "name": "Place des Étoiles",
+          "description": "Intalacja artystyczna goloryfikująca kulturową i historyczną różnorodność krajów członkowskich grupy Schengen.",
+          "latitude": 49.47050608800283, 
+          "longitude": 6.36666386403565,
+          "address": "6 Rue Robert Goebbels, 5444 Schengen, Luxembourg",
+          "country": "Luxembourg",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/7TNGDUdVy5amRBBM9"
+        },
+        {
+          "id": "pa-ac-wielkich-ksiazat-w-luksemburgu",
+          "name": "Pałac Wielkich Książąt w Luksemburgu",
+          "description": "Rezydencja wielkiego księcia Luksemburgu.",
+          "latitude": 449.61089203226022, 
+          "longitude": 6.132727900772976,
+          "address": "42 Pl. Guillaume II, 2090 Ville-Haute Luxembourg",
+          "country": "Luxembourg",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/snaMGvRVBDxPdKRS9"
+        },
+        {
+          "id": "hotel-de-ville",
+          "name": "Hôtel de Ville",
+          "description": "Ratusz miasta Luksemburg.",
+          "latitude": 49.61033070755902,
+          "longitude": 6.1304929773612695,
+          "address": "36 Rue Philippe II, 2340 Ville-Haute Luxembourg",
+          "country": "Luxembourg",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Limtce3rC2wNJTNL7"
+        },
+        {
+          "id": "statue-of-the-grand-duchess-charlotte",
+          "name": "Statue of the Grand Duchess Charlotte",
+          "description": "Pomnik upamiętniejący jedną z najbardziej wpływowych głów luksemburskiej monarchii.",
+          "latitude": 49.6101981,
+          "longitude": 6.1275041,
+          "address": "29 Rue Aldringen, 1118 Ville-Haute Luxembourg",
+          "country": "Luxembourg",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/iF4j91gGPFvrUjgi6"
+        },
+        {
+          "id": "oberweis-grand-rue",
+          "name": "Oberweis Grand-Rue",
+          "description": "Królewski dostawca wypieków.",
+          "latitude": 49.61201257084448, 
+          "longitude": 6.131262970382719,
+          "address": "20 Grand-Rue, 1660 Ville-Haute Luxembourg",
+          "country": "Luxembourg",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/tgytC7r45A1eSRZW8"
+        },
+        {
+          "id": "le-quai-steffen-gare-de-luxembourg-restaurant",
+          "name": "Le Quai Steffen Gare de Luxembourg | Restaurant",
+          "description": "Lokal cieszący się opinią najlepszego miejsca do spotkania się z kuchnia luksemburską.",
+          "latitude": 49.60021460390374, 
+          "longitude": 6.134033291987887,
+          "address": "7 Rue de Reims, 2417 Gare Luxembourg",
+          "country": "Luxembourg",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/mqQvyGp4uwhz5ZM28"
+        },
+        {
+          "id": "philharmonie-luxembourg",
+          "name": "Philharmonie Luxembourg",
+          "description": "Wielka sala koncertowa z wysokim standardem w dzielnicy Kishberg.",
+          "latitude": 49.618597449624914, 
+          "longitude": 6.142341125682589,
+          "address": "J49Q+CX Luxembourg",
+          "country": "Luxembourg",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/mneUdtSeYCRaYSdg6"
+        },
+        {
+          "id": "court-of-justice-of-the-european-union",
+          "name": "Court of Justice of the European Union",
+          "description": "Serce europejskiego prawa. Trybunał Sprawiedliwości Unii Europejskiej.",
+          "latitude": 49.62081477744693,
+          "longitude":  6.140924940706748,
+          "address": "45 Boulevard Konrad Adenauer, 1115 Kirchberg-Plateau Luxemburg, Luxembourg",
+          "country": "Luxembourg",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/7w3USDeQu6RJkKnn8"
+        },
+        {
+          "id": "schmit-fohl-maison-viticole",
+          "name": "Schmit-Fohl (Maison Viticole)",
+          "description": "Winiarnia która odpowiada za pierwszą apelację w sprawie luksemburskiego cremant, oficjalnego wina musucjącego tworzonego metodą szampańską. ",
+          "latitude": 49.62798602273347, 
+          "longitude": 6.422205584039386,
+          "address": "22 CR142, 5401 Ahn Wormeldange, Luxembourg",
+          "country": "Luxembourg",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/aRtUq8E8oqQGUAQd8"
+        }
+      ]
+    },
+    {
       "videoId": "XGCf6NBxVQU",
       "videoUrl": "https://www.youtube.com/watch?v=XGCf6NBxVQU",
       "title": "ROBERT MAKŁOWICZ NIEMCY odc.153  „Szlakiem rzymskich okrętów\".",
