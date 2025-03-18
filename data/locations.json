@@ -285,6 +285,101 @@
       ]
     },
     {
+      "videoId": "kyYA5kd5Ikg",
+      "videoUrl": "https://www.youtube.com/watch?v=kyYA5kd5Ikg",
+      "title": "„Epikurejska wyspa Samos\" - ROBERT MAKŁOWICZ odc.208 GRECJA",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-12-13T11:16:16Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "paralia-psili-ammos",
+          "name": "Paralia Psili Ammos",
+          "description": "Piaszczyta plaża w miejscowości Psili Ammos z widokiem na Azję Mniejszą.",
+          "latitude": 37.7078070145364, 
+          "longitude": 27.017563355401737,
+          "address": "P258+78, Psili Ammos 831 00, Greece",
+          "country": "Grecja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/269jByprsu9VC3mXA"
+        },
+        {
+          "id": "pythagoras-statue",
+          "name": "Pythagoras Statue",
+          "description": "Statuła filozofa, matematyka i astronoma w miejsciowości gdzie się urodził i spędził 40 lat swojego życia.",
+          "latitude": 37.689716925329925, 
+          "longitude": 26.94486301069588,
+          "address": "Ε.Ο. Πυθαγορείου Χώρας 9, Pithagorio 831 03, Greece",
+          "country": "Grecja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/eNb8V25kYkLGBSXz5"
+        },
+        {
+          "id": "tunel-eupalinosa",
+          "name": "Tunel Eupalinosa",
+          "description": "Architektonieczny i matematyczny geniusz czasów starożytnych. Akwedukt wykuty w skałach.",
+          "latitude": 37.694450968974124, 
+          "longitude": 26.930279556583038,
+          "address": "MVVR+VR Pithagorio, Greece",
+          "country": "Grecja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/MDpp4QtJ83z2H5Cx7"
+        },
+        {
+          "id": "monastyr-matki-boskiej-samos",
+          "name": "Ιερά Μονή Μεγάλης Παναγιάς Σάμου",
+          "description": "Monastyr pod wezwaniem Matki Boskiej. Odbudowany w XVII wieku. Po dziś mieszkają tu mnisi. Dwaj.",
+          "latitude": 37.695322295220315, 
+          "longitude": 26.842278281142434,
+          "address": "Κουμανταραιοι Σαμος, Moni Megalis Panagias 831 04, Greece",
+          "country": "Grecja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/fKe9v9j2q6kW2VvX6"
+        },
+        {
+          "id": "sama-authentic-samos-cuisine",
+          "name": "Sama authentic samos cuisine",
+          "description": "Tawerna serująca grecką interpretację kuchni górskiej.",
+          "latitude": 37.70965412076481, 
+          "longitude": 26.748627859440827,
+          "address": "PP5X+V5 Koumeika, Greece",
+          "country": "Grecja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/SzFCC3tTfRSsmhhA8"
+        },
+        {
+          "id": "metaxa-liknon",
+          "name": "METAXA LIKNON",
+          "description": "Przepięknie wpisana w krajobraz architekturalnie destylarnia Metaxy.",
+          "latitude": 37.7873448364708,
+          "longitude": 26.849160175237902,
+          "address": "QRPV+XP Vathi, Greece",
+          "country": "Grecja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/FrkbaT27kf9TyuXU6"
+        },
+        {
+          "id": "mermizeli",
+          "name": "MERMIZELI",
+          "description": "Restauracja przy samej marinie miejscowości Pithagorio.",
+          "latitude": 37.68868188660813, 
+          "longitude": 26.942756630705436,
+          "address": "Δεσπότη Κυρίλλου 7, Pithagorio 831 03, Greece",
+          "country": "Grecja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/HD6dRYgiiwzZcc699"
+        }
+      ]
+    },
+    {
       "videoId": "1IwnfwMU25Y",
       "videoUrl": "https://www.youtube.com/watch?v=1IwnfwMU25Y",
       "title": "„Spoglądając z Akropolu\" - ROBERT MAKŁOWICZ GRECJA odc.206",
