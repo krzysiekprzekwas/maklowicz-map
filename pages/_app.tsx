@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <title>Śladami Roberta Makłowicza</title>
       </Head>
-      <div className="min-h-screen flex flex-col">
+      <div className="min-h-screen pb-[env(safe-area-inset-bottom)] flex flex-col">
         <Header />
         <Component {...pageProps} className="flex-1" />
       </div>
