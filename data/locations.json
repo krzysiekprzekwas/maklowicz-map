@@ -1063,6 +1063,102 @@
       ]
     },
     {
+      "videoId": "o9rrHTqh618",
+      "videoUrl": "https://www.youtube.com/watch?v=o9rrHTqh618",
+      "title": "ROBERT MAKŁOWICZ CZECHY odc.199 „ Srebrna Kutna Hora\".",
+      "filterTitle": "Srebrna Kutna Hora (odc. 199)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-10-11T14:28:31Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "kolumna-niepokalanej-maryi-panny-w-kutnej-horze",
+          "name": "Kolumna Niepokalanej Maryi Panny w Kutnej Horze",
+          "description": "Kolumna morowa z czasów dynastii Habsburgów.",
+          "latitude": 49.94941853655536, 
+          "longitude": 15.266865824274701,
+          "address": "Rakova 682, Vnitřní Město, 284 01 Kutná Hora-Kutná Hora 1, Czechia",
+          "country": "Czechy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/fPVnPjbRJxbQ8wa7A"
+        },
+        {
+          "id": "hradek",
+          "name": "Hrádek",
+          "description": "Dawna fabryka srebra z otwartym dla turystów historycznym tunelem.",
+          "latitude": 49.947661847714514, 
+          "longitude": 15.265253802461805,
+          "address": "Kremnická 115/6, 284 01 Kutná Hora-Kutná Hora 1, Czechia",
+          "country": "Czechy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/HqkPqwJsxaU9JEth7"
+        },
+        {
+          "id": "restaurace-dacicky",
+          "name": "Restaurace Dačický",
+          "description": "Gospoda z nazwy nawiązująca do historycznie szanowanej lokalnej rodziny.",
+          "latitude": 49.94837670864859, 
+          "longitude": 15.264741449467545,
+          "address": "Husova 129/57, Vnitřní Město, 284 01 Kutná Hora-Kutná Hora 1, Czechia",
+          "country": "Czechy",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/1hT1DY3fZ9K6A7de7"
+        },
+        {
+          "id": "koscio-swietej-barbary",
+          "name": "Kościół świętej Barbary",
+          "description": "Jedna z najbardziej zdumiewających gotyckich świątyń. Wzniesiona w złotych latach Kutnej Hory na cześć patronki górników.",
+          "latitude": 49.94487586640168, 
+          "longitude": 15.263257401722441,
+          "address": "Vojtěšská 106, 284 01 Kutná Hora-Kutná Hora 1, Czechia",
+          "country": "Czechy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/TxCybo14KXhKvvzPA"
+        },
+        {
+          "id": "dwor-w-oski",
+          "name": "Dwór Włoski",
+          "description": "Dawna mennica korzystająca z najlepszych na ów czas włoskich technik wytwarzania monet.",
+          "latitude": 49.948328549072784, 
+          "longitude": 15.268319234502092,
+          "address": "Jakubská 562, 284 01 Kutná Hora-Kutná Hora 1, Czechia",
+          "country": "Czechy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/VYfjtvCWYwZhaUjT6"
+        },
+        {
+          "id": "wine-cellars-kutna-hora",
+          "name": "Wine Cellars Kutna Hora",
+          "description": "Lokalny sklep winny oferujący czeskie wina, w tym lokalny pinot noir.",
+          "latitude": 49.95205630536993, 
+          "longitude": 15.26797765517701,
+          "address": "Hradební 703, 284 01 Kutná Hora-Kutná Hora 1, Czechia",
+          "country": "Czechy",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/wxLB24R4ot2krf4N6"
+        },
+        {
+          "id": "staroceska-restaurace-v-ruthardce",
+          "name": "Staročeská restaurace V Ruthardce",
+          "description": "Gospoda specjalizujecja się w kuchni staroczeskiej. Zbudowana na ruinach dawnej sadyby rodziny Ruthardów.",
+          "latitude": 49.94810984471349, 
+          "longitude": 15.26664948217239,
+          "address": "Rakova 45/5, Vnitřní Město, 284 01 Kutná Hora-Kutná Hora 1, Czechia",
+          "country": "Czechy",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/APaj6pwcfLnCEfMn9"
+        }
+      ]
+    },
+    {
       "videoId": "4A6vwcVhPwU",
       "videoUrl": "https://www.youtube.com/watch?v=4A6vwcVhPwU",
       "title": "ROBERT MAKŁOWICZ POLSKA odc.196 „Z ziemi włoskiej do śląskiej\".",
