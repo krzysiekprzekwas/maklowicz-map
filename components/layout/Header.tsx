@@ -11,6 +11,8 @@ const styles = {
   nav: "flex space-x-4 md:space-x-6 items-center text-base md:text-lg",
   link: "transition-colors border-b-2 border-primary hover:border-secondary-darker",
   activeLink: "border-secondary-darker text-secondary-darker font-bold",
+  logoTitleContainer: "flex items-center gap-4",
+  logo: "w-12 h-auto invert",
 };
 
 export function Header() {
@@ -27,12 +29,19 @@ export function Header() {
     <header className={styles.header}>
       <div className={styles.container}>
         <div className={styles.layout}>
+        <div className={styles.logoTitleContainer}>
+          <img
+            src="/hat.svg"
+            alt="Logo"
+            className={styles.logo}
+          />
           <div>
             <h1 className={styles.title}>Śladami Roberta Makłowicza</h1>
             <p className={styles.subtitle}>
               Interaktywna mapa restauracji i atrakcji odwiedzonych przez Roberta Makłowicza
             </p>
           </div>
+        </div>
           <nav>
             <ul className={styles.nav}>
               {navLinks.map(({ href, label }) => (
