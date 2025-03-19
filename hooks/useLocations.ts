@@ -1,18 +1,6 @@
 import { useMemo } from 'react';
-import type { Location, LocationType } from '../types/Location';
+import type { CountryData, LocationType } from '../types/Location';
 import locationData from '../data/locations.json';
-
-interface CountryData {
-  name: string;
-  locations: Location[];
-  videos: {
-    videoId: string;
-    title: string;
-    date: string;
-    show: string;
-    locations: Location[];
-  }[];
-}
 
 function validateLocationType(type: string): LocationType {
     if (type === 'restaurant' || type === 'attraction' || type === 'other') {
@@ -49,6 +37,7 @@ export function useLocations(searchQuery: string, selectedCountry: string | null
         if (!existingVideo) {
           countryMap[location.country].videos.push({
             ...video,
+            filterTitle: video.filterTitle || '',
             locations: matchingLocations.map((l) => ({ ...l, type: validateLocationType(l.type) })),
           });
         }

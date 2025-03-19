@@ -1,18 +1,6 @@
-import { Location } from '../../types/Location';
+import { CountryData, Location } from '../../types/Location';
 import LocationIcon from '../location/LocationIcon';
 import { SearchInput } from './SearchInput';
-
-interface CountryData {
-  name: string;
-  locations: Location[];
-  videos: {
-    videoId: string;
-    title: string;
-    date: string;
-    show: string;
-    locations: Location[];
-  }[];
-}
 
 interface FiltersProps {
   isOpen: boolean;
@@ -127,7 +115,7 @@ export function Filters({
                                 }`}
                               >
                                 <span className="flex-1 truncate pr-2 text-sm">
-                                  {video.title}
+                                  { video.filterTitle || video.title }
                                 </span>
                                 <span className="text-xs opacity-70">
                                   ({video.locations.length})

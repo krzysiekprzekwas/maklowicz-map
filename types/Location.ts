@@ -1,14 +1,10 @@
-export interface Episode {
-    title: string;
-    date: string;
-    show: string;
-    youtubeUrl?: string;
-    youtubeTitle?: string;
-    playlistId: string;
-    playlistTitle: string;
-}
-
 export type LocationType = 'restaurant' | 'attraction' | 'other';
+
+export interface CountryData {
+    name: string;
+    locations: Location[];
+    videos: Video[];
+  }
 
 export interface Location {
     id: string;
@@ -27,6 +23,7 @@ export interface Video {
     videoId: string;
     videoUrl: string;
     title: string;
+    filterTitle: string;
     playlistId: string;
     playlistTitle: string;
     date: string;
