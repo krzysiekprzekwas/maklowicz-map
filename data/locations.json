@@ -1219,6 +1219,90 @@
       ]
     },
     {
+      "videoId": "eyWx1WIDs_Q",
+      "videoUrl": "https://www.youtube.com/watch?v=eyWx1WIDs_Q",
+      "title": "ROBERT MAKŁOWICZ WŁOCHY odc.188 „Bogactwo biednej kuchni\"",
+      "filterTitle": "Bogactwo biednej kuchni (odc. 188)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-07-12T14:28:31Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "santa-marina-salina-port",
+          "name": "Santa Marina Salina Port",
+          "description": "Główny port w miejscowości Santa Marina Salina, w tym z promami do innych włoskich wysp.",
+          "latitude": 38.558823020810976, 
+          "longitude": 14.872399560856639,
+          "address": "Via Lungomare, N.G/2, Via Lungomare, 2, 98050 Santa Marina Salina ME, Italy",
+          "country": "Włochy",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/UzSYsrwEMqgAfncH6"
+        },
+        {
+          "id": "da-alfredo",
+          "name": "Da Alfredo",
+          "description": "Restauracja serwująca pane cunzato, obłożony chleb. Prostą formę wyspiarskiej pizzy.",
+          "latitude": 38.53934934022742, 
+          "longitude": 14.8700370228619274,
+          "address": "Via Stromboli, 4, 98050 Lingua ME, Italy",
+          "country": "Włochy",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/daSSh6TtXnXn52w96"
+        },
+        {
+          "id": "fenech",
+          "name": "Fenech",
+          "description": "Lokalna winiarnia założona wiele pokoleń temu przez imigrantów z Malty.",
+          "latitude": 38.577252932830824, 
+          "longitude": 14.843320825043213,
+          "address": "Via Provinciale, 30, 98050 Malfa ME, Italy",
+          "country": "Włochy",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/fE5uSYQyKvvuqGAUA"
+        },
+        {
+          "id": "spiaggia-di-pollara",
+          "name": "Spiaggia di Pollara",
+          "description": "Oddalona od dzisiejszej cywilizacji plaża z pozostałościami dawnych zabudowań wkomponowanych w skały.",
+          "latitude": 38.58110636380047, 
+          "longitude": 14.806178556473244,
+          "address": "HRH4+XR Malfa, Metropolitan City of Messina, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/m29RCaG4vV5RG1qx6"
+        },
+        {
+          "id": "9852-vulcano-home-restaurant",
+          "name": "9852 vulcano home restaurant",
+          "description": "9852 to pierwszy numer kierunkowy na Vulcano, natomiast sam lokal sweruje dziś świetną pizzerię neaoplitańską.",
+          "latitude": 38.41378441216721, 
+          "longitude": 14.959151671152169,
+          "address": "Via degli Eucaliptus, 20, 98055 Vulcano Porto ME, Italy",
+          "country": "Włochy",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Fi4CrcBFs7MaG8vJA"
+        },
+        {
+          "id": "acque-calde",
+          "name": "Acque Calde",
+          "description": "Para wodna z wulkanu wydobywająca się pod wodą niedaleko publicznej plaży tworząc naturalne jacuzzi.",
+          "latitude": 38.417569851551, 
+          "longitude": 14.959969088191642,
+          "address": "Contrada Porto Levante, 64, 98050 Vulcano Porto ME, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Ht2QTukqsCmk9qJJA"
+        }
+      ]
+    },
+    {
       "videoId": "0yho5TDn3as",
       "videoUrl": "https://www.youtube.com/watch?v=0yho5TDn3as",
       "title": "ROBERT MAKŁOWICZ TENERYFA odc.178  „Gwizdanie na wulkanie\".",
