@@ -9,6 +9,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Śladami Roberta Makłowicza</title>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="min-h-screen pb-[env(safe-area-inset-bottom)] flex flex-col">
         <Header />
