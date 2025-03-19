@@ -9,6 +9,14 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Śladami Roberta Makłowicza</title>
+        <meta property="og:title" content="Śladami Roberta Makłowicza" />
+        <meta
+          property="og:description"
+          content="Interaktywna mapa restauracji i atrakcji odwiedzonych przez Roberta Makłowicza"
+        />
+        <meta property="og:image" content="/og-image.png" />
+        <meta property="og:url" content="http://sladami-roberta.vercel.app" />
+        <meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="min-h-screen pb-[env(safe-area-inset-bottom)] flex flex-col">
