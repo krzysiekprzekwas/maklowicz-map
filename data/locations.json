@@ -380,6 +380,125 @@
       ]
     },
     {
+      "videoId": "QenmzBZX8VY",
+      "videoUrl": "https://www.youtube.com/watch?v=QenmzBZX8VY",
+      "title": "„Ateny dla wtajemniczonych\" - ROBERT MAKŁOWICZ GRECJA odc.207",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-12-06T22:03:02Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "mokka-specialty-coffee-s-a",
+          "name": "MOKKA SPECIALTY COFFEE S.A.",
+          "description": "Kawiarnia speciality importująca kawe z Brazylijskiej i Etipijskiej plantacji przygotowywana w tradycyjny sposób, na piasku.",
+          "latitude": 37.98074295945915, 
+          "longitude": 23.727368108991797,
+          "address": "Pl. Theatrou 1, Athina 105 52, Greece",
+          "country": "Grecja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/agPSJwr9SGHUDqxF9"
+        },
+        {
+          "id": "stani",
+          "name": "Stani",
+          "description": "Tradycyjnie sklep mleczny, jednak z czasem powstał z niego też \"Skelp śniadankowy\"",
+          "latitude": 37.9854207875608, 
+          "longitude": 23.7278994782254,
+          "address": "Satovriandou 44, Athina 104 37, Greece",
+          "country": "Grecja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/1SP8H64SBAD9Rf5n8"
+        },
+        {
+          "id": "politechnio-ateny-104-32-grecja",
+          "name": "Politechnio, Ateny 104 32, Grecja",
+          "description": "Politechnika w Atenach, a w szczególności jej brama tragicznie wpisująca się w historię nowożytnej Grecji po protestach studenckich z roku `73.",
+          "latitude": 37.9880280355231,
+          "longitude": 23.73059369894865,
+          "address": "Filippon 4, Athina 104 41, Greece",
+          "country": "Grecja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/c1D8q2PPqmxDVyJg7"
+        },
+        {
+          "id": "lefteris-o-politis-est-1951",
+          "name": "Lefteris O Politis (est. 1951)",
+          "description": "Grecki street food. Bardzo znany w Atenach pita gyros, szaszłyk i kiełbaska suzukaki.",
+          "latitude": 37.985171856304135, 
+          "longitude": 23.727319181303553,
+          "address": "Koumoundourou 29, Athina 104 37, Greece",
+          "country": "Grecja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/VwAuEbWSgUJMRGu39"
+        },
+        {
+          "id": "loukoumades-ktistakis",
+          "name": "Loukoumades Ktistakis",
+          "description": "Lokal serwujący grecki specjał w postaci małych pączuciów. I tylko je.",
+          "latitude": 37.98395054860628,
+          "longitude":  23.726672951658053,
+          "address": "SOKRATOUS 40-42 OMONOIA CENTER, Athina 104 31, Greece",
+          "country": "Grecja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Vwd5vsDT8vgrQrvd8"
+        },
+        {
+          "id": "metaxa-monoprosopi-abe",
+          "name": "Σ Η Α ΜΕΤΑΞΑ ΜΟΝΟΠΡΟΣΩΠΗ ΑΒΕ",
+          "description": "Destylarnia Metaxy, niestety niedostępna na codzień do zwiedzania.",
+          "latitude": 38.08314183399358, 
+          "longitude": 23.7874891537277,
+          "address": "Andrea Metaxa 6, Kifisia 145 64, Greece",
+          "country": "Grecja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/HK7E2YW2QfuHicdh6"
+        },
+        {
+          "id": "george-of-the-deep-sea",
+          "name": "George of the deep sea",
+          "description": "Zdecydowanie nieturystyczna restauracja rybna. Oglądamy wystawkę i zamawiamy sposób obróbki.",
+          "latitude": 38.07851851265292, 
+          "longitude": 23.795236457655164,
+          "address": "Spirou Vrettou 54, Acharnes 136 71, Greece",
+          "country": "Grecja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/z3xPx2atXTchYsFZA"
+        },
+        {
+          "id": "mikrolimano",
+          "name": "Mikrolimano",
+          "description": "Niegdyś największy port w Grecji, później symbol zwycięztwa demokracji nad spartańską tyranią.",
+          "latitude": 37.938361374397594, 
+          "longitude": 23.659493421506273,
+          "address": "Akti Koumoundourou 42, Pireas 185 33, Greece",
+          "country": "Grecja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/mAwoqCaLZRsKaVKp6"
+        },
+        {
+          "id": "piraeus-port",
+          "name": "Piraeus Port",
+          "description": "Ateński port promowy. Część jednego z największych portów w Europie.",
+          "latitude": 37.94483007460548, 
+          "longitude": 23.63842855027811,
+          "address": "Piraeus Port, Pireas 185 31, Greece",
+          "country": "Grecja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/czuntxQuZb8BYwpj7"
+        }
+      ]
+    },
+    {
       "videoId": "1IwnfwMU25Y",
       "videoUrl": "https://www.youtube.com/watch?v=1IwnfwMU25Y",
       "title": "„Spoglądając z Akropolu\" - ROBERT MAKŁOWICZ GRECJA odc.206",
