@@ -77,11 +77,14 @@ export function useLocations(searchQuery: string, selectedCountry: string | null
       video.locations.map((l) => ({ ...l, type: validateLocationType(l.type) }))
     );
   }, [selectedCountry, selectedVideo, countries]);
-
+  
+  const videoCount = useMemo(() => {
+    return locationData.videos.filter((video) => video.locations && video.locations.length > 0).length;
+  }, []);
   const totalLocations = useMemo(
     () => locationData.videos.reduce((acc, video) => acc + video.locations.length, 0),
     []
   );
 
-  return { countries, filteredLocations, totalLocations };
+  return { countries, filteredLocations, totalLocations, videoCount};
 }

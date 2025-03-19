@@ -1,7 +1,11 @@
-import React from 'react';import Link from 'next/link';
-import { Header } from '../components/layout/Header';
+import React from 'react';
+import { useLocations } from '../hooks/useLocations';
 
 export default function About() {
+
+  const { videoCount, totalLocations } = useLocations('', null, null);
+
+
   return (
     <main className="flex min-h-screen flex-col bg-secondary">
       <div className="container mx-auto px-6 py-12">
@@ -29,6 +33,16 @@ export default function About() {
               <li>Filtruj miejsca według odcinków programu</li>
               <li>Kliknij w znacznik, aby zobaczyć szczegółowe informacje</li>
               <li>Oglądaj powiązane odcinki bezpośrednio na YouTube</li>
+            </ul>
+
+            <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Ile jest lokalizacji?</h3>
+            
+            <p className="text-primary-hover mb-6">
+              Będąc projektem hobbistycznym, mapa może mieć braki względem całej twórczości Roberta Makłowicza. Staramy się jednak regularnie dodawać nowe lokalizacje, aby mapa była jak najbardziej kompletna. Na dziś przetworzylismy:
+            </p>
+            <ul className="list-disc list-inside text-primary-hover space-y-2 mb-6">
+              <li> {totalLocations} Lokalizacji</li>
+              <li> {videoCount} Filmow</li>
             </ul>
           </div>
         </div>
