@@ -2046,6 +2046,54 @@
       "locations": []
     },
     {
+      "videoId": "Q5oWfqcLYZQ",
+      "videoUrl": "https://www.youtube.com/watch?v=Q5oWfqcLYZQ",
+      "title": "ROBERT MAKŁOWICZ SZWECJA odc.35 \"W krainie lodowego piękna\".",
+      "filterTitle": "W krainie lodowego piękna (odc. 35)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-03-26T21:36:11Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "hemso-fortress",
+          "name": "Hemsö Fortress",
+          "description": "Forteca militarna z czasów zimnej wojny, czasów lat 50tych.",
+          "latitude": 62.69381980892085, 
+          "longitude": 18.0870269660484459,
+          "address": "MXW3+V4 Innerfälle, Sweden",
+          "country": "Szwecja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/mxAegBSaGBHm6Yp6A"
+        },
+        {
+          "id": "hotel-high-coast",
+          "name": "Hotel High Coast",
+          "description": "Hotel z restauracją nieopodal symbolu regionu Hoga Kusten, umieszczony w dawnym budynku baraków jego budowniczych.",
+          "latitude": 62.802997394038144, 
+          "longitude": 17.951692116351094,
+          "address": "RW2R+8G Veda, Sweden",
+          "country": "Szwecja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/JSCoVH38DvpLssbaA"
+        },
+        {
+          "id": "pelle-abergsgarden",
+          "name": "Pelle Åbergsgården",
+          "description": "Pensjonat ubarwiony charakterystyczną szwedzką tudzież faluńską czerwień.",
+          "latitude": 62.9056344806733, 
+          "longitude": 18.349160139722,
+          "address": "Björnås 105, 873 99 Nordingrå, Sweden",
+          "country": "Szwecja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/awnjVYw8MGnY4M3p8"
+        }
+      ]
+    },
+    {
       "videoId": "jLxo3iSJkNo",
       "videoUrl": "https://www.youtube.com/watch?v=jLxo3iSJkNo",
       "title": "ROBERT MAKŁOWICZ SZWECJA odc.34 \"Sztokholmskie olśnienia\".",
