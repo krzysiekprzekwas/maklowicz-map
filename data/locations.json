@@ -1904,6 +1904,78 @@
       "locations": []
     },
     {
+      "videoId": "bTiAuzT4Wrs",
+      "videoUrl": "https://www.youtube.com/watch?v=bTiAuzT4Wrs",
+      "title": "ROBERT MAKŁOWICZ TUNEZJA odc. 90 „ Afrykańskie Śródziemnomorze \".",
+      "filterTitle": "Afrykańskie Śródziemnomorze (odc. 90)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-06-10T07:38:26Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "hotel-royal-garden-palace",
+          "name": "Hôtel Royal Garden Palace",
+          "description": "5 gwiazdkowy resort na wyspie Dżerba.",
+          "latitude": 33.82668088077511, 
+          "longitude": 11.017931815719924,
+          "address": "RXHW+FM Djerba Midun, Tunisia",
+          "country": "Tunezja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/9aBRKi1FcZrgAZq48"
+        },
+        {
+          "id": "djerba-explore-village",
+          "name": "Djerba Explore Village",
+          "description": "Wioska turystyczna, pełnionca też forme skansenu, zoo i muzeum impersjonistycznej architektury tunezyjskiej.",
+          "latitude": 33.81879567363342, 
+          "longitude": 11.044165346746796,
+          "address": "R2FQ+CHJ, Djerba Midun, Tunisia",
+          "country": "Tunezja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/zniULZhGVzwDact46"
+        },
+        {
+          "id": "djerba-crocodile-farm",
+          "name": "Djerba Crocodile Farm",
+          "description": "Ferma rozrodcza krokodyli.",
+          "latitude": 33.82140630873643, 
+          "longitude": 11.047311413163355,
+          "address": "R2FQ+CHJ, Djerba Midun, Tunisia",
+          "country": "Tunezja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/DfjRjS6oJnTsTrfaA"
+        },
+        {
+          "id": "poterie-guellala",
+          "name": "Poterie Guellala",
+          "description": "Producent lokalnej cermaiki, obecnej na wyspie od setek lat.",
+          "latitude": 33.728680316677824, 
+          "longitude": 10.86290777758757,
+          "address": "PVH2+8P, Guellala, Tunisia",
+          "country": "Tunezja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/SBJ4QwNQ6zyvArFB8"
+        },
+        {
+          "id": "dar-jilani",
+          "name": "Dar Jilani",
+          "description": "Galeria sztuki z restauracją serwującą tunezyjski briki.",
+          "latitude": 33.871963672586325, 
+          "longitude": 10.895708162857451,
+          "address": "VVCW+Q7J, Fatou, Tunisia",
+          "country": "Tunezja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Vu1qeFgNucueeyjt5"
+        }
+      ]
+    },
+    {
       "videoId": "ryOvmWfIPi4",
       "videoUrl": "https://www.youtube.com/watch?v=ryOvmWfIPi4",
       "title": "ROBERT MAKŁOWICZ LITWA odc.85  „Mrówki w Wilnie ”.",
