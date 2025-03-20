@@ -2046,6 +2046,114 @@
       "locations": []
     },
     {
+      "videoId": "jLxo3iSJkNo",
+      "videoUrl": "https://www.youtube.com/watch?v=jLxo3iSJkNo",
+      "title": "ROBERT MAKŁOWICZ SZWECJA odc.34 \"Sztokholmskie olśnienia\".",
+      "filterTitle": "Sztokholmskie olśnienia (odc. 34)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-03-12T21:36:11Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "millesgarden-museum",
+          "name": "Millesgården Museum",
+          "description": "Muzeum sztuki wokół Carla Millesa, jednego z najważniejszych twórców sztokholmskiej szkoły rzeźby.",
+          "latitude": 59.35881859241914, 
+          "longitude": 18.122583180711057,
+          "address": "Carl Milles väg 2, 181 50 Lidingö, Sweden",
+          "country": "Szwecja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ERBa2sak84QCDbHdA"
+        },
+        {
+          "id": "millesgarden-lanthandel",
+          "name": "Millesgården Lanthandel",
+          "description": "Restauracja obok muzeum rzeźby z klasyczną sztokholmską kuchnią.  ",
+          "latitude": 59.35929860846592, 
+          "longitude": 18.121981959072116,
+          "address": "Herserudsvägen 28, 181 50 Lidingö, Sweden",
+          "country": "Szwecja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/j9cv8FfV8uMDxzEs6"
+        },
+        {
+          "id": "zamek-krolewski-w-sztokholmie",
+          "name": "Zamek Królewski w Sztokholmie",
+          "description": "Barokowy pałac królewski z 3 muzeami i pokaźną biblioteką, do dziś symbolizujący władzę i stabilność szwedzkiej monarchii.",
+          "latitude": 59.32727782173115, 
+          "longitude": 18.073412653517885,
+          "address": "Jakobsgatan 10, 111 52 Stockholm, Sweden",
+          "country": "Szwecja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/jbtFjMyT2k8jef9W9"
+        },
+        {
+          "id": "muzeum-vasa",
+          "name": "Muzeum Vasa",
+          "description": "Muzeum eksponujące niezwykły artefakt w postaci idealnie zachowanego statku wojennego z XVII wieku.",
+          "latitude": 59.32868542551849, 
+          "longitude": 18.091580519892045,
+          "address": "Östra Brobänken 3, 111 49 Stockholm, Sweden",
+          "country": "Szwecja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ErpsCskWAqREeVyK7"
+        },
+        {
+          "id": "museum-of-spirits",
+          "name": "Museum of Spirits",
+          "description": "Muzeum alkoholu. Opisujące relacje ludzkońsci z alkoholem, kulture z nim związaną oraz różność świata alkoholu.",
+          "latitude": 59.326930474054194, 
+          "longitude": 18.093732641029952,
+          "address": "Djurgårdsstrand 2, 115 21 Stockholm, Sweden",
+          "country": "Szwecja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/gxqL327CWsgzvpF49"
+        },
+        {
+          "id": "spritmuseum-restaurant",
+          "name": "Spritmuseum Restaurant",
+          "description": "Interaktywny element muzeum alkoholu, gdzie interakcja skupia się na podbiebieniu gastronomiczno-degustacyjnym, inaczej restauracja.",
+          "latitude": 59.326825133173976, 
+          "longitude": 18.094243848632125,
+          "address": "Djurgårdsstrand 7, 115 21 Stockholm, Sweden",
+          "country": "Szwecja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/qDYHGecM6uQBKioi9"
+        }
+      ]
+    },
+    {
+      "videoId": "rvXwnC9fl20",
+      "videoUrl": "https://www.youtube.com/watch?v=rvXwnC9fl20",
+      "title": "ROBERT MAKŁOWICZ SZWECJA odc.33 \"Promem do Szwecji.\"",
+      "filterTitle": "Promem do Szwecji (odc. 33)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-03-05T21:36:11Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "ruby",
+          "name": "Ruby",
+          "description": "Restauracja z kuchnią opartą o grila.",
+          "latitude": 59.32469353271014, 
+          "longitude": 18.07395004352885,
+          "address": "Baggensgatan 18, 111 31 Stockholm, Sweden",
+          "country": "Szwecja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/LdfU4Yrb2n4BgqU46"
+        }
+      ]
+    },
+    {
       "videoId": "MQHB0LOijrk",
       "videoUrl": "https://www.youtube.com/watch?v=MQHB0LOijrk",
       "title": "ROBERT MAKŁOWICZ odc.14 \"Powrót do Krakowa i belgijskie frytki\"",
