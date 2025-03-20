@@ -2046,6 +2046,66 @@
       "locations": []
     },
     {
+      "videoId": "W7j9VHYGCKQ",
+      "videoUrl": "https://www.youtube.com/watch?v=W7j9VHYGCKQ",
+      "title": "ROBERT MAKŁOWICZ SZWECJA odc.37 \"La dolce vita po szwedzku\".",
+      "filterTitle": "La dolce vita po szwedzku (odc. 37)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-04-09T12:14:03Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "high-coast-distillery",
+          "name": "High Coast Distillery",
+          "description": "Słynna również poza Szwecją destylarnia jakościowe whisky.",
+          "latitude": 63.00151487495226,
+          "longitude": 17.798500840816164,
+          "address": "SÖRVIKEN 140, 872 96 Bjärtrå, Sweden",
+          "country": "Szwecja",  
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/zoKaYoSzNnGufuLj6"
+        },
+        {
+          "id": "herno-gin",
+          "name": "Hernö Gin",
+          "description": "Destylaria światowej sławy ginów.",
+          "latitude": 62.64102117430449, 
+          "longitude": 17.77586460138832,
+          "address": "Dala 152, 871 93 Härnösand, Sweden",
+          "country": "Szwecja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/5Wpo2QpW3UwUcFJP8"
+        },
+        {
+          "id": "farm-backsjon",
+          "name": "Farm Backsjön",
+          "description": "Farma z psamy zaprzęgowymi oferująca również wycieczki i kuligi.",
+          "latitude": 63.32646465736746, 
+          "longitude": 17.31912719477662,
+          "address": "Backsjön 241, 881 92 Sollefteå, Sweden",
+          "country": "Szwecja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/TZipVpQjWFfD8hDa6"
+        },
+        {
+          "id": "the-chef-by-the-sea",
+          "name": "The Chef By the Sea",
+          "description": "Świetna restauracja oferująca modernistyczne, dojrzałe wydanie kuchni szwedzkiej.",
+          "latitude": 63.287506345115716, 
+          "longitude": 18.70907805042908,
+          "address": "Magasinsallén 4, 891 39 Örnsköldsvik, Sweden",
+          "country": "Szwecja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/oGcbMaSb7R92c42d6"
+        }
+      ]
+    },
+    {
       "videoId": "zgLEG16idp4",
       "videoUrl": "https://www.youtube.com/watch?v=zgLEG16idp4",
       "title": "ROBERT MAKŁOWICZ SZWECJA odc.36 \"W królestwie kiszonego śledzia\".",
