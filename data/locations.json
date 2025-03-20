@@ -2046,6 +2046,42 @@
       "locations": []
     },
     {
+      "videoId": "zgLEG16idp4",
+      "videoUrl": "https://www.youtube.com/watch?v=zgLEG16idp4",
+      "title": "ROBERT MAKŁOWICZ SZWECJA odc.36 \"W królestwie kiszonego śledzia\".",
+      "filterTitle": "W królestwie kiszonego śledzia (odc. 36)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-04-02T12:14:03Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "park-narodowy-skuleskogen",
+          "name": "Park Narodowy Skuleskogen",
+          "description": "Park narodowy wpisany na liste dziedzictwa UNESCO.",
+          "latitude": 63.11955876133553, 
+          "longitude": 18.49429085428748,
+          "address": "4F9R+QJ Ytterböle, Sweden",
+          "country": "Szwecja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/D8MVZMDLwzUY4TwY9"
+        },
+        {
+          "id": "hotell-hallstaberget",
+          "name": "Hotell Hallstaberget",
+          "description": "Hotel z restauracją o fenomanalnym panoramicznym oknie wprost na stok narciarski serwująca słynnego na całym świecie kiszonego śledzia.",
+          "latitude": 63.15965416876231, 
+          "longitude": 17.237661995209006,
+          "address": "Hallstaberget 1, 881 35 Sollefteå, Sweden",
+          "country": "Szwecja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/vbc1DyWN26czEUHx9"
+        }
+      ]
+    },
+    {
       "videoId": "Q5oWfqcLYZQ",
       "videoUrl": "https://www.youtube.com/watch?v=Q5oWfqcLYZQ",
       "title": "ROBERT MAKŁOWICZ SZWECJA odc.35 \"W krainie lodowego piękna\".",
