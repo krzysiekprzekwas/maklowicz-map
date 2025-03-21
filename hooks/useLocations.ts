@@ -2,14 +2,6 @@ import { useMemo } from 'react';
 import type { CountryData, LocationType } from '../types/Location';
 import locationData from '../data/locations.json';
 
-function validateLocationType(type: string): LocationType {
-    if (type === 'restaurant' || type === 'attraction' || type === 'other') {
-      return type;
-    }
-    console.warn(`Invalid location type: ${type}, defaulting to 'other'`);
-    return 'other';
-  }
-
 export function useLocations(searchQuery: string, selectedCountry: string | null, selectedVideo: string | null) {
   const countries = useMemo(() => {
     const countryMap: Record<string, CountryData> = {};
@@ -23,8 +15,8 @@ export function useLocations(searchQuery: string, selectedCountry: string | null
         ) || videoMatches
       );
 
-      matchingLocations.forEach((loc) => {
-        const location = { ...loc, type: validateLocationType(loc.type) };
+      matchingLocations.forEach((location) => {
+
         if (!countryMap[location.country]) {
           countryMap[location.country] = { name: location.country, locations: [], videos: [] };
         }
@@ -38,7 +30,7 @@ export function useLocations(searchQuery: string, selectedCountry: string | null
           countryMap[location.country].videos.push({
             ...video,
             filterTitle: video.filterTitle || '',
-            locations: matchingLocations.map((l) => ({ ...l, type: validateLocationType(l.type) })),
+            locations: matchingLocations,
           });
         }
       });
@@ -49,21 +41,15 @@ export function useLocations(searchQuery: string, selectedCountry: string | null
 
   const filteredLocations = useMemo(() => {
     if (selectedVideo) {
-      return locationData.videos.find((v) => v.videoId === selectedVideo)?.locations.map((l) => ({
-        ...l,
-        type: validateLocationType(l.type),
-      })) || [];
+      return locationData.videos.find((v) => v.videoId === selectedVideo)?.locations || [];
     }
 
     if (selectedCountry) {
-      return countries.find((c) => c.name === selectedCountry)?.locations.map((l) => ({
-        ...l,
-        type: validateLocationType(l.type),
-      })) || [];
+      return countries.find((c) => c.name === selectedCountry)?.locations || [];
     }
 
     return locationData.videos.flatMap((video) =>
-      video.locations.map((l) => ({ ...l, type: validateLocationType(l.type) }))
+      video.locations
     );
   }, [selectedCountry, selectedVideo, countries]);
   
