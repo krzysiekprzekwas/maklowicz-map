@@ -2357,6 +2357,54 @@
       "date": "2020-05-12T14:29:32Z",
       "show": "Robert Makłowicz w podróży",
       "locations": []
+    },
+    {
+      "videoId": "WxVZb77ml-w",
+      "videoUrl": "https://www.youtube.com/watch?v=WxVZb77ml-w",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc. 1 \"W pandemii przez granice\"",
+      "filterTitle": "W pandemii przez granice (odc. 1)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2020-06-12T14:29:32Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "gasthaus-kerber",
+          "name": "Gasthaus Kerber",
+          "description": "Pomniejszy pensjonat na drodze do Chorwacji.",
+          "latitude": 48.71929228773953, 
+          "longitude": 13.329069615976426,
+          "address": "St2127 30, 94538 Fürstenstein, Germany",
+          "country": "Niemcy",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/sTugpmW9CX7LvhL3A"
+        },
+        {
+          "id": "demiri-restaurant",
+          "name": "Demiri Restaurant",
+          "description": "Restauracja u Damira serwująca wyborne cevapici.",
+          "latitude": 46.685407643525544, 
+          "longitude": 15.649524030833408,
+          "address": "MJPP+34 Šentilj v Slov. goricah, Slovenia",
+          "country": "Słowenia",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/MdK5AXTSzUiuASsV8"
+        },
+        {
+          "id": "port-promowy-ploce",
+          "name": "Port promowy Ploče",
+          "description": "Port pozwalający na przeprawę w kierunku półwyspu Pelješac, szczególnie ważny przed otwarciem łączącego go mostu.",
+          "latitude": 43.050389687138974, 
+          "longitude": 17.432987639387513,
+          "address": "2CX8+34 Baćina, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/WY7UaAnPAUwrG7y57"
+        }
+      ]
     }
   ]
 }
