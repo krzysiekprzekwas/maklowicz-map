@@ -2359,6 +2359,42 @@
       "locations": []
     },
     {
+      "videoId": "OouwrMFihqM",
+      "videoUrl": "https://www.youtube.com/watch?v=OouwrMFihqM",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc. 3 \"Wino i oliwa\".",
+      "filterTitle": "Wino i oliwa (odc. 3)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2020-06-26T14:29:32Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "konoba-portun-potomje",
+          "name": "Konoba Portun, Potomje",
+          "description": "Restauracja u ujścia tunelu Dingač do miejscowości Potomje z świetną kuchnią i winem.",
+          "latitude": 42.93957145130405, 
+          "longitude": 17.336837100437226,
+          "address": "26, 20244, Potomje, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Gjq5GRi3mvSstZfn8"
+        },
+        {
+          "id": "dingac-tunnel",
+          "name": "Dingač Tunnel",
+          "description": "Tunnel wykuty w skale do transportu winogron do produkcji lokalnego wina.",
+          "latitude": 42.936200171887805, 
+          "longitude": 17.3344628361559,
+          "address": "W8PG+GJ Potomje, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/YbodzfDn4exJ3z1J7"
+        }
+      ]
+    },
+    {
       "videoId": "iVgI6_h0LkU",
       "videoUrl": "https://www.youtube.com/watch?v=iVgI6_h0LkU",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc. 2 \"Dalmacja, moje miejsce\"",
