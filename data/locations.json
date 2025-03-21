@@ -2359,6 +2359,30 @@
       "locations": []
     },
     {
+      "videoId": "iVgI6_h0LkU",
+      "videoUrl": "https://www.youtube.com/watch?v=iVgI6_h0LkU",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc. 2 \"Dalmacja, moje miejsce\"",
+      "filterTitle": "Dalmacja, moje miejsce (odc. 2)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2020-06-19T14:29:32Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "koscio-sw-miko-aja",
+          "name": "Kościół św. Mikołaja",
+          "description": "Skromny kościołek położony na szczycie wzgórza, z którego roztacza się fenomenalny widok.",
+          "latitude": 42.98461560092612, 
+          "longitude": 17.308038848787085,
+          "address": "X2M3+V7 Račišće, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/YWwmiz8CyHQFRxhu7"
+        }
+      ]
+    },
+    {
       "videoId": "WxVZb77ml-w",
       "videoUrl": "https://www.youtube.com/watch?v=WxVZb77ml-w",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc. 1 \"W pandemii przez granice\"",
