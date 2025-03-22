@@ -2349,6 +2349,54 @@
       "locations": []
     },
     {
+      "videoId": "HmXhVL-2SM0",
+      "videoUrl": "https://www.youtube.com/watch?v=HmXhVL-2SM0",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc. 7 \"Perły agroturystyki\".",
+      "filterTitle": "Perły agroturystyki (odc. 7)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2020-07-24T14:29:32Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "apartments-sime",
+          "name": "Apartments Šime",
+          "description": "Amartamenty nadmorskie w spokojnej, sielankowej części półwyspu obok miejscowości Dubrava.",
+          "latitude": 42.909805703264425, 
+          "longitude": 17.507132891279397,
+          "address": "Uvala Viševica 7A, 20246, Dubrava, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/VnpREiurf44xk3Yp9"
+        },
+        {
+          "id": "villa-anadingac",
+          "name": "Villa Anadingač",
+          "description": "Pensjonat po zachodniej stronie półwyspu Pelješac, otoczony przez hodowle winogron.",
+          "latitude": 42.920441408973375, 
+          "longitude": 17.35006884774221,
+          "address": "W8C9+54 Potomje, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/tASizFe3cyHwfB5UA"
+        },
+        {
+          "id": "restauracja-braenovic",
+          "name": "Restauracja Braenović",
+          "description": "Restauracja w pobliżu wioski Potomje, oferująca lokalną kuchnię i wino \"zza płotu\".",
+          "latitude": 42.92327217054243, 
+          "longitude": 17.3467397469708,
+          "address": "Dingač - Borak 21, 20244, Potomje, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Anh5r9bkSPZQcf2F8"
+        }
+      ]
+    },
+    {
       "videoId": "mwq7VUmGwg4",
       "videoUrl": "https://www.youtube.com/watch?v=mwq7VUmGwg4",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc. 6 \"Wśród przyjaciół\".",
