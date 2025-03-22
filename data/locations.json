@@ -2298,20 +2298,10 @@
       ]
     },
     {
-      "videoId": "MQHB0LOijrk",
-      "videoUrl": "https://www.youtube.com/watch?v=MQHB0LOijrk",
-      "title": "ROBERT MAKŁOWICZ odc.14 \"Powrót do Krakowa i belgijskie frytki\"",
-      "playlistId": "PLpTn8onHfnD2QpCHU-llSG9hbQUwKIVFr",
-      "playlistTitle": "Podróże",
-      "date": "2020-09-10T21:36:11Z",
-      "show": "Robert Makłowicz w podróży",
-      "locations": [
-      ]
-    },
-    {
       "videoId": "fFE6E4xJTPI",
       "videoUrl": "https://www.youtube.com/watch?v=fFE6E4xJTPI",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc.15 \"Tajemnice wyspy Vis\".",
+      "filterTitle": "Tajemnice wyspy Vis (odc. 14)",
       "playlistId": "",
       "playlistTitle": "",
       "date": "2020-09-18T07:04:20Z",
@@ -2419,6 +2409,7 @@
       "videoId": "AY0_2AYQ1KU",
       "videoUrl": "https://www.youtube.com/watch?v=AY0_2AYQ1KU",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc.12 \" Dalmatyński fitness\".",
+      "filterTitle": "Dalmatyński fitness (odc. 12)",
       "playlistId": "",
       "playlistTitle": "",
       "date": "2020-08-28T20:39:04Z",
