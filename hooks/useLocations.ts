@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import type { CountryData, LocationType } from '../types/Location';
+import type { CountryData } from '../types/Location';
 import locationData from '../data/locations.json';
 
 export function useLocations(searchQuery: string, selectedCountry: string | null, selectedVideo: string | null) {
