@@ -2349,6 +2349,66 @@
       "locations": []
     },
     {
+      "videoId": "_-dnABTDUzQ",
+      "videoUrl": "https://www.youtube.com/watch?v=_-dnABTDUzQ",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc. 5 \"Wokół Orebića\".",
+      "filterTitle": "Wokół Orebića (odc. 5)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2020-07-10T14:29:32Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "sveti-ilija",
+          "name": "Sveti Ilija",
+          "description": "Najwyższy szczyt półwyspu Pelješac.",
+          "latitude": 42.99598690624012,
+          "longitude": 17.164511881083936,
+          "address": "X5X3+5G Duba Pelješka, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/CWWoq4VT9v1ejUMNA"
+        },
+        {
+          "id": "monastery-and-church-of-our-lady-of-the-angels",
+          "name": "Monastery and church of Our Lady of the Angels",
+          "description": "Kościół i klastor Matki Boskiej Anioelskiej wraz z towarzuszącym im przepięknym historycznym cmentarzem.",
+          "latitude": 42.97744570172432, 
+          "longitude": 17.15339019397144,
+          "address": "Celestinov put 18, 20250, Podgorje, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/WvPyZw1GTmBkLSbP7"
+        },
+        {
+          "id": "villa-vrgorac",
+          "name": "Villa Vrgorac",
+          "description": "Hotel z świetną kuchnią i wspaniałym widokiem na towarzyszącą wyspę Korčulę.",
+          "latitude": 42.97463757910771, 
+          "longitude": 17.14000863312652,
+          "address": "34A, 20250, Kučište, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/E4zt8cXNnEdKwVkZ8"
+        },
+        {
+          "id": "plaza-trstenica",
+          "name": "Plaża Trstenica",
+          "description": "Główna, największa plaża miasta Orebić.",
+          "latitude": 42.97849274031305, 
+          "longitude": 17.191869768340116,
+          "address": "Ul. Bana Josipa Jelačića 104, 20250, Orebić, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/maKgiYV8vYzw8eX5A"
+        }
+      ]
+    },
+    {
       "videoId": "BsOMBCXBSks",
       "videoUrl": "https://www.youtube.com/watch?v=BsOMBCXBSks",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc. 4 \"Dalmatyńskie klasyki\".",
