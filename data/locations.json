@@ -2349,6 +2349,126 @@
       "locations": []
     },
     {
+      "videoId": "0rgJZxh2WgE",
+      "videoUrl": "https://www.youtube.com/watch?v=0rgJZxh2WgE",
+      "title": "ROBERT MAKŁOWICZ DALMACJA Odc.10 \"Korčula i koniec półwyspu\".",
+      "filterTitle": "Korčula i koniec półwyspu (odc. 10)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2020-08-14T14:29:32Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "taxi-boat-orebic-korcula",
+          "name": "Taxi Boat Orebic - Korcula",
+          "description": "Taksówka wodna operująca w okolichach Orebica. Kluczowo przydatna do nocnych wycieczek na Korčulę.",
+          "latitude": 42.97455551206718, 
+          "longitude": 17.17477173907084,
+          "address": "Ul. Bana Josipa Jelačića 18, 20250, Orebić, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/sg8pVjeZs1huPbkv8"
+        },
+        {
+          "id": "korcula-town-gate",
+          "name": "Korcula Town Gate",
+          "description": "Brama do starego miasta Krocula z lwią głową, symbolizująca weneckie rządy.",
+          "latitude": 42.960805590991725, 
+          "longitude": 17.135723560032726,
+          "address": "Pod Fortecom 1, 20260, Korčula, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/yZk7yPbdGxPtRzt17"
+        },
+        {
+          "id": "marko-polo-centar",
+          "name": "Marko Polo Centar",
+          "description": "Budynek uważany za miejsce urodzenia podróznika Marka Polo.",
+          "latitude": 42.96187666559405, 
+          "longitude": 17.136517859897236,
+          "address": "Ul. Rafa Arneri 10, 20260, Korčula, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/a5rw4uj47e1AsC5v6"
+        },
+        {
+          "id": "skver-konoba",
+          "name": "Skver Konoba",
+          "description": "Lokalna restauracja bez kelnerów \"w wykrochmalonych białych koszulach\"",
+          "latitude": 42.960641746710586, 
+          "longitude": 17.1351926974548163,
+          "address": "Ul. 41 16, 20260, Korčula, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/caByonbpNNqc4UEn6"
+        },
+        {
+          "id": "aminess-korcula-heritage-hotel",
+          "name": "Aminess Korčula Heritage Hotel",
+          "description": "Najstarszy hotel na wyspie Korcula, z widokiem na morze Adriatyckie.",
+          "latitude": 42.96213907214431,
+          "longitude": 17.13543841931511,
+          "address": "Obala dr. Franje Tuđmana 5, 20260, Korčula, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/cy4cCUtQH66NptoL7"
+        },
+        {
+          "id": "loviste-chorwacja",
+          "name": "Lovište, Chorwacja",
+          "description": "Spokojna wieś rybacka na samym końcu półwyspu Pelješac.",
+          "latitude": 43.023196937343855, 
+          "longitude": 17.03145549376697,
+          "address": "22FH+VP Lovište, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/AuoyfQqJf5v6kGtp7"
+        },
+        {
+          "id": "bolero-caffe-bar",
+          "name": "Bolero caffe bar",
+          "description": "Kawiarnia z widokiem na zatoke we wsi rybackiej Lovište.",
+          "latitude": 43.02270655466544, 
+          "longitude": 17.030337827748873,
+          "address": "12, 20250, Lovište, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/EbV8QxjMJewj8LPz5"
+        },
+        {
+          "id": "restaurant-barsa",
+          "name": "Restaurant Barsa",
+          "description": "Lokalna restauracja serwująca dania tworzonie z ogródkowych składników.",
+          "latitude": 43.02344026335581, 
+          "longitude": 17.031716376617634,
+          "address": "12, 20250, Lovište, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZZCaUczdXi3sBuzZ8"
+        },
+        {
+          "id": "estravaganca",
+          "name": "Estravaganca",
+          "description": "Pensjonat z restauracją w niemal odludłej dolinie przy końcu półwyspu Pelješac.",
+          "latitude": 43.002684880891486, 
+          "longitude": 17.038827735715074,
+          "address": "222P+6V Viganj, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Dg9uLsDt1o5QZpiy7"
+        }
+      ]
+    },
+    {
       "videoId": "sNPLlDnYMnE",
       "videoUrl": "https://www.youtube.com/watch?v=sNPLlDnYMnE",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc. 9 \"Generał Marmont i gulasz z kociołka\".",
