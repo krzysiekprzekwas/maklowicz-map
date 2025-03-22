@@ -2349,6 +2349,102 @@
       "locations": []
     },
     {
+      "videoId": "sNPLlDnYMnE",
+      "videoUrl": "https://www.youtube.com/watch?v=sNPLlDnYMnE",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc. 9 \"Generał Marmont i gulasz z kociołka\".",
+      "filterTitle": "Generał Marmont i gulasz z kociołka (odc. 9)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2020-08-7T14:29:32Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "split-riva",
+          "name": "Split Riva",
+          "description": "Najsłynniejsza riviera nadmorska prawdopodobnie w całej Chorwacji.",
+          "latitude": 43.50780054190351, 
+          "longitude": 16.438288377094207,
+          "address": "Obala Lazareta 1, 21000, Split, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/97EZ6neEcmVZLQ6J6"
+        },
+        {
+          "id": "pa-ac-dioklecjana-w-splicie",
+          "name": "Pałac Dioklecjana w Splicie",
+          "description": "Możliwe że jedyny na świecie przypadek, gdzie rzymski pałac po upadku cesarstwa przekształcił się w centrum tętniącego życiem miasta.",
+          "latitude": 43.508356140499984, 
+          "longitude": 16.440215548121433,
+          "address": "Trumbićeva obala 18, 21000, Split, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Y1c5V2T7p5LhAPCN9"
+        },
+        {
+          "id": "ostarija-u-vi-akovi",
+          "name": "Oštarija u Viđakovi",
+          "description": "Lokalna restauracyjna legenda. Miejsce działające nieprzerwanie od 1799 roku, momentu wkroczenia wojska napoleońskich.",
+          "latitude": 43.5029347058204, 
+          "longitude": 16.44597704795332,
+          "address": "Jadranska ul. 6, 21000, Split, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/f4j2mhY6FhpAtpoj6"
+        },
+        {
+          "id": "ferry-port-split",
+          "name": "Ferry Port Split",
+          "description": "Największa przystań promowa Dalmacjii, równiez z połączeniami na drugą stronę Adriatyku.",
+          "latitude": 43.50290563534752, 
+          "longitude": 16.442602689404726,
+          "address": "FCXP+V4 Split, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/sQcE6XsGRb8yyXZX8"
+        },
+        {
+          "id": "windsurfspot-usce-neretve",
+          "name": "Windsurfspot Usce Neretve",
+          "description": "Bardzo popularny spot wind- i kitesurfingu przy ujściu rzeki Neretvy do Adriatyku.",
+          "latitude": 43.019026172697096, 
+          "longitude": 17.44573269774943,
+          "address": "2C9X+5P Komin, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/bjjE84AePmeLR96V8"
+        },
+        {
+          "id": "peljeski-most-peljesac-bridge",
+          "name": "Pelješki most / Pelješac Bridge",
+          "description": "Niezwykle ważny geopolitycznie most, który łączy półwysep Pelješac z kontynentem. Ostatecznie pozwolił wejść Chorwacji do strefy Schengen.",
+          "latitude": 42.93153553783478, 
+          "longitude": 17.53574105827281,
+          "address": "WGH7+XH Brijesta, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/bSC7UCyfi7VApcts7"
+        },
+        {
+          "id": "napoleon-s-path",
+          "name": "Napoleon's path",
+          "description": "Historyczna ścieżka, a raczej szlak turystyczny upomiętniający przemarsz wojsk Napoleona przez półwysep Pelješac.",
+          "latitude": 42.83328736473892, 
+          "longitude": 17.66817194703613,
+          "address": "RMM6+F9 Metohija, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/qgpt6ukWVayWUZ7g6"
+        }
+      ]
+    },
+    {
       "videoId": "I7cZFE03mNw",
       "videoUrl": "https://www.youtube.com/watch?v=I7cZFE03mNw",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc.8 \"Najprawdziwszy wywczas\".",
