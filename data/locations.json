@@ -2349,6 +2349,54 @@
       "locations": []
     },
     {
+      "videoId": "I7cZFE03mNw",
+      "videoUrl": "https://www.youtube.com/watch?v=I7cZFE03mNw",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc.8 \"Najprawdziwszy wywczas\".",
+      "filterTitle": "Najprawdziwszy wywczas (odc. 8)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2020-07-31T14:29:32Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "franciscan-monastery",
+          "name": "Franciscan monastery",
+          "description": "Klasztor Franciszkanów demonstrujący swe beżowe, kamienne mury nad brzegiem wody na wyspie Badija.",
+          "latitude": 42.95152508037366, 
+          "longitude": 17.162301513840874,
+          "address": "Otok Badija 4, 20260, Korčula, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/XZD6WRBiZeSu1XMn9"
+        },
+        {
+          "id": "duba-beach",
+          "name": "Duba beach",
+          "description": "Duża publiczna plaża w pobliżu miejscowości Duba Pelješka.",
+          "latitude": 43.02180069373764, 
+          "longitude": 17.174219420908805,
+          "address": "25CC+PJ Duba Pelješka, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/t2fDpATj21QwyMy89"
+        },
+        {
+          "id": "seosko-domacinstvo-ficovic",
+          "name": "Seosko domaćinstvo Ficović",
+          "description": "Agroturystyczna restauracja rybna prowadzona przez rodzinę Ficovićów, z urokliwym nadmorskim widokiem.",
+          "latitude": 42.85856664115938, 
+          "longitude": 17.690425935084097,
+          "address": "33A, 20230, Hodilje, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/TSsCq7uYkMKPRfKa8"
+        }
+      ]
+    },
+    {
       "videoId": "HmXhVL-2SM0",
       "videoUrl": "https://www.youtube.com/watch?v=HmXhVL-2SM0",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc. 7 \"Perły agroturystyki\".",
