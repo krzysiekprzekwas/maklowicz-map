@@ -2339,14 +2339,64 @@
       "locations": []
     },
     {
-      "videoId": "eTykLM40jGg",
-      "videoUrl": "https://www.youtube.com/watch?v=eTykLM40jGg",
-      "title": "Robert Makłowicz odc. 9 \"Rycerz z Myślenic\" + Bonus track.",
-      "playlistId": "PLpTn8onHfnD2DLYMmY-h74FcQoqLhC5aj",
-      "playlistTitle": "Robert Makłowicz czyta",
-      "date": "2020-05-12T14:29:32Z",
+      "videoId": "g5gIdiTHq7o",
+      "videoUrl": "https://www.youtube.com/watch?v=g5gIdiTHq7o",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc.11 \"Wszystkie skarby Stonu\".",
+      "filterTitle": "Wszystkie skarby Stonu (odc. 11)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2020-08-21T14:29:32Z",
       "show": "Robert Makłowicz w podróży",
-      "locations": []
+      "locations": [
+        {
+          "id": "20230-ston-chorwacja",
+          "name": "20230, Ston, Chorwacja",
+          "description": "Swego czasu drugie największe i najważniejsze miasto Republiki Dubrownickiej, wejście do półwyspu Pelješac.",
+          "latitude": 42.838518152764976, 
+          "longitude": 17.696059198276124,
+          "address": "RMHM+33 Ston, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/gGzLYq9H62evZt6D9"
+        },
+        {
+          "id": "good-tower",
+          "name": "Good Tower",
+          "description": "Niezwykłe fortyfikacje wokół miasta Ston przebiegające przez wzgórze, z wieżą \"Dobra\" na szczycie.",
+          "latitude": 42.84369516874152, 
+          "longitude": 17.699725761508123,
+          "address": "Tvrđava Pozvizd, 20230, Ston, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/qQ1DYK78RvdarqTU6"
+        },
+        {
+          "id": "solana-ston-ltd",
+          "name": "SOLANA STON Ltd.",
+          "description": "Historyczne źródło lokalnego bogactwa, solanki, z której pozyskiwano sól. Swego czasu waniejszą niz złoto.",
+          "latitude": 42.837058521209244, 
+          "longitude": 17.695276030764287,
+          "address": "Pelješki put 1, 20230, Ston, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/yx3PjBwNQzAAms4p9"
+        },
+        {
+          "id": "bota-sare-mali-ston-restaurant-oyster-bar",
+          "name": "Bota Šare Mali Ston restaurant & oyster bar",
+          "description": "Restauracja w Małym Stonie. Budynek w którym się znajduje był glównym składem soli Republiki Dubrownickiej.",
+          "latitude": 42.84671836723207, 
+          "longitude": 17.70449838082575,
+          "address": "Gornja ul. 3A, 20230, Mali Ston, Croatia",
+          "country": "Croatia",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/XD5rwQVjUJtw27vy6"
+        }
+      ]
     },
     {
       "videoId": "0rgJZxh2WgE",
