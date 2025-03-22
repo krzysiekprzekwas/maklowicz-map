@@ -1,5 +1,3 @@
-export type LocationType = 'restaurant' | 'attraction' | 'other';
-
 export interface CountryData {
     name: string;
     locations: Location[];
@@ -14,7 +12,7 @@ export interface Location {
     longitude: number;
     address: string;
     country: string;
-    type: LocationType;
+    type: string;
     websiteUrl?: string;
     GoogleMapsLink?: string;
 }

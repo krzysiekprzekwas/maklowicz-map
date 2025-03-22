@@ -2319,14 +2319,40 @@
       "locations": []
     },
     {
-      "videoId": "7uAgSQ-OWJ4",
-      "videoUrl": "https://www.youtube.com/watch?v=7uAgSQ-OWJ4",
-      "title": "Robert Makłowicz:   \"Co i dlaczego\"",
+      "videoId": "MQHB0LOijrk",
+      "videoUrl": "https://www.youtube.com/watch?v=MQHB0LOijrk",
+      "title": "ROBERT MAKŁOWICZ odc.14 \"Powrót do Krakowa i belgijskie frytki\"",
+      "filterTitle": "Powrót do Krakowa i belgijskie frytki (odc. 14)",
       "playlistId": "PLpTn8onHfnD3y0UxePHnl5S0qBU1-XQ9J",
       "playlistTitle": "Robert Makłowicz odcinki specjalne",
-      "date": "2020-04-11T07:51:16Z",
+      "date": "2020-09-11T07:51:16Z",
       "show": "Robert Makłowicz w podróży",
-      "locations": []
+      "locations": [
+        {
+          "id": "koliba-u-sv-kristofa",
+          "name": "Koliba u sv. Krištofa",
+          "description": "Klasyczna przydrożna restauracja serwująca słowackie dania.",
+          "latitude": 48.794200337092455, 
+          "longitude": 19.100070853064366,
+          "address": "Q3VX+M2 Staré Hory, Slovakia",
+          "country": "Słowacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/6z2Q9RvGPkaVNrwn9"
+        },
+        {
+          "id": "976-39-donovaly-s-owacja",
+          "name": "Donovaly",
+          "description": "Urokliwa wieś w Dolnych Tatrach. Nadająca się zarówno do turystyki letniej jak i zimowej.",
+          "latitude": 48.8775056437772, 
+          "longitude": 119.234534015201206,
+          "address": "E77 198, 976 39 Donovaly, Slovakia",
+          "country": "Słowacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/WgshTqCrFzFe2YKB7"
+        }
+      ]
     },
     {
       "videoId": "AY0_2AYQ1KU",
@@ -2399,7 +2425,7 @@
       "locations": [
         {
           "id": "20230-ston-chorwacja",
-          "name": "20230, Ston, Chorwacja",
+          "name": "Ston",
           "description": "Swego czasu drugie największe i najważniejsze miasto Republiki Dubrownickiej, wejście do półwyspu Pelješac.",
           "latitude": 42.838518152764976, 
           "longitude": 17.696059198276124,
