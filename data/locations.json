@@ -2349,6 +2349,42 @@
       "locations": []
     },
     {
+      "videoId": "BsOMBCXBSks",
+      "videoUrl": "https://www.youtube.com/watch?v=BsOMBCXBSks",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc. 4 \"Dalmatyńskie klasyki\".",
+      "filterTitle": "Dalmatyńskie klasyki (odc. 4)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2020-07-03T14:29:32Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "olive-orchards-of-trpanj",
+          "name": "Olive orchards of Trpanj",
+          "description": "Trpanjskie ogrody oliwne z ściezką turystyczną pomiędzy krzewami.",
+          "latitude": 43.001873590597775, 
+          "longitude": 17.291491715410018,
+          "address": "272P+GQ Trpanj, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/YNydpKT65g5USXkV7"
+        },
+        {
+          "id": "port-of-trpanj",
+          "name": "Port of Trpanj",
+          "description": "Jedna z dwóch przystani promowych na półwyspie Pelješac.",
+          "latitude": 43.00997355251406, 
+          "longitude": 17.26744566073017,
+          "address": "Žalo 30, 20240, Trpanj, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/eQUkP9dDd8yThrRr7"
+        }
+      ]
+    },
+    {
       "videoId": "OouwrMFihqM",
       "videoUrl": "https://www.youtube.com/watch?v=OouwrMFihqM",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc. 3 \"Wino i oliwa\".",
