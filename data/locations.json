@@ -2309,14 +2309,75 @@
       ]
     },
     {
-      "videoId": "pwN8DhXxE70",
-      "videoUrl": "https://www.youtube.com/watch?v=pwN8DhXxE70",
-      "title": "ROBERT MAKŁOWICZ OPOWIADA odc. 2 \" Podróż na Filipiny\".",
-      "playlistId": "PLpTn8onHfnD1ZRCsXEdODYGJn-mtf_zIB",
-      "playlistTitle": "Robert Makłowicz opowiada",
-      "date": "2020-04-30T07:04:20Z",
+      "videoId": "fFE6E4xJTPI",
+      "videoUrl": "https://www.youtube.com/watch?v=fFE6E4xJTPI",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc.15 \"Tajemnice wyspy Vis\".",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2020-09-18T07:04:20Z",
       "show": "Robert Makłowicz w podróży",
-      "locations": []
+      "locations": [
+        {
+          "id": "boj-pod-visom-fortica-king-george-iii-central-dalmatia-croatia-theme-trails",
+          "name": "Fortica King George III",
+          "description": "Fort George, fortyfikacja strzeżąca portu w Vis. Kluczowy element znaczącej bitwy morskiej pod Lissą.",
+          "latitude": 43.073502107361904, 
+          "longitude": 16.19655700951403,
+          "address": "Šetalište Apolonija Zanelle 19, 21480, Vis, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ye6KzhnAYCBiK8Na6"
+        },
+        {
+          "id": "nautica-vis-diving-center",
+          "name": "Nautica Vis Diving Center",
+          "description": "Szkoła nurkowania prowadzona przez kolegę Pana Roberta z czasów szkolnych.",
+          "latitude": 43.065609880264844, 
+          "longitude": 16.1893124493411983,
+          "address": "3582+6F Vis, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/gdnzgxKMjWziwwQW9"
+        },
+        {
+          "id": "raketna-baza-jna-ispred-sklonista-za-podmornicu",
+          "name": "Raketna baza JNA ispred skloništa za podmornicu",
+          "description": "Jugosłowiański schron dla okrętów. Dziś przystań dla mniejszych jednostek.",
+          "latitude": 43.081108179987446, 
+          "longitude": 16.18386715362597,
+          "address": "35JM+87, 21480, Rogačić, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/dGaKvJaF3ihR6wun8"
+        },
+        {
+          "id": "jna-cannon-bunker",
+          "name": "JNA Cannon Bunker",
+          "description": "Bunkier ostrzałowy z czasów jugosłowiańskich.",
+          "latitude": 43.08019302143225, 
+          "longitude": 16.183410351433132,
+          "address": "35JM+87, 21480, Rogačić, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/avp2bHvs5EX8S5QC9"
+        },
+        {
+          "id": "restaurant-vatrica",
+          "name": "Restaurant Vatrica",
+          "description": "Konoba bezpośrednio w miejscowości Vis.",
+          "latitude": 43.05895965755015, 
+          "longitude": 16.199042489463988,
+          "address": "Ul. Vladimira Nazora 45A, 21480, Vis, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/jy58ywHZneYx5yGm7"
+        }
+      ]
     },
     {
       "videoId": "MQHB0LOijrk",
@@ -2345,7 +2406,7 @@
           "name": "Donovaly",
           "description": "Urokliwa wieś w Dolnych Tatrach. Nadająca się zarówno do turystyki letniej jak i zimowej.",
           "latitude": 48.8775056437772, 
-          "longitude": 119.234534015201206,
+          "longitude": 19.234534015201206,
           "address": "E77 198, 976 39 Donovaly, Slovakia",
           "country": "Słowacja",
           "type": "attraction",
