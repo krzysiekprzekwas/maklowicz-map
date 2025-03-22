@@ -2349,6 +2349,18 @@
       "locations": []
     },
     {
+      "videoId": "mwq7VUmGwg4",
+      "videoUrl": "https://www.youtube.com/watch?v=mwq7VUmGwg4",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc. 6 \"Wśród przyjaciół\".",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2020-07-17T14:29:32Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        
+      ]
+    },
+    {
       "videoId": "_-dnABTDUzQ",
       "videoUrl": "https://www.youtube.com/watch?v=_-dnABTDUzQ",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc. 5 \"Wokół Orebića\".",
@@ -2373,7 +2385,7 @@
         {
           "id": "monastery-and-church-of-our-lady-of-the-angels",
           "name": "Monastery and church of Our Lady of the Angels",
-          "description": "Kościół i klastor Matki Boskiej Anioelskiej wraz z towarzuszącym im przepięknym historycznym cmentarzem.",
+          "description": "Kościół i klastor Matki Boskiej Anielskiej wraz z towarzyszącym im przepięknym historycznym cmentarzem.",
           "latitude": 42.97744570172432, 
           "longitude": 17.15339019397144,
           "address": "Celestinov put 18, 20250, Podgorje, Croatia",
