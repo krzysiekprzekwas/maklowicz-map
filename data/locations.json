@@ -2329,14 +2329,63 @@
       "locations": []
     },
     {
-      "videoId": "OouwrMFihqM",
-      "videoUrl": "https://www.youtube.com/watch?v=OouwrMFihqM",
-      "title": "ROBERT MAKŁOWICZ DALMACJA odc. 3 \"Wino i oliwa\".",
-      "playlistId": "PLpTn8onHfnD38DFXzDbvOB6ewOeNkeEu_",
-      "playlistTitle": "Robert Makłowicz gotuje",
-      "date": "2020-06-27T20:39:04Z",
+      "videoId": "AY0_2AYQ1KU",
+      "videoUrl": "https://www.youtube.com/watch?v=AY0_2AYQ1KU",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc.12 \" Dalmatyński fitness\".",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2020-08-28T20:39:04Z",
       "show": "Robert Makłowicz w podróży",
-      "locations": []
+      "locations": [
+        {
+          "id": "ostreum-j-d-o-o",
+          "name": "Ostreum j.d.o.o.",
+          "description": "Agroturystyka serwująca noclegi jak i ostryki oraz niezwykłe wino musujące dojrzewające wśród korali na dnie morza.",
+          "latitude": 42.90961853655256, 
+          "longitude": 17.493339370313368,
+          "address": "Blaževo 4, 20246, Dubrava, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/CrK2dvyGKPUHX7XC9"
+        },
+        {
+          "id": "plaza-vucine",
+          "name": "Plaża Vućine",
+          "description": "Uznawana za jedną z najpiękniejszych plaż w Dalmacji.",
+          "latitude": 42.88600951235867, 
+          "longitude": 17.45119716908997,
+          "address": "VCPR+98 Žuljana, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Uo5tony3KYuTYcBH9"
+        },
+        {
+          "id": "besurf",
+          "name": "BeSurf",
+          "description": "Szkoła sportów wodnych prowadzona przez polaków.",
+          "latitude": 42.97808758332841, 
+          "longitude": 17.126527056773806,
+          "address": "Kućište 54, 20267, Kučište, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/EDswJrPLo1BnkvjK6"
+        },
+        {
+          "id": "konoba-panorama",
+          "name": "Konoba Panorama",
+          "description": "Urokliwa restauracja agroturystyczna.",
+          "latitude": 42.9787908317258, 
+          "longitude": 17.14171661648407,
+          "address": "Bilo polje 12, 20250, Podgorje, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/MZxSGpW51wxXk9eX7"
+        }
+      ]
     },
     {
       "videoId": "g5gIdiTHq7o",
