@@ -2298,6 +2298,90 @@
       ]
     },
     {
+      "videoId": "G9SeM6zZ-gI",
+      "videoUrl": "https://www.youtube.com/watch?v=G9SeM6zZ-gI",
+      "title": "ROBERT MAKŁOWICZ Odc. 18 \"Gargantuiczna Baranja\"",
+      "filterTitle": "Gargantuiczna Baranja (odc. 18)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2020-10-09T07:04:20Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "trogir-chorwacja",
+          "name": "Trogir, Chorwacja",
+          "description": "Miasto załone oryginalnie przez Greckich koloniostów, następnie długo pod rządami Wenecji.",
+          "latitude": 43.517691890237614, 
+          "longitude": 16.250559005605613,
+          "address": "Trogirska cesta 11, 21220, Trogir, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/jwCUNTrvfLRx5rkx9"
+        },
+        {
+          "id": "nikola-tesla-memorial-centre",
+          "name": "Nikola Tesla Memorial Centre",
+          "description": "Miasteczko urodzenia Nikoli Tesli, z muzeum poświęconym jego życiu i dokonaniom.",
+          "latitude": 44.55954159271852, 
+          "longitude": 15.308589880728025,
+          "address": "H862+7J Smiljan, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/XUeLgdPw9T3yhKEc6"
+        },
+        {
+          "id": "karanac-chorwacja",
+          "name": "Karanac",
+          "description": "Etnowioska z regionów dawnych Węgier, Serbii i Chorwacji. Przykład dawnych lat i wielokulturowości regionu.",
+          "latitude": 45.76010022827114, 
+          "longitude": 18.685685304791544,
+          "address": "Nikole Tesle 1B, 31315, Karanac, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/tUkNCtjw5mZNiFex7"
+        },
+        {
+          "id": "svijetli-dvori",
+          "name": "Svijetli dvori",
+          "description": "Lokalny sklep winny z baranjskimi specjałami.",
+          "latitude": 45.76031531642526, 
+          "longitude": 18.68547401814893,
+          "address": "Nikole Tesle 1B, 31315, Karanac, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/D4XfzXTVn9gpoPj26"
+        },
+        {
+          "id": "podrum-szabo-pinceszet",
+          "name": "Podrum - Szabó - pincészet",
+          "description": "Winnica rodziny Szabo, z winami z regionu Baranja.",
+          "latitude": 45.76166690039158, 
+          "longitude": 18.685570496190792,
+          "address": "Kolodvorska ul. 113 a, 31315, Karanac, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/UU4UcGzcajtzzNPU8"
+        },
+        {
+          "id": "baranjska-kuca",
+          "name": "Baranjska kuća",
+          "description": "Agrokulturystyka orbitująca swoim hotelem i restauracją wokół lokalnej historii.",
+          "latitude": 45.760064996676306, 
+          "longitude": 18.68553821100388,
+          "address": "Kolodvorska ul. 99, 31315, Karanac, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZqTJWeDgS2rxUeV59"
+        }
+      ]
+    },
+    {
       "videoId": "A-84_sxhlRk",
       "videoUrl": "https://www.youtube.com/watch?v=A-84_sxhlRk",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc.17 \" Vis część druga\"",
