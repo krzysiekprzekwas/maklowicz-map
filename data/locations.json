@@ -2298,6 +2298,102 @@
       ]
     },
     {
+      "videoId": "rbkMIV1_9pw",
+      "videoUrl": "https://www.youtube.com/watch?v=rbkMIV1_9pw",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc.21 \" Poznań klasyczny\"",
+      "filterTitle": "Poznań klasyczny (odc. 21)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2020-10-31T21:36:11Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "stary-rynek-61-772-poznan",
+          "name": "Stary Rynek, 61-772 Poznań",
+          "description": "Centralny punkt Poznania.",
+          "latitude": 52.40798370551475, 
+          "longitude": 16.932846341953187,
+          "address": "plac Wolności 185, 61-738 Poznań, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/X8D68zboNbDncxTY7"
+        },
+        {
+          "id": "moliera2",
+          "name": "Moliera2",
+          "description": "Historycznie poznański bazar, punkt startowy Powstania Wielkopolskiego, a dziś widowiskowy sklep odziezowy i hotel.",
+          "latitude": 52.40770841267954, 
+          "longitude": 16.929428399923374,
+          "address": "plac Wolności 6, 61-738 Poznań, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/hDnb8JWBqVCtb1Cg7"
+        },
+        {
+          "id": "hotel-bazar",
+          "name": "Hotel Bazar",
+          "description": "Restauracja w Hotelu Bazar serwująca kuchnię polską godną historycznej wzniosłości budynku w któróm sie znajduje.",
+          "latitude": 52.40778310075553, 
+          "longitude": 16.92956763853322,
+          "address": "plac Wolności 182, 61-738 Poznań, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/7ev2tt3RGaLT2NhE7"
+        },
+        {
+          "id": "miedzynarodowe-targi-poznanskie",
+          "name": "Międzynarodowe Targi Poznańskie",
+          "description": "Unikatowe i tozsame z Poznaniem budynki goszczace miedzynarodowe targi handlowe wielu dziedzin.",
+          "latitude": 52.40259295892438, 
+          "longitude": 16.90959672783947,
+          "address": "Śniadeckich 25, 60-774 Poznań, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/CPvPGLcpAQMkaydFA"
+        },
+        {
+          "id": "hotel-mercure-poznan-centrum",
+          "name": "Cukiernia Hotelu Mercure",
+          "description": "Restauracja w hotelu Mercure. Kiedyś polski symbol targów, dziś część francuskiej sieci. Z niesamowitą pracownią cukierniczą.",
+          "latitude": 52.40847890915967, 
+          "longitude": 16.91161972722036,
+          "address": "Zwierzyniecka 14, 60-813 Poznań, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ToURfbvFD4ogAeLH9"
+        },
+        {
+          "id": "zamek-cesarski-w-poznaniu",
+          "name": "Zamek Cesarski w Poznaniu",
+          "description": "Zamek z czasów pruskich zbudowany dla cesarza Wilhelma II.",
+          "latitude": 52.4078020682798, 
+          "longitude": 16.919166029775532,
+          "address": "Święty Marcin 83, 61-804 Poznań, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/3Vp4zNEqXFj2EMf66"
+        },
+        {
+          "id": "3-kolory-malta",
+          "name": "3 Kolory Malta",
+          "description": "Restauracja nad samym brzegiem zalewu maltańskiego.",
+          "latitude": 52.40008473905605, 
+          "longitude": 16.985227097174985,
+          "address": "Wiankowa 3, 61-131 Poznań, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Pg9FS42ZpHcWmjpn9"
+        }
+      ]
+    },
+    {
       "videoId": "q67VB9iUx7I",
       "videoUrl": "https://www.youtube.com/watch?v=q67VB9iUx7I",
       "title": "ROBERT MAKŁOWICZ POLSKA odc.20 \"Mazowsze dla wtajemniczonych\".",
