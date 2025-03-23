@@ -2298,6 +2298,54 @@
       ]
     },
     {
+      "videoId": "mUd__iHsSwM",
+      "videoUrl": "https://www.youtube.com/watch?v=mUd__iHsSwM",
+      "title": "ROBERT MAKŁOWICZ odc.19 \"Naddunajska ekstaza\".",
+      "filterTitle": "Naddunajska ekstaza (odc. 19)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2020-10-16T07:04:20Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "josic-restaurant-and-winery",
+          "name": "Josic Restaurant and Winery",
+          "description": "Klimatyczny piwniczny lokal w winnicy Josic.",
+          "latitude": 45.79822310490089, 
+          "longitude": 18.80063544157681,
+          "address": "QQXW+G8 Zmajevac, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/iXwtY3gGycL469rU8"
+        },
+        {
+          "id": "destilerija-knezevi-vinogradi",
+          "name": "Destilerija Kneževi Vinogradi",
+          "description": "Kameralna destylarnia rakiji.",
+          "latitude": 45.73841827157513, 
+          "longitude": 18.72818476729291,
+          "address": "Put Lipa 1, 31300, Kneževi Vinogradi, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/624RaHFB46EcQLmf6"
+        },
+        {
+          "id": "monument-of-batina-battle-julka",
+          "name": "Monument of Batina battle,(\"Julka\")",
+          "description": "Pomnik miejsca gdzie sowieci przebili niemiecką obronę na Dunaju. Jednoczeście świetny punkt widokowy na trójstyk granic.",
+          "latitude": 45.85463992493574, 
+          "longitude": 18.849296740529052,
+          "address": "VQ4G+6M Draž, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/vV7X9CELaXapsWHEA"
+        }
+      ]
+    },
+    {
       "videoId": "G9SeM6zZ-gI",
       "videoUrl": "https://www.youtube.com/watch?v=G9SeM6zZ-gI",
       "title": "ROBERT MAKŁOWICZ Odc. 18 \"Gargantuiczna Baranja\"",
