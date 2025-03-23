@@ -2298,6 +2298,54 @@
       ]
     },
     {
+      "videoId": "0d0R-pwnrYA",
+      "videoUrl": "https://www.youtube.com/watch?v=0d0R-pwnrYA",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc.16 \" Vis część pierwsza\"",
+      "filterTitle": "Vis część pierwsza (odc. 16)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2020-09-25T07:04:20Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "vis-ferry-harbour",
+          "name": "Vis Ferry Harbour",
+          "description": "Port promowy na najbardziej oddalonej wyspie chorwackiej",
+          "latitude": 43.061630450777066, 
+          "longitude": 16.18497713990757,
+          "address": "Setalište stare, 21480, Vis, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/QQvN4AwmLJ6pNngS6"
+        },
+        {
+          "id": "aerodrom-plisko-polje",
+          "name": "Aerodrom Plisko polje",
+          "description": "Dawne lotnisko z czasów 2-giej Wojny Światowej",
+          "latitude": 43.03251208539804, 
+          "longitude": 16.183281330180527,
+          "address": "Marine zemlje 18, 21480, Plisko Polje, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Ed3iA76zP2gKNgqZ8"
+        },
+        {
+          "id": "aerodrom-gostionica",
+          "name": "Aerodrom Gostionica",
+          "description": "Koboba w budynku spółdzielni winiarskiej.",
+          "latitude": 43.03369183915271, 
+          "longitude": 16.18204334949596,
+          "address": "D117 25, 21480, Plisko Polje, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Voho4weCTEqTwjCp9"
+        }
+      ]
+    },
+    {
       "videoId": "fFE6E4xJTPI",
       "videoUrl": "https://www.youtube.com/watch?v=fFE6E4xJTPI",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc.15 \"Tajemnice wyspy Vis\".",
