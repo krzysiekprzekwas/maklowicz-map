@@ -2298,6 +2298,90 @@
       ]
     },
     {
+      "videoId": "A-84_sxhlRk",
+      "videoUrl": "https://www.youtube.com/watch?v=A-84_sxhlRk",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc.17 \" Vis część druga\"",
+      "filterTitle": "Vis część druga (odc. 17)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2020-10-02T07:04:20Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "komiza-chorwacja",
+          "name": "Komiža",
+          "description": "Drugie pod względem wielkości miasto na wyspie Vis.",
+          "latitude": 43.044080430848105, 
+          "longitude": 16.08841823244763,
+          "address": "2WRM+GX Komiža, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/owLHHiAjUiXvsDn5A"
+        },
+        {
+          "id": "pekara-kol-eraj",
+          "name": "Pekara Kolđeraj",
+          "description": "Piekarnia w miejscości Komiža serwująca unikalne \"komiška pogača\"",
+          "latitude": 43.044147824782485, 
+          "longitude": 16.089290683596218,
+          "address": "Trg kralja Tomislava 1, 21485, Komiža, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/iaH5V4zNyw9EQXaJA"
+        },
+        {
+          "id": "kavana-riva",
+          "name": "Kavana Riva",
+          "description": "Restauracja portowa w klimacie lokalnej kuchni rybackiej.",
+          "latitude": 43.059437801804364, 
+          "longitude": 16.18687149345852,
+          "address": "Trg Karolina 1, 21480, Vis, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/y95pAQcC5PncCiHo6"
+        },
+        {
+          "id": "stiniva",
+          "name": "Stiniva",
+          "description": "Urokliwa plaża w zatoce, czesto odwiedzana łodzią.",
+          "latitude": 43.02137696782573, 
+          "longitude": 16.171567553467625,
+          "address": "25C9+GH Marinje Zemlje, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/NuJqkezaMM1NgL617"
+        },
+        {
+          "id": "green-cave",
+          "name": "Green Cave",
+          "description": "Zielona grota na małej wyspie Ravnik, dostępna dla łodzi motorowodnych.",
+          "latitude": 43.0153607443064, 
+          "longitude": 16.224409399285804,
+          "address": "2688+5M Rukavac, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/G7Q6acn3gm1ptHBz6"
+        },
+        {
+          "id": "villa-rustica-vis",
+          "name": "Villa Rustica Vis",
+          "description": "Urokliwa restauracja z stokilami wkomponowanymi w drzewka cytrusowe.",
+          "latitude": 43.062673116846106, 
+          "longitude": 16.18364425274942,
+          "address": "3576+3H Vis, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/rVxC4fwi7ZxXMN7U8"
+        }
+      ]
+    },
+    {
       "videoId": "0d0R-pwnrYA",
       "videoUrl": "https://www.youtube.com/watch?v=0d0R-pwnrYA",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc.16 \" Vis część pierwsza\"",
