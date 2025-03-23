@@ -2298,6 +2298,30 @@
       ]
     },
     {
+      "videoId": "q67VB9iUx7I",
+      "videoUrl": "https://www.youtube.com/watch?v=q67VB9iUx7I",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc.20 \"Mazowsze dla wtajemniczonych\".",
+      "filterTitle": "Mazowsze dla wtajemniczonych (odc. 20)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2020-10-23T21:36:11Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "badowo-k-ody-folwark",
+          "name": "Badowo Kłody. Folwark",
+          "description": "Agrokulturystyka, instytucja edukacyjna i kulturalna w budynku dawnego folwarku. Miejsce kręcenia filmy Testosteron.",
+          "latitude": 51.93259934869002, 
+          "longitude": 20.54140573054177,
+          "address": "Piekarska 25, 96-320 Badów Górny, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/TaTbjsTjQeorqsUC6"
+        }
+      ]
+    },
+    {
       "videoId": "mUd__iHsSwM",
       "videoUrl": "https://www.youtube.com/watch?v=mUd__iHsSwM",
       "title": "ROBERT MAKŁOWICZ odc.19 \"Naddunajska ekstaza\".",
