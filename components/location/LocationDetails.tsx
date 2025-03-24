@@ -57,21 +57,21 @@ export function LocationDetails({ location, onClose }: LocationDetailsProps) {
               </div>
 
               {video && (
-                    <div>
-                      <h3 className="font-semibold mb-1">Film</h3>
-                      <div className="space-y-2">
-                        <p className="text-sm text-gray-600">{video.title}</p>
-                        <a 
-                          href={videoUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center space-x-2 text-primary hover:text-primary-darker transition-colors"
-                        >
-                          <span>▶️ Zobacz na YouTube</span>
-                        </a>
-                      </div>
-                    </div>
-                  )}
+                <div>
+                  <h3 className="font-semibold mb-1">Film</h3>
+                  <div className="space-y-2">
+                    <p className="text-sm text-gray-600">{video.title}</p>
+                    <a 
+                      href={videoUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center space-x-2 text-primary hover:text-primary-darker transition-colors"
+                    >
+                      <span>▶️ Zobacz na YouTube</span>
+                    </a>
+                  </div>
+                </div>
+              )}
 
               {location.GoogleMapsLink && (
                 <div>
@@ -81,6 +81,26 @@ export function LocationDetails({ location, onClose }: LocationDetailsProps) {
                   </a>
                 </div>
               )}
+
+              <div>
+                <h3 className="font-semibold mb-1">Udostępnij</h3>
+                <div className="space-y-2">
+                  <button
+                    onClick={() => navigator.share?.({
+                      title: location.name,
+                      text: `Sprawdź to miejsce: ${location.name}`,
+                      url: location.GoogleMapsLink || window.location.href,
+                    })}
+                    className="inline-flex items-center space-x-2 text-primary hover:text-primary-darker transition-colors"
+                    disabled={!navigator.share}
+                  >
+                    <span>📤 Udostępnij</span>
+                  </button>
+                  {!navigator.share && (
+                    <p className="text-sm text-gray-600">Twoja przeglądarka nie obsługuje funkcji udostępniania.</p>
+                  )}
+                </div>
+              </div>
             </div>
           </>
         )}

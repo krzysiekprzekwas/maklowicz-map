@@ -84,7 +84,11 @@ export function Filters({
                   {countries.map((country) => (
                     <div key={country.name} className="space-y-1">
                       <button
-                        onClick={() => onCountryClick(country.name)}
+                        onClick={() => {
+                          if (selectedCountry !== country.name) {
+                            onCountryClick(country.name);
+                          }
+                        }}
                         className={`w-full text-left px-3 py-2 rounded-lg transition-colors flex items-center justify-between ${
                           selectedCountry === country.name
                             ? 'bg-secondary-darker text-primary' 
@@ -170,4 +174,4 @@ export function Filters({
       </button>
     </>
   );
-} 
+}
