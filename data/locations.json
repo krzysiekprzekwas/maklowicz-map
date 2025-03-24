@@ -2298,6 +2298,138 @@
       ]
     },
     {
+      "videoId": "DZpv2ahLAlI",
+      "videoUrl": "https://www.youtube.com/watch?v=DZpv2ahLAlI",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc.22 \"Nieoczywisty Poznań\"",
+      "filterTitle": "Nieoczywisty Poznań (odc. 22)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2020-11-06T21:36:11Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "kiekrz-poznan",
+          "name": "Jezioro Kierskie",
+          "description": "Największe jezioro w ramach miasta Poznań. Mariny, restauracje i kontakt z naturą.",
+          "latitude": 52.46227114953589, 
+          "longitude": 16.787000201328954,
+          "address": "FP9M+3P Poznań, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/7eRNYNaSLfQXiRN78"
+        },
+        {
+          "id": "przeciwatomowy-schron-dla-w-adz-miasta-poznania",
+          "name": "Przeciwatomowy Schron dla Władz Miasta Poznania",
+          "description": "Niepozowny dom na przedmieściach będący jednak atrapą kryjącą przeciwatomowy schron z czasów PRL.",
+          "latitude": 52.44124615639756, 
+          "longitude": 16.807928848329386,
+          "address": "CMR4+G6 Lusówko, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/w5TvQqaYfeubRCSk7"
+        },
+        {
+          "id": "beza-cukiernia-bezowa",
+          "name": "Beza Cukiernia Bezowa",
+          "description": "Piętrowe, wielosmakowe kompozycje bezowe. Nie ma nudy.",
+          "latitude": 52.40365135358129, 
+          "longitude": 16.942013505893836,
+          "address": "Pogodna 42, 60-275 Poznań, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ToV6y1eZ5EPD7ZVt5"
+        },
+        {
+          "id": "muzeum-archidiecezjalne-w-poznaniu",
+          "name": "Muzeum Archidiecezjalne w Poznaniu",
+          "description": "Muzeum w Akademii Lubrańskiego",
+          "latitude": 52.412481582750985, 
+          "longitude": 16.946937696315313,
+          "address": "Panny Marii 1, 61-108 Poznań, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/NKQMxBrUvZZv8ZU89"
+        },
+        {
+          "id": "bazylika-archikatedralna-sw-aposto-ow-piotra-i-paw-a",
+          "name": "Bazylika Archikatedralna św. Apostołów Piotra i Pawła",
+          "description": "Najstarsza katedra na ziemiach polskich. Miejsce spoczynku Mieszka II, Chrobrego i prawdopodobnie Mieszka I.",
+          "latitude": 52.41166183810203, 
+          "longitude": 16.949299579216056,
+          "address": "Ostrów Tumski 17, 61-109 Poznań, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/vYNimMSxZvd2CXUv9"
+        },
+        {
+          "id": "mural-srodka",
+          "name": "Mural Śródka",
+          "description": "Widowiskowy malunek w dzielnicy Poznania, Śródka. Jej nazwa wywodzi się od odbywających się tutaj historycznie środowych targów.",
+          "latitude": 52.41123433760223, 
+          "longitude": 16.953487641093602,
+          "address": "Śródka 5, 61-125 Poznań, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/VUzUn2uNtNRrhbMLA"
+        },
+        {
+          "id": "modra-kuchnia",
+          "name": "Modra Kuchnia",
+          "description": "Restauracja kreatywnie interpretująca kuchnię poznańską.",
+          "latitude": 52.41164646974682, 
+          "longitude": 16.91171314916789,
+          "address": "Jana Henryka Dąbrowskiego 34, 60-843 Poznań, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/tasQKovf353zHC6z5"
+        },
+        {
+          "id": "posag-higiei-bogini-zdrowia",
+          "name": "Posąg Higiei - Bogini Zdrowia",
+          "description": "Pomnik zawierający równiez medalion Vincentego Priesnitza, wynalazcy prysznica.",
+          "latitude": 52.40816439650187, 
+          "longitude": 16.928736874621087,
+          "address": "plac Wolności 185, 61-738 Poznań, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/PaYK22yYRM3R5Pwo9"
+        },
+        {
+          "id": "centrum-konferencyjne-m-ynska12",
+          "name": "Centrum konferencyjne Młyńska12",
+          "description": "Pięknie odrestaurowana kamienica pełniąca dziś mieszane funkcje biurowe i gastronomiczne.",
+          "latitude": 52.41088465278281, 
+          "longitude": 16.92596672701777,
+          "address": "Młyńska 12/11, 61-730 Poznań, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Vf64FKcYYBrtMPyX8"
+        },
+        {
+          "id": "a-noz-widelec",
+          "name": "A nóż widelec",
+          "description": "Restauracja prowadzone przez Michała Kutra, przez niektórych uwazana za jedną z najlepszych w okolicy, jak nie kraju.",
+          "latitude": 52.37660525979144, 
+          "longitude": 16.890320483604494,
+          "address": "Jaskiniowa 1, 60-115 Poznań, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZA3ngKEXBTNHuRCV6"
+        }
+      ]
+    },
+    {
       "videoId": "rbkMIV1_9pw",
       "videoUrl": "https://www.youtube.com/watch?v=rbkMIV1_9pw",
       "title": "ROBERT MAKŁOWICZ POLSKA odc.21 \" Poznań klasyczny\"",
