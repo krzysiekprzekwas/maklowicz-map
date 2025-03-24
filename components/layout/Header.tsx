@@ -38,7 +38,7 @@ export function Header() {
           <div>
             <h1 className={styles.title}>Śladami Roberta Makłowicza</h1>
             <p className={styles.subtitle}>
-              Interaktywna mapa restauracji i atrakcji odwiedzonych przez Roberta Makłowicza
+              Mapa miejsc odwiedzonych przez Roberta Makłowicza
             </p>
           </div>
         </div>

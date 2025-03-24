@@ -2298,6 +2298,78 @@
       ]
     },
     {
+      "videoId": "ZBoM2amigdU",
+      "videoUrl": "https://www.youtube.com/watch?v=ZBoM2amigdU",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc.26 \"Poznań wielokulturowy\"",
+      "filterTitle": "Poznań wielokulturowy (odc. 26)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2020-12-04T21:36:11Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "studzienka-bamberki",
+          "name": "Studzienka Bamberki",
+          "description": "Pomnik ku czci bamberki. Przedstawicielki polaków pochodzenia niemieckiego, osadników przybyłych z okolic Bambergu.",
+          "latitude": 52.40850199362049, 
+          "longitude": 16.933594208777738,
+          "address": "Franciszkańska 2, 61-001 Poznań, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/cE5vLyziFfNxeQuv5"
+        },
+        {
+          "id": "chmeli-suneli-restauracja-gruzinska-masztalarska-8",
+          "name": "Chmeli Suneli",
+          "description": "Wybitnie autentyczna restauracja gruzińska.",
+          "latitude": 52.409814999213275, 
+          "longitude": 16.932828841805414,
+          "address": "23 Lutego 20, 61-742 Poznań, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/3azgn8kh69fAF1m79"
+        },
+        {
+          "id": "tonir",
+          "name": "Tonir",
+          "description": "Grill bar z kuchnią armeńską.",
+          "latitude": 52.38937295300091, 
+          "longitude": 16.976885151774688,
+          "address": "osiedle Lecha 44, 61-293 Poznań, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/1qA1YwhoFwpbEbFW8"
+        },
+        {
+          "id": "happa-to-mame",
+          "name": "Happa to Mame",
+          "description": "Unikatowa, minimalistyczna japońska herbaciarnia i cukiernia",
+          "latitude": 52.41088037459837, 
+          "longitude": 16.89977270277014,
+          "address": "Szamarzewskiego 19, 60-503 Poznań, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/xC5yea8ZYNhD3zWu7"
+        },
+        {
+          "id": "u-aipo-restauracja-z-kuchnia-kirgistanu",
+          "name": "U AIPO Restauracja z kuchnią Kirgistanu",
+          "description": "Jedyna w Polsca restauracja kirgijska prowadzona przez parę imigrantów.",
+          "latitude": 52.41033927822644, 
+          "longitude": 16.90135753439302,
+          "address": "Jackowskiego 35/13, 60-535 Poznań, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/3cpKU52jRGyRjQkY9"
+        }
+      ]
+    },
+    {
       "videoId": "M-6wjrcs2qg",
       "videoUrl": "https://www.youtube.com/watch?v=M-6wjrcs2qg",
       "title": "ROBERT MAKŁOWICZ POLSKA odc.25 \"Z Wrześni do Poznania\".",
