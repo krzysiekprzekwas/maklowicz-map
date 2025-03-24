@@ -2298,6 +2298,90 @@
       ]
     },
     {
+      "videoId": "M-6wjrcs2qg",
+      "videoUrl": "https://www.youtube.com/watch?v=M-6wjrcs2qg",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc.25 \"Z Wrześni do Poznania\".",
+      "filterTitle": "Z Wrześni do Poznania (odc. 25)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2020-11-27T21:36:11Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "muzeum-regionalne-im-dzieci-wrzesinskich",
+          "name": "Muzeum Regionalne im. Dzieci Wrzesińskich",
+          "description": "Miejsce zalązkowe strajku szkolenego w zaborze pruskim.",
+          "latitude": 52.32573411327948, 
+          "longitude": 17.564624859810856,
+          "address": "Rzeczna 1, 62-302 Września, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/jG3kFkvLz8VX1CB99"
+        },
+        {
+          "id": "szwarc-cukiernia-smodlibowski-a",
+          "name": "Szwarc. Cukiernia. Smodlibowski A.",
+          "description": "Nieprzerwanie działająca od XIX wieku cukiernia.",
+          "latitude": 52.326506305795604, 
+          "longitude": 17.565206758294703,
+          "address": "Azaliowa 21, 62-300 Września, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/4QLpNpNS7KodFJnL7"
+        },
+        {
+          "id": "esplanada",
+          "name": "Esplanada",
+          "description": "Restauracja u boku Pałacu na Opieszynie",
+          "latitude": 52.32112882344954, 
+          "longitude": 17.568715567231372,
+          "address": "Opieszyn 1, 62-300 Września, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/URWmA9HAYbjerLPN8"
+        },
+        {
+          "id": "poznanska-farma-miejska",
+          "name": "Poznańska Farma Miejska",
+          "description": "Ekologiczna miejsca uprawa wazywna.",
+          "latitude": 52.46533551391811, 
+          "longitude": 16.95464253604915,
+          "address": "Radłowa 7/1, 61-602 Poznań, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/sdfHshWL3uxTsW3x8"
+        },
+        {
+          "id": "bo",
+          "name": "Bo.",
+          "description": "Lokal oferujący śniadania z całego świata.",
+          "latitude": 52.40860320105984, 
+          "longitude": 16.91993756905206,
+          "address": "Zamek, 61-713 Poznań, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/8zjHFhbVryDnwG3Z9"
+        },
+        {
+          "id": "ministerstwo-browaru",
+          "name": "Ministerstwo Browaru",
+          "description": "Lokal z piwami rzemieślniczymi i kraftowymi.",
+          "latitude": 52.410263719236305, 
+          "longitude": 16.93427172496371,
+          "address": "Aleje Karola Marcinkowskiego 2, 61-827 Poznań, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/5SBRZLpTwPBqpkT28"
+        }
+      ]
+    },
+    {
       "videoId": "r8kuCiBeHGc",
       "videoUrl": "https://www.youtube.com/watch?v=r8kuCiBeHGc",
       "title": "ROBERT MAKŁOWICZ POLSKA odc.24 \"Od pałacu do jabłka\".",
