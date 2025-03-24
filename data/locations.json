@@ -2298,6 +2298,42 @@
       ]
     },
     {
+      "videoId": "r8kuCiBeHGc",
+      "videoUrl": "https://www.youtube.com/watch?v=r8kuCiBeHGc",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc.24 \"Od pałacu do jabłka\".",
+      "filterTitle": "Od pałacu do jabłka (odc. 24)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2020-11-20T21:36:11Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "pa-ac-ma-a-wies",
+          "name": "Pałac Mała Wieś",
+          "description": "Pałac a wokół niego bezkresne sady jabłoniowe.",
+          "latitude": 51.82458719079066, 
+          "longitude": 20.790181044615945,
+          "address": "Mała Wieś 2, 05-622, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/g9UBQWvWhUwbiehe6"
+        },
+        {
+          "id": "ogrod-rozany",
+          "name": "Ogród Różany",
+          "description": "Jeden z największych ogrodów różanych w Europie.",
+          "latitude": 51.82575108810723, 
+          "longitude": 20.79022660188509,
+          "address": "Mała Wieś 40, 05-622, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/VD19gVH6Xi4EfmTy8"
+        }
+      ]
+    },
+    {
       "videoId": "dlte6kdUxb8",
       "videoUrl": "https://www.youtube.com/watch?v=dlte6kdUxb8",
       "title": "ROBERT MAKŁOWICZ POLSKA odc.23 \"Miłosławskie skarby\"",
