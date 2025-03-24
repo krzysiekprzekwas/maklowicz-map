@@ -2298,6 +2298,78 @@
       ]
     },
     {
+      "videoId": "dlte6kdUxb8",
+      "videoUrl": "https://www.youtube.com/watch?v=dlte6kdUxb8",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc.23 \"Miłosławskie skarby\"",
+      "filterTitle": "Miłosławskie skarby (odc. 23)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2020-11-13T21:36:11Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "pa-ac-w-mi-os-awiu",
+          "name": "Pałac w Miłosławiu",
+          "description": "Pałac rodziny kościelskich, niegdyś włodarzy miasta Miłosław, a równiez znanych z powodu fundacji, która po dziś przyznaje prestiowe nagrody literackie.",
+          "latitude": 52.198574954730546, 
+          "longitude": 17.487599321841213,
+          "address": "Poznańska 8, 62-320 Miłosław, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/3W2ouZgyvcEoZdrA8"
+        },
+        {
+          "id": "pomnik-juliusza-s-owackiego-w-mi-os-awiu",
+          "name": "Pomnik Juliusza Słowackiego w Miłosławiu",
+          "description": "Pierwszy pomnik Juliusza Słowackiego.",
+          "latitude": 52.19853475196495, 
+          "longitude": 17.481342451238756,
+          "address": "Dąb Słowackiego, Poznańska 15/16, 62-320 Miłosław, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/4qYPeSBnV4uKG8qh6"
+        },
+        {
+          "id": "browar-fortuna-sp-z-o-o",
+          "name": "Browar Fortuna Sp. z o.o.",
+          "description": "Bardzo znany browar wywodzący się z Miłosławia. Wielu rodzajów, od codziennych, po wykwintne specjały.",
+          "latitude": 52.20540842999674, 
+          "longitude": 17.48890942912712,
+          "address": "Pałczyńska 1, 62-320 Miłosław, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/u1bTDdCbrS1T3uEH7"
+        },
+        {
+          "id": "koscio-rzymskokatolicki-pw-sw-jakuba-aposto-a",
+          "name": "Kościół rzymskokatolicki pw. św. Jakuba Apostoła",
+          "description": "Lokalny kościół parafialny.",
+          "latitude": 52.20075315147704, 
+          "longitude": 17.48891812862125,
+          "address": "Kościelna 8, 62-320 Miłosław, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/f5RqTwxtsBPy6PTP7"
+        },
+        {
+          "id": "hotel-boss",
+          "name": "Hotel Boss",
+          "description": "Hotel z restauracją ubustwiająca lokalne, wielkopolskie produkty.",
+          "latitude": 52.20197934126519, 
+          "longitude": 17.48846875884252,
+          "address": "Plac Wiosny Ludów 15, 62-320 Miłosław, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/CVm4jbrJaGCY8fra9"
+        }
+      ]
+    },
+    {
       "videoId": "DZpv2ahLAlI",
       "videoUrl": "https://www.youtube.com/watch?v=DZpv2ahLAlI",
       "title": "ROBERT MAKŁOWICZ POLSKA odc.22 \"Nieoczywisty Poznań\"",
@@ -2399,7 +2471,7 @@
           "longitude": 16.928736874621087,
           "address": "plac Wolności 185, 61-738 Poznań, Poland",
           "country": "Polska",
-          "type": "restaurant",
+          "type": "attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/PaYK22yYRM3R5Pwo9"
         },
