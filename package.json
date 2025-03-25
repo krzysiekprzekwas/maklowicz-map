@@ -9,7 +9,8 @@
     "lint": "next lint",
     "scrape": "cd scripts/youtube-scraper && npm start",
     "update-locations": "cd scripts/youtube-scraper && npx ts-node src/update-locations.ts",
-    "parse-location": "cd scripts/location-parser && npx ts-node src/index.ts"
+    "parse-location": "cd scripts/location-parser && npx ts-node src/index.ts",
+    "parse-video": "cd scripts/video-parser && npx ts-node src/index.ts"
   },
   "dependencies": {
     "@googlemaps/google-maps-services-js": "^3.3.42",
