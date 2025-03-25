@@ -2298,6 +2298,114 @@
       ]
     },
     {
+      "videoId": "Uv4zI3Mi9lw",
+      "videoUrl": "https://www.youtube.com/watch?v=Uv4zI3Mi9lw",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc.27 \"Wystrzałowe Pyzdry\".",
+      "filterTitle": "Wystrzałowe Pyzdry (odc. 27)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2020-12-11T21:36:11Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "pomnik-boles-awa-poboznego-w-pyzdrach",
+          "name": "Pomnik Bolesława Pobożnego w Pyzdrach",
+          "description": "Pomnik ku czci założyciela Pyzdr.",
+          "latitude": 52.16671854595865, 
+          "longitude": 17.68744268057065,
+          "address": "Staszica 2, 62-310 Pyzdry, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/kzMf5Wx8Sw4T9tGP8"
+        },
+        {
+          "id": "dom-podcieniowy",
+          "name": "Dom podcieniowy",
+          "description": "Przykład budownictwa XIIX wieku z charakterystycznymi podcieniami, zadaszeniami do prowadzenia handlu.",
+          "latitude": 52.16697479076033, 
+          "longitude": 17.688358885594017,
+          "address": "Rynek 8, 62-310 Pyzdry, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/1VJsPRxLp31ks3ms9"
+        },
+        {
+          "id": "muzeum-regionalne-ziemi-pyzdrskiej",
+          "name": "Muzeum Regionalne Ziemi Pyzdrskiej",
+          "description": "Dawny budynek klasztorny franciszkanów, dziś muzeum.",
+          "latitude": 52.16598390507554, 
+          "longitude": 17.690042870871547,
+          "address": "Kaliska 28, 62-310 Pyzdry, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/57accUNafK5CsLnAA"
+        },
+        {
+          "id": "mozaika-artystyczna-na-schodach",
+          "name": "Mozaika artystyczna na schodach",
+          "description": "Unikalne schody obok kompletksu klastornego z wizerunkiem węgorza na mozaice.",
+          "latitude": 52.165634606127774, 
+          "longitude": 17.69015415717833,
+          "address": "Kaliska 25, 62-310 Pyzdry, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/itH2Smh76AbkTdEo9"
+        },
+        {
+          "id": "wiatrak-holender-pyzdry",
+          "name": "Wiatrak \"Holender\" Pyzdry",
+          "description": "Wybudowany w 1903 młyn, później fabryka śrutu a kręcący sie do dziś unikalny element historii Wielkopolski",
+          "latitude": 52.16199767334905, 
+          "longitude": 17.684789059717414,
+          "address": "Wrocławska 40A, 62-310 Pyzdry, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/jzPw287DuyED36Hn7"
+        },
+        {
+          "id": "marina-pyzdry",
+          "name": "Marina - Pyzdry",
+          "description": "Przystań w centrum miasta.",
+          "latitude": 52.16447983844807, 
+          "longitude": 17.68955052357352,
+          "address": "Miłosławska 11A, 62-310 Pyzdry, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/N8cDzTMVGpADfTqp7"
+        },
+        {
+          "id": "bar-perkoz",
+          "name": "Bar \"Perkoz\"",
+          "description": "Lokalny bar kulinarny.",
+          "latitude": 52.16478844569625, 
+          "longitude": 17.6888863438912,
+          "address": "Wrocławska 8, 62-310 Pyzdry, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/nv3vSp6WW9fwSuss5"
+        },
+        {
+          "id": "dawna-granica-zaborow",
+          "name": "Dawna granica zaborów",
+          "description": "Historyczna granica zaborów z pamiątkowymi posągami żołnieży rosyjskich i pruskich.",
+          "latitude": 52.19206331802569, 
+          "longitude": 17.667484752023828,
+          "address": "5MV6+G2 Borzykowo, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/EGFsPj9iCntVK3VQ9"
+        }
+      ]
+    },
+    {
       "videoId": "ZBoM2amigdU",
       "videoUrl": "https://www.youtube.com/watch?v=ZBoM2amigdU",
       "title": "ROBERT MAKŁOWICZ POLSKA odc.26 \"Poznań wielokulturowy\"",
