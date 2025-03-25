@@ -1,4 +1,3 @@
-import * as fs from 'fs';
 import * as path from 'path';
 import { Client } from '@googlemaps/google-maps-services-js';
 import * as dotenv from 'dotenv';
@@ -8,15 +7,69 @@ import { Location } from '../../../types/Location';
 // Load environment variables from root .env file
 dotenv.config({ path: path.join(__dirname, '../../../.env') });
 
-interface GoogleMapsData {
-  name: string;
-  description: string;
-  latitude: number;
-  longitude: number;
-  address: string;
-  country: string;
-  type: 'restaurant' | 'attraction' | 'other';
-  websiteUrl?: string;
+// Check for the -d flag in command-line arguments
+const debugEnabled = process.argv.includes('-d');
+
+// Conditionally enable or disable console.debug
+if (!debugEnabled) {
+  console.debug = () => {};
+}
+
+const countryTranslations: Record<string, string> = {
+  "United States": "Stany Zjednoczone",
+  "Germany": "Niemcy",
+  "France": "Francja",
+  "Italy": "Włochy",
+  "Spain": "Hiszpania",
+  "Poland": "Polska",
+  "United Kingdom": "Wielka Brytania",
+  "Canada": "Kanada",
+  "Australia": "Australia",
+  "Japan": "Japonia",
+  "China": "Chiny",
+  "Austria": "Austria",
+  "Belgium": "Belgia",
+  "Czech Republic": "Czechy",
+  "Denmark": "Dania",
+  "Estonia": "Estonia",
+  "Finland": "Finlandia",
+  "Greece": "Grecja",
+  "Hungary": "Węgry",
+  "Iceland": "Islandia",
+  "Ireland": "Irlandia",
+  "Latvia": "Łotwa",
+  "Lithuania": "Litwa",
+  "Luxembourg": "Luksemburg",
+  "Netherlands": "Holandia",
+  "Norway": "Norwegia",
+  "Portugal": "Portugalia",
+  "Romania": "Rumunia",
+  "Slovakia": "Słowacja",
+  "Slovenia": "Słowenia",
+  "Sweden": "Szwecja",
+  "Switzerland": "Szwajcaria",
+  "Turkey": "Turcja",
+  "Ukraine": "Ukraina",
+  "Russia": "Rosja",
+  "Croatia": "Chorwacja",
+  "Serbia": "Serbia",
+  "Bosnia and Herzegovina": "Bośnia i Hercegowina",
+  "Montenegro": "Czarnogóra",
+  "Albania": "Albania",
+  "Bulgaria": "Bułgaria",
+  "Moldova": "Mołdawia",
+  "Belarus": "Białoruś",
+  "Malta": "Malta",
+  "Cyprus": "Cypr",
+  "Andorra": "Andora",
+  "Monaco": "Monako",
+  "Liechtenstein": "Liechtenstein",
+  "San Marino": "San Marino",
+  "Vatican City": "Watykan",
+};
+
+function translateCountryName(country: string): string {
+  return countryTranslations[country] || country;
 }
 
 interface AddressComponent {
@@ -59,7 +112,8 @@ function determineLocationTypeFromName(name: string): 'restaurant' | 'attraction
     lowerName.includes('pizza') ||
     lowerName.includes('food') ||
     lowerName.includes('grill') ||
-    lowerName.includes('eatery')
+    lowerName.includes('eatery') ||
+    lowerName.includes('konoba')
   ) {
     return 'restaurant';
   }
@@ -85,12 +139,12 @@ function determineLocationTypeFromName(name: string): 'restaurant' | 'attraction
 
 async function resolveShortUrl(url: string): Promise<string> {
   try {
-    console.log('Resolving shortened URL...');
+    console.debug('Resolving shortened URL...');
     const response = await axios.get(url, {
       maxRedirects: 5,
       validateStatus: (status: number) => status < 400
     });
-    console.log('Resolved URL:', response.request.res.responseUrl);
+    console.debug('Resolved URL:', response.request.res.responseUrl);
     return response.request.res.responseUrl;
   } catch (error) {
     console.error('Error resolving short URL:', error);
@@ -122,7 +176,7 @@ async function extractPlaceId(url: string): Promise<string> {
     if (coordsMatch) {
       const lat = parseFloat(coordsMatch[1]);
       const lng = parseFloat(coordsMatch[2]);
-      console.log(`Extracted name: ${name} and coordinates: ${lat},${lng}`);
+      console.debug(`Extracted name: ${name} and coordinates: ${lat},${lng}`);
       
       // Use the coordinates and name to create a unique identifier
       return `${name}@${lat},${lng}`;
@@ -134,8 +188,8 @@ async function extractPlaceId(url: string): Promise<string> {
   throw new Error('Could not extract place ID or name from URL');
 }
 
-async function getPlaceDetails(client: Client, placeIdOrName: string): Promise<GoogleMapsData> {
-  console.log('Getting place details for:', placeIdOrName);
+async function getPlaceDetails(client: Client, placeIdOrName: string): Promise<Location> {
+  console.debug('Getting place details for:', placeIdOrName);
   
   try {
     // Check if we have coordinates in the ID
@@ -148,7 +202,7 @@ async function getPlaceDetails(client: Client, placeIdOrName: string): Promise<G
       
       // Try geocoding with the coordinates first
       try {
-        console.log('Trying reverse geocoding with coordinates...');
+        console.debug('Trying reverse geocoding with coordinates...');
         const geocodingResponse = await client.reverseGeocode({
           params: {
             latlng: { lat: latitude, lng: longitude },
@@ -166,7 +220,8 @@ async function getPlaceDetails(client: Client, placeIdOrName: string): Promise<G
           const country = countryComponent?.long_name || '';
           
           return {
-            name: name, // Keep the original name from the URL
+            id: generateId(name),
+            name: name,
             description: '',
             latitude,
             longitude,
@@ -177,12 +232,12 @@ async function getPlaceDetails(client: Client, placeIdOrName: string): Promise<G
           };
         }
       } catch (error) {
-        console.log('Reverse geocoding failed:', error);
+        console.error('Reverse geocoding failed:', error);
       }
       
       // Try to get more details using nearby search
       try {
-        console.log('Trying nearby search...');
+        console.debug('Trying nearby search...');
         const nearbyResponse = await client.placesNearby({
           params: {
             location: { lat: latitude, lng: longitude },
@@ -195,6 +250,7 @@ async function getPlaceDetails(client: Client, placeIdOrName: string): Promise<G
         if (nearbyResponse.data.results && nearbyResponse.data.results.length > 0) {
           const place = nearbyResponse.data.results[0];
           return {
+            id: generateId(place.name || name),
             name: place.name || name,
             description: '',
             latitude: place.geometry?.location.lat || latitude,
@@ -206,12 +262,13 @@ async function getPlaceDetails(client: Client, placeIdOrName: string): Promise<G
           };
         }
       } catch (error) {
-        console.log('Nearby search failed:', error);
+        console.error('Nearby search failed:', error);
       }
       
       // Fallback to just using the coordinates and name
-      console.log('Using basic information from URL');
+      console.debug('Using basic information from URL');
       return {
+        id: '',
         name,
         description: '',
         latitude,
@@ -226,7 +283,7 @@ async function getPlaceDetails(client: Client, placeIdOrName: string): Promise<G
     // Try to use place details API if we have a proper place ID
     if (!/^[A-Za-z\s]+$/.test(placeIdOrName)) {
       try {
-        console.log('Trying place details API...');
+        console.debug('Trying place details API...');
         const response = await client.placeDetails({
           params: {
             place_id: placeIdOrName,
@@ -253,6 +310,7 @@ async function getPlaceDetails(client: Client, placeIdOrName: string): Promise<G
         const country = countryComponent?.long_name || '';
         
         return {
+          id: generateId(place.name),
           name: place.name,
           description: '',
           latitude: location.lat,
@@ -263,14 +321,13 @@ async function getPlaceDetails(client: Client, placeIdOrName: string): Promise<G
           websiteUrl: place.website || ''
         };
       } catch (error) {
-        console.log('Place details API failed:', error);
-        // Continue to geocoding as fallback
+        console.error('Place details API failed:', error);
       }
     }
     
     // Use geocoding as a fallback
     try {
-      console.log('Trying geocoding with address...');
+      console.debug('Trying geocoding with address...');
       const geocodingResponse = await client.geocode({
         params: {
           address: placeIdOrName,
@@ -293,6 +350,7 @@ async function getPlaceDetails(client: Client, placeIdOrName: string): Promise<G
         const country = countryComponent?.long_name || '';
         
         return {
+          id: generateId(placeIdOrName),
           name: placeIdOrName,
           description: '',
           latitude: location.lat,
@@ -304,7 +362,7 @@ async function getPlaceDetails(client: Client, placeIdOrName: string): Promise<G
         };
       }
     } catch (error) {
-      console.log('Geocoding failed:', error);
+      console.error('Geocoding failed:', error);
     }
     
     throw new Error('Could not find place details');
@@ -319,7 +377,7 @@ async function getPlaceDetails(client: Client, placeIdOrName: string): Promise<G
   }
 }
 
-async function parseGoogleMapsUrl(url: string): Promise<GoogleMapsData> {
+async function parseGoogleMapsUrl(url: string): Promise<Location> {
   const client = new Client({});
 
   // Handle shortened URLs
@@ -330,7 +388,7 @@ async function parseGoogleMapsUrl(url: string): Promise<GoogleMapsData> {
   try {
     // Extract place ID or name from URL
     const placeIdOrName = await extractPlaceId(url);
-    console.log('Extracted place ID or name:', placeIdOrName);
+    console.debug('Extracted place ID or name:', placeIdOrName);
     
     // Get place details
     return await getPlaceDetails(client, placeIdOrName);
@@ -342,7 +400,7 @@ async function parseGoogleMapsUrl(url: string): Promise<GoogleMapsData> {
     }
     
     // Fallback to basic extraction from URL
-    console.log('Falling back to basic URL extraction...');
+    console.debug('Falling back to basic URL extraction...');
     
     // Extract place name from URL
     const nameMatch = url.match(/place\/([^\/]+)/);
@@ -352,7 +410,7 @@ async function parseGoogleMapsUrl(url: string): Promise<GoogleMapsData> {
     
     const encodedName = nameMatch[1];
     const name = decodeURIComponent(encodedName.replace(/\+/g, ' '));
-    console.log('Extracted place name:', name);
+    console.debug('Extracted place name:', name);
     
     // Extract coordinates from URL
     const coordsMatch = url.match(/@(-?\d+\.\d+),(-?\d+\.\d+)/);
@@ -362,7 +420,7 @@ async function parseGoogleMapsUrl(url: string): Promise<GoogleMapsData> {
     
     const latitude = parseFloat(coordsMatch[1]);
     const longitude = parseFloat(coordsMatch[2]);
-    console.log('Extracted coordinates:', latitude, longitude);
+    console.debug('Extracted coordinates:', latitude, longitude);
     
     // Try to get country from URL or set a default
     let country = '';
@@ -373,6 +431,7 @@ async function parseGoogleMapsUrl(url: string): Promise<GoogleMapsData> {
     }
     
     return {
+      id: '',
       name,
       description: '',
       latitude,
@@ -385,7 +444,7 @@ async function parseGoogleMapsUrl(url: string): Promise<GoogleMapsData> {
   }
 }
 
-function createLocation(data: GoogleMapsData, link: string): Location {
+function createLocation(data: Location, link: string): Location {
   return {
     id: generateId(data.name),
     name: data.name,
@@ -393,7 +452,7 @@ function createLocation(data: GoogleMapsData, link: string): Location {
     latitude: data.latitude,
     longitude: data.longitude,
     address: data.address,
-    country: data.country,
+    country: translateCountryName(data.country),
     type: data.type,
     websiteUrl: data.websiteUrl,
     GoogleMapsLink: link
@@ -401,9 +460,8 @@ function createLocation(data: GoogleMapsData, link: string): Location {
 }
 
 async function main() {
-  // Get URL from command line argument
   const url = process.argv[2];
-  if (!url) {
+  if (!url || url === '-d') { // Ensure the URL is provided and not just the -d flag
     console.error('Please provide a Google Maps URL as an argument');
     process.exit(1);
   }
@@ -417,17 +475,6 @@ async function main() {
     const mapsData = await parseGoogleMapsUrl(url);
     const location = createLocation(mapsData, url);
 
-    // Create output directory if it doesn't exist
-    const outputDir = path.join(__dirname, '../output');
-    if (!fs.existsSync(outputDir)) {
-      fs.mkdirSync(outputDir, { recursive: true });
-    }
-
-    // Save to file
-    const outputPath = path.join(outputDir, `${location.id}.json`);
-    fs.writeFileSync(outputPath, JSON.stringify(location, null, 2));
-
-    console.log('Location data saved to:', outputPath);
     console.log('\nLocation data:');
     console.log(JSON.stringify(location, null, 2));
   } catch (error) {
@@ -440,4 +487,4 @@ async function main() {
   }
 }
 
-main(); 
+main();
