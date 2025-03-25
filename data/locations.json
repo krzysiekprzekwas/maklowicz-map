@@ -2298,6 +2298,66 @@
       ]
     },
     {
+      "videoId": "QLrSe3szmzI",
+      "videoUrl": "https://www.youtube.com/watch?v=QLrSe3szmzI",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc.28 \"Beskid Wyspowy. Początek.\"",
+      "filterTitle": "Beskid Wyspowy. Początek. (odc. 28)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-01-29T16:00:10Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "wieza-widokowa-che-m-sport-arena-myslenice",
+          "name": "Wieża widokowa CHEŁM",
+          "description": "Wieża widokowa na górze Chełm w Beskidzie Wyspowym.",
+          "latitude": 49.79876584886046, 
+          "longitude": 19.95255376215688,
+          "address": "QXX3+F3 Myślenice, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/wETywJqsLLfM3RiXA"
+        },
+        {
+          "id": "jezioro-dobczyckie",
+          "name": "Jezioro Dobczyckie",
+          "description": "Jezioro, a wręcz zalew leżący u podnórzy Beskidu Wyspowego. Ujęcie wody dla Krakowa.",
+          "latitude": 49.867291854949436, 
+          "longitude": 20.04904692656808,
+          "address": "V2F3+7H Borzęta, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Q5JDhnoRbantkngP9"
+        },
+        {
+          "id": "zamek-w-dobczycach",
+          "name": "Zamek w Dobczycach",
+          "description": "Zamek postrzeżony przez króla Kazimierza Wielkiego dla ochrony szlaku węgierskiego.",
+          "latitude": 449.87699555896171, 
+          "longitude": 20.08528216130321,
+          "address": "Podgórska 6, 32-410 Dobczyce, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/qwgwWRGN8USyVpmu8"
+        },
+        {
+          "id": "opactwo-ojcow-cystersow-w-szczyrzycu",
+          "name": "Opactwo Ojców Cystersów w Szczyrzycu",
+          "description": "Najdłużej funkcjonujące opactwo cysterskie w Polsce. Z założonym przez nich towarzyszącym browarem.",
+          "latitude": 49.7841285927651, 
+          "longitude": 20.18813334849978,
+          "address": "Pogorzany 149, 34-623, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/5AxunZjYpajt4n4d9"
+        }
+      ]
+    },
+    {
       "videoId": "Uv4zI3Mi9lw",
       "videoUrl": "https://www.youtube.com/watch?v=Uv4zI3Mi9lw",
       "title": "ROBERT MAKŁOWICZ POLSKA odc.27 \"Wystrzałowe Pyzdry\".",
