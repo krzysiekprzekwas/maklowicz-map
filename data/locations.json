@@ -2298,6 +2298,42 @@
       ]
     },
     {
+      "videoId": "EsTsoW4ETS8",
+      "videoUrl": "https://www.youtube.com/watch?v=EsTsoW4ETS8",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc.31 \"Beskid Wyspowy.Beskidzkie tajemnice.\"",
+      "filterTitle": "Beskid Wyspowy.Beskidzkie tajemnice. (odc. 31)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-02-19T16:00:15Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "gospodarstwo-agroturystyczne-koziarnia",
+          "name": "Gospodarstwo Agroturystyczne Koziarnia",
+          "description": "Rodzinna agroturystyka w rejonie Beskidu Wyspowego.",
+          "latitude": 49.7927606385217, 
+          "longitude": 20.169809426902336,
+          "address": "Pogorzany 314, 34-623, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZsJy7GWyqEqXvjyb7"
+        },
+        {
+          "id": "restobar-ogien",
+          "name": "RestoBar Ogień",
+          "description": "Restauracja serwująca kuchnię polską gotowaną nad otwartym ogniem z lokalnych produktów.",
+          "latitude": 49.79114460746487, 
+          "longitude": 20.17011108308745,
+          "address": "Pogorzany 314, 34-623, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/YA7WRAc4C4ReVFaSA"
+        }
+      ]
+    },
+    {
       "videoId": "xc_jVktXJkI",
       "videoUrl": "https://www.youtube.com/watch?v=xc_jVktXJkI",
       "title": "ROBERT MAKŁOWICZ POLSKA odc.30 \"Beskid Wyspowy. Wokół zakopianki.\"",
