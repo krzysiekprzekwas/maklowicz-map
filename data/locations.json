@@ -2298,6 +2298,54 @@
       ]
     },
     {
+      "videoId": "xc_jVktXJkI",
+      "videoUrl": "https://www.youtube.com/watch?v=xc_jVktXJkI",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc.30 \"Beskid Wyspowy. Wokół zakopianki.\"",
+      "filterTitle": "Beskid Wyspowy. Wokół zakopianki. (odc. 30)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-02-12T16:00:20Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "schronisko-pttk-na-kud-aczach-730-m-n-p-m",
+          "name": "Schronisko PTTK na Kudłaczach 730 m n.p.m.",
+          "description": "Najbliższe Krakowa prawdziwe schronisko górskie",
+          "latitude": 49.7822763072962, 
+          "longitude": 20.022005993461136,
+          "address": "Q2J8+WV Myślenice, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/eUUQVEZNKKxtF7dm6"
+        },
+        {
+          "id": "gorczanski-park-narodowy",
+          "name": "Gorczański Park Narodowy",
+          "description": "Mało znany, ale niemało urokliwy park narodowy.",
+          "latitude": 49.54952612547586, 
+          "longitude": 20.151196285414237,
+          "address": "G5W2+7M Ochotnica Górna, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/SoLtUN8dnCGruapDA"
+        },
+        {
+          "id": "pijalnia-wod-mineralnych-szczawa",
+          "name": "Pijalnia Wód Mineralnych Szczawa",
+          "description": "Złoto miasta Szczawa, lokalne wody mineralne.",
+          "latitude": 49.6032224,
+          "longitude": 20.2928188,
+          "address": "Szczawa 590, 34-608, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/GWADvy7gF5W1oKNk7"
+        }
+      ]
+    },
+    {
       "videoId": "pYLRMHtMrws",
       "videoUrl": "https://www.youtube.com/watch?v=pYLRMHtMrws",
       "title": "ROBERT MAKŁOWICZ POLSKA odc.29 \"Beskid Wyspowy. Myślenickie wspomnienia\".",
