@@ -2298,6 +2298,78 @@
       ]
     },
     {
+      "videoId": "pYLRMHtMrws",
+      "videoUrl": "https://www.youtube.com/watch?v=pYLRMHtMrws",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc.29 \"Beskid Wyspowy. Myślenickie wspomnienia\".",
+      "filterTitle": "Beskid Wyspowy. Myślenickie wspomnienia. (odc. 29)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-02-05T16:00:14Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "dolny-jaz-w-myslenicach",
+          "name": "Dolny Jaz w Myślenicach",
+          "description": "Wypłaszczenie na rzecze Raba, służące jako jaz wodny. Popularny punkt relaksacyjny w Myślenicach.",
+          "latitude": 49.83005415706523, 
+          "longitude": 19.959026818567516,
+          "address": "Jana Sobieskiego 9C, 32-400 Myślenice, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/p33c1TpnPr5J74Yr9"
+        },
+        {
+          "id": "koscio-sw-franciszka-z-asyzu-w-myslenicach",
+          "name": "Kościół św. Franciszka z Asyżu w Myślenicach",
+          "description": "Dziś kościół jednak jeszcze nie tak dawno, restauracja \"Parkowa\".",
+          "latitude": 49.821369098881796, 
+          "longitude": 19.945723305716832,
+          "address": "RVC9+HQ Bysina, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/uHCTkqE4J8nbaoce6"
+        },
+        {
+          "id": "siedem-smakow",
+          "name": "Siedem Smaków",
+          "description": "Ciekawa lokalna kuchnia rodzina z tradycyjną kartką.",
+          "latitude": 49.82153814226356, 
+          "longitude": 19.9463240936472,
+          "address": "Mostowa 47, 32-400 Myślenice, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/q4FstqwnyFQBrEh9A"
+        },
+        {
+          "id": "stacja-narciarska-che-m-sport-arena-myslenice",
+          "name": "Stacja narciarska Sport Arena Myślenice",
+          "description": "Jeden z najbliższych do Krakowa ośrodków narciarskich.",
+          "latitude": 49.80653833416857, 
+          "longitude": 19.950288849290178,
+          "address": "Stróża 389, 32-431, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/TeoAFg8TSUwGX2Vr8"
+        },
+        {
+          "id": "rynek-w-myslenicach",
+          "name": "Rynek w Myślenicach",
+          "description": "Historyczny rynek w Myślenicach, godny archetypu galicyjskiego miasta.",
+          "latitude": 49.834670893498775, 
+          "longitude": 19.938332008784297,
+          "address": "Andrzeja Średniawskiego 1, 32-400 Myślenice, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/e858nj811LMbucKm6"
+        }
+      ]
+    },
+    {
       "videoId": "QLrSe3szmzI",
       "videoUrl": "https://www.youtube.com/watch?v=QLrSe3szmzI",
       "title": "ROBERT MAKŁOWICZ POLSKA odc.28 \"Beskid Wyspowy. Początek.\"",
@@ -2335,7 +2407,7 @@
           "id": "zamek-w-dobczycach",
           "name": "Zamek w Dobczycach",
           "description": "Zamek postrzeżony przez króla Kazimierza Wielkiego dla ochrony szlaku węgierskiego.",
-          "latitude": 449.87699555896171, 
+          "latitude": 49.87699555896171, 
           "longitude": 20.08528216130321,
           "address": "Podgórska 6, 32-410 Dobczyce, Poland",
           "country": "Polska",
