@@ -30,7 +30,7 @@ const ChangeView: React.FC<{ locations: Location[] }> = React.memo(({ locations 
             const bounds = L.latLngBounds(locations.map(loc => [loc.latitude, loc.longitude]));
             map.fitBounds(bounds as LatLngBoundsExpression, { 
                 padding: [50, 50],
-                maxZoom: 10 
+                maxZoom: 20 
             });
         }
     }, [locations]);
@@ -94,13 +94,13 @@ const Map: React.FC<MapProps> = React.memo(({ locations, selectedLocation, onLoc
                 zoomControl={true}
                 attributionControl={true}
                 minZoom={3}
-                maxZoom={12}
+                maxZoom={20}
             >
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"
-                    maxZoom={12}
-                    maxNativeZoom={12}
+                    maxZoom={20}
+                    maxNativeZoom={20}
                 />
                 <ChangeView locations={locations} />
                 {markerElements}
