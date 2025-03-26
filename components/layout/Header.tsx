@@ -4,7 +4,7 @@ import { Analytics } from "@vercel/analytics/next";
 
 const styles = {
   header: "bg-primary text-secondary",
-  container: "container mx-auto px-4 md:px-6 py-2 md:py-4",
+  container: "container mx-auto px-4 md:px-6 py-4",
   layout: "flex flex-col md:flex-row md:justify-between md:items-center gap-1 md:gap-4",
   title: "text-xl md:text-3xl font-bold md:mb-2", 
   subtitle: "text-sm md:text-lg opacity-90",
