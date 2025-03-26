@@ -7,6 +7,8 @@ import { Location } from '../../types/Location';
 import L from 'leaflet';
 import LocationIcon from '../location/LocationIcon';
 
+const maxZoomValue = 20;
+
 // Fix for default marker icons
 delete (L.Icon.Default.prototype as any)._getIconUrl;
 L.Icon.Default.mergeOptions({
@@ -30,7 +32,7 @@ const ChangeView: React.FC<{ locations: Location[] }> = React.memo(({ locations 
             const bounds = L.latLngBounds(locations.map(loc => [loc.latitude, loc.longitude]));
             map.fitBounds(bounds as LatLngBoundsExpression, { 
                 padding: [50, 50],
-                maxZoom: 20 
+                maxZoom: maxZoomValue 
             });
         }
     }, [locations]);
@@ -38,7 +40,6 @@ const ChangeView: React.FC<{ locations: Location[] }> = React.memo(({ locations 
     return null;
 });
 
-// Main Map component
 const Map: React.FC<MapProps> = React.memo(({ locations, selectedLocation, onLocationSelect }) => {
     // Memoize the custom icon creation
     const customIcon = React.useCallback((location: Location, isSelected: boolean): DivIcon => {
@@ -94,21 +95,19 @@ const Map: React.FC<MapProps> = React.memo(({ locations, selectedLocation, onLoc
                 zoomControl={true}
                 attributionControl={true}
                 minZoom={3}
-                maxZoom={20}
+                maxZoom={maxZoomValue}
             >
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"
-                    maxZoom={20}
-                    maxNativeZoom={20}
+                    maxZoom={maxZoomValue}
+                    maxNativeZoom={maxZoomValue}
                 />
                 <ChangeView locations={locations} />
                 {markerElements}
             </MapContainer>
-            {/* Existing styles remain the same */}
         </div>
     );
 });
 
-// Explicitly default export
 export default Map;
