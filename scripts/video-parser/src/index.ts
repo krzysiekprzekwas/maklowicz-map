@@ -7,15 +7,18 @@ import { Video } from '../../../types/Location';
 dotenv.config({ path: path.join(__dirname, '../../../.env') });
 
 function filterTitle(title: string): string {
-  // Remove all words written fully in capital letters
-  const filteredWords = title.split(' ').filter(word => word !== word.toUpperCase());
+  // Remove all words written fully in capital letters, but keep numbers
+  const filteredWords = title.split(' ').filter(word => {
+    // Check if the word is fully uppercase and not a number
+    return word !== word.toUpperCase() || /^\d+$/.test(word);
+  });
   let result = filteredWords.join(' ');
 
   // Move "odc." and its number to the end, format it, and wrap in parentheses
   const odcMatch = result.match(/odc\.\s*\d+/i);
   if (odcMatch) {
     result = result.replace(odcMatch[0], '').trim();
-    result += ` (${odcMatch[0].replace('odc.', 'odc. ')})`;
+    result += ` (${odcMatch[0].replace(/odc\.\s*/, 'odc. ')})`;
   }
 
   // Remove double quotes

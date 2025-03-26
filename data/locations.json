@@ -2046,6 +2046,66 @@
       "locations": []
     },
     {
+      "videoId": "kj6ICn1CUFs",
+      "videoUrl": "https://www.youtube.com/watch?v=kj6ICn1CUFs",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc. 38  \"W drodze na Podlasie\".",
+      "filterTitle": "W drodze na Podlasie. (odc. 38)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-04-16T15:00:16Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "dwor-moscibrody",
+          "name": "Dwór Mościbrody",
+          "description": "Historycznie autentyczny klasyczny polski dwór.",
+          "latitude": 52.10787438649943, 
+          "longitude": 22.290982000796827,
+          "address": "Wólka Wiśniewska 44, 08-112, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/hmNva62i7moymqsv7"
+        },
+        {
+          "id": "zak-ad-miesny-moscibrody",
+          "name": "Zakład Mięsny Mościbrody",
+          "description": "Lokalne zakłady mięsne.",
+          "latitude": 52.107449362245, 
+          "longitude": 22.294047058717265,
+          "address": "474P+QP Wólka Wiśniewska, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/fnqAp9URj3r8Are37"
+        },
+        {
+          "id": "most-na-rzece-bug",
+          "name": "Most na rzece Bug",
+          "description": "Most na Bugu przy artierii pomiędzy Białymstokiem a Lublinem. Granica Podlasia z Mazowszem.",
+          "latitude": 52.36235681338076, 
+          "longitude": 22.87041353732386,
+          "address": "9V79+8R Turna Mała, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/X4XH1b8SC8ujZuJ97"
+        },
+        {
+          "id": "krzyze-patnicze-na-gorze-grabarce",
+          "name": "Krzyże pątnicze na Górze Grabarce",
+          "description": "Święte miejsce polskiego prawosławia, gdzie ludzie chowali się przed ówczesną pandemią.",
+          "latitude": 52.416474263478534, 
+          "longitude": 23.005986422678138,
+          "address": "Szumiłówka 3, 17-330, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Ln5wFmrhZRycbYZu8"
+        }
+      ]
+    },
+    {
       "videoId": "W7j9VHYGCKQ",
       "videoUrl": "https://www.youtube.com/watch?v=W7j9VHYGCKQ",
       "title": "ROBERT MAKŁOWICZ SZWECJA odc.37 \"La dolce vita po szwedzku\".",
