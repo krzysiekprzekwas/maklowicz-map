@@ -2298,6 +2298,42 @@
       ]
     },
     {
+      "videoId": "ADyvj1xA6JQ",
+      "videoUrl": "https://www.youtube.com/watch?v=ADyvj1xA6JQ",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc.32 \"Beskid Wyspowy. Wśród Kliszczaków.\"",
+      "filterTitle": "Beskid Wyspowy. Wśród Kliszczaków. (odc. 32)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-02-26T16:00:14Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "rzeka-raba",
+          "name": "Kładka nad Rabą",
+          "description": "Kładka piesza na rzece Raba w Pcimiu",
+          "latitude": 49.752700188072076, 
+          "longitude": 19.97276220758543,
+          "address": "Pcim 1, 32-431, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/98PRQuFpeXedBx8i9"
+        },
+        {
+          "id": "grzybek-restauracja-noclegi",
+          "name": "Grzybek | Restauracja & Noclegi",
+          "description": "Restauracja historią sięgająca jeszcze lat 80tych tuż przy Zakopiance.",
+          "latitude": 49.80576588329058, 
+          "longitude": 19.924018500970867,
+          "address": "Stróża 1202, 32-431, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Jwa9Xm2TL9hrmGZB7"
+        }
+      ]
+    },
+    {
       "videoId": "EsTsoW4ETS8",
       "videoUrl": "https://www.youtube.com/watch?v=EsTsoW4ETS8",
       "title": "ROBERT MAKŁOWICZ POLSKA odc.31 \"Beskid Wyspowy.Beskidzkie tajemnice.\"",
