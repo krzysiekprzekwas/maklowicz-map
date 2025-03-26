@@ -2046,6 +2046,66 @@
       "locations": []
     },
     {
+      "videoId": "SK2M3f59n-8",
+      "videoUrl": "https://www.youtube.com/watch?v=SK2M3f59n-8",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc. 39  \" U Tatarów \".",
+      "filterTitle": "U Tatarów (odc. 39)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-04-23T15:00:17Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "regionalne-centrum-kultury-tatarow-polskich-asman",
+          "name": "Regionalne Centrum Kultury Tatarów Polskich Asman",
+          "description": "Instytucja upamiętniająca historię i kulturę tatarską w Polsce.",
+          "latitude": 53.1772609610267, 
+          "longitude": 23.81146236452885,
+          "address": "Kruszyniany 59, 16-120, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/kVAX1WTvd2oYMuCMA"
+        },
+        {
+          "id": "drewniany-meczet-w-kruszynianach",
+          "name": "Drewniany Meczet w Kruszynianach",
+          "description": "Meczet z XVIII wieku, zbudowany przez tatarów.",
+          "latitude": 53.177749350701134, 
+          "longitude": 23.813760815909088,
+          "address": "Kruszyniany 58, 16-120, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZNbaCPCx978vyiZZ7"
+        },
+        {
+          "id": "cmentarz-tatarski-mizar-w-kruszynianach",
+          "name": "Cmentarz tatarski (Mizar w Kruszynianach)",
+          "description": "Cmentarz muzułmański",
+          "latitude": 53.17775448802412, 
+          "longitude": 23.816242810558943,
+          "address": "Transbór 25A, 05-334, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ckStvdDFKexC4Moh8"
+        },
+        {
+          "id": "tatarska-jurta",
+          "name": "Tatarska Jurta",
+          "description": "Po nieszczęsnym pożarze z roku 2018, zrekonstruowana i serwująca unikalną kuchnię tatarską.",
+          "latitude": 53.17735818852934, 
+          "longitude": 23.811253979418705,
+          "address": "Kruszyniany 58, 16-120, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/XYXoU4Zd3UMuarCt9"
+        }
+      ]
+    },
+    {
       "videoId": "kj6ICn1CUFs",
       "videoUrl": "https://www.youtube.com/watch?v=kj6ICn1CUFs",
       "title": "ROBERT MAKŁOWICZ POLSKA odc. 38  \"W drodze na Podlasie\".",
