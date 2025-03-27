@@ -21,10 +21,9 @@ export default function Home() {
     selectedCountry,
     setSelectedCountry,
     selectedVideo,
+    setSelectedVideo,
     isFiltersOpen,
     setIsFiltersOpen,
-    expandedCountries,
-    expandedVideos,
     searchQuery,
     setSearchQuery,
     handleCountryClick,
@@ -44,14 +43,16 @@ export default function Home() {
           selectedCountry={selectedCountry}
           selectedVideo={selectedVideo}
           selectedLocation={selectedLocation}
-          expandedCountries={expandedCountries}
-          expandedVideos={expandedVideos}
           totalLocations={totalLocations}
           onCountryClick={handleCountryClick}
           onVideoClick={handleVideoClick}
           onLocationClick={setSelectedLocation}
           onToggleFilters={() => setIsFiltersOpen(!isFiltersOpen)}
-          onResetFilters={() => setSelectedCountry(null)}
+          onResetFilters={() => 
+            {
+              setSelectedCountry(null);
+              setSelectedVideo(null);
+            }}
         />
 
         <div className="flex-1">

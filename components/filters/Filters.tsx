@@ -10,8 +10,6 @@ interface FiltersProps {
   selectedCountry: string | null;
   selectedVideo: string | null;
   selectedLocation: Location | null;
-  expandedCountries: Set<string>;
-  expandedVideos: Set<string>;
   totalLocations: number;
   onCountryClick: (countryName: string) => void;
   onVideoClick: (videoId: string, event: React.MouseEvent) => void;
@@ -28,8 +26,6 @@ export function Filters({
   selectedCountry,
   selectedVideo,
   selectedLocation,
-  expandedCountries,
-  expandedVideos,
   totalLocations,
   onCountryClick,
   onVideoClick,
@@ -84,11 +80,7 @@ export function Filters({
                   {countries.map((country) => (
                     <div key={country.name} className="space-y-1">
                       <button
-                        onClick={() => {
-                          if (selectedCountry !== country.name) {
-                            onCountryClick(country.name);
-                          }
-                        }}
+                        onClick={() => onCountryClick(country.name)}
                         className={`w-full text-left px-3 py-2 rounded-lg transition-colors flex items-center justify-between ${
                           selectedCountry === country.name
                             ? 'bg-secondary-darker text-primary' 
@@ -102,59 +94,61 @@ export function Filters({
                           ({country.locations.length})
                         </span>
                         <span className="ml-2">
-                          {expandedCountries.has(country.name) ? '▼' : '▶'}
+                          {selectedCountry == country.name ? '▼' : '▶'}
                         </span>
                       </button>
 
-                      {expandedCountries.has(country.name) && (
-                        <div className="ml-4 space-y-1">
-                          {country.videos.map((video) => (
-                            <div key={video.videoId} className="space-y-1">
-                              <button
-                                onClick={(e) => onVideoClick(video.videoId, e)}
-                                className={`w-full text-left px-3 py-2 rounded-lg transition-colors flex items-center justify-between ${
-                                  selectedVideo === video.videoId
-                                    ? 'bg-secondary-darker text-primary' 
-                                    : 'hover:bg-secondary text-primary-hover'
-                                }`}
-                              >
-                                <span className="flex-1 truncate pr-2 text-sm">
-                                  { video.filterTitle || video.title }
-                                </span>
-                                <span className="text-xs opacity-70">
-                                  ({video.locations.length})
-                                </span>
-                                <span className="ml-2">
-                                  {expandedVideos.has(video.videoId) ? '▼' : '▶'}
-                                </span>
-                              </button>
+                        {selectedCountry == country.name && (
+                          <div className="ml-4 space-y-1">
+                            {country.videos.map((video) => (
+                              <div key={video.videoId} className="space-y-1">
+                                <button
+                                  onClick={(e) => onVideoClick(video.videoId, e)}
+                                  className={`w-full text-left px-3 py-2 rounded-lg transition-colors flex items-center justify-between ${
+                                    selectedVideo === video.videoId
+                                      ? 'bg-secondary-darker text-primary' 
+                                      : 'hover:bg-secondary text-primary-hover'
+                                  }`}
+                                >
+                                  <span className="flex-1 truncate pr-2 text-sm">
+                                    { video.filterTitle || video.title }
+                                  </span>
+                                  <span className="text-xs opacity-70">
+                                    ({video.locations.length})
+                                  </span>
+                                  <span className="ml-2">
+                                    {selectedVideo === video.videoId ? '▼' : '▶'}
+                                  </span>
+                                </button>
 
-                              {expandedVideos.has(video.videoId) && (
-                                <div className="ml-4 space-y-1">
-                                  {video.locations.map((location) => (
-                                    <button
-                                      key={location.id}
-                                      onClick={() => onLocationClick(location)}
-                                      className={`w-full text-left px-3 py-1.5 rounded-lg transition-colors flex items-center ${
-                                        selectedLocation?.id === location.id
-                                          ? 'bg-secondary-darker text-primary' 
-                                          : 'hover:bg-secondary text-primary-hover'
-                                      }`}
-                                    >
-                                      <span className="flex-1 truncate pr-2 text-sm">
-                                        {location.name}
-                                      </span>
-                                      <span className="text-xs opacity-70">
-                                        <LocationIcon location={location} />
-                                      </span>
-                                    </button>
-                                  ))}
-                                </div>
-                              )}
-                            </div>
-                          ))}
-                        </div>
-                      )}
+                                {selectedVideo === video.videoId && (
+  <div
+    className={`ml-4 space-y-1 transition-all duration-300 ease-in-out ${
+      selectedVideo === video.videoId ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
+    } overflow-hidden`}
+  >
+    {video.locations.map((location) => (
+      <button
+        key={location.id}
+        onClick={() => onLocationClick(location)}
+        className={`w-full text-left px-3 py-1.5 rounded-lg transition-colors flex items-center ${
+          selectedLocation?.id === location.id
+            ? 'bg-secondary-darker text-primary'
+            : 'hover:bg-secondary text-primary-hover'
+        }`}
+      >
+        <span className="flex-1 truncate pr-2 text-sm">{location.name}</span>
+        <span className="text-xs opacity-70">
+          <LocationIcon location={location} />
+        </span>
+      </button>
+    ))}
+  </div>
+)}
+                              </div>
+                            ))}
+                          </div>
+                        )}
                     </div>
                   ))}
                 </div>
