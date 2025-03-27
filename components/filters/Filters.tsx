@@ -122,29 +122,27 @@ export function Filters({
                                 </button>
 
                                 {selectedVideo === video.videoId && (
-  <div
-    className={`ml-4 space-y-1 transition-all duration-300 ease-in-out ${
-      selectedVideo === video.videoId ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
-    } overflow-hidden`}
-  >
-    {video.locations.map((location) => (
-      <button
-        key={location.id}
-        onClick={() => onLocationClick(location)}
-        className={`w-full text-left px-3 py-1.5 rounded-lg transition-colors flex items-center ${
-          selectedLocation?.id === location.id
-            ? 'bg-secondary-darker text-primary'
-            : 'hover:bg-secondary text-primary-hover'
-        }`}
-      >
-        <span className="flex-1 truncate pr-2 text-sm">{location.name}</span>
-        <span className="text-xs opacity-70">
-          <LocationIcon location={location} />
-        </span>
-      </button>
-    ))}
-  </div>
-)}
+                                  <div className="ml-4 space-y-1">
+                                    {video.locations.map((location) => (
+                                      <button
+                                        key={location.id}
+                                        onClick={() => onLocationClick(location)}
+                                        className={`w-full text-left px-3 py-1.5 rounded-lg transition-colors flex items-center ${
+                                          selectedLocation?.id === location.id
+                                            ? 'bg-secondary-darker text-primary' 
+                                            : 'hover:bg-secondary text-primary-hover'
+                                        }`}
+                                      >
+                                        <span className="flex-1 truncate pr-2 text-sm">
+                                          {location.name}
+                                        </span>
+                                        <span className="text-xs opacity-70">
+                                          <LocationIcon location={location} />
+                                        </span>
+                                      </button>
+                                    ))}
+                                  </div>
+                                )}
                               </div>
                             ))}
                           </div>
