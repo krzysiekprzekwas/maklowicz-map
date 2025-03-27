@@ -1,5 +1,6 @@
 import { CountryData, Location } from '../../types/Location';
 import LocationIcon from '../location/LocationIcon';
+import { AnimatedList } from './AnimatedList';
 import { SearchInput } from './SearchInput';
 
 interface FiltersProps {
@@ -97,10 +98,11 @@ export function Filters({
                           {selectedCountry == country.name ? '▼' : '▶'}
                         </span>
                       </button>
-
-                        {selectedCountry == country.name && (
-                          <div className="ml-4 space-y-1">
-                            {country.videos.map((video) => (
+                      <AnimatedList 
+                        isOpen={selectedCountry === country.name}
+                        className="ml-4 space-y-2" 
+                        defaultOpen={false}                              >
+                        {country.videos.map((video) => (
                               <div key={video.videoId} className="space-y-1">
                                 <button
                                   onClick={(e) => onVideoClick(video.videoId, e)}
@@ -121,32 +123,42 @@ export function Filters({
                                   </span>
                                 </button>
 
-                                {selectedVideo === video.videoId && (
-                                  <div className="ml-4 space-y-1">
-                                    {video.locations.map((location) => (
-                                      <button
-                                        key={location.id}
-                                        onClick={() => onLocationClick(location)}
-                                        className={`w-full text-left px-3 py-1.5 rounded-lg transition-colors flex items-center ${
-                                          selectedLocation?.id === location.id
-                                            ? 'bg-secondary-darker text-primary' 
-                                            : 'hover:bg-secondary text-primary-hover'
-                                        }`}
-                                      >
-                                        <span className="flex-1 truncate pr-2 text-sm">
-                                          {location.name}
-                                        </span>
-                                        <span className="text-xs opacity-70">
-                                          <LocationIcon location={location} />
-                                        </span>
-                                      </button>
-                                    ))}
-                                  </div>
-                                )}
+                                <AnimatedList 
+                                  isOpen={selectedVideo === video.videoId}
+                                  className="ml-4 space-y-2"
+                                  defaultOpen={false}          
+                                >
+                                  {video.locations.map((location) => (
+                                    <button
+                                      key={location.id}
+                                      onClick={() => onLocationClick(location)}
+                                      className={`
+                                        w-full 
+                                        text-left 
+                                        px-3 
+                                        py-1.5 
+                                        rounded-lg 
+                                        transition-colors 
+                                        flex 
+                                        items-center 
+                                        ${selectedLocation?.id === location.id
+                                          ? 'bg-secondary-darker text-primary'
+                                          : 'hover:bg-secondary text-primary-hover'
+                                        }
+                                      `}
+                                    >
+                                      <span className="flex-1 truncate pr-2 text-sm">
+                                        {location.name}
+                                      </span>
+                                      <span className="text-xs opacity-70">
+                                        <LocationIcon location={location} />
+                                      </span>
+                                    </button>
+                                  ))}
+                                </AnimatedList>
                               </div>
                             ))}
-                          </div>
-                        )}
+                      </AnimatedList>
                     </div>
                   ))}
                 </div>
