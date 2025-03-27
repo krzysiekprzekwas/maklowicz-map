@@ -2114,16 +2114,6 @@
       "locations": []
     },
     {
-      "videoId": "W7j9VHYGCKQ",
-      "videoUrl": "https://www.youtube.com/watch?v=W7j9VHYGCKQ",
-      "title": "ROBERT MAKŁOWICZ SZWECJA odc.37 \" La dolce vita po szwedzku\".",
-      "playlistId": "PLpTn8onHfnD1B3JYfHFuzmDAzNzXg4R5x",
-      "playlistTitle": "SZWECJA",
-      "date": "2021-11-12T09:42:10Z",
-      "show": "Robert Makłowicz w podróży",
-      "locations": []
-    },
-    {
       "videoId": "DQMaNx3tAMU",
       "videoUrl": "https://www.youtube.com/watch?v=DQMaNx3tAMU",
       "title": "ROBERT MAKŁOWICZ BOŚNIA odc.60 „ Mostar i okolice\".",
@@ -2152,6 +2142,90 @@
       "date": "2021-07-09T12:14:03Z",
       "show": "Robert Makłowicz w podróży",
       "locations": []
+    },
+    {
+      "videoId": "L329fdarNUQ",
+      "videoUrl": "https://www.youtube.com/watch?v=L329fdarNUQ",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc. 40  \"Podlasie, centrum świata\".",
+      "filterTitle": "Podlasie, centrum świata. (odc. 40)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-04-30T15:00:15Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "gora-ekumeniczna",
+          "name": "Góra Ekumeniczna",
+          "description": "Wzgórze z symboliką prawosławną, katolicką i tatarska, muzułmańską.",
+          "latitude": 53.18867442609048, 
+          "longitude": 23.839015757443825,
+          "address": "5RQQ+FH Łosiniany, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/419cQ5XWph9oLFNa6"
+        },
+        {
+          "id": "szpaler-lip-w-zyliczach",
+          "name": "Szpaler lip w Żyliczach",
+          "description": "Pozostałości dawnej wsi w głębi lasu w postaci lini drzew i przydrożnych krzyży.",
+          "latitude": 53.188841760891,
+          "longitude":  23.758895681581468,
+          "address": "5QQ5+M7 Ciumicze, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ffyFyMvNMFe9tzAa8"
+        },
+        {
+          "id": "16-120-ciumicze",
+          "name": "Ciumicze",
+          "description": "Urokliwa wieś, dawny folwark tatarski. Ulicówka z klasycznym wiekowym budownictwem.",
+          "latitude": 53.201655066372275, 
+          "longitude": 23.762363076532232,
+          "address": "Ciumicze 1, 16-120, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/bqnHmq8fGbzaLgkG8"
+        },
+        {
+          "id": "kundzicz-jolanta",
+          "name": "Kundzicz Jolanta.",
+          "description": "Agroturystyka z restauracją o wdzięcznej nazwie \"W chlewie\".",
+          "latitude": 53.21076617966958, 
+          "longitude": 23.774497788193216,
+          "address": "6Q65+9P Ciumicze, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/oDDX3gCNJJqPXnJ66"
+        },
+        {
+          "id": "stara-grusza-w-osadzie-wierszalin",
+          "name": "Stara Grusza w Osadzie Wierszalin",
+          "description": "Pozostałości po osadzie Wierszalin, wizji Eliasza Klimczuka o objawieniu nowego Jeruzalem na terenach podlaskich.",
+          "latitude": 53.19744480523122, 
+          "longitude": 23.704760226094326,
+          "address": "Leszczany 27, 16-120, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/QGukFkL1FmLiXvd9A"
+        },
+        {
+          "id": "s-uczanka",
+          "name": "Słuczanka",
+          "description": "Kilkusetletnia podlaska wieś z prężnie funkcjonującym kołem gospodyń wiejskich.",
+          "latitude": 53.126979116785144, 
+          "longitude": 23.637560449196236,
+          "address": "Słuczanka 42, 16-040, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/MSrcgeCzR8j8QuLW9"
+        }
+      ]
     },
     {
       "videoId": "SK2M3f59n-8",
