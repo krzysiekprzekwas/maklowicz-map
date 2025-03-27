@@ -2144,6 +2144,42 @@
       "locations": []
     },
     {
+      "videoId": "Nbf36xfiMys",
+      "videoUrl": "https://www.youtube.com/watch?v=Nbf36xfiMys",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc. 41 \" Kurpiowskie przebudzenie\".",
+      "filterTitle": "Kurpiowskie przebudzenie. (odc. 41)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-05-07T15:00:16Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "pod-lipkami",
+          "name": "Pod Lipkami",
+          "description": "Autentyczna agroturystyka w sercu Puszczy Kurpiowskiej i oryginalną chatą kurpiowską.",
+          "latitude": 53.228007989099815, 
+          "longitude": 21.502629637046045,
+          "address": "Tatary 43, 07-420, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/dzBC1ZbM72xPwUp3A"
+        },
+        {
+          "id": "zagroda-kurpiowska-w-kadzidle",
+          "name": "Zagroda Kurpiowska w Kadzidle",
+          "description": "Skansen szerzący wiedze o kulturze i tradycji Kurpiów.",
+          "latitude": 53.22810518647066, 
+          "longitude": 21.46538176795054,
+          "address": "Słoneczna 17, 07-420 Kadzidło, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/6aL4NKXnfqEYtauZA"
+        }
+      ]
+    },
+    {
       "videoId": "L329fdarNUQ",
       "videoUrl": "https://www.youtube.com/watch?v=L329fdarNUQ",
       "title": "ROBERT MAKŁOWICZ POLSKA odc. 40  \"Podlasie, centrum świata\".",
