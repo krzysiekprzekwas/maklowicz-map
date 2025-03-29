@@ -58,7 +58,7 @@ export function Header() {
           </nav>
         </div>
       </div>
-      <Analytics />
+      <Analytics mode={process.env.NODE_ENV as "development" | "production"}/>
     </header>
   );
 }
