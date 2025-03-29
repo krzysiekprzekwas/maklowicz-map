@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://sladami-roberta.vercel.app
+
+# Sitemaps
+Sitemap: https://sladami-roberta.vercel.app/sitemap.xml
