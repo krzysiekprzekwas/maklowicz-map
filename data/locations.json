@@ -2144,6 +2144,78 @@
       "locations": []
     },
     {
+      "videoId": "htdcAuY6p2o",
+      "videoUrl": "https://www.youtube.com/watch?v=htdcAuY6p2o",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc.42 \"Znów do Dalmacji\"",
+      "filterTitle": "Znów do Dalmacji (odc. 42)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-05-14T15:00:14Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "grudobran-citadela",
+          "name": "Grudobran Citadela",
+          "description": "Fragmenty murów obronnych cytadeli chorniące historyczne stare miasto Zadaru.",
+          "latitude": 44.110784538207085, 
+          "longitude": 15.226822354566904,
+          "address": "Obala kralja Petra Krešimira IV 2, 23000, Zadar, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/LBtnd9ietjwdG3xk9"
+        },
+        {
+          "id": "brama-miejska-zadar",
+          "name": "Brama do miasta Zadar",
+          "description": "Położona zaraz obok mariny, historyczna brama do miasta z symboliką wenecką.",
+          "latitude": 44.112162477830985, 
+          "longitude": 15.228461907605174, 
+          "address": "Ul. Ante Kuzmanića, 23000, Zadar, Chorwacja",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/5CMDUPBG12PbuGdJ8"
+        },
+        {
+          "id": "forum-zadar",
+          "name": "Forum",
+          "description": "Ruiny rzymskiego forum, a jednocześnie same centrum historyczne Zadaru.",
+          "latitude": 44.11572369554115, 
+          "longitude": 15.224553714447415,
+          "address": "Forum,23000, Zadar, Chorwacja",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/nU64Ec4hiSW6B5Lb8"
+        },
+        {
+          "id": "konoba-masklin",
+          "name": "Konoba Mašklin",
+          "description": "Restauracja pod nazwą kilofa, serwująca dania kuchni dalmatyńskiej.",
+          "latitude": 42.985766137851975, 
+          "longitude": 17.08376332056489,
+          "address": "X3PJ+8F Viganj, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ydTczdMEi9oV65PeA"
+        },
+        {
+          "id": "restaurant-lavanda",
+          "name": "Restaurant Lavanda",
+          "description": "Restauracja w niesamowicie położonym, wykutym wręcz w skale kampingu Lavanda.",
+          "latitude": 42.98234311374443, 
+          "longitude": 17.20507740694179,
+          "address": "Dubravica 34A, 20250, Stanković, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/L6W9eqLp7CfLVbfu5"
+        }
+      ]
+    },
+    {
       "videoId": "Nbf36xfiMys",
       "videoUrl": "https://www.youtube.com/watch?v=Nbf36xfiMys",
       "title": "ROBERT MAKŁOWICZ POLSKA odc. 41 \" Kurpiowskie przebudzenie\".",
