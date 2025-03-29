@@ -60,21 +60,22 @@ export function Filters({
                 onChange={onSearchChange}
                 placeholder="Szukaj lokacji, filmów..."
               />
-
-              <button
-                onClick={onResetFilters}
-                className={`w-full text-left px-3 py-2 rounded-lg transition-colors mb-4 ${
-                  !selectedCountry && !selectedVideo
-                    ? 'bg-secondary-darker text-primary' 
-                    : 'hover:bg-secondary text-primary-hover'
-                }`}
-              >
-                🌍 Wszystkie lokacje ({totalLocations})
-              </button>
+                {selectedCountry || selectedVideo ? (
+                  <button
+                  onClick={onResetFilters}
+                  className="w-full text-center px-3 py-2 rounded-lg mb-4 text-red-500 hover:text-red-600"
+                  >
+                  Resetuj filtry
+                  </button>
+                ) : (
+                  <div className="w-full text-center px-3 py-2 rounded-lg mb-4 text-gray-500">
+                  Wybierz kraj lub odcinek
+                  </div>
+                )}
 
               <div className="border border-secondary-border rounded-lg overflow-hidden">
                 <div className="w-full flex items-center justify-between p-3 bg-secondary">
-                  <span className="font-bold text-primary">🗺️ Kraje</span>
+                  <span className="font-bold text-primary">🌍 Wszystkie lokacje ({totalLocations})</span>
                 </div>
                 
                 <div className="p-2 space-y-1">
@@ -175,6 +176,9 @@ export function Filters({
         aria-label={isOpen ? 'Ukryj filtry' : 'Pokaż filtry'}
       >
         {isOpen ? '×' : '🔍'}
+        {(selectedCountry || selectedVideo) && (
+          <span className="absolute top-1 right-1 w-3 h-3 bg-red-500 rounded-full"></span>
+        )}
       </button>
     </>
   );
