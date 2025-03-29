@@ -47,7 +47,7 @@ export function Filters({
       {/* Filters Panel */}
       <aside 
         className={`fixed md:top-[116px] bottom-0 left-0 w-full md:w-80 bg-white shadow-xl transform transition-transform duration-300 ease-in-out
-          h-[75vh] max-h-screen
+          h-[75vh] md:h-[calc(100vh-116px)] max-h-screen
           ${isOpen ? 'translate-x-0' : '-translate-x-full'} 
           ${isOpen ? 'translate-y-0' : 'translate-y-full md:translate-y-0'}`}
         style={{ zIndex: 9999 }}
