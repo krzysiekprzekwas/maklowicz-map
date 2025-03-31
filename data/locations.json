@@ -2144,6 +2144,102 @@
       "locations": []
     },
     {
+      "videoId": "IjEprQSBc74",
+      "videoUrl": "https://www.youtube.com/watch?v=IjEprQSBc74",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc.44 \"Morzem i lądem\"",
+      "filterTitle": "Morzem i lądem (odc. 44)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-05-28T15:00:13Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "twierdza-francuska",
+          "name": "Twierdza Francuska",
+          "description": "Twierdza z czasów napoelońskich z punktem widowiskowym na wyspie Hvar z widokiem na miasto i Wysp Paklińskich.",
+          "latitude": 43.17777094633968, 
+          "longitude": 16.448682849213327,
+          "address": "Put Poljuna 3, 21450, Hvar, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/q9Yb2op31VUDj1qA8"
+        },
+        {
+          "id": "harbour-of-hvar",
+          "name": "Harbour of Hvar",
+          "description": "Port promu pieszego na wyspie Hvar. Samochodowy jest na drugiej stronie wyspy.",
+          "latitude": 43.17006427104812, 
+          "longitude": 16.441103705303775,
+          "address": "Hvar, Hvar, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/6vph89yNJp5or91JA"
+        },
+        {
+          "id": "hvar-theatre",
+          "name": "Hvar Theatre",
+          "description": "Nastarszy teatr miejski na świecie z XVII wieku.",
+          "latitude": 43.172161465528845, 
+          "longitude": 16.441743176462385,
+          "address": "S. Buzolić Tome 15, 21450, Hvar, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/QETnBZhTxDXPaYXo8"
+        },
+        {
+          "id": "twierdza-hiszpanska",
+          "name": "Twierdza Hiszpańska",
+          "description": "Kolejna z twierdz obronnych na wyspie Hvar.",
+          "latitude": 43.17496209568312, 
+          "longitude": 16.441820295935635,
+          "address": "5CFF+X4 Hvar, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ixWD9topM3JHM1Gr9"
+        },
+        {
+          "id": "stiniva-port",
+          "name": "Stiniva Port",
+          "description": "Malutka przystań z czasów austrowęgieskich.",
+          "latitude": 43.20456178274282, 
+          "longitude": 16.467794278582563,
+          "address": "Ul. Uvala Stiniva 17, 21450, Brusje, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/sUzmDFMmJLZtJtTg6"
+        },
+        {
+          "id": "underground-yugoslavia-naval-dock",
+          "name": "Underground Yugoslavia naval dock",
+          "description": "Grota z Jugosławskiego systemu obronnego chroniącego kutry rakietowe.",
+          "latitude": 43.28148868922568, 
+          "longitude": 16.507750761570687,
+          "address": "7C2X+JC Nerežišća, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/bjPrgc4kwmNtSv858"
+        },
+        {
+          "id": "restaurant-fjaka",
+          "name": "Restaurant Fjaka",
+          "description": "Restauracja bezpośrednio przy marinie w miejscowości Milna.",
+          "latitude": 43.32729502159708, 
+          "longitude": 16.448071823827824,
+          "address": "D114 4, 21405, Milna, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/KG9kSUyCbBTYcw9m6"
+        }
+      ]
+    },
+    {
       "videoId": "3X5ueWCWkQw",
       "videoUrl": "https://www.youtube.com/watch?v=3X5ueWCWkQw",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc.43 \"Śmigając po Adrii\".",
