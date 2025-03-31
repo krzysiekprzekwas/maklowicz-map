@@ -10,9 +10,8 @@ export function useLocations(searchQuery: string, selectedCountry: string | null
     locationData.videos.forEach((video) => {
       const videoMatches = !query || video.title.toLowerCase().includes(query);
       const matchingLocations = video.locations.filter((loc) =>
-        [loc.name, loc.country, loc.description, loc.address].some((field) =>
-          field.toLowerCase().includes(query)
-        ) || videoMatches
+        loc.name.toLowerCase().includes(query)
+        || videoMatches
       );
 
       matchingLocations.forEach((location) => {
