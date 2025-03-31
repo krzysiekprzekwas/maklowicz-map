@@ -2144,6 +2144,78 @@
       "locations": []
     },
     {
+      "videoId": "3X5ueWCWkQw",
+      "videoUrl": "https://www.youtube.com/watch?v=3X5ueWCWkQw",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc.43 \"Śmigając po Adrii\".",
+      "filterTitle": "Śmigając po Adrii. (odc. 43)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-05-21T15:00:15Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "toranj-od-veriga",
+          "name": "Toranj od veriga",
+          "description": "Pozostałości twierdzi z weneckich czasów Trogiru.",
+          "latitude": 43.515094326505434, 
+          "longitude": 16.247179827532587,
+          "address": "Obala bana Berislavića 25, 21218, Seget Donji, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/A1jMv8ixGV8xtbhH7"
+        },
+        {
+          "id": "solta",
+          "name": "Šolta",
+          "description": "Wyspa znana w Polsce przez Kamila Krzysztofa Baczyńskiego spędzającego tu wakacje oraz przez Roberta Makłowicza, który przewrócił tu ponton.",
+          "latitude": 43.386019763383494, 
+          "longitude": 16.283613489681787,
+          "address": "97G8+J2 Grohote, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ox63e22jaXQJS1AV6"
+        },
+        {
+          "id": "konoba-bajso",
+          "name": "Konoba Bajso",
+          "description": "Restauracja z domowej produkcji szynkami, winem i oliwą.",
+          "latitude": 43.46503491147683, 
+          "longitude": 16.609353052352134,
+          "address": "Staro selo 51, 21315, Jesenice, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/7ctrQNwTww3bCF6NA"
+        },
+        {
+          "id": "toto-s",
+          "name": "TOTO'S",
+          "description": "Restauracja w archipelagu Wysp Paklińskich, dostępna praktycznie wyłącznie dla wilków morskich.",
+          "latitude": 43.15876696032099, 
+          "longitude": 16.39160952137188,
+          "address": "594P+CQ Hvar, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/VUQhYmCW24Jtb4o28"
+        },
+        {
+          "id": "wyspy-paklinskie",
+          "name": "Wyspy Paklińskie",
+          "description": "Popularny kierunek lokalnych rejsów z dziesiątkami małych klimatycznych zatok.",
+          "latitude": 43.16349488258738, 
+          "longitude": 16.367360986466437,
+          "address": "587W+RG Hvar, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/iQ8U6NNeNQfByai79"
+        }
+      ]
+    },
+    {
       "videoId": "htdcAuY6p2o",
       "videoUrl": "https://www.youtube.com/watch?v=htdcAuY6p2o",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc.42 \"Znów do Dalmacji\"",
