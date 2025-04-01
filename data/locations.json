@@ -2144,6 +2144,138 @@
       "locations": []
     },
     {
+      "videoId": "jbXoYVoOIvQ",
+      "videoUrl": "https://www.youtube.com/watch?v=jbXoYVoOIvQ",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc.46  \"Znów wędrujemy ciepłym krajem... \"",
+      "filterTitle": "Znów wędrujemy ciepłym krajem... (odc. 46)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-06-11T15:00:14Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "park-narodowy-krka",
+          "name": "Park Narodowy Krka",
+          "description": "Unikalny w swojej urodzie park narodowy z wodospadami i jeziorami.",
+          "latitude": 43.804852424493966, 
+          "longitude": 15.964271062323883, 
+          "address": "RWV8+95 Velika Glava, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/1xf4x5AXaUxE9gso6"
+        },
+        {
+          "id": "national-park-kornati",
+          "name": "National Park Kornati",
+          "description": "Niemal bezludny archipelag Kornacki składający się z 147 wysp i wysepek.",
+          "latitude": 43.79132790248742, 
+          "longitude": 15.361827965535678,
+          "address": "8FMQQ3J7+JH",
+          "country": "",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/jFW538vWpWukpuyR7"
+        },
+        {
+          "id": "konoba-smokvica",
+          "name": "Konoba smokvica",
+          "description": "Konoba z kuchnią rybną na jednej z wysk w Archipelagu Kornackim z drobną mariną.",
+          "latitude": 43.725954091027646, 
+          "longitude": 15.476444438676838,
+          "address": "Otok vela Smokvica 28, 22243, Kornati, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/RRU6pc1gvn2HbYg66"
+        },
+        {
+          "id": "marina-hramina",
+          "name": "Marina Hramina",
+          "description": "Marina w miejscowości Murter.",
+          "latitude": 43.827495936610894, 
+          "longitude": 15.592505336909337,
+          "address": "RHFQ+M4 Murter, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/KHdn5dcMUWEuXR8B9"
+        },
+        {
+          "id": "restoran-mate",
+          "name": "Restoran Mate",
+          "description": "Konoba tak tradycyjna, że bardziej się nie da. Od lat w rękach tej samej rodziny słynące z niesamowitych steków.",
+          "latitude": 43.82124992752659, 
+          "longitude": 15.585784987298206,
+          "address": "Ul. Marka Marulića 3B, 22243, Murter, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/es4n9c3ypPJvjvCx5"
+        }
+      ]
+    },
+    {
+      "videoId": "mx1_oci-MU0",
+      "videoUrl": "https://www.youtube.com/watch?v=mx1_oci-MU0",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc.45 \"Pod żaglami\"",
+      "filterTitle": "Pod żaglami (odc. 45)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-06-04T15:00:12Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "st-nicholas-fortress",
+          "name": "St. Nicholas’ Fortress",
+          "description": "Twierdza nawodna strzegąca wejścia do Kanału Szybenickiego.",
+          "latitude": 43.72165128166792, 
+          "longitude": 15.85455773008331,
+          "address": "PRCV+QM Šibenik, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/pj1HGn5pvHiUzBp67"
+        },
+        {
+          "id": "most-krka",
+          "name": "Most Krka",
+          "description": "Widowiskowy most nad rzeką Krką, po którym prowadzi główna chorwacka autostrada.",
+          "latitude": 43.80861901735005, 
+          "longitude": 15.915834752334929,
+          "address": "RW57+J2 Bićine, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/KZrzbQitUxYU1tQn9"
+        },
+        {
+          "id": "aci-marina-skradin",
+          "name": "ACI Marina Skradin",
+          "description": "Marina słodkowodna przy rzece Krka.",
+          "latitude": 43.81884935199394, 
+          "longitude": 15.918999773301248,
+          "address": "RW97+JQ Bićine, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/VJy7PyGJ1GZoCADx8"
+        },
+        {
+          "id": "mate-vino",
+          "name": "Mate Vino",
+          "description": "Wyborna konoba tuż przy marinie w miejscowości Skradin.",
+          "latitude": 43.8170394,
+          "longitude": 15.9197737,
+          "address": "Obala Bana Pavla Subica 20, 22222, Skradin, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/LksjvkYnArC8pyVs8"
+        }
+      ]
+    },
+    {
       "videoId": "IjEprQSBc74",
       "videoUrl": "https://www.youtube.com/watch?v=IjEprQSBc74",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc.44 \"Morzem i lądem\"",
