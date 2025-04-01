@@ -29,7 +29,7 @@ const ChangeView: React.FC<{ locations: Location[] }> = React.memo(({ locations 
     
     React.useEffect(() => {
         if (locations.length > 0) {
-            const bounds = L.latLngBounds(locations.map(loc => [loc.latitude, loc.longitude]));
+            const bounds = L.latLngBounds(locations.filter(x => !x.isFilteredOut).map(loc => [loc.latitude, loc.longitude]));
             map.fitBounds(bounds as LatLngBoundsExpression, { 
                 padding: [50, 50],
                 maxZoom: maxZoomValue 
@@ -44,13 +44,18 @@ const Map: React.FC<MapProps> = React.memo(({ locations, selectedLocation, onLoc
     // Memoize the custom icon creation
     const customIcon = React.useCallback((location: Location, isSelected: boolean): DivIcon => {
         let icon = ReactDOMServer.renderToString(<LocationIcon location={location} />);
+        const backgroundColor = isSelected 
+            ? 'rgb(88, 202, 229)' 
+            : location.isFilteredOut 
+            ? '#d3d3d3'
+            : '#2c1810';
 
         return new L.DivIcon({
             className: 'custom-marker',
             html: `<div style="
                 width: 32px;
                 height: 32px;
-                background-color: ${isSelected ? 'rgb(88, 202, 229)' : '#2c1810'};
+                background-color: ${backgroundColor};
                 border: 2px solid #f8f5f0;
                 border-radius: 50%;
                 cursor: pointer;

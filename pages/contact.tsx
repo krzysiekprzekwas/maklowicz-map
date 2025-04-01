@@ -1,9 +1,8 @@
 import React from 'react';
-import { Header } from '../components/layout/Header';
 
 export default function Contact() {
   return (
-    <main className="flex min-h-screen flex-col bg-secondary">
+    <main className="flex flex-1 flex-col bg-secondary">
       <div className="container mx-auto px-6 py-12">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-4xl font-bold text-primary mb-8">Kontakt</h2>

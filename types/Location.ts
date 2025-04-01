@@ -15,6 +15,7 @@ export interface Location {
     type: string;
     websiteUrl?: string;
     GoogleMapsLink?: string;
+    isFilteredOut?: boolean;
 }
 
 export interface Video {
@@ -31,4 +32,4 @@ export interface Video {
 
 export interface LocationData {
     videos: Video[];
-} 
+}

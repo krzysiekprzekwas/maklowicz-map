@@ -36,7 +36,7 @@ export function LocationDetails({ location, onClose }: LocationDetailsProps) {
           <>
             <div className="flex items-center gap-2 mb-4">
               <span className="text-xl"><LocationIcon location={location} /></span>
-              <h2 className="text-xl md:text-2xl font-bold pr-8">{location.name}</h2>
+              <h2 className={`text-xl md:text-2xl font-bold pr-8 ${location.isFilteredOut ? 'text-gray-400' : ''}`}>{location.name}</h2>
             </div>
             <p className="text-gray-600 mb-4">{location.description}</p>
 

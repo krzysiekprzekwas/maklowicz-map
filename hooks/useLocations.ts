@@ -39,17 +39,15 @@ export function useLocations(searchQuery: string, selectedCountry: string | null
   }, [searchQuery]);
 
   const filteredLocations = useMemo(() => {
-    if (selectedVideo) {
-      return locationData.videos.find((v) => v.videoId === selectedVideo)?.locations || [];
-    }
-
-    if (selectedCountry) {
-      return countries.find((c) => c.name === selectedCountry)?.locations || [];
-    }
-
-    return locationData.videos.flatMap((video) =>
-      video.locations
-    );
+    const allLocations = locationData.videos.flatMap((video) => video.locations);
+    return allLocations.map((location) => ({
+      ...location,
+      isFilteredOut: selectedVideo
+        ? !locationData.videos.find((v) => v.videoId === selectedVideo)?.locations.some((loc) => loc.id === location.id)
+        : selectedCountry
+        ? !(countries.find((c) => c.name === selectedCountry)?.locations.some((loc) => loc.id === location.id))
+        : false,
+    }));
   }, [selectedCountry, selectedVideo, countries]);
   
   const videoCount = useMemo(() => {
