@@ -2094,6 +2094,66 @@
       "locations": []
     },
     {
+      "videoId": "PVs74TZyGvg",
+      "videoUrl": "https://www.youtube.com/watch?v=PVs74TZyGvg",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc.84  „Mandarynkowa Dalmacja”.",
+      "filterTitle": "„Mandarynkowa Dalmacja”. (odc. 84)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-04-22T15:00:12Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "winery-violic-m-boris",
+          "name": "Winery Violić M. Boris",
+          "description": "Rodzinna, pinniczna winiarnia, jedna z pierwszych niezależnych, założona przez \"Indjana\".",
+          "latitude": 42.939281705717185, 
+          "longitude": 17.338030418634744,
+          "address": "14, 20244, Potomje, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/7W4XupYCVBfrxPDx9"
+        },
+        {
+          "id": "villa-stolovi",
+          "name": "Villa Stolovi",
+          "description": "Urokliwe miejsce na wynajem z pięknym widokiem i basenem.",
+          "latitude": 42.96071242629842, 
+          "longitude": 17.53098852807559,
+          "address": "D8 3, 20355, Slivno Ravno, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/pA8n1SmA2cDFdPBy9"
+        },
+        {
+          "id": "opg-happy-citrus",
+          "name": "OPG Happy citrus",
+          "description": "Przydrożny sklep owocowy z Doliny Neretwny, producent soku z mandarynek używanych w piwie ArcyIpa.",
+          "latitude": 42.986069722457785, 
+          "longitude": 17.54559874872139,
+          "address": "8FPMCQC8+4P",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/G6h2hNVgUJvgwztt5"
+        },
+        {
+          "id": "muzej-vinarstva-putnikovici",
+          "name": "Muzej vinarstva Putnikovići",
+          "description": "Muzeum wina z restauracją, w której można spróbować lokalnych win poznając historie tego fachu.",
+          "latitude": 42.87265822725018, 
+          "longitude": 17.525316641237364,
+          "address": "V6FC+46 Lumbarda, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/9fqGDaN8dze7ekth9"
+        }
+      ]
+    },
+    {
       "videoId": "E_o1-M-af4c",
       "videoUrl": "https://www.youtube.com/watch?v=E_o1-M-af4c",
       "title": "ROBERT MAKŁOWICZ SŁOWENIA odc.81 „ Z biegiem Soczy\".",
