@@ -2097,7 +2097,7 @@
       "videoId": "PVs74TZyGvg",
       "videoUrl": "https://www.youtube.com/watch?v=PVs74TZyGvg",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc.84  „Mandarynkowa Dalmacja”.",
-      "filterTitle": "„Mandarynkowa Dalmacja”. (odc. 84)",
+      "filterTitle": "Mandarynkowa Dalmacja (odc. 84)",
       "playlistId": "",
       "playlistTitle": "",
       "date": "2022-04-22T15:00:12Z",
@@ -2150,6 +2150,54 @@
           "type": "other",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/9fqGDaN8dze7ekth9"
+        }
+      ]
+    },
+    {
+      "videoId": "tIq2xMokdfU",
+      "videoUrl": "https://www.youtube.com/watch?v=tIq2xMokdfU",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc.83 „Dalmatyńskie przedwiośnie”.",
+      "filterTitle": "Dalmatyńskie przedwiośnie (odc. 83)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-04-08T15:00:14Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "port-orebic",
+          "name": "Port Orebić",
+          "description": "Marina nadwodna w Orebiću.",
+          "latitude": 42.973883917028715, 
+          "longitude": 17.17412759598577,
+          "address": "Ul. Bana Josipa Jelačića 18, 20250, Orebić, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/NRVHHuBqtT3zR58E7"
+        },
+        {
+          "id": "heritage-hotel-adriatic-adults-only",
+          "name": "Heritage hotel \"Adriatic\" Adults only",
+          "description": "Jeden z niewielu hoteli w Orebicu czynnych całorocznie w dawnym budnyku kościelnym.",
+          "latitude": 42.974500079925136, 
+          "longitude": 17.181516330821154,
+          "address": "Ul. Joza Orebića 3, 20250, Orebić, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/FjqEPNfNzVPoEJjF8"
+        },
+        {
+          "id": "restauracja-braenovic",
+          "name": "Restauracja Braenović",
+          "description": "Restauracja u stóp zbócz pełnych winnych pędów Dingac.",
+          "latitude": 42.9232297364629, 
+          "longitude": 17.346678506863594,
+          "address": "Dingač - Borak 29, 20244, Potomje, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ctCz2ZzBM5hE19rE7"
         }
       ]
     },
