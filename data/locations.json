@@ -2202,6 +2202,102 @@
       ]
     },
     {
+      "videoId": "NI0w1WeS6yA",
+      "videoUrl": "https://www.youtube.com/watch?v=NI0w1WeS6yA",
+      "title": "ROBERT MAKŁOWICZ  SŁOWENIA odc.82  „Rtęć i stare koronki\".",
+      "filterTitle": "Rtęć i stare koronki (odc. 82)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-04-01T15:00:11Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "idrija-municipal-museum",
+          "name": "Idrija Municipal Museum",
+          "description": "Muzeum w zamku, dawna siedziba kopalni rtęci.",
+          "latitude": 46.000603304550054, 
+          "longitude": 14.01851266014896,
+          "address": "Lapajnetova ulica 7, 5280 Idrija, Slovenia",
+          "country": "Słowenia",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/xRvTcAv2q7Ndv9qC8"
+        },
+        {
+          "id": "vipava-1894-d-o-o",
+          "name": "Vipava 1894 d.o.o.",
+          "description": "Jedna z najbardziej znanych winiarni w Słowenii, z historią z czasów Jugosławki.",
+          "latitude": 45.83851112586908, 
+          "longitude": 13.961994728645436,
+          "address": "Slap 3i, 5271 Vipava, Slovenia",
+          "country": "Słowenia",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/2TyRdeEaBKUEwMo59"
+        },
+        {
+          "id": "hotel-lovran",
+          "name": "Hotel Lovran",
+          "description": "Austrowęgierskia willa z 1900 roku, obecnie hotel z niebywałym widokiem.",
+          "latitude": 45.295362676614644, 
+          "longitude": 14.276222334874266,
+          "address": "77R2+7M Liganj, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/RTAYN9SeGnvspsWk9"
+        },
+        {
+          "id": "willa-atlanta",
+          "name": "Willa Atlanta",
+          "description": "Willa w której przez lata mieszkał Stanisław Wickiewicz, twórca stylu zakopiańskiego. Obecnie apartamenty na wynajem.",
+          "latitude": 45.29507199256589, 
+          "longitude": 14.276261873332105,
+          "address": "Dr. Nila Cara 3A, 51415, Lovran, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/bSFAD26gANAZquSe8"
+        },
+        {
+          "id": "lungomare",
+          "name": "Lungomare",
+          "description": "Promenada spacerowa wzdłuż wybrzeża, łącząca Opatiję z Lovranem.",
+          "latitude": 45.323402906716815, 
+          "longitude": 14.299268420875947,
+          "address": "Ul. Antona Mihića 24, 51410, Opatija, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/hD43wkTLzKAwisgy9"
+        },
+        {
+          "id": "bakar-chorwacja",
+          "name": "Bakar",
+          "description": "Urokliwe, mało znane miasteczko słynące z kopalni miedzi i najlepszych tuńczyków w regionie.",
+          "latitude": 45.30685137515405, 
+          "longitude": 14.53542243749802,
+          "address": "Trg svetog Andrije 261, 51262, Bakar, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/AW7HHAENUfxu3jBi6"
+        },
+        {
+          "id": "bistro-konoba-lucija",
+          "name": "Bistro Konoba Lucija",
+          "description": "Przyportowa konoba w okolicy Chorwackiej magistrali.",
+          "latitude": 45.115415162663155, 
+          "longitude": 14.82057615466947,
+          "address": "Marijana Butkovica 4, 51250, Povile, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/PDVEjSWmDPxWkZk1A"
+        }
+      ]
+    },
+    {
       "videoId": "E_o1-M-af4c",
       "videoUrl": "https://www.youtube.com/watch?v=E_o1-M-af4c",
       "title": "ROBERT MAKŁOWICZ SŁOWENIA odc.81 „ Z biegiem Soczy\".",
