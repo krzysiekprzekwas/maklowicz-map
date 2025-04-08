@@ -2348,6 +2348,90 @@
       "locations": []
     },
     {
+      "videoId": "S63efpJzO8k",
+      "videoUrl": "https://www.youtube.com/watch?v=S63efpJzO8k",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc. 48 „Wśród borów i jezior\".",
+      "filterTitle": "„Wśród borów i jezior. (odc. 48)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-06-25T15:00:10Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "jezioro-charzykowskie",
+          "name": "Jezioro Charzykowskie",
+          "description": "Jezioro zasilane rzeką Brdą, z pięknymi widokami i czystą wodą.",
+          "latitude": 53.7769751014036, 
+          "longitude": 17.505539631364528,
+          "address": "QCFC+Q7 Stara Rogoźnica, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/NBs6i14R6LaXj95F6"
+        },
+        {
+          "id": "wyspa-mi-osci",
+          "name": "Wyspa Miłości",
+          "description": "Mała wysepka na Jeziorze Charzykowskim.",
+          "latitude": 53.75074221562701, 
+          "longitude": 17.501485776720727,
+          "address": "QF2X+9Q Charzykowy, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/9xtC7AmMieEdqg1h6"
+        },
+        {
+          "id": "pomnik-przyrody-dab-bartus",
+          "name": "Pomnik Przyrody - \"Dąb Bartuś\"",
+          "description": "Wiekowy, ponad 600-letni dąb w centrum Borów Tucholskich. Ponad 7 metrów obwodu.",
+          "latitude": 53.81721107414514, 
+          "longitude": 17.532422741831038,
+          "address": "RG8H+VW Małe Swornegacie, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/V7LoboEaNRRBZQzB9"
+        },
+        {
+          "id": "jezioro-karsinskie",
+          "name": "Jezioro Karsińskie",
+          "description": "Jezioro na skraju Kaszub i Borów Tucholskich z miejscowością o często źle internpretowanej nazwie, Swornegacie.",
+          "latitude": 53.84986051975514, 
+          "longitude": 17.509129635569,
+          "address": "Jeziorna 1, 89-608 Swornegacie, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/1MzQBS2D5PDenLkY6"
+        },
+        {
+          "id": "akwedukt-fojutowo-89-504",
+          "name": "Akwedukt Fojutowo, 89-504",
+          "description": "Pochodzący z czasów pruski najdłuższy akwedukt w Polsce",
+          "latitude": 53.721487822446456, 
+          "longitude": 17.900941252657535,
+          "address": "PVCX+J8 Gartki, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/xn957DenYEjavFZF9"
+        },
+        {
+          "id": "restauracja-las-i-woda",
+          "name": "Restauracja Las i Woda",
+          "description": "Restauracja w hotelu Notera tuż nad brzegiem Jeziora Charzykowskiego.",
+          "latitude": 53.74183173024196, 
+          "longitude": 17.512363595756234,
+          "address": "Wczasowa 1, 89-606 Charzykowy, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/qJWZxdHHkDtn6DdC8"
+        }
+      ]
+    },
+    {
       "videoId": "jbXoYVoOIvQ",
       "videoUrl": "https://www.youtube.com/watch?v=jbXoYVoOIvQ",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc.46  \"Znów wędrujemy ciepłym krajem... \"",
