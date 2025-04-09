@@ -2351,7 +2351,7 @@
       "videoId": "S63efpJzO8k",
       "videoUrl": "https://www.youtube.com/watch?v=S63efpJzO8k",
       "title": "ROBERT MAKŁOWICZ POLSKA odc. 48 „Wśród borów i jezior\".",
-      "filterTitle": "„Wśród borów i jezior. (odc. 48)",
+      "filterTitle": "Wśród borów i jezior (odc. 48)",
       "playlistId": "",
       "playlistTitle": "",
       "date": "2021-06-25T15:00:10Z",
@@ -2397,7 +2397,7 @@
           "id": "jezioro-karsinskie",
           "name": "Jezioro Karsińskie",
           "description": "Jezioro na skraju Kaszub i Borów Tucholskich z miejscowością o często źle internpretowanej nazwie, Swornegacie.",
-          "latitude": 53.84986051975514, 
+          "latitude": 53.849860519755, 
           "longitude": 17.509129635569,
           "address": "Jeziorna 1, 89-608 Swornegacie, Poland",
           "country": "Polska",
@@ -2407,7 +2407,7 @@
         },
         {
           "id": "akwedukt-fojutowo-89-504",
-          "name": "Akwedukt Fojutowo, 89-504",
+          "name": "Akwedukt Fojutowo",
           "description": "Pochodzący z czasów pruski najdłuższy akwedukt w Polsce",
           "latitude": 53.721487822446456, 
           "longitude": 17.900941252657535,
@@ -2428,6 +2428,42 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/qJWZxdHHkDtn6DdC8"
+        }
+      ]
+    },
+    {
+      "videoId": "HSYYmuRTbws",
+      "videoUrl": "https://www.youtube.com/watch?v=HSYYmuRTbws",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc.47  \" Wyspiarski mikrokosmos \".",
+      "filterTitle": "Wyspiarski mikrokosmos (odc. 47)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-06-18T15:00:13Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "marina-veli-iz",
+          "name": "Marina Veli Iž",
+          "description": "Marina z drobną stocznią, popularną na zimowanie jachtów.",
+          "latitude": 44.05047230295918,
+          "longitude": 15.110241046880272,
+          "address": "Veli Iž 192a, 23284, Veli Iž, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Re5cfKF8J5aXStXe6"
+        },
+        {
+          "id": "konoba-galija",
+          "name": "Konoba Galija",
+          "description": "Uroklikwa konoba w głębi miejskiej plątaniny uliczek z pysznymi daniami spod peki.",
+          "latitude": 44.0507214636073, 
+          "longitude": 15.10699160044863,
+          "address": "297A, 23284, Veli Iž, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/aoGR4Hc1sFoUAvyd8"
         }
       ]
     },
