@@ -2341,11 +2341,97 @@
       "videoId": "0uMKKmI8_Tg",
       "videoUrl": "https://www.youtube.com/watch?v=0uMKKmI8_Tg",
       "title": "ROBERT MAKŁOWICZ POLSKA odc.50 „Morze i jeziora\".",
-      "playlistId": "PLpTn8onHfnD2MIk9xNoeMUWR6uEMc-hRJ",
-      "playlistTitle": "POLSKA",
-      "date": "2021-07-09T12:14:03Z",
+      "filterTitle": "„Morze i jeziora. (odc. 50)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-07-09T15:00:12Z",
       "show": "Robert Makłowicz w podróży",
-      "locations": []
+      "locations": [
+        {
+          "id": "madwiny-ruchome-wydmy",
+          "name": "Madwiny - \"Ruchome wydmy\"",
+          "description": "Ruchome wydmy w Słowińskim Parku Narodowym",
+          "latitude": 54.74762900756025, 
+          "longitude": 17.409500763496677,
+          "address": "P8XG+3J Smołdziński Las, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/5LxbHzfrgvjLv6sG7"
+        },
+        {
+          "id": "meduza-wedzarnia-ryb-przysiecki-z",
+          "name": "Meduza. Wędzarnia ryb. Przysiecki Z.",
+          "description": "Rodzinna przetwórnia, a wręcz manufaktura wyrobów rybnych.",
+          "latitude": 54.639555774048674, 
+          "longitude": 17.174401104061165,
+          "address": "9 Maja 3, 76-213 Gardna Wielka, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/6KHLEPwYjXef21DT9"
+        },
+        {
+          "id": "plaza-w-rowach",
+          "name": "Plaża w Rowach",
+          "description": "Urokliwa, szeroka plaża bałtycka niedaleko Łeby.",
+          "latitude": 54.6676525241999, 
+          "longitude": 17.0464141146226785,
+          "address": "M29V+V3 Rowy, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/kxuwc4RXeVRKq6Zk8"
+        },
+        {
+          "id": "latarnia-morska-stilo",
+          "name": "Latarnia Morska Stilo",
+          "description": "Symbol architektoniczny wybrzeża, latarnia wzniesiona na zalesionej wydmie.",
+          "latitude": 54.786858223954056, 
+          "longitude": 17.733952735717683,
+          "address": "QPPJ+QG Osetnik, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/bzYmXhNyaDrY7zLAA"
+        },
+        {
+          "id": "restauracja-ewa-zaprasza",
+          "name": "Restauracja Ewa Zaprasza",
+          "description": "Wręcz już historyczny lokal, niezwykle popularny z kuchnią nowoczesną.",
+          "latitude": 54.7603971,
+          "longitude": 17.7535391,
+          "address": "Brukowa 4A, 84-210 Sasino, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/zJMADBJjo55dXPPTA"
+        },
+        {
+          "id": "gorzelnia-podole-wielkie-producent-okowit-i-wodek",
+          "name": "Gorzelnia Podole Wielkie. Producent okowit i wódek",
+          "description": "Gorzelnia rolnicza jeszcze z czasów PGR'u. W cudnym otoczeniu i świetnym stanie.",
+          "latitude": 54.580885698960344, 
+          "longitude": 17.49839059720868,
+          "address": "Podole Wielkie 22, 76-220, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/8abYwtaDtDBitW1U8"
+        },
+        {
+          "id": "pa-ac-poraj",
+          "name": "Pałac Poraj",
+          "description": "Kiedyś pałac, potem instytut torfowy i więzienie. Dziś urokliwy hotel z pięknym parkiem.",
+          "latitude": 54.658314265612475, 
+          "longitude": 17.586230646697935,
+          "address": "MH5M+8F Poraj, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/geJprVYvJXqLBrM18"
+        }
+      ]
     },
     {
       "videoId": "LR2y9pHQa-s",
