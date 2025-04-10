@@ -2348,6 +2348,78 @@
       "locations": []
     },
     {
+      "videoId": "LR2y9pHQa-s",
+      "videoUrl": "https://www.youtube.com/watch?v=LR2y9pHQa-s",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc. 49 „Kaszubskie inspiracje\".",
+      "filterTitle": "„Kaszubskie inspiracje. (odc. 49)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-07-02T15:00:14Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "muzeum-kaszubski-park-etnograficzny-im-teodory-i-izydora-gulgowskich-we-wdzydzach",
+          "name": "Muzeum - Kaszubski Park Etnograficzny im. Teodory i Izydora Gulgowskich we Wdzydzach",
+          "description": "Skansen historyczny, jeden z najstarszych w Polsce. Zabytkowe domy, wiatraki i inne budynki z Kaszub.",
+          "latitude": 54.01083713575312, 
+          "longitude": 17.944127198728406,
+          "address": "Wiatrak \"Holender\", 83-406 Wdzydze, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/gCrnNYcToYyAPpDj9"
+        },
+        {
+          "id": "zagroda-szkolna-z-wieckow",
+          "name": "Zagroda Szkolna z Więcków",
+          "description": "Dawny budynek szkolny, często wykorzystywany do nauki o Kaszubach.",
+          "latitude": 54.00967612400961, 
+          "longitude": 17.93991926251696,
+          "address": "Teodory i Izydora Gulgowskich 48a, 83-406 Wdzydze, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/RUqNCZsS1qR4wHgj8"
+        },
+        {
+          "id": "gospodarstwo-kaszubska-koza-kozie-sery",
+          "name": "Gospodarstwo Kaszubska Koza - Kozie Sery",
+          "description": "Znana wręcz na świecie serowarnia z Kaszub, której wyrobi dostaniemy w najlepszych polskich resutaracjach.",
+          "latitude": 53.95178713304781, 
+          "longitude": 17.854614322702513,
+          "address": "Robaczkowo 2, 83-441 Przytarnia, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/1UVcjoix7eFk1mDK6"
+        },
+        {
+          "id": "u-ch-opa-resort-spa",
+          "name": "\"U Chłopa\" Resort & Spa",
+          "description": "Uroklikwa agroturystyka z restauracją, w której spróbujemy lokalnych specjałów. Jedna z pierwszych w Polsce.",
+          "latitude": 54.32175689749885, 
+          "longitude": 18.099410982595842,
+          "address": "Akacjowa 37, 83-333 Chmielno, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/8RWPNNkj4d8jYZwc9"
+        },
+        {
+          "id": "lesny-dwor",
+          "name": "Leśny Dwór",
+          "description": "Hotel z restauracją w odrestaurowanym pałacu rodziny junkierskiej rodziny Heidensteinów.",
+          "latitude": 54.235443454251154, 
+          "longitude": 17.78128565170474,
+          "address": "Aleja Zwycięstwa 10B, 83-320 Sulęczyno, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/T9S3ownq8wetPq6C8"
+        }
+      ]
+    },
+    {
       "videoId": "S63efpJzO8k",
       "videoUrl": "https://www.youtube.com/watch?v=S63efpJzO8k",
       "title": "ROBERT MAKŁOWICZ POLSKA odc. 48 „Wśród borów i jezior\".",
