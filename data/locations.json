@@ -2338,6 +2338,114 @@
       "locations": []
     },
     {
+      "videoId": "Fjqr-D3fM5w",
+      "videoUrl": "https://www.youtube.com/watch?v=Fjqr-D3fM5w",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc.51  „Sopot, Gdynia. Miasta z morza”.",
+      "filterTitle": "„Sopot, Gdynia. Miasta z morza”. (odc. 51)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-07-16T15:00:12Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "pomnik",
+          "name": "Pomnik w Porcie Gdyńskim",
+          "description": "Świetny punkt widokowy do oglądania jednostek jak i architektury portu.",
+          "latitude": 54.53472922556157, 
+          "longitude": 18.54774493095364,
+          "address": "Polska 2, 81-339 Gdynia, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/UPxFL9KNQYgda2Pi6"
+        },
+        {
+          "id": "muzeum-emigracji-w-gdyni",
+          "name": "Muzeum Emigracji w Gdyni",
+          "description": "Muzeum Emigracji w dawnym budynku dworca morskiego w Gdyni.",
+          "latitude": 54.53298688550562, 
+          "longitude": 18.547955288220937,
+          "address": "Francuska 1, 81-339 Gdynia, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/5RiWHJkXwUpLbdEbA"
+        },
+        {
+          "id": "bulwar-nadmorski-im-feliksa-nowowiejskiego-gdynia",
+          "name": "Bulwar Nadmorski im.Feliksa Nowowiejskiego, Gdynia",
+          "description": "Piesz-rowerowy bulwar łączący Gdynie z Sopotem",
+          "latitude": 54.508707321136974,
+          "longitude":  18.553877174786344,
+          "address": "Józefa Korzeniowskiego 25A, 81-376 Gdynia, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/3G3azUway9DQBRfbA"
+        },
+        {
+          "id": "bia-y-krolik",
+          "name": "Biały Królik",
+          "description": "Restauracja w hotelu Quadrille, prowadzona przez niezwykle uznanego Marcina Popielarza.",
+          "latitude": 54.48110023480366, 
+          "longitude": 18.54000706926064,
+          "address": "Źródlana 5, 81-531 Gdynia, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/cmKjqu61aJ6SFZLq9"
+        },
+        {
+          "id": "polskie-smaki",
+          "name": "Polskie Smaki",
+          "description": "Restauracja w Sopockim Domu Zdrojowym z kuchnią pod batutą Krystiana Szidel'a.",
+          "latitude": 54.445844902492375, 
+          "longitude": 18.568573162431772,
+          "address": "Aleksandra Majkowskiego 11, 81-719 Sopot, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Z8AT5pmH5uHnFU4M9"
+        },
+        {
+          "id": "przystan-rybacka-w-sopocie",
+          "name": "Przystań Rybacka w Sopocie",
+          "description": "Nadal aktywna przystań rybacka nieopodal turystycznych klasyków Sopotu.",
+          "latitude": 54.43783604448291, 
+          "longitude": 18.58001697572897,
+          "address": "Aleja Wojska Polskiego 30, 81-769 Sopot, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/u4eemDFfg2fLe77F7"
+        },
+        {  
+          "id": "tawerna-rybaki",
+          "name": "Tawerna Rybaki",
+          "description": "Rybna knajpa w pierwszej lini od plaży z wyborną kartoflanką z łososia.",
+          "latitude": 54.437934231536246,
+          "longitude": 18.57859810540292,
+          "address": "Aleja Wojska Polskiego 30, 81-769 Sopot, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/KTmMgFLALQ4tWZkS7"
+        },
+        {
+          "id": "k5-akademia-kulinarna",
+          "name": "K5 - Akademia Kulinarna",
+          "description": "Akademia kulinarna dla początkujących i zawansowanych.",
+          "latitude": 54.492815067211176, 
+          "longitude": 18.541635879019346,
+          "address": "FGVQ+4J Gdynia, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/2rv22hi4kr8vkKuFA"
+        }
+      ]
+    },
+    {
       "videoId": "0uMKKmI8_Tg",
       "videoUrl": "https://www.youtube.com/watch?v=0uMKKmI8_Tg",
       "title": "ROBERT MAKŁOWICZ POLSKA odc.50 „Morze i jeziora\".",
