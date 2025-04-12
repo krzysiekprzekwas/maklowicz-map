@@ -2338,6 +2338,126 @@
       "locations": []
     },
     {
+      "videoId": "kW_0Aq57K9g",
+      "videoUrl": "https://www.youtube.com/watch?v=kW_0Aq57K9g",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc.52  „Gdańsk, miasto wolności\".",
+      "filterTitle": "„Gdańsk, miasto wolności. (odc. 52)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-07-23T15:00:13Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "gora-gradowa",
+          "name": "Góra Gradowa",
+          "description": "Góra Gradowa w Gdańsku - miejsce, gdzie historia miesza się z pięknem natury. Wznoszące się nad miastem wzgórze oferuje nie tylko zapierające dech w piersiach widoki, ale także możliwość odwiedzenia zabytkowej kaplicy, fortu obronnego i poszanowania dawnych wydarzeń. To idealne miejsce, by uciec od zgiełku miasta i połączyć przyjemne z pożytecznym.",
+          "latitude": 54.35766830488873, 
+          "longitude": 18.640255439169273,
+          "address": "9J5R+43 Gdańsk, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/6hLfqCFUGUUQfzDYA"
+        },
+        {
+          "id": "brama-nr-2-dawna-stocznia-gdanska",
+          "name": "Brama nr 2 - dawna Stocznia Gdańska",
+          "description": "\"Brama nr 2, dawniej Stocznia Gdańska, to miejsce, gdzie historia spotyka się z rewitalizacją. Ta ikoniczna brama, położona przy Doki 1, 80-863 Gdańsk, jest świadectwem morskiej potęgi Gdańska i jednocześnie hołdem dla jego przemysłowej przeszłości. Dzisiaj, ten industrialny kolos tętni życiem, stając się przedsmakiem dla łasuchów, którzy chcą odkryć nowe oblicze Gdańska.\"",
+          "latitude": 54.36056261380406, 
+          "longitude": 18.649885260806254,
+          "address": "Doki 1, 80-863 Gdańsk, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/FoHt8maqjBouBNJQ7"
+        },
+        {
+          "id": "europejskie-centrum-solidarnosci",
+          "name": "Europejskie Centrum Solidarności",
+          "description": "Wchodząc do Europejskiego Centrum Solidarności w Gdańsku, wkracza się w samo serce polskiej historii. To tutaj, w tych murach, zrodziła się Solidarność, a Lech Wałęsa stał się bohaterem narodowym. Dziś to miejsce, choć może nie tak kolorowe jak niegdyś, nadal bije sercem wolności i oporu, a jego adres staje się swoistym adresem do serca Polski.",
+          "latitude": 54.36125453775225, 
+          "longitude": 18.64970659596087,
+          "address": "Jana z Kolna 6, 80-864 Gdańsk, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/BerCURiJEDxH6fXJ7"
+        },
+        {
+          "id": "przystan-jachtowa-marina-gdansk",
+          "name": "Przystań Jachtowa \"Marina Gdańsk\"",
+          "description": "W Gdańsku, tuż nad wodą, czeka prawdziwa przystań dla miłośników żeglowania - Przystań Jachtowa \"Marina Gdańsk\" przy Chmielnej 1. To miejsce, gdzie morska bryza miesza się z zapachem świeżo przygotowanych ryb, a atmosfera jest równie relaksująca, co widok rozciągający się na Motławę. Tutaj każdy może poczuć się jak kapitan własnego statku, nawet jeśli jego \"statek\" to tylko wygodny fotel w jednej z okolicznych kawiarni.",
+          "latitude": 54.34992611021558, 
+          "longitude": 18.659750547961895,
+          "address": "Chmielna 1, 80-748 Gdańsk, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/K9JRCEYxhUJcMHjx5"
+        },
+        {
+          "id": "brovarnia-gdansk-i-restauracja-i-browar-w-gdansku",
+          "name": "Brovarnia Gdańsk I Restauracja i Browar w Gdańsku",
+          "description": "W Gdańsku, w samym sercu miasta, znajduje się ukryty skarb - Brovarnia Gdańsk I Restauracja i Browar. To miejsce, gdzie ręcznie warzone piwo spotyka się z wyśmienitą kuchnią, a wszystko to w otoczeniu starej, gdańskiej architektury. Tu można napić się piwa i zjeść przepyszne potrawy, czując ducha tego wyjątkowego miasta.",
+          "latitude": 54.34923404815004, 
+          "longitude": 18.66061727551673,
+          "address": "Szafarnia 9, 80-755 Gdańsk, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/CeQsxc2zGsBH9UEG9"
+        },
+        {
+          "id": "dwor-artusa-oddzia-muzeum-gdanska",
+          "name": "Dwór Artusa. Oddział Muzeum Gdańska",
+          "description": "W Gdańsku, na Długim Targu, stoi prawdziwa perełka architektury - Dwór Artusa, oddział Muzeum Gdańska. Ten przepiękny budynek z XVI wieku to nie tylko przykład renesansowej sztuki, ale również świadek wielu ważnych wydarzeń w historii miasta. We wnętrzach znajdziemy piękne freski i rzeźby, a także atmosferę, która przeniesie nas wprost do czasów złotego wieku Gdańska.",
+          "latitude": 54.348733682903664, 
+          "longitude": 18.65335222279266,
+          "address": "Długi Targ 44, 80-830 Gdańsk, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/gzgefpSULKyjmUjU9"
+        },
+        {
+          "id": "bazylika-mariacka-wniebowziecia-najswietszej-maryi-panny-w-gdansku",
+          "name": "Bazylika Mariacka Wniebowzięcia Najświętszej Maryi Panny w Gdańsku",
+          "description": "Ta imponująca bazylika w Gdańsku to prawdziwa perełka architektury gotyckiej, a jej czerwone cegły zdają się wręcz rubinowo świecić na tle nieba. Odwiedzając to miejsce, Wnętrze świątyni kryje w sobie niezliczone skarby sztuki, a przy okazji, można tu wpaść na pomysł, jak połączyć piękno architektury z lokalną kuchnią - wszak Gdańsk to miasto, gdzie historia miesza się z pysznym jedzeniem!",
+          "latitude": 54.34992647714372, 
+          "longitude": 18.65226489979032,
+          "address": "Piwna 26, 80-831 Gdańsk, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Qwh82QtZuUUdYNr16"
+        },
+        {
+          "id": "kaplica-krolewska",
+          "name": "Kaplica Królewska",
+          "description": "W Gdańsku, wśród ciasnych uliczek i kolorowych kamienic, ukryta jest Kaplica Królewska, prawdziwy skarb architektury baroku. Ten niewielki, ale niezwykle urokliwy budynek przy Świętego Ducha to miejsce, gdzie historia miesza się z pięknem, a spokojna atmosfera pozwala oderwać się od zgiełku miasta. To obowiązkowy przystanek dla każdego, kto chce poczuć ducha dawnej Polski.",
+          "latitude": 54.35033239627218, 
+          "longitude": 18.65374765410023,
+          "address": "Świętego Ducha 58, 80-834 Gdańsk, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/tdYVKXuswQG4Xmqw6"
+        },
+        {
+          "id": "gdanski-bowke",
+          "name": "Gdański Bowke",
+          "description": "Gdański Bowke to miejsce, gdzie tradycja spotyka się z nowoczesnością, serwując potrawy, które są jak dobre żarty - zaskakują i smakują. To ukryty klejnot w Gdańsku, gdzie każdy kęs jest jak podróż kulinarna po Polsce, z odrobiną szaleństwa.",
+          "latitude": 54.34908055062304, 
+          "longitude": 18.656418285814024,
+          "address": "Chlebnicka 42, 80-830 Gdańsk, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/M2EuMYMWTpeedt1b7"
+        }
+      ]
+    },
+    {
       "videoId": "Fjqr-D3fM5w",
       "videoUrl": "https://www.youtube.com/watch?v=Fjqr-D3fM5w",
       "title": "ROBERT MAKŁOWICZ POLSKA odc.51  „Sopot, Gdynia. Miasta z morza”.",

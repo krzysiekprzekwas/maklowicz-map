@@ -188,14 +188,14 @@ async function extractPlaceId(url: string): Promise<string> {
   throw new Error('Could not extract place ID or name from URL');
 }
 
-async function generateDescription(name: string, type: 'restaurant' | 'attraction' | 'other', country: string): Promise<string> {
+async function generateDescription(location: Location): Promise<string> {
   try {
     if (!process.env.GROQ_API_KEY) {
       console.error('GROQ_API_KEY is not set in .env file');
       return '';
     }
 
-    const prompt = `Generate a short, engaging description in Polish for a ${type} named "${name}" in ${country}. The description should be no longer than 2-3 sentences, in the style of Robert Makłowicz, capturing his unique, conversational tone, but don't impersonate him. Keep 3rd person perspective. Focus on what makes this place special, with a touch of humor and charm, as if Robert himself is describing it.`;
+    const prompt = `Generate a short, engaging description in Polish for a place named "${location.name}" of address ${location.address} in ${location.country}. The description should be no longer than 1-2 sentences, in the style of Robert Makłowicz, capturing his unique, conversational tone, but don't impersonate him. Don't repeat address. Keep 3rd person perspective. Focus on what makes this place special, with a touch of humor and charm, as if Robert himself is describing it.`;
 
     const response = await axios.post(
       'https://api.groq.com/openai/v1/chat/completions',
@@ -211,9 +211,7 @@ async function generateDescription(name: string, type: 'restaurant' | 'attractio
             content: prompt
           }
         ],
-        temperature: 0.7,
-        max_tokens: 150,
-        stream: false
+        temperature: 0.7
       },
       {
         headers: {
@@ -272,13 +270,11 @@ async function getPlaceDetails(client: Client, placeIdOrName: string): Promise<L
           const country = countryComponent?.long_name || '';
           const type = determineLocationTypeFromName(name);
           
-          // Generate description using GROQ
-          const description = await generateDescription(name, type, country);
           
           return {
             id: generateId(name),
             name: name,
-            description,
+            description: "",
             latitude,
             longitude,
             address: place.formatted_address || '',
@@ -294,12 +290,11 @@ async function getPlaceDetails(client: Client, placeIdOrName: string): Promise<L
       // Fallback to just using the coordinates and name
       console.debug('Using basic information from URL');
       const type = determineLocationTypeFromName(name);
-      const description = await generateDescription(name, type, '');
       
       return {
         id: '',
         name,
-        description,
+        description: "",
         latitude,
         longitude,
         address: '',
@@ -339,13 +334,10 @@ async function getPlaceDetails(client: Client, placeIdOrName: string): Promise<L
         const country = countryComponent?.long_name || '';
         const type = determineLocationType(place.types || []);
         
-        // Generate description using GROQ
-        const description = await generateDescription(place.name, type, country);
-        
         return {
           id: generateId(place.name),
           name: place.name,
-          description,
+          description: "",
           latitude: location.lat,
           longitude: location.lng,
           address: place.formatted_address || '',
@@ -468,6 +460,12 @@ async function main() {
     const mapsData = await parseGoogleMapsUrl(url);
     const location = createLocation(mapsData, url);
 
+
+    // Generate description using GROQ
+    const description = await generateDescription(location);
+
+    location.description = description;
+
     console.log('\nLocation data:');
     console.log(JSON.stringify(location, null, 2));
   } catch (error) {
@@ -481,3 +479,4 @@ async function main() {
 }
 
 main();
+
