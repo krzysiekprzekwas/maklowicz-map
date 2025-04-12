@@ -37,6 +37,8 @@ Create a `.env.local` file in the root directory with:
 
 ```env
 YOUTUBE_API_KEY=your_youtube_api_key_here
+GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
+GROQ_API_KEY=your_groq_api_key_here
 ```
 
 ### Installation

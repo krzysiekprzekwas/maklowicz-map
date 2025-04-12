@@ -188,6 +188,58 @@ async function extractPlaceId(url: string): Promise<string> {
   throw new Error('Could not extract place ID or name from URL');
 }
 
+async function generateDescription(name: string, type: 'restaurant' | 'attraction' | 'other', country: string): Promise<string> {
+  try {
+    if (!process.env.GROQ_API_KEY) {
+      console.error('GROQ_API_KEY is not set in .env file');
+      return '';
+    }
+
+    const prompt = `Generate a short, engaging description in Polish for a ${type} named "${name}" in ${country}. The description should be no longer than 2-3 sentences, in the style of Robert Makłowicz, capturing his unique, conversational tone, but don't impersonate him. Keep 3rd person perspective. Focus on what makes this place special, with a touch of humor and charm, as if Robert himself is describing it.`;
+
+    const response = await axios.post(
+      'https://api.groq.com/openai/v1/chat/completions',
+      {
+        model: 'meta-llama/llama-4-scout-17b-16e-instruct',
+        messages: [
+          {
+            role: 'system',
+            content: 'You are a helpful assistant that generates engaging descriptions in Polish for places visited by Robert Makłowicz.'
+          },
+          {
+            role: 'user',
+            content: prompt
+          }
+        ],
+        temperature: 0.7,
+        max_tokens: 150,
+        stream: false
+      },
+      {
+        headers: {
+          'Authorization': `Bearer ${process.env.GROQ_API_KEY}`,
+          'Content-Type': 'application/json'
+        }
+      }
+    );
+
+    if (!response.data.choices || !response.data.choices[0]?.message?.content) {
+      console.error('Invalid response format from GROQ API:', response.data);
+      return '';
+    }
+
+    return response.data.choices[0].message.content.trim();
+  } catch (error: any) {
+    console.error('Error generating description:', {
+      message: error.message,
+      status: error.response?.status,
+      statusText: error.response?.statusText,
+      data: error.response?.data
+    });
+    return '';
+  }
+}
+
 async function getPlaceDetails(client: Client, placeIdOrName: string): Promise<Location> {
   console.debug('Getting place details for:', placeIdOrName);
   
@@ -218,16 +270,20 @@ async function getPlaceDetails(client: Client, placeIdOrName: string): Promise<L
             component.types.includes('country' as any)
           );
           const country = countryComponent?.long_name || '';
+          const type = determineLocationTypeFromName(name);
+          
+          // Generate description using GROQ
+          const description = await generateDescription(name, type, country);
           
           return {
             id: generateId(name),
             name: name,
-            description: '',
+            description,
             latitude,
             longitude,
             address: place.formatted_address || '',
             country,
-            type: determineLocationTypeFromName(name),
+            type,
             websiteUrl: ''
           };
         }
@@ -235,47 +291,20 @@ async function getPlaceDetails(client: Client, placeIdOrName: string): Promise<L
         console.error('Reverse geocoding failed:', error);
       }
       
-      // Try to get more details using nearby search
-      try {
-        console.debug('Trying nearby search...');
-        const nearbyResponse = await client.placesNearby({
-          params: {
-            location: { lat: latitude, lng: longitude },
-            radius: 100,
-            keyword: name,
-            key: process.env.GOOGLE_MAPS_API_KEY || ''
-          }
-        });
-        
-        if (nearbyResponse.data.results && nearbyResponse.data.results.length > 0) {
-          const place = nearbyResponse.data.results[0];
-          return {
-            id: generateId(place.name || name),
-            name: place.name || name,
-            description: '',
-            latitude: place.geometry?.location.lat || latitude,
-            longitude: place.geometry?.location.lng || longitude,
-            address: place.vicinity || '',
-            country: '', // Can't get country from nearby search
-            type: determineLocationType(place.types || []),
-            websiteUrl: ''
-          };
-        }
-      } catch (error) {
-        console.error('Nearby search failed:', error);
-      }
-      
       // Fallback to just using the coordinates and name
       console.debug('Using basic information from URL');
+      const type = determineLocationTypeFromName(name);
+      const description = await generateDescription(name, type, '');
+      
       return {
         id: '',
         name,
-        description: '',
+        description,
         latitude,
         longitude,
         address: '',
         country: '',
-        type: determineLocationTypeFromName(name),
+        type,
         websiteUrl: ''
       };
     }
@@ -308,61 +337,25 @@ async function getPlaceDetails(client: Client, placeIdOrName: string): Promise<L
           component.types.includes('country' as any)
         );
         const country = countryComponent?.long_name || '';
+        const type = determineLocationType(place.types || []);
+        
+        // Generate description using GROQ
+        const description = await generateDescription(place.name, type, country);
         
         return {
           id: generateId(place.name),
           name: place.name,
-          description: '',
+          description,
           latitude: location.lat,
           longitude: location.lng,
           address: place.formatted_address || '',
           country,
-          type: determineLocationType(place.types || []),
+          type,
           websiteUrl: place.website || ''
         };
       } catch (error) {
         console.error('Place details API failed:', error);
       }
-    }
-    
-    // Use geocoding as a fallback
-    try {
-      console.debug('Trying geocoding with address...');
-      const geocodingResponse = await client.geocode({
-        params: {
-          address: placeIdOrName,
-          key: process.env.GOOGLE_MAPS_API_KEY || ''
-        }
-      });
-      
-      if (geocodingResponse.data.results && geocodingResponse.data.results.length > 0) {
-        const place = geocodingResponse.data.results[0];
-        const location = place.geometry?.location;
-        
-        if (!location) {
-          throw new Error('Could not find location coordinates');
-        }
-        
-        // Get country from address components
-        const countryComponent = place.address_components.find((component: any) => 
-          component.types.includes('country' as any)
-        );
-        const country = countryComponent?.long_name || '';
-        
-        return {
-          id: generateId(placeIdOrName),
-          name: placeIdOrName,
-          description: '',
-          latitude: location.lat,
-          longitude: location.lng,
-          address: place.formatted_address || '',
-          country,
-          type: determineLocationTypeFromName(placeIdOrName),
-          websiteUrl: ''
-        };
-      }
-    } catch (error) {
-      console.error('Geocoding failed:', error);
     }
     
     throw new Error('Could not find place details');
