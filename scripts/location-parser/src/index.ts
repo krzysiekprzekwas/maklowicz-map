@@ -195,7 +195,7 @@ async function generateDescription(location: Location): Promise<string> {
       return '';
     }
 
-    const prompt = `Generate a short, engaging description in Polish for a place named "${location.name}" of address ${location.address} in ${location.country}. The description should be no longer than 1-2 sentences, in the style of Robert Makłowicz, capturing his unique, conversational tone, but don't impersonate him. Don't repeat address. Keep 3rd person perspective. Focus on what makes this place special, with a touch of humor and charm, as if Robert himself is describing it.`;
+    const prompt = `Generate a short, engaging description in Polish for a place named "${location.name}" of address ${location.address} in ${location.country}. The description should be no longer than 1-2 sentences, in the style of Robert Makłowicz, capturing his unique, conversational tone, but don't impersonate him. Don't repeat address. Keep 3rd person perspective. Focus on what makes this place special, with a touch of humor and charm. If given place had significant historical or cultural importance, mention it. For building address the date of creation.`;
 
     const response = await axios.post(
       'https://api.groq.com/openai/v1/chat/completions',

@@ -2338,6 +2338,102 @@
       "locations": []
     },
     {
+      "videoId": "rHBzFcX1xLQ",
+      "videoUrl": "https://www.youtube.com/watch?v=rHBzFcX1xLQ",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc.53 „Wielkopolskie cuda\".",
+      "filterTitle": "„Wielkopolskie cuda. (odc. 53)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-08-06T15:00:12Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "muzeum-pa-ac-w-rogalinie-oddzia-muzeum-narodowego-w-poznaniu",
+          "name": "Muzeum Pałac w Rogalinie. Oddział Muzeum Narodowego w Poznaniu",
+          "description": "Muzeum Pałac w Rogalinie to prawdziwa perełka wśród polskich muzeów, oferująca odwiedzającym niezapomnianą podróż przez historię i sztukę w przepięknych wnętrzach pałacu. To miejsce, gdzie historia spotyka się z pięknem, a zwiedzający mogą przenieść się w czasie i poczuć ducha minionych epok.",
+          "latitude": 52.23458245095518, 
+          "longitude": 16.929773551995055,
+          "address": "6WMG+RV Rogalin, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/8V2BTodD85fQPTkj7"
+        },
+        {
+          "id": "deby-rogalinskie",
+          "name": "Dęby Rogalińskie",
+          "description": "W Dębách Rogalińskich, perełce ukrytej wśród zielonych łanów wielkopolskiej ziemi, czas zdaje się stanąć. To miejsce, gdzie natura i historia splatają się w urokliwą całość, zachęcając do niepośpiesznego spaceru i delektowania się pięknem okolicznych pejzaży.",
+          "latitude": 52.2367584574749, 
+          "longitude": 16.925608025874322,
+          "address": "6WMC+JR Rogalin, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/J5q9QkbXiHZiVzsB6"
+        },
+        {
+          "id": "zamek-w-korniku",
+          "name": "Zamek w Kórniku",
+          "description": "Zamek w Kórniku to prawdziwa perełka architektoniczna z XVIII wieku, której nie sposób nie pokochać - jego uroku nie mogą zniszczyć nawet nieco szalone, barokowe zdobienia. Ten historyczny obiekt, będący niegdyś rezydencją rodziny Radziwiłłów, do dziś emanuje spokojem i pięknem, zachęcając do spaceru po pięknych ogrodach i wnętrzach.",
+          "latitude": 52.24391655795009, 
+          "longitude": 17.090885505515995,
+          "address": "Zamkowa 8A, 62-035 Kórnik, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/1y1NFcA6swbMvvvE6"
+        },
+        {
+          "id": "arboretum-w-korniku",
+          "name": "Arboretum w Kórniku",
+          "description": "Wchodząc do Arboretum w Kórniku, odwiedzający znajdzie się w prawdziwym raju dla miłośników przyrody i architektury. Założone w 1936 roku, to piękne miejsce łączy w sobie ponad 2600 gatunków roślin, spokojne alejki i zabytkowe budynki, tworząc oazę spokoju na terenie kilku hektarów.",
+          "latitude": 52.2431548490754, 
+          "longitude": 17.092171856332275,
+          "address": "Zamkowa 5, 62-035 Kórnik, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/tveXw8bFAhXeEFY59"
+        },
+        {
+          "id": "wyspa-edwarda",
+          "name": "Wyspa Edwarda",
+          "description": "Wyspa Edwarda to urokliwa wyspa położona w malowniczym otoczeniu, gdzie natura i historia splatają się w fascynujący sposób. Odwiedzający mogą cieszyć się spokojną atmosferą i pięknymi widokami, które od wieków inspirują podróżników.",
+          "latitude": 52.14794744244652, 
+          "longitude": 17.163633320286234,
+          "address": "45X6+57 Zaniemyśl, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/8mduqm8KyCEq4Zjy9"
+        },
+        {
+          "id": "restauracja-pozytywka",
+          "name": "Restauracja Pozytywka",
+          "description": "W niewielkiej miejscowości Zaniemyśl - Restauracja Pozytywka, która od 2015 roku serwuje smakowite potrawy w przyjaznej atmosferze. To miejsce, gdzie tradycja spotyka się z nowoczesnością, a goście mogą delektować się wyśmienitymi daniami, czując się jak w domu.",
+          "latitude": 52.15142161224637, 
+          "longitude": 17.16763279342115,
+          "address": "Raczyńskiego 30B, 63-020 Zaniemyśl, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/vcHT2rutRZVFdv9v8"
+        },
+        {
+          "id": "sredzka-kolej-powiatowa-waskotorowa-stacja-zaniemysl",
+          "name": "Średzka Kolej Powiatowa, Wąskotorowa, Stacja Zaniemyśl",
+          "description": "W Średzkiej Kolei Powiatowej, Wąskotorowej, Stacji Zaniemyśl, podróżni mogą przenieść się w czasie do ery parowozów i odkryć urok zapomnianych kolei wąskotorowych. Ta niewielka stacja, powstała w 1903 roku, kryje w sobie nie tylko historyczne znaczenie, ale i wyjątkowy klimat, który koniecznie trzeba odczuć osobiście.",
+          "latitude": 52.15847343843969, 
+          "longitude": 17.15938648670153,
+          "address": "Poznańska 18, 63-020 Zaniemyśl, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/gYQRPEHKhRGWQpHk9"
+        }
+      ]
+    },
+    {
       "videoId": "kW_0Aq57K9g",
       "videoUrl": "https://www.youtube.com/watch?v=kW_0Aq57K9g",
       "title": "ROBERT MAKŁOWICZ POLSKA odc.52  „Gdańsk, miasto wolności\".",
