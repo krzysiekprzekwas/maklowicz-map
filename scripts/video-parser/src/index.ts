@@ -21,8 +21,8 @@ function filterTitle(title: string): string {
     result += ` (${odcMatch[0].replace(/odc\.\s*/, 'odc. ')})`;
   }
 
-  // Remove double quotes
-  result = result.replace(/"/g, '').trim();
+  // Remove double quotes and „
+  result = result.replace(/["„]/g, '').trim();
 
   return result;
 }

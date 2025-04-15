@@ -2338,6 +2338,102 @@
       "locations": []
     },
     {
+      "videoId": "MAxZe3QONbM",
+      "videoUrl": "https://www.youtube.com/watch?v=MAxZe3QONbM&t=818s",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc.55 „Mój winny półwysep\".",
+      "filterTitle": "Mój winny półwysep. (odc. 55)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-08-20T15:00:12Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "vidikovac",
+          "name": "Vidikovac",
+          "description": "W niewielkiej miejscowości Kuna Pelješka, Vidikovac, wierza widokowa gdzie można zapomnieć o codziennych troskach i delektować się słonecznym lenistwem z widokiem na Male More.",
+          "latitude": 42.971753598205396, 
+          "longitude": 17.34734877276661,
+          "address": "X8CW+PW, 20243, Kuna Pelješka, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/RKtWg82KHgqZhBKZ9"
+        },
+        {
+          "id": "wine-spaleta",
+          "name": "wine Špaleta",
+          "description": "Winiarnia Špaleta to miejsce, gdzie smak Dalmacji spotyka się z aromatem wyjątkowych win, a wszystko to w otoczeniu przepięknej pelješackiej scenerii. Odwiedzający mogą tutaj spróbować wybornych trunków, jednocześnie ciesząc się urokami tego małego, historycznego miasteczka, które swoją bogatą historię związane z produkcją wina kultywuje od wieków.",
+          "latitude": 42.966534912031264, 
+          "longitude": 17.346241556884035,
+          "address": "X88R+JG Kuna Pelješka, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/DbvrCJe1yzoZvj349"
+        },
+        {
+          "id": "poljoprivredna-zadruga-i-vinarija-dingac",
+          "name": "POLJOPRIVREDNA ZADRUGA I VINARIJA DINGAČ",
+          "description": "W sercu chorwackiej Istrii, w miejscowości Potomje, znajduje się historyczna kooperatywa winna Dingac, wzniesiona w 1924 roku, gdzie tradycja produkcji wina i rolnictwa łączy się z niepowtarzalnym urokiem miejsca. To tutaj, wśród pięknych krajobrazów, powstają wyśmienite wina, a goście mogą doświadczyć prawdziwej chorwackiej gościnności.",
+          "latitude": 42.93903365643543, 
+          "longitude": 17.338341992785935,
+          "address": "8, 20244, Potomje, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/9uF4KZdfZZYBHWsv6"
+        },
+        {
+          "id": "skaramuca-village",
+          "name": "Skaramuča village",
+          "description": "Wioska Skaramučy, ukryta u wybrzerzy półwyspu, to urokliwe miejsce do reklaksu wśród winnych pól.",
+          "latitude": 42.91261503325893,
+          "longitude":  17.376609848859154,
+          "address": "Dingač Zaškolj 31A, 20244, Pijavičino, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/s9mYHkcz1zUw722b8"
+        },
+        {
+          "id": "wine-shop-skaramuca",
+          "name": "Wine Shop Skaramuča",
+          "description": "Wino Shop Skaramuča to ukryty klejnot w sercu chorwackiej wsi, gdzie miłośnicy dobrego trunku mogą odkryć prawdziwe perły winiarstwa lokalnego. Od 1996 roku rodzina Skaramuča dzieli się swoją pasją do wina z gośćmi z całego świata.",
+          "latitude": 42.94112364635889, 
+          "longitude": 17.36524701658086,
+          "address": "Donje Pijavičino 8, 20244, Pijavičino, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Vwskwv81snKLkgrb9"
+        },
+        {
+          "id": "boutoque-winery-mikulic",
+          "name": "Boutoque Winery Mikulic",
+          "description": "Winnica Boutoque Mikulic to ukryty skarb Chorwacji, gdzie tradycja i nowoczesność splatają się w kieliszkach doskonałego wina, a wszystko to w otoczeniu przepięknej przyrody. Odwiedzający mogą tu spróbować wyjątkowych win, doświadczając gościnności, która jest równie ważna co same trunki.",
+          "latitude": 42.97780671110237, 
+          "longitude": 17.224911476909668,
+          "address": "X6HC+4W Stankovići, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/wrGUCSUCAAAX67BH6"
+        },
+        {
+          "id": "peninsula-d-o-o",
+          "name": "Peninsula d.o.o.",
+          "description": "W doniosłym zakątku Chorwacji, na terenie Peninsuli, smakują nie tylko lokalne potrawy, ale również najlepsze wina z całego półwyspu.",
+          "latitude": 42.96971607184144, 
+          "longitude": 17.299468308781886,
+          "address": "X79W+VP Donja Banda, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/4eFzwDww4SNfCbYK6"
+        }
+      ]
+    },
+    {
       "videoId": "H_XdG0oi6kA",
       "videoUrl": "https://www.youtube.com/watch?v=H_XdG0oi6kA",
       "title": "ROBERT MAKŁOWICZ POLSKA odc.54 „Alternatywny Poznań\".",
