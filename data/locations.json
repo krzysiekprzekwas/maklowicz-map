@@ -2338,6 +2338,126 @@
       "locations": []
     },
     {
+      "videoId": "FhOXmmcqiKQ",
+      "videoUrl": "https://www.youtube.com/watch?v=FhOXmmcqiKQ",
+      "title": "ROBERT MAKŁOWICZ BOŚNIA odc.56 „Moja Hercegowina\".",
+      "filterTitle": "Moja Hercegowina. (odc. 56)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-08-27T15:00:13Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "stolac-old-town",
+          "name": "Stolac Old Town",
+          "description": "W Starym Mieście Stolac, perele w południowej Bośni i Hercegowinie, czas sięga średniowiecza, a wąskie uliczki kryją sekrety i urok starej architektury. To miejsce, gdzie historia splata się z pięknem starej zabudowy, tworząc niepowtarzalny klimat. Post-turecka perełka.",
+          "latitude": 43.08116055736182, 
+          "longitude": 17.954910922438334,
+          "address": "3XJ3+FXR, Stolac, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/mbfd5FA9HetFEtMUA"
+        },
+        {
+          "id": "radimlja-stecak-tombstones-unesco",
+          "name": "Radimlja STEĆAK TOMBSTONES (UNESCO)",
+          "description": "Wpisane na Listę Światowego Dziedzictwa UNESCO, średniowieczne nagrobki, które od wieków opowiadają historię Bośni i Hercegowiny. Te misterne kamienie, ozdobione symbolami i napisami, są nie tylko świadectwem historii, ale również nośnikiem tajemniczej atmosfery tego miejsca.",
+          "latitude": 43.0925549876182, 
+          "longitude": 17.923285496302857,
+          "address": "3WV9+28 Poprati, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/X5yLVwcxg1HXYNiK7"
+        },
+        {
+          "id": "ljetnikovac-sisic",
+          "name": "Ljetnikovac Šišić",
+          "description": "W sercu Republiki Serbskiej, ukryty wśród zielonych wzgórz, czeka Ljetnikovac Šišić - urokliwe miejsce, które łączy w sobie kuchnie, naturę i... ciszę.",
+          "latitude": 42.89860701472526, 
+          "longitude": 18.012915727550435,
+          "address": "W223+PX Prhinje, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/spR5ouaqcKQzd5FD8"
+        },
+        {
+          "id": "hotel-platani",
+          "name": "Hotel Platani",
+          "description": "W sercu Trebinje, znajduje się urokliwy Hotel Platani, którego historia sięga 1927 roku, kiedy to został stworzony, by gościć podróżnych szukających wytchnienia wśród przepięknych krajobrazów. Ten stylowy hotel, zlokalizowany w malowniczej okolicy, emanuje ciepłem i gościnnością, zachęcając do relaksu i odkrywania uroków regionu.",
+          "latitude": 42.711739890776975, 
+          "longitude": 18.345173408154775,
+          "address": "Vojvode Stepe Stepanovića 5, Trebinje, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Ei9RSSR7yUYwyE1L8"
+        },
+        {
+          "id": "restoran-kolo",
+          "name": "Restoran KOLO",
+          "description": "Urokliwy \"Restoran KOLO\", gdzie tradycja spotyka się z nowoczesnością, a goście mogą delektować się lokalnymi specjałami w otoczeniu niepowtarzalnego klimatu. Ten przytulny lokal, od lat serwujący esencję bałkańskiej kuchni, to obowiązkowy przystanek dla każdego, kto chce poznać prawdziwy smak regionu.",
+          "latitude": 42.710794881946704, 
+          "longitude": 18.346101880645275,
+          "address": "Njegoševa 2, Trebinje 89101, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/TYYGW5Pw6o2dKbp27"
+        },
+        {
+          "id": "pijaca",
+          "name": "Pijaca",
+          "description": "W Pijacy, urokliwym zakątku Trebinje, czas płynie jak sok z owocu, a historia miesza się z aromatami lokalnej kuchni. Urokliwy targ z lokalnymi produktami.",
+          "latitude": 42.71145575905182, 
+          "longitude": 18.344576684504922,
+          "address": "Vuka Karadžića 2, Trebinje 89101, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/FeAqNN267mvZbpJD7"
+        },
+        {
+          "id": "city-market-trebinje",
+          "name": "City Market Trebinje",
+          "description": "W Trebinje znajduje się tętniący życiem City Market, który przyciąga mieszkańców i turystów szeroką ofertą produktów i niepowtarzalną atmosferą. Ten kolorowy rynek to idealne miejsce, by skosztować lokalnych specjałów i doświadczyć prawdziwego ducha Bałkanów.",
+          "latitude": 42.71153333880062, 
+          "longitude": 18.344162068492242,
+          "address": "Vuka Karadžića 2, Trebinje 89101, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/M92CD3gzwvSKykgLA"
+        },
+        {
+          "id": "panorama-miasta-trebinje",
+          "name": "Panorama miasta Trebinje",
+          "description": "W Trebinje, malownym mieście w Bośni i Hercegowinie, znajduje się Panorama miasta Trebinje, oferująca zapierający dech w piersiach widok na okolicę. Z tego punktu widokowego roztacza się panorama miasta otoczonego górami, która z pewnością zachwyci nawet najbardziej wyrafinowanych smakoszy widoków.",
+          "latitude": 42.71124753056392, 
+          "longitude": 18.359834640648856,
+          "address": "P964+CM4, Zubačka, Trebinje, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/nbDEqLaY9vcfBfbM9"
+        },
+        {
+          "id": "hercegowinska-gracanica",
+          "name": "Hercegowińska Gračanica",
+          "description": "W malowniczej Hercegowinie, tuż obok Trebinje, znajduje się Hercegowińska Gračanica, będącą swoistym „młodszym bliźniakiem” słynnej Gračanicy kosowskiej, a zbudowaną w 2000 roku, jako symbol duchowej więzi między Serbami. Ten uroczy monasterik, z białymi ścianami i czerwonymi dachami, stanowi nie tylko ważny ośrodek kultu religijnego, ale również miejsce, gdzie piękno architektury spotyka się z surową, bałkańską naturą.",
+          "latitude": 42.71067205915859, 
+          "longitude": 18.359835379954692,
+          "address": "P964+896, Brijeg 21, Trebinje 89101, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/frsc8e6WZW8rw4DG9"
+        }
+      ]
+    },
+    {
       "videoId": "MAxZe3QONbM",
       "videoUrl": "https://www.youtube.com/watch?v=MAxZe3QONbM&t=818s",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc.55 „Mój winny półwysep\".",
