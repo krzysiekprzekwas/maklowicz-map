@@ -2338,6 +2338,102 @@
       "locations": []
     },
     {
+      "videoId": "EwutpKEqv5o",
+      "videoUrl": "https://www.youtube.com/watch?v=EwutpKEqv5o",
+      "title": "ROBERT MAKŁOWICZ BOŚNIA odc.57 „Wśród szczytów Bośni\".",
+      "filterTitle": "Wśród szczytów Bośni. (odc. 57)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-09-03T15:00:13Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "park-narodowy-sutjeska",
+          "name": "Park Narodowy Sutjeska",
+          "description": "Park Narodowy Sutjeska, klejnot Bośni i Hercegowiny, rozpościera się jak zielony koc na mapie Bałkanów, oferując niezapomniane widoki i historyczne echa, takie jak bitwa, która miała miejsce podczas II wojny światowej. Ten uroczy zakątek natury, stworzony w 1967 roku, jest obowiązkowym punktem dla każdego, kto chce doświadczyć dzikiej i niepowtarzalnej piękności tego regionu.",
+          "latitude": 43.34623631876694, 
+          "longitude": 18.693470551747094, 
+          "address": "8MXM+W3 Tjentište, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ysLTwrEsTkpqsWGp9"
+        },
+        {
+          "id": "tjentiste-spomenik",
+          "name": "Tjentište spomenik",
+          "description": "W Tjentište, stoi monument poświęcony pamięci żołnierzy, którzy zginęli podczas II wojny światowej, a jego surowy piękność i historia wzruszają do głębi. Ten skromny pomnik, powstały w 1952 roku, jest wyrazem szacunku dla ofiar wojny i stanowi ważne miejsce pamięci dla lokalnej społeczności.",
+          "latitude": 43.34611644013415, 
+          "longitude": 18.686798216022787,
+          "address": "8MWP+CPP, Tjentište, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/diJpAujihgqQEvGT9"
+        },
+        {
+          "id": "braca-kovacevic",
+          "name": "Braća Kovačević",
+          "description": "W malowniczej miejscowości Trbušće znajduje się urocza restauracja Braća Kovačević, która od 1925 roku serwuje nie tylko wyśmienite napoje, ale także dawkuje obficie atmosferę starej dobrej Europy. To miejsce, gdzie czas zdaje się stanął, a goście mogą delektować się spokojem i pięknem otaczającej przyrody.",
+          "latitude": 43.457162963864675, 
+          "longitude": 18.74365439499086,
+          "address": "FP4R+VF Trbušće, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/m2pPyooG9brXnugB6"
+        },
+        {
+          "id": "jahorina-bosnia-i-hercegowina",
+          "name": "Jahorina, Bośnia i Hercegowina",
+          "description": "Jahorina, klejnot Bośni i Hercegowiny, roztacza się niczym zielony pączek w górach, gotowa do podboju serc miłośników natury i adrenaliny. To właśnie tutaj, w 1984 roku, swoje pierwsze igrzyska zimowe zorganizowała Europa, a dziś Jahorina zaprasza do podjęcia nowych wyzwań na stokach narciarskich, szlakach turystycznych czy wśród malowniczych wiosek.\"",
+          "latitude": 43.737539648474204, 
+          "longitude": 18.564571473022934,
+          "address": "PHQ3+C8 Jahorina, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/aPPE8y6F9TiLFMBT6"
+        },
+        {
+          "id": "jahorina-viewpoint",
+          "name": "Jahorina viewpoint",
+          "description": "\" Punkt widokowy Jahorina to miejsce, które zapiera dech w piersiach, a to nie tylko z powodu wysokości - otaczające góry niczym olbrzymie ramiona obejmują dolinę, a panorama rozciągająca się przed oczami jest po prostu olbrzymia. To również miejsce, które pamięta czasy zimowych igrzysk olimpijskich w 1984 roku, kiedy to Jahorina gościła najlepszych narciarzy świata.\"",
+          "latitude": 43.693970329095684, 
+          "longitude": 18.590008854711925,
+          "address": "MHVQ+MX Hamzići, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/TnBy587hHew8BRft6"
+        },
+        {
+          "id": "restoran-brajlovic",
+          "name": "Restoran Brajlović",
+          "description": "W sercu Ilidže znajduje się Restoran Brajlović, gdzie tradycja spotyka się z nowoczesnością, a goście mogą delektować się pysznymi potrawami w przytulnej atmosferze. Ten urokliwy lokal, powstały w 1996 roku, jest prawdziwą perełką kulinarną, wartą odwiedzenia każdemu, kto chce poznać prawdziwy smak Bałkanów.",
+          "latitude": 43.82995348689687, 
+          "longitude": 18.30376840397015,
+          "address": "Samira Ćatovića Kobre 6, Ilidža, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/CopVgC74vDmmWRKh8"
+        },
+        {
+          "id": "turkuaz",
+          "name": "Turkuaz",
+          "description": "Turkuaz - miejsce, które zaskakuje swoim niepowtarzalnym charakterem. Od 2015 roku, ta kameralna oaza w Ilidży, przyciąga odwiedzających swoją wyjątkową atmosferą i pięknem, które zdobią ją od środka.",
+          "latitude": 43.82912778570161, 
+          "longitude": 18.30476720553972,
+          "address": "Samira Ćatovića Kobre 6, Ilidža, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/H2eaiQFmxSssDgV3A"
+        }
+      ]
+    },
+    {
       "videoId": "FhOXmmcqiKQ",
       "videoUrl": "https://www.youtube.com/watch?v=FhOXmmcqiKQ",
       "title": "ROBERT MAKŁOWICZ BOŚNIA odc.56 „Moja Hercegowina\".",
