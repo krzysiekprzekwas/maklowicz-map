@@ -2338,6 +2338,138 @@
       "locations": []
     },
     {
+      "videoId": "jVaQdhL98uM",
+      "videoUrl": "https://www.youtube.com/watch?v=jVaQdhL98uM",
+      "title": "ROBERT MAKŁOWICZ BOŚNIA odc.58 „Sarajevo, ljubavi moja \".",
+      "filterTitle": "Sarajevo, ljubavi moja (odc. 58)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-09-10T15:00:14Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "sarajevo-meeting-of-cultures",
+          "name": "Sarajevo Meeting Of Cultures",
+          "description": "Na ulicy Ferhadija, mozaika upamiętniająca lokalną mieszankę kulturową.",
+          "latitude": 43.85930169004682, 
+          "longitude": 18.427823843858597,
+          "address": "Ferhadija 43, Sarajevo 71000, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/MD8gZS17bVz3i2Sc9"
+        },
+        {
+          "id": "rm-tucana-kahva-dibek-no1",
+          "name": "RM Tucana Kahva Dibek No1",
+          "description": "Niepozorna, a jednak siegająca aż 150 lat wstecz kawiarenka z niepowtarzalnym klimatem. Przyciąga odwiedzających swoją gościnnością i wyborem pysznych lokalnych kaw.",
+          "latitude": 43.85889966699688, 
+          "longitude": 18.428797304298303,
+          "address": "Mudželiti veliki 10, Sarajevo 71000, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/iZAjGEVCGqtpsxNk6"
+        },
+        {
+          "id": "bascarsija",
+          "name": "Baščaršija",
+          "description": "W Baščaršiji, sercu Sarajewa, historia spotyka się z nowoczesnością w fascynujący sposób, a ta dzielnica, będąca od wieków tętniącym życiem centrum handlu i rzemiosła, do dziś emanuje niepowtarzalną energią. Od 1550 roku, Baščaršija była i nadal jest duszą miasta, gdzie każdy kamień opowiada jakąś historię.",
+          "latitude": 43.85979486038119, 
+          "longitude": 18.431283415144417,
+          "address": "Baščaršija 8, Sarajevo 71000, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/mTgTG4ngwg7JCdLJ9"
+        },
+        {
+          "id": "sebilj",
+          "name": "Sebilj",
+          "description": "Piękna, odnowiony XVII-wieczna fontanna, będący nie tylko ozdobą miasta, ale również symbolem jego bogatej historii i kultury. Ten charakterystyczny, wyintrygowany detal architektoniczny, jest obowiązkowym punktem programu dla każdego, kto chce poczuć ducha Bośni i Hercegowiny.",
+          "latitude": 43.85969674847702, 
+          "longitude": 18.431270133385908,
+          "address": "Baščaršija 8, Sarajevo 71000, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/3TEhC7MVN9Z5fTzN9"
+        },
+        {
+          "id": "cevabdzinica-zeljo",
+          "name": "Ćevabdžinica Željo",
+          "description": "Ćevabdžinica Željo, budynek z 1896 roku, który swoją nazwę zawdzięcza specyficznemu rodzajowi mięsnych przysmaków, które niegdyś można było tutaj znaleźć. To miejsce, gdzie tradycja spotyka się z wyjątkowym smakiem i atmosferą, a historia miesza z kulinarnymi rozkoszami.",
+          "latitude": 43.858663971400986, 
+          "longitude": 18.429982633718073,
+          "address": "71000, Vladislava Skarića 5, Sarajevo 71000, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/SfNjZmHMNadmPHP36"
+        },
+        {
+          "id": "butik-badem",
+          "name": "Butik Badem",
+          "description": "Wybitna lokalna cukiernia z fenomenalną lokalną, domową chałwą. Ten urokliwy butik, zlokalizowany w historycznym centrum miasta, od 2012 roku stanowi obowiązkowy punkt dla wszystkich, którzy pragną odkryć unikalne piękno i charakter Bośni i Hercegowiny.",
+          "latitude": 43.85887810868418, 
+          "longitude": 18.430747493262473,
+          "address": "Ćurčiluk veliki 8, Sarajevo 71000, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/9TkJoBmxc2nW2wBg6"
+        },
+        {
+          "id": "most-acinski",
+          "name": "Most Łaciński",
+          "description": "Ikona miasta z bogatą historią sięgającą XVI wieku. Miejsce morderstwa austyjackiego pretendenta do tronu, efektywnie wybuchu I Wojny Światowej. Ten urokliwy most, będący niegdyś jedynym połączeniem dwóch części miasta, do dziś zachował swój niepowtarzalny charakter, stanowiąc świadectwo zróżnicowanej historii i kultury regionu.",
+          "latitude": 43.85756345722878, 
+          "longitude": 18.42896820885844,
+          "address": "Zelenih beretki 2, Sarajevo 71000, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/AyWJN2FADJfgaNbt8"
+        },
+        {
+          "id": "gradsko-groblje-stadion",
+          "name": "Gradsko Groblje Stadion",
+          "description": "Miejski cmentarz mieszany religijnie, tragicznie umieszczony w miescu, które wcześniej było stadionem wioski olimpijskiej. Symbol tragedii Sarajewa z czasów wojny domowej.",
+          "latitude": 43.86990962881541, 
+          "longitude": 18.411211903008038,
+          "address": "VC96+XF8, Patriotske lige, Sarajevo 71000, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/GUftgUwKZDH12sebA"
+        },
+        {
+          "id": "vidikovac",
+          "name": "Vidikovac",
+          "description": "W Vidikovac, nie tylko kuchnia cieszy duże ale również widoki jaki rozpościera się przed oczami jak malowniczy obraz. Ten urokliwy punkt widokowy z restauracją, powstały w czasach jugosłowiańskich, do dziś przyciąga odwiedzających swoją prostotą i zapierającym dech w piersiach widokiem na Sarajevo.",
+          "latitude": 43.8666832,
+          "longitude": 18.4420735,
+          "address": "VC8R+JRW, Zmajevac, Sarajevo 71000, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/AFRfDEzwNgYiPYja7"
+        },
+        {
+          "id": "restoran-brajlovic",
+          "name": "Restoran Brajlović",
+          "description": "W sercu Ilidže znajduje się Restoran Brajlović, gdzie tradycja spotyka się z nowoczesnością, a goście mogą delektować się pysznymi potrawami w przytulnej atmosferze. Ten urokliwy lokal, powstały w 1996 roku, jest prawdziwą perełką kulinarną, wartą odwiedzenia każdemu, kto chce poznać prawdziwy smak Bałkanów.",
+          "latitude": 43.82995348689687, 
+          "longitude": 18.30376840397015,
+          "address": "Samira Ćatovića Kobre 6, Ilidža, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/CopVgC74vDmmWRKh8"
+        }
+      ]
+    },
+    {
       "videoId": "EwutpKEqv5o",
       "videoUrl": "https://www.youtube.com/watch?v=EwutpKEqv5o",
       "title": "ROBERT MAKŁOWICZ BOŚNIA odc.57 „Wśród szczytów Bośni\".",
@@ -2406,18 +2538,6 @@
           "type": "attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/TnBy587hHew8BRft6"
-        },
-        {
-          "id": "restoran-brajlovic",
-          "name": "Restoran Brajlović",
-          "description": "W sercu Ilidže znajduje się Restoran Brajlović, gdzie tradycja spotyka się z nowoczesnością, a goście mogą delektować się pysznymi potrawami w przytulnej atmosferze. Ten urokliwy lokal, powstały w 1996 roku, jest prawdziwą perełką kulinarną, wartą odwiedzenia każdemu, kto chce poznać prawdziwy smak Bałkanów.",
-          "latitude": 43.82995348689687, 
-          "longitude": 18.30376840397015,
-          "address": "Samira Ćatovića Kobre 6, Ilidža, Bosnia and Herzegovina",
-          "country": "Bośnia i Hercegowina",
-          "type": "restaurant",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/CopVgC74vDmmWRKh8"
         },
         {
           "id": "turkuaz",
