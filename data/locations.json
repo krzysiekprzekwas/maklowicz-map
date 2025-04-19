@@ -2338,6 +2338,102 @@
       "locations": []
     },
     {
+      "videoId": "KV44xc8jx50",
+      "videoUrl": "https://www.youtube.com/watch?v=KV44xc8jx50",
+      "title": "ROBERT MAKŁOWICZ BOŚNIA odc.59 „ Śladami wezyrów \".",
+      "filterTitle": "Śladami wezyrów (odc. 59)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-09-17T15:00:16Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "hotel-vezir-palace",
+          "name": "Hotel Vezir Palace",
+          "description": "W sercu Travnika, w otoczeniu malowniczych ulic starego miasta, stoi Hotel Vezir Palace, z wdziękiem łączy przepych i historię.",
+          "latitude": 44.229473356744556, 
+          "longitude": 17.670074740473574,
+          "address": "Tabić mahala 15, Travnik, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/q1E1FfAdWaug8Pzj6"
+        },
+        {
+          "id": "travnica-fortress-old-town",
+          "name": "Travnica fortress - Old Town",
+          "description": "W twierdzy Travnica, dawnej siedziby bośniackich wezyrów, historia splata się z pięknem architektury, tworząc niepowtarzalny klimat, który przenosi odwiedzających w czasy średniowiecza. Ta XIV-wieczna forteca, stanowiąca świadectwo bogatej przeszłości Bośni i Hercegowiny, zachowała swój urok i dziś jest obowiązkowym punktem w itinerarium każdego, kto chce poczuć ducha historii w tym wyjątkowym zakątku świata.",
+          "latitude": 44.230043871215635, 
+          "longitude": 17.670827133103476,
+          "address": "Varoš 62, Travnik, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/YeHpy7caJAThYGtq6"
+        },
+        {
+          "id": "sahat-kula-na-musali-m-5-travnik-bosnia-i-hercegowina",
+          "name": "Sahat kula na Musali, M-5, Travnik, Bośnia i Hercegowina",
+          "description": "Osmańska wieża zegarowa, która z humorem obserwuje mijające stulecia. Ta oto „kula” - bo tak się ją nazywa w tych stronach - jest nie tylko pięknym przykładem architektury osmańskiej, ale i świadkiem historii Bośni i Hercegowiny, która zostawiła na niej swoje niezatarte piętno.",
+          "latitude": 44.22718448265235, 
+          "longitude": 17.670329787817426,
+          "address": "Šehida 47, Travnik 72270, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/DmseyeeFAiQ5FTee9"
+        },
+        {
+          "id": "ornamented-mosque",
+          "name": "Ornamented Mosque",
+          "description": "Malowany, ozdobny meczet, Šarena džamija, którego piękno architektoniczne zachwyca odwiedzających od jej powstania w 1896 roku. Ten klejnot islamskiej architektury, z delikatnymi ornamentami i kolorowymi kafelkami, jest prawdziwą perełką, która przeniesie Cię w świat wielokulturowej historii regionu.",
+          "latitude": 44.22650667215291, 
+          "longitude": 17.669868144183468,
+          "address": "Zenjak 7A, Travnik 72270, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/MVxSbnm4kFfaaTca9"
+        },
+        {
+          "id": "cevabdzinica-hari",
+          "name": "Ćevabdžinica Hari",
+          "description": "Być w Travniku i nie spróbować lokalnych cevapi, to jak pojechać do Watykanu i nie widzieć papieża. Ćevabdžinica Hari emanuje ciepłem i gościnnością, charakterystyczną dla regionu.",
+          "latitude": 44.22669031725678, 
+          "longitude": 17.670935203906605,
+          "address": "6MG9+MCF, Travnik, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/YGUZd9xYwfk5dgsC9"
+        },
+        {
+          "id": "spomenik-for-the-wounded-at-neretva-battle",
+          "name": "Spomenik for the Wounded at Neretva battle",
+          "description": "Unikalny spomenik ku czci żołnierzy rannych podczas bitwy na Neretwie. Ten niezwykły monument, powstały w 1972 roku, jest wyrazem szacunku dla ofiar wojny i stanowi ważną część historii kraju. Zniszczony, lecz wciąż monumentalny.",
+          "latitude": 43.84276293969781, 
+          "longitude": 17.597029853866925,
+          "address": "RHVR+4V Gmići, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/qamFLNxc3v7S1Txk8"
+        },
+        {
+          "id": "restoran-zdrava-voda",
+          "name": "Restoran Zdrava voda",
+          "description": "W malowniczej Jablanicy, znajduje się ukryty skarb - Restoran Zdrava voda, który od lat przyciąga podróżników i smakoszy nieodpartym urokiem tradycyjnej kuchni bałkańskiej. Z unikalnym obrotowym rożnem napędzanym lokalnym strumieniem.",
+          "latitude": 43.65111442392516, 
+          "longitude": 17.754130025525807, 
+          "address": "JQW2+7F Jablanica, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/JbSLhVy43r6dtNjf6"
+        }
+      ]
+    },
+    {
       "videoId": "jVaQdhL98uM",
       "videoUrl": "https://www.youtube.com/watch?v=jVaQdhL98uM",
       "title": "ROBERT MAKŁOWICZ BOŚNIA odc.58 „Sarajevo, ljubavi moja \".",
