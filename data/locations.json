@@ -2338,6 +2338,102 @@
       "locations": []
     },
     {
+      "videoId": "DQMaNx3tAMU",
+      "videoUrl": "https://www.youtube.com/watch?v=DQMaNx3tAMU",
+      "title": "ROBERT MAKŁOWICZ BOŚNIA odc.60 „ Mostar i okolice\".",
+      "filterTitle": "Mostar i okolice. (odc. 60)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-09-24T15:00:12Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "stary-most",
+          "name": "Stary Most",
+          "description": "Ikona Mostaru, od wieków łączy nie tylko brzegi rzeki Neretwy, ale również historię i kulturowe dziedzictwo Bośni i Hercegowiny. Ten XVI-wieczny, odrestaurowany po wojnie most, jest żywym świadectwem trwałej piękności i inżynierskiego kunsztu, który przetrwał nawet najbardziej burzliwe czasy.\"",
+          "latitude": 43.33727920173819, 
+          "longitude": 17.81505499665045,
+          "address": "8RP8+W2G, Mostar 88000, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/yoBvQCDqZUmxSwwd6"
+        },
+        {
+          "id": "karma",
+          "name": "KARMA",
+          "description": "Kawarnia u stóp lokalnego urokliwego sybmbolu Mostaru. Wypij lemoniadę i zjedz osmańskie słodkości z Neretwą u stóp.",
+          "latitude": 43.33710631033355, 
+          "longitude": 17.814828785057557,
+          "address": "8RP7+RWW, Jusovina, Mostar 88000, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZApjpuZiKeq4aW4w8"
+        },
+        {
+          "id": "tekke-derwiszow-w-blagaj",
+          "name": "Tekke derwiszów w Blagaj",
+          "description": "W malowniczym Blagaju, w Bośni i Hercegowinie, znajduje się Tekke derwiszów, fascynujące miejsce z XVI-wieczną historią, gdzie sufizm i piękno architektury łączą się w harmonijną całość. To tutaj, w otoczeniu zieleni i dźwięku wody, derwisze przez wieki praktykowali swoje rytuały, a miejsce stało się symbolem duchowej głębi i tolerancji.",
+          "latitude": 43.257082787204006, 
+          "longitude": 17.903169613645694,
+          "address": "7W24+5M Blagaj, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/FufGqSDUdVooMpq16"
+        },
+        {
+          "id": "zrod-o-buny",
+          "name": "Źródło Buny",
+          "description": "Źródło Buny to miejsce, gdzie natura Bosni i Hercegowiny pokazuje swoją prawdziwą twarz - spokojna rzeka Buna wypływa tutaj prosto z jaskini, tworząc niezwykły spektakl wodny, który od wieków zachwyca podróżników. W tym urokliwym zakątku, historia i piękno krajobrazu splatają się w niezapomniany sposób.",
+          "latitude": 43.25684287802836, 
+          "longitude": 17.903365912459773,
+          "address": "7W43+P8Q, Blagaj, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ztx9PcRUm6r6hKv5A"
+        },
+        {
+          "id": "fajic",
+          "name": "Fajić",
+          "description": "Miejsce kryjące w sobie tajemnicę wiekowych historii i smaków, które rozbudzają apetyt na odkrycia. Odwiedzający mogą tutaj doświadczyć niepowtarzalnego klimatu i gościnności, charakterystycznej dla tego zakątka świata.",
+          "latitude": 43.256452165906104, 
+          "longitude": 17.900548945848193,
+          "address": "7W42+M4J, Blagaj, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/c25eXX2F9hMMdUBm8"
+        },
+        {
+          "id": "hutovo-blato",
+          "name": "Hutovo Blato",
+          "description": "Unikalne, naturalne zjawisko, gdzie roztopione wody tworzą bajeczny świat łąk i kanałów, wpisany do rejestru chronionych obszarów przyrody. Od 1952 roku, kiedy powstał tu rezerwat, naukowcy i przyrodnicy mogą podziwiać nietknięte piękno tego miejsca.",
+          "latitude": 43.06135750549302, 
+          "longitude": 17.784923728100345,
+          "address": "3Q6J+HX Opličići, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/gUVx9myvBaWW6c9z6"
+        },
+        {
+          "id": "neum-bosnia-i-hercegowina",
+          "name": "Neum, Bośnia i Hercegowina",
+          "description": "Neum, morska perła Bośni i Hercegowiny, to urokliwe miasteczko nad Adriatykiem, które od wieków łączy w sobie wpływy wschodnie i zachodnie. Jego stare miasto, otoczone murami obronnymi z czasów osmańskich, skrywa wiele tajemnic i historii, które czekają na odkrycie.",
+          "latitude": 42.92488319353119, 
+          "longitude": 17.614764698042336,
+          "address": "WHFV+HH Neum, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/p7Y8Gd6xSWdwG4r48"
+        }
+      ]
+    },
+    {
       "videoId": "KV44xc8jx50",
       "videoUrl": "https://www.youtube.com/watch?v=KV44xc8jx50",
       "title": "ROBERT MAKŁOWICZ BOŚNIA odc.59 „ Śladami wezyrów \".",
