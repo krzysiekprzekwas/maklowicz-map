@@ -2338,6 +2338,102 @@
       "locations": []
     },
     {
+      "videoId": "8l8m1IeKDuA",
+      "videoUrl": "https://www.youtube.com/watch?v=8l8m1IeKDuA",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc. 61 „Śląskie fundamenty\".",
+      "filterTitle": "Śląskie fundamenty. (odc. 61)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-10-15T15:00:10Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "sztolnia-krolowa-luiza",
+          "name": "Sztolnia Królowa Luiza",
+          "description": "Wchodząc do Sztolni Królowa Luiza, podróżnicy przenoszą się w świat podziemnych korytarzy i komór, odkrywając fascynującą historię górnictwa węgla kamiennego w regionie. Ta zabrzańska atrakcja turystyczna stanowi świadectwo ciężkiej pracy górników i techniki górniczej sprzed lat.",
+          "latitude": 50.29646889797463, 
+          "longitude": 18.799016845580102,
+          "address": "Henryka Sienkiewicza 28, 41-800 Zabrze, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/uKKw1c94hpNKRV6v8"
+        },
+        {
+          "id": "szyb-maciej-restauracja-bistro-turystyka",
+          "name": "Szyb Maciej - Restauracja, Bistro, Turystyka",
+          "description": "W dawnym szybie kopalni węgla, teraz króluje zupełnie inna kopania - smaków i doznań kulinarnych! To miejsce, gdzie historia przemysłowa Zabrza spotyka się z nowoczesną kuchnią, serwując gościom niezapomniane doświadczenia gastronomiczne.",
+          "latitude": 50.31514690602173, 
+          "longitude": 18.7413775482941,
+          "address": "Księdza Józefa Madei 2, 41-819 Zabrze, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/aTVMJCV8icEfTDTc9"
+        },
+        {
+          "id": "narodowa-orkiestra-symfoniczna-polskiego-radia-w-katowicach",
+          "name": "Narodowa Orkiestra Symfoniczna Polskiego Radia w Katowicach",
+          "description": "Narodowa Orkiestra Symfoniczna Polskiego Radia w Katowicach to miejsce, gdzie muzyka klasyczna spotyka się z nowoczesnością, a dźwięki symfonii wypełniają niezwykłą przestrzeń. To tutaj, w sercu Śląska, kultura i sztuka łączą się w niezapomnianych koncertach.",
+          "latitude": 50.26408625450756, 
+          "longitude": 19.02806246890931,
+          "address": "al. Walentego Roździeńskiego 1b, 40-202 Katowice, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/TCWFV3RGfGkpVCJv7"
+        },
+        {
+          "id": "giszowiec-40-466-katowice",
+          "name": "Giszowiec, 40-466 Katowice",
+          "description": "W Giszowcu, urokliwej dzielnicy Katowic, znajduje się niezwykle ciekawa osada robotnicza z charakterystycznymi czerwonymi dachami i ceglanymi fasadami. To miejsce, pełne uroku i historii, jest żywym świadectwem przemysłowej przeszłości regionu.",
+          "latitude": 50.22203421668243, 
+          "longitude": 19.06841182222972,
+          "address": "Gościnna 3, 40-477 Katowice, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/hVHRUJEijJ9b9MtaA"
+        },
+        {
+          "id": "slaska-prohibicja",
+          "name": "Śląska Prohibicja",
+          "description": "W katowickiej dzielnicy Szopienice funkcjonuje miejsce o enigmatycznej nazwie \"Śląska Prohibicja\", które już od pierwszych odwiedzin wprawia gości w stan wyjątkowego podniecenia kulinarnego. To nie tylko lokal gastronomiczny, ale także fenomenalna przestrzeń, w której historia Śląska splata się z pasją kulinarną, tworząc niepowtarzalny klimat.",
+          "latitude": 50.243628137475014, 
+          "longitude": 19.07995179366179,
+          "address": "Szopienicka 51A, 40-432 Katowice, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/pwzJsaU4h1j8myw77"
+        },
+        {
+          "id": "nikiszowiec-katowice",
+          "name": "Nikiszowiec, Katowice",
+          "description": "W Nikiszowcu, jednym z najbardziej oryginalnych osiedli w Polsce, architektura spotyka się z historią. To wyjątkowe miejsce, zbudowane w 1930 roku, fascynuje swoimi czerwonymi ceglanymi budynkami i atmosferą prawdziwej robotniczej dzielnicy.",
+          "latitude": 50.24186841958814, 
+          "longitude": 19.08105132753585,
+          "address": "Czechowa 5, 40-422 Katowice, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/36QaKZzQ8619ntzm7"
+        },
+        {
+          "id": "szapoba-bistro",
+          "name": "SzapoBa Bistro",
+          "description": "W SzapoBa Bistro, ukrytym w sercu Katowic, czeka prawdziwa kulinarna niespodzianka - wyśmienite potrawy, które przenoszą na chwilę do innej rzeczywistości, a wszystko to w otoczeniu niepowtarzalnej atmosfery. Od 2022 roku miejsce to stało się lokalnym fenomenem, przyciągając miłośników dobrego jedzenia i oryginalnych doświadczeń gastronomicznych.",
+          "latitude": 50.26286799278659, 
+          "longitude": 19.006631553016458,
+          "address": "Pośpiecha 2B, 40-850 Katowice, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/5hUqjSpwWyvCN5kt5"
+        }
+      ]
+    },
+    {
       "videoId": "DQMaNx3tAMU",
       "videoUrl": "https://www.youtube.com/watch?v=DQMaNx3tAMU",
       "title": "ROBERT MAKŁOWICZ BOŚNIA odc.60 „ Mostar i okolice\".",
