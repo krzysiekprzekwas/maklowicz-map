@@ -2338,6 +2338,78 @@
       "locations": []
     },
     {
+      "videoId": "qVXDjjz5LC0",
+      "videoUrl": "https://www.youtube.com/watch?v=qVXDjjz5LC0",
+      "title": "ROBERT MAKŁOWICZ WĘGRY, AUSTRIA odc.63  „Od papryki do wanilii\".",
+      "filterTitle": "Od papryki do wanilii (odc. 63)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-10-29T15:00:11Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "segedyn-wegry",
+          "name": "Segedyn, Węgry",
+          "description": "W Segedynie, urokliwym mieście na południu Węgier, historia splata się z piękną architekturą i niezrównaną gościnnością, a również i z kulturowym dziedzictwem w postaci suszonej węgierskiej papryki. Odwiedzający mogą podziwiać przepiękne budynki z czasów Austro-Węgier, w tym słynną synagogę, która od 1902 roku jest jednym z symboli miasta.",
+          "latitude": 46.25278570033293, 
+          "longitude": 20.14563321991048,
+          "address": "6XMG+57 Domaszék, Hungary",
+          "country": "Węgry",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ecFeqTFYSoXzN2sQA"
+        },
+        {
+          "id": "old-korossy-fish-restaurant",
+          "name": "Old Kőrössy Fish Restaurant",
+          "description": "Wędkarze i miłośnicy tradycyjnej kuchni węgierskiej znajdą swój raj w \"Starym Kőrössy\" - urokliwym, historycznym lokalu, serwującym wyśmienite potrawy rybne w otoczeniu pięknej przyrody. Od ponad wieku, od 1910 roku, restauracja stanowi niezastąpione miejsce spotkań dla tych, którzy szukają autentycznego smaku i atmosfery.",
+          "latitude": 46.25580228920573, 
+          "longitude": 20.182409416105198,
+          "address": "Szeged, Sárga üdülőtelep 262, 6723 Hungary",
+          "country": "Węgry",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/gLWzXawPQgx7WUf47"
+        },
+        {
+          "id": "cafe-mozart",
+          "name": "Café Mozart",
+          "description": "W sercu Wiednia, Café Mozart to miejsce, gdzie historia spotyka się z przyjemnością. To tutaj, wśród bogatego wystroju i zapachu świeżo parzonej kawy, można się poczuć jak w czasach złotej ery kultury austriackiej.",
+          "latitude": 48.2042688409654, 
+          "longitude": 16.369476656527972,
+          "address": "Goethegasse 1, 1010 Wien, Austria",
+          "country": "Austria",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/KkghPPTfQW622HLZ9"
+        },
+        {
+          "id": "kotanyi-gmbh",
+          "name": "Kotányi GmbH",
+          "description": "W sercu austriackiego Weinviertelu, w miejscowości Wolkersdorf, znajduje się tajemnicze miejsce, które od 1886 roku roztacza wokół siebie aurę wyjątkowości - Kotányi GmbH. To tu, od ponad 135 lat, rodzina Kotányi dzieli się z całym światem swoją pasją do przypraw i ziół, tworząc mieszanki, które są prawdziwą ucztą dla podniebienia.",
+          "latitude": 48.37430155216712, 
+          "longitude": 16.511637902567667,
+          "address": "Johann-Galler-Straße 14-16, 2120 Wolkersdorf im Weinviertel, Austria",
+          "country": "Austria",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ojy3SxK6KGN8ZbdD7"
+        },
+        {
+          "id": "fuhrgassl-huber-weingut-und-buschenschank",
+          "name": "Fuhrgassl-Huber, Weingut und Buschenschank",
+          "description": "W winnicach i buszach starej Austrii znajduje się Fuhrgassl-Huber, Weingut und Buschenschank, miejsce, gdzie badasz sekrety wina i delektujesz się smakiem historii. Od ponad 130 lat, od 1886 roku, ta winnica i gospoda zachwyca gości niezrównanym połączeniem wina, jedzenia i przytulnej atmosfery.",
+          "latitude": 48.251098231760245, 
+          "longitude": 16.301316076802014,
+          "address": "Neustift am Walde 77, 1190 Wien, Austria",
+          "country": "Austria",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/z11ZHSpruFAGhLdt5"
+        }
+      ]
+    },
+    {
       "videoId": "vpbV02o5BQ4",
       "videoUrl": "https://www.youtube.com/watch?v=vpbV02o5BQ4",
       "title": "ROBERT MAKŁOWICZ POLSKA odc. 62  „W Jurze\".",
