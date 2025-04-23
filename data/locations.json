@@ -2338,6 +2338,78 @@
       "locations": []
     },
     {
+      "videoId": "sf3CzYHQGHc",
+      "videoUrl": "https://www.youtube.com/watch?v=sf3CzYHQGHc",
+      "title": "ROBERT MAKŁOWICZ  AUSTRIA odc.64  „Eko po wiedeńsku\".",
+      "filterTitle": "Eko po wiedeńsku. (odc. 64)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-11-05T16:00:11Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "volksoper-w-wiedniu",
+          "name": "Volksoper w Wiedniu",
+          "description": "W „Volksoper w Wiedniu” historia spotyka się z rozrywką - ta kultowa opera, otwarta w 1898 roku, od ponad wieku serwuje mieszkańcom i turystom porcje muzyki, operetki i kabaretu, zrównoważonej z odrobiną szaleństwa. To miejsce, gdzie kultura spotyka się z zabawą, a każdy może znaleźć coś dla siebie.",
+          "latitude": 48.224440799386194, 
+          "longitude": 16.35010659844022,
+          "address": "Semperstraße 7, 1180 Wien, Austria",
+          "country": "Austria",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/5dCrav74rrkihwxm7"
+        },
+        {
+          "id": "else-feldmann-park",
+          "name": "Else-Feldmann-Park",
+          "description": "W sercu Wiednia, drobny przykład procesu odbetonowywania miasta. Zielona oaza stworzona w 2016 roku, oferująca wytchnienie od zgiełku miasta. Ten urokliwy park, nazwany na cześć działaczki społecznej i feministki, jest nie tylko miejscem spacerów, ale i symbolem walki o równość i wolność.",
+          "latitude": 48.225148035041734, 
+          "longitude": 16.385942655367625,
+          "address": "Am Tabor 5, 1020 Wien, Austria",
+          "country": "Austria",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/GBQAiKkAjRucyL1r9"
+        },
+        {
+          "id": "zum-martin-sepp",
+          "name": "Zum Martin Sepp",
+          "description": "W niewielkiej, uroczej knajpce \"Zum Martin Sepp\" w sercu Wiednia, tradycja spotyka się z nowoczesnością, serwując odwiedzającym wyśmienite wino i atmosferę, która przenosi gości w czasy, gdy życie było prostsze. Ten wiedeński przybytek, to miejsce, gdzie historia miesza się z przyjemnością, oferując niezapomniane doświadczenie dla miłośników piwa i historii.",
+          "latitude": 48.25741975117366, 
+          "longitude": 16.33886319784292,
+          "address": "Himmelstraße 26, 1190 Wien, Austria",
+          "country": "Austria",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/sT87FWQX8uZFAXkF7"
+        },
+        {
+          "id": "blun",
+          "name": "Blün",
+          "description": "W niewielkiej, urokliwej dzielnicy Wiedeńskiej, tuż obok gwarnych ulic, znajduje się tajemnicze \"Blün\". Gospodarstwo rolne i hodowla ryb.",
+          "latitude": 48.228173995078585, 
+          "longitude": 16.536671828022044,
+          "address": "Kaschauerpl. 29, 1220 Wien, Austria",
+          "country": "Austria",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/BNNrMwfmiZaWVUrUA"
+        },
+        {
+          "id": "cafe-landtmann",
+          "name": "Café Landtmann",
+          "description": "W kawiarni Landtmann od ponad 150 lat sięgają po filiżankę aromatycznej kawy i delektują się atmosferą starej Austrii. To miejsce, gdzie tradycja miesza się z nowoczesnością, a historia jest równie ważna jak obecna rozmowa.",
+          "latitude": 48.2115396922757, 
+          "longitude": 16.361548885756257,
+          "address": "Christkindlmarkt 1523/1, 1010 Wien, Austria",
+          "country": "Austria",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/rqCYedP2sFFzHLho6"
+        }
+      ]
+    },
+    {
       "videoId": "qVXDjjz5LC0",
       "videoUrl": "https://www.youtube.com/watch?v=qVXDjjz5LC0",
       "title": "ROBERT MAKŁOWICZ WĘGRY, AUSTRIA odc.63  „Od papryki do wanilii\".",
