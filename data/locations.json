@@ -2331,11 +2331,85 @@
       "videoId": "PHp7bgINRcI",
       "videoUrl": "https://www.youtube.com/watch?v=PHp7bgINRcI",
       "title": "ROBERT MAKŁOWICZ  AUSTRIA odc.65  „Przez Styrię\".",
+      "filterTitle": "Przez Styrię (odc. 65)",
       "playlistId": "PLpTn8onHfnD00otUKfMzpSTxh6SnNrgAq",
       "playlistTitle": "AUSTRIA",
       "date": "2021-11-12T09:37:59Z",
       "show": "Robert Makłowicz w podróży",
-      "locations": []
+      "locations": [
+        {
+          "id": "eiscafe-la-piazza",
+          "name": "EisCafe La Piazza",
+          "description": "W sercu Wiener Neustadt, austriackiego miasteczka z historią sięgającą XIII wieku, znajduje się EisCafe La Piazza, gdzie czas się zatrzymuje przy filiżance lodów. Od 1900 roku ta urocza kawiarnia czaruje odwiedzających swoją atmosferą i smakami, które przenoszą w świat bez zmartwień.",
+          "latitude": 47.81308492856927, 
+          "longitude": 16.243234458119993,
+          "address": "Brodtischgasse 4, 2700 Wiener Neustadt, Austria",
+          "country": "Austria",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/gFmuuGRiUaXY3WuUA"
+        },
+        {
+          "id": "gasthof-restaurant-zum-brauhaus",
+          "name": "Gasthof Restaurant Zum Brauhaus",
+          "description": "W Gasthof Restaurant Zum Brauhaus, peregrynatorzy kulinarni znajdą nie tylko pyszne jedzenie, ale także atmosferę starej austriackiej tradycji, gdzie czas płynie wolniej i każdy kęs jest celebracją. Ten urokliwy lokal, powstały w nieokreślonym dokładnie czasie, choć jego adres wskazuje na rok  przed  1826,  jest prawdziwą perłą Hartberga, serwującą odwiedzającym wyśmienite specjały kuchni lokalnej.",
+          "latitude": 47.28143017625285, 
+          "longitude": 15.969417949957501,
+          "address": "Stadt Land Garten, Herrengasse, 8230 Hartberg, Austria",
+          "country": "Austria",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/C9wh7KxRAu26EPua8"
+        },
+        {
+          "id": "landhof-lazarus",
+          "name": "Landhof Lazarus",
+          "description": "W Landhof Lazarus, położonym w austriackim Gersdorfie, czas sięgają XIX wieku, a historia tego miejsca zaczyna się już w 1888 roku, kiedy to zostało założone jako schronienie dla pielgrzymów i wędrowców. Dziś ten urokliwy budynek stanowi oazę spokoju i gościnności, zachowując swój pierwotny charakter i zapraszając do relaksu w pięknych okolicznościach przyrody.",
+          "latitude": 46.97412818254814, 
+          "longitude": 15.264492537546548,
+          "address": "X7F6+MQ Gersdorf, Austria",
+          "country": "Austria",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/hThma95ZdbBhm2ks5"
+        },
+        {
+          "id": "destillerie-hochstrasser-gmbh-co-kg",
+          "name": "Destillerie Hochstrasser GmbH & Co KG",
+          "description": "W sercu Styrii znajduje się Destillerie Hochstrasser GmbH & Co KG, rodzinne przedsiębiorstwo od ponad 70 lat (założone w 1948 roku) produkujące wyśmienite alkohole, takie jak wódka, gin i whiskey, z pasją i precyzją godną mistrzów destylacji. To miejsce, gdzie tradycja spotyka się z nowoczesnością, a każdy łyk to prawdziwa uczta dla podniebienia.",
+          "latitude": 46.98400907796227, 
+          "longitude": 15.28256869237769,
+          "address": "L340 2, 8562, Austria",
+          "country": "Austria",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/nM6KoNzK8Y4aUfKTA"
+        },
+        {
+          "id": "an-arnold-schwarzenegger-exhibition",
+          "name": "An Arnold Schwarzenegger Exhibition",
+          "description": "Wystawa poświęcona Arnoldowi Schwarzeneggerowi to obowiązkowy przystanek dla każdego fana tego kultowego aktora i byłego gubernatora Kalifornii. Od 2011 roku, w rodzinnej miejscowości Thal, odwiedzający mogą odkryć fascynującą podróż życiową i karierę Terminatora.",
+          "latitude": 47.07196834167795, 
+          "longitude": 15.362738430750925,
+          "address": "Rosenweg 2, 8051 Thal, Austria",
+          "country": "Austria",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/L6jhRTzbiXwd89QZ6"
+        },
+        {
+          "id": "trapl-schilcher",
+          "name": "Trapl Schilcher",
+          "description": "W miejscowości Lemsitz, czeka na odwiedzających Trapl Schilcher, urokliwy zakątek z niepowtarzalnym klimatem. To miejsce, stworzone w 2007 roku, to raj dla miłośników Schilcher, charakterystycznego białego wina z regionu Styrii, gdzie tradycja spotyka się z nowoczesnością w zaskakująco przyjazny sposób.",
+          "latitude": 46.932942375195836, 
+          "longitude": 15.232237968139287,
+          "address": "Lestein 113, 8511 Lemsitz, Austria",
+          "country": "Austria",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/on84xgafPwiu8Xmy8"
+        }
+      ]
     },
     {
       "videoId": "sf3CzYHQGHc",
