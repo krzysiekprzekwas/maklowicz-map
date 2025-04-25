@@ -2328,6 +2328,90 @@
       "locations": []
     },
     {
+      "videoId": "EpiR4hAFIEg",
+      "videoUrl": "https://www.youtube.com/watch?v=EpiR4hAFIEg",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc. 66 „W Krainie Górnej Odry\".",
+      "filterTitle": "Krainie Górnej Odry. (odc. 66)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-11-19T16:00:11Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "zamek-piastowski-w-raciborzu-punkt-informacji-turystycznej",
+          "name": "Zamek Piastowski w Raciborzu - Punkt Informacji Turystycznej",
+          "description": "Wchodząc do Zamek Piastowskiego w Raciborzu, turystka czy turysta znajdzie się w miejscu, które od wieków czekało na opowiedzenie swojej historii - w końcu ten średniowieczny zamek, wzniesiony w XII wieku, był świadkiem wielu ważnych wydarzeń w historii Śląska. Dziś, jako Punkt Informacji Turystycznej, stanowi idealne miejsce, by rozpocząć przygodę z tym fascynującym regionem.",
+          "latitude": 50.095939603907205, 
+          "longitude": 18.220942894870504,
+          "address": "34RQ+7Q Raciborz, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/NnX4gXaAnGaCz8Zh8"
+        },
+        {
+          "id": "browar-zamkowy-raciborz",
+          "name": "Browar Zamkowy Racibórz",
+          "description": "W sercu Raciborza, tuż przy ulicy Zamkowej, znajduje się Browar Zamkowy, którego historia sięga roku 1567, kiedy to powstał jako jeden z najstarszych browarów w regionie. To miejsce, gdzie tradycja warzenia piwa spotyka się z nowoczesnością, serwując gościom wyśmienite piwo i atmosferę sięgającą XIX wieku.",
+          "latitude": 50.09655191296358, 
+          "longitude": 18.220193516962134,
+          "address": "Zamkowa 2B, 47-400 Racibórz, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/8o2KkMbRJojdmFvJ8"
+        },
+        {
+          "id": "zabytkowa-stacja-kolei-waskotorowej-w-rudach",
+          "name": "Zabytkowa Stacja Kolei Wąskotorowej w Rudach",
+          "description": "W Rudach, malejącej miejscowości na Śląsku, znajduje się niezwykle urokliwa Zabytkowa Stacja Kolei Wąskotorowej, która od 1898 roku przyciąga miłośników kolei i nostalgii. To miejsce, gdzie historia spotyka się z kiczem, a turyści mogą przenieść się w czasie do epoki parowozów i odkryć uroki zapomnianej linii kolejowej.",
+          "latitude": 50.18987750370754, 
+          "longitude": 18.46405330073226,
+          "address": "Szkolna 6, 47-430 Rudy, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Qh1btsUseDYveRGN6"
+        },
+        {
+          "id": "pocysterski-zespo-klasztorno-pa-acowy-w-rudach",
+          "name": "Pocysterski Zespół Klasztorno-Pałacowy w Rudach",
+          "description": "W Pocysterskim Zespole Klasztorno-Pałacowym w Rudach, perełka architektoniczna z XIII wieku, można odkryć urok dawnych czasów, gdy cystersi czuwali nad spokojem i pięknem okolicznych terenów. Ten zespół klasztorny to prawdziwy skarb Śląska, stanowiący świadectwo bogatej historii i kultury regionu.",
+          "latitude": 50.194501548026665, 
+          "longitude": 18.448464818296184,
+          "address": "Kozielska 4, 47-430 Rudy, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/YfNs7qQfSJL3zKFQ9"
+        },
+        {
+          "id": "zabytkowa-kopalnia-ignacy-w-rybniku",
+          "name": "Zabytkowa Kopalnia Ignacy w Rybniku",
+          "description": "Wchodząc do Zabytkowej Kopalni Ignacy, przenosimy się w świat przemysłowej historii Polski, gdzie zapach węgla i stukot maszyn opowiada o ciężkiej pracy górników. Od 1976 roku, kopalnia ta, zbudowana w 1930 roku, stanowi żywy dowód polskiego dziedzictwa przemysłowego, a dziś gości odwiedzających jako unikalne muzeum.",
+          "latitude": 50.0628829981601, 
+          "longitude": 18.46758380832022,
+          "address": "Księdza Piotra Skargi 14, 44-273 Rybnik, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/pbgY4KQjhUqyNgpw7"
+        },
+        {
+          "id": "spizarnia-jak-za-starej-polski",
+          "name": "Spiżarnia jak za starej Polski",
+          "description": "W Spiżarni jak za starej Polski czas się zatrzymał - znajdziemy tu przepyszne potrawy przygotowane według tradycyjnych receptur, które przeniosą nas w czasy naszych babć i prababć. To miejsce, gdzie kuchnia jest prawdziwą królową, a datą powstania tego przybytku jest rok 2015.",
+          "latitude": 49.97499325439252, 
+          "longitude": 18.39884401355426,
+          "address": "Piaskowa 125, 44-350 Gorzyce, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/X4z45M9QFKRrU6Jf6"
+        }
+      ]
+    },
+    {
       "videoId": "PHp7bgINRcI",
       "videoUrl": "https://www.youtube.com/watch?v=PHp7bgINRcI",
       "title": "ROBERT MAKŁOWICZ  AUSTRIA odc.65  „Przez Styrię\".",
