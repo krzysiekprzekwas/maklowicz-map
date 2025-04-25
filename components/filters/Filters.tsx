@@ -1,3 +1,4 @@
+import { Earth } from 'lucide-react';
 import { CountryData, Location } from '../../types/Location';
 import LocationIcon from '../location/LocationIcon';
 import { AnimatedList } from './AnimatedList';
@@ -74,8 +75,9 @@ export function Filters({
                 )}
 
               <div className="border border-secondary-border rounded-lg overflow-hidden">
-                <div className="w-full flex items-center justify-between p-3 bg-secondary">
-                  <span className="font-bold text-primary">🌍 Wszystkie lokacje ({totalLocations})</span>
+                <div className="w-full flex items-center gap-1 p-3 bg-secondary">
+                  <Earth className="h-4 w-4 text-primary"/>
+                  <span className="font-bold text-primary">Wszystkie lokacje ({totalLocations})</span>
                 </div>
                 
                 <div className="p-2 space-y-1">

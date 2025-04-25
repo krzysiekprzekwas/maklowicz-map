@@ -4,6 +4,7 @@ import * as dotenv from 'dotenv';
 import axios from 'axios';
 import { Location } from '../../../types/Location';
 
+import {GoogleGenAI} from '@google/genai';
 // Load environment variables from root .env file
 dotenv.config({ path: path.join(__dirname, '../../../.env') });
 
@@ -190,43 +191,27 @@ async function extractPlaceId(url: string): Promise<string> {
 
 async function generateDescription(location: Location): Promise<string> {
   try {
-    if (!process.env.GROQ_API_KEY) {
-      console.error('GROQ_API_KEY is not set in .env file');
+    if (!process.env.GEMINI_API_KEY) {
+      console.error('GEMINI_API_KEY is not set in .env file');
       return '';
     }
 
-    const prompt = `Generate a short, engaging description in Polish for a place named "${location.name}" of address ${location.address} in ${location.country}. The description should be no longer than 1-2 sentences, in the style of Robert Makłowicz, capturing his unique, conversational tone, but don't impersonate him. Don't repeat address. Keep 3rd person perspective. Focus on what makes this place special, with a touch of humor and charm. If given place had significant historical or cultural importance, mention it. For building address the date of creation.`;
+    const ai = new GoogleGenAI({apiKey: process.env.GEMINI_API_KEY});
 
-    const response = await axios.post(
-      'https://api.groq.com/openai/v1/chat/completions',
-      {
-        model: 'meta-llama/llama-4-scout-17b-16e-instruct',
-        messages: [
-          {
-            role: 'system',
-            content: 'You are a helpful assistant that generates engaging descriptions in Polish for places visited by Robert Makłowicz.'
-          },
-          {
-            role: 'user',
-            content: prompt
-          }
-        ],
-        temperature: 0.7
+    const prompt = `Stwórz krótką, angażującą opisówkę po polsku (2-3 zdania) o miejscu "${location.name}", znajdującym się w ${location.country}. Styl zbliżony do Roberta Makłowicza – gawędziarski, z humorem i nutą kulinarnego uroku, ale bez jego bezpośredniego naśladowania. Nie powtarzaj adresu. Zachowaj narrację w 3. osobie. Podkreśl wyjątkowość tego miejsca. Wspomnij o znaczeniu historycznym lub kulturalnym, jeśli takie istnieje. Jeśli znana jest data powstania budynku – uwzględnij ją.`;
+
+    const response = await ai.models.generateContent({
+      model: 'gemini-2.5-flash-preview-04-17',
+      contents: prompt,
+      config: {
+        temperature: 0.5,
+        systemInstruction: "You are a helpful assistant that generates engaging descriptions in Polish for places visited by Robert Makłowicz.",
       },
-      {
-        headers: {
-          'Authorization': `Bearer ${process.env.GROQ_API_KEY}`,
-          'Content-Type': 'application/json'
-        }
-      }
-    );
+    });
 
-    if (!response.data.choices || !response.data.choices[0]?.message?.content) {
-      console.error('Invalid response format from GROQ API:', response.data);
-      return '';
-    }
+    console.log(response)
 
-    return response.data.choices[0].message.content.trim();
+    return response.text.trim();
   } catch (error: any) {
     console.error('Error generating description:', {
       message: error.message,

@@ -1,11 +1,25 @@
 import { Location } from '../../types/Location';
 import LocationIcon from './LocationIcon';
 import locationData from '../../data/locations.json';
+import { MapPin, Heart, Share2, TvMinimalPlay, Info, Flag } from "lucide-react"
 
 interface LocationDetailsProps {
   location: Location | null;
   onClose: () => void;
 }
+
+function translateLocationType(type: string): string {
+  switch (type.toLowerCase()) {
+    case "restaurant":
+      return "Restauracja";
+    case "attraction":
+      return "Atrakcja";
+    case "other":
+    default:
+      return "Inne";
+  }
+}
+
 
 export function LocationDetails({ location, onClose }: LocationDetailsProps) {
 
@@ -35,71 +49,105 @@ export function LocationDetails({ location, onClose }: LocationDetailsProps) {
         {location && (
           <>
             <div className="flex items-center gap-2 mb-4">
-              <span className="text-xl"><LocationIcon location={location} /></span>
               <h2 className={`text-xl md:text-2xl font-bold pr-8 ${location.isFilteredOut ? 'text-gray-400' : ''}`}>{location.name}</h2>
             </div>
-            <p className="text-gray-600 mb-4">{location.description}</p>
+
+            <div className="flex items-center gap-2 mb-4">
+              <div className="flex items-center gap-1 bg-primary text-white text-sm font-semibold border rounded-full px-2">
+                <LocationIcon location={location} />
+                {translateLocationType(location.type)}
+              </div>
+              <div className="flex items-center gap-1 bg-secondary text-sm font-semibold border border-secondary-border rounded-full px-2">
+                <Flag className="h-4 w-4"/>
+                {location.country}
+              </div>
+            </div>
 
             <div className="space-y-4">
-              <div>
-                <h3 className="font-semibold mb-1">Adres</h3>
-                <p>{location.address}</p>
-              </div>
+              <div className="space-y-6">
+                <div className="bg-secondary border border-secondary-border rounded-lg p-4">
+                  <h3 className="font-bold text-primary mb-2">Opis</h3>
+                  <p className="text-gray-600">{location.description}</p>
+                </div>
 
-              <div>
-                <h3 className="font-semibold mb-1">Kraj</h3>
-                <p>{location.country}</p>
-              </div>
-
-              <div>
-                <h3 className="font-semibold mb-1">Typ miejsca</h3>
-                <p className="capitalize">{location.type}</p>
-              </div>
-
-              {video && (
-                <div>
-                  <h3 className="font-semibold mb-1">Film</h3>
-                  <div className="space-y-2">
-                    <p className="text-sm text-gray-600">{video.title}</p>
-                    <a 
-                      href={videoUrl}
+                <div className="grid grid-cols-2 gap-3">
+                  <div className="bg-secondary border border-secondary-border rounded-lg p-4">
+                    <div className="flex items-center mb-2">
+                      <MapPin className="h-4 w-4 text-primary mr-2" />
+                      <h3 className="font-bold text-primary text-sm">Adres</h3>
+                    </div>
+                    <p className="text-sm mb-3">
+                      {location.address}
+                    </p>
+                    <a
+                      href={location.GoogleMapsLink}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center space-x-2 text-primary hover:text-primary-darker transition-colors"
+                      className="block w-full text-center bg-white border border-secondary-border text-xs text-primary rounded-lg py-1"
                     >
-                      <span>▶️ Zobacz na YouTube</span>
+                      Google Maps
+                    </a>
+                  </div>
+
+                  <div className="bg-secondary border border-secondary-border rounded-lg p-4">
+                    <div className="flex items-center mb-2">
+                      <TvMinimalPlay className="h-4 w-4 text-primary mr-2" />
+                      <h3 className="font-bold text-primary text-sm">Odcinek</h3>
+                    </div>
+                    <p className="text-sm mb-3">{video.filterTitle}</p>
+                    <a
+                      href={video.videoUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block w-full text-center bg-red-600 hover:bg-red-700 border text-xs transition-all text-white rounded-lg py-1"
+                    >
+                      YouTube
                     </a>
                   </div>
                 </div>
-              )}
-
-              {location.GoogleMapsLink && (
-                <div>
-                  <h3 className="font-semibold mb-1">Google Maps</h3>
-                  <a href={location.GoogleMapsLink} target="_blank" rel="noopener noreferrer">
-                    <span>🗺️ Otwórz w Google Maps</span>
-                  </a>
+                
+                <div className="bg-secondary border border-secondary-border rounded-lg p-4">
+                  <div className="flex items-center mb-2">
+                    <Info className="h-4 w-4 text-primary mr-2" />
+                    <h3 className="font-bold text-primary text-sm">Szczegóły</h3>
+                  </div>
+                  <table className="w-full text-sm">
+                    <tbody>
+                      <tr className="border-b border-secondary-border">
+                        <td className="text-gray-500">Pełny adres:</td>
+                        <td>{location.address}</td>
+                      </tr>
+                      <tr className="border-b border-secondary-border">
+                        <td className="text-gray-500">Data odcinka:</td>
+                        <td>{video.date}</td>
+                      </tr>
+                      <tr>
+                        <td className="text-gray-500">Pełen odcinek:</td>
+                        <td>{video.title}</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
-              )}
+              </div>
 
-              <div>
-                <h3 className="font-semibold mb-1">Udostępnij</h3>
-                <div className="space-y-2">
-                  <button
-                    onClick={() => navigator.share?.({
-                      title: location.name,
-                      text: `Sprawdź to miejsce: ${location.name}`,
-                      url: location.GoogleMapsLink || window.location.href,
-                    })}
-                    className="inline-flex items-center space-x-2 text-primary hover:text-primary-darker transition-colors"
-                    disabled={!navigator.share}
-                  >
-                    <span>📤 Udostępnij</span>
-                  </button>
-                  {!navigator.share && (
-                    <p className="text-sm text-gray-600">Twoja przeglądarka nie obsługuje funkcji udostępniania.</p>
-                  )}
-                </div>
+              <div className="grid grid-cols-2 gap-2 pt-2">
+                <button className="flex items-center bg-white border border-red-200 hover:border-red-500 text-xs text-red-600 rounded-lg py-2 px-2"
+                  disabled={true}>
+                  <Heart className="h-4 w-4 mr-2" />
+                  Dodaj do ulubionych
+                </button>
+
+                <button className="flex items-center bg-white border border-secondary-border hover:border-primary text-xs text-primary rounded-lg py-2 px-2"
+                      onClick={() => navigator.share?.({
+                        title: location.name,
+                        text: `Sprawdź to miejsce: ${location.name}`,
+                        url: location.GoogleMapsLink || window.location.href,
+                        })}
+                      disabled={!navigator.share}
+                      >
+                  <Share2 className="h-4 w-4 mr-2" />
+                  Udostępnij
+                </button>
               </div>
             </div>
           </>

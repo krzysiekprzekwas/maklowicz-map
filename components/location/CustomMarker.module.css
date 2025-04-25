@@ -1,0 +1,94 @@
+/* CustomMarker.module.css */
+
+/* Keep existing styles for customMarkerIcon, ::after, markerYellow, markerPurple, markerRed */
+.customMarkerIcon {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out; 
+  }
+  
+  .markerIconContent {
+      width: 1.1rem;
+      height: 1.1rem;
+  }
+  
+  /* --- Pointer Triangle --- */
+  .customMarkerIcon::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 8px 0 8px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transition: all 0.2s ease-in-out; 
+  }
+
+  /* --- Color Variants --- */
+  .markerYellow { /* For Restaurant */
+      background-color: #fff3cd;
+      border: 3px solid #ffc107;
+  }
+  .markerYellow::after {
+      border-top-color: #ffc107;
+  }
+ 
+  .markerYellow .markerIconContent {
+      color: #8c6d07; /* Or use stroke: #8c6d07; */
+  }
+  
+  
+  .markerPurple { /* For Attraction */
+      background-color: #e0d6f9;
+      border: 3px solid #8a63d2;
+  }
+  .markerPurple::after {
+      border-top-color: #8a63d2;
+  }
+  .markerPurple .markerIconContent {
+     color: #502d8e;
+  }
+  
+  
+  .markerRed { /* For Other */
+      background-color: #fdd8d8;
+      border: 3px solid #e57373;
+  }
+  .markerRed::after {
+      border-top-color: #e57373;
+  }
+  .markerRed .markerIconContent {
+     color: #a73737;
+  }
+  
+  /* --- Leaflet Global Override --- */
+  ::global(.leaflet-div-icon) {
+    background: transparent !important;
+    border: none !important;
+  }
+
+.selectedHighlight {
+    border-width: 4px; 
+    border-color: #0d6efd; 
+    transform: scale(1.15);
+    box-shadow: 0 0 10px 2px rgba(13, 110, 253, 0.5); 
+    z-index: 1000 !important;
+  }
+  
+  .selectedHighlight::after {
+    border-top-color: #0d6efd;
+  }
+
+.filteredOut {
+    filter: grayscale(100%);
+    opacity: 0.55;          
+  }

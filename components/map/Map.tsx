@@ -6,6 +6,7 @@ import 'leaflet/dist/leaflet.css';
 import { Location } from '../../types/Location';
 import L from 'leaflet';
 import LocationIcon from '../location/LocationIcon';
+import createCustomIcon from '../location/LocationMapIcon';
 
 const maxZoomValue = 20;
 
@@ -43,33 +44,7 @@ const ChangeView: React.FC<{ locations: Location[] }> = React.memo(({ locations 
 const Map: React.FC<MapProps> = React.memo(({ locations, selectedLocation, onLocationSelect }) => {
     // Memoize the custom icon creation
     const customIcon = React.useCallback((location: Location, isSelected: boolean): DivIcon => {
-        let icon = ReactDOMServer.renderToString(<LocationIcon location={location} />);
-        const backgroundColor = isSelected 
-            ? 'rgb(88, 202, 229)' 
-            : location.isFilteredOut 
-            ? '#d3d3d3'
-            : '#2c1810';
-
-        return new L.DivIcon({
-            className: 'custom-marker',
-            html: `<div style="
-                width: 32px;
-                height: 32px;
-                background-color: ${backgroundColor};
-                border: 2px solid #f8f5f0;
-                border-radius: 50%;
-                cursor: pointer;
-                box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-                transition: background-color 0.3s ease;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                font-size: 16px;
-                color: #f8f5f0;
-            ">${icon}</div>`,
-            iconSize: [32, 32],
-            iconAnchor: [16, 16],
-        });
+            return createCustomIcon(location.type, isSelected, location.isFilteredOut);
     }, []);
 
     // Memoize markers to prevent unnecessary re-renders

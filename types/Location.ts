@@ -4,6 +4,8 @@ export interface CountryData {
     videos: Video[];
   }
 
+export type LocationType = 'restaurant' | 'attraction' | 'other';
+
 export interface Location {
     id: string;
     name: string;
@@ -12,7 +14,7 @@ export interface Location {
     longitude: number;
     address: string;
     country: string;
-    type: string;
+    type: LocationType;
     websiteUrl?: string;
     GoogleMapsLink?: string;
     isFilteredOut?: boolean;
