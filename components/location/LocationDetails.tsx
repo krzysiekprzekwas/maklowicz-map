@@ -26,7 +26,6 @@ export function LocationDetails({ location, onClose }: LocationDetailsProps) {
   const video = locationData.videos.find(v => 
     v.locations.some(loc => loc.id === location?.id)
   );
-  const videoUrl = video?.videoUrl;
 
   return (
     <aside 
@@ -53,8 +52,8 @@ export function LocationDetails({ location, onClose }: LocationDetailsProps) {
             </div>
 
             <div className="flex items-center gap-2 mb-4">
-              <div className="flex items-center gap-1 bg-primary text-white text-sm font-semibold border rounded-full px-2">
-                <LocationIcon location={location} />
+              <div className={`flex items-center gap-1 bg-${location.type} text-${location.type}-text text-sm font-semibold border border-${location.type}-border rounded-full px-2`}>
+                <LocationIcon type={location.type} />
                 {translateLocationType(location.type)}
               </div>
               <div className="flex items-center gap-1 bg-secondary text-sm font-semibold border border-secondary-border rounded-full px-2">

@@ -1,11 +1,9 @@
 import React from 'react';
-import ReactDOMServer from 'react-dom/server';
 import { MapContainer, TileLayer, Marker, useMap } from 'react-leaflet';
 import { LatLngBoundsExpression, LatLngExpression, DivIcon } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { Location } from '../../types/Location';
 import L from 'leaflet';
-import LocationIcon from '../location/LocationIcon';
 import createCustomIcon from '../location/LocationMapIcon';
 
 const maxZoomValue = 20;

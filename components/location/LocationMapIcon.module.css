@@ -33,8 +33,7 @@
     transition: all 0.2s ease-in-out; 
   }
 
-  /* --- Color Variants --- */
-  .markerYellow { /* For Restaurant */
+  .markerYellow { 
       background-color: #fff3cd;
       border: 3px solid #ffc107;
   }
@@ -43,7 +42,7 @@
   }
  
   .markerYellow .markerIconContent {
-      color: #8c6d07; /* Or use stroke: #8c6d07; */
+      color: #8c6d07;
   }
   
   

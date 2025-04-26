@@ -14,7 +14,7 @@ const colorClassMap: Record<LocationType, keyof typeof styles> = {
     other: 'markerRed',
 };
 
-import styles from './CustomMarker.module.css';
+import styles from './LocationMapIcon.module.css';
 import { LocationType } from '../../types/Location';
 
 const createCustomIcon = (

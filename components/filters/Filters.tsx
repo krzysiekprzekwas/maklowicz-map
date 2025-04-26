@@ -154,7 +154,7 @@ export function Filters({
                                         {location.name}
                                       </span>
                                       <span className="text-xs opacity-70">
-                                        <LocationIcon location={location} />
+                                        <LocationIcon type={location.type} />
                                       </span>
                                     </button>
                                   ))}

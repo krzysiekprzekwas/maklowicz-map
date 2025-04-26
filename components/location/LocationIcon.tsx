@@ -1,15 +1,15 @@
 import React from 'react';
-import { Location } from '../../types/Location';
-import { MapPin, Utensils, Castle, Landmark } from 'lucide-react';
+import { LocationType } from '../../types/Location';
+import { MapPin, Utensils, Landmark } from 'lucide-react';
 
 interface LocationIconProps {
-  location: Location | null;
+  type: LocationType | null;
 }
 
-const LocationIcon = ({ location }: LocationIconProps) => {
-  const typeIcon = location?.type === 'restaurant' ? (
+const LocationIcon = ({ type }: LocationIconProps) => {
+  const typeIcon = type === 'restaurant' ? (
     <Utensils className="h-4 w-4" />
-  ) : location?.type === 'attraction' ? (
+  ) : type === 'attraction' ? (
     <Landmark className="h-4 w-4" />
   ) : (
     <MapPin className="h-4 w-4" />
