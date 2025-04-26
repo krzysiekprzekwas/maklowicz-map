@@ -2186,18 +2186,6 @@
           "type": "other",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/FjqEPNfNzVPoEJjF8"
-        },
-        {
-          "id": "restauracja-braenovic",
-          "name": "Restauracja Braenović",
-          "description": "Restauracja u stóp zbócz pełnych winnych pędów Dingac.",
-          "latitude": 42.9232297364629, 
-          "longitude": 17.346678506863594,
-          "address": "Dingač - Borak 29, 20244, Potomje, Croatia",
-          "country": "Chorwacja",
-          "type": "restaurant",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ctCz2ZzBM5hE19rE7"
         }
       ]
     },
@@ -2318,16 +2306,6 @@
       "locations": []
     },
     {
-      "videoId": "DQMaNx3tAMU",
-      "videoUrl": "https://www.youtube.com/watch?v=DQMaNx3tAMU",
-      "title": "ROBERT MAKŁOWICZ BOŚNIA odc.60 „ Mostar i okolice\".",
-      "playlistId": "PLpTn8onHfnD0nHHVyFGHg1aEUCrE0N926",
-      "playlistTitle": "BOŚNIA",
-      "date": "2021-11-12T09:39:37Z",
-      "show": "Robert Makłowicz w podróży",
-      "locations": []
-    },
-    {
       "videoId": "m87ejh8LRwI",
       "videoUrl": "https://www.youtube.com/watch?v=m87ejh8LRwI",
       "title": "ROBERT MAKŁOWICZ POLSKA odc. 67 „Na Cieszyńskim Śląsku\".",
@@ -2424,7 +2402,7 @@
         {
           "id": "polkap",
           "name": "POLKAP",
-          "description": "W Polsce, w pewnym miejscu zwanym POLKAP, od 1968 roku czas zdaje się płynąć własnym, spokojnym rytmem. To prawdziwa kulinarna ostoja, gdzie na talerzach ląduje uczciwe, tradycyjne polskie jedzenie, karmiące pokolenia bez zbędnych ceregieli. Warto tam zajrzeć, by poczuć ducha minionych lat i skosztować prostoty, która wciąż ma ogromny smak.",
+          "description": "W Polsce, w pewnym miejscu zwanym POLKAP, czas zdaje się płynąć własnym, spokojnym rytmem. To prawdziwa ostoja, gdzie od lat w ramach manufaktury wytwarzane są kapelusze najwyższej jakości.",
           "latitude": 49.796951086345494, 
           "longitude": 18.78564345274137,
           "address": "Spokojna 12, 43-430 Wilamowice, Poland",
