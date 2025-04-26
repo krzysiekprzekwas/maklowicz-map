@@ -1,8 +1,9 @@
-import { Earth, Search, X } from 'lucide-react';
+import { Earth, Heart, Search, X } from 'lucide-react';
 import { CountryData, Location } from '../../types/Location';
 import LocationIcon from '../location/LocationIcon';
 import { AnimatedList } from './AnimatedList';
 import { SearchInput } from './SearchInput';
+import { useEffect, useState } from 'react';
 
 interface FiltersProps {
   isOpen: boolean;
@@ -18,6 +19,7 @@ interface FiltersProps {
   onLocationClick: (location: Location) => void;
   onToggleFilters: () => void;
   onResetFilters: () => void;
+  allLocations: Location[];
 }
 
 export function Filters({
@@ -34,7 +36,25 @@ export function Filters({
   onLocationClick,
   onToggleFilters,
   onResetFilters,
+  allLocations,
 }: FiltersProps) {
+  const [isFavoritesOpen, setIsFavoritesOpen] = useState(false);
+  const [favoriteLocations, setFavoriteLocations] = useState<Location[]>([]);
+
+  // Load favorite locations whenever the favorites section is opened or location is selected
+  useEffect(() => {
+      const favoriteIds = JSON.parse(localStorage.getItem('favorites') || '[]');
+      const favorites = allLocations.filter(location => 
+        favoriteIds.includes(location.id)
+      );
+      setFavoriteLocations(favorites);
+  }, [isFavoritesOpen, allLocations]);
+
+  const handleFavoritesClick = () => {
+    const newState = !isFavoritesOpen;
+    setIsFavoritesOpen(newState);
+  };
+
   return (
     <>
       {/* Mobile Overlay */}
@@ -80,6 +100,64 @@ export function Filters({
                   <span className="font-bold text-primary">Wszystkie lokacje ({totalLocations})</span>
                 </div>
                 
+                <div className="p-2 space-y-1">
+                  <button
+                    onClick={handleFavoritesClick}
+                    className={`w-full text-left px-3 py-2 rounded-lg transition-colors flex items-center justify-between ${
+                      isFavoritesOpen 
+                        ? 'bg-secondary-darker text-primary' 
+                        : 'hover:bg-secondary text-primary-hover'
+                    }`}
+                  >
+                    <span className="flex items-center gap-2 truncate pr-2 text-sm">
+                      <Heart className={`h-4 w-4 ${isFavoritesOpen ? 'fill-red-500 text-red-500' : ''}`} />
+                      Ulubione ({favoriteLocations.length})
+                    </span>
+                    <span className="ml-2">
+                      {isFavoritesOpen ? '▼' : '▶'}
+                    </span>
+                  </button>
+                  <AnimatedList 
+                    isOpen={isFavoritesOpen}
+                    className="ml-4 space-y-2"
+                    defaultOpen={false}          
+                  >
+                    {favoriteLocations.length > 0 ? (
+                      favoriteLocations.map((location) => (
+                        <button
+                          key={location.id}
+                          onClick={() => onLocationClick(location)}
+                          className={`
+                            w-full 
+                            text-left 
+                            px-3 
+                            py-1.5 
+                            rounded-lg 
+                            transition-colors 
+                            flex 
+                            items-center 
+                            ${selectedLocation?.id === location.id
+                              ? 'bg-secondary-darker text-primary'
+                              : 'hover:bg-secondary text-primary-hover'
+                            }
+                          `}
+                        >
+                          <span className="flex-1 truncate pr-2 text-sm">
+                            {location.name}
+                          </span>
+                          <span className="text-xs opacity-70">
+                            <LocationIcon type={location.type} />
+                          </span>
+                        </button>
+                      ))
+                    ) : (
+                      <div className="px-3 py-2 text-sm text-gray-500">
+                        Brak ulubionych lokacji
+                      </div>
+                    )}
+                  </AnimatedList>
+                </div>
+
                 <div className="p-2 space-y-1">
                   {countries.map((country) => (
                     <div key={country.name} className="space-y-1">

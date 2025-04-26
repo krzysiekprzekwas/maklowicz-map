@@ -2,6 +2,7 @@ import { Location } from '../../types/Location';
 import LocationIcon from './LocationIcon';
 import locationData from '../../data/locations.json';
 import { MapPin, Heart, Share2, TvMinimalPlay, Info, Flag } from "lucide-react"
+import { useEffect, useState } from 'react';
 
 interface LocationDetailsProps {
   location: Location | null;
@@ -22,10 +23,37 @@ function translateLocationType(type: string): string {
 
 
 export function LocationDetails({ location, onClose }: LocationDetailsProps) {
+  const [isFavorite, setIsFavorite] = useState(false);
 
   const video = locationData.videos.find(v => 
     v.locations.some(loc => loc.id === location?.id)
   );
+
+    // Check if location is in favorites when location changes
+    useEffect(() => {
+      if (!location) return;
+      
+      const favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+      setIsFavorite(favorites.includes(location.id));
+    }, [location]);
+  
+    const toggleFavorite = () => {
+      if (!location) return;
+  
+      const favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+      
+      if (isFavorite) {
+        // Remove from favorites
+        const updatedFavorites = favorites.filter((id: string) => id !== location.id);
+        localStorage.setItem('favorites', JSON.stringify(updatedFavorites));
+        setIsFavorite(false);
+      } else {
+        // Add to favorites
+        const updatedFavorites = [...favorites, location.id];
+        localStorage.setItem('favorites', JSON.stringify(updatedFavorites));
+        setIsFavorite(true);
+      }
+    };
 
   return (
     <aside 
@@ -130,10 +158,16 @@ export function LocationDetails({ location, onClose }: LocationDetailsProps) {
               </div>
 
               <div className="grid grid-cols-2 gap-2 pt-2">
-                <button className="flex items-center bg-white border border-red-200 hover:border-red-500 text-xs text-red-600 rounded-lg py-2 px-2"
-                  disabled={true}>
-                  <Heart className="h-4 w-4 mr-2" />
-                  Dodaj do ulubionych
+                <button 
+                  className={`flex items-center justify-center ${
+                    isFavorite 
+                      ? 'bg-red-100 border-red-500 text-red-600' 
+                      : 'bg-white border-red-200 hover:border-red-500 text-red-600'
+                  } border text-xs rounded-lg py-2 px-2 transition-all`}
+                  onClick={toggleFavorite}
+                >
+                  <Heart className={`h-4 w-4 mr-2 ${isFavorite ? 'fill-red-500 text-red-500' : ''}`} />
+                  {isFavorite ? 'Ulubione' : 'Dodaj do ulubionych'}
                 </button>
 
                 <button className="flex items-center bg-white border border-secondary-border hover:border-primary text-xs text-primary rounded-lg py-2 px-2"

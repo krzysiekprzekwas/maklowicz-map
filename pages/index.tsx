@@ -27,10 +27,10 @@ export default function Home() {
     searchQuery,
     setSearchQuery,
     handleCountryClick,
-    handleVideoClick,
+    handleVideoClick
   } = useLocationState();
 
-  const { countries, filteredLocations, totalLocations } = useLocations(searchQuery, selectedCountry, selectedVideo);
+  const { countries, filteredLocations, totalLocations, allLocations } = useLocations(searchQuery, selectedCountry, selectedVideo);
 
   return (
     <main className="flex-1 flex flex-col bg-secondary">
@@ -53,6 +53,7 @@ export default function Home() {
               setSelectedCountry(null);
               setSelectedVideo(null);
             }}
+          allLocations={allLocations}
         />
 
         <div className="flex-1">

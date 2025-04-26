@@ -30,6 +30,6 @@ export function useLocationState() {
     searchQuery,
     setSearchQuery,
     handleCountryClick,
-    handleVideoClick,
+    handleVideoClick
   };
 }
