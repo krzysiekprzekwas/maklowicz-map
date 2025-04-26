@@ -1,7 +1,6 @@
 import { useMemo } from 'react';
 import type { CountryData } from '../types/Location';
 import locationData from '../data/locations.json';
-import { all } from 'axios';
 
 export function useLocations(searchQuery: string, selectedCountry: string | null, selectedVideo: string | null) {
   const countries = useMemo(() => {

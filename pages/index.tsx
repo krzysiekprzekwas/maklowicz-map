@@ -26,6 +26,9 @@ export default function Home() {
     setIsFiltersOpen,
     searchQuery,
     setSearchQuery,
+    favouriteLocationIds,
+    addFavouriteLocation,
+    removeFavouriteLocation,
     handleCountryClick,
     handleVideoClick
   } = useLocationState();
@@ -54,13 +57,20 @@ export default function Home() {
               setSelectedVideo(null);
             }}
           allLocations={allLocations}
+          favouriteLocationIds={favouriteLocationIds}
         />
 
         <div className="flex-1">
           <Map locations={filteredLocations} selectedLocation={selectedLocation} onLocationSelect={setSelectedLocation} />
         </div>
 
-        <LocationDetails location={selectedLocation} onClose={() => setSelectedLocation(null)} />
+        <LocationDetails 
+          location={selectedLocation} 
+          onClose={() => setSelectedLocation(null)}
+          favouriteLocationIds={favouriteLocationIds}
+          removeFavouriteLocation={removeFavouriteLocation}
+          addFavouriteLocation={addFavouriteLocation}
+        />
       </div>
     </main>
   );

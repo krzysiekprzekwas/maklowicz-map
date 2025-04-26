@@ -20,6 +20,7 @@ interface FiltersProps {
   onToggleFilters: () => void;
   onResetFilters: () => void;
   allLocations: Location[];
+  favouriteLocationIds: string[];
 }
 
 export function Filters({
@@ -37,15 +38,14 @@ export function Filters({
   onToggleFilters,
   onResetFilters,
   allLocations,
+  favouriteLocationIds,
 }: FiltersProps) {
   const [isFavoritesOpen, setIsFavoritesOpen] = useState(false);
   const [favoriteLocations, setFavoriteLocations] = useState<Location[]>([]);
 
-  // Load favorite locations whenever the favorites section is opened or location is selected
   useEffect(() => {
-      const favoriteIds = JSON.parse(localStorage.getItem('favorites') || '[]');
       const favorites = allLocations.filter(location => 
-        favoriteIds.includes(location.id)
+        favouriteLocationIds.includes(location.id)
       );
       setFavoriteLocations(favorites);
   }, [isFavoritesOpen, allLocations]);

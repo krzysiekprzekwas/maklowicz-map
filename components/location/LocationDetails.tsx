@@ -7,6 +7,9 @@ import { useEffect, useState } from 'react';
 interface LocationDetailsProps {
   location: Location | null;
   onClose: () => void;
+  favouriteLocationIds: string[];
+  addFavouriteLocation: (id: string) => void;
+  removeFavouriteLocation: (id: string) => void;
 }
 
 function translateLocationType(type: string): string {
@@ -22,35 +25,34 @@ function translateLocationType(type: string): string {
 }
 
 
-export function LocationDetails({ location, onClose }: LocationDetailsProps) {
+export function LocationDetails({ 
+  location, 
+  onClose,
+  favouriteLocationIds,
+  addFavouriteLocation,
+  removeFavouriteLocation,
+ }: LocationDetailsProps) {
   const [isFavorite, setIsFavorite] = useState(false);
 
   const video = locationData.videos.find(v => 
     v.locations.some(loc => loc.id === location?.id)
   );
-
-    // Check if location is in favorites when location changes
     useEffect(() => {
       if (!location) return;
       
-      const favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
-      setIsFavorite(favorites.includes(location.id));
+      setIsFavorite(favouriteLocationIds.includes(location.id));
     }, [location]);
   
     const toggleFavorite = () => {
       if (!location) return;
-  
-      const favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
       
       if (isFavorite) {
         // Remove from favorites
-        const updatedFavorites = favorites.filter((id: string) => id !== location.id);
-        localStorage.setItem('favorites', JSON.stringify(updatedFavorites));
+        removeFavouriteLocation(location.id);
         setIsFavorite(false);
       } else {
         // Add to favorites
-        const updatedFavorites = [...favorites, location.id];
-        localStorage.setItem('favorites', JSON.stringify(updatedFavorites));
+        addFavouriteLocation(location.id);
         setIsFavorite(true);
       }
     };
