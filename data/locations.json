@@ -2328,6 +2328,126 @@
       "locations": []
     },
     {
+      "videoId": "m87ejh8LRwI",
+      "videoUrl": "https://www.youtube.com/watch?v=m87ejh8LRwI",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc. 67 „Na Cieszyńskim Śląsku\".",
+      "filterTitle": "Na Cieszyńskim Śląsku. (odc. 67)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-11-26T16:00:11Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "most-przyjazni",
+          "name": "Most Przyjaźni",
+          "description": "Miejsce, gdzie historia z humorem przeplata się z codziennością pogranicza. To właśnie tutaj, nad rzeką Olzą, spotykają się nie tylko ludzie i kultury Polski oraz Czech, ale i ich smaki, tworząc niezwykłą, kulinarną mozaikę. Przekraczając go, czuje się nie tylko ducha przeszłości i symboliczne połączenie, ale też apetyt na odkrycia po obu stronach.",
+          "latitude": 49.74954495986422, 
+          "longitude": 18.626958901370298,
+          "address": "Zamkowa 4, 43-400 Cieszyn, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ERjnQcPFmkHDixLVA"
+        },
+        {
+          "id": "pa-ac-mysliwski-habsburgow-w-cieszynie",
+          "name": "Pałac Myśliwski Habsburgów w Cieszynie",
+          "description": "Otóż w polskiej części Cieszyna, tuż przy granicy, stoi sobie Pałac Myśliwski Habsburgów, wzniesiony w 1856 roku. Nie byle jaka to budowla, bo pamięta czasy cesarskich łowów i biesiad, które z pewnością nie obywały się bez wybornych potraw i trunków. Zaiste, kawał historii z nutką kulinarnego dziedzictwa pogranicza!",
+          "latitude": 49.75034067644356, 
+          "longitude": 18.626769589053612,
+          "address": "Zamkowa 3, 43-400 Cieszyn",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/unKskZyX7XpZWbxC6"
+        },
+        {
+          "id": "rotunda-pw-sw-miko-aja-w-cieszynie",
+          "name": "Rotunda pw. św. Mikołaja w Cieszynie",
+          "description": "Oto w Cieszynie, na Wzgórzu Zamkowym, stoi Rotunda Świętego Mikołaja – prawdziwa perełka z początku XI wieku, która przetrwała wieki niczym najlepszy, staropolski przepis. Ta romańska budowla to nie tylko najstarsza murowana świątynia w Polsce, ale też milczący świadek historii regionu, którego surowe piękno warto podziwiać, być może przed skosztowaniem lokalnych przysmaków.",
+          "latitude": 49.75115808959672, 
+          "longitude": 18.62560526505028,
+          "address": "Zamkowa 3B, 43-400 Cieszyn, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/SLjPa8TZ7EfWLJ72A"
+        },
+        {
+          "id": "wenecja-cieszynska",
+          "name": "Wenecja Cieszyńska",
+          "description": "Oto Wenecja Cieszyńska, zakątek, który udowadnia, że nie trzeba jechać do Włoch, by podziwiać domy stojące tuż nad wodą. Ten malowniczy fragment miasta nad Młynówką, gdzie niegdyś tętniła praca rzemieślników, dziś zachęca, by zwolnić, poczuć ducha historii i może zamyślić się nad smakiem dawnych czasów.",
+          "latitude": 49.74774875467821, 
+          "longitude": 18.630105017224437,
+          "address": "aleja Jana Łyska 1, 43-400 Cieszyn, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/orRccrYoQsDbMugL9"
+        },
+        {
+          "id": "rynek-w-cieszynie",
+          "name": "Rynek w Cieszynie",
+          "description": "Na Rynku w Cieszynie, gdzie historia snuje się między kamienicami pamiętającymi wieki, a czeska granica jest na wyciągnięcie ręki, Robert Makłowicz mógł poczuć prawdziwy, transgraniczny klimat. To idealne miejsce, by usiąść w cieniu ratusza, podumać nad zawiłościami losu i skosztować czegoś pysznego, co najlepiej smakuje właśnie w tej wyjątkowej atmosferze Śląska Cieszyńskiego.",
+          "latitude": 49.74875193898933, 
+          "longitude": 18.63340591935272,
+          "address": "Przykopa 21, 43-400 Cieszyn, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/qLAZ8djPbFkaGUcT9"
+        },
+        {
+          "id": "cafe-muzeum",
+          "name": "Cafe Muzeum",
+          "description": "Mówią, że to miejsce, to prawdziwa skarbnica smaków i opowieści. W jego progach, często w otoczeniu nasyconym historią, czeka na gościa nie tylko wyborna kawa i coś słodkiego, ale i nieuchwytny duch minionych epok, który sprawia, że każda wizyta staje się podróżą w czasie.",
+          "latitude": 49.74775899882246, 
+          "longitude": 18.63370025275431,
+          "address": "Tadeusza Regera 6, 43-400 Cieszyn, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/XdVPJCVQvJ3qNpAf8"
+        },
+        {
+          "id": "chlebowa-chata",
+          "name": "Chlebowa Chata",
+          "description": "W Polsce, w Chlebowej Chacie, odkrywa się prawdziwą esencję smaku i tradycji. To miejsce, gdzie czas jakby się zatrzymał, pozwalając zobaczyć, jak kiedyś, bez pośpiechu, tworzono chleb, masło czy ser. Prawdziwa podróż do korzeni kulinarnej historii, pełna prostoty i cudownych aromatów, która zachwyci każdego miłośnika dobrego jedzenia.",
+          "latitude": 49.75788106989945, 
+          "longitude": 18.86591223029661,
+          "address": "Breńska 113, 43-436 Górki Małe, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/VKpN6zWN2zJ5xfWGA"
+        },
+        {
+          "id": "polkap",
+          "name": "POLKAP",
+          "description": "W Polsce, w pewnym miejscu zwanym POLKAP, od 1968 roku czas zdaje się płynąć własnym, spokojnym rytmem. To prawdziwa kulinarna ostoja, gdzie na talerzach ląduje uczciwe, tradycyjne polskie jedzenie, karmiące pokolenia bez zbędnych ceregieli. Warto tam zajrzeć, by poczuć ducha minionych lat i skosztować prostoty, która wciąż ma ogromny smak.",
+          "latitude": 49.796951086345494, 
+          "longitude": 18.78564345274137,
+          "address": "Spokojna 12, 43-430 Wilamowice, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/bmzoePPGzqP2J9oY6"
+        },
+        {
+          "id": "winiarnia-u-czecha",
+          "name": "Winiarnia u Czecha",
+          "description": "Jż sama nazwa brzmi jak zaproszenie do podróży, której ciężko odmówić. W tych starych murach, gdzie czas zdaje się płynąć wolniej, czeka prawdziwy kawałek Czech – miejsce, gdzie wino opowiada historie, a atmosfera rozgrzewa lepiej niż niejeden kominek.",
+          "latitude": 49.748444601425696, 
+          "longitude": 18.631088028834515,
+          "address": "Sejmowa 4/4 wejście od ulicy, Trzech Braci, 43-400 Cieszyn, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/z3bW8L5XsPNdQisz5"
+        }
+      ]
+    },
+    {
       "videoId": "EpiR4hAFIEg",
       "videoUrl": "https://www.youtube.com/watch?v=EpiR4hAFIEg",
       "title": "ROBERT MAKŁOWICZ POLSKA odc. 66 „W Krainie Górnej Odry\".",
