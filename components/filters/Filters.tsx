@@ -1,4 +1,4 @@
-import { Earth } from 'lucide-react';
+import { Earth, Search, X } from 'lucide-react';
 import { CountryData, Location } from '../../types/Location';
 import LocationIcon from '../location/LocationIcon';
 import { AnimatedList } from './AnimatedList';
@@ -177,7 +177,11 @@ export function Filters({
         className="fixed bottom-4 left-4 w-12 h-12 bg-primary text-secondary rounded-full shadow-lg flex items-center justify-center z-[9999] hover:bg-primary-darker transition-colors"
         aria-label={isOpen ? 'Ukryj filtry' : 'Pokaż filtry'}
       >
-        {isOpen ? '×' : '🔍'}
+        {isOpen ? 
+        <X className="absolute right-3 top-1/2 transform -translate-y-1/2"/>
+         : 
+        <Search className="absolute right-3 top-1/2 transform -translate-y-1/2"/>
+        }
         {(selectedCountry || selectedVideo) && (
           <span className="absolute top-1 right-1 w-3 h-3 bg-red-500 rounded-full"></span>
         )}

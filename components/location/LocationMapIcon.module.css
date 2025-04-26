@@ -1,6 +1,3 @@
-/* CustomMarker.module.css */
-
-/* Keep existing styles for customMarkerIcon, ::after, markerYellow, markerPurple, markerRed */
 .customMarkerIcon {
     display: flex; 
     justify-content: center;

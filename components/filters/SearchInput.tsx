@@ -1,3 +1,5 @@
+import { Search } from "lucide-react";
+
 interface SearchInputProps {
   value: string;
   onChange: (value: string) => void;
@@ -15,9 +17,7 @@ export function SearchInput({ value, onChange, placeholder = "Szukaj lokacji, fi
           placeholder={placeholder}
           className="w-full px-4 py-2 pr-10 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
         />
-        <span className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400">
-          🔍
-        </span>
+        <Search className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400"/>
       </div>
     </div>
   );
