@@ -143,15 +143,11 @@ export function LocationDetails({
                   <table className="w-full text-sm">
                     <tbody>
                       <tr className="border-b border-secondary-border">
-                        <td className="text-gray-500">Pełny adres:</td>
-                        <td>{location.address}</td>
-                      </tr>
-                      <tr className="border-b border-secondary-border">
                         <td className="text-gray-500">Data odcinka:</td>
                         <td>{video.date}</td>
                       </tr>
                       <tr>
-                        <td className="text-gray-500">Pełen odcinek:</td>
+                        <td className="text-gray-500">Pełna nazwa odcinka:</td>
                         <td>{video.title}</td>
                       </tr>
                     </tbody>
@@ -163,12 +159,12 @@ export function LocationDetails({
                 <button 
                   className={`flex items-center justify-center ${
                     isFavorite 
-                      ? 'bg-red-100 border-red-500 text-red-600' 
+                      ? 'bg-red-600 hover:bg-red-700 border-red-500 text-white' 
                       : 'bg-white border-red-200 hover:border-red-500 text-red-600'
                   } border text-xs rounded-lg py-2 px-2 transition-all`}
                   onClick={toggleFavorite}
                 >
-                  <Heart className={`h-4 w-4 mr-2 ${isFavorite ? 'fill-red-500 text-red-500' : ''}`} />
+                  <Heart className={`h-4 w-4 mr-2 ${isFavorite ? 'fill-white text-white' : ''}`} />
                   {isFavorite ? 'Ulubione' : 'Dodaj do ulubionych'}
                 </button>
 
