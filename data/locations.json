@@ -2286,6 +2286,113 @@
       ]
     },
     {
+      "videoId": "mokdXK4ZO4s",
+      "videoUrl": "https://www.youtube.com/watch?v=mokdXK4ZO4s",
+      "title": "ROBERT MAKŁOWICZ UMBRIA odc.71 „Śladami Hannibala\".",
+      "filterTitle": "Śladami Hannibala (odc. 71)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-01-07T16:00:12Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "parking-piazzale-europa",
+          "name": "Parking Piazzale Europa",
+          "description": "Z tego miejsca, Robert zaczynał swoje włoskie wędrówki. To nie tylko postój dla czterech kółek, ale prawdziwa brama do lokalnych smaków i historii, skąd już tylko krok dzielił go od najlepszych trattorii czy urokliwych zaułków. Choć to tylko parking, w jego betonowych ramach kryje się obietnica niezapomnianych wrażeń.",
+          "latitude": 43.10421596526857, 
+          "longitude": 12.38971364803966,
+          "address": "Via Fratelli Pellas, 73, 06121 Perugia PG, Italy",
+          "country": "Włochy",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/fPr2zPUUQoYh9oLa9"
+        },
+        {
+          "id": "rocca-paolina",
+          "name": "Rocca Paolina",
+          "description": "We Włoszech jest miejsce zwane Rocca Paolina, potężna forteca wzniesiona na polecenie papieża Pawła III w latach 1540-1543. Ale jej prawdziwy sekret kryje się pod ziemią – to zachowane fragmenty średniowiecznego miasta, przez które dziś spaceruje się jak po historycznych korytarzach, trochę jak w dobrze ukrytej, pełnej smaków piwnicy. To niezwykłe świadectwo historii, gdzie przeszłość dosłownie leży u stóp.",
+          "latitude": 43.10778228791316, 
+          "longitude": 12.388428719139975,
+          "address": "Piazza Italia, 11, 06121 Perugia PG, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Mft747R7qfUo6EJU8"
+        },
+        {
+          "id": "la-bottega-del-tartufo",
+          "name": "La Bottega del Tartufo",
+          "description": "We Włoszech, gdzie kulinarna tradycja przeplata się z codziennością, znajduje się La Bottega del Tartufo – miejsce, które jest prawdziwą skarbnicą i hołdem dla trufli, tego aromatycznego \"czarnego złota\" ziemi. W jego progach czuć ducha historii i pasję do jednego z najcenniejszych składników włoskiej kuchni, kultywowaną tu przez pokolenia. To przystanek obowiązkowy dla każdego, kto pragnie zgłębić tajemnice tego niezwykłego grzyba.",
+          "latitude": 43.109510502765815, 
+          "longitude": 12.387887896441075,
+          "address": "Via della Cupa, 35, 06123 Perugia PG, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/mGNiTMQaskL6f8iU8"
+        },
+        {
+          "id": "chocostore-by-eurochocolate",
+          "name": "Chocostore by Eurochocolate",
+          "description": "Podczas swojej włoskiej podróży, Robert Makłowicz trafił do Chocostore by Eurochocolate – miejsca, gdzie słynne święto czekolady ma swój całoroczny przyczółek. To nie tylko sklep, ale prawdziwa kopalnia skarbów dla każdego, kto ceni sobie wyborne kakao w najróżniejszych postaciach. Znajdziemy tu słodycze, które są esencją włoskiej pasji do czekoladowego rzemiosła.",
+          "latitude": 43.11220240053951, 
+          "longitude": 12.388349149259604,
+          "address": "Piazza IV Novembre, 5, 06123 Perugia PG, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/1XF2k3UHadLQwQfNA"
+        },{
+          "id": "palazzo-dei-priori",
+          "name": "Palazzo dei Priori",
+          "description": "Ten majestatyczny gmach, którego korzenie sięgają 1293 roku, przez wieki był świadkiem najważniejszych wydarzeń i miejscem, gdzie biło serce miejskiego życia. Stojąc pod jego imponującymi murami, łatwo poczuć ciężar historii i wyobrazić sobie nie tylko dawnych rajców, ale i gwar miejskiego targu tuż obok, pełnego lokalnych smaków.",
+          "latitude": 43.11185743169941, 
+          "longitude": 12.388544442966946,
+          "address": "Piazza IV Novembre, 1, 06123 Perugia PG, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Sx7BEfYRuLNRZRoY6"
+        },
+        {
+          "id": "the-fontana-maggiore",
+          "name": "The Fontana Maggiore",
+          "description": "Fontana Maggiore we Włoszech to nie tylko fontanna, ale prawdziwa opowieść wykuta w kamieniu, dzieło ojca i syna Pisano z lat 1277-1278. Wokół niej tętni życie miasta, idealne miejsce, by przysiąść z filiżanką kawy i podziwiać kunszt średniowiecznych mistrzów, czując smak historii.",
+          "latitude": 43.11214135073476,
+          "longitude": 12.388826075104635,
+          "address": "Piazza IV Novembre, 1, 06123 Perugia PG, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/PuKfY3RHyLcXuunU6"
+        },
+        {
+          "id": "06061-castiglione-del-lago-prowincja-perugia-w-ochy",
+          "name": "Castiglione del Lago",
+          "description": "W Castiglione del Lago, miasteczku malowniczo położonym nad Jeziorem Trasimeno, czas zdaje się płynąć nieco wolniej, pozwalając chłonąć atmosferę Umbrii. Wspaniała średniowieczna forteca, której początki sięgają XIII wieku, oraz renesansowy pałac rodu della Corgna świadczą o bogatej historii tego miejsca. To prawdziwa perła regionu, gdzie widoki zapierają dech, a lokalne smaki z pewnością potrafią oczarować każdego smakosza.",
+          "latitude": 43.12605105677408, 
+          "longitude": 12.047895431486884,
+          "address": "Via Soccorso, 114c, 06061 Castiglione del Lago PG, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/wsjfqA5wxY43d9iE9"
+        },
+        {
+          "id": "azienda-agraria-scacciadiavoli-of-pambuffetti",
+          "name": "Azienda Agraria Scacciadiavoli of Pambuffetti",
+          "description": "Miejsce o intrygującej nazwie, która znaczy tyle co \"Pogromca Diabłów\". Ta zabytkowa winiarnia, założona w 1884 roku, słynie nie tylko z doskonałego wina, ale i z legendy, że trunek stąd potrafi przegonić złe moce, co czyni każdą degustację prawdziwie wyjątkowym przeżyciem.",
+          "latitude": 42.881127913553485, 
+          "longitude": 12.582597869413751,
+          "address": "Strada statale SR316, 06036 Montefalco PG, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/srw8bKoEPyc71qjw5"
+        }
+      ]
+    },
+    {
       "videoId": "2EMhECnh3_U",
       "videoUrl": "https://www.youtube.com/watch?v=2EMhECnh3_U",
       "title": "ROBERT MAKŁOWICZ UMBRIA odc.70 „ Niech żyje strangozzi!!\".",
