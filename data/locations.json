@@ -2286,24 +2286,136 @@
       ]
     },
     {
-      "videoId": "E_o1-M-af4c",
-      "videoUrl": "https://www.youtube.com/watch?v=E_o1-M-af4c",
-      "title": "ROBERT MAKŁOWICZ SŁOWENIA odc.81 „ Z biegiem Soczy\".",
-      "playlistId": "PLpTn8onHfnD0X5-z9QPq5hNAHrXoIELeU",
-      "playlistTitle": "SŁOWENIA",
-      "date": "2022-03-25T09:00:52Z",
+      "videoId": "2EMhECnh3_U",
+      "videoUrl": "https://www.youtube.com/watch?v=2EMhECnh3_U",
+      "title": "ROBERT MAKŁOWICZ UMBRIA odc.70 „ Niech żyje strangozzi!!\".",
+      "filterTitle": "Niech żyje strangozzi!! (odc. 70)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-12-17T16:00:13Z",
       "show": "Robert Makłowicz w podróży",
-      "locations": []
+      "locations": [
+        {
+          "id": "ponte-delle-torri",
+          "name": "Ponte delle torri",
+          "description": "W malowniczym Spoleto, we Włoszech, rozciąga się Ponte delle Torri – budowla tak niezwykła, że trudno ją nazwać tylko mostem czy akweduktem. Ta imponująca konstrukcja z XIV wieku, łącząca miasto ze wzgórzem, świadczy o kunszcie dawnych budowniczych i, kto wie, może o tym, jak czysta woda z gór kształtowała smaki tutejszej kuchni przez wieki.",
+          "latitude": 42.73305080265059, 
+          "longitude": 12.743712483218786,
+          "address": "Frazione Collerisana, 148, 06049 Spoleto PG, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/EVwdAx4iLR4u4YP6A"
+        },
+        {
+          "id": "fontana-del-mascherone",
+          "name": "Fontana del mascherone",
+          "description": "We Włoszech, gdzie historia wylewa się z każdego zakątka, stoi Fontana del Mascherone. Ta fontanna, której kamienna maska spogląda na świat od około 1626 roku, ma minę, jakby właśnie skosztowała doskonałego wina i teraz opowiada o tym strumieniem chłodnej wody. To miejsce z prawdziwym charakterem, które z pewnością doceniłby każdy miłośnik dobrej opowieści i orzeźwienia.",
+          "latitude": 42.733854275296785, 
+          "longitude": 12.739637251592871,
+          "address": "Via Loreto, 3, 06049 Spoleto PG, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/cqQMEZi9LV4s2waw9"
+        },
+        {
+          "id": "padrichelli-giancarlo",
+          "name": "Padrichelli Giancarlo",
+          "description": "Włoskie Padrichelli Giancarlo to miejsce, które odkrywa przed gośćmi duszę kulinarnych tradycji regionu Krasu. Lokalny sklep, gdzie czas zdaje się płynąć wolniej, a na półkach królują smaki głęboko zakorzenione w lokalnej ziemi i historii tego pogranicza. Mówi się, że to esencja prostoty i autentyczności, którą poczuć można w każdym kęsie.",
+          "latitude": 42.73376139819663, 
+          "longitude": 12.737220568290411,
+          "address": "Piazza del Mercato, 29, 06049 Spoleto PG, Italy",
+          "country": "Włochy",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/CeiAzHux4aRKgboRA"
+        },
+        {
+          "id": "arco-di-druso",
+          "name": "Arco di Druso",
+          "description": "Przemierzając rzymskie zaułki znajdziemy Arco di Druso – łuku, który choć nosi imię Drususa, powstał znacznie później, bo w III wieku, jako część akweduktu. To miejsce, gdzie historia dosłownie wisi w powietrzu, a wyobraźnia podpowiada, że woda płynąca niegdyś po nim mogła służyć do przygotowania najlepszej rzymskiej kawy czy soczystych pomidorów, jakich dziś już mało.",
+          "latitude": 42.733339965983276, 
+          "longitude": 12.73708048681041,
+          "address": "Via dell' Angelo, 1, 06049 Spoleto PG, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/mcRsnpy7VFfvGxRT8"
+        },
+        {
+          "id": "katedra-wniebowziecia-najswietszej-maryi-panny-w-spoleto",
+          "name": "Katedra Wniebowzięcia Najświętszej Maryi Panny w Spoleto",
+          "description": "Prawdziwy skarb – Katedra Wniebowzięcia NMP. Ta romańska dama, pamiętająca XII wiek, to uczta dla oczu i duszy, zwłaszcza dzięki apetycznym freskom Filippa Lippiego w absydzie. Podobno po takiej dawce piękna, nawet najprostsza włoska pasta smakuje wybornie!",
+          "latitude": 42.73517160383641, 
+          "longitude": 12.740151038668879,
+          "address": "Piazza del Duomo, 4, 06049 Spoleto PG, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/4FcBB6p4PJbg6B52A"
+        },
+        {
+          "id": "scala-mobile-rocca-1-1",
+          "name": "Scala Mobile Rocca 1 1",
+          "description": "Miejsce o praktycznym, lecz niezwykłym uroku – ruchome schody Rocca. To nie tylko ciąg stopni, ale brama do historycznych skarbów i widoków zapierających dech, do których teraz można dotrzeć z prawdziwie włoską lekkością. Prawdziwa gratka dla tych, co cenią wygodę na szlaku smaków i historii.",
+          "latitude": 42.737413325014415, 
+          "longitude": 12.740073257606978,
+          "address": "Via Ponzianina, 47, 06049 Spoleto PG, Italy",
+          "country": "Włochy",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/5DrCuaRdRtN1db3o8"
+        },
+        {
+          "id": "statua-di-san-benedetto",
+          "name": "Statua di San Benedetto",
+          "description": "Oto i ona – Statua Świętego Benedykta, postać absolutnie kluczowa dla Europy, której wpływ czuć do dziś w każdym zakątku regionu. Pan Robert z podziwem patrzył na tego, którego dziedzictwo przeplata się tu z historią ziemi, rodzącej wspaniałe produkty, o czym wie każdy smakosz.",
+          "latitude": 42.79236240563537, 
+          "longitude": 13.092810974688536,
+          "address": "Piazza del Duomo, 1a, 06046 Norcia PG, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/y7hfvMqMi4fNEXxj9"
+        },
+        {
+          "id": "norcineria-ansuini-brothers-mastro-peppe",
+          "name": "Norcineria Ansuini Brothers Mastro Peppe",
+          "description": "Lokalne delikatesy, które są niczym wehikuł czasu dla podniebienia. To prawdziwa świątynia tradycyjnych wędlin i specjałów, gdzie od pokoleń kultywuje się sztukę masarstwa, pielęgnując smaki pamiętające odległe wieki. Wizyta w tej norcinerii to gwarancja autentycznych, głęboko zakorzenionych w historii regionu kulinarnych doznań.",
+          "latitude": 42.792431805258666, 
+          "longitude": 13.09390781543436,
+          "address": "Via Roma, 1A, 06046 Norcia PG, Italy",
+          "country": "Włochy",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/HbGX1e2nUDVfWhPF7"
+        }
+      ]
     },
     {
       "videoId": "JyNoVfzX2gE",
       "videoUrl": "https://www.youtube.com/watch?v=JyNoVfzX2gE",
       "title": "ROBERT MAKŁOWICZ UMBRIA odc.69 „Oliwna Umbria \".",
-      "playlistId": "PLpTn8onHfnD1T8U3xR-lYtqdq3brN2CAq",
-      "playlistTitle": "WŁOCHY",
-      "date": "2021-12-10T09:08:21Z",
+      "filterTitle": "Oliwna Umbria (odc. 69)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2021-12-10T16:00:11Z",
       "show": "Robert Makłowicz w podróży",
-      "locations": []
+      "locations": [
+        {
+          "id": "frantoio-del-poggiolo-monini",
+          "name": "Frantoio del Poggiolo Monini",
+          "description": "Miejsce absolutnie wyjątkowe, gdzie od 1920 roku bije serce słynnej marki oliwy. To prawdziwa świątynia płynnego złota, która z pietyzmem kultywuje tradycję, pozwalając poczuć esencję smaku i historii regionu. Jakże wspaniale jest zanurzyć się w ten świat aromatów i opowieści o oliwnych gajach!",
+          "latitude": 42.77253937233321, 
+          "longitude": 12.771896076120985,
+          "address": "QQF6+2W Spoleto, Province of Perugia, Italy",
+          "country": "Włochy",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/rjPuNWA1VhEFwuNs8"
+        }
+      ]
     },
     {
       "videoId": "1SN-Es5U8R0",
