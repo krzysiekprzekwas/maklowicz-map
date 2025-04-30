@@ -2286,6 +2286,78 @@
       ]
     },
     {
+      "videoId": "LolWUS3hgvM",
+      "videoUrl": "https://www.youtube.com/watch?v=LolWUS3hgvM",
+      "title": "ROBERT MAKŁOWICZ  POŁUDNIOWY TYROL odc.74 „ Alta Badia\".",
+      "filterTitle": "Alta Badia (odc. 74)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-02-04T16:00:11Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "punto-panoramico-corvara",
+          "name": "Punto panoramico Corvara",
+          "description": "Z Punto panoramico w Corvarze roztacza się widok, który zapiera dech w piersiach – te szczyty Dolomitów to prawdziwy cud natury, wpisany na listę UNESCO. To perspektywa, która sprawia, że nawet łyk lokalnego wina czy kęs specku nabiera zupełnie innego wymiaru. Miejsce to, położone w sercu Południowego Tyrolu, opowiada historię z pogranicza kultur.",
+          "latitude": 46.54480488406984, 
+          "longitude": 11.876500554928894,
+          "address": "Strada Planac, 3, 39033 Corvara in Badia BZ, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/nGSz9SUrPAEuFDJ98"
+        },
+        {
+          "id": "boe-bergbahnen",
+          "name": "Boè Bergbahnen",
+          "description": "Aby dostać się w te majestatyczne rejony włoskich Dolomitów, można skorzystać z Boè Bergbahnen. To nie jest zwykła kolejka – to podniebna podróż wprost do serca gór, skąd roztaczają się widoki, od których kręci się w głowie. Na górze zaś, pośród skalnych olbrzymów, zawsze czeka coś pysznego na ząb i kieliszek czegoś rozgrzewającego, idealnego na alpejski apetyt.",
+          "latitude": 46.548687852248094, 
+          "longitude": 11.871281672406543,
+          "address": "strada Sotscofes, 12, 39033 Corvara in Badia BZ, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/rdvSPwurCdbYDMHw5"
+        },
+        {
+          "id": "panificio-seppi-c-s-a-s",
+          "name": "Panificio Seppi & C. S.A.S.",
+          "description": "Ach, Panificio Seppi we Włoszech! To nie jest zwykła piekarnia, oj nie – to prawdziwa instytucja, gdzie od pokoleń piecze się chleb według starych receptur, a zapach unoszący się z pieca potrafi opowiedzieć historię regionu lepiej niż niejeden przewodnik. Człowiek wchodzi tam i od razu czuje, że trafił do miejsca z duszą, gdzie tradycja spotyka się z absolutnie wyjątkowym smakiem.",
+          "latitude": 46.55080478463978, 
+          "longitude": 11.874066951255287,
+          "address": "Str. Col Alt, 9, 39033 Corvara in Badia BZ, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/qc8BituzB1bK2EfH9"
+        },
+        {
+          "id": "hotel-la-perla",
+          "name": "Hotel La Perla",
+          "description": "Pośród alpejskich szczytów Włoch, gdzie powietrze rześkie, a widoki zapierają dech, odnajduje się miejsce wyjątkowe – Hotel La Perla. To nie tylko schronienie, ale prawdziwa instytucja, gdzie historia regionu splata się z legendarną piwnicą win i kuchnią, która potrafi wzruszyć nawet najbardziej wymagające podniebienie.",
+          "latitude": 46.547296550721164, 
+          "longitude": 11.877114052500424,
+          "address": "Str. Col Alt, 80, 39033 Corvara in Badia BZ, Italy",
+          "country": "Włochy",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/LAhwVikQCKEUPbw37"
+        },
+        {
+          "id": "la-stua-de-michil",
+          "name": "La Stüa de Michil",
+          "description": "MIejsce gdzie historia dosłownie wisi w powietrzu, a ściany starej, drewnianej *stüi* szepczą opowieści minionych wieków. W tej niezwykłej scenerii, która pamięta dawne czasy, podawane są dania, które są kwintesencją smaku i lokalnej tradycji w najnowocześniejszym wydaniu.",
+          "latitude": 46.54711430910197, 
+          "longitude": 11.876831405901216,
+          "address": "Str. Col Alt, 105, 39033 Corvara in Badia BZ, Italy",
+          "country": "Włochy",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/LvhuPFWu91q4pLiD7"
+        }
+      ]
+    },
+    {
       "videoId": "qF3ZjXCASXs",
       "videoUrl": "https://www.youtube.com/watch?v=qF3ZjXCASXs",
       "title": "ROBERT MAKŁOWICZ POŁUDNIOWY TYROL  odc.73 „ Wśród szczytów Dolomitów\".",
