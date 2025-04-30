@@ -2286,6 +2286,114 @@
       ]
     },
     {
+      "videoId": "Y8rx4JB2UKA",
+      "videoUrl": "https://www.youtube.com/watch?v=Y8rx4JB2UKA",
+      "title": "ROBERT MAKŁOWICZ UMBRIA odc.72 „W poszukiwaniu harmonii \".",
+      "filterTitle": "W poszukiwaniu harmonii (odc. 72)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-01-14T16:00:12Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "bazylika-sw-franciszka-w-asyzu",
+          "name": "Bazylika Św. Franciszka w Asyżu",
+          "description": "W Asyżu, w malowniczych Włoszech, wznosi się niezwykła Bazylika Św. Franciszka, której budowę rozpoczęto już w 1228 roku, tuż po kanonizacji świętego. To nie lada gratka dla miłośników historii i sztuki – tak naprawdę to dwie świątynie jedna nad drugą, wypełnione zapierającymi dech w piersiach freskami mistrzów, będące duchowym sercem tego miejsca. Prawdziwa uczta dla ducha i oka, która przypomina o prostocie i pięknie życia, jakby w tle czuć było zapach świeżo pieczonego chleba z pobliskiej piekarni.",
+          "latitude": 43.07493165727697, 
+          "longitude": 12.60540029790025,
+          "address": "Viale Giovanna di Savoia, 59, 06081 Assisi PG, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/pm9YhSdtnutvCwbu9"
+        },
+        {
+          "id": "trattoria-degli-umbri",
+          "name": "Trattoria Degli Umbri",
+          "description": "Na głównym placu asyskim, kryje się Trattoria Degli Umbri – miejsce, gdzie czas zdaje się płynąć wolniej, a smaki są głęboko zakorzenione w ziemi. To właśnie tutaj, w scenerii przesiąkniętej wiekami, można skosztować prawdziwej, umbryjskiej kuchni, która karmiła pokolenia – prostej, szczerej i niezapomnianej.",
+          "latitude": 43.07110685544867, 
+          "longitude": 12.615472086045735,
+          "address": "Corso Giuseppe Mazzini, 1/a, 06081 Assisi PG, Italy",
+          "country": "Włochy",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/o3rpttVdURYruJbTA"
+        },
+        {
+          "id": "chiesa-di-santa-maria-sopra-minerva-ad-assisi",
+          "name": "Chiesa di Santa Maria sopra Minerva ad Assisi",
+          "description": "Kościół Santa Maria sopra Minerva wzniesiono wprost w imponujących pozostałościach rzymskiej świątyni z I wieku przed naszą erą, której doskonale zachowana fasada wita dziś pielgrzymów i turystów. To miejsce, gdzie antyk spotyka chrześcijaństwo, niczym wykwintne danie łączące smaki odległych epok.",
+          "latitude": 43.071295565965144, 
+          "longitude": 12.614693576522482,
+          "address": "Via Portica, 23, 06081 Assisi PG, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/2scEzdDh47fcYeu9A"
+        },
+        {
+          "id": "eredi-di-e-zvbboli",
+          "name": "Eredi di E. Zvbboli",
+          "description": "Nie księgarnia, a prawdziwy wehikuł czasu dla podniebienia. Ten zacny *alimentari*, działający nieprzerwanie od 1870 roku, po brzegi wypełniony jest lokalnymi skarbami. Symbol trwałości w tak zmiennym świecie.",
+          "latitude": 43.0711523,
+          "longitude": 12.6096434,
+          "address": "Via Sant'Apollinare, 13B, 06081 Assisi PG, Italy",
+          "country": "Włochy",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/fH1gn9JZRvBTz7eu7"
+        },
+        {
+          "id": "la-bottega-del-pasticcere",
+          "name": "La Bottega Del Pasticcere",
+          "description": "Miejsce, które pachnie historią i słodkością. To ponoć prawdziwa perła wśród włoskich cukierni, gdzie mistrzowie fachu tworzą słodkie dzieła sztuki, kontynuując tradycję przekazywaną z pokolenia na pokolenie. Kto by pomyślał, że w tak niepozornym miejscu kryje się tyle smaku i kunsztu!",
+          "latitude": 43.07129592361785, 
+          "longitude": 12.614032841691428,
+          "address": "Via Francesco Pennacchi, 4, 06081 Assisi PG, Italy",
+          "country": "Włochy",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/VNnVaYCoKGDRWaSQ6"
+        },
+        {
+          "id": "il-balcone-dei-sogni-in-fiore",
+          "name": "Il balcone dei sogni in fiore",
+          "description": "Włochy, kraina słońca i smaków, kryją w sobie takie perełki jak \"Il balcone dei sogni in fiore\". To podobno miejsce, gdzie marzenia nie tylko się snują, ale wręcz kwitną na tle zapierającego dech w piersiach widoku, idealne na chwilę zadumy nad kieliszkiem lokalnego wina. Choć dokładna data powstania tego urokliwego zakątka mogła umknąć historykom, jego atmosfera z pewnością sprzyja kontemplacji i delektowaniu się włoskim \"dolce far niente\".",
+          "latitude": 42.99296820453098, 
+          "longitude": 12.671002860716099,
+          "address": "Via Achille Grandi, 2a, 06038 Spello PG, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/viRhMif9o2zMSD9s7"
+        },
+        {
+          "id": "giuliano-tartufi-spello",
+          "name": "Giuliano Tartufi Spello",
+          "description": "W urokliwym Spello, miasteczku o rzymskich korzeniach, jest Giuliano Tartufi. To prawdziwa świątynia trufli, gdzie w zabytkowych murach można doświadczyć magii tego szlachetnego grzyba w wielu odsłonach – ach, to jest coś dla koneserów!",
+          "latitude": 42.98943374001965, 
+          "longitude": 12.672020255386194,
+          "address": "Via XXV Aprile, 10, 06038 Spello PG, Italy",
+          "country": "Włochy",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/wx86mANjcbTBsCYB6"
+        },
+        {
+          "id": "bosco-sacro-di-monteluco",
+          "name": "Bosco Sacro di Monteluco",
+          "description": "Włoskie Monteluco kryje miejsce o nazwie Bosco Sacro, czyli Święty Las, gdzie już w XIII wieku swoje kroki skierował Święty Franciszek z Asyżu, tworząc erem. To niezwykłe, przesiąknięte spokojem i historią miejsce, ma w sobie ten specyficzny \"smak\" autentyczności, jakiego próżno szukać gdzie indziej.",
+          "latitude": 42.72413151461303, 
+          "longitude": 12.75083427615555,
+          "address": "Località Monteluco, 3, 06049 Monteluco PG, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/3hsqXNKkHQH95U3W7"
+        }
+      ]
+    },
+    {
       "videoId": "mokdXK4ZO4s",
       "videoUrl": "https://www.youtube.com/watch?v=mokdXK4ZO4s",
       "title": "ROBERT MAKŁOWICZ UMBRIA odc.71 „Śladami Hannibala\".",
