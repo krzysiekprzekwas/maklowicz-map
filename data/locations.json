@@ -2286,6 +2286,66 @@
       ]
     },
     {
+      "videoId": "qF3ZjXCASXs",
+      "videoUrl": "https://www.youtube.com/watch?v=qF3ZjXCASXs",
+      "title": "ROBERT MAKŁOWICZ POŁUDNIOWY TYROL  odc.73 „ Wśród szczytów Dolomitów\".",
+      "filterTitle": "Wśród szczytów Dolomitów. (odc. 73)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-01-21T16:00:12Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "skigebiet-kronplatz",
+          "name": "Skigebiet Kronplatz",
+          "description": "Na włoskim Kronplatzu, gdzie zawitał Robert Makłowicz, narciarskie stoki spotykają się z bogactwem kultury Południowego Tyrolu, tworząc miejsce o niezwykłym charakterze. To tu, po dniu pełnym wrażeń na śniegu – może nawet po wizycie w nowoczesnym muzeum na szczycie, otwartym w 2015 roku – można zasiąść do stołu i odkryć smaki regionu, będące apetyczną fuzją alpejskich tradycji i włoskiej lekkości.",
+          "latitude": 46.77103483885292, 
+          "longitude": 11.938884876443902,
+          "address": "QWFM+X3 Bruneck, Autonomous Province of Bolzano – South Tyrol, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/4oUzXRshaTwMU2ET9"
+        },
+        {
+          "id": "alpinn-by-norbert-niederkofler",
+          "name": "AlpiNN by Norbert Niederkofler",
+          "description": "Oto AlpiNN, położony wysoko w Alpach włoskich, gdzie można nie tylko podziwiać zapierające dech widoki, ale i skosztować kuchni mistrza Norberta Niederkoflera. Jego filozofia \"Cook the Mountain\" sprawia, że na talerzu ląduje to, co najlepsze z gór, a wszystko to w nowoczesnych przestrzeniach otwartego w 2018 roku muzeum fotografii górskiej, co czyni to miejsce prawdziwie wyjątkowym.",
+          "latitude": 46.740495622102515, 
+          "longitude": 11.955932358666468,
+          "address": "PWR9+64 Mareo, Autonomous Province of Bolzano – South Tyrol, Italy",
+          "country": "Włochy",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/421BpNQrNDem1GXh8"
+        },
+        {
+          "id": "lumen-museum-of-mountain-photography",
+          "name": "LUMEN - Museum of Mountain Photography",
+          "description": "Na alpejskich szczytach we Włoszech, w dawnej stacji kolejki z 1963 roku, mieści się LUMEN – prawdziwa perła dla miłośników gór i fotografii. To miejsce, gdzie historia wspinaczki i piękno krajobrazu spotykają się w kadrze, oferując widok, który syci duszę równie dobrze, co najlepsza regionalna potrawa.",
+          "latitude": 46.740711227095325, 
+          "longitude": 11.955982760932086,
+          "address": "PXQ3+J4 Mareo, Autonomous Province of Bolzano – South Tyrol, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/2nJJV3bD5ruozPpQ9"
+        },
+        {
+          "id": "mmm-corones",
+          "name": "MMM Corones",
+          "description": "Na szczycie włoskiego Kronplatzu, niczym wrośnięty w górę klejnot, czeka na podróżnika MMM Corones. To niezwykłe muzeum, otwarte w 2015 roku i zaprojektowane przez wizjonerkę Zahę Hadid, opowiada fascynującą historię tradycyjnego alpinizmu – prawdziwa esencja górskiego ducha, podana w iście mistrzowski sposób.",
+          "latitude": 46.73739756582778, 
+          "longitude": 11.95466761368383,
+          "address": "PWPX+XX Mareo, Autonomous Province of Bolzano – South Tyrol, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Te8tp3px1TNhuRpF8"
+        }
+      ]
+    },
+    {
       "videoId": "Y8rx4JB2UKA",
       "videoUrl": "https://www.youtube.com/watch?v=Y8rx4JB2UKA",
       "title": "ROBERT MAKŁOWICZ UMBRIA odc.72 „W poszukiwaniu harmonii \".",
