@@ -2286,6 +2286,78 @@
       ]
     },
     {
+      "videoId": "B0y7KaNkKVI",
+      "videoUrl": "https://www.youtube.com/watch?v=B0y7KaNkKVI",
+      "title": "ROBERT MAKŁOWICZ POŁUDNIOWY TYROL  odc.75 „ Wśród Ladynów\".",
+      "filterTitle": "Wśród Ladynów. (odc. 75)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-02-11T16:00:15Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "rifugio-utia-paraciora",
+          "name": "Rifugio Utia Paraciora",
+          "description": "Pan Robert dotarł do Włoch, gdzie wysoko w Dolomitach czekało na niego Rifugio Utia Paraciora. To miejsce to prawdziwa ostoja smaków Ladynii, gdzie po trudach górskiej wędrówki można pokrzepić się autentyczną kuchnią. Można by rzec, że to kulinarny przystanek z widokiem, który sam w sobie jest ucztą dla oczu.",
+          "latitude": 46.597093787178665, 
+          "longitude": 11.899528504213755,
+          "address": "Str. Sompunt, 36, 39036 Badia BZ, Italy",
+          "country": "Włochy",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/2stejmRrsuvrTcCm9"
+        },
+        {
+          "id": "parco-cervi-sompunt-alta-badia",
+          "name": "Parco Cervi Sompunt - Alta Badia",
+          "description": "To zakątek, gdzie alpejskie szczyty spotykają się z gościnnością godną najlepszych tradycji Południowego Tyrolu, z tą różnicą, że gosp[odarzem są lokalne jelenie. Atrakcje turystyczna w postaci farmy z endemiczną odmaną parzystokopytnych.",
+          "latitude": 46.59665972101248, 
+          "longitude": 11.899749346260045,
+          "address": "Str. Sompunt, 25, 39036 Badia BZ, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/JGr4sWvRGyjvbePv9"
+        },
+        {
+          "id": "miraval-naturhotel",
+          "name": "Miraval NaturHotel",
+          "description": "W swoich włoskich wojażach Robert Makłowicz dotarł do Miraval NaturHotel, miejsca o niezwykłej atmosferze. Wzniesiony na fundamentach wiekowej zagrody w Południowym Tyrolu, hotel ten kusi nie tylko alpejskimi panoramami, ale przede wszystkim smakami regionu, gdzie tradycja harmonijnie łączy się z naturą.",
+          "latitude": 46.596317138346556, 
+          "longitude": 11.90101783794756,
+          "address": "Str. Sompunt, 16, 39036 Badia BZ, Italy",
+          "country": "Włochy",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/17L2EHsvSdUbsw6n7"
+        },
+        {
+          "id": "schutzhutte-hl-kreuz",
+          "name": "Schutzhütte Hl. Kreuz",
+          "description": "Włoskie Dolomity kryją miejsca, do których Robert Makłowicz chętnie wraca, a jednym z nich jest bez wątpienia Schutzhütte Hl. Kreuz. Ta schroniskowa ostoja stoi tuż obok piętnastowiecznego kościoła pielgrzymkowego (pierwsze wzmianki z 1484 roku!), będąc przystankiem dla wędrowców i pielgrzymów. Mówi się, że po trudach górskiej wędrówki czy duchowej kontemplacji, tutejsze proste, alpejskie smaki nabierają zupełnie nowego wymiaru.",
+          "latitude": 46.61450650597178, 
+          "longitude": 11.93856290873631,
+          "address": "Localita' la Crusc, 1, 39036 Badia BZ, Italy",
+          "country": "Włochy",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/xc7A4DP8k2VXYCzAA"
+        },
+        {
+          "id": "maso-runch-hof",
+          "name": "Maso Runch Hof",
+          "description": "Ach, Maso Runch Hof we Włoszech! To nie byle co, bo to prawdziwe *maso*, czyli stara tyrolska zagroda, ponoć pamiętająca rok 1341. To miejsce, gdzie czas płynie inaczej, a na talerzu ląduje autentyczny smak Południowego Tyrolu, w sam raz dla kogoś, kto szuka kulinarnych opowieści z duszą.",
+          "latitude": 46.610900157352546,
+          "longitude": 11.888566887279707,
+          "address": "JV6M+9F Badia, Autonomous Province of Bolzano – South Tyrol, Italy",
+          "country": "Włochy",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/aNqQTQ3JECNS1hCq9"
+        }
+      ]
+    },
+    {
       "videoId": "LolWUS3hgvM",
       "videoUrl": "https://www.youtube.com/watch?v=LolWUS3hgvM",
       "title": "ROBERT MAKŁOWICZ  POŁUDNIOWY TYROL odc.74 „ Alta Badia\".",
