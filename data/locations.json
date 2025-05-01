@@ -2286,10 +2286,34 @@
       ]
     },
     {
+      "videoId": "ZH6NtI1J-gs",
+      "videoUrl": "https://www.youtube.com/watch?v=ZH6NtI1J-gs",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc.76 „Beskid Wyspowy.Wśród śniegu i bryndzy\".",
+      "filterTitle": "Beskid Wyspowy. Wśród śniegu i bryndzy. (odc. 76)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-02-18T16:00:13Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "trasa-zjazdowa-che-m-myslenice-singletracks",
+          "name": "Trasa zjazdowa Chełm - Myślenice Singletracks",
+          "description": "Na zboczach Chełmu koło Myślenic, gdzie powietrze pachnie lasem, znajduje się miejsce, które wymaga pewnej odwagi i zręczności. Oto słynna trasa zjazdowa, prawdziwy singletrack, gdzie pędzi się w dół niczym dobrze doprawiony sos po talerzu, lawirując między drzewami. To przeżycie, które zaostrza apetyt na więcej... albo przynajmniej na solidny posiłek po wysiłku.",
+          "latitude": 49.80039593411018, 
+          "longitude": 19.947615698863267,
+          "address": "QWXW+P9 Myślenice, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ga1kRW8XvrB8ck6W6"
+        }
+      ]
+    },
+    {
       "videoId": "B0y7KaNkKVI",
       "videoUrl": "https://www.youtube.com/watch?v=B0y7KaNkKVI",
       "title": "ROBERT MAKŁOWICZ POŁUDNIOWY TYROL  odc.75 „ Wśród Ladynów\".",
-      "filterTitle": "Wśród Ladynów. (odc. 75)",
+      "filterTitle": "Wśród Ladynów (odc. 75)",
       "playlistId": "",
       "playlistTitle": "",
       "date": "2022-02-11T16:00:15Z",
