@@ -2443,10 +2443,70 @@
       ]
     },
     {
+      "videoId": "VyMBxAF3B3I",
+      "videoUrl": "https://www.youtube.com/watch?v=VyMBxAF3B3I",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc.77 „Beskid Wyspowy. Sentymentalna Lanckorona\".",
+      "filterTitle": "Sentymentalna Lanckorona. (odc. 77)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-02-25T16:00:21Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "ruiny-zamku-w-lanckoronie",
+          "name": "Ruiny zamku w Lanckoronie",
+          "description": "Te kamienne świadkowie historii, wzniesione w XIV wieku za czasów Kazimierza Wielkiego, to prawdziwa uczta dla oczu i duszy. Stoją na wzgórzu, skąd roztacza się widok, który smakuje najlepiej po solidnym spacerze, a może nawet przed poszukiwaniem lokalnych przysmaków w pobliskiej, malowniczej wiosce.",
+          "latitude": 49.84786848975322, 
+          "longitude": 19.71252346175239,
+          "address": "Kalwaria Zebrzydowska 86, 34-130, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/hXidcgYzmF1XVxaD9"
+        },
+        {
+          "id": "arka-cafe",
+          "name": "Arka Cafe",
+          "description": "Unikalna kawiarnia w centrum Lanckorony zdecydowanie zawyżająca standard polskiej wiejskiej gastronomii - kawa czy coś słodkiego smakują zupełnie inaczej, przesiąknięte duchem minionych epok i opowieści. To prawdziwa kapsuła czasu, gdzie każda filiżanka zdaje się szeptać historie.",
+          "latitude": 49.84634375473869, 
+          "longitude": 19.7159815333027,
+          "address": "Lanckorona 490, 34-143, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "https://www.arkacafe.pl/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/uQq2inCqvBTY431T9"
+        },
+        {
+          "id": "koscio-sw-jozefa-w-kalwarii-zebrzydowskiej",
+          "name": "Kościół św. Józefa w Kalwarii Zebrzydowskiej",
+          "description": "A proszę bardzo, oto Kościół św. Józefa, perła w koronie niezwykłego założenia kalwaryjskiego, które zaczęło powstawać na początku XVII wieku. To miejsce ma w sobie ten wyjątkowy \"smak\" historii i duchowości, który zostaje w pamięci na długo, jak wspomnienie udanej podróży pełnej odkryć.",
+          "latitude": 49.86652290618387, 
+          "longitude": 19.67605488860325,
+          "address": "Rynek 29, 34-130 Kalwaria Zebrzydowska, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "http://www.parafiakalwaria.pl/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/d57NtQFqoPncSwPs7"
+        },
+        {
+          "id": "kocierz-resort",
+          "name": "Kocierz Resort",
+          "description": "Luksusowy resort w szczytach gór. Cóż to za widoki, proszę Państwa! A po takiej górskiej eskapadzie, cóż może smakować lepiej niż regionalne specjały, które w tym miejscu nabierają iście beskidzkiego charakteru?",
+          "latitude": 49.77837315401249, 
+          "longitude": 19.31723528647857,
+          "address": "Beskidzka 206, 34-120 Targanice, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "https://www.kocierz.pl/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/HeEoPiVzxHdp1VL78"
+        }
+      ]
+    },
+    {
       "videoId": "ZH6NtI1J-gs",
       "videoUrl": "https://www.youtube.com/watch?v=ZH6NtI1J-gs",
       "title": "ROBERT MAKŁOWICZ POLSKA odc.76 „Beskid Wyspowy.Wśród śniegu i bryndzy\".",
-      "filterTitle": "Beskid Wyspowy. Wśród śniegu i bryndzy. (odc. 76)",
+      "filterTitle": "Wśród śniegu i bryndzy. (odc. 76)",
       "playlistId": "",
       "playlistTitle": "",
       "date": "2022-02-18T16:00:13Z",
