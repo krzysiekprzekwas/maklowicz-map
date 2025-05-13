@@ -2443,6 +2443,30 @@
       ]
     },
     {
+      "videoId": "DG62NEKHAeg",
+      "videoUrl": "https://www.youtube.com/watch?v=DG62NEKHAeg",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc.78 „Beskid Wyspowy. Podziemna Bochnia\".",
+      "filterTitle": "Podziemna Bochnia. (odc. 78)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-03-04T16:00:12Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "kopalnia-soli-bochnia",
+          "name": "Kopalnia Soli Bochnia",
+          "description": "Ach, Bochnia! Tu, gdzie od 1248 roku wydobywano \"białe złoto\", które przez wieki było cenniejsze niż złoto prawdziwe. To najstarsza kopalnia soli w Polsce, prawdziwy labirynt pod ziemią, skąd pochodzi ten nieodzowny składnik każdej kuchni. Prawdziwa podróż w głąb historii i smaku!",
+          "latitude": 49.96896075730563, 
+          "longitude": 20.41764604109211,
+          "address": "Campi 27, 32-700 Bochnia, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "https://kopalnia-bochnia.pl/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/VrBi4iHsrH9p52P49"
+        }
+      ]
+    },
+    {
       "videoId": "VyMBxAF3B3I",
       "videoUrl": "https://www.youtube.com/watch?v=VyMBxAF3B3I",
       "title": "ROBERT MAKŁOWICZ POLSKA odc.77 „Beskid Wyspowy. Sentymentalna Lanckorona\".",
