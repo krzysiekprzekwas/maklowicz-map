@@ -147,6 +147,21 @@ export function LocationDetails({
                   <td className="text-gray-500">Data odcinka:</td>
                   <td>{video.date}</td>
                 </tr>
+                {location.websiteUrl && (
+                  <tr>
+                    <td className="text-gray-500">Strona miejsca:</td>
+                    <td>
+                      <a
+                        href={location.websiteUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-primary hover:underline"
+                      >
+                        {location.websiteUrl}
+                      </a>
+                    </td>
+                  </tr>
+                )}
                 <tr>
                   <td className="text-gray-500">Pełna nazwa odcinka:</td>
                   <td>{video.title}</td>
