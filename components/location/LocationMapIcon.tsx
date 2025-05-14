@@ -1,4 +1,4 @@
-import L from 'leaflet';
+import L, { icon } from 'leaflet';
 import ReactDOMServer from 'react-dom/server';
 import { Utensils, MapPin, LucideProps, Landmark } from 'lucide-react';
 
@@ -22,7 +22,10 @@ const createCustomIcon = (
     isSelected: boolean = false,
     isFilteredOut: boolean = false
 ): L.DivIcon => {
-    const IconComponent = iconComponentMap[type];
+    const IconComponent = iconComponentMap[type] ?? (() => <span>?</span>);
+    if (iconComponentMap[type] === undefined) {
+        console.warn(`No icon found for type: ${type}`);
+    }
     const colorClassNameKey = colorClassMap[type];
     const colorModuleClass = styles[colorClassNameKey];
 
