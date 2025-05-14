@@ -17,6 +17,7 @@ export interface Location {
     type: LocationType;
     websiteUrl?: string;
     GoogleMapsLink?: string;
+    image?: string;
     isFilteredOut?: boolean;
 }
 

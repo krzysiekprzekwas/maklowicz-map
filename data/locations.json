@@ -20,7 +20,8 @@
           "country": "Zjednoczone Emiraty Arabskie",
           "type": "attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/d42jUUAnV5WSmXqr7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/d42jUUAnV5WSmXqr7",
+          "image": "/images/dubai-mall-waterfalls.png"
         },
         {
           "id": "the-dubai-mall",
@@ -31,8 +32,9 @@
           "address": "269 Financial Ctr St - Downtown Dubai - Dubai - United Arab Emirates",
           "country": "Zjednoczone Emiraty Arabskie",
           "type": "attraction",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/mDgzhWoEH86M7nhQ9"
+          "websiteUrl": "https://thedubaimall.com",
+          "GoogleMapsLink": "https://maps.app.goo.gl/mDgzhWoEH86M7nhQ9",
+          "image": "/images/the-dubai-mall.jpg.avif"
         },
         {
           "id": "orfali-bros-restaurant",
@@ -3553,7 +3555,8 @@
           "country": "Austria",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/C9wh7KxRAu26EPua8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/C9wh7KxRAu26EPua8",
+          "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/566791620.jpg?k=db556b006a0734b3c2918bda4ce508bc72b62336a6127bb61383ab1f33d0982b&o=&hp=1"
         },
         {
           "id": "landhof-lazarus",

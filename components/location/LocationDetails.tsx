@@ -93,8 +93,18 @@ export function LocationDetails({
         </div>
       </div>
 
+      {location.image && (
+        <div className="mb-4 rounded-lg overflow-hidden border border-secondary-border">
+          <img 
+            src={location.image} 
+            alt={location.name} 
+            className="w-full h-auto object-cover"
+          />
+        </div>
+      )}
+
       <div className="space-y-4">
-        <div className="space-y-6">
+        <div className="space-y-4">
           <div className="bg-secondary border border-secondary-border rounded-lg p-4">
             <h3 className="font-bold text-primary mb-2">Opis</h3>
             <p className="text-gray-600">{location.description}</p>
