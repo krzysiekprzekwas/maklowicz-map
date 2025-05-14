@@ -2443,6 +2443,66 @@
       ]
     },
     {
+      "videoId": "kzQDPsfpVjQ",
+      "videoUrl": "https://www.youtube.com/watch?v=kzQDPsfpVjQ",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc.79 „ Flamandzkie wytchnienie”.",
+      "filterTitle": "Flamandzkie wytchnienie. (odc. 79)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-03-11T16:00:12Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "rondo-charles-a-de-gaulle-a",
+          "name": "Rondo Charles’a de Gaulle’a",
+          "description": "Rondo Charles’a de Gaulle’a to jeden z tych punktów na mapie Warszawy, gdzie historia wciąż pulsuje, a miejski zgiełk tworzy niepowtarzalną atmosferę. To właśnie tu, pośród pędzących samochodów, od 2002 roku wita nas coś zupełnie niecodziennego – słynna palma, która dodaje temu miejscu szczypty egzotyki, niczym przyprawa z dalekich krain, zapraszając do chwili zadumy nad światem.",
+          "latitude": 52.231787988455935, 
+          "longitude": 21.020858552739274,
+          "address": "Muzeum Narodowe 05, 00-025 Warszawa, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/RgFekePa3zb5EkcV6"
+        },
+        {
+          "id": "muzeum-narodowe-w-warszawie",
+          "name": "Muzeum Narodowe w Warszawie",
+          "description": "Ten imponujący gmach otwarty w 1938 roku, to prawdziwa uczta dla ducha i oczu, gdzie historia Polski i świata podana jest na najwyższym poziomie. Znajdziemy tu dzieła tak różnorodne i fascynujące, że każda wizyta smakuje jak odkrywanie nowych, wykwintnych składników w doskonale skomponowanym daniu.",
+          "latitude": 52.2320840438378, 
+          "longitude": 21.024213123864584,
+          "address": "Nowy Świat 21A, 00-029 Warszawa, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "https://www.mnw.art.pl/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Kj4ouSjFBZFrRmHv6"
+        },
+        {
+          "id": "skyfall-warsaw",
+          "name": "Skyfall Warsaw",
+          "description": "Mówiąc o Warszawie, nie sposób pominąć miejsca, które dosłownie wynosi gości na wyżyny. Skyfall Warsaw, mieszczący się w nowoczesnym gmachu oddanym do użytku w 2022 roku, oferuje nie tylko zapierający dech widok z 49. piętra, ale i możliwość delektowania się smakami, patrząc na świat z zupełnie innej perspektywy. To kulinarna przygoda z dreszczykiem emocji, bo część podłogi... potrafi się wychylić!",
+          "latitude": 52.23020292194082, 
+          "longitude": 20.986204910401412,
+          "address": "rondo Ignacego Daszyńskiego 1, 00-838 Warszawa, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "http://www.skyfallwarsaw.com/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/EhkD1DsrSBksbSEL8"
+        },
+        {
+          "id": "elephant-belgian-pub",
+          "name": "Elephant Belgian Pub",
+          "description": "Oto Elephant Belgian Pub w Polsce, miejsce, gdzie można poczuć prawdziwy, belgijski klimat. Pan Robert Makłowicz docenił bogactwo tutejszych piw i smaków, które przenoszą wprost do Flandrii. To zaiste godzien polecenia zakątek dla każdego poszukiwacza kulinarnych wrażeń.",
+          "latitude": 52.25181974321584, 
+          "longitude": 21.00788139090977,
+          "address": "Ciasna 9, 00-232 Warszawa, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "http://www.elephantbelgianpub.com.pl/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/HbofVduVEJTzSrNB7"
+        }
+      ]
+    },
+    {
       "videoId": "DG62NEKHAeg",
       "videoUrl": "https://www.youtube.com/watch?v=DG62NEKHAeg",
       "title": "ROBERT MAKŁOWICZ POLSKA odc.78 „Beskid Wyspowy. Podziemna Bochnia\".",
