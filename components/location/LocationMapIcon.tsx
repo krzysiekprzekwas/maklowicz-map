@@ -19,6 +19,7 @@ import { LocationType } from '../../types/Location';
 
 const createCustomIcon = (
     type: LocationType,
+    title: string = '',
     isSelected: boolean = false,
     isFilteredOut: boolean = false
 ): L.DivIcon => {
@@ -30,8 +31,14 @@ const createCustomIcon = (
     const colorModuleClass = styles[colorClassNameKey];
 
     const iconHtml = ReactDOMServer.renderToString(
-        <IconComponent className={styles.markerIconContent} />
-    );
+        <>
+          <div>
+            <IconComponent className={styles.markerIconContent} />
+            {title && <div className={styles.markerTooltip}>{title}</div>}
+          </div>
+        </>
+      );
+      
 
     const baseClassName = `${styles.customMarkerIcon} ${colorModuleClass}`;
 

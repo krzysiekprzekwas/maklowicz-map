@@ -42,7 +42,7 @@ const ChangeView: React.FC<{ locations: Location[] }> = React.memo(({ locations 
 const Map: React.FC<MapProps> = React.memo(({ locations, selectedLocation, onLocationSelect }) => {
     // Memoize the custom icon creation
     const customIcon = React.useCallback((location: Location, isSelected: boolean): DivIcon => {
-            return createCustomIcon(location.type, isSelected, location.isFilteredOut);
+            return createCustomIcon(location.type, location.name, isSelected, location.isFilteredOut);
     }, []);
 
     // Memoize markers to prevent unnecessary re-renders
