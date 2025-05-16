@@ -2445,6 +2445,102 @@
       ]
     },
     {
+      "videoId": "E_o1-M-af4c",
+      "videoUrl": "https://www.youtube.com/watch?v=E_o1-M-af4c",
+      "title": "ROBERT MAKŁOWICZ SŁOWENIA odc.81 „ Z biegiem Soczy\".",
+      "filterTitle": "Z biegiem Soczy. (odc. 81)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-03-25T16:00:14Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "bunkier-slowenia",
+          "name": "Bunkier w Alpach Julijskich",
+          "description": "Skryty dla mapach, nieudokumentowany w internecie unikalny relikt czasów I Wojny Światowej. Symbol dawnoego austryjacko włoskiego frontu w postaci opuszczonego lecz bezwzględnie zadbanego bunkra dostępnego do samodzielnej eksploracji podczas lokalnych wypraw.",
+          "latitude": 46.23938897973311,  
+          "longitude": 13.723561268422912,
+          "address": "5220 Tolmin, Słowenia",
+          "country": "Słowenia",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/TpjjdeFyUvzLHYoL8"
+        },
+        {
+          "id": "memorial-church-of-the-holy-spirit",
+          "name": "Memorial Church of the Holy Spirit",
+          "description": "Memoriałowy Kościół Świętego Ducha w Javorcy. Ta drewniana świątynia, wzniesiona przez żołnierzy w 1916 roku, to wzruszający pomnik poświęcony poległym, stojący wysoko w górach jako świadectwo trudnych czasów i ludzkiego ducha. To kawałek historii zaklęty w drewnie, przypominający, że nawet w najtrudniejszych chwilach potrafimy tworzyć coś pięknego i trwałego.",
+          "latitude": 46.23482325504731, 
+          "longitude": 13.719877508934575,
+          "address": "6PR8+FV Tolmin, Slovenia",
+          "country": "Słowenia",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/D6TkEKrp1JY4jhpM7"
+        },
+        {
+          "id": "most-kanal",
+          "name": "Most Kanal",
+          "description": "W Słowenii, tam gdzie szmaragdowa Soča wije się przez dolinę, leży Most na Soči – miejsce, którego nazwa pochodzi od ważnego mostu, odbudowanego po wojennej zawierusze w 1920 roku. Pan Robert Makłowicz zawitał w te strony, by na własne oczy przekonać się o pięknie przyrody i posmakować lokalnych skarbów, które kryje ta historyczna ziemia.",
+          "latitude": 46.0855542841665, 
+          "longitude": 13.632782387765271,
+          "address": "Kidričeva cesta 7, 5213 Kanal, Slovenia",
+          "country": "Słowenia",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/b2v2QwrE3miN8pDg6"
+        },
+        {
+          "id": "smartno-s-owenia",
+          "name": "Šmartno",
+          "description": "W sercu słoweńskiej Goriška Brda, Šmartno – urokliwa wioska-twierdza, która przez wieki broniła się przed najeźdźcami, między innymi Turkami. Spacer po jej ciasnych, zabytkowych uliczkach to prawdziwa podróż w czasie, a nagrodą jest możliwość skosztowania lokalnych specjałów i wyśmienitego wina, z którego słynie ten malowniczy region. To miejsce z prawdziwą duszą i niezapomnianym smakiem.",
+          "latitude": 46.00472427115811, 
+          "longitude": 13.55481551910664,
+          "address": "Šmartno 78a, 5211 Kojsko, Slovenia",
+          "country": "Słowenia",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/WrfKMkqtdn8THdtN9"
+        },
+        {
+          "id": "riserva-naturale-regionale-della-foce-dell-isonzo-isola-della-cona",
+          "name": "Riserva Naturale Regionale della Foce dell'Isonzo Isola della Cona",
+          "description": "W Riserva Naturale Regionale della Foce dell'Isonzo, gdzie słodka woda rzeki Isonzo, a wcześniej Socza, spotyka się ze słoną morską bryzą, tworzy się krajobraz jedyny w swoim rodzaju. To prawdziwy raj dla ornitologów, ale i miejsce, gdzie czuć ducha historii tej ziemi, a po spacerze aż prosi się o degustację darów morza czy lokalnych specjałów Friuli.",
+          "latitude": 45.7556706996632, 
+          "longitude": 13.498706398009817,
+          "address": "QF2P+64 San Canzian d'Isonzo, Province of Gorizia, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/1WX8Kaa9ebgA7m6y6"
+        },
+        {
+          "id": "trg-evrope",
+          "name": "Trg Evrope",
+          "description": "Znajduje się on dokładnie na granicy Włoch i Słowenii, będąc żywym symbolem europejskiego zjednoczenia po latach podziałów. Gdzie indziej można spróbować włoskiej pasty, patrząc jednocześnie na słoweńskie góry, a potem poszukać lokalnych przysmaków po obu stronach tej symbolicznej linii?",
+          "latitude": 45.95524195235316, 
+          "longitude": 13.634835180280952,
+          "address": "Kolodvorska pot 1, 5250 Solkan, Słowenia",
+          "country": "Słowenia",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/owPRnQYPunjDicpj7"
+        },
+        {
+          "id": "gostilna-metulj-d-o-o",
+          "name": "GOSTILNA METULJ",
+          "description": "Słoweńskie strony kryją czasem prawdziwe perełki, a jedną z nich jest z pewnością GOSTILNA METULJ – miejsce, gdzie tradycja spotyka się ze smakiem w zabytkowych murach, być może pamiętających nawet XIX wiek. To nie tylko restauracja, to prawdziwa gościna, gdzie na talerzu lądują dania proste, ale pełne ducha i autentycznego smaku pogranicza. Można tu poczuć, jak historia miesza się z kulinarną pasją.",
+          "latitude": 45.961861893101876, 
+          "longitude": 13.644798800742407,
+          "address": "Cankarjeva ul. 60, 5000 Nova Gorica, Słowenia",
+          "country": "Słowenia",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/BzyykJRCxyi5iT9f6"
+        }
+      ]
+    },
+    {
       "videoId": "lbhUcrzpuSg",
       "videoUrl": "https://www.youtube.com/watch?v=lbhUcrzpuSg",
       "title": "ROBERT MAKŁOWICZ SŁOWENIA odc.80 „ Wojenne memento\".",
