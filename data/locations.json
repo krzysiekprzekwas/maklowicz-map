@@ -2445,6 +2445,78 @@
       ]
     },
     {
+      "videoId": "lbhUcrzpuSg",
+      "videoUrl": "https://www.youtube.com/watch?v=lbhUcrzpuSg",
+      "title": "ROBERT MAKŁOWICZ SŁOWENIA odc.80 „ Wojenne memento\".",
+      "filterTitle": "Wojenne memento. (odc. 80)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-03-18T16:00:11Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "san-fermin-church",
+          "name": "San Fermin Church",
+          "description": "Urokliwy bielisty kościół w miejscowości Drežnica pośród Alp Julijskich wpisujący się w niemal z każdej strony w unikalnie przejmujący i urokliwy krajobraz Słoweńskich gór.",
+          "latitude": 46.25779321436555, 
+          "longitude": 13.613014993263825,
+          "address": "Drežnica 35, 5222 Kobarid, Slovenia",
+          "country": "Słowenia",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/s5f26mJUNAb28kGHA"
+        },
+        {
+          "id": "napoleon-s-bridge",
+          "name": "Napoleon's Bridge",
+          "description": "Miejsce o iście cesarskim imieniu – Most Napoleona. Ta imponująca konstrukcja, wzniesiona w 1803 roku, nie tylko spina brzegi rzeki, ale też stanowi żywy pomnik epoki napoleońskiej. Stojąc na nim, można niemal usłyszeć echo tamtych czasów i poczuć ducha historii, a może i pomyśleć o prowiantach ówczesnej armii.",
+          "latitude": 46.248355863266404, 
+          "longitude": 13.586133502898624,
+          "address": "6HXP+7C Kobarid, Slovenia",
+          "country": "Słowenia",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/pgxkTDdGp7ZmbT936"
+        },
+        {
+          "id": "kobarid-museum",
+          "name": "Kobarid Museum",
+          "description": "Muzeum nawiązujące do starć z okresu Pierwszej Wojny Światowej opisujące tragicznie krwawe i heroiczne wydarzenia z tego okresu. To miejsce, gdzie historia staje się namacalna, a każdy eksponat opowiada swoją własną, często dramatyczną historię.",
+          "latitude": 46.246596447219126, 
+          "longitude": 13.580935761983486,
+          "address": "Mučeniška ulica 8a, 5222 Kobarid, Slovenia",
+          "country": "Słowenia",
+          "type": "attraction",
+          "websiteUrl": "https://www.kobariski-muzej.si/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/orw22KT95sreom9p9"
+        },
+        {
+          "id": "ossuary-of-italian-wwi-soldiers",
+          "name": "Ossuary of Italian WWI soldiers",
+          "description": "Miejsce, które chwyta za serce – ossuarium włoskich żołnierzy poległych w I wojnie światowej. Ta imponująca budowla, wzniesiona w latach 30. XX wieku, przypomina o burzliwych losach regionu, gdzie historia mieszała się z krwią. Po takiej wizycie najlepiej chyba usiąść w pobliskiej gospodzie i w ciszy pomyśleć nad tym, co się widziało, popijając lokalne wino.",
+          "latitude": 46.246991089698476,
+          "longitude":  13.583973673681928,
+          "address": "Pot na gradič 5, 5222 Kobarid, Slovenia",
+          "country": "Słowenia",
+          "type": "attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/vqHeTGoYczK6T6sC9"
+        },
+        {
+          "id": "hisa-polonka",
+          "name": "Hisa Polonka",
+          "description": "W malowniczej Dolinie Sočy, gdzie rzeka ma kolor turkusu, kryje się miejsce niezwykłe – Hisa Polonka. W tym starym domu, który pamięta pewnie niejedną historię, serwowane są prawdziwe skarby lokalnej kuchni, przygotowywane z wielką pasją. To adres, gdzie można skosztować Słowenii w najlepszym wydaniu, z nutą tradycji i zaskakującą lekkością.",
+          "latitude": 46.24781110163209, 
+          "longitude": 13.57969258947312,
+          "address": "Mučeniška ulica 8b, 5222 Kobarid, Slovenia",
+          "country": "Słowenia",
+          "type": "restaurant",
+          "websiteUrl": "https://hisapolonka.com/domov/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/7tjAwws8dYJiZKyE7"
+        }
+      ]
+    },
+    {
       "videoId": "kzQDPsfpVjQ",
       "videoUrl": "https://www.youtube.com/watch?v=kzQDPsfpVjQ",
       "title": "ROBERT MAKŁOWICZ POLSKA odc.79 „ Flamandzkie wytchnienie”.",
