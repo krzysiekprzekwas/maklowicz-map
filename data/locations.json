@@ -1965,10 +1965,48 @@
       ]
     },
     {
+      "videoId": "LlWBvxozR8A",
+      "videoUrl": "https://www.youtube.com/watch?v=LlWBvxozR8A",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc. 88  „Tarnowska gastromajówka\".",
+      "filterTitle": "Tarnowska gastromajówka. (odc. 88)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-05-27T15:00:13Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "hotel-bristol",
+          "name": "Hotel Bristol",
+          "description": "Prawdziwa instytucja, która od 1901 roku stoi niewzruszenie, chłonąc historię miasta. To miejsce, gdzie ściany szepczą opowieści o minionych epokach i wielkim świecie, a w eleganckich wnętrzach wciąż czuć ducha dawnej świetności – idealne, by w atmosferze luksusu skosztować czegoś wyjątkowego.",
+          "latitude": 50.01134900949075, 
+          "longitude": 20.983176343441016,
+          "address": "Krakowska 11a, 33-100 Tarnów, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "https://hotelbristol.com.pl",
+          "image": "/images/hotel-bristol.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/eg89VEswbmQbdLAx6"
+        },
+        {
+          "id": "rynek-w-tarnowie",
+          "name": "Rynek w Tarnowie",
+          "description": "Tarnowski Rynek, prawdziwe serce miasta, to miejsce, gdzie historia wciąż żyje w pięknych kamienicach i majestatycznym Ratuszu. Spacerując po bruku, można niemal poczuć ducha dawnych wieków, a myśl o tym, co pysznego czeka w okolicznych lokalach, dodaje przechadce wyjątkowego smaku. To wizytówka Tarnowa, pełna uroku i niepowtarzalnego klimatu.",
+          "latitude": 50.012591895696275,
+          "longitude": 20.988191922579542,
+          "address": "plac Katedralny 4, 33-100 Tarnów, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "/images/rynek-w-tarnowie.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/gd8rrX8Niu8pM6a29"
+        }
+      ]
+    },
+    {
       "videoId": "68vUCs25TmQ",
       "videoUrl": "https://www.youtube.com/watch?v=68vUCs25TmQ",
       "title": "ROBERT MAKŁOWICZ LITWA  odc.87 „W dolinie Issy\".",
-      "filterTitle": "dolinie Issy. (odc. 87)",
+      "filterTitle": "W dolinie Issy. (odc. 87)",
       "playlistId": "",
       "playlistTitle": "",
       "date": "2022-05-20T15:00:12Z",

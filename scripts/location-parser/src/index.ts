@@ -425,6 +425,7 @@ function createLocation(data: Location, link: string): Location {
     country: translateCountryName(data.country),
     type: data.type,
     websiteUrl: data.websiteUrl,
+    image: '',
     GoogleMapsLink: link
   };
 }

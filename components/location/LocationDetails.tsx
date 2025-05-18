@@ -158,7 +158,7 @@ export function LocationDetails({
                   <td>{video.date}</td>
                 </tr>
                 {location.websiteUrl && (
-                  <tr>
+                  <tr className="border-b border-secondary-border">
                     <td className="text-gray-500">Strona miejsca:</td>
                     <td>
                       <a
