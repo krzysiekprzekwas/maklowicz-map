@@ -2014,6 +2014,7 @@
           "country": "Tunezja",
           "type": "attraction",
           "websiteUrl": "",
+          "image": "https://guide-voyage-tunisie.com/wp-content/uploads/2022/11/poterie-guellala-1024x768.webp",
           "GoogleMapsLink": "https://maps.app.goo.gl/SBJ4QwNQ6zyvArFB8"
         },
         {
@@ -2026,6 +2027,7 @@
           "country": "Tunezja",
           "type": "restaurant",
           "websiteUrl": "",
+          "image": "https://tunisie.co/uploads/images/content/darjilani20180913-0008.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/Vu1qeFgNucueeyjt5"
         }
       ]
