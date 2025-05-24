@@ -1893,6 +1893,70 @@
       ]
     },
     {
+      "videoId": "C4Hpup58xZ4",
+      "videoUrl": "https://www.youtube.com/watch?v=C4Hpup58xZ4",
+      "title": "ROBERT MAKŁOWICZ TUNEZJA odc. 91 „ Piraci i rybny kuskus\".",
+      "filterTitle": "Piraci i rybny kuskus. (odc. 91)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-06-17T15:00:11Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "marche-central-houmt-souk",
+          "name": "Marché Central Houmt Souk",
+          "description": "Marché Central w Houmt Souk, wzniesiony w 1962 roku, to prawdziwe serce tego tunezyjskiego miasteczka, gdzie bije jego kulinarny puls. To tutaj, wśród feerii barw i zapachów, można odkryć najświeższe skarby morza i lądu – od aromatycznych przypraw po lokalne przysmaki – prawdziwa uczta dla zmysłów i duszy.",
+          "latitude": 33.87504674026869, 
+          "longitude": 10.858560472623315,
+          "address": "VVG3+2VQ, Houmt Souk, Tunisia",
+          "country": "Tunisia",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "/images/marche-central-houmt-souk.png",
+          "GoogleMapsLink": "https://maps.app.goo.gl/H67PwJ3eewUZ2b1W6"
+        },
+        {
+          "id": "restaurant-chez-moumou-grillade-de-poissons",
+          "name": "Restaurant Chez MouMou Grillade de Poissons",
+          "description": "W Tunezji, gdzie słońce hojnie obdarza wybrzeże, Robert trafił na prawdziwą perełkę – restaurację Chez MouMou Grillade de Poissons. To miejsce, gdzie ryby prosto z morza lądują na rozgrzanym ruszcie, pachnąc słońcem i przyprawami. W tej prostej scenerii, dalekiej od zgiełku, poczuł autentyczny smak tunezyjskiego życia i kulinarnej tradycji.",
+          "latitude": 33.87537006752077, 
+          "longitude": 10.858837622671937,
+          "address": "VRFW+WGC, Houmt Souk, Tunisia",
+          "country": "Tunisia",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "image": "/images/marche-central-houmt-souk.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/bdC2EDPcTuKmH51t7"
+        },
+        {
+          "id": "entree-du-souk-couvert",
+          "name": "Entrée du Souk Couvert - سوق الربع",
+          "description": "Przekraczając próg Entrée du Souk Couvert, zakrytego targu, wkracza się w świat pełen barw i zapachów, prawdziwe wrota do serca tunezyjskiego handlu. To miejsce o bogatej historii, gdzie od wieków splatają się szlaki kupieckie, a powietrze wypełniają aromaty przypraw i lokalnych specjałów, tworząc atmosferę, która oczarowała niejednego podróżnika, w tym samego Roberta Makłowicza.",
+          "latitude": 33.87639933872924, 
+          "longitude": 10.858910008994798,
+          "address": "VVG5+GGQ, Rue 2 Mars, Houmt Souk, Tunisia",
+          "country": "Tunisia",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://media-cdn.tripadvisor.com/media/photo-p/13/2b/1c/08/souk-couvert.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ETRKjJaiz3WzJKkb6"
+        },
+        {
+          "id": "zamek-borj-el-kebir",
+          "name": "Zamek Borj El Kebir",
+          "description": "Ta imponująca forteca, której początki sięgają 1432 roku, stoi niewzruszenie nad brzegiem morza, opowiadając gawędę o dawnych czasach i smakach regionu.",
+          "latitude": 33.88396901094039, 
+          "longitude": 10.860546372801926,
+          "address": "VVP5+F8Q, Houmt Souk, Tunisia",
+          "country": "Tunisia",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://cdn.pixabay.com/photo/2021/09/05/12/18/borj-el-kebir-6599498_960_720.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/PXSqzZu5keHt7ri7A"
+        }
+      ]
+    },
+    {
       "videoId": "bTiAuzT4Wrs",
       "videoUrl": "https://www.youtube.com/watch?v=bTiAuzT4Wrs",
       "title": "ROBERT MAKŁOWICZ TUNEZJA odc. 90 „ Afrykańskie Śródziemnomorze \".",
@@ -1905,19 +1969,20 @@
         {
           "id": "hotel-royal-garden-palace",
           "name": "Hôtel Royal Garden Palace",
-          "description": "5 gwiazdkowy resort na wyspie Dżerba.",
+          "description": "W sercu słonecznej Tunezji, gdzie antyczne ruiny szepczą historie, a powietrze nasycone jest aromatem przypraw, czeka na podróżnych Hôtel Royal Garden Palace. To właśnie tutaj można zanurzyć się w lokalnej gościnności, a kuchnia kusi obfitością smaków, dając przedsmak prawdziwej tunezyjskiej uczty.",
           "latitude": 33.82668088077511, 
           "longitude": 11.017931815719924,
           "address": "RXHW+FM Djerba Midun, Tunisia",
           "country": "Tunezja",
           "type": "other",
           "websiteUrl": "",
+          "image": "https://grafiki.r.pl/hotel/4065/wakacje-i-wczasy-w-hotelu-royal-garden-palace-185791.jpg?crop=4996%2C3331%2C2%2C0&width=576&height=384",
           "GoogleMapsLink": "https://maps.app.goo.gl/9aBRKi1FcZrgAZq48"
         },
         {
           "id": "djerba-explore-village",
           "name": "Djerba Explore Village",
-          "description": "Wioska turystyczna, pełnionca też forme skansenu, zoo i muzeum impersjonistycznej architektury tunezyjskiej.",
+          "description": "Oto Djerba Explore Village na tunezyjskiej Djerbie, miejsce, gdzie historia i kultura łączą się w sposób... zaskakujący, a do tego można poczuć ducha tradycji. Ten kompleks, który powstał na początku XXI wieku, oferuje nie tylko wspaniałe muzeum sztuki islamu czy farmę krokodyli, ale też wiernie odtworzoną tradycyjną wioskę, gdzie aż prosi się o spróbowanie lokalnych specjałów czy choćby aromatycznej herbaty. To prawdziwa mozaika wrażeń, która pokazuje Dżerbę z wielu fascynujących stron.",
           "latitude": 33.81879567363342, 
           "longitude": 11.044165346746796,
           "address": "R2FQ+CHJ, Djerba Midun, Tunisia",
@@ -1929,13 +1994,14 @@
         {
           "id": "djerba-crocodile-farm",
           "name": "Djerba Crocodile Farm",
-          "description": "Ferma rozrodcza krokodyli.",
+          "description": "Na tunezyjskiej Dżerbie, gdzie słońce grzeje, a lokalna kuchnia kusi, Pan Robert natrafił na coś zupełnie innego – farmę krokodyli. Założona w 2002 roku, oferuje niecodzienne spotkanie z setkami nilowych gadów, które mają apetyt, ale na szczęście nie na odwiedzających. To prawdziwa gratka dla miłośników przyrody, choć z pewnością nie kulinariów!",
           "latitude": 33.82140630873643, 
           "longitude": 11.047311413163355,
           "address": "R2FQ+CHJ, Djerba Midun, Tunisia",
           "country": "Tunezja",
           "type": "attraction",
           "websiteUrl": "",
+          "image": "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=auto,quality=60,dpr=1/tour_img/5e35e204df6ca.jpeg",
           "GoogleMapsLink": "https://maps.app.goo.gl/DfjRjS6oJnTsTrfaA"
         },
         {
