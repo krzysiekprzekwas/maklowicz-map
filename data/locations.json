@@ -1929,16 +1929,16 @@
           "GoogleMapsLink": "https://maps.app.goo.gl/C22MvtCdANDMh97t5"
         },
         {
-          "id": "chnini",
-          "name": "Chnini",
+          "id": "Chenini",
+          "name": "Chenini",
           "description": "Ta starożytna berberyjska wioska, wciśnięta w skaliste zbocze jak gniazdo, zachwyca unikalną architekturą ksarów z XII wieku. Spacerując jej uliczkami, można niemal poczuć smak minionych stuleci i prostego, górskiego życia.",
           "latitude": 32.91424855862072, 
           "longitude": 10.276852205557102,
           "address": "W5F4+97 Chenini, Tunisia",
           "country": "Tunezja",
           "type": "attraction",
-          "websiteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Chenini_2021.jpg/1200px-Chenini_2021.jpg",
-          "image": "",
+          "websiteUrl": "",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Chenini_2021.jpg/1200px-Chenini_2021.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/uG5qXqg8Hrreq87s6"
         },
         {

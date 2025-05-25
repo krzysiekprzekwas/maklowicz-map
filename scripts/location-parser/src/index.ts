@@ -50,6 +50,7 @@ const countryTranslations: Record<string, string> = {
   "Sweden": "Szwecja",
   "Switzerland": "Szwajcaria",
   "Turkey": "Turcja",
+  "Tunisia": "Tunezja",
   "Ukraine": "Ukraina",
   "Russia": "Rosja",
   "Croatia": "Chorwacja",

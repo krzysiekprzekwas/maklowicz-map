@@ -34,6 +34,7 @@ export function LocationDetails({
 }: LocationDetailsProps) {
   const [isFavorite, setIsFavorite] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
+  const [isImageLoading, setIsImageLoading] = useState(true);
 
   const video = locationData.videos.find(v => 
     v.locations.some(loc => loc.id === location?.id)
@@ -42,7 +43,7 @@ export function LocationDetails({
   useEffect(() => {
     // Check if we're on mobile
     const checkIfMobile = () => {
-      setIsMobile(window.innerWidth < 768); // 768px is the md breakpoint in Tailwind
+      setIsMobile(window.innerWidth < 768); 
     };
 
     // Initial check
@@ -94,11 +95,15 @@ export function LocationDetails({
       </div>
 
       {location.image && (
-        <div className="mb-4 rounded-lg overflow-hidden border border-secondary-border">
+        <div className="mb-4 rounded-lg overflow-hidden border border-secondary-border relative">
+          {isImageLoading && (
+            <div className="absolute inset-0 bg-secondary animate-pulse" />
+          )}
           <img 
             src={location.image} 
             alt={location.name} 
-            className="w-full h-auto object-cover"
+            className={`w-full h-auto object-cover transition-opacity duration-300 ${isImageLoading ? 'opacity-0' : 'opacity-100'}`}
+            onLoad={() => setIsImageLoading(false)}
           />
         </div>
       )}
