@@ -1893,6 +1893,96 @@
       ]
     },
     {
+      "videoId": "N_nsFwH4JxA",
+      "videoUrl": "https://www.youtube.com/watch?v=N_nsFwH4JxA",
+      "title": "ROBERT MAKŁOWICZ TUNEZJA odc.  93 „Tajemnice Sahary”.",
+      "filterTitle": "Tajemnice Sahary”. (odc. 93)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-07-01T15:00:12Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "the-gateway-to-the-sahara-desert",
+          "name": "The Gateway to the Sahara Desert",
+          "description": "W Tunezji znajduje się miejsce, które jest niczym wrota do bezkresnej Sahary. To tu, gdzie cywilizacja styka się z piaskiem, dawniej tętnił handel, a kupcy pewnie popijali mocną herbatę przed wyruszeniem w nieznane. Prawdziwy przedsmak pustyni!",
+          "latitude": 33.436154072095626, 
+          "longitude": 9.033557801738162,
+          "address": "C28Q+8G Ghlissia, Tunisia",
+          "country": "Tunezja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/4CbNou5fAdb6F3kW6"
+        },
+        {
+          "id": "wielki-szott",
+          "name": "Wielki Szott",
+          "description": "Wielki Szott to miejsce, gdzie Robert Makłowicz przekonał się, że nawet krajobraz może być... słony! Ta ogromna solna pustynia, gdzie słońce praży niemiłosiernie, serwuje podróżnym głównie iluzje w postaci fatamorgan. To sceneria tak niezwykła, że sama w sobie stanowi ucztę dla oczu, choć kubki smakowe muszą cierpliwie poczekać na powrót do bardziej gościnnych stron.",
+          "latitude": 33.94258373783347, 
+          "longitude": 8.418558126282761,
+          "address": "8F59PM4X+P8",
+          "country": "Tunezja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://s12.flog.pl/media/foto/8929176_-wielki-szott-chott-el-jerid-to-slone-bezodplywowe-jezioro-znajdujace-sie-w-srodkowozachodniej-tunezji.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Fo5CQc6xgGZYyebD8"
+        },
+        {
+          "id": "golden-yasmin-hotel",
+          "name": "Golden Yasmin Hotel",
+          "description": "W Tunezji, gdzie rzymskie ruiny szepczą historie, a słońce pieści skórę, znajduje się Golden Yasmin Hotel – miejsce, które obiecuje nie tylko wytchnienie od upału, ale i prawdziwą ucztę dla podniebienia, przesiąkniętą lokalnymi smakami. To właśnie tam można poczuć orientalny urok i gościnność, która sprawia, że chce się wracać po więcej.",
+          "latitude": 33.913761331214694, 
+          "longitude": 8.117720285119228,
+          "address": "W478+J95, Rte Touristique, Tozeur, Tunisia",
+          "country": "Tunezja",
+          "type": "other",
+          "websiteUrl": "https://www.goldenyasmin.com/fr/ras-el-ain/",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ae/dc/fc/piscine-exterieure.jpg?w=900&h=500&s=1",
+          "GoogleMapsLink": "https://maps.app.goo.gl/1F5U53BHahRGi8yBA"
+        },
+        {
+          "id": "central-market-of-tozeur",
+          "name": "Central Market of Tozeur",
+          "description": "Oto Centralny Rynek w Tozeur – miejsce, gdzie w labiryncie straganów historia spotyka się z teraźniejszością w prawdziwie tunezyjskim stylu. Pośród zapachu daktyli prosto z oazy i aromatycznych przypraw można poczuć puls życia pustynnego miasta. To kulinarny wehikuł czasu i raj dla każdego poszukiwacza lokalnych smaków.",
+          "latitude": 33.92081112076738, 
+          "longitude": 8.137004209361056,
+          "address": "W4CP+CJ7, Ave Ibn Chabat, Tozeur, Tunisia",
+          "country": "Tunezja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://lh3.googleusercontent.com/proxy/U7rkeSqmvlYOnUVCzfQ5F5KOaZgqLx0Vq2EOGwYtKt_gnlCN22R-aC16t1jsG2m6MwqvvmnLnIcYvzPRhnaHzkCXVVXmyNIRC5s3QvoSkw",
+          "GoogleMapsLink": "https://maps.app.goo.gl/tjyb9q1LFbaVvczXA"
+        },
+        {
+          "id": "eden-palm",
+          "name": "Eden Palm",
+          "description": "W tunezyjskim słońcu, gdzie powietrze pachnie daktylami i przyprawami, Pan Robert trafił do miejsca o obiecującej nazwie Eden Palm. To nie tylko oaza zieleni i spokoju, ale prawdziwy wehikuł czasu, gdzie w cieniu palmowych liści odnaleźć można echa dawnych opowieści i, co najważniejsze, spróbować specjałów, które rozgrzewają serce i podniebienie.",
+          "latitude": 33.91709581944198, 
+          "longitude": 8.146921386579045,
+          "address": "W45P+PC Tozeur, Tunisia",
+          "country": "Tunezja",
+          "type": "attraction",
+          "websiteUrl": "http://www.eden-palm.com/",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/fb/dd/99/eden-palm-tresors-de.jpg?w=1200&h=-1&s=1",
+          "GoogleMapsLink": "https://maps.app.goo.gl/XQwMfQHub73f6oGr6"
+        },
+        {
+          "id": "chebika-oasis",
+          "name": "Chebika Oasis",
+          "description": "W Tunezji, gdzie góry spotykają pustynię, kryje się Chebika Oasis – prawdziwy cud natury. Woda tryska tu wprost ze skał, dając życie palmom daktylowym i przypominając o dawnych Berberach, którzy potrafili przetrwać w tym surowym, lecz hojnym miejscu, czerpiąc pełnymi garściami z darów ziemi.",
+          "latitude": 34.32179793161404, 
+          "longitude": 7.939740386474439,
+          "address": "8WC9+FX As-Sabikah, Tunisia",
+          "country": "Tunezja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://media.istockphoto.com/id/178958212/pl/zdjęcie/góra-oasis-chebika.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/5PxZFXCUpMrvAKeH7"
+        }
+      ]
+    },
+    {
       "videoId": "_pfV-E4eI4k",
       "videoUrl": "https://www.youtube.com/watch?v=_pfV-E4eI4k",
       "title": "ROBERT MAKŁOWICZ TUNEZJA odc. 92 „ Berberowie i Gwiezdne Wojny\".",
