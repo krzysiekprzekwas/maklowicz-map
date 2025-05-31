@@ -1893,6 +1893,83 @@
       ]
     },
     {
+      "videoId": "aJTKQ6m4P0A",
+      "videoUrl": "https://www.youtube.com/watch?v=aJTKQ6m4P0A",
+      "title": "ROBERT MAKŁOWICZ WŁOCHY odc.  96 „ Mediolan, alfa i ja \".",
+      "filterTitle": "Mediolan, alfa i ja (odc. 96)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-07-22T15:00:13Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "alfa-romeo-museum",
+          "name": "Alfa Romeo Museum",
+          "description": "Ach, toż to prawdziwa uczta dla oka i ducha, niczym najlepiej przyrządzone *risotto*! Muzeum Alfy Romeo to nie tylko zbiór wspaniałych samochodów, ale żywa opowieść o włoskim kunszcie, pasji i tym słynnym \"cuore sportivo\", które napędzało inżynierów i kierowców przez dziesięciolecia. Można by rzec, że to esencja włoskiej motoryzacji podana na talerzu historii.",
+          "latitude": 45.55802574214383, 
+          "longitude": 9.04709169953132,
+          "address": "H25V+6R Rho, Metropolitan City of Milan, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "https://www.museoalfaromeo.com/",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/89/d6/6a/museo-storico-alfa-romeo.jpg?w=900&h=500&s=1",
+          "GoogleMapsLink": "https://maps.app.goo.gl/xJB7x8urA3SooTNy8"
+        },
+        {
+          "id": "katedra-w-mediolanie",
+          "name": "Katedra w Mediolanie",
+          "description": "W Mediolanie, w samym sercu Lombardii, wznosi się Duomo – Katedra, której budowę rozpoczęto w 1386 roku. To prawdziwy kamienny kolos, dzieło tak monumentalne i bogate w detale, że można by je podziwiać godzinami, niczym kontemplując skomplikowane, ale pyszne danie. Jej liczne wieżyczki i rzeźby tworzą koronkową fasadę, będącą świadectwem wieków historii i ludzkiego kunsztu.",
+          "latitude": 45.46418413557435, 
+          "longitude": 9.190618243366943,
+          "address": "Viale S. Michele del Carso, 12, 20144 Milano MI, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "https://www.duomomilano.it/",
+          "image": "https://www.bautrip.com/images/what-to-visit/duomo-di-milano.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/jJ7Z7ZNNXU6jYTjZ9"
+        },
+        {
+          "id": "galeria-wiktora-emanuela-ii",
+          "name": "Galeria Wiktora Emanuela II",
+          "description": "W Mediolanie, między ikoniczną katedrą a słynną operą, rozpościera się wspaniała Galeria Wiktora Emanuela II. Ten XIX-wieczny (1865-1877) pasaż, nazywany \"salonem Mediolanu\", to prawdziwa perła architektury, gdzie pod imponującym szklanym dachem można nie tylko podziwiać luksusowe witryny, ale przede wszystkim poczuć puls miasta i, kto wie, może skusić się na wykwintną kawę w jednym z historycznych lokali.",
+          "latitude": 45.4656284705217, 
+          "longitude": 9.189995372591074,
+          "address": "Galleria Vittorio Emanuele II, 12, 20121 Milano MI, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "https://www.yesmilano.it/esplora/luoghi/galleria-vittorio-emanuele-ii",
+          "image": "https://www.whitemad.pl/wp-content/uploads/2024/02/resize_Jorge-Lascar-f2-1.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/oMpsZurjeoBX9PMQA"
+        },
+        {
+          "id": "la-scala",
+          "name": "La Scala",
+          "description": "W Mediolanie, wśród zgiełku miasta, pan Robert odkrył miejsce o wyjątkowym smaku kultury – słynną La Scalę. Ta opera, wzniesiona w 1778 roku, to prawdziwa świątynia sztuki, gdzie dramaty na scenie bywają równie intensywne i pełne niuansów, co najlepsze włoskie dania. To symbol włoskiego kunsztu i miejsce, które karmi duszę melomana.",
+          "latitude": 45.46735567745735, 
+          "longitude": 9.18965186424734,
+          "address": "P. Scala, 5, 20121 Milano MI, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "https://www.teatroallascala.org/it/index.html",
+          "image": "https://www.podrozepoeuropie.pl/system/gallery/images/images/000/015/123/large/Teatr-La-Scala-Mediolan_2.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Qna9gJw46FFYZ1hB8"
+        },
+        {
+          "id": "la-gigieria-del-faccio-cose-vedo-gente",
+          "name": "La Gigieria del Faccio Cose Vedo Gente",
+          "description": "Pan Robert Makłowicz, zawsze w poszukiwaniu kulinarnych perełek, trafił we Włoszech do miejsca o intrygującej nazwie La Gigieria del Faccio Cose Vedo Gente. To nie jest zwykła trattoria; to prawdziwa scena życia, gdzie podają coś pysznego, a nazwa \"Robię Rzeczy, Widzę Ludzi\" doskonale oddaje jego niepowtarzalny charakter i atmosferę.",
+          "latitude": 45.488461450638624, 
+          "longitude": 9.189666326538111,
+          "address": "Via Garigliano, 3, 20159 Milano MI, Italy",
+          "country": "Włochy",
+          "type": "restaurant",
+          "websiteUrl": "https://www.instagram.com/la_gigieria/",
+          "image": "https://vivimilano.corriere.it/wp-content/uploads/2024/02/la-gigieria-del-faccio-cose-vedo-gente.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/sZtrHF7ngoCeJikk6"
+        }
+      ]
+    },
+    {
       "videoId": "5s7QAj5-Hz0",
       "videoUrl": "https://www.youtube.com/watch?v=5s7QAj5-Hz0",
       "title": "ROBERT MAKŁOWICZ NIEMCY odc. 95 „ Wokół Berchtesgaden\".",
