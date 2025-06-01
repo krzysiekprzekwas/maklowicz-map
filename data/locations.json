@@ -1893,6 +1893,83 @@
       ]
     },
     {
+      "videoId": "vH0-YfyTVBQ",
+      "videoUrl": "https://www.youtube.com/watch?v=vH0-YfyTVBQ",
+      "title": "ROBERT MAKŁOWICZ WŁOCHY  odc.97 „Nad Como\".",
+      "filterTitle": "Nad Como. (odc. 97)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-07-29T15:00:12Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "piazza-del-duomo",
+          "name": "Piazza del Duomo",
+          "description": "Mówią, że Piazza del Duomo to prawdziwa dusza włoskiego miasta. To właśnie tutaj, w cieniu majestatycznej katedry (która nierzadko pamięta czasy, gdy o pizzy marzono tylko w snach!), można poczuć puls historii i teraźniejszości. Wystarczy przysiąść na chwilę, może z małą kawą w ręku, by zrozumieć, dlaczego to centrum życia i... dobrego smaku.",
+          "latitude": 45.81169489648042, 
+          "longitude": 9.08293832441871,
+          "address": "Piazza del Duomo, 12, 22100 Como CO, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Como_Piazza_del_Duomo_2.jpg/2560px-Como_Piazza_del_Duomo_2.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/c5bn3rC9yo1CaB4u5"
+        },
+        {
+          "id": "la-bottega-del-tartufo",
+          "name": "La Bottega del Tartufo",
+          "description": "Włoskie \"La Bottega del Tartufo\" to miejsce, gdzie powietrze przesycone jest aromatem ziemi i luksusu – prawdziwa świątynia dla miłośników trufl i podziemnych skarbów Italii. Często mieszczące się w historycznych murach, stanowi żywy dowód na wiekową tradycję poszukiwania i celebrowania tego wyjątkowego składnika.",
+          "latitude": 45.81079132789381, 
+          "longitude": 9.083947576654579,
+          "address": "Via Rusconi, 8, 22100 Como CO, Italy",
+          "country": "Włochy",
+          "type": "other",
+          "websiteUrl": "https://labottegadeltartufo.it/",
+          "image": "https://labottegadeltartufo.it/cdn/shop/files/EOSR1093_1000x1000.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/5bMJH8MXrHWiTwRt5"
+        },
+        {
+          "id": "palace-hotel",
+          "name": "Palace Hotel",
+          "description": "Włoski Palace Hotel to miejsce, które odwiedził pan Robert, gdzie czuć ducha dawnych lat i elegancję minionych epok. Stanowi on idealne tło dla smakowitych opowieści i kulinarnych odkryć, które z pewnością miały tam miejsce.",
+          "latitude": 45.81383429738636, 
+          "longitude": 9.082739676887122,
+          "address": "Piazza Roma, 1, 22100 Como CO, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "http://www.palacehotel.it/",
+          "image": "https://www.palacehotel.it/wp-content/uploads/2024/03/1920_esterno10-1680x945.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/p3QcWe2KhsnSTHJ57"
+        },
+        {
+          "id": "como-lago",
+          "name": "Como Lago",
+          "description": "Stacja kolejowa sprzed czasów samochodowej mobilności nad jeziorem Como, gdzie słońce grzeje tak, że nawet kamienie nabierają włoskiego temperamentu. To miejsce, gdzie historia splata się z luksusem, a zapierające dech w piersiach widoki stanowią idealne tło, by z rozkoszą skosztować lokalnych specjałów prosto z wody lub okolicznych wzgórz.",
+          "latitude": 45.81416509998339, 
+          "longitude": 9.084195364594326,
+          "address": "Como Lago, 22100 Como CO, Italy",
+          "country": "Włochy",
+          "type": "other",
+          "websiteUrl": "",
+          "image": "https://r-xx.bstatic.com/xdata/images/landmark/608x352/238503.webp",
+          "GoogleMapsLink": "https://maps.app.goo.gl/c4dL56Ub9BQDdg4E7"
+        },
+        {
+          "id": "hotel-silvio",
+          "name": "Hotel Silvio",
+          "description": "Oto propozycja opisu:\n\nWłoski Hotel Silvio to miejsce, które ma w sobie ducha dawnych, dobrych czasów. Jego mury, choć może nie pamiętają konkretnej daty powstania, z pewnością widziały niejedno i gościły wielu, oferując prawdziwie włoską gościnność i, co najważniejsze, wyborne smaki kuchni regionu. To idealny przystanek dla konesera życia, szukającego autentycznych wrażeń.",
+          "latitude": 45.97742870956181, 
+          "longitude": 9.25343938850096,
+          "address": "Via Paolo Carcano, 10/12, 22021 Bellagio CO, Italy",
+          "country": "Włochy",
+          "type": "other",
+          "websiteUrl": "http://www.bellagiosilvio.com/",
+          "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/4099689.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Jj9QdTGDHkmugXSBA"
+        }
+      ]
+    },
+    {
       "videoId": "aJTKQ6m4P0A",
       "videoUrl": "https://www.youtube.com/watch?v=aJTKQ6m4P0A",
       "title": "ROBERT MAKŁOWICZ WŁOCHY odc.  96 „ Mediolan, alfa i ja \".",
