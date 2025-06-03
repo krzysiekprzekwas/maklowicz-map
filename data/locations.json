@@ -1893,6 +1893,83 @@
       ]
     },
     {
+      "videoId": "a4QOGz3hOBk",
+      "videoUrl": "https://www.youtube.com/watch?v=a4QOGz3hOBk",
+      "title": "ROBERT MAKŁOWICZ WŁOCHY  odc.98 „Cudna Garda\".",
+      "filterTitle": "Cudna Garda. (odc. 98)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-08-05T15:00:12Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "passeggiata-salo",
+          "name": "Passeggiata Salò",
+          "description": "Ach, ta Passeggiata Salò! Ta malownicza promenada nad Jeziorem Garda to kwintesencja włoskiego \"dolce far niente\", gdzie widoki zapierają dech, a aromat kawy i lokalnych smakołyków unosi się w powietrzu, zachęcając do chwili błogiego relaksu.",
+          "latitude": 45.60662744219866, 
+          "longitude": 10.52612278003149,
+          "address": "Passeggiata Salò, Vicolo Oratorio, 3, 25087 Salò BS, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://turistipercaso.it/wp-content/uploads/2024/08/salo-lungolago_2056645790.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/YogcfMhydKbLL9bm9"
+        },
+        {
+          "id": "torre-apponale",
+          "name": "Torre Apponale",
+          "description": "Oto Torre Apponale we Włoszech, średniowieczna strażnica z XIII wieku, która dumnie wznosi się nad portem w Riva del Garda. Ta wieża to prawdziwy symbol miasta, będący świadkiem wieków historii i z pewnością wielu pysznych dań, które przewinęły się przez okoliczne trattorie. Stojąc u jej stóp, czuje się puls przeszłości i apetyt na przyszłość.",
+          "latitude": 45.88480299248691, 
+          "longitude": 10.840053337623585,
+          "address": "VRMM+76 Riva del Garda, Autonomous Province of Trento, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "http://www.museoaltogarda.it/",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/a4/1f/48/torre-apponale.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/R6ogC95U1dghqxjv7"
+        },
+        {
+          "id": "agraria-riva-del-garda",
+          "name": "Agraria Riva del Garda",
+          "description": "W malowniczym Riva del Garda, od 1926 roku, działa Agraria – miejsce, które jest sercem lokalnej tradycji rolniczej. To tutaj, wśród półek uginających się od wyśmienitej oliwy, wina i regionalnych przysmaków, można poczuć prawdziwego ducha tej ziemi i odkryć smaki, które opowiadają historię regionu.",
+          "latitude": 45.8973966598988, 
+          "longitude": 10.85271551188511,
+          "address": "Località Roncaglie, 17, 38066 Riva del Garda TN, Italy",
+          "country": "Włochy",
+          "type": "other",
+          "websiteUrl": "http://store.agririva.it/",
+          "image": "https://store.agririva.it/wp-content/uploads/2020/09/0118-Agririva-esterni-┬®-2020-Fabio-Staropoli-fotofiore.com_-scaled-optimized.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/cxsH6DnGPuG2tu7r5"
+        },
+        {
+          "id": "vittoriale-degli-italiani",
+          "name": "Vittoriale degli Italiani",
+          "description": "Makłowicz zawitał do Vittoriale degli Italiani nad malowniczym jeziorem Garda. To niezwykłe, wręcz kuriozalne miejsce, które od 1921 roku tworzył ekscentryczny poeta Gabriele D'Annunzio jako pomnik własnego życia i fantazji. Spacerując po tej \"cytadeli\" pełnej zaskakujących detali, od statku na wzgórzu po osobliwe wnętrza, czuje się ten niepowtarzalny, intensywny smak historii i wielkiej osobowości.",
+          "latitude": 45.62405818575105, 
+          "longitude": 10.565118969400363,
+          "address": "Via della Chiesa, 47, 25083 Gardone Riviera BS, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "http://www.vittoriale.it/",
+          "image": "https://www.finestresullarte.info/rivista/immagini/2023/fn/vittoriale-degli-italiani-1.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/JS7TBaQuCB8jXwei8"
+        },
+        {
+          "id": "regia-nave-puglia",
+          "name": "Regia nave Puglia",
+          "description": "A cóż to takiego? Na włoskim wzgórzu, w Gardone Riviera, spoczywa dziób okrętu wojennego \"Puglia\" – widok doprawdy niezwykły! Ten pomnik woli Gabriele D'Annunzio, umieszczony tam w 1923 roku, oferuje panoramę, przy której aż chce się usiąść z kieliszkiem lokalnego wina i kontemplować zarówno historię, jak i pyszności regionu.",
+          "latitude": 45.625165987815585, 
+          "longitude": 10.566590077420514,
+          "address": "JHG8+2H Gardone Riviera, Province of Brescia, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "https://www.vittoriale.it/luoghi-del-vittoriale/nave-puglia/",
+          "image": "https://www.barchemagazine.com/wp-content/uploads/2024/07/il-vittoriale.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/uiohGbnBvBJ514vz6"
+        }
+      ]
+    },
+    {
       "videoId": "vH0-YfyTVBQ",
       "videoUrl": "https://www.youtube.com/watch?v=vH0-YfyTVBQ",
       "title": "ROBERT MAKŁOWICZ WŁOCHY  odc.97 „Nad Como\".",
