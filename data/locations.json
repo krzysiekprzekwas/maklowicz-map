@@ -1893,6 +1893,68 @@
       ]
     },
     {
+      "videoId": "w7LQUwnT2V0",
+      "videoUrl": "https://www.youtube.com/watch?v=w7LQUwnT2V0",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc. 101 „Rodzinna Dalmacja\".",
+      "filterTitle": "Rodzinna Dalmacja. (odc. 101)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-08-26T15:00:11Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "koscio-sw-miko-aja",
+          "name": "Kościół św. Mikołaja",
+          "description": "Stojący na niewielkim wzgórzu Kościół św. Mikołaja w Chorwacji, datowany na XI/XII wiek, to prawdziwy architektoniczny rarytas, który widział niejedno. Jego obronna forma i bogata historia sprawiają, że to miejsce ma w sobie ducha dawnych czasów, równie wyrazistego jak smak lokalnej rakiji po dobrym posiłku.",
+          "latitude": 42.98462507780549, 
+          "longitude": 17.308074353422057,
+          "address": "X8M4+V5 Oskorušno, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/8d5Ftsueqh2mqCam8"
+        },
+        {
+          "id": "the-jungle",
+          "name": "The Jungle",
+          "description": "W Chorwacji, gdzieś na uboczu, kryje się miejsce o intrygującej nazwie \"The Jungle\". To nie tylko nazwa, to prawdziwa kulinarna wyprawa w nieznane, pełna lokalnych smaków i aromatów, serwowana w atmosferze, która zdaje się pamiętać dawne czasy. Pan Robert był zachwycony tą dziką, ale jakże gościnną enklawą smaku.",
+          "latitude": 42.95425644292905, 
+          "longitude": 117.12628396713477,
+          "address": "X43F+PF Žrnovo, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "https://www.instagram.com/thejungle_club/",
+          "image": "https://i.pinimg.com/564x/fe/ff/54/feff54d98d8b6abd6e80bf02beaada5c.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/nTqQRmC77v32qBDy7"
+        },
+        {
+          "id": "ld-restaurant",
+          "name": "LD Restaurant",
+          "description": "W sercu urokliwej Korčuli, gdzie kamienne mury szepczą opowieści o dawnych czasach, kryje się LD Restaurant – miejsce, które kulinarnie sięga gwiazd. Znajdujące się nieopodal rzekomego domu Marka Polo, serwuje dania, które są prawdziwą ucztą dla podniebienia, łącząc lokalne smaki z finezją najwyższej próby. To gastronomiczna perła w historycznej scenerii.",
+          "latitude": 42.961683538120695, 
+          "longitude": 17.136977861093047,
+          "address": "Obala dr. Franje Tuđmana 1, 20260, Korčula, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "http://www.ldrestaurant.com/",
+          "image": "https://media.timeout.com/images/105881286/750/422/image.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/pxAFvKfmXfK5UA568"
+        }
+      ]
+    },
+    {
+      "videoId": "4Zgmy0F6Iz0",
+      "videoUrl": "https://www.youtube.com/watch?v=4Zgmy0F6Iz0",
+      "title": "ROBERT MAKŁOWICZ DALMACJA  odc. 100 „ Chorwacja scalona \".",
+      "filterTitle": "Chorwacja scalona (odc. 100)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-08-19T15:00:12Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": []
+    },
+    {
       "videoId": "fxWPdlTVBm0",
       "videoUrl": "https://www.youtube.com/watch?v=fxWPdlTVBm0",
       "title": "ROBERT MAKŁOWICZ WŁOCHY odc.99 „ W Trydencie \".",
