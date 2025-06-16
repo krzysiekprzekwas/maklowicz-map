@@ -1893,6 +1893,83 @@
       ]
     },
     {
+      "videoId": "ayYFL7Vml1E",
+      "videoUrl": "https://www.youtube.com/watch?v=ayYFL7Vml1E",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc.102   „  Wzdłuż Korčuli \".",
+      "filterTitle": "Wzdłuż Korčuli (odc. 102)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-09-02T15:00:09Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "rodna-kuca-olivera-dragojevica",
+          "name": "Rodna kuća Olivera Dragojevića",
+          "description": "Gdzieś w Chorwacji, na jednej z wysp, stoi dom, z którego wyszedł wielki Oliver Dragojević. To miejsce przesiąknięte jest duchem Dalmacji i muzyką, która poruszała serca pokoleń. Odwiedzając je, niemal czuje się smak morskiej bryzy i słońca, które tutaj, zdaje się, smakuje jak najlepsze lokalne wino.",
+          "latitude": 42.961021820933, 
+          "longitude": 16.714536017991527,
+          "address": "Obala 4 bb, 20270, Vela Luka, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "",
+          "image": "https://images.rtl.hr/media/images/1106xX/Jul2022/cro-3ce7adca-1019-11ed-ac0a-8e19cfbaf23b_794231.jpeg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/nUGvzTxuCLTApEfJA"
+        },
+        {
+          "id": "monument-mosaic",
+          "name": "Monument Mosaic",
+          "description": "Widok, który architektonicznie potrafi zaskoczyć bardziej niż niejedna fusion restauracja. Ten pomnik z 1967 roku, upamiętniający ważne dzieje regionu, swoją futurystyczną formą przypomina kosmiczny kwiat lub monumentalne skrzydła – wrażenie, które zostaje w pamięci niczym smak wybornego wina. To prawdziwa uczta dla oczu i ducha historii z polskim akcentem upamiętniającym wizyte Tadeusza Kantora.",
+          "latitude": 42.961611054733616, 
+          "longitude": 16.71566572846782,
+          "address": "Obala 3 20-a, 20270, Vela Luka, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHksZEDZ8jlZRWVnmT14DScwk61qmwWolMnJ9Zj0entrIQKWiTu4A1HK_8X4giuVFmDw6RRD2_WjVLCOkylRaOMKxUr5KN4ukkS1lAu4N-zV7jN4cgYBFHmHucUbeapZD0Ynpwu_EjGag/s2048/20200819_193517.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/mdWUcHGV4PZdPyYf8"
+        },
+        {
+          "id": "church-of-the-all-saints",
+          "name": "Crkva Svih Svetih",
+          "description": "Kościół Wszystkich Świętych w Chorwacji to miejsce o niezwykłej głębi, gdzie każdy kamień szepcze historie minionych wieków. Mający korzenie w średniowieczu, stanowi nie tylko świadectwo wiary, ale i wyjątkowy element krajobrazu, który z pewnością urzekłby naszego podróżnika swoją autentycznością i spokojem.",
+          "latitude": 42.93746781245893, 
+          "longitude": 16.792450580398814,
+          "address": "85. Ul. 3, 20271, Blato, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "http://www.facebook.com/zupasvihsvetih.blato",
+          "image": "https://tzo-blato.hr/images/stories/povijesna_bastina/zupna_crkva/1.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/E6JH1piupXtb9nCB6"
+        },
+        {
+          "id": "konoba-pizzeria-zlinje",
+          "name": "Konoba pizzeria Zlinje",
+          "description": "Wposzukiwaniu smaków, trafiamy do Konoby Zlinje w Chorwacji. To miejsce wyjątkowe, bo w murach, które pewnie pamiętają dawne czasy, tradycyjna chorwacka konoba spotyka się z włoską pizzą. Podobno to połączenie daje zaskakująco pyszne efekty, a atmosfera jest jak z dawnych lat.",
+          "latitude": 42.937790380415315, 
+          "longitude": 16.79222325011492,
+          "address": "85. Ul. 10/1, 20271, Blato, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "http://zlinje.com/",
+          "image": "https://tzo-blato.hr/images/stories/zlinje.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/JCfp7wqzQQYX6mYy8"
+        },
+        {
+          "id": "blato-1902-shop-tasting-room",
+          "name": "Blato 1902 Shop & Tasting Room",
+          "description": "Historia i smak spotykają się w Chorwacji w miejscu o wdzięcznej nazwie Blato 1902. To nie tylko sklep, ale i sala degustacyjna, która od 1902 roku pielęgnuje lokalne tradycje, oferując wyśmienite wina i inne specjały opowiadające własną, pyszną historię regionu. Można tam poczuć ducha minionych lat i skosztować owoców ciężkiej pracy pokoleń.",
+          "latitude": 42.939273026387774, 
+          "longitude": 16.793923114892788,
+          "address": "1. Ul. 27, 20271, Blato, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "https://blato1902.hr/poslovnice/poslovnice-blato/",
+          "image": "https://blato1902.hr/wp-content/uploads/2025/05/Wine-and-Olive-Oil-Shop-Blato-1902_Vino-i-Korculansko-maslinovo-ulje-Blato-1902.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/9vAgSrfe5x8KFgJX9"
+        }
+      ]
+    },
+    {
       "videoId": "w7LQUwnT2V0",
       "videoUrl": "https://www.youtube.com/watch?v=w7LQUwnT2V0",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc. 101 „Rodzinna Dalmacja\".",
