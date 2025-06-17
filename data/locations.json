@@ -1893,6 +1893,83 @@
       ]
     },
     {
+      "videoId": "cOHcpsE8NWQ",
+      "videoUrl": "https://www.youtube.com/watch?v=cOHcpsE8NWQ",
+      "title": "ROBERT MAKŁOWICZ CZARNOGÓRA/ALBANIA odc.103  „ Nad Jeziorem Szkoderskim\".",
+      "filterTitle": "Nad Jeziorem Szkoderskim. (odc. 103)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-09-23T15:00:11Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "sveti-stefan-czarnogora",
+          "name": "Sveti Stefan, Czarnogóra",
+          "description": "Oto Sveti Stefan w Czarnogórze, prawdziwa perełka Adriatyku! Ta dawna rybacka wioska, której korzenie sięgają XV wieku i która niegdyś stanowiła warownię, dziś prezentuje się jako ekskluzywny kurort, wyglądający jakby wyjęty z pocztówki. Można tylko pomarzyć, jakie smaki kryją się w jej kamiennych zaułkach – pewnie świeże owoce morza, przygotowane z pasją godną najlepszych kucharzy.",
+          "latitude": 42.2557614470749, 
+          "longitude": 18.89128416646666,
+          "address": "7V3P+FV Sveti Stefan, Montenegro",
+          "country": "Czarnogóra",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://mdrealtyme4927e.zapwp.com/q:i/r:0/wp:1/w:1/u:https://mdrealty.me/wp-content/uploads/Курорт-Свети-Стефан-власти-ожидают-открытия-в-2021-году.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/9aR2hvXNmpQv2MiC7"
+        },
+        {
+          "id": "jezioro-szkoderskie",
+          "name": "Jezioro Szkoderskie",
+          "description": "Znalazł się nad tą ogromną taflą wody, największym jeziorem na całych Bałkanach, gdzie natura rozkwita w niewiarygodny sposób. Prawdziwy raj dla ptactwa, owszem, ale i miejsce, gdzie historia szepcze z prastarych wysp, a tutejszy szaran (czyli karp) obiecuje niezapomniane doznania kulinarne.",
+          "latitude": 42.189509411205385, 
+          "longitude": 19.290973223511134,
+          "address": "6443+P3 Limljani, Montenegro",
+          "country": "Czarnogóra",
+          "type": "other",
+          "websiteUrl": "",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Skadar.murica.JPG",
+          "GoogleMapsLink": "https://maps.app.goo.gl/bLzvVF3vExEbKkAd8"
+        },
+        {
+          "id": "restaurant-pelikan",
+          "name": "RESTAURANT PELIKAN",
+          "description": "W Czarnogórze, Robert Makłowicz zawitał do Restauracji Pelikan, miejsca, które zdaje się pamiętać dawne czasy i tętni lokalnym życiem. To tu, w otoczeniu malowniczych widoków, można delektować się smakami, które opowiadają historię regionu – proste, autentyczne i po prostu pyszne, podane z uśmiechem, co w tych stronach ceni się szczególnie.",
+          "latitude": 42.24682358405777, 
+          "longitude": 19.09030196621348,
+          "address": "63WQ+V4 Virpazar, Montenegro",
+          "country": "Czarnogóra",
+          "type": "restaurant",
+          "websiteUrl": "http://www.pelikan-zec.com/",
+          "image": "https://foodbook.me/storage/restaurants/482/Ih6nSQe3B71rRPIQ5KW17K720c6XU8qrr6AS2WYq.jpeg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/jxZmHdU1rKiDbost6"
+        },
+        {
+          "id": "pelikan-boat-rental",
+          "name": "Pelikan Boat Rental",
+          "description": "Ach, Czarnogóra! Właśnie w Pelikan Boat Rental, położonym nad wodami, które pamiętają czasy dawnych królestw, Robert Makłowicz znalazł klucz do serca natury. Stąd, być może w towarzystwie tytułowych pelikanów, można wypłynąć na jezioro, by odkryć jego tajemnice i znaleźć idealną zatoczkę na degustację lokalnego wina i sera.",
+          "latitude": 42.24709047463502, 
+          "longitude": 19.090427691063624,
+          "address": "63WR+H2 Virpazar, Montenegro",
+          "country": "Czarnogóra",
+          "type": "other",
+          "websiteUrl": "http://www.pelikan-zec.com/",
+          "image": "https://pix10.agoda.net/hotelImages/162/1622316/1622316_16111617090048783493.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/rgraWNLUfTgCapFU9"
+        },
+        {
+          "id": "zamek-w-rozafa",
+          "name": "Zamek w Rozafa",
+          "description": "W Albanii, na wzgórzu, dumnie wznosi się Zamek w Rozafa – miejsce, gdzie historia splata się z zapierającymi dech widokami. Ponoć jego mury pamiętają czasy Ilirów, a każda kamienna ścieżka kryje jakąś dawną opowieść. Przy takiej panoramie na okoliczne rzeki i jezioro, nawet najskromniejszy posiłek zyskuje niepowtarzalny smak przygody!",
+          "latitude": 42.04641322794874, 
+          "longitude": 19.49375191083328,
+          "address": "3FPX+8X Shkodër, Albania",
+          "country": "Albania",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://dalekoniedaleko.pl/wp-content/uploads/2017/08/szkodra_06.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/cyrqZrTRbYXHiZuv9"
+        }
+      ]
+    },
+    {
       "videoId": "ayYFL7Vml1E",
       "videoUrl": "https://www.youtube.com/watch?v=ayYFL7Vml1E",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc.102   „  Wzdłuż Korčuli \".",
