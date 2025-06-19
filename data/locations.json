@@ -1893,6 +1893,44 @@
       ]
     },
     {
+      "videoId": "dkbDnHaVbac",
+      "videoUrl": "https://www.youtube.com/watch?v=dkbDnHaVbac",
+      "title": "ROBERT MAKŁOWICZ GRECJA odc.105  „ Śladami Odyseusza \".",
+      "filterTitle": "Śladami Odyseusza (odc. 105)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-10-07T15:00:12Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "d-marin-lefkas-marina",
+          "name": "D-Marin Lefkas Marina",
+          "description": "W Grecji, w D-Marin Lefkas Marina, Pan Robert zawitał do miejsca, gdzie błękit Morza Jońskiego styka się z lądem w sposób nader przyjemny. To nie tylko przystań dla wszelakich jednostek pływających, ale i swoista brama do świata greckich smaków i historii, gdzie powietrze przesycone jest słońcem i obietnicą dobrego posiłku.",
+          "latitude": 38.830101363888794, 
+          "longitude": 20.712014188271894,
+          "address": "RJH4+7X Lefkada, Greece",
+          "country": "Grecja",
+          "type": "other",
+          "websiteUrl": "https://www.d-marin.com/en/marinas/lefkas/?utm_source=googlemybusiness&utm_medium=organic&utm_campaign=lefkas",
+          "image": "https://cdn.dockwalk.com/files/2022/04/ff32a9d0-c626-11ec-b15c-7fce0aafb02a-D-Marin%20Lefkas%20Marina.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/JYuD4YSqB72BrZkbA"
+        },
+        {
+          "id": "nikos-tavern",
+          "name": "Nikos Tavern",
+          "description": "Nikos Tavern w Grecji to miejsce, gdzie czas płynie wolniej, a proste smaki opowiadają historię. Nie jest to zwykła tawerna, lecz serce lokalnej społeczności, tętniące życiem i zapachem grillowanych pyszności, które od pokoleń karmią zarówno ciała, jak i dusze.",
+          "latitude": 38.36375815225507, 
+          "longitude": 20.71831949410449,
+          "address": "0, Vathi 283 00, Greece",
+          "country": "Grecja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/99/cd/11/restaurant-o-nikos.jpg?w=900&h=500&s=1",
+          "GoogleMapsLink": "https://maps.app.goo.gl/bNH2D8LJdwEZ99L49"
+        }
+      ]
+    },
+    {
       "videoId": "acF6hBej4PA",
       "videoUrl": "https://www.youtube.com/watch?v=acF6hBej4PA",
       "title": "ROBERT MAKŁOWICZ ALBANIA odc.104  „ Przez Albanię \".",
