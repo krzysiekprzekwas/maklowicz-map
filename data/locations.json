@@ -1893,6 +1893,70 @@
       ]
     },
     {
+      "videoId": "BDCxPXSHbAU",
+      "videoUrl": "https://www.youtube.com/watch?v=BDCxPXSHbAU",
+      "title": "ROBERT MAKŁOWICZ GRECJA odc.106  „ Od Zakynthos do Kefalonii \".",
+      "filterTitle": "Od Zakynthos do Kefalonii (odc. 106)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-10-14T15:00:12Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "agios-nikolaos-grecja",
+          "name": "Agios Nikolaos, Grecja",
+          "description": "Podróżnik odkrywał uroki Agios Nikolaos, miejsca na Krecie, gdzie czas płynie wolniej, a woda w jeziorze Voulismeni kryje ponoć starożytne sekrety. Wokół malowniczego portu kuszą zapachy lokalnej kuchni, zapraszając na chwilę prawdziwie greckiej sielanki, która smakuje najlepiej z kieliszkiem ouzo w dłoni.",
+          "latitude": 37.90681136543238, 
+          "longitude": 20.70715668304411,
+          "address": "WP44+9C, Agios Nikolaos 290 91, Greece",
+          "country": "Grecja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://cdn.zweb.gr/images/aef7ed92-e764-4c79-95de-1e20c2f46034.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/8tUcA5ak5bXj1WMv5"
+        },
+        {
+          "id": "acropolis-of-ancient-sami",
+          "name": "Acropolis of Ancient Sami",
+          "description": "Miejsce, skąd Pan Robert podziwiał rozległą panoramę zatoki, to Akropol Starożytnego Sami, z imponującymi murami obronnymi z okresu hellenistycznego. Wspinaczka w to urokliwe miejsce pozwala poczuć ducha minionych wieków i pomyśleć o tym, co serwowano na stołach, gdy tętniło tu życie.",
+          "latitude": 38.25472993496486, 
+          "longitude": 20.661567773361032,
+          "address": "6MX3+GF Sami, Greece",
+          "country": "Grecja",
+          "type": "attraction",
+          "websiteUrl": "https://visitkefaloniaisland.gr/el/%CE%B1%CF%81%CF%87%CE%B1%CE%AF%CE%B1-%CE%B1%CE%BA%CF%81%CF%8C%CF%80%CE%BF%CE%BB%CE%B7-%CF%83%CE%AC%CE%BC%CE%B7%CF%82/",
+          "image": "https://www.kefaloniabyanna.com/wp-content/uploads/2015/10/ancient-sami-walls2-1.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/XnySh1poszUQjTTR6"
+        },
+        {
+          "id": "melissani-cave-lake",
+          "name": "Melissani Cave Lake",
+          "description": "Na greckiej Kefalonii czeka prawdziwy cud: Jezioro Melissani. To nie jest po prostu jaskinia z wodą, ale prawdziwy spektakl natury – słońce wpadające przez otwór w stropie maluje wodę na niewiarygodne odcienie błękitu i turkusu. Nic dziwnego, że już starożytni wierzyli, iż mieszkają tu nimfy; w końcu gdzie indziej natura byłaby tak hojna w swej krasie?",
+          "latitude": 38.25692667915899, 
+          "longitude": 20.62357164474736,
+          "address": "6JXM+3C Sami, Greece",
+          "country": "Grecja",
+          "type": "attraction",
+          "websiteUrl": "http://sami.gov.gr/",
+          "image": "https://theworldtravelguy.com/wp-content/uploads/2022/11/DSCF5422_1200.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ePWsYktjQ4yGuFVY6"
+        },
+        {
+          "id": "rassias",
+          "name": "Sklep rybny Rassias",
+          "description": "W Grecji, gdzieś na szlaku smaków, czeka miejsce zwane Rassias. To prawdziwa enklawa tradycji, gdzie od lat, a może i pokoleń, pielęgnuje się autentyczne smaki Hellady, serwując je w niezmienionej, prostej formie. Mówi się, że to kulinarny przystanek, który pozwala poczuć duszę tego kraju przez podniebienie, z dala od zgiełku i turystycznych pułapek.",
+          "latitude": 38.2535818,
+          "longitude": 20.6474765,
+          "address": "Sami Harbour, Sami 280 80, Greece",
+          "country": "Grecja",
+          "type": "other",
+          "websiteUrl": "",
+          "image": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/AHNveVZKJzCBAu3P9"
+        }
+      ]
+    },
+    {
       "videoId": "dkbDnHaVbac",
       "videoUrl": "https://www.youtube.com/watch?v=dkbDnHaVbac",
       "title": "ROBERT MAKŁOWICZ GRECJA odc.105  „ Śladami Odyseusza \".",
