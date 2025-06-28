@@ -1893,6 +1893,44 @@
       ]
     },
     {
+      "videoId": "wPxg-7H66p8",
+      "videoUrl": "https://www.youtube.com/watch?v=wPxg-7H66p8",
+      "title": "ROBERT MAKŁOWICZ GRECJA odc.107  „ Pod klifami Itaki \".",
+      "filterTitle": "Pod klifami Itaki (odc. 107)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-10-21T15:00:09Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "12-gods",
+          "name": "12 GODS",
+          "description": "Pan Robert Makłowicz, zawsze w pogoni za smakiem i historią, zawitał w Grecji do miejsca o niezwykłej nazwie \"12 GODS\". Jak sama nazwa wskazuje, można tam poczuć się niemal jak na Olimpie, delektując się daniami, które ponoć zadowoliłyby nawet starożytnych bogów, co czyni ten adres wyjątkowym na kulinarnej mapie Hellady. To bez wątpienia miejsce, gdzie kulinarna rozkosz przeplata się z echem wielkiej historii.",
+          "latitude": 38.62380125975549, 
+          "longitude": 20.68138617490579,
+          "address": "JMFJ+G8 Apollonii, Greece",
+          "country": "Grecja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/75/b8/22/12.jpg?w=900&h=500&s=1",
+          "GoogleMapsLink": "https://maps.app.goo.gl/MGeU4t75Mv5FL4Gt6"
+        },
+        {
+          "id": "stavros-marina-sivota",
+          "name": "Stavros Marina Sivota",
+          "description": "W malowniczej Sivocie, greckim zakątku, gdzie morze ma najpiękniejszy odcień, znajduje się Marina Stavros. To przystań, z której wyrusza się ku przygodzie, a powietrze pachnie solą i obietnicą świeżych darów Neptuna, gotowych trafić prosto na talerz po udanym dniu na wodzie.",
+          "latitude": 38.62398264903882, 
+          "longitude": 20.681666553370718,
+          "address": "JMFJ+G8 Apollonii, Greece",
+          "country": "Grecja",
+          "type": "other",
+          "websiteUrl": "",
+          "image": "https://s3-eu-west-1.amazonaws.com/zalinga/800x600/fb6ec18e-00b1-4670-a951-e3426cd0d446.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ncmHiZnUfktsKFGE8"
+        }
+      ]
+    },
+    {
       "videoId": "BDCxPXSHbAU",
       "videoUrl": "https://www.youtube.com/watch?v=BDCxPXSHbAU",
       "title": "ROBERT MAKŁOWICZ GRECJA odc.106  „ Od Zakynthos do Kefalonii \".",
