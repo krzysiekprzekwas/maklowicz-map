@@ -1893,6 +1893,70 @@
       ]
     },
     {
+      "videoId": "XT2uhzdRvMQ",
+      "videoUrl": "https://www.youtube.com/watch?v=XT2uhzdRvMQ",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc.110  „ Zioła i żurawina \".",
+      "filterTitle": "Zioła i żurawina (odc. 110)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-11-11T16:00:11Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "zamek-krzyzacki-w-bytowie-zamkowa-1-77-100-bytow",
+          "name": "Zamek Krzyżacki w Bytowie, Zamkowa 1, 77-100 Bytów",
+          "description": "Ach, Bytów! Tamtejszy Zamek Krzyżacki, potężna warownia wzniesiona na przełomie XIV i XV wieku, to prawdziwa perełka Pomorza, która opowiada fascynującą historię tych ziem. Choć mury pamiętają surowe czasy rycerzy zakonnych, dziś tchnie z nich gościnność, a wizyta w tym miejscu to doskonała okazja, by poczuć ducha przeszłości i rozejrzeć się za lokalnymi smakołykami, które dopełnią wrażeń z tej historycznej podróży.",
+          "latitude": 54.168677397445535, 
+          "longitude": 17.49188174902706,
+          "address": "Szkolna 1, 84-342 Bytów, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://image.bilety24.pl/nf_building_big/building/obiekt52.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/KSHbW43FSXDtxcmWA"
+        },
+        {
+          "id": "kaszubskie-zio-a",
+          "name": "Kaszubskie Zioła",
+          "description": "Odwiedzając malownicze Kaszuby, Robert Makłowicz nie mógł pominąć miejsca o tak obiecującej nazwie jak Kaszubskie Zioła. To prawdziwa esencja regionalnej kuchni, gdzie każde źdźbło i listek kryje w sobie wieki tradycji i niepowtarzalny smak tej ziemi. Właśnie tu czuć, jak głęboko zakorzeniona jest kultura Kaszub w darach natury.",
+          "latitude": 54.146519230434635, 
+          "longitude": 17.6101593120585,
+          "address": "4JW5+J2 Półczenko, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "https://kaszubskieziola.pl/",
+          "image": "https://pomorskie-prestige.eu/wp-content/uploads/2021/05/Kaszubskie-Ziola-6.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/xvDS1g4gVsghERt96"
+        },
+        {
+          "id": "lobeliowa-zatoka",
+          "name": "Lobeliowa Zatoka",
+          "description": "W Lobeliowej Zatoce, gdzie zawitał Robert Makłowicz, historia spotyka się ze smakiem w niezwykłych okolicznościach przyrody. Miejsce to, mieszczące się w urokliwym budynku z końca XIX wieku, kusi podniebienia kuchnią czerpiącą z bogactwa okolicznych lasów i pól. To prawdziwa perła dla poszukiwaczy kulinarnych przygód z nutką historii.",
+          "latitude": 54.1468182,
+          "longitude": 17.6090399,
+          "address": "Łąkie 9, 77-125 Półczno, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "https://www.facebook.com/p/Lobeliowa-Zatoka-dom-na-Kaszubach-100063819318712/?_rdr",
+          "image": "/images/lobeliowa-zatoka.jpeg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ch2r7nX8JLgTZM63A"
+        },
+        {
+          "id": "pa-ac-ebunia",
+          "name": "Pałac Łebunia",
+          "description": "Oto Pałac Łebunia, wzniesiony około 1885 roku, który nie tylko dumnie stoi, ale i opowiada historie minionych epok. Ta niezwykła budowla na polskiej ziemi to prawdziwa perełka, idealna, by poczuć jej wyjątkowy charakter i, kto wie, odkryć także przyjemności dla podniebienia.",
+          "latitude": 54.45073349233941, 
+          "longitude": 17.81185391752736,
+          "address": "FR25+6M Łebunia, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "http://www.palaclebunia.pl/",
+          "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/385485935.jpg?k=71c0312e77a16a9d487d76b0996ae9600dc59fd1db8d6e3ca1454ae75295bc41&o=&hp=1",
+          "GoogleMapsLink": "https://maps.app.goo.gl/xwWmSBCVC5JkUShm9"
+        }
+      ]
+    },
+    {
       "videoId": "Yn0Cxewgj5E",
       "videoUrl": "https://www.youtube.com/watch?v=Yn0Cxewgj5E",
       "title": "ROBERT MAKŁOWICZ POLSKA odc.109  „ Niespodzianki nad Słupią\".",
