@@ -202,7 +202,7 @@ async function generateDescription(location: Location): Promise<string> {
     const prompt = `Stwórz krótką, angażującą opisówkę po polsku (2-3 zdania) o miejscu "${location.name}", znajdującym się w ${location.country}. Styl zbliżony do Roberta Makłowicza – gawędziarski, z humorem i nutą kulinarnego uroku, ale bez jego bezpośredniego naśladowania. Nie powtarzaj adresu. Zachowaj narrację w 3. osobie. Podkreśl wyjątkowość tego miejsca. Wspomnij o znaczeniu historycznym lub kulturalnym, jeśli takie istnieje. Jeśli znana jest data powstania budynku – uwzględnij ją.`;
 
     const response = await ai.models.generateContent({
-      model: 'gemini-2.5-flash-preview-04-17',
+      model: 'gemini-2.5-flash',
       contents: prompt,
       config: {
         temperature: 0.5,
