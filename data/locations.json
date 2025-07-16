@@ -1893,6 +1893,70 @@
       ]
     },
     {
+      "videoId": "A4MnwPZ-cyM",
+      "videoUrl": "https://www.youtube.com/watch?v=A4MnwPZ-cyM",
+      "title": "ROBERT MAKŁOWICZ AUSTRIA odc.112  „ Wśród knedli i śniegu \".",
+      "filterTitle": "Wśród knedli i śniegu (odc. 112)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-11-25T16:00:11Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "pitztaler-gletscher",
+          "name": "Pitztaler Gletscher",
+          "description": "Wysoko w austriackich Alpach, gdzie powietrze jest tak rześkie, że aż świdruje w nosie, rozciąga się Pitztaler Gletscher – lodowcowe królestwo, które od wieków stoi niczym strażnik górskich tajemnic. To miejsce, gdzie majestat natury podaje się na tacy, a każdy kęs alpejskiego sera, spożyty w otoczeniu tej pierwotnej bieli, smakuje jak kawałek historii, zaostrzając apetyt na życie i na coś konkretnego do zjedzenia.",
+          "latitude": 46.91174145606819, 
+          "longitude": 10.861127184624104,
+          "address": "WRJC+P2 Mittelberg, Austria",
+          "country": "Austria",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://www.pitztaler-gletscher.at/mediatypes/textImgBox/sonnenaufgang_wildspitzbahn_leuchtende_fenster_rz.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/gSqYwL3nVK5vQZJUA"
+        },
+        {
+          "id": "cafe-3440-on-the-pitztal-glacier",
+          "name": "Café 3440 on the Pitztal Glacier",
+          "description": "Na austriackim lodowcu Pitztal, na wysokości 3440 metrów, rozsiadła się kawiarnia Café 3440, otwarta w roku 2012. To miejsce, gdzie przy filiżance aromatycznej kawy można nie tylko podziwiać alpejskie szczyty, ale i zamyślić się nad tym, jak smakuje świat z tak niecodziennej perspektywy. Bo przecież nawet najzwyklejsza szarlotka, jedzona na dachu Alp, nabiera zupełnie nowego, iście wniebowziętego, smaku.",
+          "latitude": 46.912798699945235, 
+          "longitude": 10.862212260736479,
+          "address": "WV75+4R Mittelberg, Austria",
+          "country": "Austria",
+          "type": "restaurant",
+          "websiteUrl": "https://www.pitztaler-gletscher.at/cafe3440",
+          "image": "https://images.squarespace-cdn.com/content/v1/61e9b1539516cb18da85d455/3d64fb4f-6881-4222-ac1f-0c457fe62db2/Cafe+3440+%283%29.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/XkPGcKpgqCk5vvcj7"
+        },
+        {
+          "id": "kapelle-des-weissen-lichts",
+          "name": "Kapelle des Weissen Lichts",
+          "description": "Wśród alpejskich szczytów Austrii, gdzie powietrze pachnie wolnością, a słońce zdaje się świecić jaśniej niż gdziekolwiek indziej, stanęła Kaplica Białego Światła. Jej minimalistyczna forma, stworzona by w pełni chłonąć alpejskie słońce, sprawia, że wnętrze wypełnia się blaskiem tak czystym i klarownym, że aż chciałoby się go spróbować – niczym esencja doskonale przyrządzonego rosołu. Prawdziwa perełka, gdzie nawet najbardziej zatroskany podróżnik poczuje, że światło wcale nie musi być ciężkie, a wręcz przeciwnie – może dodać lekkości niczym puszysty Kaiserschmarrn.",
+          "latitude": 46.926175960807164, 
+          "longitude": 10.882430098470374,
+          "address": "WVGH+FW Mittelberg, Austria",
+          "country": "Austria",
+          "type": "attraction",
+          "websiteUrl": "https://www.pitztal.com/de/sommer/highlights/kapelle-des-weissen-lichtes",
+          "image": "https://www.pitztaler-gletscher.at/mediatypes/imgGalleryLightBox/pitztaler_gletscher_20180825_82_von_309_.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/bRZ6Vxdao1cwnWJH8"
+        },
+        {
+          "id": "hexenkessl-almbar-pitztal",
+          "name": "Hexenkessl Almbar Pitztal",
+          "description": "W sercu austriackiego Pitztal, gdzie górskie szlaki prowadzą do miejsc z duszą, Robert Makłowicz zawitał do Hexenkessl Almbar. Nazwa, \"Czarci Kocioł\", nie jest tu przypadkowa – to miejsce, które od lat, niczym magiczny garnek, kusi smakami i opowieściami, oferując znacznie więcej niż tylko alpejski posiłek. Z pewnością można tam zakosztować nie tylko lokalnych specjałów, ale i niepowtarzalnej atmosfery, która rozgrzewa lepiej niż gorąca herbata po zejściu ze stoku.",
+          "latitude": 46.973803707247065, 
+          "longitude": 10.868996005188468,
+          "address": "XVF7+GM Tieflehn, Austria",
+          "country": "Austria",
+          "type": "restaurant",
+          "websiteUrl": "http://hexenkessl.at/",
+          "image": "https://files.designer.hoststar.ch/c0/fb/c0fb020f-1853-43f6-b598-6b562089f3b8.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/4Y5nWuX9KpjUeV1g9"
+        }
+      ]
+    },
+    {
       "videoId": "K1gxhjOXKmQ",
       "videoUrl": "https://www.youtube.com/watch?v=K1gxhjOXKmQ",
       "title": "ROBERT MAKŁOWICZ AUSTRIA odc.111  „ Tam, gdzie skakał Adam Małysz \".",
