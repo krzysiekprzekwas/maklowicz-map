@@ -1893,6 +1893,57 @@
       ]
     },
     {
+      "videoId": "Q65iAkrAtYg",
+      "videoUrl": "https://www.youtube.com/watch?v=Q65iAkrAtYg",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc.113   „ W królestwie mandarynek \".",
+      "filterTitle": "królestwie mandarynek (odc. 113)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-12-09T16:00:08Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "nereland-agro-etno-park",
+          "name": "NERELAND / Agro Etno Park",
+          "description": "W Chorwacji, gdzie słońce hojnie obdarza ziemię, natknął się na prawdziwe cacuszko – NERELAND, czyli Agro Etno Park. To miejsce, gdzie historia i smak splatają się w jedno, a tradycje minionych wieków, niczym stare wino, dojrzewają w każdym kącie i na każdym talerzu. Z pewnością nie omieszkał spróbować tamtejszych specjałów, przygotowywanych z pietyzmem, jak za czasów pradziadów – istny raj dla podniebienia i ducha.",
+          "latitude": 42.96899811850753, 
+          "longitude": 17.6098521113262,
+          "address": "XJ94+JW Badžula, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "http://nereland.com/",
+          "image": "https://nereland.com/wp-content/uploads/2025/04/20210827_175031.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/2n4Hcvaxmh7XdnAU7"
+        },
+        {
+          "id": "jezero-kuti-tour",
+          "name": "Jezero Kuti Tours",
+          "description": "W Chorwacji, gdzie słońce po chorwacku pieści Adriatyk, a powietrze pachnie solą i figami, kajakowa wyprawa z Life and Ventures to przepis na odkrywanie ukrytych zatoczek i jaskiń. To właśnie tutaj, wśród turkusowych wód i skalistych brzegów pamiętających rzymskie galery i weneckie kupieckie szlaki, każdy kęs świeżo złowionej ryby smakuje podwójnie.",
+          "latitude": 42.95750066076619, 
+          "longitude": 17.608711882986597,
+          "address": "XJ44+95 Badžula, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "http://www.lifeandventures.com/",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Kuti.jpg/1200px-Kuti.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/EUfBK652yCkgxwCU7"
+        },
+        {
+          "id": "winery-rizman-b-b",
+          "name": "Winery Rizman B&B",
+          "description": "W Chorwacji, tam gdzie słońce całuje winorośl, a Adriatyk szepcze stare historie, leży Winery Rizman B&B. To nie tylko przystanek, ale prawdziwa oaza, gdzie w kieliszku tańczy Plavac Mali, a z tarasu rozpościera się panorama, od której człowiek po prostu milknie z zachwytu. Rodzinna tradycja, pielęgnowana z pokolenia na pokolenie, sprawia, że każde danie i każdy łyk wina to opowieść o tej ziemi, podana z ujmującą gościnnością.",
+          "latitude": 42.95738981589985, 
+          "longitude": 17.532028789944402,
+          "address": "WFWJ+7J Dubrava, Croatia",
+          "country": "Chorwacja",
+          "type": "other",
+          "websiteUrl": "https://www.rizman.com.hr/",
+          "image": "https://rizman.com.hr/wp-content/uploads/2017/11/posjet-vinariji-rizman.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/L2ZqxfPqbzqkhAJ48"
+        }
+      ]
+    },
+    {
       "videoId": "A4MnwPZ-cyM",
       "videoUrl": "https://www.youtube.com/watch?v=A4MnwPZ-cyM",
       "title": "ROBERT MAKŁOWICZ AUSTRIA odc.112  „ Wśród knedli i śniegu \".",
