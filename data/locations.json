@@ -1893,6 +1893,96 @@
       ]
     },
     {
+      "videoId": "M_MW07hLuqw",
+      "videoUrl": "https://www.youtube.com/watch?v=M_MW07hLuqw",
+      "title": "ROBERT MAKŁOWICZ MEKSYK odc.114  „ Pływając wśród żółwi\".",
+      "filterTitle": "Pływając wśród żółwi. (odc. 114)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-12-16T16:00:10Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "tulum",
+          "name": "Tulum",
+          "description": "W Tulum, na meksykańskim Jukatanie, czas zdaje się płynąć inaczej, a słońce pieści skórę równie mocno, co podniebienie lokalnymi smakami. Oto bowiem starożytne ruiny Majów, wzniesione już w XIII wieku, dumnie stoją na klifach, spoglądając na turkusowe wody Morza Karaibskiego, co samo w sobie jest widokiem równie sycącym, co najlepsze ceviche z lokalnych owoców morza.",
+          "latitude": 20.214936667409066, 
+          "longitude": -87.42942908048862,
+          "address": "6H79+W4 Tulum, Quintana Roo, Mexico",
+          "country": "Mexico",
+          "type": "attraction",
+          "websiteUrl": "https://www.inah.gob.mx/zonas/99-zona-arqueologica-de-tulum",
+          "image": "https://www.encirclephotos.com/wp-content/uploads/Mexico-Tulum-Mayan-Ruins-El-Castillo-Full-View-1440x954.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/rpkRCgNh6SBdapuk6"
+        },
+        {
+          "id": "playa-pescadores-picture-perfect-beach",
+          "name": "Playa Pescadores",
+          "description": "Otóż, na meksykańskiej Playa Pescadores, podróżnik z pewnością odnalazłby kwintesencję rajskiego wybrzeża, gdzie słońce muska złoty piasek, a wzrok tonie w turkusie wody. To zaiste pocztówkowa sceneria, idealna do kontemplacji nad ulotnością chwili i, rzecz jasna, nad tym, co dziś świeżego wyciągnęli z morza miejscowi rybacy. Jest to bowiem miejsce, gdzie tradycja wciąż żyje, a smak prostoty jest najcenniejszą przyprawą.",
+          "latitude": 20.208594579374783, 
+          "longitude": -87.43051140873945,
+          "address": "6H59+CQ, Zona Hotelera Tulum, Tulum, Quintana Roo, Mexico",
+          "country": "Mexico",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://images.myguide-cdn.com/md/mexico/companies/n-a/large/n-a-716881.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/4gQwvLJfGTNESmsi9"
+        },
+        {
+          "id": "arrecife-de-coral-de-tulum",
+          "name": "Arrecife de Coral de Tulum",
+          "description": "W Meksyku, tuż u brzegów Tulum, gdzie niegdyś Majowie spoglądali w morskie głębiny, rozciąga się Arrecife de Coral – podwodny ogród, który sam Robert Makłowicz z pewnością uznałby za prawdziwą ucztę dla zmysłów. Ta feeria barw i kształtów, od mieniących się ryb po majestatyczne korale, to dowód, że nawet pod wodą natura potrafi zaserwować coś absolutnie wyjątkowego, godnego najsmaczniejszej opowieści.",
+          "latitude": 20.21253347818106, 
+          "longitude": -87.42185958883238,
+          "address": "6H58+G8 Tulum, Quintana Roo, Mexico",
+          "country": "Mexico",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://info.inmobilia.mx/hubfs/blog/2020/Mayo%202020/gran-arrecife-maya.png",
+          "GoogleMapsLink": "https://maps.app.goo.gl/vhjURdbUSKJ95rWz7"
+        },
+        {
+          "id": "taqueria-honorio",
+          "name": "Taqueria Honorio",
+          "description": "W meksykańskiej Taquerii Honorio poranek zaczyna się od prawdziwej uczty, bo kto raz spróbował tamtejszej *cochinita pibil*, ten wie, że to kulinarna perła Jukatanu. Niepozorna fasada kryje w sobie esencję smaku, która od lat stanowi kultowy punkt na kulinarnej mapie regionu. To miejsce, gdzie tradycja spotyka podniebienie, oferując bezpretensjonalną, a jednak niezapomnianą podróż po smakach Meksyku.",
+          "latitude": 20.211632094117324, 
+          "longitude": -87.45788553070076,
+          "address": "Av. Tulum 4, Tulum Centro, Centro, 77760 Tulum, Q.R., Mexico",
+          "country": "Mexico",
+          "type": "restaurant",
+          "websiteUrl": "https://taqueria-honorio.shop/",
+          "image": "https://media-cdn.tripadvisor.com/media/photo-s/1c/c1/53/c8/taqueria-honorio.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/DvuZotYoev7nwaVp9"
+        },
+        {
+          "id": "mamazul-tulum-mezcaleria",
+          "name": "Mamazul Tulum Mezcaleria",
+          "description": "W meksykańskim Tulum, gdzie słońce praży, a historia Majów wciąż szepcze z ruin, odnajdziemy Mamazul Tulum Mezcaleria. To nie jest zwykła pijalnia, lecz prawdziwe sanktuarium dymnego eliksiru z agawy, gdzie każda kropla mezcalu opowiada wielowiekową opowieść o tradycji i rzemiośle. A do tego serwowane są tam przekąski, które wprost idealnie komponują się z tym szlachetnym trunkiem, czyniąc wizytę prawdziwą ucztą dla podniebienia.",
+          "latitude": 20.199735825729274, 
+          "longitude": -87.4607937750667,
+          "address": "Aldea Zama 77760, 77760 Tulum, Q.R., Mexico",
+          "country": "Mexico",
+          "type": "restaurant",
+          "websiteUrl": "https://mezcaleriamamazul.com/",
+          "image": "https://mamazulrentals.com/wp-content/uploads/2024/11/Mamazul_Mezcaleria_0180.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/M3x9eo9v5o6qcwhn7"
+        },
+        {
+          "id": "dreams-tulum-resort-spa",
+          "name": "Dreams Tulum Resort & Spa",
+          "description": "Gdzieś na Jukatanie, nieopodal prastarych ruin Tulum, gdzie duchy dawnych cywilizacji wciąż szepczą z kamiennych murów, rozciąga się Dreams Tulum Resort & Spa. To zaiste oaza spokoju, gdzie luksus spotyka się z historią, a podniebienie – z wyborną kuchnią, serwującą cuda z lokalnych składników, doprawdy godne nawet największych smakoszy po całodziennym zwiedzaniu Majów.",
+          "latitude": 20.254244283289758, 
+          "longitude": -87.40440040224114,
+          "address": "7H3V+P5 Dreams Tulum, Quintana Roo, Mexico",
+          "country": "Mexico",
+          "type": "other",
+          "websiteUrl": "https://www.hyattinclusivecollection.com/en/resorts-hotels/dreams/mexico/tulum-resort-spa/",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/44/c8/81/dreams-tulum-aerial-view.jpg?w=900&h=500&s=1",
+          "GoogleMapsLink": "https://maps.app.goo.gl/uoE2sH4iJ2nQrBv18"
+        }
+      ]
+    },
+    {
       "videoId": "Q65iAkrAtYg",
       "videoUrl": "https://www.youtube.com/watch?v=Q65iAkrAtYg",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc.113   „ W królestwie mandarynek \".",
