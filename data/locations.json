@@ -1893,6 +1893,70 @@
       ]
     },
     {
+      "videoId": "_UH57kupWu4",
+      "videoUrl": "https://www.youtube.com/watch?v=_UH57kupWu4",
+      "title": "ROBERT MAKŁOWICZ MEKSYK odc.115  „ Śladami Majów \".",
+      "filterTitle": "Śladami Majów (odc. 115)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2022-12-30T16:00:09Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "coba-archaeological-site-77793-q-r-meksyk",
+          "name": "Coba archaeological site, 77793 Q.R., Meksyk",
+          "description": "Gdzieś w sercu meksykańskiej dżungli, tam gdzie słońce praży niczym na rozgrzanym comalu, Robert Makłowicz zawitał do Coby. To prekolumbijskie miasto Majów, z monumentalną piramidą Nohoch Mul na czele, pamięta czasy, gdy po kamiennych drogach, niczym po nitce do kłębka, wędrowały tu zapewne karawany pełne kakao i kukurydzy. Człowiek od razu czuje, że historia ma tu swój niepowtarzalny, wilgotny aromat.",
+          "latitude": 20.491168628606744, 
+          "longitude": -87.72603824658567,
+          "address": "F7RC+FH Coba, Quintana Roo, Mexico",
+          "country": "Mexico",
+          "type": "attraction",
+          "websiteUrl": "https://www.inah.gob.mx/zonas/515-zona-arqueologica-de-coba",
+          "image": "https://expertvagabond.com/wp-content/uploads/coba-nohoch-mul-pyramid-XL-1-1.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/nSkakRWWTTAUy4eq7"
+        },
+        {
+          "id": "grupo-macanxoc",
+          "name": "Grupo Macanxoc",
+          "description": "Grupo Macanxoc – starożytne świadectwo potęgi Majów, którego wiekowe kamienie szepczą historie sprzed wieków. Nie sposób nie pomyśleć, ileż smaków kukurydzy i kakao musiało się tu przewinąć przez te tysiąclecia, karmiąc budowniczych tych niezwykłych piramid i świątyń.",
+          "latitude": 20.48387080624634, 
+          "longitude": -87.72280672839337,
+          "address": "Quintana Roo Nuevo Durango - Coba 175, 77793 Cobá, Q.R., Mexico",
+          "country": "Mexico",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://lugares.inah.gob.mx/sites/default/files/styles/max_1300x1300/public/2023-10/portada_macanxoc.jpeg?itok=c8hiqHi1",
+          "GoogleMapsLink": "https://maps.app.goo.gl/YtKD9AMfiPTR8zrc7"
+        },
+        {
+          "id": "ahau-chooc-aldea-maya",
+          "name": "ahau chooc Aldea maya",
+          "description": "Ahau chooc – prawdziwej perły, gdzie czas zdaje się płynąć w rytmie starożytnych Majów. Nie tylko podaje się tam wyborne, tradycyjne dania, przygotowywane pieczołowicie, często w ziemnych piecach, ale przede wszystkim odkrywa się żywe dziedzictwo tej fascynującej cywilizacji. To miejsce to prawdziwa lekcja historii z nutą dymu i aromatu kukurydzianych tortilli.",
+          "latitude": 20.47460275012089, 
+          "longitude": -87.75689262902586,
+          "address": "F6F3+9H Nueva Unión, Q.R., Mexico",
+          "country": "Mexico",
+          "type": "attraction",
+          "websiteUrl": "https://sites.google.com/view/ahau-chooc-aldea-maya/p%C3%A1gina-principal",
+          "image": "https://img.lajornadamaya.mx/710241634268660Facebook%20Ahau%20Chooc%20Aldea%20Maya%20(2).jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/AQemQcDifX47fg6B7"
+        },
+        {
+          "id": "chile-picante",
+          "name": "Chile Picante",
+          "description": "W sercu Meksyku, gdzie każdy zakątek opowiada historię smaku, odnaleźć można prawdziwy kulinarny skarb – \"Chile Picante\". To miejsce, w którym ostrość papryczek nie jest bynajmniej przypadkiem, lecz świadomą celebracją meksykańskiej kuchni, tak przecież bogatej i wpisanej na listę światowego dziedzictwa UNESCO.",
+          "latitude": 20.495842515746876, 
+          "longitude": -87.73445435967592,
+          "address": "Cobá avenida principal, 77793 Cobá, Q.R., Mexico",
+          "country": "Mexico",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/e7/6e/4c/photo2jpg.jpg?w=900&h=500&s=1",
+          "GoogleMapsLink": "https://maps.app.goo.gl/8uEvPSZfHi9dKzWj7"
+        }
+      ]
+    },
+    {
       "videoId": "M_MW07hLuqw",
       "videoUrl": "https://www.youtube.com/watch?v=M_MW07hLuqw",
       "title": "ROBERT MAKŁOWICZ MEKSYK odc.114  „ Pływając wśród żółwi\".",
@@ -2956,7 +3020,7 @@
       "show": "Robert Makłowicz w podróży",
       "locations": [
         {
-          "id": "koscio-sw-miko-aja",
+          "id": "koscio-sw-mikolaja-oskorusno",
           "name": "Kościół św. Mikołaja",
           "description": "Stojący na niewielkim wzgórzu Kościół św. Mikołaja w Chorwacji, datowany na XI/XII wiek, to prawdziwy architektoniczny rarytas, który widział niejedno. Jego obronna forma i bogata historia sprawiają, że to miejsce ma w sobie ducha dawnych czasów, równie wyrazistego jak smak lokalnej rakiji po dobrym posiłku.",
           "latitude": 42.98462507780549, 
@@ -3211,7 +3275,7 @@
           "GoogleMapsLink": "https://maps.app.goo.gl/c5bn3rC9yo1CaB4u5"
         },
         {
-          "id": "la-bottega-del-tartufo",
+          "id": "la-bottega-del-tartufo-como",
           "name": "La Bottega del Tartufo",
           "description": "Włoskie \"La Bottega del Tartufo\" to miejsce, gdzie powietrze przesycone jest aromatem ziemi i luksusu – prawdziwa świątynia dla miłośników trufl i podziemnych skarbów Italii. Często mieszczące się w historycznych murach, stanowi żywy dowód na wiekową tradycję poszukiwania i celebrowania tego wyjątkowego składnika.",
           "latitude": 45.81079132789381, 
