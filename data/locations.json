@@ -1893,6 +1893,57 @@
       ]
     },
     {
+      "videoId": "nhbVIXVq5Tg",
+      "videoUrl": "https://www.youtube.com/watch?v=nhbVIXVq5Tg",
+      "title": "ROBERT MAKŁOWICZ MEKSYK odc.119  „ W Playa del Carmen\".",
+      "filterTitle": "Playa del Carmen. (odc. 119)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2023-01-27T16:00:07Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "portal-maya",
+          "name": "Portal Maya",
+          "description": "W meksykańskim Playa del Carmen, gdzie słońce hojnie obdarza promieniami, wznosi się Portal Maya, arcydzieło z 2011 roku. To nie tylko monumentalna rzeźba, ale prawdziwa brama do smaków historii, gdzie dawne wierzenia Majów mieszają się z zapachem morskiej bryzy i obietnicą lokalnych przysmaków. Miejsce, gdzie człowiek z łatwością poczuje, że świat jest pełen niespodzianek, zarówno tych duchowych, jak i kulinarnych.",
+          "latitude": 20.621804556262063, 
+          "longitude": -87.07469699757547,
+          "address": "10 Av. Sur Plaza, Paseo del Carmen, 77710 Playa del Carmen, Q.R., Mexico",
+          "country": "Mexico",
+          "type": "attraction",
+          "websiteUrl": "https://www.chooseplayadelcarmen.com/post/portal-maya-what-does-the-statue-in-playa-del-carmen-mean",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/fc/cb/f6/caption.jpg?w=1200&h=-1&s=1",
+          "GoogleMapsLink": "https://maps.app.goo.gl/wkWc6PSFS7dh39AMA"
+        },
+        {
+          "id": "capilla-de-nta-senora-del-carmen",
+          "name": "Capilla de Nta Señora del Carmen",
+          "description": "Przemierzając meksykańskie zaułki, Robert Makłowicz z pewnością natknąłby się na Capilla de Nta Señora del Carmen – kapliczkę tak uroczą, że aż chciałoby się ją schrupać jak świeżo upieczoną tortillę. To miejsce, choć niewielkie, niczym szczypta aromatycznej przyprawy, nadaje ton całej okolicy, opowiadając ciche historie sprzed wieków. W jego murach, niczym w dobrze zakonserwowanym słoiku, zamknięto esencję lokalnej pobożności i barwnej tradycji.",
+          "latitude": 20.62230167035682, 
+          "longitude": -87.07512765168534,
+          "address": "Mercado Xaman-Ha, Quinta Avenida 4, Solidaridad, 77713 Playa del Carmen, Q.R., Mexico",
+          "country": "Mexico",
+          "type": "attraction",
+          "websiteUrl": "https://www.facebook.com/iglesiadeplayadelcarmen/",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Capilla_de_Nuestra_Señora_del_Carmen_%28Playa_del_Carmen%2C_QR%29_-_sanctuary.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/mX5nQosSyWYNPJkbA"
+        },
+        {
+          "id": "quinta-avenida-playa-del-carmen-q-r-meksyk",
+          "name": "Quinta Avenida, Playa del Carmen, Q.R., Meksyk",
+          "description": "Robert Makłowicz, gdyby tylko miał czas, z pewnością zagłębiłby się w ten kulinarno-kulturowy ferment, jakim jest Piąta Aleja w Playa del Carmen. To nie tylko ulica, to istny tygiel zapachów – od świeżych owoców morza po aromatyczne tacos al pastor – gdzie karaibski luz miesza się z meksykańską energią. Prawdziwy raj dla podniebienia i ducha, gdzie każdy wieczór to małe święto smaków i barw.",
+          "latitude": 20.629102043085812, 
+          "longitude": -87.07057014157523,
+          "address": "Calle 14 Nte 10A, Gonzalo Guerrero, 77710 Playa del Carmen, Q.R., Mexico",
+          "country": "Mexico",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://travel.usnews.com/images/la_quinta_avenida_2_getty_m1KSC67.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/M9RK2hKQddU6GMVA7"
+        }
+      ]
+    },
+    {
       "videoId": "OW9S_OqDyI8",
       "videoUrl": "https://www.youtube.com/watch?v=OW9S_OqDyI8",
       "title": "ROBERT MAKŁOWICZ MEKSYK odc.118  „ Wśród agaw i mangrowców\".",
