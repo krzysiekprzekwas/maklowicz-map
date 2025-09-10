@@ -1893,6 +1893,70 @@
       ]
     },
     {
+      "videoId": "57YUgUaaR3I",
+      "videoUrl": "https://www.youtube.com/watch?v=57YUgUaaR3I",
+      "title": "ROBERT MAKŁOWICZ TAJLANDIA odc.122  „Rajski archipelag\".",
+      "filterTitle": "Rajski archipelag. (odc. 122)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2023-02-17T16:00:09Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "secret-beach",
+          "name": "Secret Beach",
+          "description": "Miejsce, gdzie czas zdaje się zwalniać, a piasek pod stopami jest niczym najdelikatniejszy puder, gotowy na przyjęcie śladów odkrywcy. To nie jest plaża z datą powstania, lecz z historią pisana falami i smakiem morskiej bryzy, idealna na kontemplację życia i... może małą, kulinarną przygodę.",
+          "latitude": 7.588892280025198, 
+          "longitude": 99.03108798621099,
+          "address": "H2QH+H9 Sala Dan, Ko Lanta District, Krabi, Thailand",
+          "country": "Thailand",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://media-cdn.tripadvisor.com/media/photo-s/12/49/a2/0f/nui-bay.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/2aAA3L3TiTEFTy3r6"
+        },
+        {
+          "id": "thung-yee-peng-pier",
+          "name": "Thung Yee Peng Pier",
+          "description": "To nie tylko drewniana konstrukcja, lecz prawdziwa brama do świata, gdzie czas płynie wolniej, a z lokalnych łodzi wyładowuje się świeże owoce morza, które za chwilę trafią na stół, pachnące trawą cytrynową i chili.",
+          "latitude": 7.595090420122276,
+          "longitude":  99.07172053012013,
+          "address": "H3RC+R9 Sala Dan, Ko Lanta District, Krabi, Thailand",
+          "country": "Thailand",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://tcdn.mindtrip.ai/images/504607/83q69x.png",
+          "GoogleMapsLink": "https://maps.app.goo.gl/38M5wiXHj3hJPKkX6"
+        },
+        {
+          "id": "thung-yee-peng-seafood",
+          "name": "Thung Yee Peng Seafood",
+          "description": "Wśród szumiących namorzynów, gdzie woda łagodnie kołysze drewniane pomosty, świeżość owoców morza jest tak oczywista, jak wschód słońca nad Zatoką Tajlandzką. To nie tylko restauracja, to raczej kulinarna przystań, gdzie czas płynie wolniej, a każdy kęs opowiada historię rybackiej tradycji, pielęgnowanej tu od pokoleń.",
+          "latitude": 7.594143077864454, 
+          "longitude": 99.07329739835056,
+          "address": "77 หมู่4 ศาลาด่าน Tambon Sala Dan, Amphoe Ko Lanta, Chang Wat Krabi 81150, Thailand",
+          "country": "Thailand",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "image": "https://img.restaurantguru.com/rab7-Thung-Yee-Peng-Seafood-facade-2022-11-2.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/mjXnqCK1QMFaimbPA"
+        },
+        {
+          "id": "koh-ngai",
+          "name": "Koh Ngai",
+          "description": "Na Koh Ngai, gdzie czas zdaje się płynąć w rytmie delikatnych fal, Robert Makłowicz z pewnością odnalazłby esencję beztroskiego bytu, tak potrzebną do kontemplacji smaków. Ta niewielka wyspa, będąca perłą Parku Narodowego Hat Chao Mai, od wieków zachwyca nieskażonym pięknem, oferując podniebieniu prostotę świeżo złowionych darów morza i słodycz tropikalnych owoców, niczym kulinarną opowieść o raju.",
+          "latitude": 7.415225277079184, 
+          "longitude": 99.2039537899599,
+          "address": "C58W+PJ Ko Lanta Yai, Ko Lanta District, Krabi, Thailand",
+          "country": "Thailand",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://theetstory.blog/wp-content/uploads/2023/04/koh-ngai-25.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/YpH1JQKiVhXQo83c7"
+        }
+      ]
+    },
+    {
       "videoId": "Rk1GtxHQs7E",
       "videoUrl": "https://www.youtube.com/watch?v=Rk1GtxHQs7E",
       "title": "ROBERT MAKŁOWICZ TAJLANDIA odc.121  „Na wyspach Lanta\".",
