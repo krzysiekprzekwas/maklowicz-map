@@ -1893,10 +1893,35 @@
       ]
     },
     {
+      "videoId": "MZlUDef1kCs",
+      "videoUrl": "https://www.youtube.com/watch?v=MZlUDef1kCs",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc.124  „ W mojej samotni\".",
+      "filterTitle": "W mojej samotni. (odc. 124)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2023-03-10T16:00:09Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "swiezo-i-zdrowo-sklep-ze-zdrowa-zywnoscia",
+          "name": "Świeżo i Zdrowo - Sklep ze zdrową żywnością",
+          "description": "Miejsce, które z lubością pielęgnują dawne smaki. Takim właśnie zakątkiem jest \"Świeżo i Zdrowo – Sklep ze zdrową żywnością\", gdzie – choć jego mury nie pamiętają średniowiecznych kupców – z pietyzmem gromadzi się skarby natury, przypominające, że prawdziwe jedzenie to fundament dobrego życia.",
+          "latitude": 49.8862428,
+          "longitude": 20.0914939,
+          "address": "Rzeźnicza 30, 32-410 Dobczyce, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "",
+          "image": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/75DwPTHMgQkPr8vj6"
+        }
+      ]
+    },
+    {
       "videoId": "ihiS_BXGUdM",
       "videoUrl": "https://www.youtube.com/watch?v=ihiS_BXGUdM",
       "title": "ROBERT MAKŁOWICZ TAJLANDIA odc.123  „W królestwie kauczuku\".",
-      "filterTitle": "królestwie kauczuku. (odc. 123)",
+      "filterTitle": "W królestwie kauczuku. (odc. 123)",
       "playlistId": "",
       "playlistTitle": "",
       "date": "2023-02-24T16:00:07Z",
