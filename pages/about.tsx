@@ -1,7 +1,6 @@
 import React from 'react';
 import { useLocations } from '../hooks/useLocations';
 import { motion } from 'framer-motion';
-import { countrySlug } from '../src/lib/slug';
 
 export default function About() {
 
@@ -84,7 +83,7 @@ export default function About() {
             transition={{ delay: 1.4 }}
             className="text-primary-hover mb-6"
           >
-            Odkryj kolejne przygody — skorzystaj z mapy i sprawdź kraje, które odwiedził Robert Makłowicz.
+            Odkryj kolejne przygody - skorzystaj z mapy i sprawdź kraje, które odwiedził Robert Makłowicz.
           </motion.p>
 
           <motion.div 
@@ -94,28 +93,28 @@ export default function About() {
             className="grid grid-cols-1 sm:grid-cols-2 gap-4"
           >
             <a
-              href={`/country/${countrySlug('Polska')}`}
+              href={`/?country=${encodeURIComponent('Polska')}`}
               className="group flex items-center justify-between p-6 rounded-xl bg-primary text-white hover:bg-primary-hover shadow-lg transition-colors"
             >
               <span className="text-xl font-semibold">Polska</span>
               <span className="text-3xl" aria-hidden>🇵🇱</span>
             </a>
             <a
-              href={`/country/${countrySlug('Chorwacja')}`}
+              href={`/?country=${encodeURIComponent('Chorwacja')}`}
               className="group flex items-center justify-between p-6 rounded-xl bg-primary text-white hover:bg-primary-hover shadow-lg transition-colors"
             >
               <span className="text-xl font-semibold">Chorwacja</span>
               <span className="text-3xl" aria-hidden>🇭🇷</span>
             </a>
             <a
-              href={`/country/${countrySlug('Włochy')}`}
+              href={`/?country=${encodeURIComponent('Włochy')}`}
               className="group flex items-center justify-between p-6 rounded-xl bg-primary text-white hover:bg-primary-hover shadow-lg transition-colors"
             >
               <span className="text-xl font-semibold">Włochy</span>
               <span className="text-3xl" aria-hidden>🇮🇹</span>
             </a>
             <a
-              href={`/country/${countrySlug('Austria')}`}
+              href={`/?country=${encodeURIComponent('Austria')}`}
               className="group flex items-center justify-between p-6 rounded-xl bg-primary text-white hover:bg-primary-hover shadow-lg transition-colors"
             >
               <span className="text-xl font-semibold">Austria</span>
