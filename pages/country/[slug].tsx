@@ -16,7 +16,7 @@ export default function CountryPage({ country, locations, videos }: Props) {
   const countryLoc = toLocative(country);
   const title = `${country} – śladami Roberta Makłowicza`;
   const description = `Miejsca z programu Roberta Makłowicza w ${countryLoc}. Zobacz restauracje, atrakcje i odcinki.`;
-  const canonical = `https://sladami-roberta.vercel.app/country/${countrySlug(country)}`;
+  const canonical = `https://sladami-roberta.pl/country/${countrySlug(country)}`;
 
   const jsonLd = {
     '@context': 'https://schema.org',

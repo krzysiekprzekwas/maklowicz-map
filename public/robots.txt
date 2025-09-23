@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://sladami-roberta.vercel.app
+Host: https://sladami-roberta.pl
 
 # Sitemaps
-Sitemap: https://sladami-roberta.vercel.app/sitemap.xml
+Sitemap: https://sladami-roberta.pl/sitemap.xml

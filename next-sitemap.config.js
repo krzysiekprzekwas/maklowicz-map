@@ -1,4 +1,4 @@
 module.exports = {
-  siteUrl: 'https://sladami-roberta.vercel.app',
+  siteUrl: 'https://sladami-roberta.pl',
   generateRobotsTxt: true,
 };
