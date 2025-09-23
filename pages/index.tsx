@@ -1,4 +1,5 @@
 import React from 'react';
+import { useRouter } from 'next/router';
 import dynamic from 'next/dynamic';
 import { useLocations } from '../hooks/useLocations';
 import { useLocationState } from '../hooks/useLocationState';
@@ -15,6 +16,7 @@ const Map = dynamic(() => import('../components/map/Map'), {
 });
 
 export default function Home() {
+  const router = useRouter();
   const {
     selectedLocation,
     setSelectedLocation,
@@ -34,6 +36,30 @@ export default function Home() {
   } = useLocationState();
 
   const { countries, filteredLocations, totalLocations, allLocations } = useLocations(searchQuery, selectedCountry, selectedVideo);
+
+  React.useEffect(() => {
+    if (!router.isReady) return;
+    const countryParam = router.query.country;
+    if (typeof countryParam === 'string' && countryParam.trim()) {
+      setSelectedCountry(decodeURIComponent(countryParam));
+      setSelectedVideo(null);
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [router.isReady, router.query.country]);
+
+  React.useEffect(() => {
+    if (!router.isReady) return;
+    const placeIdParam = router.query.placeId;
+    if (typeof placeIdParam !== 'string' || !placeIdParam.trim()) return;
+    const target = allLocations.find((l) => l.id === placeIdParam);
+    if (!target) return;
+    setSelectedLocation(target);
+    if (selectedCountry !== target.country) {
+      setSelectedCountry(target.country);
+      setSelectedVideo(null);
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [router.isReady, router.query.placeId, allLocations]);
 
   return (
     <main className="flex-1 flex flex-col bg-secondary">
