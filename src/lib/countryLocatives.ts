@@ -3,6 +3,7 @@ export const countryLocatives: Record<string, string> = {
   Tajlandia: 'Tajlandii',
   Niemcy: 'Niemczech',
   Włochy: 'Włoszech',
+  Austria: 'Austrii',
 };
 
 export function toLocative(countryName: string): string {

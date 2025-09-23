@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLocations } from '../hooks/useLocations';
 import { motion } from 'framer-motion';
+import { countrySlug } from '../src/lib/slug';
 
 export default function About() {
 
@@ -68,10 +69,64 @@ export default function About() {
               <motion.li whileHover={{ x: 5 }} transition={{ type: "spring", stiffness: 300 }}>Oglądaj powiązane odcinki bezpośrednio na YouTube</motion.li>
             </motion.ul>
 
+          <motion.h3 
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.2 }}
+            className="text-2xl font-bold text-primary mt-8 mb-4"
+          >
+            Dokąd chcesz wyruszyć?
+          </motion.h3>
+
+          <motion.p 
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.4 }}
+            className="text-primary-hover mb-6"
+          >
+            Odkryj kolejne przygody — skorzystaj z mapy i sprawdź kraje, które odwiedził Robert Makłowicz.
+          </motion.p>
+
+          <motion.div 
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 1.6 }}
+            className="grid grid-cols-1 sm:grid-cols-2 gap-4"
+          >
+            <a
+              href={`/country/${countrySlug('Polska')}`}
+              className="group flex items-center justify-between p-6 rounded-xl bg-primary text-white hover:bg-primary-hover shadow-lg transition-colors"
+            >
+              <span className="text-xl font-semibold">Polska</span>
+              <span className="text-3xl" aria-hidden>🇵🇱</span>
+            </a>
+            <a
+              href={`/country/${countrySlug('Chorwacja')}`}
+              className="group flex items-center justify-between p-6 rounded-xl bg-primary text-white hover:bg-primary-hover shadow-lg transition-colors"
+            >
+              <span className="text-xl font-semibold">Chorwacja</span>
+              <span className="text-3xl" aria-hidden>🇭🇷</span>
+            </a>
+            <a
+              href={`/country/${countrySlug('Włochy')}`}
+              className="group flex items-center justify-between p-6 rounded-xl bg-primary text-white hover:bg-primary-hover shadow-lg transition-colors"
+            >
+              <span className="text-xl font-semibold">Włochy</span>
+              <span className="text-3xl" aria-hidden>🇮🇹</span>
+            </a>
+            <a
+              href={`/country/${countrySlug('Austria')}`}
+              className="group flex items-center justify-between p-6 rounded-xl bg-primary text-white hover:bg-primary-hover shadow-lg transition-colors"
+            >
+              <span className="text-xl font-semibold">Austria</span>
+              <span className="text-3xl" aria-hidden>🇦🇹</span>
+            </a>
+          </motion.div>
+
             <motion.h3 
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 1.2 }}
+              transition={{ delay: 1.8 }}
               className="text-2xl font-bold text-primary mt-8 mb-4"
             >
               Ile jest lokalizacji?
@@ -80,7 +135,7 @@ export default function About() {
             <motion.p 
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 1.4 }}
+              transition={{ delay: 2.0 }}
               className="text-primary-hover mb-6"
             >
               Będąc projektem hobbistycznym, mapa może mieć braki względem całej twórczości Roberta Makłowicza. Staramy się jednak regularnie dodawać nowe lokalizacje, aby mapa była jak najbardziej kompletna. Na dziś przetworzylismy:
@@ -89,7 +144,7 @@ export default function About() {
             <motion.ul 
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 1.6 }}
+              transition={{ delay: 2.2 }}
               className="list-disc list-inside text-primary-hover space-y-2 mb-6"
             >
               <motion.li 
