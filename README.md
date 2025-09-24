@@ -17,12 +17,14 @@ An interactive map showcasing restaurants, attractions, and other locations visi
 
 ## Tech Stack
 
-- Next.js 14
+- Next.js 15
 - React 18
 - TypeScript
 - Tailwind CSS
 - Leaflet for maps
 - YouTube Data API for video data
+- Google Maps API for location parsing
+- Google Gemini AI for location descriptions
 
 ## Getting Started
 
@@ -30,15 +32,17 @@ An interactive map showcasing restaurants, attractions, and other locations visi
 
 - Node.js 18+ and npm
 - A Google API key with YouTube Data API v3 enabled
+- A Google Maps API key for location parsing
+- A Google Gemini API key for AI-powered location descriptions
 
 ### Environment Setup
 
-Create a `.env.local` file in the root directory with:
+Create a `.env` file in the root directory with:
 
 ```env
-YOUTUBE_API_KEY=your_youtube_api_key_here
-GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
-GROQ_API_KEY=your_groq_api_key_here
+YOUTUBE_API_KEY=your_api_key_here
+GOOGLE_MAPS_API_KEY=your_api_key_here
+GEMINI_API_KEY=your_api_key_here
 ```
 
 ### Installation
@@ -67,9 +71,9 @@ The application will be available at [http://localhost:3000](http://localhost:30
 - `npm run build` - Build for production
 - `npm run start` - Start production server
 - `npm run lint` - Run linting
-- `npm run scrape` - Update video data from YouTube
-- `npm run update-locations` - Update locations data
+- `npm run sitemap` - Generate sitemap
 - `npm run parse-location` - Parse Google Maps URL into location data (usage: `npm run parse-location "https://maps.google.com/..."`)
+- `npm run parse-video` - Parse YouTube video URL into video data (usage: `npm run parse-video "https://youtube.com/watch?v=..."`)
 
 ## Data Structure
 
@@ -79,6 +83,7 @@ The application uses a single data file:
    - `videoId`: YouTube video ID
    - `videoUrl`: Full YouTube video URL
    - `title`: Video title
+   - `filterTitle`: Filtered video title for display purposes
    - `playlistId`: YouTube playlist ID
    - `playlistTitle`: Playlist title
    - `date`: Video upload date
@@ -93,6 +98,8 @@ The application uses a single data file:
      - `country`: Country name
      - `type`: Location type ('restaurant', 'attraction', or 'other')
      - `websiteUrl`: Website URL (optional)
+     - `GoogleMapsLink`: Google Maps URL (optional)
+     - `image`: Image URL/path (optional)
 
 ## Contributing
 
