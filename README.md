@@ -1,3 +1,5 @@
+![Śladami Roberta Makłowicza](public/og-image.png)
+
 # Śladami Roberta Makłowicza 🍴🗺️
 
 An interactive map showcasing restaurants, attractions, and other locations visited by Robert Makłowicz in his culinary travel shows.
