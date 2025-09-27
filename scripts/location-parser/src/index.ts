@@ -27,6 +27,7 @@ const countryTranslations: Record<string, string> = {
   "Canada": "Kanada",
   "Australia": "Australia",
   "Japan": "Japonia",
+  "Jordan": "Jordania",
   "China": "Chiny",
   "Austria": "Austria",
   "Belgium": "Belgia",
