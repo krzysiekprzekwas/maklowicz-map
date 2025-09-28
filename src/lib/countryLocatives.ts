@@ -1,5 +1,7 @@
 export const countryLocatives: Record<string, string> = {
   Polska: 'Polsce',
+  Grecja: 'Grecji',
+  Czarnogóra: 'Czarnogórze',
   Tajlandia: 'Tajlandii',
   Niemcy: 'Niemczech',
   Włochy: 'Włoszech',
