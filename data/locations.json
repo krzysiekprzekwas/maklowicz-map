@@ -1893,6 +1893,70 @@
       ]
     },
     {
+      "videoId": "lbntaWo4fq4",
+      "videoUrl": "https://www.youtube.com/watch?v=lbntaWo4fq4",
+      "title": "ROBERT MAKŁOWICZ JORDANIA odc.128  „Morze Martwe i cuda Petry\".",
+      "filterTitle": "Morze Martwe i cuda Petry. (odc. 128)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2023-04-21T15:00:08Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "al-hammam-street",
+          "name": "Al Hammam Street",
+          "description": "W jordanskim Salt, gdzie kamienice pamiętają jeszcze czasy osmańskie, ulica Al Hammam, nazwana tak od dawnych łaźni, szepcze opowieści o minionych wiekach. Wśród gwaru targowych rozmów i aromatów korzennych przypraw, pan Makłowicz z pewnością odnalazłby tam nie tylko smakowite kąski, ale i ducha dawnego Bliskiego Wschodu, zaklętego w murach pamiętających przełom XIX i XX wieku.",
+          "latitude": 32.039110455775266, 
+          "longitude": 35.7262441732379,
+          "address": "2PQF+HV4, Pr Hasan Bin Talal St, As-Salt, Jordan",
+          "country": "Jordania",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://universes.art/fileadmin/_processed_/4/1/csm_04-IMG_3076-A_0ecf4dbe4a.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/jTCS8Y6r9ZrzNzfR6"
+        },
+        {
+          "id": "beit-aziz",
+          "name": "Beit Aziz",
+          "description": "Ten urokliwy, odrestaurowany dom z 1905 roku, to prawdziwa perła, gdzie czas zdaje się płynąć wolniej, a każdy zakątek opowiada swoją opowieść. Podobno podają tam potrawy, które nie tylko sycą, ale i przenoszą w głąb lokalnej tradycji, czyniąc z posiłku prawdziwą podróż w przeszłość.",
+          "latitude": 32.03820020266706, 
+          "longitude": 35.72545482656571,
+          "address": "2PQF+GW4, As-Salt, Jordan",
+          "country": "Jordania",
+          "type": "restaurant",
+          "websiteUrl": "https://www.instagram.com/beit_aziz/",
+          "image": "https://www.visitas-salt.com/uploads/photo/3520839a-1462-406e-a263-4e3487b1ab79.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/KU5kVRvx2xoo9qbEA"
+        },
+        {
+          "id": "dead-sea-marriott-resort-spa",
+          "name": "Dead Sea Marriott Resort & Spa",
+          "description": "Oto, proszę państwa, Dead Sea Marriott Resort & Spa, malowniczo usytuowany nad brzegiem Morza Martwego w Jordanii, otwarty dla gości już w 1999 roku. To miejsce, gdzie człowiek unosi się na wodzie niczym beztroski korek po wybornym winie, podziwiając krajobrazy pamiętające czasy biblijne i z pewnością rozmyślając o smakowitościach, które czekają po słonej kąpieli. Niewątpliwie, po tak orzeźwiającym doświadczeniu, podniebienie domaga się równie wyjątkowych doznań.",
+          "latitude": 31.718635621611423, 
+          "longitude": 35.586993308353975,
+          "address": "PH9P+MH Swemeh, Jordan",
+          "country": "Jordania",
+          "type": "other",
+          "websiteUrl": "https://www.marriott.com/en-us/hotels/qmdjv-dead-sea-marriott-resort-and-spa/overview/",
+          "image": "https://singleflyer.com/wp-content/uploads/2022/07/Marriott_Dead_Sea_29_155512619.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/qUPMpXkaLsfw4hkAA"
+        },
+        {
+          "id": "petra",
+          "name": "Petra",
+          "description": "Wędrując przez jordańskie pustynie, Robert Makłowicz z pewnością przystanąłby w Petrze, by podziwiać to niezwykłe miasto. Oto miejsce, gdzie piaskowiec stał się płótnem dla starożytnych Nabatejczyków, którzy w I wieku naszej ery wykuli w nim całe miasto, a historia smakuje tu jak najwytrawniejsze wino, opowiadając o dawnych karawanach i ich egzotycznych przyprawach.",
+          "latitude": 30.32844052785885, 
+          "longitude": 35.44434077948932,
+          "address": "8CHV+9P Uum Sayhoun, Jordan",
+          "country": "Jordania",
+          "type": "attraction",
+          "websiteUrl": "https://www.visitpetra.jo/",
+          "image": "https://cdn.galleries.smcloud.net/t/galleries/gf-crAj-LCgq-E7G7_petra-perla-jordanii-cud-swiata-co-warto-o-niej-wiedziec-1920x1080-nocrop.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/uU5761gd4mTfoS4W8"
+        }
+      ]
+    },
+    {
       "videoId": "VbxAncwhDCc",
       "videoUrl": "https://www.youtube.com/watch?v=VbxAncwhDCc",
       "title": "ROBERT MAKŁOWICZ JORDANIA odc.127  „Skarby biblijnego miasta\"",
