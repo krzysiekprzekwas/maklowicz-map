@@ -1893,6 +1893,96 @@
       ]
     },
     {
+      "videoId": "2h_D3CpHhf8",
+      "videoUrl": "https://www.youtube.com/watch?v=2h_D3CpHhf8",
+      "title": "ROBERT MAKŁOWICZ JORDANIA odc.129  „ Wadi Rum i Morze Czerwone\".",
+      "filterTitle": "Wadi Rum i Morze Czerwone. (odc. 129)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2023-04-28T15:00:09Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "wadi-rum-train-station",
+          "name": "Wadi Rum Train Station",
+          "description": "W samym sercu jordańskiej pustyni, gdzie piasek sypie się z nieba, a krajobraz zapiera dech w piersiach, stoi sobie, niczym samotny kucharz w opuszczonej kuchni, stacja kolejowa Wadi Rum – fragment słynnej Kolei Hidżaskiej, ukończonej około 1908 roku. To tu, pośród pustynnych ostępów, podmuchy wiatru wciąż szepczą opowieści o pielgrzymach zmierzających do Medyny i o brawurowych akcjach podczas Rewolty Arabskiej, co nadaje miejscu niezwykły, niemalże korzenny charakter, niczym dobrze doprawiona potrawa z dawnych lat.",
+          "latitude": 29.699189889458687, 
+          "longitude": 35.39626048206747,
+          "address": "M9XW+MM Shakaria, Jordan",
+          "country": "Jordania",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://img.atlasobscura.com/HPPWihwF-Pkvy8SsNKSytSYt7ffNtE24OVHKSCMoHG4/rt:fit/w:1200/q:80/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy9teDNj/M2I0eWI2bTFhMGEz/ZDQ1YjVhZTZiZTQz/Yl9SZWZ1cmJpc2hl/ZCBUcmFpbiBpbiBX/YWRpIFJ1bSAxIC0g/TWFyayBJYW5kb2xv/LmpwZw.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/XZjwnwFeFy2cYS5W8"
+        },
+        {
+          "id": "jamal-rum-camp",
+          "name": "Jamal Rum camp",
+          "description": "W sercu jordańskiej pustyni Wadi Rum, gdzie piasek szepcze pradawne historie karawan, Robert Makłowicz zawitał do Jamal Rum camp. To miejsce, choć współczesne, tchnie duchem beduińskiej gościnności, oferując nocleg pod niezliczonymi gwiazdami i smaki, które rozgrzewają serce. Każdy kęs i łyk aromatycznej herbaty staje się tu częścią tej niezwykłej, pustynnej opowieści.",
+          "latitude": 29.591747325373714, 
+          "longitude": 35.522065133240474,
+          "address": "HGRF+Q6 Manshir, Jordan",
+          "country": "Jordania",
+          "type": "other",
+          "websiteUrl": "https://www.booking.com/hotel/jo/desert-trips.pl.html",
+          "image": "https://sunset-camp.jordan-all-hotels.com/data/Pics/OriginalPhoto/13202/1320274/1320274591/jamal-rum-camp-wadi-rum-pic-73.JPEG",
+          "GoogleMapsLink": "https://maps.app.goo.gl/G4dPdZTgskGr4yEe8"
+        },
+        {
+          "id": "wadi-rum-desert",
+          "name": "Wadi Rum Desert",
+          "description": "Otóż Wadi Rum, ta jordańska kraina, to prawdziwa uczta dla oczu – czerwone piaski i majestatyczne skały, które zdają się opowiadać historie sprzed milionów lat. W tych ostępach, gdzie niegdyś Lawrence z Arabii snuł plany, do dziś beduińskie ogniska rozświetlają noce, a pod ziemią powoli piecze się baranina, czekając na podniebienia spragnione autentycznych smaków. Prawdziwa perła Bliskiego Wschodu, gdzie czas płynie inaczej, a każdy kamień ma swoją opowieść.",
+          "latitude": 29.53471079243598, 
+          "longitude": 35.42235679543926,
+          "address": "GC84+P3 Wadi Rum Village, Jordan",
+          "country": "Jordania",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://whc.unesco.org/uploads/thumbs/site_1377_0024-1200-630-20151105113530.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/CZWo7enrNRT2cNob8"
+        },
+        {
+          "id": "aqaba-fort",
+          "name": "Aqaba Fort",
+          "description": "W Akabie, gdzie pustynia spotyka się z lazurowymi wodami Morza Czerwonego, wznosi się Aqaba Fort, twierdza Mameluków z początku XVI wieku. To miejsce, które widziało niejedną burzę piaskową i historyczną zawieruchę, a jego mury z pewnością pamiętają smak słonych wiatrów i opowieści o dawnych kupcach. Po takiej dawce historii, nic dziwnego, że człowiek z apetytem rozejrzy się za lokalnymi specjałami, które tuż obok, w porcie, czekają na spragnionych wrażeń podniebienia.",
+          "latitude": 29.52170986590397,
+          "longitude":  35.002050846609905,
+          "address": "G2C2+GRF, Aqaba, Jordan",
+          "country": "Jordania",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/f6/f3/87/aqaba-castle.jpg?w=900&h=500&s=1",
+          "GoogleMapsLink": "https://maps.app.goo.gl/aJLx94iMQGj7gnys5"
+        },
+        {
+          "id": "arab-revolt-flagpole",
+          "name": "Arab Revolt Flagpole",
+          "description": "W jordańskiej Akabie, gdzie historia splata się z błękitem Morza Czerwonego, wznosi się imponujący Maszt Flagi Wielkiej Rewolucji Arabskiej, postawiony w 2004 roku. To nie jest zwykła tyczka na szmatkę, lecz monumentalny symbol wolności, tak wysoki, że z pewnością zaostrza apetyt nie tylko na opowieści o minionych zrywach, ale i na wyborne, lokalne przysmaki, które smakują tu wyjątkowo.",
+          "latitude": 29.52146242483517, 
+          "longitude": 35.000825608207265,
+          "address": "G2C2+GRF, Aqaba, Jordan",
+          "country": "Jordania",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://www.shutterstock.com/image-photo/great-arab-revolt-flag-symbol-600nw-412082575.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/UbUCgw5U4Xmfdwug9"
+        },
+        {
+          "id": "berenice-beach-resort",
+          "name": "Berenice Beach Resort",
+          "description": "W Jordanii, gdzie Morze Czerwone spotyka pustynię, Robert Makłowicz z pewnością z zaciekawieniem przyjrzałby się Berenice Beach Resort. Nazwa, choć nosi w sobie echo starożytnych królowych, kryje obiekt współczesny, będący oazą relaksu, gdzie świeże ryby smakują wybornie na tle krajobrazu, który pamięta czasy nabatejskich kupców. To niezwykłe połączenie komfortu i historii, idealne do kontemplacji smaków i widoków.",
+          "latitude": 29.435385086761,
+          "longitude":  34.97399882063788,
+          "address": "CXPF+4C Aqaba, Jordan",
+          "country": "Jordania",
+          "type": "other",
+          "websiteUrl": "",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/59/f6/96/berenice-beach-club.jpg?w=900&h=500&s=1",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ugYsKWc3SyuYzhsN7"
+        }
+      ]
+    },
+    {
       "videoId": "lbntaWo4fq4",
       "videoUrl": "https://www.youtube.com/watch?v=lbntaWo4fq4",
       "title": "ROBERT MAKŁOWICZ JORDANIA odc.128  „Morze Martwe i cuda Petry\".",
