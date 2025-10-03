@@ -3,7 +3,7 @@ import { CountryData, Location } from '../../types/Location';
 import LocationIcon from '../location/LocationIcon';
 import { AnimatedList } from './AnimatedList';
 import { SearchInput } from './SearchInput';
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Sheet } from 'react-modal-sheet';
 
 interface FiltersProps {
@@ -44,11 +44,35 @@ export function Filters({
   const [isFavoritesOpen, setIsFavoritesOpen] = useState(false);
   const [favoriteLocations, setFavoriteLocations] = useState<Location[]>([]);
   const [isMobile, setIsMobile] = useState(false);
+  const [filterMode, setFilterMode] = useState<'country' | 'episode'>('country');
+
+  const episodes = useMemo(() => {
+    const videoIdToEpisode = new Map<string, { videoId: string; title: string; filterTitle?: string; date?: string; locations: Location[] }>();
+    countries.forEach((country) => {
+      country.videos.forEach((video) => {
+        const existing = videoIdToEpisode.get(video.videoId);
+        if (existing) {
+          existing.locations = existing.locations.concat(video.locations);
+        } else {
+          videoIdToEpisode.set(video.videoId, {
+            videoId: video.videoId,
+            title: video.title,
+            filterTitle: (video as any).filterTitle,
+            date: (video as any).date,
+            locations: [...video.locations],
+          });
+        }
+      });
+    });
+    return Array.from(videoIdToEpisode.values()).sort((a, b) => {
+      return (b.date || '').localeCompare(a.date || '');
+    });
+  }, [countries]);
 
   useEffect(() => {
     // Check if we're on mobile
     const checkIfMobile = () => {
-      setIsMobile(window.innerWidth < 768); // 768px is the md breakpoint in Tailwind
+      setIsMobile(window.innerWidth < 768);
     };
 
     // Initial check
@@ -82,6 +106,43 @@ export function Filters({
           onChange={onSearchChange}
           placeholder="Szukaj lokacji, filmów..."
         />
+        <div className="mt-3 mb-2">
+          <div
+            className="inline-flex w-full rounded-full border border-primary overflow-hidden bg-white"
+            role="tablist"
+            aria-label="Tryb filtrowania"
+          >
+            <button
+              type="button"
+              role="tab"
+              aria-selected={filterMode === 'country'}
+              aria-pressed={filterMode === 'country'}
+              onClick={() => setFilterMode('country')}
+              className={`flex-1 px-4 py-2 text-sm font-semibold transition-colors focus:outline-none ${
+                filterMode === 'country'
+                  ? 'bg-primary text-white'
+                  : 'bg-transparent text-primary hover:bg-secondary'
+              }`}
+            >
+              Kraje
+            </button>
+            <div className="w-px bg-primary" aria-hidden="true" />
+            <button
+              type="button"
+              role="tab"
+              aria-selected={filterMode === 'episode'}
+              aria-pressed={filterMode === 'episode'}
+              onClick={() => setFilterMode('episode')}
+              className={`flex-1 px-4 py-2 text-sm font-semibold transition-colors focus:outline-none ${
+                filterMode === 'episode'
+                  ? 'bg-primary text-white'
+                  : 'bg-transparent text-primary hover:bg-secondary'
+              }`}
+            >
+              Odcinki
+            </button>
+          </div>
+        </div>
         {selectedCountry || selectedVideo ? (
           <button
             onClick={onResetFilters}
@@ -159,92 +220,153 @@ export function Filters({
             </AnimatedList>
           </div>
 
-          <div className="p-2 space-y-1">
-            {countries.map((country) => (
-              <div key={country.name} className="space-y-1">
-                <button
-                  onClick={() => onCountryClick(country.name)}
-                  className={`w-full text-left px-3 py-2 rounded-lg transition-colors flex items-center justify-between ${
-                    selectedCountry === country.name
-                      ? 'bg-secondary-darker text-primary' 
-                      : 'hover:bg-secondary text-primary-hover'
-                  }`}
-                >
-                  <span className="flex-1 truncate pr-2">
-                    {country.name}
-                  </span>
-                  <span className="text-xs opacity-70">
-                    ({country.locations.length})
-                  </span>
-                  <span className="ml-2">
-                    {selectedCountry == country.name ? '▼' : '▶'}
-                  </span>
-                </button>
-                <AnimatedList 
-                  isOpen={selectedCountry === country.name}
-                  className="ml-4 space-y-2" 
-                  defaultOpen={false}
-                >
-                  {country.videos.map((video) => (
-                    <div key={video.videoId} className="space-y-1">
+          {filterMode === 'country' ? (
+            <div className="p-2 space-y-1">
+              {countries.map((country) => (
+                <div key={country.name} className="space-y-1">
+                  <button
+                    onClick={() => onCountryClick(country.name)}
+                    className={`w-full text-left px-3 py-2 rounded-lg transition-colors flex items-center justify-between ${
+                      selectedCountry === country.name
+                        ? 'bg-secondary-darker text-primary' 
+                        : 'hover:bg-secondary text-primary-hover'
+                    }`}
+                  >
+                    <span className="flex-1 truncate pr-2">
+                      {country.name}
+                    </span>
+                    <span className="text-xs opacity-70">
+                      ({country.locations.length})
+                    </span>
+                    <span className="ml-2">
+                      {selectedCountry == country.name ? '▼' : '▶'}
+                    </span>
+                  </button>
+                  <AnimatedList 
+                    isOpen={selectedCountry === country.name}
+                    className="ml-4 space-y-2" 
+                    defaultOpen={false}
+                  >
+                    {country.videos.map((video) => (
+                      <div key={video.videoId} className="space-y-1">
+                        <button
+                          onClick={(e) => onVideoClick(video.videoId, e)}
+                          className={`w-full text-left px-3 py-2 rounded-lg transition-colors flex items-center justify-between ${
+                            selectedVideo === video.videoId
+                              ? 'bg-secondary-darker text-primary' 
+                              : 'hover:bg-secondary text-primary-hover'
+                          }`}
+                        >
+                          <span className="flex-1 truncate pr-2 text-sm">
+                            { (video as any).filterTitle || video.title }
+                          </span>
+                          <span className="text-xs opacity-70">
+                            ({video.locations.length})
+                          </span>
+                          <span className="ml-2">
+                            {selectedVideo === video.videoId ? '▼' : '▶'}
+                          </span>
+                        </button>
+
+                        <AnimatedList 
+                          isOpen={selectedVideo === video.videoId}
+                          className="ml-4 space-y-2"
+                          defaultOpen={false}          
+                        >
+                          {video.locations.map((location) => (
+                            <button
+                              key={location.id}
+                              onClick={() => onLocationClick(location)}
+                              className={`
+                                w-full 
+                                text-left 
+                                px-3 
+                                py-1.5 
+                                rounded-lg 
+                                transition-colors 
+                                flex 
+                                items-center 
+                                ${selectedLocation?.id === location.id
+                                  ? 'bg-secondary-darker text-primary'
+                                  : 'hover:bg-secondary text-primary-hover'
+                                }
+                              `}
+                            >
+                              <span className="flex-1 truncate pr-2 text-sm">
+                                {location.name}
+                              </span>
+                              <span className="text-xs opacity-70">
+                                <LocationIcon type={location.type} />
+                              </span>
+                            </button>
+                          ))}
+                        </AnimatedList>
+                      </div>
+                    ))}
+                  </AnimatedList>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div className="p-2 space-y-1">
+              {episodes.map((video) => (
+                <div key={video.videoId} className="space-y-1">
+                  <button
+                    onClick={(e) => { if (selectedCountry) { onCountryClick(''); } onVideoClick(video.videoId, e); }}
+                    className={`w-full text-left px-3 py-2 rounded-lg transition-colors flex items-center justify-between ${
+                      selectedVideo === video.videoId
+                        ? 'bg-secondary-darker text-primary' 
+                        : 'hover:bg-secondary text-primary-hover'
+                    }`}
+                  >
+                    <span className="flex-1 truncate pr-2 text-sm">
+                      { video.filterTitle || video.title }
+                    </span>
+                    <span className="text-xs opacity-70">
+                      ({video.locations.length})
+                    </span>
+                    <span className="ml-2">
+                      {selectedVideo === video.videoId ? '▼' : '▶'}
+                    </span>
+                  </button>
+
+                  <AnimatedList 
+                    isOpen={selectedVideo === video.videoId}
+                    className="ml-4 space-y-2"
+                    defaultOpen={false}          
+                  >
+                    {video.locations.map((location) => (
                       <button
-                        onClick={(e) => onVideoClick(video.videoId, e)}
-                        className={`w-full text-left px-3 py-2 rounded-lg transition-colors flex items-center justify-between ${
-                          selectedVideo === video.videoId
-                            ? 'bg-secondary-darker text-primary' 
+                        key={location.id}
+                        onClick={() => onLocationClick(location)}
+                        className={`
+                          w-full 
+                          text-left 
+                          px-3 
+                          py-1.5 
+                          rounded-lg 
+                          transition-colors 
+                          flex 
+                          items-center 
+                          ${selectedLocation?.id === location.id
+                            ? 'bg-secondary-darker text-primary'
                             : 'hover:bg-secondary text-primary-hover'
-                        }`}
+                          }
+                        `}
                       >
                         <span className="flex-1 truncate pr-2 text-sm">
-                          { video.filterTitle || video.title }
+                          {location.name}
                         </span>
                         <span className="text-xs opacity-70">
-                          ({video.locations.length})
-                        </span>
-                        <span className="ml-2">
-                          {selectedVideo === video.videoId ? '▼' : '▶'}
+                          <LocationIcon type={location.type} />
                         </span>
                       </button>
-
-                      <AnimatedList 
-                        isOpen={selectedVideo === video.videoId}
-                        className="ml-4 space-y-2"
-                        defaultOpen={false}          
-                      >
-                        {video.locations.map((location) => (
-                          <button
-                            key={location.id}
-                            onClick={() => onLocationClick(location)}
-                            className={`
-                              w-full 
-                              text-left 
-                              px-3 
-                              py-1.5 
-                              rounded-lg 
-                              transition-colors 
-                              flex 
-                              items-center 
-                              ${selectedLocation?.id === location.id
-                                ? 'bg-secondary-darker text-primary'
-                                : 'hover:bg-secondary text-primary-hover'
-                              }
-                            `}
-                          >
-                            <span className="flex-1 truncate pr-2 text-sm">
-                              {location.name}
-                            </span>
-                            <span className="text-xs opacity-70">
-                              <LocationIcon type={location.type} />
-                            </span>
-                          </button>
-                        ))}
-                      </AnimatedList>
-                    </div>
-                  ))}
-                </AnimatedList>
-              </div>
-            ))}
-          </div>
+                    ))}
+                  </AnimatedList>
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </div>
