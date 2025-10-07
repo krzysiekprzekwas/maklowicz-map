@@ -1797,6 +1797,120 @@
       ]
     },
     {
+      "videoId": "eELiogUBl7U",
+      "videoUrl": "https://www.youtube.com/watch?v=eELiogUBl7U",
+      "title": "ROBERT MAKŁOWICZ IRLANDIA odc.136  „Wyspa zielona\".",
+      "filterTitle": "Wyspa zielona. (odc. 136)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2023-06-02T15:00:12Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "klify-moheru",
+          "name": "Klify Moheru",
+          "description": "Klify Moheru w Irlandii to widok, który zapiera dech w piersiach, a przecież i podniebienie ma swoje prawa! Tam, gdzie skalne ściany, formowane przez miliony lat, wznoszą się dumnie nad Atlantykiem, z pewnością smakowałaby wybornie świeża ryba, prosto z tych wzburzonych wód. Nie tylko majestat natury, ale i duch celtyckich opowieści unosi się nad tym miejscem, gdzie od 1835 roku z wieży O'Briena podziwiać można bezkres oceanu, czując całą potęgę żywiołów.",
+          "latitude": 52.97145782352503, 
+          "longitude": -9.43083951064238,
+          "address": "XHC5+JG Pollboy, County Clare, Ireland",
+          "country": "Irlandia",
+          "type": "attraction",
+          "websiteUrl": "https://www.cliffsofmoher.ie/",
+          "image": "https://www.mamasaidbecool.pl/wp-content/uploads/2018/10/klify-moheru-800x533.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/LmutqyGQhG9229Ve7"
+        },
+        {
+          "id": "wieza-o-briena",
+          "name": "Wieża O'Briena",
+          "description": "Na szczycie majestatycznych Klifów Moher, niczym strażnik wiecznej zieleni i oceanicznego bezkresu, dumnie wznosi się Wieża O’Briena. Powstała w 1835 roku z myślą o wiktoriańskich dżentelmenach i damach, spragnionych widoków zapierających dech w piersiach, a może i kieliszka wybornej irlandzkiej whiskey, która rozgrzeje w chłodny wiatr. Dziś, po niemal dwustu latach, nadal oferuje spektakl natury, który aż prosi się o refleksję nad ulotnością chwili i trwałością dobrego smaku.",
+          "latitude": 52.973039340826546, 
+          "longitude": -9.431277516812509,
+          "address": "XHF7+2X Pollboy, County Clare, Ireland",
+          "country": "Irlandia",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://img5.digsty.com/NHhOj4F-Or3To2hlUBO39PXOj-wsmKj32zwlCeXLQHs/rs:fit:800:800:1/g:fp:0.5:0.5/aHR0cHM6Ly91cGxvYWQud2lraW1lZGlhLm9yZy93aWtpcGVkaWEvY29tbW9ucy82LzY4L08lMjdCcmllbiUyN3NfVG93ZXIuanBn.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/vcNLb6X7VETntnxa9"
+        },
+        {
+          "id": "zamek-krola-jana",
+          "name": "Zamek Króla Jana",
+          "description": "W Irlandii, nad rzeką Shannon, dumnie pręży się Zamek Króla Jana – potężna warownia z początków XIII wieku. To tu, w tych kamiennych murach, historia niemalże szepcze opowieści o dawnych biesiadach i królewskich intrygach, a powietrze wciąż zdaje się pachnieć dymem z kominków i chlebem pieczonym na otwartym ogniu, choć dziś pewnie podają tam już inne, równie godne uwagi, specjały.",
+          "latitude": 52.669705964611396, 
+          "longitude": -8.6254710342608,
+          "address": "26 Reidy Park, Deanery Land, Limerick, Ireland",
+          "country": "Irlandia",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://us.123rf.com/450wm/patrykkosmider/patrykkosmider1603/patrykkosmider160300996/58699960-king-john-castle-in-limerick-ireland.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZZJmDSZW1gLn4pW9A"
+        },
+        {
+          "id": "the-glen-tavern",
+          "name": "The Glen Tavern",
+          "description": "W urokliwym Limerick, w Irlandii, czeka na odkrywców smaku The Glen Tavern – miejsce, gdzie tradycja i kulinarna rozkosz idą w parze. To nie jest byle jaka gospoda; to prawdziwa instytucja, która od lat karmi dusze i podniebienia, oferując kwintesencję irlandzkiego ciepła. Z pewnością niejeden koneser dobrego jedzenia, szukający autentycznych doznań, poczułby się tu jak w domu, delektując się rarytasami, które opowiadają historię Zielonej Wyspy.",
+          "latitude": 52.66119287783047, 
+          "longitude": -8.630636174701301,
+          "address": "1 Steamboat Quay, Dock Rd, Mountkennet, Limerick, V94 RW84, Ireland",
+          "country": "Irlandia",
+          "type": "restaurant",
+          "websiteUrl": "https://www.glentavern.ie/",
+          "image": "https://matchpint-cdn.matchpint.cloud/shared/img/pub/20119/131145762-1649089931_original.jpeg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/GorW5KxH1XsZ1Tw38"
+        },
+        {
+          "id": "the-english-market",
+          "name": "The English Market",
+          "description": "W sercu irlandzkiego Corku, od 1788 roku, tętni życiem The English Market. To nie jest zwykły targ, a prawdziwa perła architektury i kulinariów, gdzie pod misternym dachem znajdziemy wszystko, co dusza smakosza zapragnie. Od lokalnych serów po egzotyczne przysmaki – to miejsce, gdzie historia miesza się z apetytem, a każdy zakątek opowiada własną, smakowitą opowieść.",
+          "latitude": 51.897669469346155, 
+          "longitude": -8.474971935235914,
+          "address": "1 Carrignalee Place, Sunday's Well, Corcaigh, T23 YRN8, Ireland",
+          "country": "Irlandia",
+          "type": "attraction",
+          "websiteUrl": "http://www.englishmarket.ie/",
+          "image": "https://www.doylecollection.com/var/doyle/storage/images/media/doyle-redesign/images/blog/river-lee/english-market-image-3/93682-2-eng-US/english-market-image-3.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/zu5ciQ6hH6798Mcs6"
+        },
+        {
+          "id": "the-farmgate-cafe",
+          "name": "The Farmgate Cafe",
+          "description": "W irlandzkim Corku, w samym sercu legendarnego English Market – miejsca, które kupców gości już od 1788 roku – znajduje się The Farmgate Cafe. To właśnie tam, pośród gwaru straganów i zapachów świeżych produktów, serwuje się prawdziwe, lokalne smaki, które z pewnością rozgrzałyby duszę niejednego smakosza, oferując kwintesencję irlandzkiej kuchni.",
+          "latitude": 51.897716232731334, 
+          "longitude": -8.47392797426476,
+          "address": "The Courthouse, Washington St, Centre, Cork, T12 C6CV, Ireland",
+          "country": "Irlandia",
+          "type": "restaurant",
+          "websiteUrl": "http://farmgatecork.ie/",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKaCeHCX3p9dIW8Wtqti1_wyPq-PRj8weLWhP1uRbwx4JL7awJLBRlnf7FnEIk8zmAHLSh0YQvWHS1pgAJJnSsaKiw3WC82IUUbEmuTdGT15AsWiQOZRTusi1U_7CLw2VGrx8Ls8v9LT0/s1600/1aCMK_General+View++copy.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/oVLccgPkPtFYyVrR7"
+        },
+        {
+          "id": "butter-exchange",
+          "name": "Butter Exchange",
+          "description": "W Cork, na szmaragdowej wyspie, stoi budynek, który od 1769 roku był świadkiem prawdziwej rewolucji kulinarnej i handlowej, gdzie mieściła się największa na świecie giełda masła. To właśnie tu, w sercu miasta, przez wieki decydowano o jakości i cenie tego złotego, mlecznego skarbu, bez którego trudno sobie wyobrazić choćby porządne śniadanie czy sos bechamel. Dziś, choć zgiełk handlarzy ucichł, duch tego miejsca wciąż przypomina, że prawdziwy smak często zaczyna się od najprostszych, a zarazem najszlachetniejszych składników.",
+          "latitude": 51.902843754289385, 
+          "longitude": -8.476439338060569,
+          "address": "Shandon Court Apartments, 3 O'Connell Square, Dominick St, Shandon, Cork, Ireland",
+          "country": "Irlandia",
+          "type": "attraction",
+          "websiteUrl": "http://www.corkbutter.museum/",
+          "image": "https://www.irishexaminer.com/cms_media/module_img/6096/3048413_3_seoimage4x3_1036147.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/P5y14nhV7p63JkDQ9"
+        }
+      ]
+    },
+    {
+      "videoId": "r9jf3oQfQQ4",
+      "videoUrl": "https://www.youtube.com/watch?v=r9jf3oQfQQ4",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc.135  „Zrób to sam. Burgery\".",
+      "filterTitle": "Zrób to sam. Burgery. (odc. 135)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2023-05-30T15:00:39Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": []
+    },
+    {
       "videoId": "ShjRh2eOVak",
       "videoUrl": "https://www.youtube.com/watch?v=ShjRh2eOVak",
       "title": "ROBERT MAKŁOWICZ KRETA odc.134 „Góry i morze\".",
@@ -1898,6 +2012,17 @@
           "GoogleMapsLink": "https://maps.app.goo.gl/mvJ7wRTwT6Xb7ddTA"
         }
       ]
+    },
+    {
+      "videoId": "1_00VzYZXek",
+      "videoUrl": "https://www.youtube.com/watch?v=1_00VzYZXek",
+      "title": "ROBERT MAKŁOWICZ  POLSKA odc.133 „Zrób to sam. Pizza\".",
+      "filterTitle": "Zrób to sam. Pizza. (odc. 133)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2023-05-23T15:00:03Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": []
     },
     {
       "videoId": "ReiJP726e8E",
