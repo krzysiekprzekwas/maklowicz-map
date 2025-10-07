@@ -9,6 +9,7 @@ export const countryLocatives: Record<string, string> = {
   Kolumbia: 'Kolumbii',
   Litwa: 'Litwie',
   Luksemburg: 'Luksemburgu',
+  Irlandia: 'Irlandii',
   Jordan: 'Jordanii',
   Niemcy: 'Niemczech',
   Włochy: 'Włoszech',

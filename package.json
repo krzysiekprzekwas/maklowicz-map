@@ -8,8 +8,6 @@
     "start": "next start",
     "lint": "next lint",
     "sitemap": "next-sitemap",
-    "scrape": "cd scripts/youtube-scraper && npm start",
-    "update-locations": "cd scripts/youtube-scraper && npx ts-node src/update-locations.ts",
     "parse-location": "cd scripts/location-parser && npx ts-node src/index.ts",
     "parse-video": "cd scripts/video-parser && npx ts-node src/index.ts"
   },

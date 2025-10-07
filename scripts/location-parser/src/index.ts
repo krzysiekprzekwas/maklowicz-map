@@ -211,8 +211,6 @@ async function generateDescription(location: Location): Promise<string> {
       },
     });
 
-    console.log(response)
-
     return response.text.trim();
   } catch (error: any) {
     console.error('Error generating description:', {
@@ -434,7 +432,7 @@ function createLocation(data: Location, link: string): Location {
 
 async function main() {
   const url = process.argv[2];
-  if (!url || url === '-d') { // Ensure the URL is provided and not just the -d flag
+  if (!url || url === '-d') { 
     console.error('Please provide a Google Maps URL as an argument');
     process.exit(1);
   }
@@ -448,8 +446,6 @@ async function main() {
     const mapsData = await parseGoogleMapsUrl(url);
     const location = createLocation(mapsData, url);
 
-
-    // Generate description using GROQ
     const description = await generateDescription(location);
 
     location.description = description;
