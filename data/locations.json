@@ -1797,6 +1797,44 @@
       ]
     },
     {
+      "videoId": "CbaZiY18fSI",
+      "videoUrl": "https://www.youtube.com/watch?v=CbaZiY18fSI",
+      "title": "ROBERT MAKŁOWICZ IRLANDIA odc.138  „ Trawa i wodorosty\".",
+      "filterTitle": "Trawa i wodorosty. (odc. 138)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2023-06-09T15:00:12Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "the-tannery-restaurant-townhouse-and-cookery-school",
+          "name": "The Tannery Restaurant, Townhouse and Cookery School",
+          "description": "W Irlandii, gdzie zieleni nigdy za wiele, pewien stary budynek, niegdyś garbarnia, dziś kusi pod nazwą \"The Tannery\". To niezwykłe połączenie restauracji, pensjonatu i szkoły gotowania, gdzie w dawnych murach, zamiast skór, dojrzewają kulinarne talenty i serwuje się potrawy godne niejednego zachwytu. Prawdziwa gratka dla podniebienia i ducha, gdzie historia miesza się ze smakiem, a nauka z przyjemnością.",
+          "latitude": 52.08856622595583, 
+          "longitude": -7.616694053283546,
+          "address": "4 Church Street Mews, Church St, Dungarvan, Co. Waterford, X35 D627, Ireland",
+          "country": "Irlandia",
+          "type": "restaurant",
+          "websiteUrl": "https://tannery.ie/",
+          "image": "https://munstervales.com/assets/images/directory/_1200x630_crop_center-center_82_none/Tannery.jpg?mtime=1704383496",
+          "GoogleMapsLink": "https://maps.app.goo.gl/7D8kVqAnJWE84cUY6"
+        },
+        {
+          "id": "the-spire",
+          "name": "The Spire",
+          "description": "Gdy Robert Makłowicz przemierza Dublin, jego uwagę z pewnością przykuwa The Spire, ta smukła iglica wzniesiona w 2003 roku, niczym minimalistyczny, lecz wykwintny dodatek do miejskiego menu. To nie tylko punkt orientacyjny, ale i symbol współczesnej Irlandii, który, niczym doskonale skomponowane danie, pobudza apetyt na odkrywanie nowych smaków historii i kultury.",
+          "latitude": 53.3498140667013, 
+          "longitude": -6.260276865565753,
+          "address": "Victoria Quay, Saint James, Dublin 8, Co. Dublin, Ireland",
+          "country": "Irlandia",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://mediaim.expedia.com/destination/9/92df8209463bb23002cdc8c1067fb5ac.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/NbmtpEfj198PYDJj7"
+        }
+      ]
+    },
+    {
       "videoId": "OE8Zn1U6s40",
       "videoUrl": "https://www.youtube.com/watch?v=OE8Zn1U6s40",
       "title": "ROBERT MAKŁOWICZ POLSKA odc.137  „ Zrób to sam. Skrzydełka BBQ\".",
