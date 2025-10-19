@@ -1797,6 +1797,96 @@
       ]
     },
     {
+      "videoId": "eKNH1eQRYlk",
+      "videoUrl": "https://www.youtube.com/watch?v=eKNH1eQRYlk",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc.141  „Śladami dawnej Warszawy\".",
+      "filterTitle": "Śladami dawnej Warszawy. (odc. 141)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2023-06-30T15:00:09Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "bristol",
+          "name": "Bristol",
+          "description": "Ach, warszawski Bristol! Ten majestatyczny gmach, otwarty w 1901 roku, to nie tylko hotel, lecz świadectwo epok, które przewinęły się przez stolicę. Ileż to historii widziały jego ściany, ileż wykwintnych dań serwowano w jego progach, zawsze z tą nutą elegancji, która sprawia, że człowiek czuje się tam wyjątkowo, jakby sam czas na chwilę zwolnił.",
+          "latitude": 52.24222518677862, 
+          "longitude": 21.01587297944586,
+          "address": "Plac Piłsudskiego 02, 00-072 Warszawa, Poland",
+          "country": "Polska",
+          "type": "other",
+          "websiteUrl": "https://www.marriott.com/en-us/hotels/wawlc-hotel-bristol-a-luxury-collection-hotel-warsaw/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
+          "image": "https://www.konferencje.pl/media/cache/resolve/slideshow_v2_jpeg/0/c/b/8/0cb8dc7f938265a74bbef1409829cc17.jpg?2022-07-14T10:15:39+00:00",
+          "GoogleMapsLink": "https://maps.app.goo.gl/68R3F5SCGEEGPAdw5"
+        },
+        {
+          "id": "cafe-bristol",
+          "name": "Café Bristol",
+          "description": "Gdy mowa o Warszawie, trudno pominąć Café Bristol, perłę Hotelu Bristol, którego mury pamiętają rok 1901. To nie lada gratka dla koneserów elegancji i smaku, gdzie w otoczeniu secesyjnych ornamentów można delektować się wyborną kawą i ciastkiem, które zdaje się szeptać historie minionych dekad. Prawdziwe miejsce, gdzie czas zwalnia, a każda filiżanka to mały akt celebrowania chwili, niczym za dawnych, dobrych lat.",
+          "latitude": 52.242063477154844,
+          "longitude": 21.015818552702594,
+          "address": "Krakowskie Przedmieście 42/44, 00-325 Warszawa, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "https://www.cafebristol.pl/",
+          "image": "https://www.cafebristol.pl/pl/resourcefiles/homeimages/cafe-bristol-interior.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/dUGPiuYUJ8JHXhro8"
+        },
+        {
+          "id": "kuznia-smaku-restauracja",
+          "name": "Kuźnia Smaku. Restauracja",
+          "description": "Gdzieś w Polsce, pod szyldem \"Kuźnia Smaku\", kryje się miejsce nie byle jakie, bo to prawdziwa świątynia kulinarnego rzemiosła. Wszak to tutaj, z pieczołowitością godną dawnych mistrzów, z prostych składników powstają kompozycje, co to i podniebienie konesera zaskoczą. To nie tylko restauracja, to swoista alchemia kuchni, gdzie tradycja spotyka się z nutą współczesnego, pysznego szaleństwa.",
+          "latitude": 52.237395171710276, 
+          "longitude": 21.013226542514637,
+          "address": "Kredytowa 7, 00-056 Warszawa, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "http://www.kuzniasmaku.pl/",
+          "image": "https://gdziejubileusz.pl/uploads/restauracja-kuznia-smaku/galeria-restauracja-kuznia-smaku-8186.jpeg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Gk3cZayL55RZLXPc7"
+        },
+        {
+          "id": "rest-baczewskich",
+          "name": "Rest. Baczewskich",
+          "description": "W Restauracji Baczewskich, miejscu w Polsce, gdzie historia spotyka się z wykwintnym smakiem, można poczuć puls dawnego Lwowa. Odwołując się do tradycji rodziny słynącej z destylacji trunków już od 1782 roku, serwuje się tu kuchnię z pogranicza, która z humorem i gracją opowiada o bogactwie kresowych smaków, nie zapominając o szczyptce kulinarnego rozpasania.",
+          "latitude": 52.21597682859503, 
+          "longitude": 21.022244944214155,
+          "address": "aleja Jana Chrystiana Szucha 17, 00-582 Warszawa",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "http://baczewskich.rest/",
+          "image": "https://www.horecabc.pl/wp-content/uploads/2019/02/restauracja-baczewskich.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Tj1oJzF7hRgU3F7N8"
+        },
+        {
+          "id": "restauracja-u-wieniawy",
+          "name": "Restauracja U Wieniawy",
+          "description": "Restauracja U Wieniawy to miejsce, gdzie duch przedwojennej Warszawy wciąż unosi się w powietrzu, niczym aromat doskonale przygotowanego rosołu. Tu, w zabytkowych wnętrzach, goście mogą zasmakować w polskiej kuchni, która z gracją łączy tradycję z nutą nowoczesności, niczym wytrawny dyplomata łączący dobre maniery z ciętą ripostą. To prawdziwa gratka dla podniebienia i oka, gdzie historia spotyka się z kulinarną finezją.",
+          "latitude": 52.243073573120284, 
+          "longitude": 21.01169914772448,
+          "address": "Wierzbowa 5/7, 00-094 Warszawa, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "http://www.uwieniawy.pl/",
+          "image": "https://uwieniawy.pl/wp-content/uploads/2023/03/smaki_jedzenie_klimat_nastroj_restauracja_u_wieniawy_kuchnia_polska_warszawa.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/81oKEAdqG68fcCpj6"
+        },
+        {
+          "id": "marconi",
+          "name": "Marconi",
+          "description": "W Polsce, w miejscu zwanym Marconi, podróżnik odnajduje prawdziwą kapsułę czasu. Zbudowane jeszcze w 1906 roku, gdy świat dopiero uczył się bezprzewodowych cudów, do dziś szepcze historie minionych epok, a jego wnętrza, niczym dobrze skomponowane danie, kryją w sobie obietnicę niezwykłych doznań. Tu, gdzie każdy kąsek to mała opowieść, a atmosfera przenosi w czasy, gdy elegancja szła w parze z doskonałym smakiem.",
+          "latitude": 52.24212861470529, 
+          "longitude": 21.01600297321371,
+          "address": "Krakowskie Przedmieście 42/44, 00-325 Warszawa, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "http://www.restauracjamarconi.pl/en",
+          "image": "https://www.restauracjamarconi.pl/pl/resourcefiles/homeimages/marconi-i.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/JzHh59822jAjzpxU9"
+        }
+      ]
+    },
+    {
       "videoId": "Aqu3MdDUFYE",
       "videoUrl": "https://www.youtube.com/watch?v=Aqu3MdDUFYE",
       "title": "ROBERT MAKŁOWICZ IRLANDIA odc.140  „Pod Głową Cukru\".",
