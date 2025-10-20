@@ -8354,6 +8354,7 @@
           "country": "Węgry",
           "type": "attraction",
           "websiteUrl": "",
+          "image": "https://navtur.pl/files/plc_pano/356.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/ecFeqTFYSoXzN2sQA"
         },
         {
@@ -8365,7 +8366,8 @@
           "address": "Szeged, Sárga üdülőtelep 262, 6723 Hungary",
           "country": "Węgry",
           "type": "restaurant",
-          "websiteUrl": "",
+          "websiteUrl": "https://oregkorossy.hu",
+          "image": "https://oregkorossy.hu/wp-content/uploads/2025/02/DSC08170-scaled.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/gLWzXawPQgx7WUf47"
         },
         {
@@ -8377,7 +8379,8 @@
           "address": "Goethegasse 1, 1010 Wien, Austria",
           "country": "Austria",
           "type": "restaurant",
-          "websiteUrl": "",
+          "websiteUrl": "https://www.cafe-mozart.at",
+          "image": "https://www.cafe-mozart.at/xstorage/3/_cache/Mozart_sacher_dunkel_9189_1_c016ee6ddd14ea6d8abcd7ea622c3d90.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/KkghPPTfQW622HLZ9"
         },
         {
@@ -8389,7 +8392,8 @@
           "address": "Johann-Galler-Straße 14-16, 2120 Wolkersdorf im Weinviertel, Austria",
           "country": "Austria",
           "type": "other",
-          "websiteUrl": "",
+          "websiteUrl": "https://www.kotanyi.com/pl/",
+          "image": "https://cms-at.kotanyi.com/wp-content/uploads/2019/05/kotanyi-wolkersdorf-luftaufnahme.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/ojy3SxK6KGN8ZbdD7"
         },
         {
@@ -8401,7 +8405,8 @@
           "address": "Neustift am Walde 77, 1190 Wien, Austria",
           "country": "Austria",
           "type": "restaurant",
-          "websiteUrl": "",
+          "websiteUrl": "https://www.fuhrgassl-huber.at/",
+          "image": "https://www.fuhrgassl-huber.at/xstorage/1/_cache/Fuhrgasslhuber_Victor-Liska-33_STADL-(1)_7756_1_ad520e0ee427761c1db75d7b21bc078d.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/z11ZHSpruFAGhLdt5"
         }
       ]
