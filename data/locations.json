@@ -1797,6 +1797,57 @@
       ]
     },
     {
+      "videoId": "8HFY5uOlxu8",
+      "videoUrl": "https://www.youtube.com/watch?v=8HFY5uOlxu8",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc.142  „Do Dalmacji!!!\"",
+      "filterTitle": "Do Dalmacji!!! (odc. 142)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2023-07-07T15:00:09Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "vidikovac-krka-istok",
+          "name": "Vidikovac Krka - Istok",
+          "description": "Oto Vidikovac Krka – Istok, w Chorwacji, gdzie pan Robert z pewnością zatrzymał się, by podziwiać wschodni brzeg rzeki Krka, która niczym zielony wąż wije się przez krajobraz, by z hukiem spaść w kaskady. W tym miejscu, gdzie czas zdaje się płynąć wolniej, zamyślił się nad smakiem lokalnych fig czy kieliszkiem dobrego, dalmatyńskiego wina, które w towarzystwie takiego widoku smakuje przecież najlepiej.",
+          "latitude":43.8076760493509, 
+          "longitude": 15.917541091505552,
+          "address": "RW58+2X Lozovac, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://www.npkrka.hr/wp-content/uploads/Vidikovac-Krnici-Gornji-2-NASLOVNA.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ChbTm97aKrLozB9A7"
+        },
+        {
+          "id": "krka-belvedere-restau",
+          "name": "Krka Belvedere restau",
+          "description": "Z chorwackiego Krka Belvedere, miejsca gdzie widoki zapierają dech w piersiach, rozciąga się panorama, którą niejeden podróżnik podziwiał od wieków, a duch natury od zawsze inspirował do refleksji. Lecz prawdziwa magia zaczyna się przy stole, gdzie proste, lecz pełne słońca smaki Dalmacji, podane z lokalnym winem, stają się esencją niezapomnianej chwili. Ach, toż to kwintesencja śródziemnomorskiej radości życia, podana w scenerii, którą zapamiętuje się na długo.",
+          "latitude": 43.807388785246474, 
+          "longitude": 15.918264524504304,
+          "address": "RW58+2X Lozovac, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "https://heyzine.com/flip-book/e1a04d110c.html",
+          "image": "https://media-cdn.tripadvisor.com/media/photo-s/0f/38/ba/47/the-krka-belvedere-restaurant.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/kVVuCGQc9wXWfmWcA"
+        },
+        {
+          "id": "zvijezda-mora",
+          "name": "Zvijezda Mora",
+          "description": "W Chorwacji, gdzie słońce hojnie obdarza wybrzeże, leży \"Zvijezda Mora\" – prawdziwa Gwiazda Morza, która od lat rozświetla kulinarne szlaki. Podróżnik z pewnością odnalazłby tu nie tylko wyborne smaki Adriatyku, od świeżych ryb po aromatyczne oliwy, ale i ten niepowtarzalny spokój, który sprawia, że każda chwila staje się ucztą dla zmysłów.",
+          "latitude": 43.011363663796, 
+          "longitude": 17.267634089761163,
+          "address": "Zvijezda Mora, Ribarska ul. bb, 20240, Trpanj, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://www.globtroter.pl/zdjecia/chorwacja/b218188_chorwacja_peljesac_port_w_trpanj.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/r1QvKENEoGXhrBFS6"
+        }
+      ]
+    },
+    {
       "videoId": "eKNH1eQRYlk",
       "videoUrl": "https://www.youtube.com/watch?v=eKNH1eQRYlk",
       "title": "ROBERT MAKŁOWICZ POLSKA odc.141  „Śladami dawnej Warszawy\".",
@@ -12507,8 +12558,8 @@
         },
         {
           "id": "port-of-trpanj",
-          "name": "Port of Trpanj",
-          "description": "Jedna z dwóch przystani promowych na półwyspie Pelješac.",
+          "name": "Port Trpanj",
+          "description": "Port Trpanj, położony na malowniczym półwyspie Pelješac, to prawdziwa brama do serca Dalmacji, gdzie czas zdaje się płynąć w rytmie fal, a każda chwila ma swój niepowtarzalny smak. Od wieków stanowił ważny punkt na morskiej mapie, oferując podróżnym nie tylko schronienie, ale i obietnicę świeżych owoców morza, które kusząco wołają z każdej tawerny. To idealne miejsce, by zatrzymać się na chwilę, delektując się widokiem i lokalnym winem, zanim wyruszy się w dalszą kulinarną podróż.",
           "latitude": 43.00997355251406, 
           "longitude": 17.26744566073017,
           "address": "Žalo 30, 20240, Trpanj, Croatia",
