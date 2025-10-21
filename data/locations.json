@@ -1797,9 +1797,86 @@
       ]
     },
     {
+      "videoId": "-HOKGuo2S9k",
+      "videoUrl": "https://www.youtube.com/watch?v=-HOKGuo2S9k",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc.143  „Rubieże Republiki Raguzy\".",
+      "filterTitle": "Rubieże Republiki Raguzy. (odc. 143)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2023-07-21T15:00:12Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "church-of-st-vitus",
+          "name": "Church of St. Vitus",
+          "description": "Niczym perła ukryta w adriatyckim słońcu, stoi Kościół św. Wita – budowla, której okrągły kształt, rozpoczęty w 1638 roku, od razu zdradza jezuicką fantazję architektoniczną. To nie tylko świątynia, ale i świadectwo epoki, która potrafiła łączyć głęboką wiarę z równie głębokim zamiłowaniem do barokowego rozmachu – idealne miejsce, by po kontemplacji ruszyć na poszukiwanie lokalnych smaków, bo przecież duch i ciało potrzebują równowagi.",
+          "latitude": 42.712490385848184, 
+          "longitude": 17.979130923039197,
+          "address": "Potok 7, 20235, Trsteno, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://i.adriatic.hr/places/395/dalmatia-dubrovnik-slano-croatia-15-l.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/QKLPtvKtNALLCrpj8"
+        },
+        {
+          "id": "trsteno-arboretum",
+          "name": "Trsteno Arboretum",
+          "description": "Gdzieś tam, na chorwackim wybrzeżu, Robert Makłowicz natknął się na Trsteno Arboretum – prawdziwą perłę, której korzenie sięgają końca XV wieku. To właśnie tutaj, w ogrodach rodu Gozze, zbierano egzotyczne rośliny z całego świata, tworząc botaniczną mozaikę smaków i zapachów, niczym wykwintne danie, serwowane przez wieki. Spacerując wśród wiekowych platanów, można poczuć nie tylko historię, ale i zapach morskiej bryzy, która dodaje temu miejscu wyjątkowej, śródziemnomorskiej przyprawy.",
+          "latitude": 42.71328569147156, 
+          "longitude": 17.976823587784995,
+          "address": "Trsteno Arboretum, Potok 20, 20233, Trsteno, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "http://www.pvdp.hr/",
+          "image": "https://excursionmania.com/cdn-cgi/image/quality=75,format=webp,w=auto,h=auto,fit=scale-down,trim=border/https://excursionmania.com/uploads/blog/gallery/1253/17369424644.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/P6bhkGhodJxDyj3R9"
+        },
+        {
+          "id": "vidikovac-lozica",
+          "name": "Vidikovac Lozica",
+          "description": "Z chorwackiego Vidikovac Lozica rozpościera się widok, od którego wzrok odpoczywa, a myśli same płyną ku horyzontowi. To tu, gdzie Adriatyk prezentuje się w całej okazałości, usiany archipelagiem wysp, można niemal poczuć smak soli na ustach i wyobrazić sobie opowieści dawnych żeglarzy, którzy tymi samymi szlakami przemierzali morze. Miejsce to, choć nieoznaczone konkretną datą powstania, od wieków niezmiennie inspiruje, oferując panoramę równie bogatą w historię, co w potencjał na wyśmienite, morskie specjały.",
+          "latitude": 42.66998236221764, 
+          "longitude": 18.076664627636365,
+          "address": "32, 20236, Lozica, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://www.photohound.co/images/2051034l.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/NcVHst3VeVEAbe2MA"
+        },
+        {
+          "id": "sokol-grad-sokol-fortress",
+          "name": "Sokol grad / Sokol Fortress",
+          "description": "Sokol grad, czyli Sokoli Gród, to prawdziwa perła chorwackiej Konavli, której nazwa doskonale oddaje jego wyniosłe położenie. Już w XIV wieku ta imponująca twierdza strzegła granic, a dziś z jej murów rozciąga się widok tak urzekający, że z pewnością Makłowicz doceniłby go, zasiadając z kieliszkiem lokalnego wina i po prostu chłonąc tę niezwykłą chwilę.",
+          "latitude": 42.542193469220756, 
+          "longitude": 18.409136326672048,
+          "address": "krajnje 45, 20215, Dunave, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "https://citywallsdubrovnik.hr/",
+          "image": "https://citywallsdubrovnik.hr/wp-content/uploads/2020/07/SOKOL-KULA-003-Large.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ejyY7quGVVgBcW2Y6"
+        },
+        {
+          "id": "kameni-dvori-tavern",
+          "name": "Kameni Dvori Tavern",
+          "description": "W chorwackim słońcu, gdzie kamień pamięta dawne dzieje, odnajdziemy tawernę Kameni Dvori – prawdziwą ostoję smaku i tradycji. Ten urokliwy, kamienny przybytek, którego fundamenty postawiono już w 1850 roku, od pokoleń pielęgnuje ducha autentycznej gościnności. To właśnie tu, w cieniu wiekowych murów, podaje się specjały, które zadowoliłyby nawet najbardziej wybrednego smakosza, a każdy kęs przenosi w świat prostych, lecz genialnych smaków Konavle – bez zbędnych ceregieli, za to z sercem na talerzu.",
+          "latitude": 42.54610679565677, 
+          "longitude": 18.360450938256047,
+          "address": "1A, 20215, Lovorno, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "https://www.holiday-village-konavle.com/kameni-dvori-tavern-inn",
+          "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/156803435.jpg?k=406cc222d62006ba71e819b0fafe0127a7a77ededd425ef4b90dff4f4da247b3&o=&hp=1",
+          "GoogleMapsLink": "https://maps.app.goo.gl/oLeRp1EBYFW5b7oR9"
+        }
+      ]
+    },
+    {
       "videoId": "8HFY5uOlxu8",
       "videoUrl": "https://www.youtube.com/watch?v=8HFY5uOlxu8",
-      "title": "ROBERT MAKŁOWICZ DALMACJA odc.142  „Do Dalmacji!!!\"",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc.142 „Do Dalmacji!!!\"",
       "filterTitle": "Do Dalmacji!!! (odc. 142)",
       "playlistId": "",
       "playlistTitle": "",
