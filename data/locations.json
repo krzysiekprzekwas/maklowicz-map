@@ -1797,6 +1797,44 @@
       ]
     },
     {
+      "videoId": "CuLKiQcPTO0",
+      "videoUrl": "https://www.youtube.com/watch?v=CuLKiQcPTO0",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc.144  „ Podwodna winiarnia\".",
+      "filterTitle": "Podwodna winiarnia. (odc. 144)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2023-07-28T15:00:10Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "edivo-wine-bar",
+          "name": "Edivo Wine Bar",
+          "description": "W malowniczej Chorwacji, na półwyspie Pelješac, Robert Makłowicz z pewnością z zaciekawieniem zajrzałby do Edivo Wine Bar, miejsca niezwykłego, gdzie wino dojrzewa w amforach na morskim dnie. Ta unikatowa metoda, łącząca starożytną tradycję przechowywania trunków z chłodnymi objęciami Adriatyku, nadaje trunkom niepowtarzalny charakter i głębię, oferując smaki, które z pewnością wryłyby się w pamięć.",
+          "latitude": 42.93109648499057, 
+          "longitude": 17.44700468700807,
+          "address": "72, 20246, Drače, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "http://www.edivovina.hr/",
+          "image": "https://www.edivovina.hr/wp-content/uploads/2021/04/c3.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/WXAzDbzshDfBRgLS9"
+        },
+        {
+          "id": "bijavka-beach",
+          "name": "Bijavka Beach",
+          "description": "Na plaży Bijavka w Chorwacji, gdzie Adriatyk, jak przystało na starego gawędziarza, szepcze swoje odwieczne historie, człowiek, leżąc na rozgrzanych słońcem kamykach, z łatwością wyobraża sobie, jak rybacy od wieków wracali z połowu, by potem, z godnością, delektować się tym, co morze szczodrze ofiarowało. To wszakże idealna sceneria, by po orzeźwiającej kąpieli, z apetytem godnym cesarza rzymskiego, który wszakże i tu bywał, zasiąść do talerza świeżych kalmarów, popijając lokalne wino, które, co tu kryć, zawsze smakuje najlepiej.",
+          "latitude": 43.00353883908789, 
+          "longitude": 17.283988493060555,
+          "address": "Luka 24, 20240, Trpanj, Croatia",
+          "country": "Chorwacja",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://www.putovnica.net/images/480/382097-trpanj-plaza-luka-istok.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/cpLFXF9Y7ye88tVj9"
+        }
+      ]
+    },
+    {
       "videoId": "-HOKGuo2S9k",
       "videoUrl": "https://www.youtube.com/watch?v=-HOKGuo2S9k",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc.143  „Rubieże Republiki Raguzy\".",
@@ -5307,7 +5345,7 @@
           "country": "Chorwacja",
           "type": "attraction",
           "websiteUrl": "",
-          "image": "",
+          "image": "https://jasniepanstwo.pl/wp-content/uploads/2023/09/kosciol-sw-Mikolaja-800x1067.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/8d5Ftsueqh2mqCam8"
         },
         {
