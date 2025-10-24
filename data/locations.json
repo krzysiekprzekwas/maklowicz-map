@@ -9658,6 +9658,7 @@
           "country": "Polska",
           "type": "attraction",
           "websiteUrl": "",
+          "image": "https://findingpoland.com/wp-content/uploads/2022/06/tri-city-view.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/6hLfqCFUGUUQfzDYA"
         },
         {
@@ -9670,6 +9671,7 @@
           "country": "Polska",
           "type": "attraction",
           "websiteUrl": "",
+          "image":"https://3krajobrazygdanskie.com/media/photos/437/original.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/FoHt8maqjBouBNJQ7"
         },
         {
@@ -9681,7 +9683,8 @@
           "address": "Jana z Kolna 6, 80-864 Gdańsk, Poland",
           "country": "Polska",
           "type": "attraction",
-          "websiteUrl": "",
+          "websiteUrl": "https://ecs.gda.pl",
+          "image":"https://ecs.gda.pl/wp-content/uploads/2021/10/ecs_bud_052_zoom-1.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/BerCURiJEDxH6fXJ7"
         },
         {
@@ -9693,7 +9696,8 @@
           "address": "Chmielna 1, 80-748 Gdańsk, Poland",
           "country": "Polska",
           "type": "other",
-          "websiteUrl": "",
+          "websiteUrl": "https://sportgdansk.pl/obiekty/przystan-jachtowa-marina-gdansk/",
+          "image":"https://sportgdansk.pl/wp-content/uploads/2023/05/marina_szafarnia.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/K9JRCEYxhUJcMHjx5"
         },
         {
@@ -9705,19 +9709,21 @@
           "address": "Szafarnia 9, 80-755 Gdańsk, Poland",
           "country": "Polska",
           "type": "restaurant",
-          "websiteUrl": "",
+          "websiteUrl": "https://brovarnia.pl/",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/75/04/65/caption.jpg?w=900&h=500&s=1",
           "GoogleMapsLink": "https://maps.app.goo.gl/CeQsxc2zGsBH9UEG9"
         },
         {
           "id": "dwor-artusa-oddzia-muzeum-gdanska",
-          "name": "Dwór Artusa. Oddział Muzeum Gdańska",
+          "name": "Dwór Artusa",
           "description": "W Gdańsku, na Długim Targu, stoi prawdziwa perełka architektury - Dwór Artusa, oddział Muzeum Gdańska. Ten przepiękny budynek z XVI wieku to nie tylko przykład renesansowej sztuki, ale również świadek wielu ważnych wydarzeń w historii miasta. We wnętrzach znajdziemy piękne freski i rzeźby, a także atmosferę, która przeniesie nas wprost do czasów złotego wieku Gdańska.",
           "latitude": 54.348733682903664, 
           "longitude": 18.65335222279266,
           "address": "Długi Targ 44, 80-830 Gdańsk, Poland",
           "country": "Polska",
           "type": "attraction",
-          "websiteUrl": "",
+          "websiteUrl": "https://muzeumgdansk.pl/wizyta-w-muzeum-gdanska/oddzialy/",
+          "image":"https://tourguideservicegdansk.pl/wp-content/uploads/2019/02/Dwór-Artusa-w-Gdańsku-Ania-Anna-Kotula-przewodnik-po-Gdansku.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/gzgefpSULKyjmUjU9"
         },
         {
@@ -9729,7 +9735,8 @@
           "address": "Piwna 26, 80-831 Gdańsk, Poland",
           "country": "Polska",
           "type": "attraction",
-          "websiteUrl": "",
+          "websiteUrl": "https://bazylikamariacka.gdansk.pl",
+          "image":"https://globtroterek.com/wp-content/uploads/2021/10/Gdańsk-56.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/Qwh82QtZuUUdYNr16"
         },
         {
@@ -9741,7 +9748,8 @@
           "address": "Świętego Ducha 58, 80-834 Gdańsk, Poland",
           "country": "Polska",
           "type": "attraction",
-          "websiteUrl": "",
+          "websiteUrl": "https://bazylikamariacka.gdansk.pl/bazylika/kaplica-krolewska/",
+          "image":"https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://bazylikamariacka.gdansk.pl/wp-content/uploads/slider/cache/b61000dc82e93f3f33eb0fa45dfd0756/DSC04111.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/tdYVKXuswQG4Xmqw6"
         },
         {
@@ -9753,7 +9761,8 @@
           "address": "Chlebnicka 42, 80-830 Gdańsk, Poland",
           "country": "Polska",
           "type": "restaurant",
-          "websiteUrl": "",
+          "websiteUrl": "https://gdanskibowke.com",
+          "image":"https://gdanskibowke.com/en/wp-content/gallery/galeria/4.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/M2EuMYMWTpeedt1b7"
         }
       ]
