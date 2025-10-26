@@ -204,7 +204,7 @@ export function LocationDetails({
             onClick={() => navigator.share?.({
               title: location.name,
               text: `Sprawdź to miejsce: ${location.name}`,
-              url: location.GoogleMapsLink || window.location.href,
+              url: `/?placeId=${encodeURIComponent(location.id)}`,
             })}
             disabled={!navigator.share}
           >
