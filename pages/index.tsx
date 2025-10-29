@@ -2,6 +2,7 @@ import React from 'react';
 import { useRouter } from 'next/router';
 import dynamic from 'next/dynamic';
 import { useLocations } from '../hooks/useLocations';
+import Head from 'next/head';
 import { useLocationState } from '../hooks/useLocationState';
 import { Filters } from '../components/filters/Filters';
 import { LocationDetails } from '../components/location/LocationDetails';
@@ -63,6 +64,11 @@ export default function Home() {
 
   return (
     <main className="flex-1 flex flex-col bg-secondary">
+      {selectedLocation && (
+        <Head>
+          <title>{`${selectedLocation.name} | Śladami Roberta Makłowicza`}</title>
+        </Head>
+      )}
       <div className="flex flex-1 relative">
         <Filters
           isOpen={isFiltersOpen}
