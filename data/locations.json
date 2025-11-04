@@ -1797,6 +1797,83 @@
       ]
     },
     {
+      "videoId": "DlRYwsgRsAs",
+      "videoUrl": "https://www.youtube.com/watch?v=DlRYwsgRsAs",
+      "title": "ROBERT MAKŁOWICZ WŁOCHY odc.150  „Balsamicznym szlakiem\".",
+      "filterTitle": "Balsamicznym szlakiem. (odc. 150)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2023-09-29T15:00:10Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "musee-automobile-panini",
+          "name": "Musée automobile PANINI",
+          "description": "W sercu włoskiej Emilii-Romanii, otóż, znajduje się miejsce doprawdy niezwykłe – Musée automobile PANINI. To nie jest zwykła ekspozycja lśniących maszyn, lecz prawdziwa gratka dla koneserów, gdzie obok ryczących silników Maserati dojrzewa Parmigiano Reggiano, tworząc unikalną symfonię smaków i prędkości. Można tu rozsmakować się w historii motoryzacji, podziwiając kolekcję Paninich, która od dziesięcioleci gromadzi perły włoskiej inżynierii i pasji.",
+          "latitude": 44.63057844385812, 
+          "longitude": 10.806672030514935,
+          "address": "Via dell'Aeroporto, 140, 41123 Modena MO, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "http://www.paninimotormuseum.it/",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/dc/9d/8b/maserati-s-young-and.jpg?w=1200&h=-1&s=1",
+          "GoogleMapsLink": "https://maps.app.goo.gl/hgrQGdN8oa8BUZiZA"
+        },
+        {
+          "id": "osteria-del-tuffetto",
+          "name": "Osteria del Tuffetto",
+          "description": "Włoska ziemia, hojna i pełna smaków, kryje w sobie miejsca, gdzie kulinarna tradycja jest świętością, a czas zdaje się płynąć wolniej. Jednym z takich zakątków jest Osteria del Tuffetto – prawdziwa perła wśród włoskich jadłodajni. Tu, w murach pamiętających zapewne niejedną epokę, nie szuka się fajerwerków, lecz prawdziwej, włoskiej duszy na talerzu, dowodząc, że czasem najskromniejsze nazwy kryją w sobie największe kulinarne objawienia.",
+          "latitude": 44.62488155969007, 
+          "longitude": 10.795501349095554,
+          "address": "Strada di Marzaglia, 288, 41123 Modena MO, Italy",
+          "country": "Włochy",
+          "type": "restaurant",
+          "websiteUrl": "http://www.osteriadeltuffetto.com/",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1f/fd/1f/7b/sala-principale-osteria.jpg?w=900&h=500&s=1",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZpiWqeqMdtvewgNh7"
+        },
+        {
+          "id": "opera-02-ca-montanari",
+          "name": "Opera 02 Cà Montanari",
+          "description": "Włoska Emilia-Romania, kraina, gdzie nawet powietrze pachnie parmezanem i octem balsamicznym, skrywa prawdziwą perełkę – Opera 02 Cà Montanari. Od 2002 roku, w tym urokliwym zakątku, z pieczołowitością pielęgnuje się winorośl, z której powstaje Lambrusco, by udowodnić, że ten radosny trunek zasługuje na najwyższe uznanie, a towarzysząca mu kuchnia to poezja smaku, co sprawia, że nawet najbardziej wybredne podniebienie zatańczy z radości.",
+          "latitude": 44.498016221155616, 
+          "longitude": 10.918056205511546,
+          "address": "FWX7+67 Castelvetro di Modena, Province of Modena, Italy",
+          "country": "Włochy",
+          "type": "other",
+          "websiteUrl": "http://www.opera02.it/",
+          "image": "https://static.where-e.com/Italy/Emilia_Romagna/Modena/Opera-02-Ca-Montanari_77ad18d996974d40b23613849edbe165.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/htPh2tACzxgZRzeE7"
+        },
+        {  
+          "id": "molo-lazise",
+          "name": "Molo Lazise",
+          "description": "W Lazise, jednej z najstarszych gmin Włoch, gdzie już w X wieku cesarz Otto II nadawał przywileje, spacer po molo to nie tylko podziwianie jeziora, ale i prawdziwa uczta dla zmysłów. Z tego właśnie miejsca najpiękniej widać, jak słońce tańczy na tafli Gardy, obiecując wieczorną porcję świeżo złowionego okonia, skropionego oliwą z pobliskich gajów, a może i lampkę lokalnego wina.",
+          "latitude": 45.505335769708914, 
+          "longitude": 10.73104407812785,
+          "address": "Lazise, 37017 Lazise VR, Italy",
+          "country": "Włochy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://jeziorogarda.pl/wp-content/uploads/2023/12/Lazise.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/A4FcrsRav4JQ5HW9A"
+        },
+        {
+          "id": "gio-max-s-n-c-di-paldino-g-e-c",
+          "name": "Gio & Max S.N.C. Di Paldino G. E C.",
+          "description": "W sercu Włoch, gdzie tradycja splata się z kulinarną pasją, mieści się Gio & Max S.N.C. Di Paldino G. E C. – miejsce, które z pewnością zachwyciłoby niejednego poszukiwacza autentycznych smaków. To nie jest zwykły sklep, lecz swoisty wehikuł czasu, gdzie od pokoleń pielęgnuje się regionalne specjały, oferując prawdziwe arcydzieła smaku, które z miejsca podbijają serca i podniebienia. Można tu odnaleźć esencję włoskiej gościnności i rzemiosła, która sprawia, że każda wizyta staje się małym, smakowitym odkryciem.",
+          "latitude": 45.50532655527964, 
+          "longitude": 10.732807962203124,
+          "address": "Via Fontana, 1, 37017 Lazise VR, Italy",
+          "country": "Włochy",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/4a/bd/00/gio-max.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/WHZCZVHQs21QcfAS7"
+        }
+      ]
+    },
+    {
       "videoId": "K4YVCQH4g38",
       "videoUrl": "https://www.youtube.com/watch?v=K4YVCQH4g38",
       "title": "ROBERT MAKŁOWICZ WŁOCHY odc.149  „ W krainie culatello\".",
