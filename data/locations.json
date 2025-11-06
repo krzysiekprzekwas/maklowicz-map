@@ -1797,6 +1797,57 @@
       ]
     },
     {
+      "videoId": "tJ1NIdZlpV0",
+      "videoUrl": "https://www.youtube.com/watch?v=tJ1NIdZlpV0",
+      "title": "ROBERT MAKŁOWICZ NIEMCY odc.151  „Ziemniak i winorośl\".",
+      "filterTitle": "Ziemniak i winorośl. (odc. 151)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2023-10-06T15:00:08Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "deutsches-kartoffelmuseum",
+          "name": "Deutsches Kartoffelmuseum",
+          "description": "W malowniczej miejscowości Fußgönheim, w Niemczech, odnajdziemy miejsce o tyleż zaskakującym, co fascynującym charakterze – Deutsches Kartoffelmuseum. Mieści się ono w dawnej synagodze, wzniesionej w 1879 roku, co samo w sobie stanowi niezwykłą fuzję historii i kulinarnej opowieści, gdzie bulwa, która niegdyś ratowała Europę od głodu, zyskuje należny jej hołd. To właśnie tutaj, w murach z bogatą przeszłością, ziemniak zyskuje status prawdziwej królowej stołów, opowiadając swoje smakowite, i nierzadko dramatyczne, dzieje.",
+          "latitude": 49.45768667439971, 
+          "longitude": 8.293983934397755,
+          "address": "Leininger Ring 9, 67136 Fußgönheim, Germany",
+          "country": "Niemcy",
+          "type": "attraction",
+          "websiteUrl": "http://www.deutscheskartoffelmuseum.de/",
+          "image": "https://www.rhein-neckar-industriekultur.de/sites/default/files/styles/schemaevent169/public/_dateien/bilder/termine_2025-2/250830_kartoffelmuseum.jpg?itok=5iJRFbjP",
+          "GoogleMapsLink": "https://maps.app.goo.gl/vGB78cGf5cBBNAjQ7"
+        },
+        {
+          "id": "katedra-w-spirze",
+          "name": "Katedra w Spirze",
+          "description": "W malowniczej Spirze, gdzie historia splata się z winnym szlakiem, wznosi się majestatyczna katedra, której korzenie sięgają XI wieku. To romański kolos, tak monumentalny i trwały, że aż chce się pomyśleć o solidnym, regionalnym posiłku i kieliszku lokalnego wina, by uczcić jego wiekową historię. W jej wnętrzu, niczym w doskonale przyprawionej potrawie, skrywa się esencja dziejów cesarstwa, a cesarskie grobowce dodają smaku tej niezwykłej opowieści.",
+          "latitude": 49.31725085347743, 
+          "longitude": 8.441537568572999,
+          "address": "Maximilianstraße 100, 67346 Speyer, Germany",
+          "country": "Niemcy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://aws-tiqets-cdn.imgix.net/images/content/6c4c393144954f93975bd99f31d4fd7f.jpg?auto=format%2Ccompress&fit=crop&ixlib=python-4.0.0&q=70",
+          "GoogleMapsLink": "https://maps.app.goo.gl/vgTGECuFxJVGR6478"
+        },
+        {
+          "id": "rentschlers",
+          "name": "RENTSCHLERS",
+          "description": "Od 1887 roku, gdzieś w sercu Szwarcwaldu, Rentschlers niezmiennie kusi swym urokiem, będąc prawdziwą ostoją szwabskiej gościnności. W jego progach, pośród wiekowych murów, podróżnik odnajdzie nie tylko wyśmienite dania lokalnej kuchni, ale i poczucie, że czas zwalnia, pozwalając delektować się każdą chwilą. To miejsce, gdzie historia i smak splatają się w opowieść o regionie, którą warto poznać.",
+          "latitude": 49.31729142997717, 
+          "longitude": 8.449662736829815,
+          "address": "Rheinallee 4, 67346 Speyer, Germany",
+          "country": "Niemcy",
+          "type": "restaurant",
+          "websiteUrl": "https://www.rentschlers-speyer.de/",
+          "image": "https://img0.oastatic.com/img2/44528661/600x300c/variant.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/q6UprgX9xv6jKrwu6"
+        }
+      ]
+    },
+    {
       "videoId": "DlRYwsgRsAs",
       "videoUrl": "https://www.youtube.com/watch?v=DlRYwsgRsAs",
       "title": "ROBERT MAKŁOWICZ WŁOCHY odc.150  „Balsamicznym szlakiem\".",
