@@ -1797,6 +1797,70 @@
       ]
     },
     {
+      "videoId": "HfEdhI3GNHo",
+      "videoUrl": "https://www.youtube.com/watch?v=HfEdhI3GNHo",
+      "title": "ROBERT MAKŁOWICZ NIEMCY odc.152  „Nad piękną Mozelą\".",
+      "filterTitle": "Nad piękną Mozelą. (odc. 152)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2023-10-13T15:00:10Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "weinstand-an-der-mosel",
+          "name": "Weinstand an der Mosel",
+          "description": "Wzdłuż malowniczych zakoli Mozeli, gdzie słońce od wieków pieści winorośl, a rzymskie legiony dawno temu zostawiły swój ślad, napotkać można jeden z tych urokliwych Weinstandów. To prawdziwa oaza dla koneserów życia, gdzie w kieliszku lokalnego wina odbija się nie tylko błękit nieba, ale i cała historia regionu, serwując przy tym widoki, które potrafią ukoić nawet najbardziej zbuntowaną duszę.",
+          "latitude": 49.91471468622323, 
+          "longitude": 7.074534472133645,
+          "address": "Gestade 16a, 54470 Bernkastel-Kues, Germany",
+          "country": "Niemcy",
+          "type": "restaurant",
+          "websiteUrl": "https://www.weingut-pastor.de/",
+          "image": "https://www.volksfreund.de/imgs/28/2/1/5/6/5/7/5/0/5/tok_109ef711d2851dd9af01637e0a385b7c/w1900_h1425_x1796_y1347_P1010386-b1d94909e409e114.JPG",
+          "GoogleMapsLink": "https://maps.app.goo.gl/pko4sJJ9YWPiPio78"
+        },
+        {
+          "id": "market-place",
+          "name": "Market Place",
+          "description": "Oto niemiecki Rynek, gdzie historia i kulinaria splatają się w niezwykły sposób. Od wieków, być może już od średniowiecza, tętni tu życie, a z pewnością unosi się aromat lokalnych specjałów, które kuszą podniebienia. To prawdziwe serce miasta, gdzie każda brukowana kostka zdaje się opowiadać swoją opowieść, a atmosfera zaprasza do niespiesznej degustacji.",
+          "latitude": 49.91555163861654, 
+          "longitude": 7.075769437517893,
+          "address": "Markt 32, 54470 Bernkastel-Kues, Germany",
+          "country": "Niemcy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://www.rlp-tourismus.com/uploads/tx_sfcontenthub/50eb1c44-6a88-4e50-bd90-69225c8cc5a9.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/zuAswk9Un6QEFJbt8"
+        },
+        {
+          "id": "museum-graacher-tor",
+          "name": "Museum Graacher Tor",
+          "description": "Oto Graacher Tor, brama z roku pańskiego 1300, która w Bernkastel-Kues nie tylko strzegła miasta, ale i, kto wie, może przepuszczała karawany z najlepszym winem Mozeli. Dziś, jako lokalne muzeum, opowiada historie tak soczyste jak tutejsze Rieslingi, pozwalając zanurzyć się w dziejach regionu i poczuć smak minionych wieków, bez konieczności ruszania się z miejsca.",
+          "latitude": 49.91693387591787, 
+          "longitude": 7.075800878194056,
+          "address": "Gestade 6A, 54470 Bernkastel-Kues, Germany",
+          "country": "Niemcy",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://resc.deskline.net/images/RPT/1/06bae90f-ceff-4c1b-ae6b-c385dfcb0966/99/image.jpg?637957384242500000",
+          "GoogleMapsLink": "https://maps.app.goo.gl/dyuHVFiTUdQCsQfJ9"
+        },
+        {
+          "id": "deinhard-s-markthaus",
+          "name": "DEINHARD's Markthaus",
+          "description": "W niemieckim Koblencji, gdzie rzeki Mosela i Ren się spotykają, stoi zacne Deinhard's Markthaus. To miejsce, gdzie od 1794 roku historia niemieckiego winiarstwa, a zwłaszcza szampana (czy raczej Sektu!), pisana jest złotymi zgłoskami. Prawdziwa gratka dla podniebienia i ducha, gdzie można rozsmakować się w tradycji, która pęka w kieliszku niczym bąbelki wybornego trunku.",
+          "latitude": 49.915307821769986, 
+          "longitude": 7.075300284545652,
+          "address": "Bridge Bernkastel-Kues, L47, 54470 Bernkastel-Kues, Germany",
+          "country": "Niemcy",
+          "type": "other",
+          "websiteUrl": "https://www.deinhards-markthaus.com/",
+          "image": "https://www.graach.de/uploads/tx_sfcontenthub/1fc051d1-ba28-49d1-b90c-8d0cfec96b72.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/b3G7QEW7LqjRvgst7"
+        }
+      ]
+    },
+    {
       "videoId": "tJ1NIdZlpV0",
       "videoUrl": "https://www.youtube.com/watch?v=tJ1NIdZlpV0",
       "title": "ROBERT MAKŁOWICZ NIEMCY odc.151  „Ziemniak i winorośl\".",
