@@ -1797,6 +1797,70 @@
       ]
     },
     {
+      "videoId": "XWjB02lkytA",
+      "videoUrl": "https://www.youtube.com/watch?v=XWjB02lkytA",
+      "title": "ROBERT MAKŁOWICZ NIEMCY odc.154  „Dolnosaksońskie inspiracje\".",
+      "filterTitle": "Dolnosaksońskie inspiracje. (odc. 154)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2023-10-27T15:00:12Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "rabehof-oldendorf",
+          "name": "Rabehof Oldendorf,",
+          "description": "W północnych Niemczech, w malowniczym Oldendorfie, Robert Makłowicz natknął się na Rabehof – urokliwy, szachulcowy zespół dworski, którego najstarsze budynki pamiętają rok 1680. To nie lada gratka dla miłośników dawnych czasów, bo ten doskonale zachowany kompleks jest żywym świadectwem wiejskiego życia i rzemiosła, gdzie powietrze zdaje się być przesycone obietnicą solidnego, lokalnego jadła.",
+          "latitude": 52.79958739052083, 
+          "longitude": 10.08559022623755,
+          "address": "Örtzheide 2, 29320 Südheide, Germany",
+          "country": "Niemcy",
+          "type": "other",
+          "websiteUrl": "http://www.rabehof.de/",
+          "image": "https://cdn.shopify.com/s/files/1/1070/1486/files/Rabehof_60e18a93-7681-4f89-b31e-1ff3e4f75142_grande.jpg?v=1592305588",
+          "GoogleMapsLink": "https://maps.app.goo.gl/9Z9yoUNSWSuPbms3A"
+        },
+        {
+          "id": "restaurant-die-schaferei",
+          "name": "Restaurant DIE SCHÄFEREI",
+          "description": "W swoich kulinarnych wędrówkach po Niemczech, Robert Makłowicz natrafił na prawdziwą perłę – restaurację Die Schäferei, której historia sięga XVIII wieku, kiedy to mury te służyły za owczarnię. Dziś, w sercu Palatynatu, gdzie wino gra pierwsze skrzypce, to niezwykłe miejsce czaruje gości połączeniem wiekowej tradycji z finezją na talerzu. Z pewnością niejeden koneser doceni tu, jak dawne opowieści o pasterzach mieszają się z aromatem wykwintnych dań, tworząc niezapomniane wrażenia.",
+          "latitude": 53.10442663018987, 
+          "longitude": 9.819930961832036,
+          "address": "Heberer Str. 100, 29640 Schneverdingen, Germany",
+          "country": "Niemcy",
+          "type": "restaurant",
+          "websiteUrl": "https://die-schaeferei.de/",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/76/a1/a3/kiosk-imbiss-schaferei.jpg?w=900&h=500&s=1",
+          "GoogleMapsLink": "https://maps.app.goo.gl/VGhMmcpi5nXQkzC49"
+        },
+        {
+          "id": "luneburg-heath",
+          "name": "Lüneburg Heath",
+          "description": "Lüneburg Heath to kraina, gdzie wrzosy rozlewają się fioletem po horyzont, tworząc widok tak niezwykły, że aż chciałoby się go skonsumować wzrokiem. Nie bez powodu to właśnie tu, pośród tych pachnących połaci, od wieków pasą się owce Heidschnucke, których delikatne mięso, podane z nutą lokalnych ziół, staje się kwintesencją tutejszej sielanki.",
+          "latitude": 53.16418838449413, 
+          "longitude": 9.919743494639802,
+          "address": "7J5V+HX Wistedt, Germany",
+          "country": "Niemcy",
+          "type": "attraction",
+          "websiteUrl": "https://www.lueneburger-heide.de/",
+          "image": "https://www.selected.de/fileadmin/user_upload/AdobeStock_36466385-Von-Gabriele-Rohde.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/mM1MRLmc7zyPG5FF7"
+        },
+        {
+          "id": "hotel-restaurant-landhaus-eden",
+          "name": "Hotel & Restaurant Landhaus Eden",
+          "description": "Gdzieś w sercu Niemiec, Landhaus Eden jawi się jako prawdziwa perła, gdzie tradycja spotyka się z niebywałą gościnnością, a mury, nierzadko pamiętające czasy sprzed wieków, szepczą opowieści o minionych epokach. A kuchnia? Ach, tamtejsze specjały to prawdziwa uczta dla podniebienia, gdzie każdy kęs to podróż przez smaki regionu, podana z finezją, ale bez zbędnego zadęcia, co od razu człowiek czuje, że trafił do miejsca z duszą.",
+          "latitude": 52.99137650173929, 
+          "longitude": 9.90707474393678,
+          "address": "B71 5, 29614 Soltau, Germany",
+          "country": "Niemcy",
+          "type": "restaurant",
+          "websiteUrl": "https://www.landhauseden.de/",
+          "image": "https://www.landhauseden.de/wp-content/uploads/2022/03/hotel01.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/aWuPFYKwVaJATJNy7"
+        }
+      ]
+    },
+    {
       "videoId": "XGCf6NBxVQU",
       "videoUrl": "https://www.youtube.com/watch?v=XGCf6NBxVQU",
       "title": "ROBERT MAKŁOWICZ NIEMCY odc.153  „Szlakiem rzymskich okrętów\".",
