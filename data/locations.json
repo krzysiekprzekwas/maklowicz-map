@@ -1677,6 +1677,83 @@
       ]
     },
     {
+      "videoId": "eqX2cHWLrPE",
+      "videoUrl": "https://www.youtube.com/watch?v=eqX2cHWLrPE",
+      "title": "ROBERT MAKŁOWICZ PORTUGALIA odc.161 „W lasach Madery\".",
+      "filterTitle": "W lasach Madery. (odc. 161)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2023-12-15T16:00:12Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "sao-vicente-portugalia",
+          "name": "São Vicente, Portugalia",
+          "description": "São Vicente, położone na północnym wybrzeżu Madery, toż to prawdziwa perła, gdzie natura z rozmachem rzeźbiła krajobraz przez miliony lat. Tu, między dramatycznymi klifami a zielonymi dolinami, odkryć można nie tylko urokliwe miasteczko, ale i fascynujące jaskinie wulkaniczne, niczym świadectwo prastarych procesów. Takie widoki z pewnością zaostrzają apetyt na lokalne wino i świeże owoce morza, które smakują tu wyjątkowo.",
+          "latitude": 32.8022515198985,
+          "longitude": -17.04614053402705,
+          "address": "QWVR+GF Sao Vicente, Portugal",
+          "country": "Portugalia",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/St_Vicente.jpg/1200px-St_Vicente.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/fjtjVAtakANxPUQA8"
+        },
+        {
+          "id": "snack-bar-estoril",
+          "name": "Snack Bar Estoril",
+          "description": "W urokliwym Estoril, gdzie niegdyś szpiedzy i królowie wędrowali, a dziś słońce praży bezlitośnie, kryje się Snack Bar Estoril – miejsce, gdzie czas zdaje się płynąć wolniej, a kulinarna prostota triumfuje. Można tu, wśród gwaru codzienności, zakosztować prawdziwej Portugalii, tej nieudawanej, gdzie za niewielkie pieniądze dostaniemy kawałek historii na talerzu, a może i kilka anegdot od stałych bywalców.",
+          "latitude": 32.803615218429776, 
+          "longitude": -17.047384731905296,
+          "address": "R. do Cemitério 22, 9240-225 São Vicente, Portugal",
+          "country": "Portugalia",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/bd/af/66/widok-na-snack-bar-od.jpg?w=900&h=500&s=1",
+          "GoogleMapsLink": "https://maps.app.goo.gl/yifuWBdBL55zWynY8"
+        },
+        {
+          "id": "miradouro-da-eira-da-achada",
+          "name": "Miradouro da Eira da Achada",
+          "description": "Miradouro da Eira da Achada to miejsce, gdzie historia z naturą splata się w widok zapierający dech w piersiach. Niegdyś tętniła tu życiem eira, czyli tradycyjne klepisko, gdzie z mozołem oddzielano ziarno od plew – fundament każdego solidnego posiłku, rzecz jasna! Dziś zaś, stojąc na tym historycznym gruncie, można podziwiać bezkres oceanu, rozmyślając o dawnych smakach i trudzie ludzkich rąk, które przez wieki karmiły ten malowniczy zakątek Portugalii.",
+          "latitude": 32.8482086670196, 
+          "longitude": -17.152961402305984,
+          "address": "Caminho Doutor Francisco Rodrigues Jardim 53, 9270-101 Ribeira da Janela, Portugal",
+          "country": "Portugalia",
+          "type": "attraction",
+          "websiteUrl": "https://madeira.best/pt-pt/produto/miradouro-da-eira-da-achada/",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/65/d0/f4/caption.jpg?w=900&h=500&s=1",
+          "GoogleMapsLink": "https://maps.app.goo.gl/6MiJKK5F3HPqbbwG8"
+        },
+        {
+          "id": "fanal-forest",
+          "name": "Fanal Forest",
+          "description": "W sercu portugalskiej Madery, gdzie mgła często tańczy wśród wiekowych drzew, rozpościera się Fanal Forest – prastary las wawrzynowy, prawdziwy relikt epok geologicznych, którego korzenie sięgają eocenu. To miejsce, wpisane na listę UNESCO, to prawdziwa uczta dla oczu i ducha, gdzie powietrze ma smak wilgotnej tajemnicy, a każdy zakamarek szepcze opowieści sprzed milionów lat – tak gęstych, że można by je niemal kroić nożem i podawać z odrobiną zadumy.",
+          "latitude": 32.8094912267872, 
+          "longitude": -17.143921172265305,
+          "address": "RV53+RC Seixal, Portugal",
+          "country": "Portugalia",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://cdn.sanity.io/images/oyzyxja8/v2/855571428b775ed178781fb40e72f335aca944bd-2000x1333.jpg?w=2048&q=90&auto=format",
+          "GoogleMapsLink": "https://maps.app.goo.gl/62QH8A2tp3r699tT6"
+        },
+        {
+          "id": "akua",
+          "name": "Akua",
+          "description": "W Portugalii, gdzie słońce hojnie pieści wybrzeże, a Atlantyk od wieków opowiada swoje morskie sagi, odnaleźć można Akua. To miejsce, które z pewnością potrafi zaskoczyć nawet najbardziej wytrawnego smakosza, czerpiąc z głębin oceanu i lokalnych tradycji, by na talerzu stworzyć prawdziwe arcydzieła. Tu, w otoczeniu smaków i aromatów, można poczuć puls kraju – bez zbędnego zadęcia, za to z niebywałą finezją.",
+          "latitude": 32.647519657746045, 
+          "longitude": -16.90926814944219,
+          "address": "Rua Brito Câmara, n.º 9 La Vie Funchal Loja 1.13, São Martinho, 9000-039 Funchal, Portugal",
+          "country": "Portugalia",
+          "type": "restaurant",
+          "websiteUrl": "http://akuafunchal.pt/",
+          "image": "https://maps.yourtravel.pt/cgmlImg/1810-aqpbqzr/wmdpi16/1718294906.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/sbNbJoXWUPAGB3VA7"
+        }
+      ]
+    },
+    {
       "videoId": "RqFjZqPvBPY",
       "videoUrl": "https://www.youtube.com/watch?v=RqFjZqPvBPY",
       "title": "ROBERT MAKŁOWICZ PORTUGALIA odc.160  „MADERA. KRAINA WIECZNEJ WIOSNY\".",
