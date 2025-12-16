@@ -17,3 +17,9 @@ html, body, #__next {
   margin: 0;
   padding: 0;
 }
+
+/* Leaflet Global Override */
+.leaflet-div-icon {
+  background: transparent !important;
+  border: none !important;
+}

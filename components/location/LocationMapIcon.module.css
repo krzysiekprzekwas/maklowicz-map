@@ -67,10 +67,7 @@
   }
   
   /* --- Leaflet Global Override --- */
-  ::global(.leaflet-div-icon) {
-    background: transparent !important;
-    border: none !important;
-  }
+  /* Note: Global styles moved to globals.css due to Next.js 16 CSS module restrictions */
 
 .selectedHighlight {
     border-width: 4px; 
