@@ -1509,6 +1509,96 @@
       ]
     },
     {
+      "videoId": "rIHpH5McK6Y",
+      "videoUrl": "https://www.youtube.com/watch?v=rIHpH5McK6Y",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc.167  „Wietnamska Warszawa\"",
+      "filterTitle": "Wietnamska Warszawa (odc. 167)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-01-26T16:00:07Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "china-hotpot-grill",
+          "name": "China Hotpot & Grill",
+          "description": "W miejscu, gdzie polska gościnność spotyka się z azjatycką tradycją, China Hotpot & Grill zaprasza do niezwykłej podróży kulinarnej. Przy bulgoczącym wywarze i skwierczącym grillu, każdy staje się kucharzem i smakoszem zarazem, odkrywając esencję wspólnego biesiadowania, której korzenie sięgają tysięcy lat chińskiej historii.",
+          "latitude": 52.193658607797, 
+          "longitude": 20.95706283216544,
+          "address": "Borsucza 10, 02-213 Warszawa, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "https://chinahotpotandgrill.pl/",
+          "image": "https://chinahotpotandgrill.pl/wp-content/uploads/2025/02/chinahotpotgrill-bakalarska-1a-2.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/q8tz2d6JCoKtoGQ89"
+        },
+        {
+          "id": "targowisko-bakalarska",
+          "name": "Targowisko Bakalarska",
+          "description": "Na warszawskiej Bakalarskiej, gdzie kulinarny glob spotyka się w jednym, barwnym tyglu, podróżnik z pewnością poczułby się jak w domu. Od egzotycznych przypraw, przez świeże warzywa, aż po azjatyckie delikatesy – to prawdziwa uczta dla zmysłów, która, choć nie ma wiekowych murów, od lat pisze swoją historię smaku i różnorodności. Powstałe na przełomie wieków, to targowisko stało się żywym pomnikiem wielokulturowości stolicy, gdzie każdy znajdzie coś dla podniebienia i duszy.",
+          "latitude": 52.19351179807617, 
+          "longitude": 20.957455707153144,
+          "address": "Borsucza 10, 02-213 Warszawa, Poland",
+          "country": "Polska",
+          "type": "attraction",
+          "websiteUrl": "http://targowiskobakalarska.pl/",
+          "image": "https://bi.im-g.pl/im/d1/03/14/z20985809IEG,Targowisko-Bakalarska.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/jdKHUs8C6L4M2FB76"
+        },
+        {
+          "id": "hanoi-grill",
+          "name": "Hanoi Grill",
+          "description": "W Polsce, gdzie historia często splata się z nowoczesnością, odnajdujemy Hanoi Grill – prawdziwą kulinarną enklawę, która przenosi nas prosto na tętniące życiem ulice wietnamskiej stolicy. Tu, w otoczeniu lokalnych pejzaży, z niezwykłą precyzją odtworzono esencję hanojskiego street foodu, gdzie każdy grillowany kąsek to opowieść o dalekich tradycjach i pasji do smaku.",
+          "latitude": 52.19340670326431, 
+          "longitude": 20.95672705412509,
+          "address": "Bakalarska 11/lok.HA3, 02-212 Warszawa, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "https://halabakalarska.pl/wp-content/uploads/2021/01/DSC_0189-copy.jpg",
+          "image": "https://www.facebook.com/hanoigrill/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/DY6zc8kMaHDwWu5B6"
+        },
+        {
+          "id": "oh-my-pho",
+          "name": "Oh My Pho",
+          "description": "Oh My Pho – już sama nazwa intryguje i zaprasza do podróży! To miejsce, gdzie w sercu Polski, pośród znajomych ulic, odnajduje się prawdziwa, wietnamska dusza, zaklęta w aromatycznym bulionie i świeżych ziołach. Prawdziwa gratka dla poszukiwaczy smaków, którzy cenią sobie autentyczność i odrobinę kulinarnej egzotyki, serwowanej z uśmiechem i bez zbędnego zadęcia.",
+          "latitude": 52.225062944870025,
+          "longitude": 21.016197087897048,
+          "address": "Poznańska 15, 00-680 Warszawa, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "https://www.instagram.com/ohmy_pho?igsh=MWZ1b2JyemR3ZzhlMw%3D%3D&utm_source=qr",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/28/4e/f3/oh-my-pho.jpg?w=500&h=-1&s=1",
+          "GoogleMapsLink": "https://maps.app.goo.gl/qHyfrS65ZUa1N8KJ6"
+        },
+        {
+          "id": "restauracja-tran-tran",
+          "name": "Restauracja Tran Tran",
+          "description": "W pewnym zakątku Polski, gdzie czas zdaje się płynąć nieco wolniej, Pan Robert Makłowicz zawitał do Restauracji Tran Tran. To miejsce, którego mury pamiętają rok 1908, od dekad niezmiennie karmi smakoszy, oferując im prawdziwe skarby z wód, przygotowywane z godną podziwu pieczołowitością. Prawdziwa ostoja smaku, gdzie tradycja spotyka się z nutą kulinarnego szaleństwa, a nazwa sama w sobie jest już obietnicą niezwykłej przygody.",
+          "latitude": 52.225719776997884, 
+          "longitude": 21.01939266492914,
+          "address": "Księdza Ignacego Jana Skorupki 8, 00-546 Warszawa, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "http://trantran.pl/",
+          "image": "https://trantran.pl/wp-content/uploads/2019/10/trantran-naturalnie-smaczne.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/7hW4FVEab9z3AggB9"
+        },
+        {
+          "id": "la-ban",
+          "name": "La Bàn",
+          "description": "Otóż, kiedy Robert Makłowicz, ten niezmordowany podróżnik, zawitał do warszawskiego La Bàn, odkrył, że dalekie Wietnamy potrafią się zagnieździć w samym sercu Polski. To nie jest po prostu restauracja, to kulinarna podróż, gdzie aromaty z Azji Południowo-Wschodniej tańczą na podniebieniu, a każda miska pho opowiada historię smaku, której nie powstydziłby się żaden wietnamski targ. Prawdziwa perełka dla każdego, kto ceni sobie autentyczność i odrobinę egzotyki na talerzu.",
+          "latitude": 52.22492576662016, 
+          "longitude": 21.019541366236417,
+          "address": "Wilcza 27 Lok/Lu-68.03, 00-544 Warszawa, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "https://www.facebook.com/La-B%C3%A0n-104443331386888",
+          "image": "https://kulinarnieniepowazni.pl/wp-content/uploads/2021/08/laban.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/CxotTckFcTgwB66U7"
+        }
+      ]
+    },
+    {
       "videoId": "4TQISlxeZDU",
       "videoUrl": "https://www.youtube.com/watch?v=4TQISlxeZDU",
       "title": "ROBERT MAKŁOWICZ MAURITIUS odc.166 „W skarbnicy wielu kultur\".",
