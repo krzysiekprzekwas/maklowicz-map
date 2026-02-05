@@ -1,10 +1,14 @@
 import React from 'react';
 import { MapContainer, TileLayer, Marker, useMap } from 'react-leaflet';
+import MarkerClusterGroup from 'react-leaflet-cluster';
 import { LatLngBoundsExpression, LatLngExpression, DivIcon } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { Location } from '../../types/Location';
 import L from 'leaflet';
 import createCustomIcon from '../location/LocationMapIcon';
+import { createClusterCustomIcon } from './ClusterIcon';
+import { useIconCache } from '../../hooks/useIconCache';
+import { isMobileDevice } from '../../src/lib/deviceDetection';
 
 const maxZoomValue = 20;
 
@@ -40,14 +44,32 @@ const ChangeView: React.FC<{ locations: Location[] }> = React.memo(({ locations 
 });
 
 const Map: React.FC<MapProps> = React.memo(({ locations, selectedLocation, onLocationSelect }) => {
-    // Memoize the custom icon creation
-    const customIcon = React.useCallback((location: Location, isSelected: boolean): DivIcon => {
-            return createCustomIcon(location.type, location.name, isSelected, location.isFilteredOut);
+    const { getIcon } = useIconCache();
+    const [isMobile, setIsMobile] = React.useState(false);
+
+    // Detect mobile device on mount
+    React.useEffect(() => {
+        setIsMobile(isMobileDevice());
+        
+        const handleResize = () => setIsMobile(isMobileDevice());
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
     }, []);
+
+    // Filter out filtered-out locations entirely (don't render them)
+    const visibleLocations = React.useMemo(() => 
+        locations.filter(location => !location.isFilteredOut),
+        [locations]
+    );
+
+    // Memoize the custom icon creation with caching
+    const customIcon = React.useCallback((location: Location, isSelected: boolean): DivIcon => {
+        return getIcon(location.type, location.name, isSelected, false, isMobile);
+    }, [getIcon, isMobile]);
 
     // Memoize markers to prevent unnecessary re-renders
     const markerElements = React.useMemo(() => 
-        locations.map((location) => {
+        visibleLocations.map((location) => {
             const position: LatLngExpression = [location.latitude, location.longitude];
             const isSelected = selectedLocation?.id === location.id;
             
@@ -59,10 +81,22 @@ const Map: React.FC<MapProps> = React.memo(({ locations, selectedLocation, onLoc
                     eventHandlers={{
                         click: () => onLocationSelect(location),
                     }}
+                    // Store location type for clustering logic
+                    // @ts-ignore - Custom property for cluster icon
+                    locationType={location.type}
                 />
             );
         }),
-    [locations, selectedLocation, customIcon, onLocationSelect]);
+    [visibleLocations, selectedLocation, customIcon, onLocationSelect]);
+
+    // Canvas renderer for better mobile performance
+    const canvasRenderer = React.useMemo(() => 
+        L.canvas({ 
+            tolerance: isMobile ? 10 : 5,
+            padding: 0.5 
+        }), 
+        [isMobile]
+    );
 
     return (
         <div className="w-full h-full relative bg-secondary">
@@ -74,6 +108,8 @@ const Map: React.FC<MapProps> = React.memo(({ locations, selectedLocation, onLoc
                 attributionControl={true}
                 minZoom={3}
                 maxZoom={maxZoomValue}
+                preferCanvas={isMobile}
+                renderer={canvasRenderer}
             >
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -81,8 +117,23 @@ const Map: React.FC<MapProps> = React.memo(({ locations, selectedLocation, onLoc
                     maxZoom={maxZoomValue}
                     maxNativeZoom={maxZoomValue}
                 />
-                <ChangeView locations={locations} />
-                {markerElements}
+                <ChangeView locations={visibleLocations} />
+                
+                {/* MarkerClusterGroup with custom icon and subtle clustering */}
+                <MarkerClusterGroup
+                    iconCreateFunction={createClusterCustomIcon}
+                    maxClusterRadius={isMobile ? 60 : 80}
+                    spiderfyOnMaxZoom={false}
+                    showCoverageOnHover={false}
+                    zoomToBoundsOnClick={true}
+                    disableClusteringAtZoom={8}
+                    animate={!isMobile}
+                    animateAddingMarkers={false}
+                    removeOutsideVisibleBounds={true}
+                    chunkedLoading={true}
+                >
+                    {markerElements}
+                </MarkerClusterGroup>
             </MapContainer>
         </div>
     );

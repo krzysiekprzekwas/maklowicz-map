@@ -21,7 +21,8 @@ const createCustomIcon = (
     type: LocationType,
     title: string = '',
     isSelected: boolean = false,
-    isFilteredOut: boolean = false
+    isFilteredOut: boolean = false,
+    isMobile: boolean = false
 ): L.DivIcon => {
     const IconComponent = iconComponentMap[type] ?? (() => <span>?</span>);
     if (iconComponentMap[type] === undefined) {
@@ -30,11 +31,12 @@ const createCustomIcon = (
     const colorClassNameKey = colorClassMap[type];
     const colorModuleClass = styles[colorClassNameKey];
 
+    // Don't render tooltips on mobile for better performance
     const iconHtml = ReactDOMServer.renderToString(
         <>
           <div>
             <IconComponent className={styles.markerIconContent} />
-            {title && <div className={styles.markerTooltip}>{title}</div>}
+            {!isMobile && title && <div className={styles.markerTooltip}>{title}</div>}
           </div>
         </>
       );

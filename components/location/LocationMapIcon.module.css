@@ -7,6 +7,14 @@
     border-radius: 50%;
     transition: all 0.2s ease-in-out; 
   }
+
+  /* Disable transitions on mobile for better performance */
+  @media (max-width: 767px) {
+    .customMarkerIcon,
+    .customMarkerIcon::after {
+      transition: none !important;
+    }
+  }
   
   .markerIconContent {
       width: 1.1rem;
@@ -106,6 +114,13 @@
   transition: all 0.25s ease-out;
   pointer-events: none;
   z-index: 1000;
+}
+
+/* Disable tooltip transitions on mobile */
+@media (max-width: 767px) {
+  .markerTooltip {
+    transition: none !important;
+  }
 }
 
 /* Small arrow for the tooltip */

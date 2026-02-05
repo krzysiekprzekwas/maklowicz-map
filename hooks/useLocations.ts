@@ -40,14 +40,24 @@ export function useLocations(searchQuery: string, selectedCountry: string | null
 
   const filteredLocations = useMemo(() => {
     const allLocations = locationData.videos.flatMap((video) => video.locations);
-    return allLocations.map((location) => ({
-      ...location,
-      isFilteredOut: selectedVideo
-        ? !locationData.videos.find((v) => v.videoId === selectedVideo)?.locations.some((loc) => loc.id === location.id)
-        : selectedCountry
-        ? !(countries.find((c) => c.name === selectedCountry)?.locations.some((loc) => loc.id === location.id))
-        : false,
-    }));
+    
+    // If there's a filter, only return matching locations (hide others completely)
+    if (selectedVideo) {
+      const videoLocations = locationData.videos
+        .find((v) => v.videoId === selectedVideo)
+        ?.locations || [];
+      return videoLocations.map(loc => ({ ...loc, isFilteredOut: false }));
+    }
+    
+    if (selectedCountry) {
+      const countryLocations = countries
+        .find((c) => c.name === selectedCountry)
+        ?.locations || [];
+      return countryLocations.map(loc => ({ ...loc, isFilteredOut: false }));
+    }
+    
+    // No filter - return all locations
+    return allLocations.map(loc => ({ ...loc, isFilteredOut: false }));
   }, [selectedCountry, selectedVideo, countries]);
   
   const videoCount = useMemo(() => {

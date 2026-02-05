@@ -34,6 +34,7 @@
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "react-leaflet": "^5.0.0",
+    "react-leaflet-cluster": "^4.0.0",
     "react-modal-sheet": "^4.4.0",
     "ts-node": "^10.9.2"
   },
@@ -41,6 +42,7 @@
     "@types/googlemaps": "^3.43.3",
     "@types/node": "^20.11.17",
     "autoprefixer": "^10.4.17",
+    "baseline-browser-mapping": "^2.9.19",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.3.3"

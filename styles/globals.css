@@ -23,3 +23,24 @@ html, body, #__next {
   background: transparent !important;
   border: none !important;
 }
+
+/* Custom cluster icon styling */
+.custom-cluster-icon {
+  background: transparent !important;
+  border: none !important;
+}
+
+/* Disable transitions on mobile for cluster markers */
+@media (max-width: 767px) {
+  .marker-cluster,
+  .marker-cluster-animated {
+    transition: none !important;
+  }
+}
+
+/* Smooth cluster animation on desktop only */
+@media (min-width: 768px) {
+  .marker-cluster-animated {
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out !important;
+  }
+}
