@@ -1520,6 +1520,83 @@
       ]
     },
     {
+      "videoId": "VsdsM_05VBA",
+      "videoUrl": "https://www.youtube.com/watch?v=VsdsM_05VBA",
+      "title": "ROBERT MAKŁOWICZ WIETNAM odc.170  „Tunelem pod dżunglą\".",
+      "filterTitle": "Tunelem pod dżunglą. (odc. 170)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-02-16T16:00:10Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "khu-vuc-tham-quan-ia-ao-bep-hoang-cam",
+          "name": "Khu vực tham quan Địa đạo, Bếp Hoàng Cầm",
+          "description": "W wietnamskim krajobrazie, pełnym zaskakujących historii i smaków, Robert Makłowicz z pewnością odkryłby niezwykłe świadectwo ludzkiej determinacji – słynne podziemne tunele Cu Chi. To właśnie tam, w labiryntach, mieści się Bếp Hoàng Cầm, czyli kuchnia, której dym sprytnie rozpraszał się w dżungli, by nie zdradzić położenia tych, co pod ziemią gotowali i walczyli o przetrwanie. Cóż za pomysłowość, by nawet w tak trudnych warunkach zadbać o strawę, i to w sposób tak sprytny!",
+          "latitude": 11.143568134451264, 
+          "longitude": 106.46282265196112,
+          "address": "4FV6+JH Củ Chi, Ho Chi Minh City, Vietnam",
+          "country": "Vietnam",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/15/a6/38/49.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Ydw6QnncXtA1Qj8v7"
+        },
+        {
+          "id": "cu-chi-tunnel-ben-duoc",
+          "name": "Cu Chi Tunnel Ben Duoc",
+          "description": "Oto miejsce, gdzie Robert Makłowicz miał okazję zajrzeć w głąb historii – wietnamskie tunele Cu Chi Ben Duoc. To niezwykłe podziemne miasto, stworzone w latach wojny wietnamskiej, stanowiło genialną recepturę na przetrwanie i świadectwo ludzkiej determinacji. Można tam niemal poczuć smak minionych dekad, które ukształtowały ten region.",
+          "latitude": 11.146362277037444, 
+          "longitude": 106.45957832346282,
+          "address": "4FV6+F4 Củ Chi, Ho Chi Minh City, Vietnam",
+          "country": "Vietnam",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://cdn.getyourguide.com/img/tour/b1c330594f1d3ab91f2d15ba91cecebb4c3d091e7db23ad8218f4041edb1634a.jpg/98.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/EV8nX94TZjRkZC1s7"
+        },
+        {
+          "id": "tan-inh-market",
+          "name": "Tân Định Market",
+          "description": "W wietnamskim Ho Chi Minh, gdzie historia splata się z kulinarną teraźniejszością, już od 1926 roku rozbrzmiewa gwar targu Tân Định. To prawdziwa uczta dla zmysłów, gdzie intensywne zapachy egzotycznych przypraw mieszają się z gwarem handlu, a na straganach kuszą świeżością owoce morza i lokalne specjały, opowiadając barwną historię wietnamskiej codzienności.",
+          "latitude": 10.789673954701572, 
+          "longitude": 106.68984486351147,
+          "address": "288M1 Nam Kỳ Khởi Nghĩa, Phường Võ Thị Sáu, Quận 3, Thành phố Hồ Chí Minh, Vietnam",
+          "country": "Vietnam",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://vietravelasia.com/media/images/2024/8/cho-tan-dinh-1-857f6173192c32d723a6dbdca8cd5dc2.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/znUVFboJNxeHNiXL8"
+        },
+        {
+          "id": "muzeum-tradycyjnej-medycyny-wietnamskiej",
+          "name": "Muzeum Tradycyjnej Medycyny Wietnamskiej",
+          "description": "Wietnam, kraina, gdzie ryż jest podstawą, a zioła potrafią zdziałać cuda, kryje w sobie prawdziwą skarbnicę wiedzy – Muzeum Tradycyjnej Medycyny Wietnamskiej. W jego progach, wśród misternie rzeźbionych mebli i zapachu suszonych korzeni, odkrywa się, jak przez stulecia Wietnamczycy, z iście kulinarną precyzją, komponowali remedia na wszelkie dolegliwości. To prawdziwa uczta dla ducha i ciała, ukazująca, że zdrowie, podobnie jak dobra kuchnia, wymaga staranności i głębokiego zrozumienia natury.",
+          "latitude": 10.77619039433889,
+          "longitude":  106.6718883976447,
+          "address": "525 Sư Vạn Hạnh, Phường 12, Quận 10, Thành phố Hồ Chí Minh 70000, Vietnam",
+          "country": "Vietnam",
+          "type": "attraction",
+          "websiteUrl": "http://fitomuseum.com.vn/",
+          "image": "https://wikingiwilkolak.pl/images/wmuzeum/2023/muzeum-tradycyjnej-medycyny-wietnamskiej/muzeum-wejscie.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/5sUZdqdSTrFh6UYo7"
+        },
+        {
+          "id": "oc-loan",
+          "name": "Ốc Loan",
+          "description": "Wietnam, kraj, gdzie kulinarna tradycja splata się z codziennością, objawia się w pełni w miejscach takich jak Ốc Loan. To właśnie tam, wśród gwaru ulicy, od dekad serwuje się owoce morza, a zwłaszcza ślimaki, które dla wielu stały się już synonimem wietnamskiej uczty. Nie jest to byle jaka jadłodajnia, lecz prawdziwa instytucja, gdzie każdy kęs to podróż przez bogactwo smaków i aromatów, a zarazem hołd dla lokalnej kuchni, która karmi pokolenia.",
+          "latitude": 10.767463914906914, 
+          "longitude": 106.67791136871439,
+          "address": "166/5/22 Lý Thái Tổ, Phường 9, Quận 3, Thành phố Hồ Chí Minh, Vietnam",
+          "country": "Vietnam",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "image": "https://cdn3.ivivu.com/2019/10/quan-oc-ky-la-tai-sai-gon-voi-ong-ba-chu-thuong-dung-tuyet-chieu-deo-ca-tram-cay-vang-de-thu-hut-khach-ivivu-1.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/WaxmcjT3iF8rYxMs6"
+        }
+      ]
+    },
+    {
       "videoId": "CILvWpC6Upo",
       "videoUrl": "https://www.youtube.com/watch?v=CILvWpC6Upo",
       "title": "ROBERT MAKŁOWICZ WIETNAM odc.169  „Po prostu Sajgon\".",
