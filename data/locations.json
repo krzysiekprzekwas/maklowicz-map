@@ -1520,6 +1520,83 @@
       ]
     },
     {
+      "videoId": "dYOKDKG6iYA",
+      "videoUrl": "https://www.youtube.com/watch?v=dYOKDKG6iYA",
+      "title": "ROBERT MAKŁOWICZ WIETNAM odc.171  „Ryżowe pola mokną w wodzie\".",
+      "filterTitle": "Ryżowe pola mokną w wodzie. (odc. 171)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-02-23T16:00:34Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "cao-lanh-bridge",
+          "name": "Cao Lãnh Bridge",
+          "description": "Wietnamski Most Cao Lãnh, oddany do użytku w 2018 roku, to zaiste imponująca konstrukcja, która niczym stalowa nić spina rozległe ramiona delty Mekongu. Z jego wysokości roztacza się widok na krainę, gdzie ryż dojrzewa w słońcu, a rzeka niesie obfitość, co z pewnością cieszy nie tylko inżynierów, ale i każdego, kto ceni sobie świeże składniki na talerzu. To prawdziwy symbol postępu, który ułatwia podróże i, co tu dużo mówić, transport wszelkich pyszności.",
+          "latitude": 10.4164971,
+          "longitude": 105.6399018,
+          "address": "CJ8Q+HX Thi xa Cao Lanh, Dong Thap, Vietnam",
+          "country": "Vietnam",
+          "type": "other",
+          "websiteUrl": "",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Cầu_Cao_Lãnh.jpg/360px-Cầu_Cao_Lãnh.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/UaQ7mDRmLkd5x69e7"
+        },
+        {
+          "id": "nha-hang-ben-song-que",
+          "name": "Nhà Hàng Bến Sông Quê",
+          "description": "Wietnam, kraina smaków i zapachów, potrafi zaskoczyć nawet najbardziej wytrawnych smakoszy, a Robert Makłowicz podczas swoich kulinarnych wojaży z pewnością docenił Nhà Hàng Bến Sông Quê. To miejsce, usytuowane nad rzeką, gdzie czas zdaje się płynąć wolniej niż woda w korycie, jest kwintesencją wietnamskiej gościnności. Tu, wśród sielskiego krajobrazu, delektował się autentycznymi potrawami, które z prostoty czerpią swoją niepowtarzalną magię – prawdziwa uczta dla podniebienia i dowód na to, że najlepsze historie piszą się na talerzu.",
+          "latitude": 10.328018017810606, 
+          "longitude": 106.35292019568762,
+          "address": "88G9+J9 Mỹ Tho, Tien Giang, Vietnam",
+          "country": "Vietnam",
+          "type": "restaurant",
+          "websiteUrl": "http://bensongquebt.wordpress.com/",
+          "image": "https://scontent.iocvnpt.com/resources/portal//Images/BTE/superadminportal.bte/am_thuc/que_dua/106396983_2613869585519626_2959367178418600576_n_386204603.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Wu9dMZa1dCpq94up6"
+        },
+        {
+          "id": "toa-thanh-ben-tre",
+          "name": "Toà Thánh Bến Tre",
+          "description": "W sercu wietnamskiej delty Mekongu, gdzie palmy kokosowe szumią w rytm rzeki, podróżnik natrafia na Toà Thánh Bến Tre – świątynię kaodaizmu, która niczym wykwintne danie, łączy w sobie smaki i barwy wielu kultur. Jej architektura to prawdziwa feeria barw i symboli, gdzie Budda, Chrystus i Konfucjusz zdają się zasiadać przy jednym stole, tworząc duchową ucztę, której nie powstydziłby się żaden kulinarny mistrz. To miejsce to świadectwo wietnamskiej otwartości i zdolności do łączenia pozornie niepasujących elementów w spójną, zaskakująco harmonijną całość.",
+          "latitude": 10.24109650612837, 
+          "longitude": 106.36868097247923,
+          "address": "272B Trương Định, Phường 6, Bến Tre, Vietnam",
+          "country": "Vietnam",
+          "type": "attraction",
+          "websiteUrl": "https://caodaibanchinhdao.net/home/thoikykhaidao/",
+          "image": "https://scontent.iocvnpt.com/resources/portal/Images/BTE/superadminportal.bte/2024/11_2024/14_11_2024/toa_thanh_cao_dai_11_850404579.jpg",
+          "GoogleMapsLink": "https://maps.app.goo.gl/p8UDp3FKtrChqUNB6"
+        },
+        {
+          "id": "cho-ben-tre",
+          "name": "Chợ Bến Tre",
+          "description": "W sercu wietnamskiej delty Mekongu, gdzie powietrze wibruje od zapachów i gwaru, pulsuje życiem Chợ Bến Tre – prawdziwy fenomen lokalnego handlu i kultury. To tu, wśród straganów uginających się pod ciężarem egzotycznych owoców i ziół, królują kokosy w każdej postaci – od mleka po słodycze, dając świadectwo nie tylko kulinarnej obfitości, ale i wielowiekowej tradycji regionu, która zaiste smakuje najlepiej prosto z targu.",
+          "latitude": 10.2350974,
+          "longitude": 106.3763259,
+          "address": "3 Đại Lộ Đồng Khởi, Phường 2, Bến Tre, Vietnam",
+          "country": "Vietnam",
+          "type": "attraction",
+          "websiteUrl": "",
+          "image": "https://global-uploads.webflow.com/60af8c708c6f35480d067652/62a30f18e397a858946a19c5_screenshot_1654853380.png",
+          "GoogleMapsLink": "https://maps.app.goo.gl/hPRod38L2gmi1NK97"
+        },
+        {
+          "id": "ben-tre-farm-stay",
+          "name": "Ben Tre Farm Stay",
+          "description": "W sercu zielonej delty Mekongu, tam gdzie rzeka hojnie obdarza ziemię, czeka na gości Ben Tre Farm Stay. To prawdziwa oaza spokoju, gdzie czas płynie wolniej, a każdy posiłek to celebracja lokalnych smaków – od świeżych owoców prosto z drzewa po wyborne dania, które zdają się opowiadać wielowiekową historię wietnamskiej kuchni. Tu, pośród palm kokosowych i pól ryżowych, można zanurzyć się w autentycznym życiu, które karmi duszę i podniebienie.",
+          "latitude": 10.216008403606269, 
+          "longitude": 106.37417206912106,
+          "address": "879 ấp 2, Phú Nhuận, Bến Tre, Vietnam",
+          "country": "Vietnam",
+          "type": "attraction",
+          "websiteUrl": "https://www.booking.com/searchresults.pl.html?dest_id=2056737&highlighted_hotels=2056737",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/3a/63/58/caption.jpg?w=900&h=500&s=1",
+          "GoogleMapsLink": "https://maps.app.goo.gl/zEv6nz2Ydn3FSx1QA"
+        }
+      ]
+    },
+    {
       "videoId": "VsdsM_05VBA",
       "videoUrl": "https://www.youtube.com/watch?v=VsdsM_05VBA",
       "title": "ROBERT MAKŁOWICZ WIETNAM odc.170  „Tunelem pod dżunglą\".",
