@@ -6,6 +6,7 @@ import Head from 'next/head';
 import { useLocationState } from '../hooks/useLocationState';
 import { Filters } from '../components/filters/Filters';
 import { LocationDetails } from '../components/location/LocationDetails';
+import type { Location as MapLocation } from '../types/Location';
 
 const Map = dynamic(() => import('../components/map/Map'), {
   ssr: false,
@@ -21,29 +22,51 @@ export default function Home() {
   const {
     selectedLocation,
     setSelectedLocation,
+    previewLocation,
+    setPreviewLocation,
     selectedCountry,
     setSelectedCountry,
-    selectedVideo,
-    setSelectedVideo,
+    selectedLocationTypes,
+    setSelectedLocationTypes,
     isFiltersOpen,
     setIsFiltersOpen,
-    searchQuery,
-    setSearchQuery,
-    favouriteLocationIds,
-    addFavouriteLocation,
-    removeFavouriteLocation,
-    handleCountryClick,
-    handleVideoClick
+    toggleLocationType,
+    userLocation,
+    locationStatus,
+    nearbyRadius,
+    setNearbyRadius,
+    requestUserLocation,
+    clearUserLocation,
   } = useLocationState();
 
-  const { countries, filteredLocations, totalLocations, allLocations } = useLocations(searchQuery, selectedCountry, selectedVideo);
+  const { countries, filteredLocations, locationTypeCounts, allLocations } =
+    useLocations(
+      selectedCountry,
+      selectedLocationTypes,
+      userLocation?.lat,
+      userLocation?.lng,
+      locationStatus === 'granted' ? nearbyRadius : undefined
+    );
+
+  // Stable callbacks so Map's marker memo doesn't invalidate unnecessarily
+  const handleLocationSelect = React.useCallback((loc: MapLocation) => {
+    setSelectedLocation(loc);
+    setPreviewLocation(null);
+  }, [setSelectedLocation, setPreviewLocation]);
+
+  const handleLocationPreview = React.useCallback((loc: MapLocation) => {
+    setPreviewLocation(loc);
+  }, [setPreviewLocation]);
+
+  const handleClosePreview = React.useCallback(() => {
+    setPreviewLocation(null);
+  }, [setPreviewLocation]);
 
   React.useEffect(() => {
     if (!router.isReady) return;
     const countryParam = router.query.country;
     if (typeof countryParam === 'string' && countryParam.trim()) {
       setSelectedCountry(decodeURIComponent(countryParam));
-      setSelectedVideo(null);
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [router.isReady, router.query.country]);
@@ -57,7 +80,6 @@ export default function Home() {
     setSelectedLocation(target);
     if (selectedCountry !== target.country) {
       setSelectedCountry(target.country);
-      setSelectedVideo(null);
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [router.isReady, router.query.placeId, allLocations]);
@@ -72,36 +94,45 @@ export default function Home() {
       <div className="flex flex-1 relative">
         <Filters
           isOpen={isFiltersOpen}
-          searchQuery={searchQuery}
-          onSearchChange={setSearchQuery}
           countries={countries}
           selectedCountry={selectedCountry}
-          selectedVideo={selectedVideo}
-          selectedLocation={selectedLocation}
-          totalLocations={totalLocations}
-          onCountryClick={handleCountryClick}
-          onVideoClick={handleVideoClick}
-          onLocationClick={setSelectedLocation}
+          selectedLocationTypes={selectedLocationTypes}
+          filteredCount={filteredLocations.length}
+          locationTypeCounts={locationTypeCounts}
+          locationStatus={locationStatus}
+          nearbyRadius={nearbyRadius}
+          onCountrySelect={(country) => {
+            setSelectedCountry(country);
+            if (country) clearUserLocation();
+          }}
+          onToggleLocationType={toggleLocationType}
           onToggleFilters={() => setIsFiltersOpen(!isFiltersOpen)}
-          onResetFilters={() => 
-            {
-              setSelectedCountry(null);
-              setSelectedVideo(null);
-            }}
-          allLocations={allLocations}
-          favouriteLocationIds={favouriteLocationIds}
+          onResetFilters={() => {
+            setSelectedCountry(null);
+            setSelectedLocationTypes([]);
+            clearUserLocation();
+          }}
+          onRequestLocation={requestUserLocation}
+          onSetNearbyRadius={setNearbyRadius}
+          onClearNearby={clearUserLocation}
         />
 
         <div className="flex-1">
-          <Map locations={filteredLocations} selectedLocation={selectedLocation} onLocationSelect={setSelectedLocation} />
+          <Map
+            locations={filteredLocations}
+            selectedLocation={selectedLocation}
+            previewLocation={previewLocation}
+            onLocationSelect={handleLocationSelect}
+            onLocationPreview={handleLocationPreview}
+            onClosePreview={handleClosePreview}
+            userLat={userLocation?.lat}
+            userLng={userLocation?.lng}
+          />
         </div>
 
-        <LocationDetails 
-          location={selectedLocation} 
+        <LocationDetails
+          location={selectedLocation}
           onClose={() => setSelectedLocation(null)}
-          favouriteLocationIds={favouriteLocationIds}
-          removeFavouriteLocation={removeFavouriteLocation}
-          addFavouriteLocation={addFavouriteLocation}
         />
       </div>
     </main>

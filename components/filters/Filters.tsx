@@ -1,284 +1,417 @@
-import { Earth, Heart, Search, X } from 'lucide-react';
-import { CountryData, Location } from '../../types/Location';
-import LocationIcon from '../location/LocationIcon';
-import { AnimatedList } from './AnimatedList';
-import { SearchInput } from './SearchInput';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Sheet } from 'react-modal-sheet';
+import {
+  X, SlidersHorizontal, Search,
+  Utensils, Coffee, TreePine, Palette,
+  Landmark, ShoppingBag, Hotel, Compass, Tag,
+  MapPin, Loader2,
+} from 'lucide-react';
 
 interface FiltersProps {
   isOpen: boolean;
-  searchQuery: string;
-  onSearchChange: (value: string) => void;
-  countries: CountryData[];
+  countries: { name: string; count: number }[];
   selectedCountry: string | null;
-  selectedVideo: string | null;
-  selectedLocation: Location | null;
-  totalLocations: number;
-  onCountryClick: (countryName: string) => void;
-  onVideoClick: (videoId: string, event: React.MouseEvent) => void;
-  onLocationClick: (location: Location) => void;
+  selectedLocationTypes: string[];
+  filteredCount: number;
+  locationTypeCounts: Record<string, number>;
+  locationStatus: 'idle' | 'loading' | 'granted' | 'denied';
+  nearbyRadius: number;
+  onCountrySelect: (country: string | null) => void;
+  onToggleLocationType: (type: string) => void;
   onToggleFilters: () => void;
   onResetFilters: () => void;
-  allLocations: Location[];
-  favouriteLocationIds: string[];
+  onRequestLocation: () => void;
+  onSetNearbyRadius: (radius: number) => void;
+  onClearNearby: () => void;
 }
+
+const LOCATION_TYPES = [
+  { type: 'restaurant',         label: 'Restauracje',          icon: Utensils  },
+  { type: 'cafe',               label: 'Kawiarnie',            icon: Coffee    },
+  { type: 'nature',             label: 'Przyroda i plener',    icon: TreePine  },
+  { type: 'art_culture',        label: 'Sztuka i kultura',     icon: Palette   },
+  { type: 'museum',             label: 'Muzea',                icon: Landmark  },
+  { type: 'shopping',           label: 'Zakupy',               icon: ShoppingBag },
+  { type: 'hotel',              label: 'Hotele',               icon: Hotel     },
+  { type: 'tourist_attraction', label: 'Atrakcje turystyczne', icon: Compass   },
+  { type: 'other',              label: 'Inne',                 icon: Tag       },
+];
 
 export function Filters({
   isOpen,
-  searchQuery,
-  onSearchChange,
   countries,
   selectedCountry,
-  selectedVideo,
-  selectedLocation,
-  totalLocations,
-  onCountryClick,
-  onVideoClick,
-  onLocationClick,
+  selectedLocationTypes,
+  filteredCount,
+  locationTypeCounts,
+  locationStatus,
+  nearbyRadius,
+  onCountrySelect,
+  onToggleLocationType,
   onToggleFilters,
   onResetFilters,
-  allLocations,
-  favouriteLocationIds,
+  onRequestLocation,
+  onSetNearbyRadius,
+  onClearNearby,
 }: FiltersProps) {
-  const [isFavoritesOpen, setIsFavoritesOpen] = useState(false);
-  const [favoriteLocations, setFavoriteLocations] = useState<Location[]>([]);
   const [isMobile, setIsMobile] = useState(false);
+  const [countrySearch, setCountrySearch] = useState('');
+  const [isCountryDropdownOpen, setIsCountryDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // Check if we're on mobile
-    const checkIfMobile = () => {
-      setIsMobile(window.innerWidth < 768); // 768px is the md breakpoint in Tailwind
-    };
-
-    // Initial check
+    const checkIfMobile = () => setIsMobile(window.innerWidth < 768);
     checkIfMobile();
-
-    // Add event listener for window resize
     window.addEventListener('resize', checkIfMobile);
-
-    // Cleanup
     return () => window.removeEventListener('resize', checkIfMobile);
   }, []);
 
+  // Close dropdown when clicking outside
   useEffect(() => {
-    const favorites = allLocations.filter(location => 
-      favouriteLocationIds.includes(location.id)
-    );
-    setFavoriteLocations(favorites);
-  }, [isFavoritesOpen, allLocations, favouriteLocationIds]);
+    if (!isCountryDropdownOpen) return;
+    const handleOutside = (e: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node))
+        setIsCountryDropdownOpen(false);
+    };
+    document.addEventListener('mousedown', handleOutside);
+    return () => document.removeEventListener('mousedown', handleOutside);
+  }, [isCountryDropdownOpen]);
 
-  const handleFavoritesClick = () => {
-    const newState = !isFavoritesOpen;
-    setIsFavoritesOpen(newState);
+  const filteredCountries = countries.filter(c =>
+    c.name.toLowerCase().includes(countrySearch.toLowerCase())
+  );
+
+  const hasActiveFilters =
+    !!selectedCountry ||
+    selectedLocationTypes.length > 0 ||
+    locationStatus === 'granted';
+
+  const handleCountryInputChange = (value: string) => {
+    setCountrySearch(value);
+    setIsCountryDropdownOpen(true);
+    if (!value) onCountrySelect(null);
   };
 
-  // Filter content that will be used in both desktop and mobile views
-  const filterContent = (
-    <div className="w-full h-full overflow-y-auto">
-      <div className="p-4">
-        <SearchInput
-          value={searchQuery}
-          onChange={onSearchChange}
-          placeholder="Szukaj lokacji, filmów..."
-        />
-        {selectedCountry || selectedVideo ? (
+  const handleCountryPick = (name: string) => {
+    onCountrySelect(name);
+    setCountrySearch('');
+    setIsCountryDropdownOpen(false);
+  };
+
+  const handleClearCountry = () => {
+    onCountrySelect(null);
+    setCountrySearch('');
+    setIsCountryDropdownOpen(false);
+  };
+
+  // ─── Mobile top bar ───────────────────────────────────────────────────────
+  const mobileTopBar = (
+    <div className="absolute top-4 left-4 right-4 z-[9998] flex items-center gap-2 md:hidden">
+      {hasActiveFilters ? (
+        <>
+          {/* Scrollable chips */}
+          <div className="flex-1 bg-white rounded-2xl shadow-lg px-3 py-2.5 min-w-0 overflow-hidden">
+            <div
+              className="flex gap-2 overflow-x-auto"
+              style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' } as React.CSSProperties}
+            >
+              {locationStatus === 'granted' ? (
+                <button
+                  onClick={onClearNearby}
+                  className="flex items-center gap-1 px-3 py-1 bg-primary text-secondary rounded-full text-xs whitespace-nowrap flex-shrink-0"
+                >
+                  <MapPin className="h-3 w-3" />
+                  {nearbyRadius} km
+                  <X className="h-3 w-3" />
+                </button>
+              ) : selectedCountry && (
+                <button
+                  onClick={() => onCountrySelect(null)}
+                  className="flex items-center gap-1 px-3 py-1 bg-primary text-secondary rounded-full text-xs whitespace-nowrap flex-shrink-0"
+                >
+                  {selectedCountry}
+                  <X className="h-3 w-3" />
+                </button>
+              )}
+              {selectedLocationTypes.map(type => {
+                const label = LOCATION_TYPES.find(t => t.type === type)?.label ?? type;
+                return (
+                  <button
+                    key={type}
+                    onClick={() => onToggleLocationType(type)}
+                    className="flex items-center gap-1 px-3 py-1 bg-primary text-secondary rounded-full text-xs whitespace-nowrap flex-shrink-0"
+                  >
+                    {label}
+                    <X className="h-3 w-3" />
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+          {/* Filter icon — active (dark fill) */}
           <button
-            onClick={onResetFilters}
-            className="w-full text-center px-3 py-2 rounded-lg mb-4 text-red-500 hover:text-red-600"
+            onClick={onToggleFilters}
+            className="bg-primary text-secondary rounded-2xl shadow-lg w-12 h-12 flex-shrink-0 flex items-center justify-center"
+            aria-label="Zmień filtry"
           >
-            Resetuj filtry
+            <SlidersHorizontal className="h-5 w-5" />
           </button>
-        ) : (
-          <div className="w-full text-center px-3 py-2 rounded-lg mb-4 text-gray-500">
-            Wybierz kraj lub odcinek
+        </>
+      ) : (
+        <>
+          {/* CTA search bar */}
+          <button
+            onClick={onToggleFilters}
+            className="flex-1 bg-white rounded-2xl shadow-lg px-4 py-3 flex items-center gap-3 text-left"
+            aria-label="Otwórz filtry"
+          >
+            <Search className="h-4 w-4 text-gray-400 flex-shrink-0" />
+            <span className="flex-1 text-gray-400 text-sm truncate">Szukaj restauracji, muzeów…</span>
+            <span className="text-xs text-gray-400 flex-shrink-0">
+              {filteredCount.toLocaleString('pl-PL')} miejsc
+            </span>
+          </button>
+          {/* Filter icon — inactive (white bg) */}
+          <button
+            onClick={onToggleFilters}
+            className="bg-white rounded-2xl shadow-lg w-12 h-12 flex-shrink-0 flex items-center justify-center"
+            aria-label="Filtry"
+          >
+            <SlidersHorizontal className="h-5 w-5 text-primary" />
+          </button>
+        </>
+      )}
+    </div>
+  );
+
+  // ─── Full filter panel content (sheet + sidebar) ──────────────────────────
+  const filterContent = (
+    <div className="w-full flex flex-col h-full">
+      <div className="flex-1 overflow-y-auto p-4 space-y-5">
+        {/* Header */}
+        <div className="flex items-center justify-between">
+          <span className="font-bold text-primary text-lg">Filtry</span>
+          <button
+            onClick={onToggleFilters}
+            className="p-1 rounded hover:bg-secondary transition-colors"
+            aria-label="Zamknij filtry"
+          >
+            <X className="h-5 w-5 text-primary" />
+          </button>
+        </div>
+
+        {/* Wybrane chips */}
+        {hasActiveFilters && (
+          <div className="space-y-2">
+            <span className="text-xs font-semibold text-primary uppercase tracking-wide">Wybrane</span>
+            <div className="flex flex-wrap gap-2">
+              {locationStatus === 'granted' ? (
+                <button
+                  onClick={onClearNearby}
+                  className="flex items-center gap-1 px-2 py-1 bg-primary text-secondary rounded-full text-xs"
+                >
+                  <MapPin className="h-3 w-3" />
+                  Moja lokalizacja ({nearbyRadius} km)
+                  <X className="h-3 w-3" />
+                </button>
+              ) : selectedCountry && (
+                <button
+                  onClick={() => onCountrySelect(null)}
+                  className="flex items-center gap-1 px-2 py-1 bg-primary text-secondary rounded-full text-xs"
+                >
+                  {selectedCountry}
+                  <X className="h-3 w-3" />
+                </button>
+              )}
+              {selectedLocationTypes.map(type => {
+                const meta = LOCATION_TYPES.find(t => t.type === type);
+                return (
+                  <button
+                    key={type}
+                    onClick={() => onToggleLocationType(type)}
+                    className="flex items-center gap-1 px-2 py-1 bg-primary text-secondary rounded-full text-xs"
+                  >
+                    {meta?.label ?? type}
+                    <X className="h-3 w-3" />
+                  </button>
+                );
+              })}
+            </div>
           </div>
         )}
 
-        <div className="border border-secondary-border rounded-lg overflow-hidden">
-          <div className="w-full flex items-center gap-1 p-3 bg-secondary">
-            <Earth className="h-4 w-4 text-primary"/>
-            <span className="font-bold text-primary">Wszystkie lokacje ({totalLocations})</span>
-          </div>
-          
-          <div className="p-2 space-y-1">
-            <button
-              onClick={handleFavoritesClick}
-              className={`w-full text-left px-3 py-2 rounded-lg transition-colors flex items-center justify-between ${
-                isFavoritesOpen 
-                  ? 'bg-secondary-darker text-primary' 
-                  : 'hover:bg-secondary text-primary-hover'
-              }`}
-            >
-              <span className="flex items-center gap-2 truncate pr-2 text-sm">
-                <Heart className={`h-4 w-4 ${isFavoritesOpen ? 'fill-red-500 text-red-500' : ''}`} />
-                Ulubione ({favoriteLocations.length})
-              </span>
-              <span className="ml-2">
-                {isFavoritesOpen ? '▼' : '▶'}
-              </span>
-            </button>
-            <AnimatedList 
-              isOpen={isFavoritesOpen}
-              className="ml-4 space-y-2"
-              defaultOpen={false}          
-            >
-              {favoriteLocations.length > 0 ? (
-                favoriteLocations.map((location) => (
-                  <button
-                    key={location.id}
-                    onClick={() => onLocationClick(location)}
-                    className={`
-                      w-full 
-                      text-left 
-                      px-3 
-                      py-1.5 
-                      rounded-lg 
-                      transition-colors 
-                      flex 
-                      items-center 
-                      ${selectedLocation?.id === location.id
-                        ? 'bg-secondary-darker text-primary'
-                        : 'hover:bg-secondary text-primary-hover'
-                      }
-                    `}
-                  >
-                    <span className="flex-1 truncate pr-2 text-sm">
-                      {location.name}
-                    </span>
-                    <span className="text-xs opacity-70">
-                      <LocationIcon type={location.type} />
-                    </span>
-                  </button>
-                ))
-              ) : (
-                <div className="px-3 py-2 text-sm text-gray-500">
-                  Brak ulubionych lokacji
-                </div>
-              )}
-            </AnimatedList>
-          </div>
-
-          <div className="p-2 space-y-1">
-            {countries.map((country) => (
-              <div key={country.name} className="space-y-1">
+        {/* Lokalizacja */}
+        <div className="space-y-2">
+          <span className="text-xs font-semibold text-primary uppercase tracking-wide">Lokalizacja</span>
+          <div className="relative" ref={dropdownRef}>
+            <div className="flex items-center border border-secondary-border rounded-lg px-3 py-2 gap-2 bg-white">
+              {locationStatus === 'loading' && <Loader2 className="h-4 w-4 animate-spin text-gray-400 flex-shrink-0" />}
+              {locationStatus === 'granted' && <MapPin className="h-4 w-4 text-primary flex-shrink-0" />}
+              <input
+                type="text"
+                readOnly={locationStatus === 'loading' || locationStatus === 'granted'}
+                className="flex-1 text-base text-primary outline-none bg-transparent placeholder-gray-400"
+                placeholder="Szukaj kraju..."
+                value={
+                  locationStatus === 'loading' ? 'Uzyskiwanie lokalizacji…' :
+                  locationStatus === 'granted' ? 'Moja lokalizacja' :
+                  selectedCountry && !isCountryDropdownOpen ? selectedCountry : countrySearch
+                }
+                onMouseDown={(e) => {
+                  if (locationStatus === 'loading') { e.preventDefault(); return; }
+                  if (isCountryDropdownOpen) {
+                    e.preventDefault();
+                    setIsCountryDropdownOpen(false);
+                  }
+                }}
+                onFocus={() => {
+                  if (locationStatus === 'loading') return;
+                  if (locationStatus === 'granted') {
+                    onClearNearby();
+                    setIsCountryDropdownOpen(true);
+                    return;
+                  }
+                  setCountrySearch('');
+                  setIsCountryDropdownOpen(true);
+                }}
+                onChange={e => handleCountryInputChange(e.target.value)}
+              />
+              {(selectedCountry || locationStatus === 'granted') && (
                 <button
-                  onClick={() => onCountryClick(country.name)}
-                  className={`w-full text-left px-3 py-2 rounded-lg transition-colors flex items-center justify-between ${
-                    selectedCountry === country.name
-                      ? 'bg-secondary-darker text-primary' 
-                      : 'hover:bg-secondary text-primary-hover'
+                  onClick={locationStatus === 'granted' ? onClearNearby : handleClearCountry}
+                  aria-label="Wyczyść"
+                >
+                  <X className="h-4 w-4 text-gray-400 hover:text-primary" />
+                </button>
+              )}
+            </div>
+            {isCountryDropdownOpen && (
+              <div className="absolute z-50 top-full left-0 right-0 mt-1 bg-white border border-secondary-border rounded-lg shadow-lg max-h-48 overflow-y-auto">
+                {/* "Moja lokalizacja" as first option */}
+                <button
+                  onClick={() => {
+                    setIsCountryDropdownOpen(false);
+                    onRequestLocation();
+                  }}
+                  className="w-full text-left px-3 py-2 text-sm text-primary hover:bg-secondary flex items-center gap-2"
+                >
+                  <MapPin className="h-3.5 w-3.5 flex-shrink-0" />
+                  <span className="flex-1">Moja lokalizacja</span>
+                  {locationStatus === 'denied' && <span className="text-xs text-red-500">Brak dostępu</span>}
+                </button>
+                <div className="border-t border-secondary-border mx-2" />
+                {filteredCountries.length > 0 ? (
+                  filteredCountries.map(c => (
+                    <button
+                      key={c.name}
+                      onClick={() => handleCountryPick(c.name)}
+                      className="w-full text-left px-3 py-2 text-sm text-primary hover:bg-secondary flex justify-between items-center"
+                    >
+                      <span>{c.name}</span>
+                      <span className="text-xs text-gray-400">({c.count})</span>
+                    </button>
+                  ))
+                ) : (
+                  <div className="px-3 py-2 text-sm text-gray-400">Brak wyników</div>
+                )}
+              </div>
+            )}
+          </div>
+          {/* Radius slider — shown when nearby is active */}
+          {locationStatus === 'granted' && (
+            <div>
+              <div className="flex justify-between text-xs text-gray-400 mb-1">
+                <span>Zasięg</span><span>{nearbyRadius} km</span>
+              </div>
+              <input
+                type="range" min={10} max={100} step={5} value={nearbyRadius}
+                onChange={e => onSetNearbyRadius(Number(e.target.value))}
+                className="w-full accent-primary"
+              />
+              <div className="flex justify-between text-xs text-gray-400 mt-0.5">
+                <span>10 km</span><span>100 km</span>
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* Rodzaj lokacji */}
+        <div className="space-y-2">
+          <span className="text-xs font-semibold text-primary uppercase tracking-wide">Rodzaj lokacji</span>
+          <div className="flex flex-wrap gap-2">
+            {LOCATION_TYPES.map(({ type, label, icon: Icon }) => {
+              const active = selectedLocationTypes.includes(type);
+              const count = locationTypeCounts[type] ?? 0;
+              return (
+                <button
+                  key={type}
+                  onClick={() => onToggleLocationType(type)}
+                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs border transition-colors ${
+                    active
+                      ? 'bg-primary text-secondary border-primary'
+                      : 'border-secondary-border text-primary hover:bg-secondary'
                   }`}
                 >
-                  <span className="flex-1 truncate pr-2">
-                    {country.name}
-                  </span>
-                  <span className="text-xs opacity-70">
-                    ({country.locations.length})
-                  </span>
-                  <span className="ml-2">
-                    {selectedCountry == country.name ? '▼' : '▶'}
-                  </span>
+                  <Icon className="h-3.5 w-3.5" />
+                  {label}
+                  <span className={active ? 'opacity-70' : 'text-gray-400'}>({count})</span>
                 </button>
-                <AnimatedList 
-                  isOpen={selectedCountry === country.name}
-                  className="ml-4 space-y-2" 
-                  defaultOpen={false}
-                >
-                  {country.videos.map((video) => (
-                    <div key={video.videoId} className="space-y-1">
-                      <button
-                        onClick={(e) => onVideoClick(video.videoId, e)}
-                        className={`w-full text-left px-3 py-2 rounded-lg transition-colors flex items-center justify-between ${
-                          selectedVideo === video.videoId
-                            ? 'bg-secondary-darker text-primary' 
-                            : 'hover:bg-secondary text-primary-hover'
-                        }`}
-                      >
-                        <span className="flex-1 truncate pr-2 text-sm">
-                          { video.filterTitle || video.title }
-                        </span>
-                        <span className="text-xs opacity-70">
-                          ({video.locations.length})
-                        </span>
-                        <span className="ml-2">
-                          {selectedVideo === video.videoId ? '▼' : '▶'}
-                        </span>
-                      </button>
-
-                      <AnimatedList 
-                        isOpen={selectedVideo === video.videoId}
-                        className="ml-4 space-y-2"
-                        defaultOpen={false}          
-                      >
-                        {video.locations.map((location) => (
-                          <button
-                            key={location.id}
-                            onClick={() => onLocationClick(location)}
-                            className={`
-                              w-full 
-                              text-left 
-                              px-3 
-                              py-1.5 
-                              rounded-lg 
-                              transition-colors 
-                              flex 
-                              items-center 
-                              ${selectedLocation?.id === location.id
-                                ? 'bg-secondary-darker text-primary'
-                                : 'hover:bg-secondary text-primary-hover'
-                              }
-                            `}
-                          >
-                            <span className="flex-1 truncate pr-2 text-sm">
-                              {location.name}
-                            </span>
-                            <span className="text-xs opacity-70">
-                              <LocationIcon type={location.type} />
-                            </span>
-                          </button>
-                        ))}
-                      </AnimatedList>
-                    </div>
-                  ))}
-                </AnimatedList>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
+      </div>
+
+      {/* Fixed bottom */}
+      <div
+        className="flex items-center justify-between gap-3 p-4 bg-white shadow-[0_-4px_16px_rgba(0,0,0,0.08)]"
+        onClick={e => e.stopPropagation()}
+      >
+        {hasActiveFilters ? (
+          <button onClick={onResetFilters} className="text-sm text-primary hover:underline flex-shrink-0">
+            Wyczyść
+          </button>
+        ) : (
+          <div />
+        )}
+        <button
+          onClick={onToggleFilters}
+          className="bg-primary text-secondary py-2.5 px-5 rounded-xl font-semibold text-sm hover:bg-primary-darker transition-colors flex-shrink-0"
+        >
+          Pokaż {filteredCount.toLocaleString('pl-PL')}{' '}
+          {filteredCount === 1 ? 'miejsce' : filteredCount < 5 ? 'miejsca' : 'miejsc'}
+        </button>
       </div>
     </div>
   );
 
   return (
     <>
-      {/* Desktop View */}
+      {/* Mobile top bar — absolute over map, hidden on desktop */}
+      {mobileTopBar}
+
+      {/* Desktop sidebar */}
       {!isMobile && (
-        <>
-          {/* Filters Panel for Desktop */}
-          <aside 
-            className={`fixed md:top-[116px] bottom-0 left-0 w-80 bg-white shadow-xl transform transition-transform duration-300 ease-in-out
-              h-[calc(100vh-116px)] max-h-screen
-              ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}
-            style={{ zIndex: 9999 }}
-          >
-            <div className="relative h-full">
-              {filterContent}
-            </div>
-          </aside>
-        </>
+        <aside
+          className={`fixed md:top-[116px] bottom-0 left-0 w-80 bg-white shadow-xl transform transition-transform duration-300 ease-in-out
+            h-[calc(100vh-116px)] max-h-screen
+            ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}
+          style={{ zIndex: 9999 }}
+        >
+          {filterContent}
+        </aside>
       )}
 
-      {/* Mobile View with react-modal-sheet */}
+      {/* Mobile bottom sheet */}
       {isMobile && (
         <Sheet
           isOpen={isOpen}
           onClose={onToggleFilters}
-          detent="content-height"
+          detent="full-height"
         >
           <Sheet.Container>
             <Sheet.Header />
-            <Sheet.Content>
+            <Sheet.Content style={{ display: 'flex', flexDirection: 'column' }}>
               {filterContent}
             </Sheet.Content>
           </Sheet.Container>
@@ -286,21 +419,19 @@ export function Filters({
         </Sheet>
       )}
 
-      {/* Toggle Button - for both mobile and desktop */}
-      <button
-        onClick={onToggleFilters}
-        className="fixed bottom-4 left-4 w-12 h-12 bg-primary text-secondary rounded-full shadow-lg flex items-center justify-center z-[9999] hover:bg-primary-darker transition-colors"
-        aria-label={isOpen ? 'Ukryj filtry' : 'Pokaż filtry'}
-      >
-        {isOpen ? 
-          <X className="absolute right-3 top-1/2 transform -translate-y-1/2"/>
-          : 
-          <Search className="absolute right-3 top-1/2 transform -translate-y-1/2"/>
-        }
-        {(selectedCountry || selectedVideo) && (
-          <span className="absolute top-1 right-1 w-3 h-3 bg-red-500 rounded-full"></span>
-        )}
-      </button>
+      {/* FAB — desktop only */}
+      {!isMobile && (
+        <button
+          onClick={onToggleFilters}
+          className="fixed bottom-4 left-4 w-12 h-12 bg-primary text-secondary rounded-full shadow-lg flex items-center justify-center z-[9999] hover:bg-primary-darker transition-colors"
+          aria-label={isOpen ? 'Ukryj filtry' : 'Pokaż filtry'}
+        >
+          <SlidersHorizontal className="h-5 w-5" />
+          {hasActiveFilters && (
+            <span className="absolute top-1 right-1 w-3 h-3 bg-red-500 rounded-full" />
+          )}
+        </button>
+      )}
     </>
   );
 }

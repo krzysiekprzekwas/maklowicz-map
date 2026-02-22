@@ -4,7 +4,12 @@ import { motion } from 'framer-motion';
 
 export default function About() {
 
-  const { videoCount, totalLocations } = useLocations('', null, null);
+  const { allLocations } = useLocations(null, []);
+  const totalLocations = allLocations.length;
+  const videoCount = (() => {
+    // Count from the same locationData used by the hook
+    return require('../data/locations.json').videos.filter((v: any) => v.locations?.length > 0).length;
+  })();
 
 
   return (

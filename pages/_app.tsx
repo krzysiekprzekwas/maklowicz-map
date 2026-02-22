@@ -7,7 +7,7 @@ import Head from 'next/head';
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <div className="min-h-screen pb-[env(safe-area-inset-bottom)] flex flex-col">
+      <div className="min-h-screen flex flex-col">
         <Head>
           <title>Śladami Roberta Makłowicza</title>
           <meta name="description" content="Interaktywna mapa restauracji i atrakcji odwiedzonych przez Roberta Makłowicza."/>

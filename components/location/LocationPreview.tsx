@@ -1,0 +1,101 @@
+import { motion } from 'framer-motion';
+import { X, LucideProps, Utensils, Coffee, TreePine, Palette, Landmark, ShoppingBag, Hotel, Compass, Tag } from 'lucide-react';
+import { ComponentType } from 'react';
+import { Location } from '../../types/Location';
+
+const TYPE_META: Record<string, { label: string; icon: ComponentType<LucideProps> }> = {
+  restaurant:         { label: 'Restauracja',          icon: Utensils       },
+  cafe:               { label: 'Kawiarnia',            icon: Coffee         },
+  nature:             { label: 'Przyroda i plener',    icon: TreePine       },
+  art_culture:        { label: 'Sztuka i kultura',     icon: Palette        },
+  museum:             { label: 'Muzeum',               icon: Landmark       },
+  shopping:           { label: 'Zakupy',               icon: ShoppingBag    },
+  hotel:              { label: 'Hotel',                icon: Hotel          },
+  tourist_attraction: { label: 'Atrakcja turystyczna', icon: Compass        },
+  attraction:         { label: 'Atrakcja',             icon: Compass        },
+  other:              { label: 'Inne',                 icon: Tag },
+};
+
+interface LocationPreviewProps {
+  location: Location;
+  pixelPosition: { x: number; y: number };
+  onOpenDetails: () => void;
+  onClose: () => void;
+  onMouseEnter?: () => void;
+  onMouseLeave?: () => void;
+}
+
+export function LocationPreview({
+  location,
+  pixelPosition,
+  onOpenDetails,
+  onClose,
+  onMouseEnter,
+  onMouseLeave,
+}: LocationPreviewProps) {
+  const typeMeta = TYPE_META[location.type] ?? TYPE_META.other;
+  const TypeIcon = typeMeta.icon;
+
+  return (
+    <motion.div
+      initial={{ opacity: 0, scale: 0.15, borderRadius: 130 }}
+      animate={{ opacity: 1, scale: 1,    borderRadius: 16  }}
+      exit={{    opacity: 0, scale: 0.1,  borderRadius: 130 }}
+      transition={{
+        type: 'spring',
+        stiffness: 380,
+        damping: 28,
+        opacity: { type: 'tween', duration: 0.12 },
+      }}
+      style={{
+        position: 'absolute',
+        left: pixelPosition.x,
+        top: pixelPosition.y - 8,
+        width: 260,
+        zIndex: 9000,
+        transformOrigin: 'center bottom',
+        x: '-50%',
+        y: '-100%',
+        overflow: 'hidden',
+        backgroundColor: 'white',
+        boxShadow: '0 8px 32px rgba(0,0,0,0.18)',
+        pointerEvents: 'auto',
+      }}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
+    >
+      {/* Image (only when present) */}
+      {location.image && (
+        <img
+          src={location.image}
+          alt={location.name}
+          className="w-full h-36 object-cover block cursor-pointer"
+          onClick={onOpenDetails}
+        />
+      )}
+
+      {/* Info row — tap/click opens full details */}
+      <div
+        className="px-3 py-2.5 cursor-pointer hover:bg-secondary transition-colors"
+        onClick={onOpenDetails}
+      >
+        <div className="flex items-center gap-1.5">
+          <TypeIcon className="h-3.5 w-3.5 text-primary flex-shrink-0" />
+          <span className="font-bold text-primary text-sm leading-snug line-clamp-1 flex-1">
+            {location.name}
+          </span>
+          <button
+            onClick={e => { e.stopPropagation(); onClose(); }}
+            className="flex-shrink-0 w-6 h-6 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors ml-1"
+            aria-label="Zamknij"
+          >
+            <X className="h-3.5 w-3.5 text-gray-400" />
+          </button>
+        </div>
+        <p className="text-xs text-gray-500 leading-relaxed line-clamp-2 mt-0.5 pr-7">
+          {location.address}
+        </p>
+      </div>
+    </motion.div>
+  );
+}

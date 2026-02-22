@@ -1,72 +1,54 @@
 import { useMemo } from 'react';
-import type { CountryData } from '../types/Location';
 import locationData from '../data/locations.json';
+import { haversineDistance } from '../src/lib/distance';
 
-export function useLocations(searchQuery: string, selectedCountry: string | null, selectedVideo: string | null) {
+export function useLocations(
+  selectedCountry: string | null,
+  selectedLocationTypes: string[],
+  userLat?: number,
+  userLng?: number,
+  nearbyRadius?: number
+) {
   const countries = useMemo(() => {
-    const countryMap: Record<string, CountryData> = {};
-    const query = searchQuery.toLowerCase().trim();
-
-    locationData.videos.forEach((video) => {
-      const videoMatches = !query || video.title.toLowerCase().includes(query);
-      const matchingLocations = video.locations.filter((loc) =>
-        loc.name.toLowerCase().includes(query)
-        || videoMatches
-      );
-
-      matchingLocations.forEach((location) => {
-
-        if (!countryMap[location.country]) {
-          countryMap[location.country] = { name: location.country, locations: [], videos: [] };
-        }
-
-        if (!countryMap[location.country].locations.some((l) => l.id === location.id)) {
-          countryMap[location.country].locations.push(location);
-        }
-
-        const existingVideo = countryMap[location.country].videos.find((v) => v.videoId === video.videoId);
-        if (!existingVideo) {
-          countryMap[location.country].videos.push({
-            ...video,
-            filterTitle: video.filterTitle || '',
-            locations: matchingLocations,
-          });
-        }
-      });
-    });
-
-    return Object.values(countryMap).sort((a, b) => a.name.localeCompare(b.name));
-  }, [searchQuery]);
+    const countryMap: Record<string, number> = {};
+    locationData.videos.forEach(video =>
+      video.locations.forEach(loc => {
+        countryMap[loc.country] = (countryMap[loc.country] || 0) + 1;
+      })
+    );
+    return Object.entries(countryMap)
+      .map(([name, count]) => ({ name, count }))
+      .sort((a, b) => a.name.localeCompare(b.name));
+  }, []);
 
   const filteredLocations = useMemo(() => {
-    const allLocations = locationData.videos.flatMap((video) => video.locations);
-    
-    // If there's a filter, only return matching locations (hide others completely)
-    if (selectedVideo) {
-      const videoLocations = locationData.videos
-        .find((v) => v.videoId === selectedVideo)
-        ?.locations || [];
-      return videoLocations.map(loc => ({ ...loc, isFilteredOut: false }));
+    let locs = locationData.videos.flatMap(v => v.locations);
+    if (selectedCountry)
+      locs = locs.filter(l => l.country === selectedCountry);
+    if (userLat != null && userLng != null && nearbyRadius != null) {
+      locs = locs.filter(l =>
+        haversineDistance(userLat, userLng, l.latitude, l.longitude) <= nearbyRadius
+      );
     }
-    
-    if (selectedCountry) {
-      const countryLocations = countries
-        .find((c) => c.name === selectedCountry)
-        ?.locations || [];
-      return countryLocations.map(loc => ({ ...loc, isFilteredOut: false }));
-    }
-    
-    // No filter - return all locations
-    return allLocations.map(loc => ({ ...loc, isFilteredOut: false }));
-  }, [selectedCountry, selectedVideo, countries]);
-  
-  const videoCount = useMemo(() => {
-    return locationData.videos.filter((video) => video.locations && video.locations.length > 0).length;
-  }, []);
-  const totalLocations = useMemo(
-    () => locationData.videos.reduce((acc, video) => acc + video.locations.length, 0),
+    if (selectedLocationTypes.length)
+      locs = locs.filter(l => selectedLocationTypes.includes(l.type));
+    return locs.map(l => ({ ...l, isFilteredOut: false }));
+  }, [selectedCountry, selectedLocationTypes, userLat, userLng, nearbyRadius]);
+
+  const locationTypeCounts = useMemo(() => {
+    const base = selectedCountry
+      ? locationData.videos.flatMap(v => v.locations).filter(l => l.country === selectedCountry)
+      : locationData.videos.flatMap(v => v.locations);
+    return base.reduce<Record<string, number>>((acc, l) => {
+      acc[l.type] = (acc[l.type] || 0) + 1;
+      return acc;
+    }, {});
+  }, [selectedCountry]);
+
+  const allLocations = useMemo(
+    () => locationData.videos.flatMap(v => v.locations),
     []
   );
 
-  return { countries, filteredLocations, totalLocations, videoCount, allLocations: locationData.videos.flatMap((video) => video.locations) };
+  return { countries, filteredLocations, locationTypeCounts, allLocations };
 }
