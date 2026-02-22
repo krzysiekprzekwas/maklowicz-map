@@ -569,12 +569,13 @@
         {
           "id": "metaxa-monoprosopi-abe",
           "name": "Σ Η Α ΜΕΤΑΞΑ ΜΟΝΟΠΡΟΣΩΠΗ ΑΒΕ",
-          "description": "Destylarnia Metaxy, niestety niedostępna na codzień do zwiedzania.",
+          "description": "Destylarnia oryginalnej greckiej Metaxy, niestety na codzień często niedostępna do zwiedzania.",
           "latitude": 38.08314183399358,
           "longitude": 23.7874891537277,
           "address": "Andrea Metaxa 6, Kifisia 145 64, Greece",
           "country": "Grecja",
-          "type": "other",
+          "type": "tourist_attraction",
+          "image": "https://mindtrip.ai/cdn-cgi/image/format=webp,w=720/https://images.mindtrip.ai/attractions/24c9/7dce/3b5c/1d4b/1709/3787/a3d7/7b64",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/HK7E2YW2QfuHicdh6"
         },
@@ -611,6 +612,7 @@
           "address": "Piraeus Port, Pireas 185 31, Greece",
           "country": "Grecja",
           "type": "other",
+          "image": "https://www.greece-is.com/wp-content/uploads/2021/01/limani-02.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/czuntxQuZb8BYwpj7"
         }
@@ -769,7 +771,7 @@
           "longitude": 5.035929910534355,
           "address": "18 Rue Condorcet, 21000 Dijon, France",
           "country": "Francja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": ""
         },
         {
@@ -786,13 +788,15 @@
         {
           "id": "tonnellerie-meyrieux",
           "name": "Tonnellerie Meyrieux",
-          "description": "Fabryka beczek do produkcji wina, których w światowej skali 75% pochodzi z Francji.",
+          "description": "Fabryka beczek do produkcji wina, których w światowej skali 75% pochodzi z Francji. Niestety na codzień niedostępna do zwiedzania.",
           "latitude": 47.108999631991864,
           "longitude": 4.872311368902302,
           "address": "19 Rte de Marey, 21700 Villers-la-Faye, France",
           "country": "Francja",
-          "type": "other",
-          "websiteUrl": ""
+          "type": "tourist_attraction",
+          "image": "https://www.francebleu.fr/pikapi/images/31a0282c-c651-40a9-9172-a2047f3ee960/1200x680",
+          "websiteUrl": "https://www.tonnelleriemeyrieux.com",
+          "GoogleMapsLink": "https://maps.app.goo.gl/JXyEVuNeH3JvZiD97"
         },
         {
           "id": "hotel-dieu-museum-hospices-de-beaune",
@@ -7660,7 +7664,7 @@
           "country": "Albania",
           "type": "other",
           "websiteUrl": "https://www.durresport.al/",
-          "image": "",
+          "image": "https://euronews.al/en/wp-content/uploads/2024/07/Porti-i-Durresit-1125-1068x635.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/Upg66GFuVRNV4kdq6"
         },
         {
@@ -9805,7 +9809,8 @@
           "longitude": 21.020858552739274,
           "address": "Muzeum Narodowe 05, 00-025 Warszawa, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "art_culture",
+          "image": "https://bi.im-g.pl/im/f3/dd/19/z27121907IEG,Rondo-Charles--a-de-Gaulle--a.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/RgFekePa3zb5EkcV6"
         },
@@ -11287,7 +11292,8 @@
           "longitude": 19.06841182222972,
           "address": "Gościnna 3, 40-477 Katowice, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "art_culture",
+          "image": "https://www.slaskie.travel/Media/Default/.MainStorage/ContentItemDocumentTypeRecord/k1n54hln.el1/file_slaskie_old_big.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/hVHRUJEijJ9b9MtaA"
         },
@@ -12633,6 +12639,7 @@
           "address": "Veli Iž 192a, 23284, Veli Iž, Croatia",
           "country": "Chorwacja",
           "type": "other",
+          "image": "https://marine-project.com/wp-content/uploads/2023/01/Marina-Veli-Iz-moorings-for-rent.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/Re5cfKF8J5aXStXe6"
         },
@@ -12705,6 +12712,7 @@
           "address": "RHFQ+M4 Murter, Croatia",
           "country": "Chorwacja",
           "type": "other",
+          "image": "https://atrea.eu/_files/gallery/4/23_T7Bqcxjx.jpg?resize=1600x",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/KHdn5dcMUWEuXR8B9"
         },
@@ -12753,6 +12761,7 @@
           "address": "RW57+J2 Bićine, Croatia",
           "country": "Chorwacja",
           "type": "other",
+          "image": "https://www.malypodroznik.pl/wp-content/uploads/2025/02/most-Krka-TP-1.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/KZrzbQitUxYU1tQn9"
         },
@@ -12765,6 +12774,7 @@
           "address": "RW97+JQ Bićine, Croatia",
           "country": "Chorwacja",
           "type": "other",
+          "image": "https://aci-marinas.com/wp-content/uploads/2019/11/Dron_Skradin_149.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/VJy7PyGJ1GZoCADx8"
         },
@@ -12842,13 +12852,14 @@
         },
         {
           "id": "stiniva-port",
-          "name": "Stiniva Port",
+          "name": "Port Stiniva",
           "description": "Malutka przystań z czasów austrowęgieskich.",
           "latitude": 43.20456178274282,
           "longitude": 16.467794278582563,
           "address": "Ul. Uvala Stiniva 17, 21450, Brusje, Croatia",
           "country": "Chorwacja",
           "type": "other",
+          "image": "https://gohvarblog.com/wp-content/uploads/2024/02/vs-4.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/sUzmDFMmJLZtJtTg6"
         },
@@ -12968,7 +12979,8 @@
           "longitude": 15.226822354566904,
           "address": "Obala kralja Petra Krešimira IV 2, 23000, Zadar, Croatia",
           "country": "Chorwacja",
-          "type": "other",
+          "type": "art_culture",
+          "image":"https://mindtrip.ai/cdn-cgi/image/format=webp,w=720/https://images.mindtrip.ai/attractions/0916/bb9a/8641/bc3d/b1ed/f8df/048a/ebdc",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/LBtnd9ietjwdG3xk9"
         },
@@ -13137,6 +13149,7 @@
           "address": "Słuczanka 42, 16-040, Poland",
           "country": "Polska",
           "type": "other",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Podlaskie_-_Gródek_-_Słuczanka_20120501_03.JPG",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/MSrcgeCzR8j8QuLW9"
         }
@@ -13244,7 +13257,8 @@
           "longitude": 22.87041353732386,
           "address": "9V79+8R Turna Mała, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "ather",
+          "image": "https://i.wpimg.pl/420x280/i.nocimg.pl/s12/305/26-kozki-most-kolejowy-we-fronolowie.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/X4XH1b8SC8ujZuJ97"
         },
@@ -13847,6 +13861,7 @@
           "address": "Miłosławska 11A, 62-310 Pyzdry, Poland",
           "country": "Polska",
           "type": "other",
+          "image": "https://kierunkowo.pl/wp-content/uploads/2021/08/DSC_6695-3.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/N8cDzTMVGpADfTqp7"
         },
@@ -14508,8 +14523,9 @@
           "longitude": 18.685570496190792,
           "address": "Kolodvorska ul. 113 a, 31315, Karanac, Croatia",
           "country": "Chorwacja",
-          "type": "other",
-          "websiteUrl": "",
+          "type": "shopping",
+          "image": "https://media-cdn.tripadvisor.com/media/photo-s/11/37/1e/72/one-of-the-beautiful.jpg",
+          "websiteUrl": "https://szabokaranac.com",
           "GoogleMapsLink": "https://maps.app.goo.gl/UU4UcGzcajtzzNPU8"
         },
         {
@@ -14622,13 +14638,14 @@
       "locations": [
         {
           "id": "vis-ferry-harbour",
-          "name": "Vis Ferry Harbour",
+          "name": "Prot promowy Vis",
           "description": "Port promowy na najbardziej oddalonej wyspie chorwackiej",
           "latitude": 43.061630450777066,
           "longitude": 16.18497713990757,
           "address": "Setalište stare, 21480, Vis, Croatia",
           "country": "Chorwacja",
           "type": "other",
+          "image": "https://blog.ultra-sailing.hr/wp-content/uploads/2022/09/KomizaBay_IslandVis_Croatia.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/QQvN4AwmLJ6pNngS6"
         },
@@ -15064,13 +15081,14 @@
         },
         {
           "id": "ferry-port-split",
-          "name": "Ferry Port Split",
+          "name": "Port promowy Split",
           "description": "Największa przystań promowa Dalmacjii, równiez z połączeniami na drugą stronę Adriatyku.",
           "latitude": 43.50290563534752,
           "longitude": 16.442602689404726,
           "address": "FCXP+V4 Split, Croatia",
           "country": "Chorwacja",
           "type": "other",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Port_of_Split_in_Croatia_%2848608601531%29.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/sQcE6XsGRb8yyXZX8"
         },
@@ -15309,6 +15327,7 @@
           "address": "Žalo 30, 20240, Trpanj, Croatia",
           "country": "Chorwacja",
           "type": "other",
+          "image": "https://www.hrvaska.net/resize1/trpanj_p284.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/eQUkP9dDd8yThrRr7"
         }
@@ -15417,6 +15436,7 @@
           "address": "2CX8+34 Baćina, Croatia",
           "country": "Chorwacja",
           "type": "other",
+          "image": "https://www.lifeandventures.com/wp-content/uploads/2021/01/what_to_see_in_ploce09-1200x674.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/WY7UaAnPAUwrG7y57"
         }
