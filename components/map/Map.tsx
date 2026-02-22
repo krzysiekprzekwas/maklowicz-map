@@ -9,10 +9,11 @@ import createCustomIcon from '../location/LocationMapIcon';
 import { createClusterCustomIcon } from './ClusterIcon';
 import { useIconCache } from '../../hooks/useIconCache';
 import { isMobileDevice } from '../../src/lib/deviceDetection';
+import { AnimatePresence } from 'framer-motion';
+import { LocationPreview } from '../location/LocationPreview';
 
 const maxZoomValue = 20;
 
-// Fix for default marker icons
 delete (L.Icon.Default.prototype as any)._getIconUrl;
 L.Icon.Default.mergeOptions({
     iconRetinaUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon-2x.png',
@@ -23,78 +24,153 @@ L.Icon.Default.mergeOptions({
 interface MapProps {
     locations: Location[];
     selectedLocation: Location | null;
-    onLocationSelect: (location: Location | null) => void;
+    previewLocation: Location | null;
+    onLocationSelect: (location: Location) => void;
+    onLocationPreview: (location: Location) => void;
+    onClosePreview: () => void;
+    favouriteLocationIds: string[];
+    addFavouriteLocation: (id: string) => void;
+    removeFavouriteLocation: (id: string) => void;
 }
 
-// Memoized ChangeView component
+// Tracks the pixel position of previewLocation as the map pans/zooms.
+// Must live inside MapContainer to access useMap().
+const PositionTracker: React.FC<{
+    location: Location | null;
+    onPositionUpdate: (pos: { x: number; y: number } | null) => void;
+}> = ({ location, onPositionUpdate }) => {
+    const map = useMap();
+
+    React.useEffect(() => {
+        if (!location) {
+            onPositionUpdate(null);
+            return;
+        }
+        const update = () => {
+            const pt = map.latLngToContainerPoint([location.latitude, location.longitude]);
+            onPositionUpdate({ x: pt.x, y: pt.y });
+        };
+        update();
+        map.on('move zoom moveend zoomend', update);
+        return () => { map.off('move zoom moveend zoomend', update); };
+    }, [location, map, onPositionUpdate]);
+
+    return null;
+};
+
 const ChangeView: React.FC<{ locations: Location[] }> = React.memo(({ locations }) => {
     const map = useMap();
-    
     React.useEffect(() => {
         if (locations.length > 0) {
-            const bounds = L.latLngBounds(locations.filter(x => !x.isFilteredOut).map(loc => [loc.latitude, loc.longitude]));
-            map.fitBounds(bounds as LatLngBoundsExpression, { 
-                padding: [50, 50],
-                maxZoom: maxZoomValue 
-            });
+            const bounds = L.latLngBounds(
+                locations.filter(x => !x.isFilteredOut).map(loc => [loc.latitude, loc.longitude])
+            );
+            map.fitBounds(bounds as LatLngBoundsExpression, { padding: [50, 50], maxZoom: maxZoomValue });
         }
     }, [locations]);
-
     return null;
 });
 
-const Map: React.FC<MapProps> = React.memo(({ locations, selectedLocation, onLocationSelect }) => {
+const Map: React.FC<MapProps> = React.memo(({
+    locations,
+    selectedLocation,
+    previewLocation,
+    onLocationSelect,
+    onLocationPreview,
+    onClosePreview,
+    favouriteLocationIds,
+    addFavouriteLocation,
+    removeFavouriteLocation,
+}) => {
     const { getIcon } = useIconCache();
     const [isMobile, setIsMobile] = React.useState(false);
+    const [previewPixelPos, setPreviewPixelPos] = React.useState<{ x: number; y: number } | null>(null);
 
-    // Detect mobile device on mount
+    // Ref so marker event closures always see the latest previewLocation
+    // without invalidating the markers memo on every preview change.
+    const previewLocationRef = React.useRef(previewLocation);
+    previewLocationRef.current = previewLocation;
+
+    // Timer ref for desktop hover hide delay
+    const hideTimerRef = React.useRef<ReturnType<typeof setTimeout> | null>(null);
+
     React.useEffect(() => {
         setIsMobile(isMobileDevice());
-        
         const handleResize = () => setIsMobile(isMobileDevice());
         window.addEventListener('resize', handleResize);
         return () => window.removeEventListener('resize', handleResize);
     }, []);
 
-    // Filter out filtered-out locations entirely (don't render them)
-    const visibleLocations = React.useMemo(() => 
-        locations.filter(location => !location.isFilteredOut),
+    const startHideTimer = React.useCallback(() => {
+        hideTimerRef.current = setTimeout(onClosePreview, 300);
+    }, [onClosePreview]);
+
+    const cancelHideTimer = React.useCallback(() => {
+        if (hideTimerRef.current) clearTimeout(hideTimerRef.current);
+    }, []);
+
+    const handlePositionUpdate = React.useCallback(
+        (pos: { x: number; y: number } | null) => setPreviewPixelPos(pos),
+        []
+    );
+
+    const visibleLocations = React.useMemo(
+        () => locations.filter(loc => !loc.isFilteredOut),
         [locations]
     );
 
-    // Memoize the custom icon creation with caching
-    const customIcon = React.useCallback((location: Location, isSelected: boolean): DivIcon => {
-        return getIcon(location.type, location.name, isSelected, false, isMobile);
-    }, [getIcon, isMobile]);
+    const customIcon = React.useCallback(
+        (location: Location, isSelected: boolean): DivIcon =>
+            getIcon(location.type, location.name, isSelected, false, isMobile),
+        [getIcon, isMobile]
+    );
 
-    // Memoize markers to prevent unnecessary re-renders
-    const markerElements = React.useMemo(() => 
-        visibleLocations.map((location) => {
+    const markerElements = React.useMemo(
+        () => visibleLocations.map(location => {
             const position: LatLngExpression = [location.latitude, location.longitude];
             const isSelected = selectedLocation?.id === location.id;
-            
+
             return (
                 <Marker
                     key={location.id}
                     position={position}
                     icon={customIcon(location, isSelected)}
                     eventHandlers={{
-                        click: () => onLocationSelect(location),
+                        // Desktop: hover shows preview
+                        mouseover: () => {
+                            if (!isMobile) {
+                                cancelHideTimer();
+                                onLocationPreview(location);
+                            }
+                        },
+                        mouseout: () => {
+                            if (!isMobile) startHideTimer();
+                        },
+                        // Mobile: first tap = preview, second tap (same marker) = full details
+                        // Desktop: click = full details directly
+                        click: () => {
+                            if (isMobile) {
+                                if (previewLocationRef.current?.id === location.id) {
+                                    onLocationSelect(location);
+                                } else {
+                                    onLocationPreview(location);
+                                }
+                            } else {
+                                onLocationSelect(location);
+                            }
+                        },
                     }}
-                    // Store location type for clustering logic
-                    // @ts-ignore - Custom property for cluster icon
+                    // @ts-ignore — custom prop for cluster icon logic
                     locationType={location.type}
                 />
             );
         }),
-    [visibleLocations, selectedLocation, customIcon, onLocationSelect]);
+        [visibleLocations, selectedLocation, customIcon, onLocationSelect, onLocationPreview,
+         isMobile, cancelHideTimer, startHideTimer]
+    );
 
-    // Canvas renderer for better mobile performance
-    const canvasRenderer = React.useMemo(() => 
-        L.canvas({ 
-            tolerance: isMobile ? 10 : 5,
-            padding: 0.5 
-        }), 
+    const canvasRenderer = React.useMemo(
+        () => L.canvas({ tolerance: isMobile ? 10 : 5, padding: 0.5 }),
         [isMobile]
     );
 
@@ -117,9 +193,11 @@ const Map: React.FC<MapProps> = React.memo(({ locations, selectedLocation, onLoc
                     maxZoom={maxZoomValue}
                     maxNativeZoom={maxZoomValue}
                 />
+                <PositionTracker
+                    location={previewLocation}
+                    onPositionUpdate={handlePositionUpdate}
+                />
                 <ChangeView locations={visibleLocations} />
-                
-                {/* MarkerClusterGroup with custom icon and subtle clustering */}
                 <MarkerClusterGroup
                     iconCreateFunction={createClusterCustomIcon}
                     maxClusterRadius={isMobile ? 60 : 80}
@@ -135,6 +213,21 @@ const Map: React.FC<MapProps> = React.memo(({ locations, selectedLocation, onLoc
                     {markerElements}
                 </MarkerClusterGroup>
             </MapContainer>
+
+            {/* Preview card — animated overlay anchored to marker position */}
+            <AnimatePresence>
+                {previewLocation && previewPixelPos && (
+                    <LocationPreview
+                        key={previewLocation.id}
+                        location={previewLocation}
+                        pixelPosition={previewPixelPos}
+                        onOpenDetails={() => onLocationSelect(previewLocation)}
+                        onClose={onClosePreview}
+                        onMouseEnter={cancelHideTimer}
+                        onMouseLeave={startHideTimer}
+                    />
+                )}
+            </AnimatePresence>
         </div>
     );
 });

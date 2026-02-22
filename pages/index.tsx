@@ -6,6 +6,7 @@ import Head from 'next/head';
 import { useLocationState } from '../hooks/useLocationState';
 import { Filters } from '../components/filters/Filters';
 import { LocationDetails } from '../components/location/LocationDetails';
+import type { Location as MapLocation } from '../types/Location';
 
 const Map = dynamic(() => import('../components/map/Map'), {
   ssr: false,
@@ -21,6 +22,8 @@ export default function Home() {
   const {
     selectedLocation,
     setSelectedLocation,
+    previewLocation,
+    setPreviewLocation,
     selectedCountry,
     setSelectedCountry,
     selectedLocationTypes,
@@ -32,13 +35,26 @@ export default function Home() {
     favouriteLocationIds,
     addFavouriteLocation,
     removeFavouriteLocation,
-    handleCountryClick,
     toggleLocationType,
     toggleCharacter,
   } = useLocationState();
 
   const { countries, filteredLocations, locationTypeCounts, characterCounts, allLocations } =
     useLocations(selectedCountry, selectedLocationTypes, selectedCharacters);
+
+  // Stable callbacks so Map's marker memo doesn't invalidate unnecessarily
+  const handleLocationSelect = React.useCallback((loc: MapLocation) => {
+    setSelectedLocation(loc);
+    setPreviewLocation(null);
+  }, [setSelectedLocation, setPreviewLocation]);
+
+  const handleLocationPreview = React.useCallback((loc: MapLocation) => {
+    setPreviewLocation(loc);
+  }, [setPreviewLocation]);
+
+  const handleClosePreview = React.useCallback(() => {
+    setPreviewLocation(null);
+  }, [setPreviewLocation]);
 
   React.useEffect(() => {
     if (!router.isReady) return;
@@ -91,7 +107,17 @@ export default function Home() {
         />
 
         <div className="flex-1">
-          <Map locations={filteredLocations} selectedLocation={selectedLocation} onLocationSelect={setSelectedLocation} />
+          <Map
+            locations={filteredLocations}
+            selectedLocation={selectedLocation}
+            previewLocation={previewLocation}
+            onLocationSelect={handleLocationSelect}
+            onLocationPreview={handleLocationPreview}
+            onClosePreview={handleClosePreview}
+            favouriteLocationIds={favouriteLocationIds}
+            addFavouriteLocation={addFavouriteLocation}
+            removeFavouriteLocation={removeFavouriteLocation}
+          />
         </div>
 
         <LocationDetails

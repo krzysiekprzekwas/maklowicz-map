@@ -3,6 +3,7 @@ import type { Location } from '../types/Location';
 
 export function useLocationState() {
   const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
+  const [previewLocation, setPreviewLocation] = useState<Location | null>(null);
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
   const [selectedLocationTypes, setSelectedLocationTypes] = useState<string[]>([]);
   const [selectedCharacters, setSelectedCharacters] = useState<string[]>([]);
@@ -16,6 +17,7 @@ export function useLocationState() {
 
   const handleCountryClick = (countryName: string) => {
     setSelectedCountry(countryName === selectedCountry ? null : countryName);
+    setPreviewLocation(null);
   };
 
   const toggleLocationType = (type: string) => {
@@ -45,6 +47,8 @@ export function useLocationState() {
   return {
     selectedLocation,
     setSelectedLocation,
+    previewLocation,
+    setPreviewLocation,
     selectedCountry,
     setSelectedCountry,
     selectedLocationTypes,
