@@ -369,8 +369,9 @@
           "longitude": 18.60743379212438,
           "address": "Szeroka 19, 87-100 Toruń, Poland",
           "country": "Polska",
-          "type": "other",
-          "websiteUrl": "",
+          "type": "shopping",
+          "image": "https://tylkotorun.pl/wp-content/uploads/2023/06/Iga-Sarzynska-piec11-scaled.jpg",
+          "websiteUrl": "http://igasarzynska.pl/",
           "GoogleMapsLink": "https://maps.app.goo.gl/3dYmRDEk1FD9QySA7"
         },
         {
@@ -381,8 +382,8 @@
           "longitude": 18.605114095155365,
           "address": "Franciszkańska 15/21, 87-100 Toruń, Poland",
           "country": "Polska",
-          "type": "other",
-          "websiteUrl": "",
+          "type": "shopping",
+          "websiteUrl": "http://www.intekart.pl/",
           "GoogleMapsLink": "https://maps.app.goo.gl/FCDqehZsx3Z4jFr29"
         },
         {
@@ -755,7 +756,7 @@
           "longitude": 5.039248492274267,
           "address": "68 Rue de la Liberté, 21000 Dijon, France",
           "country": "Francja",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": ""
         },
         {
@@ -821,7 +822,7 @@
           "longitude": 4.832296,
           "address": "1 Rue des Levées, 21200 Beaune, France",
           "country": "Francja",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": ""
         }
       ]
@@ -838,13 +839,13 @@
       "locations": [
         {
           "id": "chateau-de-villars-fontaine-domaine-de-montmain",
-          "name": "CHATEAU DE VILLARS-FONTAINE DOMAINE DE MONTMAIN",
+          "name": "Chateu de Villars-FontaIne Domaine de Montmain",
           "description": "Tradycyjna francuska winnica zlokalizowana w Burgundii.",
           "latitude": 47.15112339597853,
           "longitude": 4.892039374631547,
           "address": "10 Chem. des Beveys, 21700 Villars-Fontaine, France",
           "country": "Francja",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": ""
         },
         {
@@ -878,7 +879,7 @@
           "longitude": 4.559230935731851,
           "address": "6 Rue Hubert Coste, 21230 Lacanche, France",
           "country": "Francja",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/LZZcs8o8u11kBsvo8"
         },
@@ -1166,7 +1167,7 @@
           "longitude": 15.038238530057212,
           "address": "Pražská 581/22, 288 02 Nymburk-Nymburk 2, Czechia",
           "country": "Czechy",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/b3svcueJMwYKKqER7"
         }
@@ -1250,7 +1251,7 @@
           "longitude": 15.26797765517701,
           "address": "Hradební 703, 284 01 Kutná Hora-Kutná Hora 1, Czechia",
           "country": "Czechy",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/wxLB24R4ot2krf4N6"
         },
@@ -1477,8 +1478,9 @@
           "longitude": 14.843320825043213,
           "address": "Via Provinciale, 30, 98050 Malfa ME, Italy",
           "country": "Włochy",
-          "type": "other",
-          "websiteUrl": "",
+          "type": "shopping",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/37/6c/1c/caption.jpg?w=1200&h=-1&s=1",
+          "websiteUrl": "https://www.fenech.it/",
           "GoogleMapsLink": "https://maps.app.goo.gl/fE5uSYQyKvvuqGAUA"
         },
         {
@@ -2334,7 +2336,7 @@
           "longitude": 57.516195001154735,
           "address": "FGW6+3G Surinam, Mauritius",
           "country": "Mauritius",
-          "type": "other",
+          "type": "nature",
           "websiteUrl": "",
           "image": "https://mauritiusattractions.com/content/images/guide/i-335/rochester-falls%20(1).jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/rdFrAC2Zks7VGVQTA"
@@ -2831,7 +2833,7 @@
           "longitude": 7.750442308084872,
           "address": "15 Pl. du Temple Neuf, 67000 Strasbourg, France",
           "country": "Francja",
-          "type": "other",
+          "type": "cafe",
           "websiteUrl": "",
           "image": "https://media-cdn.tripadvisor.com/media/photo-s/09/c2/eb/d5/the-perfect-cafe.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/ZjGvzPSgdcVKgdQz6"
@@ -2870,7 +2872,8 @@
           "longitude": 7.74894490953411,
           "address": "7 Rue des Orfèvres, 67000 Strasbourg, France",
           "country": "Francja",
-          "type": "other",
+          "type": "shopping",
+          "image":"https://www.wolfberger.com/wp-content/uploads/2014/10/Wolfberger_Stras_6_2011.jpg",
           "websiteUrl": "http://www.wolfberger.com/?utm_source=gmbhttps://www.wolfberger.com/wp-content/uploads/2014/10/Wolfberger_Stras_6_2011.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/ricnkA5X8kNHg1S86"
         },
@@ -2895,7 +2898,7 @@
           "longitude": 7.749178199198048,
           "address": "15 Rue des Francs-Bourgeois, 67000 Strasbourg, France",
           "country": "Francja",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "http://www.bruck-foiegras.com/",
           "image": "https://www.bruck-foiegras.com/wp-content/uploads/2021/06/georges-bruck-foie-gras-alsace-a-strasbourg-boutique-de-strasbourg-photo2.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/RScYEsbfH3U91sSC9"
@@ -2908,7 +2911,7 @@
           "longitude": 7.748766725494498,
           "address": "7 Rue de l'Épine, 67000 Strasbourg, France",
           "country": "Francja",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "http://www.fromagerie-tourrette.com/",
           "image": "https://www.fromagerie-tourrette.com/wp-content/uploads/2020/06/restaurant-la-cloche-a-fromage-1018x600.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/dVziZh8baQxx16m57"
@@ -2921,7 +2924,7 @@
           "longitude": 7.743077371637912,
           "address": "5 Rue des Moulins, 67000 Strasbourg, France",
           "country": "Francja",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "http://www.noelenalsace.fr/",
           "image": "https://mangue-poudree.fr/wp-content/uploads/2016/08/boutique-un-noecc88l-en-alsace.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/s9stcuaVCzcPKi4t7"
@@ -3409,13 +3412,13 @@
         },
         {
           "id": "rubik-s-cube-speedcube-shop-rubik-toys-speedcube-shop-budapest-cube-shop",
-          "name": "Rubik's Cube & SpeedCube Shop | Rubik Toys | SpeedCube Shop Budapest | Cube Shop",
+          "name": "Rubik's Cube & SpeedCube Shop | SpeedCube Shop Budapest",
           "description": "W sercu Budapesztu, miasta, które światu podarowało niejedną wyborną potrawę, ale i genialną łamigłówkę, znajduje się miejsce niezwykłe. Oto Rubik's Cube & SpeedCube Shop – prawdziwa świątynia kolorowych sześcianów, gdzie każdy miłośnik logicznych wyzwań poczuje się jak w spiżarni pełnej najprzedniejszych, misternie skomponowanych smakołyków dla umysłu. To tu, wśród setek wariantów słynnego wynalazku Ernő Rubika z 1974 roku, można na nowo odkryć radość z układania, niczym z degustacji doskonale przyprawionego dania.",
           "latitude": 47.495354583079624,
           "longitude": 19.06174917702445,
           "address": "Budapest, Orom u. 18a, 1016 Hungary",
           "country": "Węgry",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "https://rcube.hu/",
           "image": "https://rcube.hu/wp-content/uploads/2024/05/Rubiks-Cube-Shop-exhibition-1024x768.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/fqf7Pvc8sx7Y4tXr9"
@@ -3595,7 +3598,7 @@
           "longitude": 6.941210850209434,
           "address": "Kastanienstraße 3A, 54516 Wittlich, Germany",
           "country": "Niemcy",
-          "type": "other",
+          "type": "hotel",
           "websiteUrl": "https://bauer-brennerei.de/hofladen/",
           "image": "https://bauer-brennerei.de/wp-content/uploads/2019/01/Bauer-Roman-2018-354-1030x687.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/FDmG17UgvcTYNdSM6"
@@ -3673,7 +3676,7 @@
           "longitude": 7.656731612859687,
           "address": "Hof Grenzau 1, 56203 Höhr-Grenzhausen, Germany",
           "country": "Niemcy",
-          "type": "other",
+          "type": "hotel",
           "websiteUrl": "http://www.landgasthof-grenzau.com/",
           "image": "https://landgasthof-grenzau.com/wp-content/uploads/2025/02/Landgasthof-1.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/yBgwLA5M6wCRXzFr6"
@@ -3750,7 +3753,7 @@
           "longitude": 7.075300284545652,
           "address": "Bridge Bernkastel-Kues, L47, 54470 Bernkastel-Kues, Germany",
           "country": "Niemcy",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "https://www.deinhards-markthaus.com/",
           "image": "https://www.graach.de/uploads/tx_sfcontenthub/1fc051d1-ba28-49d1-b90c-8d0cfec96b72.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/b3G7QEW7LqjRvgst7"
@@ -3846,13 +3849,13 @@
         },
         {
           "id": "opera-02-ca-montanari",
-          "name": "Opera 02 Cà Montanari",
+          "name": "Opera 02",
           "description": "Włoska Emilia-Romania, kraina, gdzie nawet powietrze pachnie parmezanem i octem balsamicznym, skrywa prawdziwą perełkę – Opera 02 Cà Montanari. Od 2002 roku, w tym urokliwym zakątku, z pieczołowitością pielęgnuje się winorośl, z której powstaje Lambrusco, by udowodnić, że ten radosny trunek zasługuje na najwyższe uznanie, a towarzysząca mu kuchnia to poezja smaku, co sprawia, że nawet najbardziej wybredne podniebienie zatańczy z radości.",
           "latitude": 44.498016221155616,
           "longitude": 10.918056205511546,
           "address": "FWX7+67 Castelvetro di Modena, Province of Modena, Italy",
           "country": "Włochy",
-          "type": "other",
+          "type": "hotel",
           "websiteUrl": "http://www.opera02.it/",
           "image": "https://static.where-e.com/Italy/Emilia_Romagna/Modena/Opera-02-Ca-Montanari_77ad18d996974d40b23613849edbe165.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/htPh2tACzxgZRzeE7"
@@ -3929,7 +3932,7 @@
           "longitude": 10.329271068437995,
           "address": "Borgo Paggeria, 17, 43121 Parma PR, Italy",
           "country": "Włochy",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "http://www.anticasalumeriarastelli.it/",
           "image": "https://media-cdn.tripadvisor.com/media/photo-s/18/ed/09/4d/esterno.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/6KUZtz335EJpdJsUA"
@@ -4545,7 +4548,7 @@
           "longitude": 21.01587297944586,
           "address": "Plac Piłsudskiego 02, 00-072 Warszawa, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "hotel",
           "websiteUrl": "https://www.marriott.com/en-us/hotels/wawlc-hotel-bristol-a-luxury-collection-hotel-warsaw/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
           "image": "https://www.konferencje.pl/media/cache/resolve/slideshow_v2_jpeg/0/c/b/8/0cb8dc7f938265a74bbef1409829cc17.jpg?2022-07-14T10:15:39+00:00",
           "GoogleMapsLink": "https://maps.app.goo.gl/68R3F5SCGEEGPAdw5"
@@ -4558,7 +4561,7 @@
           "longitude": 21.015818552702594,
           "address": "Krakowskie Przedmieście 42/44, 00-325 Warszawa, Poland",
           "country": "Polska",
-          "type": "restaurant",
+          "type": "cafe",
           "websiteUrl": "https://www.cafebristol.pl/",
           "image": "https://www.cafebristol.pl/pl/resourcefiles/homeimages/cafe-bristol-interior.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/dUGPiuYUJ8JHXhro8"
@@ -5160,7 +5163,7 @@
           "longitude": 25.718561179424647,
           "address": "5MVF+RQ Agios Nikolaos, Greece",
           "country": "Grecja",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://traveltalks.esky.pl/wp-content/uploads/Port-Agios-Nikolaos-wyspa-Kreta-Grecja-©-Shutterstock.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/mvJ7wRTwT6Xb7ddTA"
@@ -5570,7 +5573,7 @@
           "longitude": 35.522065133240474,
           "address": "HGRF+Q6 Manshir, Jordan",
           "country": "Jordania",
-          "type": "other",
+          "type": "hotel",
           "websiteUrl": "https://www.booking.com/hotel/jo/desert-trips.pl.html",
           "image": "https://sunset-camp.jordan-all-hotels.com/data/Pics/OriginalPhoto/13202/1320274/1320274591/jamal-rum-camp-wadi-rum-pic-73.JPEG",
           "GoogleMapsLink": "https://maps.app.goo.gl/G4dPdZTgskGr4yEe8"
@@ -6031,7 +6034,7 @@
           "longitude": 99.60492773643482,
           "address": "3 Nang Yuan, Tambon Thap Thiang, Amphoe Mueang Trang, Chang Wat Trang 92000, Thailand",
           "country": "Tajlandia",
-          "type": "other",
+          "type": "hotel",
           "websiteUrl": "http://www.facebook.com/banaothongandmyfriend",
           "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/286243438.jpg?k=bc68aa47581f25197a398f7dfbd911b5127b006b446627f93e90704636169e03&o=&hp=1",
           "GoogleMapsLink": "https://maps.app.goo.gl/oJYfNcGPyqKJgUKH7"
@@ -6321,13 +6324,13 @@
         },
         {
           "id": "highsiam-railay-weed-shop-cannabis-dispensary",
-          "name": "HighSiam railay weed shop, cannabis dispensary",
+          "name": "HighSiam railay weed shop",
           "description": "Proszę sobie wyobrazić, że oto, niczym egzotyczna przyprawa w orientalnym daniu, pojawił się tam przybytek, gdzie królują zielone aromaty. To znak naszych czasów, gdy w krainie uśmiechu, od niedawna, odkrywamy nowe nuty botaniczne, idealne do relaksu po dniu pełnym wrażeń.",
           "latitude": 8.01265413606053,
           "longitude": 98.84360327929166,
           "address": "2R7V+487, Ao Nang, Mueang Krabi District, Krabi, Thailand",
           "country": "Tajlandia",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "http://www.highsiam.com/",
           "image": "https://smokingcannabisthailand.com/wp-content/uploads/2024/07/AF1QipMNXC4C7qeB7DC1n3PSHDgIhL-naO43XSICUk9ww800-h500-k-no.jpeg",
           "GoogleMapsLink": "https://maps.app.goo.gl/8UxaTzkWiCN5CoBLA"
@@ -6970,7 +6973,7 @@
           "longitude": 17.532028789944402,
           "address": "WFWJ+7J Dubrava, Croatia",
           "country": "Chorwacja",
-          "type": "other",
+          "type": "hotel",
           "websiteUrl": "https://www.rizman.com.hr/",
           "image": "https://rizman.com.hr/wp-content/uploads/2017/11/posjet-vinariji-rizman.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/L2ZqxfPqbzqkhAJ48"
@@ -7079,13 +7082,13 @@
         },
         {
           "id": "innsbruck-station-hungerburg",
-          "name": "Innsbruck Station Hungerburg",
+          "name": "Station Hungerburg",
           "description": "W Innsbrucku, gdzie alpejskie szczyty zdają się niemal zaglądać do okien, znajduje się stacja Hungerburg. To nie byle jaki przystanek, lecz prawdziwe dzieło sztuki architektonicznej, otwarte w 2007 roku, zaprojektowane przez słynną Zahę Hadid. Stąd, w futurystycznych wagonikach, można wyruszyć w górę, gdzie świeże powietrze i zapierające dech widoki zaostrzają apetyt na więcej – nie tylko wrażeń, ale i lokalnych smakołyków.",
           "latitude": 47.28625382208434,
           "longitude": 11.400117833410654,
           "address": "Hungerburgweg 8a, 6020 Innsbruck, Austria",
           "country": "Austria",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://cdn.getyourguide.com/img/tour/b0bfe23d16a6e983ca23cc0b6b212f096395ae41c5a23d267e697c4f61130e1b.jpg/98.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/gg1Dk7vPzQWmA6TJ9"
@@ -7176,7 +7179,7 @@
           "longitude": 11.208062389760503,
           "address": "Ranggergasse 4, 6401 Inzing, Austria",
           "country": "Austria",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "https://www.draxl-schnaps.at/",
           "image": "https://draxl-schnaps.at/themes/classic/assets/img/modules/appagebuilder/swiperCard/09364073531157f18fb31a50b04543a6343fcd65_DraxlSchnaps_21_001.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/2cRFKoSQcQNbYu2X9"
@@ -7214,7 +7217,7 @@
           "longitude": 17.6101593120585,
           "address": "4JW5+J2 Półczenko, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "https://kaszubskieziola.pl/",
           "image": "https://pomorskie-prestige.eu/wp-content/uploads/2021/05/Kaszubskie-Ziola-6.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/xvDS1g4gVsghERt96"
@@ -7227,7 +7230,7 @@
           "longitude": 17.6090399,
           "address": "Łąkie 9, 77-125 Półczno, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "hotel",
           "websiteUrl": "https://www.facebook.com/p/Lobeliowa-Zatoka-dom-na-Kaszubach-100063819318712/?_rdr",
           "image": "/images/lobeliowa-zatoka.jpeg",
           "GoogleMapsLink": "https://maps.app.goo.gl/ch2r7nX8JLgTZM63A"
@@ -7330,7 +7333,7 @@
           "longitude": 17.0298348,
           "address": "Nowobramska 2, 76-200 Słupsk, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "https://www.instagram.com/bioitaliaslupsk/",
           "image": "https://d-art.ppstatic.pl/kadry/k/r/1/1c/d4/616e65b54ea7b_o_large.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/vjkruk7bvZt17ge26"
@@ -7766,7 +7769,7 @@
           "longitude": 19.290973223511134,
           "address": "6443+P3 Limljani, Montenegro",
           "country": "Czarnogóra",
-          "type": "other",
+          "type": "nature",
           "websiteUrl": "",
           "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Skadar.murica.JPG",
           "GoogleMapsLink": "https://maps.app.goo.gl/bLzvVF3vExEbKkAd8"
@@ -7792,7 +7795,7 @@
           "longitude": 19.090427691063624,
           "address": "63WR+H2 Virpazar, Montenegro",
           "country": "Czarnogóra",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "http://www.pelikan-zec.com/",
           "image": "https://pix10.agoda.net/hotelImages/162/1622316/1622316_16111617090048783493.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/rgraWNLUfTgCapFU9"
@@ -7882,7 +7885,7 @@
           "longitude": 16.793923114892788,
           "address": "1. Ul. 27, 20271, Blato, Croatia",
           "country": "Chorwacja",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "https://blato1902.hr/poslovnice/poslovnice-blato/",
           "image": "https://blato1902.hr/wp-content/uploads/2025/05/Wine-and-Olive-Oil-Shop-Blato-1902_Vino-i-Korculansko-maslinovo-ulje-Blato-1902.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/9vAgSrfe5x8KFgJX9"
@@ -7920,7 +7923,7 @@
           "longitude": 17.12628396713477,
           "address": "X43F+PF Žrnovo, Croatia",
           "country": "Chorwacja",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "https://www.instagram.com/thejungle_club/",
           "image": "https://i.pinimg.com/564x/fe/ff/54/feff54d98d8b6abd6e80bf02beaada5c.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/nTqQRmC77v32qBDy7"
@@ -7969,7 +7972,7 @@
           "longitude": 10.842280125498366,
           "address": "Via Bleggio, 5, 38075 Fiavè TN, Italy",
           "country": "Włochy",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://www.trentino.com/images/cms/main/754x435/B-0476-fiave.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/RkhTg94dXeq3qBCUA"
@@ -7982,7 +7985,7 @@
           "longitude": 10.8570859472246,
           "address": "Frazione Favrio, 3, 38075 Favrio TN, Italy",
           "country": "Włochy",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://live.staticflickr.com/3554/3597615397_1d8d7eb298_c.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/51jAGDMtSTn2vtUg6"
@@ -8098,7 +8101,7 @@
           "longitude": 10.85271551188511,
           "address": "Località Roncaglie, 17, 38066 Riva del Garda TN, Italy",
           "country": "Włochy",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "http://store.agririva.it/",
           "image": "https://store.agririva.it/wp-content/uploads/2020/09/0118-Agririva-esterni-┬®-2020-Fabio-Staropoli-fotofiore.com_-scaled-optimized.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/cxsH6DnGPuG2tu7r5"
@@ -8162,7 +8165,7 @@
           "longitude": 9.083947576654579,
           "address": "Via Rusconi, 8, 22100 Como CO, Italy",
           "country": "Włochy",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "https://labottegadeltartufo.it/",
           "image": "https://labottegadeltartufo.it/cdn/shop/files/EOSR1093_1000x1000.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/5bMJH8MXrHWiTwRt5"
@@ -8188,7 +8191,7 @@
           "longitude": 9.084195364594326,
           "address": "Como Lago, 22100 Como CO, Italy",
           "country": "Włochy",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "/images/como-lago.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/c4dL56Ub9BQDdg4E7"
@@ -8316,7 +8319,7 @@
           "longitude": 12.729088318990998,
           "address": "PPXF+GX Inzell, Germany",
           "country": "Niemcy",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/Kgdswf9PWo7zx7oH7"
@@ -8766,7 +8769,7 @@
           "longitude": 11.017931815719924,
           "address": "RXHW+FM Djerba Midun, Tunisia",
           "country": "Tunezja",
-          "type": "other",
+          "type": "hotel",
           "websiteUrl": "",
           "image": "https://grafiki.r.pl/hotel/4065/wakacje-i-wczasy-w-hotelu-royal-garden-palace-185791.jpg?crop=4996%2C3331%2C2%2C0&width=576&height=384",
           "GoogleMapsLink": "https://maps.app.goo.gl/9aBRKi1FcZrgAZq48"
@@ -9123,7 +9126,7 @@
           "longitude": 25.28922993885854,
           "address": "Akmenų g. 4A, 03106 Vilnius, Lithuania",
           "country": "Litwa",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "https://www.balloon.lt/",
           "GoogleMapsLink": "https://maps.app.goo.gl/jeySMiaiScHbPziE7"
         }
@@ -9399,7 +9402,7 @@
           "longitude": 25.2857111392498,
           "address": "Šv. Ignoto g. 20, 01144 Vilnius, Lithuania",
           "country": "Litwa",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/SzV3VtVqyMY5WcWS9"
         },
@@ -9471,7 +9474,7 @@
           "longitude": 17.525316641237364,
           "address": "V6FC+46 Lumbarda, Croatia",
           "country": "Chorwacja",
-          "type": "other",
+          "type": "museum",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/9fqGDaN8dze7ekth9"
         }
@@ -10203,7 +10206,7 @@
           "longitude": 12.6096434,
           "address": "Via Sant'Apollinare, 13B, 06081 Assisi PG, Italy",
           "country": "Włochy",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/fH1gn9JZRvBTz7eu7"
         },
@@ -10239,7 +10242,7 @@
           "longitude": 12.672020255386194,
           "address": "Via XXV Aprile, 10, 06038 Spello PG, Italy",
           "country": "Włochy",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/wx86mANjcbTBsCYB6"
         },
@@ -10407,7 +10410,7 @@
           "longitude": 12.737220568290411,
           "address": "Piazza del Mercato, 29, 06049 Spoleto PG, Italy",
           "country": "Włochy",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/CeiAzHux4aRKgboRA"
         },
@@ -10437,13 +10440,13 @@
         },
         {
           "id": "scala-mobile-rocca-1-1",
-          "name": "Scala Mobile Rocca 1 1",
+          "name": "Scala Mobile Rocca",
           "description": "Miejsce o praktycznym, lecz niezwykłym uroku – ruchome schody Rocca. To nie tylko ciąg stopni, ale brama do historycznych skarbów i widoków zapierających dech, do których teraz można dotrzeć z prawdziwie włoską lekkością. Prawdziwa gratka dla tych, co cenią wygodę na szlaku smaków i historii.",
           "latitude": 42.737413325014415,
           "longitude": 12.740073257606978,
           "address": "Via Ponzianina, 47, 06049 Spoleto PG, Italy",
           "country": "Włochy",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/5DrCuaRdRtN1db3o8"
         },
@@ -10491,8 +10494,8 @@
           "longitude": 12.771896076120985,
           "address": "QQF6+2W Spoleto, Province of Perugia, Italy",
           "country": "Włochy",
-          "type": "other",
-          "websiteUrl": "",
+          "type": "tourist_attraction",
+          "websiteUrl": "https://www.monini.com/it/il-frantoio",
           "GoogleMapsLink": "https://maps.app.goo.gl/rjPuNWA1VhEFwuNs8"
         }
       ]
@@ -10936,8 +10939,9 @@
           "longitude": 15.232237968139287,
           "address": "Lestein 113, 8511 Lemsitz, Austria",
           "country": "Austria",
-          "type": "other",
-          "websiteUrl": "",
+          "type": "shopping",
+          "image":"https://steiermark.wine/wp-content/uploads/ws_winzer/468/6febd6da-0858-4511-bcbd-39847c2f9dd4@2x.jpg",
+          "websiteUrl": "http://trapl-schilcher.at/51/kontakt",
           "GoogleMapsLink": "https://maps.app.goo.gl/on84xgafPwiu8Xmy8"
         }
       ]
@@ -11565,8 +11569,9 @@
           "longitude": 18.430747493262473,
           "address": "Ćurčiluk veliki 8, Sarajevo 71000, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "other",
-          "websiteUrl": "",
+          "type": "shopping",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/06/a2/b2/badem-boutique.jpg?w=900&h=-1&s=1",
+          "websiteUrl": "http://www.gameha.ba/",
           "GoogleMapsLink": "https://maps.app.goo.gl/9TkJoBmxc2nW2wBg6"
         },
         {
@@ -11667,13 +11672,13 @@
         },
         {
           "id": "jahorina-bosnia-i-hercegowina",
-          "name": "Jahorina, Bośnia i Hercegowina",
+          "name": "Jahorina",
           "description": "Jahorina, klejnot Bośni i Hercegowiny, roztacza się niczym zielony pączek w górach, gotowa do podboju serc miłośników natury i adrenaliny. To właśnie tutaj, w 1984 roku, swoje pierwsze igrzyska zimowe zorganizowała Europa, a dziś Jahorina zaprasza do podjęcia nowych wyzwań na stokach narciarskich, szlakach turystycznych czy wśród malowniczych wiosek.\"",
           "latitude": 43.737539648474204,
           "longitude": 18.564571473022934,
           "address": "PHQ3+C8 Jahorina, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/aPPE8y6F9TiLFMBT6"
         },
@@ -11781,7 +11786,7 @@
           "longitude": 18.344576684504922,
           "address": "Vuka Karadžića 2, Trebinje 89101, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/FeAqNN267mvZbpJD7"
         },
@@ -11937,7 +11942,7 @@
           "longitude": 16.943660058874617,
           "address": "Zagrodnicza 4a, 61-654 Poznań, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/DkJeLKGKVC52D2Vi6"
         },
@@ -12318,8 +12323,8 @@
           "longitude": 18.541635879019346,
           "address": "FGVQ+4J Gdynia, Poland",
           "country": "Polska",
-          "type": "other",
-          "websiteUrl": "",
+          "type": "tourist_attraction",
+          "websiteUrl": "https://k5.com.pl",
           "GoogleMapsLink": "https://maps.app.goo.gl/2rv22hi4kr8vkKuFA"
         }
       ]
@@ -12354,7 +12359,7 @@
           "longitude": 17.174401104061165,
           "address": "9 Maja 3, 76-213 Gardna Wielka, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/6KHLEPwYjXef21DT9"
         },
@@ -12402,7 +12407,7 @@
           "longitude": 17.49839059720868,
           "address": "Podole Wielkie 22, 76-220, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/8abYwtaDtDBitW1U8"
         },
@@ -12414,8 +12419,9 @@
           "longitude": 17.586230646697935,
           "address": "MH5M+8F Poraj, Poland",
           "country": "Polska",
-          "type": "other",
-          "websiteUrl": "",
+          "type": "hotel",
+          "image": "https://www.palacporaj.pl/img2/w450-h320-q60-c45x32-p1/files/gallery/2245/01.jpg",
+          "websiteUrl": "https://www.palacporaj.pl",
           "GoogleMapsLink": "https://maps.app.goo.gl/geJprVYvJXqLBrM18"
         }
       ]
@@ -12462,8 +12468,8 @@
           "longitude": 17.854614322702513,
           "address": "Robaczkowo 2, 83-441 Przytarnia, Poland",
           "country": "Polska",
-          "type": "other",
-          "websiteUrl": "",
+          "type": "shopping",
+          "websiteUrl": "https://facebook.com/GospodarstwoKaszubskaKoza",
           "GoogleMapsLink": "https://maps.app.goo.gl/1UVcjoix7eFk1mDK6"
         },
         {
@@ -13002,7 +13008,7 @@
           "longitude": 21.502629637046045,
           "address": "Tatary 43, 07-420, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "hotel",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/dzBC1ZbM72xPwUp3A"
         },
@@ -13194,7 +13200,7 @@
           "longitude": 22.294047058717265,
           "address": "474P+QP Wólka Wiśniewska, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/fnqAp9URj3r8Are37"
         },
@@ -13362,8 +13368,9 @@
           "longitude": 18.349160139722,
           "address": "Björnås 105, 873 99 Nordingrå, Sweden",
           "country": "Szwecja",
-          "type": "other",
-          "websiteUrl": "",
+          "type": "hotel",
+          "image":"https://www.hogakusten.com/sites/cb_hogakusten/files/styles/cbis_product_large/http/images.citybreak.com/7060424.jpeg.webp?itok=a2__7OxV",
+          "websiteUrl": "https://pelleabergsgarden.se/",
           "GoogleMapsLink": "https://maps.app.goo.gl/awnjVYw8MGnY4M3p8"
         }
       ]
@@ -13962,7 +13969,7 @@
           "longitude": 16.95464253604915,
           "address": "Radłowa 7/1, 61-602 Poznań, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/sdfHshWL3uxTsW3x8"
         },
@@ -15135,7 +15142,7 @@
           "longitude": 17.507132891279397,
           "address": "Uvala Viševica 7A, 20246, Dubrava, Croatia",
           "country": "Chorwacja",
-          "type": "other",
+          "type": "hotel",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/VnpREiurf44xk3Yp9"
         },
@@ -15147,7 +15154,7 @@
           "longitude": 17.35006884774221,
           "address": "W8C9+54 Potomje, Croatia",
           "country": "Chorwacja",
-          "type": "other",
+          "type": "hotel",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/tASizFe3cyHwfB5UA"
         },
@@ -15349,7 +15356,7 @@
           "longitude": 13.329069615976426,
           "address": "St2127 30, 94538 Fürstenstein, Germany",
           "country": "Niemcy",
-          "type": "other",
+          "type": "hotel",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/sTugpmW9CX7LvhL3A"
         },
