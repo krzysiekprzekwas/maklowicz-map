@@ -32,9 +32,6 @@ export default function Home() {
     setSelectedCharacters,
     isFiltersOpen,
     setIsFiltersOpen,
-    favouriteLocationIds,
-    addFavouriteLocation,
-    removeFavouriteLocation,
     toggleLocationType,
     toggleCharacter,
   } = useLocationState();
@@ -114,18 +111,12 @@ export default function Home() {
             onLocationSelect={handleLocationSelect}
             onLocationPreview={handleLocationPreview}
             onClosePreview={handleClosePreview}
-            favouriteLocationIds={favouriteLocationIds}
-            addFavouriteLocation={addFavouriteLocation}
-            removeFavouriteLocation={removeFavouriteLocation}
           />
         </div>
 
         <LocationDetails
           location={selectedLocation}
           onClose={() => setSelectedLocation(null)}
-          favouriteLocationIds={favouriteLocationIds}
-          removeFavouriteLocation={removeFavouriteLocation}
-          addFavouriteLocation={addFavouriteLocation}
         />
       </div>
     </main>

@@ -324,20 +324,19 @@ export function Filters({
 
       {/* Fixed bottom */}
       <div
-        className="p-4 border-t border-secondary-border space-y-2 bg-white"
+        className="flex items-center justify-between gap-3 p-4 bg-white shadow-[0_-4px_16px_rgba(0,0,0,0.08)]"
         onClick={e => e.stopPropagation()}
       >
-        {hasActiveFilters && (
-          <button
-            onClick={onResetFilters}
-            className="w-full text-center text-sm text-primary hover:underline py-1"
-          >
+        {hasActiveFilters ? (
+          <button onClick={onResetFilters} className="text-sm text-primary hover:underline flex-shrink-0">
             Wyczyść
           </button>
+        ) : (
+          <div />
         )}
         <button
           onClick={onToggleFilters}
-          className="w-full bg-primary text-secondary py-3 rounded-xl font-semibold text-sm hover:bg-primary-darker transition-colors"
+          className="bg-primary text-secondary py-2.5 px-5 rounded-xl font-semibold text-sm hover:bg-primary-darker transition-colors flex-shrink-0"
         >
           Pokaż {filteredCount.toLocaleString('pl-PL')}{' '}
           {filteredCount === 1 ? 'miejsce' : filteredCount < 5 ? 'miejsca' : 'miejsc'}
@@ -368,14 +367,12 @@ export function Filters({
         <Sheet
           isOpen={isOpen}
           onClose={onToggleFilters}
-          detent="content-height"
+          detent="full-height"
         >
           <Sheet.Container>
             <Sheet.Header />
-            <Sheet.Content>
-              <div className="max-h-[80vh] flex flex-col">
-                {filterContent}
-              </div>
+            <Sheet.Content style={{ display: 'flex', flexDirection: 'column' }}>
+              {filterContent}
             </Sheet.Content>
           </Sheet.Container>
           <Sheet.Backdrop onTap={onToggleFilters} />

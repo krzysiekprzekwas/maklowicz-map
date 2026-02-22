@@ -28,9 +28,6 @@ interface MapProps {
     onLocationSelect: (location: Location) => void;
     onLocationPreview: (location: Location) => void;
     onClosePreview: () => void;
-    favouriteLocationIds: string[];
-    addFavouriteLocation: (id: string) => void;
-    removeFavouriteLocation: (id: string) => void;
 }
 
 // Tracks the pixel position of previewLocation as the map pans/zooms.
@@ -78,9 +75,6 @@ const Map: React.FC<MapProps> = React.memo(({
     onLocationSelect,
     onLocationPreview,
     onClosePreview,
-    favouriteLocationIds,
-    addFavouriteLocation,
-    removeFavouriteLocation,
 }) => {
     const { getIcon } = useIconCache();
     const [isMobile, setIsMobile] = React.useState(() => isMobileDevice());

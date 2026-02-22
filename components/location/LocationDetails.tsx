@@ -1,7 +1,7 @@
 import { Location } from '../../types/Location';
 import locationData from '../../data/locations.json';
 import {
-  Heart, Share2, X,
+  Share2, X,
   Utensils, Coffee, TreePine, Palette,
   Landmark, ShoppingBag, Hotel, Compass, MoreHorizontal,
   LucideProps,
@@ -12,9 +12,6 @@ import { Sheet } from 'react-modal-sheet';
 interface LocationDetailsProps {
   location: Location | null;
   onClose: () => void;
-  favouriteLocationIds: string[];
-  addFavouriteLocation: (id: string) => void;
-  removeFavouriteLocation: (id: string) => void;
 }
 
 const TYPE_META: Record<string, { label: string; icon: ComponentType<LucideProps> }> = {
@@ -33,11 +30,7 @@ const TYPE_META: Record<string, { label: string; icon: ComponentType<LucideProps
 export function LocationDetails({
   location,
   onClose,
-  favouriteLocationIds,
-  addFavouriteLocation,
-  removeFavouriteLocation,
 }: LocationDetailsProps) {
-  const [isFavorite, setIsFavorite] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const [isImageLoading, setIsImageLoading] = useState(true);
 
@@ -52,26 +45,10 @@ export function LocationDetails({
     return () => window.removeEventListener('resize', checkIfMobile);
   }, []);
 
-  useEffect(() => {
-    if (!location) return;
-    setIsFavorite(favouriteLocationIds.includes(location.id));
-  }, [location, favouriteLocationIds]);
-
   // Reset image loading state when location changes
   useEffect(() => {
     setIsImageLoading(true);
   }, [location?.id]);
-
-  const toggleFavorite = () => {
-    if (!location) return;
-    if (isFavorite) {
-      removeFavouriteLocation(location.id);
-      setIsFavorite(false);
-    } else {
-      addFavouriteLocation(location.id);
-      setIsFavorite(true);
-    }
-  };
 
   const typeMeta = TYPE_META[location?.type ?? ''] ?? TYPE_META.other;
   const TypeIcon = typeMeta.icon;
@@ -159,19 +136,7 @@ export function LocationDetails({
       )}
 
       {/* Action buttons */}
-      <div className="grid grid-cols-2 gap-3 pb-6">
-        <button
-          onClick={toggleFavorite}
-          className={`flex items-center justify-center gap-2 py-2.5 px-4 rounded-full border text-sm transition-all ${
-            isFavorite
-              ? 'bg-primary text-secondary border-primary'
-              : 'bg-white border-secondary-border text-primary hover:border-primary'
-          }`}
-        >
-          <Heart className={`h-4 w-4 flex-shrink-0 ${isFavorite ? 'fill-secondary' : ''}`} />
-          <span className="truncate">{isFavorite ? 'Ulubione' : 'Dodaj do ulubionych'}</span>
-        </button>
-
+      <div className="pb-6">
         <button
           onClick={() => navigator.share?.({
             title: location.name,
