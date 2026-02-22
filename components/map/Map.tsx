@@ -28,6 +28,8 @@ interface MapProps {
     onLocationSelect: (location: Location) => void;
     onLocationPreview: (location: Location) => void;
     onClosePreview: () => void;
+    userLat?: number;
+    userLng?: number;
 }
 
 // Tracks the pixel position of previewLocation as the map pans/zooms.
@@ -75,6 +77,8 @@ const Map: React.FC<MapProps> = React.memo(({
     onLocationSelect,
     onLocationPreview,
     onClosePreview,
+    userLat,
+    userLng,
 }) => {
     const { getIcon } = useIconCache();
     const [isMobile, setIsMobile] = React.useState(() => isMobileDevice());
@@ -168,6 +172,13 @@ const Map: React.FC<MapProps> = React.memo(({
         [isMobile]
     );
 
+    const userLocationIcon = React.useMemo(() => L.divIcon({
+        className: '',
+        html: '<div style="width:14px;height:14px;border-radius:50%;background:#1a1a1a;border:2px solid white;box-shadow:0 2px 6px rgba(0,0,0,0.4)"></div>',
+        iconSize: [14, 14],
+        iconAnchor: [7, 7],
+    }), []);
+
     return (
         <div className="w-full h-full relative bg-secondary">
             <MapContainer
@@ -192,6 +203,14 @@ const Map: React.FC<MapProps> = React.memo(({
                     onPositionUpdate={handlePositionUpdate}
                 />
                 <ChangeView locations={visibleLocations} />
+                {userLat != null && userLng != null && (
+                    <Marker
+                        position={[userLat, userLng]}
+                        icon={userLocationIcon}
+                        zIndexOffset={1000}
+                        interactive={false}
+                    />
+                )}
                 <MarkerClusterGroup
                     iconCreateFunction={createClusterCustomIcon}
                     maxClusterRadius={isMobile ? 60 : 80}

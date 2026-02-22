@@ -34,10 +34,23 @@ export default function Home() {
     setIsFiltersOpen,
     toggleLocationType,
     toggleCharacter,
+    userLocation,
+    locationStatus,
+    nearbyRadius,
+    setNearbyRadius,
+    requestUserLocation,
+    clearUserLocation,
   } = useLocationState();
 
   const { countries, filteredLocations, locationTypeCounts, characterCounts, allLocations } =
-    useLocations(selectedCountry, selectedLocationTypes, selectedCharacters);
+    useLocations(
+      selectedCountry,
+      selectedLocationTypes,
+      selectedCharacters,
+      userLocation?.lat,
+      userLocation?.lng,
+      locationStatus === 'granted' ? nearbyRadius : undefined
+    );
 
   // Stable callbacks so Map's marker memo doesn't invalidate unnecessarily
   const handleLocationSelect = React.useCallback((loc: MapLocation) => {
@@ -92,7 +105,12 @@ export default function Home() {
           filteredCount={filteredLocations.length}
           locationTypeCounts={locationTypeCounts}
           characterCounts={characterCounts}
-          onCountrySelect={(country) => setSelectedCountry(country)}
+          locationStatus={locationStatus}
+          nearbyRadius={nearbyRadius}
+          onCountrySelect={(country) => {
+            setSelectedCountry(country);
+            if (country) clearUserLocation();
+          }}
           onToggleLocationType={toggleLocationType}
           onToggleCharacter={toggleCharacter}
           onToggleFilters={() => setIsFiltersOpen(!isFiltersOpen)}
@@ -100,7 +118,11 @@ export default function Home() {
             setSelectedCountry(null);
             setSelectedLocationTypes([]);
             setSelectedCharacters([]);
+            clearUserLocation();
           }}
+          onRequestLocation={requestUserLocation}
+          onSetNearbyRadius={setNearbyRadius}
+          onClearNearby={clearUserLocation}
         />
 
         <div className="flex-1">
@@ -111,6 +133,8 @@ export default function Home() {
             onLocationSelect={handleLocationSelect}
             onLocationPreview={handleLocationPreview}
             onClosePreview={handleClosePreview}
+            userLat={userLocation?.lat}
+            userLng={userLocation?.lng}
           />
         </div>
 

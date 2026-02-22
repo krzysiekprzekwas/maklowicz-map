@@ -4,6 +4,7 @@ import {
   X, SlidersHorizontal, Search,
   Utensils, Coffee, TreePine, Palette,
   Landmark, ShoppingBag, Hotel, Compass, MoreHorizontal,
+  MapPin, Loader2,
 } from 'lucide-react';
 
 interface FiltersProps {
@@ -15,11 +16,16 @@ interface FiltersProps {
   filteredCount: number;
   locationTypeCounts: Record<string, number>;
   characterCounts: Record<string, number>;
+  locationStatus: 'idle' | 'loading' | 'granted' | 'denied';
+  nearbyRadius: number;
   onCountrySelect: (country: string | null) => void;
   onToggleLocationType: (type: string) => void;
   onToggleCharacter: (char: string) => void;
   onToggleFilters: () => void;
   onResetFilters: () => void;
+  onRequestLocation: () => void;
+  onSetNearbyRadius: (radius: number) => void;
+  onClearNearby: () => void;
 }
 
 const LOCATION_TYPES = [
@@ -45,11 +51,16 @@ export function Filters({
   filteredCount,
   locationTypeCounts,
   characterCounts,
+  locationStatus,
+  nearbyRadius,
   onCountrySelect,
   onToggleLocationType,
   onToggleCharacter,
   onToggleFilters,
   onResetFilters,
+  onRequestLocation,
+  onSetNearbyRadius,
+  onClearNearby,
 }: FiltersProps) {
   const [isMobile, setIsMobile] = useState(false);
   const [countrySearch, setCountrySearch] = useState('');
@@ -69,7 +80,8 @@ export function Filters({
   const hasActiveFilters =
     !!selectedCountry ||
     selectedLocationTypes.length > 0 ||
-    selectedCharacters.length > 0;
+    selectedCharacters.length > 0 ||
+    locationStatus === 'granted';
 
   const handleCountryInputChange = (value: string) => {
     setCountrySearch(value);
@@ -100,7 +112,16 @@ export function Filters({
               className="flex gap-2 overflow-x-auto"
               style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' } as React.CSSProperties}
             >
-              {selectedCountry && (
+              {locationStatus === 'granted' ? (
+                <button
+                  onClick={onClearNearby}
+                  className="flex items-center gap-1 px-3 py-1 bg-primary text-secondary rounded-full text-xs whitespace-nowrap flex-shrink-0"
+                >
+                  <MapPin className="h-3 w-3" />
+                  {nearbyRadius} km
+                  <X className="h-3 w-3" />
+                </button>
+              ) : selectedCountry && (
                 <button
                   onClick={() => onCountrySelect(null)}
                   className="flex items-center gap-1 px-3 py-1 bg-primary text-secondary rounded-full text-xs whitespace-nowrap flex-shrink-0"
@@ -191,7 +212,16 @@ export function Filters({
           <div className="space-y-2">
             <span className="text-xs font-semibold text-primary uppercase tracking-wide">Wybrane</span>
             <div className="flex flex-wrap gap-2">
-              {selectedCountry && (
+              {locationStatus === 'granted' ? (
+                <button
+                  onClick={onClearNearby}
+                  className="flex items-center gap-1 px-2 py-1 bg-primary text-secondary rounded-full text-xs"
+                >
+                  <MapPin className="h-3 w-3" />
+                  Moja lokalizacja ({nearbyRadius} km)
+                  <X className="h-3 w-3" />
+                </button>
+              ) : selectedCountry && (
                 <button
                   onClick={() => onCountrySelect(null)}
                   className="flex items-center gap-1 px-2 py-1 bg-primary text-secondary rounded-full text-xs"
@@ -232,25 +262,54 @@ export function Filters({
           <span className="text-xs font-semibold text-primary uppercase tracking-wide">Lokalizacja</span>
           <div className="relative">
             <div className="flex items-center border border-secondary-border rounded-lg px-3 py-2 gap-2 bg-white">
+              {locationStatus === 'loading' && <Loader2 className="h-4 w-4 animate-spin text-gray-400 flex-shrink-0" />}
+              {locationStatus === 'granted' && <MapPin className="h-4 w-4 text-primary flex-shrink-0" />}
               <input
                 type="text"
+                readOnly={locationStatus === 'loading' || locationStatus === 'granted'}
                 className="flex-1 text-base text-primary outline-none bg-transparent placeholder-gray-400"
                 placeholder="Szukaj kraju..."
-                value={selectedCountry && !isCountryDropdownOpen ? selectedCountry : countrySearch}
+                value={
+                  locationStatus === 'loading' ? 'Uzyskiwanie lokalizacji…' :
+                  locationStatus === 'granted' ? 'Moja lokalizacja' :
+                  selectedCountry && !isCountryDropdownOpen ? selectedCountry : countrySearch
+                }
                 onFocus={() => {
+                  if (locationStatus === 'loading') return;
+                  if (locationStatus === 'granted') {
+                    onClearNearby();
+                    setIsCountryDropdownOpen(true);
+                    return;
+                  }
                   setCountrySearch('');
                   setIsCountryDropdownOpen(true);
                 }}
                 onChange={e => handleCountryInputChange(e.target.value)}
               />
-              {selectedCountry && (
-                <button onClick={handleClearCountry} aria-label="Wyczyść kraj">
+              {(selectedCountry || locationStatus === 'granted') && (
+                <button
+                  onClick={locationStatus === 'granted' ? onClearNearby : handleClearCountry}
+                  aria-label="Wyczyść"
+                >
                   <X className="h-4 w-4 text-gray-400 hover:text-primary" />
                 </button>
               )}
             </div>
             {isCountryDropdownOpen && (
               <div className="absolute z-50 top-full left-0 right-0 mt-1 bg-white border border-secondary-border rounded-lg shadow-lg max-h-48 overflow-y-auto">
+                {/* "Moja lokalizacja" as first option */}
+                <button
+                  onClick={() => {
+                    setIsCountryDropdownOpen(false);
+                    onRequestLocation();
+                  }}
+                  className="w-full text-left px-3 py-2 text-sm text-primary hover:bg-secondary flex items-center gap-2"
+                >
+                  <MapPin className="h-3.5 w-3.5 flex-shrink-0" />
+                  <span className="flex-1">Moja lokalizacja</span>
+                  {locationStatus === 'denied' && <span className="text-xs text-red-500">Brak dostępu</span>}
+                </button>
+                <div className="border-t border-secondary-border mx-2" />
                 {filteredCountries.length > 0 ? (
                   filteredCountries.map(c => (
                     <button
@@ -268,6 +327,22 @@ export function Filters({
               </div>
             )}
           </div>
+          {/* Radius slider — shown when nearby is active */}
+          {locationStatus === 'granted' && (
+            <div>
+              <div className="flex justify-between text-xs text-gray-400 mb-1">
+                <span>Zasięg</span><span>{nearbyRadius} km</span>
+              </div>
+              <input
+                type="range" min={10} max={100} step={5} value={nearbyRadius}
+                onChange={e => onSetNearbyRadius(Number(e.target.value))}
+                className="w-full accent-primary"
+              />
+              <div className="flex justify-between text-xs text-gray-400 mt-0.5">
+                <span>10 km</span><span>100 km</span>
+              </div>
+            </div>
+          )}
         </div>
 
         {/* Rodzaj lokacji */}

@@ -8,6 +8,9 @@ export function useLocationState() {
   const [selectedLocationTypes, setSelectedLocationTypes] = useState<string[]>([]);
   const [selectedCharacters, setSelectedCharacters] = useState<string[]>([]);
   const [isFiltersOpen, setIsFiltersOpen] = useState(false);
+  const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
+  const [locationStatus, setLocationStatus] = useState<'idle' | 'loading' | 'granted' | 'denied'>('idle');
+  const [nearbyRadius, setNearbyRadius] = useState(50);
 
   const handleCountryClick = (countryName: string) => {
     setSelectedCountry(countryName === selectedCountry ? null : countryName);
@@ -26,6 +29,26 @@ export function useLocationState() {
     );
   };
 
+  const requestUserLocation = () => {
+    setLocationStatus('loading');
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        setUserLocation({ lat: pos.coords.latitude, lng: pos.coords.longitude });
+        setLocationStatus('granted');
+        setSelectedCountry(null);
+      },
+      () => {
+        setLocationStatus('denied');
+        setUserLocation(null);
+      }
+    );
+  };
+
+  const clearUserLocation = () => {
+    setUserLocation(null);
+    setLocationStatus('idle');
+  };
+
   return {
     selectedLocation,
     setSelectedLocation,
@@ -42,5 +65,11 @@ export function useLocationState() {
     handleCountryClick,
     toggleLocationType,
     toggleCharacter,
+    userLocation,
+    locationStatus,
+    nearbyRadius,
+    setNearbyRadius,
+    requestUserLocation,
+    clearUserLocation,
   };
 }
