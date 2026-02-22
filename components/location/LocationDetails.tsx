@@ -2,9 +2,8 @@ import { Location } from '../../types/Location';
 import locationData from '../../data/locations.json';
 import {
   Share2, X,
-  Utensils, Coffee, TreePine, Palette,
-  Landmark, ShoppingBag, Hotel, Compass, MoreHorizontal,
-  LucideProps,
+  Utensils, Coffee, TreePine, Palette, Tag,
+  Landmark, ShoppingBag, Hotel, Compass, LucideProps,
 } from 'lucide-react';
 import { ComponentType, useEffect, useState } from 'react';
 import { Sheet } from 'react-modal-sheet';
@@ -24,7 +23,7 @@ const TYPE_META: Record<string, { label: string; icon: ComponentType<LucideProps
   hotel:              { label: 'Hotel',                icon: Hotel          },
   tourist_attraction: { label: 'Atrakcja turystyczna', icon: Compass        },
   attraction:         { label: 'Atrakcja',             icon: Compass        },
-  other:              { label: 'Inne',                 icon: MoreHorizontal },
+  other:              { label: 'Inne',                 icon: Tag },
 };
 
 export function LocationDetails({
