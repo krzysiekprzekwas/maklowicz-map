@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Sheet } from 'react-modal-sheet';
 import {
-  X, SlidersHorizontal,
+  X, SlidersHorizontal, Search,
   Utensils, Coffee, TreePine, Palette,
   Landmark, ShoppingBag, Hotel, Compass, MoreHorizontal,
 } from 'lucide-react';
@@ -23,13 +23,13 @@ interface FiltersProps {
 }
 
 const LOCATION_TYPES = [
-  { type: 'restaurant',         label: 'Restauracje',          icon: Utensils    },
-  { type: 'cafe',               label: 'Kawiarnie',            icon: Coffee      },
-  { type: 'nature',             label: 'Przyroda i plener',    icon: TreePine    },
-  { type: 'art_culture',        label: 'Sztuka i kultura',     icon: Palette     },
-  { type: 'museum',             label: 'Muzea',                icon: Landmark    },
-  { type: 'shopping',           label: 'Zakupy',               icon: ShoppingBag },
-  { type: 'hotel',              label: 'Hotele',               icon: Hotel       },
+  { type: 'restaurant',         label: 'Restauracje',          icon: Utensils       },
+  { type: 'cafe',               label: 'Kawiarnie',            icon: Coffee         },
+  { type: 'nature',             label: 'Przyroda i plener',    icon: TreePine       },
+  { type: 'art_culture',        label: 'Sztuka i kultura',     icon: Palette        },
+  { type: 'museum',             label: 'Muzea',                icon: Landmark       },
+  { type: 'shopping',           label: 'Zakupy',               icon: ShoppingBag    },
+  { type: 'hotel',              label: 'Hotele',               icon: Hotel          },
   { type: 'tourist_attraction', label: 'Atrakcje turystyczne', icon: Compass        },
   { type: 'other',              label: 'Inne',                 icon: MoreHorizontal },
 ];
@@ -89,9 +89,90 @@ export function Filters({
     setIsCountryDropdownOpen(false);
   };
 
+  // ─── Mobile top bar ───────────────────────────────────────────────────────
+  const mobileTopBar = (
+    <div className="absolute top-4 left-4 right-4 z-[9998] flex items-center gap-2 md:hidden">
+      {hasActiveFilters ? (
+        <>
+          {/* Scrollable chips */}
+          <div className="flex-1 bg-white rounded-2xl shadow-lg px-3 py-2.5 min-w-0 overflow-hidden">
+            <div
+              className="flex gap-2 overflow-x-auto"
+              style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' } as React.CSSProperties}
+            >
+              {selectedCountry && (
+                <button
+                  onClick={() => onCountrySelect(null)}
+                  className="flex items-center gap-1 px-3 py-1 bg-primary text-secondary rounded-full text-xs whitespace-nowrap flex-shrink-0"
+                >
+                  {selectedCountry}
+                  <X className="h-3 w-3" />
+                </button>
+              )}
+              {selectedLocationTypes.map(type => {
+                const label = LOCATION_TYPES.find(t => t.type === type)?.label ?? type;
+                return (
+                  <button
+                    key={type}
+                    onClick={() => onToggleLocationType(type)}
+                    className="flex items-center gap-1 px-3 py-1 bg-primary text-secondary rounded-full text-xs whitespace-nowrap flex-shrink-0"
+                  >
+                    {label}
+                    <X className="h-3 w-3" />
+                  </button>
+                );
+              })}
+              {selectedCharacters.map(char => (
+                <button
+                  key={char}
+                  onClick={() => onToggleCharacter(char)}
+                  className="flex items-center gap-1 px-3 py-1 bg-primary text-secondary rounded-full text-xs whitespace-nowrap flex-shrink-0"
+                >
+                  {char}
+                  <X className="h-3 w-3" />
+                </button>
+              ))}
+            </div>
+          </div>
+          {/* Filter icon — active (dark fill) */}
+          <button
+            onClick={onToggleFilters}
+            className="bg-primary text-secondary rounded-2xl shadow-lg w-12 h-12 flex-shrink-0 flex items-center justify-center"
+            aria-label="Zmień filtry"
+          >
+            <SlidersHorizontal className="h-5 w-5" />
+          </button>
+        </>
+      ) : (
+        <>
+          {/* CTA search bar */}
+          <button
+            onClick={onToggleFilters}
+            className="flex-1 bg-white rounded-2xl shadow-lg px-4 py-3 flex items-center gap-3 text-left"
+            aria-label="Otwórz filtry"
+          >
+            <Search className="h-4 w-4 text-gray-400 flex-shrink-0" />
+            <span className="flex-1 text-gray-400 text-sm truncate">Szukaj restauracji, muzeów…</span>
+            <span className="text-xs text-gray-400 flex-shrink-0">
+              {filteredCount.toLocaleString('pl-PL')} miejsc
+            </span>
+          </button>
+          {/* Filter icon — inactive (white bg) */}
+          <button
+            onClick={onToggleFilters}
+            className="bg-white rounded-2xl shadow-lg w-12 h-12 flex-shrink-0 flex items-center justify-center"
+            aria-label="Filtry"
+          >
+            <SlidersHorizontal className="h-5 w-5 text-primary" />
+          </button>
+        </>
+      )}
+    </div>
+  );
+
+  // ─── Full filter panel content (sheet + sidebar) ──────────────────────────
   const filterContent = (
     <div className="w-full flex flex-col h-full">
-      {/* Scrollable area */}
       <div className="flex-1 overflow-y-auto p-4 space-y-5">
         {/* Header */}
         <div className="flex items-center justify-between">
@@ -258,7 +339,8 @@ export function Filters({
           onClick={onToggleFilters}
           className="w-full bg-primary text-secondary py-3 rounded-xl font-semibold text-sm hover:bg-primary-darker transition-colors"
         >
-          Pokaż {filteredCount} {filteredCount === 1 ? 'miejsce' : filteredCount < 5 ? 'miejsca' : 'miejsc'}
+          Pokaż {filteredCount.toLocaleString('pl-PL')}{' '}
+          {filteredCount === 1 ? 'miejsce' : filteredCount < 5 ? 'miejsca' : 'miejsc'}
         </button>
       </div>
     </div>
@@ -266,6 +348,9 @@ export function Filters({
 
   return (
     <>
+      {/* Mobile top bar — absolute over map, hidden on desktop */}
+      {mobileTopBar}
+
       {/* Desktop sidebar */}
       {!isMobile && (
         <aside
@@ -297,17 +382,19 @@ export function Filters({
         </Sheet>
       )}
 
-      {/* FAB toggle button */}
-      <button
-        onClick={onToggleFilters}
-        className="fixed bottom-4 left-4 w-12 h-12 bg-primary text-secondary rounded-full shadow-lg flex items-center justify-center z-[9999] hover:bg-primary-darker transition-colors"
-        aria-label={isOpen ? 'Ukryj filtry' : 'Pokaż filtry'}
-      >
-        <SlidersHorizontal className="h-5 w-5" />
-        {hasActiveFilters && (
-          <span className="absolute top-1 right-1 w-3 h-3 bg-red-500 rounded-full" />
-        )}
-      </button>
+      {/* FAB — desktop only */}
+      {!isMobile && (
+        <button
+          onClick={onToggleFilters}
+          className="fixed bottom-4 left-4 w-12 h-12 bg-primary text-secondary rounded-full shadow-lg flex items-center justify-center z-[9999] hover:bg-primary-darker transition-colors"
+          aria-label={isOpen ? 'Ukryj filtry' : 'Pokaż filtry'}
+        >
+          <SlidersHorizontal className="h-5 w-5" />
+          {hasActiveFilters && (
+            <span className="absolute top-1 right-1 w-3 h-3 bg-red-500 rounded-full" />
+          )}
+        </button>
+      )}
     </>
   );
 }
