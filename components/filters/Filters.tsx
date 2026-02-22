@@ -1,275 +1,284 @@
-import { Earth, Heart, Search, X } from 'lucide-react';
-import { CountryData, Location } from '../../types/Location';
-import LocationIcon from '../location/LocationIcon';
-import { AnimatedList } from './AnimatedList';
-import { SearchInput } from './SearchInput';
 import { useEffect, useState } from 'react';
 import { Sheet } from 'react-modal-sheet';
+import {
+  X, SlidersHorizontal,
+  Utensils, Coffee, TreePine, Palette,
+  Landmark, ShoppingBag, Hotel, Compass, MoreHorizontal,
+} from 'lucide-react';
 
 interface FiltersProps {
   isOpen: boolean;
-  searchQuery: string;
-  onSearchChange: (value: string) => void;
-  countries: CountryData[];
+  countries: { name: string; count: number }[];
   selectedCountry: string | null;
-  selectedVideo: string | null;
-  selectedLocation: Location | null;
-  totalLocations: number;
-  onCountryClick: (countryName: string) => void;
-  onVideoClick: (videoId: string, event: React.MouseEvent) => void;
-  onLocationClick: (location: Location) => void;
+  selectedLocationTypes: string[];
+  selectedCharacters: string[];
+  filteredCount: number;
+  locationTypeCounts: Record<string, number>;
+  characterCounts: Record<string, number>;
+  onCountrySelect: (country: string | null) => void;
+  onToggleLocationType: (type: string) => void;
+  onToggleCharacter: (char: string) => void;
   onToggleFilters: () => void;
   onResetFilters: () => void;
-  allLocations: Location[];
-  favouriteLocationIds: string[];
 }
+
+const LOCATION_TYPES = [
+  { type: 'restaurant',         label: 'Restauracje',          icon: Utensils    },
+  { type: 'cafe',               label: 'Kawiarnie',            icon: Coffee      },
+  { type: 'nature',             label: 'Przyroda i plener',    icon: TreePine    },
+  { type: 'art_culture',        label: 'Sztuka i kultura',     icon: Palette     },
+  { type: 'museum',             label: 'Muzea',                icon: Landmark    },
+  { type: 'shopping',           label: 'Zakupy',               icon: ShoppingBag },
+  { type: 'hotel',              label: 'Hotele',               icon: Hotel       },
+  { type: 'tourist_attraction', label: 'Atrakcje turystyczne', icon: Compass        },
+  { type: 'other',              label: 'Inne',                 icon: MoreHorizontal },
+];
+
+const CHARACTERS = ['historyczny', 'patriotyczny', 'religijny', 'relaks'];
 
 export function Filters({
   isOpen,
-  searchQuery,
-  onSearchChange,
   countries,
   selectedCountry,
-  selectedVideo,
-  selectedLocation,
-  totalLocations,
-  onCountryClick,
-  onVideoClick,
-  onLocationClick,
+  selectedLocationTypes,
+  selectedCharacters,
+  filteredCount,
+  locationTypeCounts,
+  characterCounts,
+  onCountrySelect,
+  onToggleLocationType,
+  onToggleCharacter,
   onToggleFilters,
   onResetFilters,
-  allLocations,
-  favouriteLocationIds,
 }: FiltersProps) {
-  const [isFavoritesOpen, setIsFavoritesOpen] = useState(false);
-  const [favoriteLocations, setFavoriteLocations] = useState<Location[]>([]);
   const [isMobile, setIsMobile] = useState(false);
+  const [countrySearch, setCountrySearch] = useState('');
+  const [isCountryDropdownOpen, setIsCountryDropdownOpen] = useState(false);
 
   useEffect(() => {
-    // Check if we're on mobile
-    const checkIfMobile = () => {
-      setIsMobile(window.innerWidth < 768); // 768px is the md breakpoint in Tailwind
-    };
-
-    // Initial check
+    const checkIfMobile = () => setIsMobile(window.innerWidth < 768);
     checkIfMobile();
-
-    // Add event listener for window resize
     window.addEventListener('resize', checkIfMobile);
-
-    // Cleanup
     return () => window.removeEventListener('resize', checkIfMobile);
   }, []);
 
-  useEffect(() => {
-    const favorites = allLocations.filter(location => 
-      favouriteLocationIds.includes(location.id)
-    );
-    setFavoriteLocations(favorites);
-  }, [isFavoritesOpen, allLocations, favouriteLocationIds]);
+  const filteredCountries = countries.filter(c =>
+    c.name.toLowerCase().includes(countrySearch.toLowerCase())
+  );
 
-  const handleFavoritesClick = () => {
-    const newState = !isFavoritesOpen;
-    setIsFavoritesOpen(newState);
+  const hasActiveFilters =
+    !!selectedCountry ||
+    selectedLocationTypes.length > 0 ||
+    selectedCharacters.length > 0;
+
+  const handleCountryInputChange = (value: string) => {
+    setCountrySearch(value);
+    setIsCountryDropdownOpen(true);
+    if (!value) onCountrySelect(null);
   };
 
-  // Filter content that will be used in both desktop and mobile views
+  const handleCountryPick = (name: string) => {
+    onCountrySelect(name);
+    setCountrySearch('');
+    setIsCountryDropdownOpen(false);
+  };
+
+  const handleClearCountry = () => {
+    onCountrySelect(null);
+    setCountrySearch('');
+    setIsCountryDropdownOpen(false);
+  };
+
   const filterContent = (
-    <div className="w-full h-full overflow-y-auto">
-      <div className="p-4">
-        <SearchInput
-          value={searchQuery}
-          onChange={onSearchChange}
-          placeholder="Szukaj lokacji, filmów..."
-        />
-        {selectedCountry || selectedVideo ? (
+    <div className="w-full flex flex-col h-full">
+      {/* Scrollable area */}
+      <div className="flex-1 overflow-y-auto p-4 space-y-5">
+        {/* Header */}
+        <div className="flex items-center justify-between">
+          <span className="font-bold text-primary text-lg">Filtry</span>
           <button
-            onClick={onResetFilters}
-            className="w-full text-center px-3 py-2 rounded-lg mb-4 text-red-500 hover:text-red-600"
+            onClick={onToggleFilters}
+            className="p-1 rounded hover:bg-secondary transition-colors"
+            aria-label="Zamknij filtry"
           >
-            Resetuj filtry
+            <X className="h-5 w-5 text-primary" />
           </button>
-        ) : (
-          <div className="w-full text-center px-3 py-2 rounded-lg mb-4 text-gray-500">
-            Wybierz kraj lub odcinek
+        </div>
+
+        {/* Wybrane chips */}
+        {hasActiveFilters && (
+          <div className="space-y-2">
+            <span className="text-xs font-semibold text-primary uppercase tracking-wide">Wybrane</span>
+            <div className="flex flex-wrap gap-2">
+              {selectedCountry && (
+                <button
+                  onClick={() => onCountrySelect(null)}
+                  className="flex items-center gap-1 px-2 py-1 bg-primary text-secondary rounded-full text-xs"
+                >
+                  {selectedCountry}
+                  <X className="h-3 w-3" />
+                </button>
+              )}
+              {selectedLocationTypes.map(type => {
+                const meta = LOCATION_TYPES.find(t => t.type === type);
+                return (
+                  <button
+                    key={type}
+                    onClick={() => onToggleLocationType(type)}
+                    className="flex items-center gap-1 px-2 py-1 bg-primary text-secondary rounded-full text-xs"
+                  >
+                    {meta?.label ?? type}
+                    <X className="h-3 w-3" />
+                  </button>
+                );
+              })}
+              {selectedCharacters.map(char => (
+                <button
+                  key={char}
+                  onClick={() => onToggleCharacter(char)}
+                  className="flex items-center gap-1 px-2 py-1 bg-primary text-secondary rounded-full text-xs"
+                >
+                  {char}
+                  <X className="h-3 w-3" />
+                </button>
+              ))}
+            </div>
           </div>
         )}
 
-        <div className="border border-secondary-border rounded-lg overflow-hidden">
-          <div className="w-full flex items-center gap-1 p-3 bg-secondary">
-            <Earth className="h-4 w-4 text-primary"/>
-            <span className="font-bold text-primary">Wszystkie lokacje ({totalLocations})</span>
-          </div>
-          
-          <div className="p-2 space-y-1">
-            <button
-              onClick={handleFavoritesClick}
-              className={`w-full text-left px-3 py-2 rounded-lg transition-colors flex items-center justify-between ${
-                isFavoritesOpen 
-                  ? 'bg-secondary-darker text-primary' 
-                  : 'hover:bg-secondary text-primary-hover'
-              }`}
-            >
-              <span className="flex items-center gap-2 truncate pr-2 text-sm">
-                <Heart className={`h-4 w-4 ${isFavoritesOpen ? 'fill-red-500 text-red-500' : ''}`} />
-                Ulubione ({favoriteLocations.length})
-              </span>
-              <span className="ml-2">
-                {isFavoritesOpen ? '▼' : '▶'}
-              </span>
-            </button>
-            <AnimatedList 
-              isOpen={isFavoritesOpen}
-              className="ml-4 space-y-2"
-              defaultOpen={false}          
-            >
-              {favoriteLocations.length > 0 ? (
-                favoriteLocations.map((location) => (
-                  <button
-                    key={location.id}
-                    onClick={() => onLocationClick(location)}
-                    className={`
-                      w-full 
-                      text-left 
-                      px-3 
-                      py-1.5 
-                      rounded-lg 
-                      transition-colors 
-                      flex 
-                      items-center 
-                      ${selectedLocation?.id === location.id
-                        ? 'bg-secondary-darker text-primary'
-                        : 'hover:bg-secondary text-primary-hover'
-                      }
-                    `}
-                  >
-                    <span className="flex-1 truncate pr-2 text-sm">
-                      {location.name}
-                    </span>
-                    <span className="text-xs opacity-70">
-                      <LocationIcon type={location.type} />
-                    </span>
-                  </button>
-                ))
-              ) : (
-                <div className="px-3 py-2 text-sm text-gray-500">
-                  Brak ulubionych lokacji
-                </div>
-              )}
-            </AnimatedList>
-          </div>
-
-          <div className="p-2 space-y-1">
-            {countries.map((country) => (
-              <div key={country.name} className="space-y-1">
-                <button
-                  onClick={() => onCountryClick(country.name)}
-                  className={`w-full text-left px-3 py-2 rounded-lg transition-colors flex items-center justify-between ${
-                    selectedCountry === country.name
-                      ? 'bg-secondary-darker text-primary' 
-                      : 'hover:bg-secondary text-primary-hover'
-                  }`}
-                >
-                  <span className="flex-1 truncate pr-2">
-                    {country.name}
-                  </span>
-                  <span className="text-xs opacity-70">
-                    ({country.locations.length})
-                  </span>
-                  <span className="ml-2">
-                    {selectedCountry == country.name ? '▼' : '▶'}
-                  </span>
+        {/* Lokalizacja */}
+        <div className="space-y-2">
+          <span className="text-xs font-semibold text-primary uppercase tracking-wide">Lokalizacja</span>
+          <div className="relative">
+            <div className="flex items-center border border-secondary-border rounded-lg px-3 py-2 gap-2 bg-white">
+              <input
+                type="text"
+                className="flex-1 text-sm text-primary outline-none bg-transparent placeholder-gray-400"
+                placeholder="Szukaj kraju..."
+                value={selectedCountry && !isCountryDropdownOpen ? selectedCountry : countrySearch}
+                onFocus={() => {
+                  setCountrySearch('');
+                  setIsCountryDropdownOpen(true);
+                }}
+                onChange={e => handleCountryInputChange(e.target.value)}
+              />
+              {selectedCountry && (
+                <button onClick={handleClearCountry} aria-label="Wyczyść kraj">
+                  <X className="h-4 w-4 text-gray-400 hover:text-primary" />
                 </button>
-                <AnimatedList 
-                  isOpen={selectedCountry === country.name}
-                  className="ml-4 space-y-2" 
-                  defaultOpen={false}
-                >
-                  {country.videos.map((video) => (
-                    <div key={video.videoId} className="space-y-1">
-                      <button
-                        onClick={(e) => onVideoClick(video.videoId, e)}
-                        className={`w-full text-left px-3 py-2 rounded-lg transition-colors flex items-center justify-between ${
-                          selectedVideo === video.videoId
-                            ? 'bg-secondary-darker text-primary' 
-                            : 'hover:bg-secondary text-primary-hover'
-                        }`}
-                      >
-                        <span className="flex-1 truncate pr-2 text-sm">
-                          { video.filterTitle || video.title }
-                        </span>
-                        <span className="text-xs opacity-70">
-                          ({video.locations.length})
-                        </span>
-                        <span className="ml-2">
-                          {selectedVideo === video.videoId ? '▼' : '▶'}
-                        </span>
-                      </button>
-
-                      <AnimatedList 
-                        isOpen={selectedVideo === video.videoId}
-                        className="ml-4 space-y-2"
-                        defaultOpen={false}          
-                      >
-                        {video.locations.map((location) => (
-                          <button
-                            key={location.id}
-                            onClick={() => onLocationClick(location)}
-                            className={`
-                              w-full 
-                              text-left 
-                              px-3 
-                              py-1.5 
-                              rounded-lg 
-                              transition-colors 
-                              flex 
-                              items-center 
-                              ${selectedLocation?.id === location.id
-                                ? 'bg-secondary-darker text-primary'
-                                : 'hover:bg-secondary text-primary-hover'
-                              }
-                            `}
-                          >
-                            <span className="flex-1 truncate pr-2 text-sm">
-                              {location.name}
-                            </span>
-                            <span className="text-xs opacity-70">
-                              <LocationIcon type={location.type} />
-                            </span>
-                          </button>
-                        ))}
-                      </AnimatedList>
-                    </div>
-                  ))}
-                </AnimatedList>
+              )}
+            </div>
+            {isCountryDropdownOpen && (
+              <div className="absolute z-50 top-full left-0 right-0 mt-1 bg-white border border-secondary-border rounded-lg shadow-lg max-h-48 overflow-y-auto">
+                {filteredCountries.length > 0 ? (
+                  filteredCountries.map(c => (
+                    <button
+                      key={c.name}
+                      onClick={() => handleCountryPick(c.name)}
+                      className="w-full text-left px-3 py-2 text-sm text-primary hover:bg-secondary flex justify-between items-center"
+                    >
+                      <span>{c.name}</span>
+                      <span className="text-xs text-gray-400">({c.count})</span>
+                    </button>
+                  ))
+                ) : (
+                  <div className="px-3 py-2 text-sm text-gray-400">Brak wyników</div>
+                )}
               </div>
-            ))}
+            )}
           </div>
         </div>
+
+        {/* Rodzaj lokacji */}
+        <div className="space-y-2">
+          <span className="text-xs font-semibold text-primary uppercase tracking-wide">Rodzaj lokacji</span>
+          <div className="flex flex-wrap gap-2">
+            {LOCATION_TYPES.map(({ type, label, icon: Icon }) => {
+              const active = selectedLocationTypes.includes(type);
+              const count = locationTypeCounts[type] ?? 0;
+              return (
+                <button
+                  key={type}
+                  onClick={() => onToggleLocationType(type)}
+                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs border transition-colors ${
+                    active
+                      ? 'bg-primary text-secondary border-primary'
+                      : 'border-secondary-border text-primary hover:bg-secondary'
+                  }`}
+                >
+                  <Icon className="h-3.5 w-3.5" />
+                  {label}
+                  <span className={active ? 'opacity-70' : 'text-gray-400'}>({count})</span>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Charakter lokacji */}
+        <div className="space-y-2">
+          <span className="text-xs font-semibold text-primary uppercase tracking-wide">Charakter lokacji</span>
+          <div className="space-y-2">
+            {CHARACTERS.map(char => {
+              const count = characterCounts[char] ?? 0;
+              const checked = selectedCharacters.includes(char);
+              return (
+                <label key={char} className="flex items-center gap-3 cursor-pointer group">
+                  <input
+                    type="checkbox"
+                    checked={checked}
+                    onChange={() => onToggleCharacter(char)}
+                    className="w-4 h-4 accent-primary"
+                  />
+                  <span className="flex-1 text-sm text-primary capitalize group-hover:text-primary-hover">
+                    {char}
+                  </span>
+                  <span className="text-xs text-gray-400">({count})</span>
+                </label>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+
+      {/* Fixed bottom */}
+      <div
+        className="p-4 border-t border-secondary-border space-y-2 bg-white"
+        onClick={e => e.stopPropagation()}
+      >
+        {hasActiveFilters && (
+          <button
+            onClick={onResetFilters}
+            className="w-full text-center text-sm text-primary hover:underline py-1"
+          >
+            Wyczyść
+          </button>
+        )}
+        <button
+          onClick={onToggleFilters}
+          className="w-full bg-primary text-secondary py-3 rounded-xl font-semibold text-sm hover:bg-primary-darker transition-colors"
+        >
+          Pokaż {filteredCount} {filteredCount === 1 ? 'miejsce' : filteredCount < 5 ? 'miejsca' : 'miejsc'}
+        </button>
       </div>
     </div>
   );
 
   return (
     <>
-      {/* Desktop View */}
+      {/* Desktop sidebar */}
       {!isMobile && (
-        <>
-          {/* Filters Panel for Desktop */}
-          <aside 
-            className={`fixed md:top-[116px] bottom-0 left-0 w-80 bg-white shadow-xl transform transition-transform duration-300 ease-in-out
-              h-[calc(100vh-116px)] max-h-screen
-              ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}
-            style={{ zIndex: 9999 }}
-          >
-            <div className="relative h-full">
-              {filterContent}
-            </div>
-          </aside>
-        </>
+        <aside
+          className={`fixed md:top-[116px] bottom-0 left-0 w-80 bg-white shadow-xl transform transition-transform duration-300 ease-in-out
+            h-[calc(100vh-116px)] max-h-screen
+            ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}
+          style={{ zIndex: 9999 }}
+        >
+          {filterContent}
+        </aside>
       )}
 
-      {/* Mobile View with react-modal-sheet */}
+      {/* Mobile bottom sheet */}
       {isMobile && (
         <Sheet
           isOpen={isOpen}
@@ -279,26 +288,24 @@ export function Filters({
           <Sheet.Container>
             <Sheet.Header />
             <Sheet.Content>
-              {filterContent}
+              <div className="max-h-[80vh] flex flex-col">
+                {filterContent}
+              </div>
             </Sheet.Content>
           </Sheet.Container>
           <Sheet.Backdrop onTap={onToggleFilters} />
         </Sheet>
       )}
 
-      {/* Toggle Button - for both mobile and desktop */}
+      {/* FAB toggle button */}
       <button
         onClick={onToggleFilters}
         className="fixed bottom-4 left-4 w-12 h-12 bg-primary text-secondary rounded-full shadow-lg flex items-center justify-center z-[9999] hover:bg-primary-darker transition-colors"
         aria-label={isOpen ? 'Ukryj filtry' : 'Pokaż filtry'}
       >
-        {isOpen ? 
-          <X className="absolute right-3 top-1/2 transform -translate-y-1/2"/>
-          : 
-          <Search className="absolute right-3 top-1/2 transform -translate-y-1/2"/>
-        }
-        {(selectedCountry || selectedVideo) && (
-          <span className="absolute top-1 right-1 w-3 h-3 bg-red-500 rounded-full"></span>
+        <SlidersHorizontal className="h-5 w-5" />
+        {hasActiveFilters && (
+          <span className="absolute top-1 right-1 w-3 h-3 bg-red-500 rounded-full" />
         )}
       </button>
     </>

@@ -4,10 +4,10 @@ import type { Location } from '../types/Location';
 export function useLocationState() {
   const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
-  const [selectedVideo, setSelectedVideo] = useState<string | null>(null);
+  const [selectedLocationTypes, setSelectedLocationTypes] = useState<string[]>([]);
+  const [selectedCharacters, setSelectedCharacters] = useState<string[]>([]);
   const [favouriteLocationIds, setFavouriteLocationIds] = useState<string[]>([null]);
   const [isFiltersOpen, setIsFiltersOpen] = useState(false);
-  const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
     const storedFavorites = JSON.parse(localStorage.getItem('favorites') || '[]');
@@ -16,12 +16,18 @@ export function useLocationState() {
 
   const handleCountryClick = (countryName: string) => {
     setSelectedCountry(countryName === selectedCountry ? null : countryName);
-    setSelectedVideo(null);
   };
 
-  const handleVideoClick = (videoId: string, event: React.MouseEvent) => {
-    event.stopPropagation();
-    setSelectedVideo(videoId === selectedVideo ? null : videoId);
+  const toggleLocationType = (type: string) => {
+    setSelectedLocationTypes(prev =>
+      prev.includes(type) ? prev.filter(t => t !== type) : [...prev, type]
+    );
+  };
+
+  const toggleCharacter = (char: string) => {
+    setSelectedCharacters(prev =>
+      prev.includes(char) ? prev.filter(c => c !== char) : [...prev, char]
+    );
   };
 
   const addFavouriteLocation = (locationId: string) => {
@@ -41,16 +47,17 @@ export function useLocationState() {
     setSelectedLocation,
     selectedCountry,
     setSelectedCountry,
-    selectedVideo,
-    setSelectedVideo,
+    selectedLocationTypes,
+    setSelectedLocationTypes,
+    selectedCharacters,
+    setSelectedCharacters,
     isFiltersOpen,
     setIsFiltersOpen,
-    searchQuery,
-    setSearchQuery,
     favouriteLocationIds,
     addFavouriteLocation,
     removeFavouriteLocation,
     handleCountryClick,
-    handleVideoClick
+    toggleLocationType,
+    toggleCharacter,
   };
 }

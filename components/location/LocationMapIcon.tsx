@@ -2,16 +2,30 @@ import L, { icon } from 'leaflet';
 import ReactDOMServer from 'react-dom/server';
 import { Utensils, MapPin, LucideProps, Landmark } from 'lucide-react';
 
-const iconComponentMap: Record<LocationType, React.ComponentType<LucideProps>> = {
+const iconComponentMap: Partial<Record<LocationType, React.ComponentType<LucideProps>>> = {
     restaurant: Utensils,
+    cafe: Utensils,
     attraction: Landmark,
+    tourist_attraction: Landmark,
+    museum: Landmark,
+    art_culture: Landmark,
     other: MapPin,
+    nature: MapPin,
+    shopping: MapPin,
+    hotel: MapPin,
 };
 
-const colorClassMap: Record<LocationType, keyof typeof styles> = {
-    restaurant: 'markerYellow', 
+const colorClassMap: Partial<Record<LocationType, keyof typeof styles>> = {
+    restaurant: 'markerYellow',
+    cafe: 'markerYellow',
     attraction: 'markerPurple',
+    tourist_attraction: 'markerPurple',
+    museum: 'markerPurple',
+    art_culture: 'markerPurple',
     other: 'markerRed',
+    nature: 'markerRed',
+    shopping: 'markerRed',
+    hotel: 'markerRed',
 };
 
 import styles from './LocationMapIcon.module.css';
@@ -28,7 +42,7 @@ const createCustomIcon = (
     if (iconComponentMap[type] === undefined) {
         console.warn(`No icon found for type: ${type}`);
     }
-    const colorClassNameKey = colorClassMap[type];
+    const colorClassNameKey = colorClassMap[type] ?? 'markerRed';
     const colorModuleClass = styles[colorClassNameKey];
 
     // Don't render tooltips on mobile for better performance

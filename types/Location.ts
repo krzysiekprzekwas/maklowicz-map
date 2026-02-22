@@ -4,7 +4,12 @@ export interface CountryData {
     videos: Video[];
   }
 
-export type LocationType = 'restaurant' | 'attraction' | 'other';
+export type LocationType =
+  | 'restaurant' | 'cafe' | 'nature' | 'art_culture'
+  | 'museum' | 'shopping' | 'hotel' | 'tourist_attraction'
+  | 'attraction' | 'other';
+
+export type LocationCharacter = 'historyczny' | 'patriotyczny' | 'religijny' | 'relaks';
 
 export interface Location {
     id: string;
@@ -19,6 +24,7 @@ export interface Location {
     GoogleMapsLink?: string;
     image?: string;
     isFilteredOut?: boolean;
+    character?: LocationCharacter[];
 }
 
 export interface Video {
