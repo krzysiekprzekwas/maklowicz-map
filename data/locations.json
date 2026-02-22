@@ -1337,8 +1337,9 @@
           "longitude": 19.142312938900183,
           "address": "Pasażerska 23, 43-300 Bielsko-Biała, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
-          "websiteUrl": "",
+          "type": "art_culture",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/02015_Schloss_von_Czecz-Lindewald_0054.JPG",
+          "websiteUrl": "http://www.kozy.pl/files/folder%20wersja%20finalna.pdf",
           "GoogleMapsLink": "https://maps.app.goo.gl/R3T1eashW6iv3ZFj8"
         }
       ]
@@ -2041,7 +2042,7 @@
           "longitude": 57.774697295753434,
           "address": "PQ98+R6 Beau Champ, Mauritius",
           "country": "Mauritius",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/bd/f6/61/grse-waterfallamazing.jpg?w=900&h=-1&s=1",
           "GoogleMapsLink": "https://maps.app.goo.gl/mpF4jAbXimHkVBdM9"
@@ -2080,7 +2081,7 @@
           "longitude": 57.50292226617087,
           "address": "RGR2+9VM, Port Louis, Mauritius",
           "country": "Mauritius",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "",
           "image": "https://s.content4travel.com/itkpl/mauritius_aapravasi_zabytki_655153b24f.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/VVJtymu4SnTsdFsa9"
@@ -2209,7 +2210,7 @@
           "longitude": 57.37313726710188,
           "address": "H95C+6W La Gaulette, Mauritius",
           "country": "Mauritius",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "https://www.chamarel7colouredearth.com/",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/39/a6/4a/the-undulating-strips.jpg?w=1200&h=-1&s=1",
           "GoogleMapsLink": "https://maps.app.goo.gl/96gjagqTYdjR3ctK9"
@@ -2247,7 +2248,7 @@
           "longitude": 57.697926929350054,
           "address": "HMWV+J92, Mahebourg, Mauritius",
           "country": "Mauritius",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "http://biscuitmanioc.com/home.html",
           "image": "https://i0.wp.com/www.thegirlonthemove.com/wp-content/uploads/2024/11/IMG_7128-e1703258965257.jpeg?fit=1536%2C1150&ssl=1",
           "GoogleMapsLink": "https://maps.app.goo.gl/rkaLJb46MenXBM7ZA"
@@ -2351,7 +2352,7 @@
           "longitude": 57.536734217003726,
           "address": "FGGM+8M Souillac, Mauritius",
           "country": "Mauritius",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
           "image": "https://www.infoilemaurice.com/wp-content/uploads/2022/03/Le-Souffleur-et-La-Roche-qui-Pleure.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/RMfFYEwQZxgchseF7"
@@ -2438,6 +2439,7 @@
           "address": "JFG8+RC Vacoas-Phoenix, Mauritius",
           "country": "Mauritius",
           "type": "tourist_attraction",
+          "image": "https://vintagemauritius.org/wp-content/uploads/Trou-Deau-Douce-Notre-Dame-du-Bon-Secours.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/8DNH58EmDQ35GMrD6"
         }
@@ -2861,7 +2863,7 @@
           "longitude": 7.751923297552711,
           "address": "1 Rue de la Comédie, 67000 Strasbourg, France",
           "country": "Francja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "http://www.operanationaldurhin.eu/",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/L%27Opéra_de_Strasbourg.jpg/1200px-L%27Opéra_de_Strasbourg.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/L1i8P2mavBXDnHFF6"
@@ -2985,13 +2987,14 @@
         {
           "id": "place-des-etoiles",
           "name": "Place des Étoiles",
-          "description": "Intalacja artystyczna goloryfikująca kulturową i historyczną różnorodność krajów członkowskich grupy Schengen.",
+          "description": "Instalacja artystyczna goloryfikująca kulturową i historyczną różnorodność krajów członkowskich grupy Schengen.",
           "latitude": 49.47050608800283,
           "longitude": 6.36666386403565,
           "address": "6 Rue Robert Goebbels, 5444 Schengen, Luxembourg",
           "country": "Luksemburg",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
+          "image": "https://cdn-s-www.republicain-lorrain.fr/images/AF2C62D9-F21B-43F2-9E6C-D1DC38AAD1C3/NW_raw/le-monument-des-accords-date-de-1997-trois-hautes-steles-en-acier-portant-chacune-une-etoile-symbolisent-les-premiers-signataires-du-traite-la-france-l-allemagne-et-les-pays-du-benelux-qui-forment-le-pays-des-trois-frontieres-1507035628.jpg", 
           "GoogleMapsLink": "https://maps.app.goo.gl/7TNGDUdVy5amRBBM9"
         },
         {
@@ -3136,7 +3139,7 @@
           "longitude": 4.35034508900776,
           "address": "Rue d'Anderlecht 7, 1000 Bruxelles, Belgium",
           "country": "Belgia",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://i.redd.it/uhvj00y9veg81.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/Hy2g15hkLEfhGGAg9"
@@ -3162,7 +3165,7 @@
           "longitude": 4.378613444009873,
           "address": "Rue de Trèves 42, 1050 Ixelles, Belgium",
           "country": "Belgia",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "https://historia.europa.eu/",
           "image": "https://culture.ec.europa.eu/sites/default/files/styles/eac_ratio_16_9_xl/public/2020-10/cheritage-houseofeuhistory-c_goodlifestoodioistock.jpg?h=10d202d3&itok=g1mVlDXe",
           "GoogleMapsLink": "https://maps.app.goo.gl/huGfLdbdPbNjEoNQ9"
@@ -3317,7 +3320,7 @@
           "longitude": 17.6328577311295,
           "address": "Győr, Káposztás köz 8, 9022 Hungary",
           "country": "Węgry",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://kornyeke.hu/fotok/tartalom/1/2-210209113525410610.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/X7Tyv4gbm4T2KMJx7"
@@ -7000,7 +7003,7 @@
           "longitude": 10.861127184624104,
           "address": "WRJC+P2 Mittelberg, Austria",
           "country": "Austria",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
           "image": "https://www.pitztaler-gletscher.at/mediatypes/textImgBox/sonnenaufgang_wildspitzbahn_leuchtende_fenster_rz.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/gSqYwL3nVK5vQZJUA"
@@ -7064,7 +7067,7 @@
           "longitude": 11.38629044395252,
           "address": "898F+M6 Innsbruck, Austria",
           "country": "Austria",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "https://nordkette.com/de/",
           "image": "https://www.nordkette-innsbruck.de/wp-content/uploads/2024/08/Hafelekarspitze-1024x768.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/3XxzMrrJYUwe6gSS7"
@@ -7110,15 +7113,15 @@
         },
         {
           "id": "andreas-hofer-monument",
-          "name": "Andreas Hofer monument",
+          "name": "Pomnik Andreasa Hofera",
           "description": "Monument poświęcony Andreasowi Hoferowi – postaci niezwykłej, karczmarzowi, który stał się bohaterem Tyrolu. Pomnik, wzniesiony w 1893 roku, upamiętnia jego zmagania o wolność regionu i stoi w miejscu przesiąkniętym historią. Patrząc na niego, można poczuć ducha tamtych czasów i pomyśleć, jak smakowałby solidny posiłek w karczmie takiego bohatera po dniu pełnym wrażeń.",
           "latitude": 47.2504529702219,
           "longitude": 11.400725797981707,
           "address": "Brennerstraße 5a, 6020 Innsbruck, Austria",
           "country": "Austria",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://blog.innsbruck.info/de/kunst-kultur/auf-den-spuren-der-tiroler-freiheitskampfe-innsbruck/",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Innsbruck_Andreas_Hofer_6238.jpg/1365px-Innsbruck_Andreas_Hofer_6238.jpg",
+          "image": "https://www.sagen.at/doku/Andreas_Hofer/images/Andreas_Hofer_Berg_Isel.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/xzDgCEU3TLAkjFx37"
         },
         {
@@ -8270,7 +8273,7 @@
           "longitude": 9.18965186424734,
           "address": "P. Scala, 5, 20121 Milano MI, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://www.teatroallascala.org/it/index.html",
           "image": "https://www.podrozepoeuropie.pl/system/gallery/images/images/000/015/123/large/Teatr-La-Scala-Mediolan_2.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/Qna9gJw46FFYZ1hB8"
@@ -8308,7 +8311,7 @@
           "longitude": 12.565529098123346,
           "address": "MGG7+WH Reit im Winkl, Germany",
           "country": "Niemcy",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
           "image": "https://www.stadtgui.de/_images/weitsee_fkk_20180915%20(34).jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/eGXhEvZTy4s7GZvH9"
@@ -8323,20 +8326,20 @@
           "country": "Niemcy",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "image": "",
+          "image": "https://cdn.hey.bayern/standard/picture-sm/3/lg0L9Pid.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/Kgdswf9PWo7zx7oH7"
         },
         {
           "id": "romy-schneider-exhibition",
           "name": "Romy Schneider exhibition",
-          "description": "Tam, gdzie historia kina splata się z życiem niezwykłej kobiety. Mowa o wystawie Romy Schneider, miejscu, które pozwala zanurzyć się w świat tej ikony, poczuć klimat tamtych lat i zrozumieć, dlaczego wciąż budzi tyle emocji. To prawdziwa uczta dla oka i duszy, kawałek europejskiej kultury do odkrycia.",
+          "description": "Historia kina spleciona z życiem niezwykłej kobiety. Mowa o wystawie Romy Schneider, miejscu, które pozwala zanurzyć się w świat tej ikony, poczuć klimat tamtych lat i zrozumieć, dlaczego wciąż budzi tyle emocji. To prawdziwa uczta dla oka i duszy, kawałek europejskiej kultury do odkrycia.",
           "latitude": 47.590142142134674,
           "longitude": 12.989031628389684,
           "address": "An d. Seeklause 25, 83471 Schönau am Königssee, Germany",
           "country": "Niemcy",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "http://www.romy-schneider-ausstellung.de/",
-          "image": "https://www.berchtesgaden.de/cdn/uploads/romy-schneider-exhibition-koenigssee-thcontentgalleryresponsive.jpg",
+          "image": "https://www.romy-schneider-ausstellung.de/img/start-03b.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/szYCwDa1myHWWVhN6"
         },
         {
@@ -8439,7 +8442,7 @@
           "country": "Niemcy",
           "type": "tourist_attraction",
           "websiteUrl": "http://www.rossfeldpanoramastrasse.de/",
-          "image": "https://www.berchtesgaden.de/cdn/uploads/rossfeld-panoramic-road-mountain-berchtesgaden-alps-thseoimagefacebook.jpg",
+          "image": "https://i.ytimg.com/vi/N0-4vJbyYIY/maxresdefault.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/gvcAiyh1bHKck7RGA"
         },
         {
@@ -8463,7 +8466,7 @@
           "longitude": 12.87744504456045,
           "address": "Hallgrafenstraße 25, 83435 Bad Reichenhall, Germany",
           "country": "Niemcy",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "https://www.alte-saline.de/",
           "image": "https://www.salzburg.info/deskline/infrastruktur/objekte/alte-saline-bad-reichenhall_6535/image-thumb__663677__slider-main/Alte%20Saline%20Bad%20Reichenhall_6537.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/Xek82c1gfdiEGQrGA"
@@ -9453,7 +9456,7 @@
           "address": "D8 3, 20355, Slivno Ravno, Croatia",
           "country": "Chorwacja",
           "type": "hotel",
-          "imageUrl": "https://villas-guide.com/villas_images/37251/1920/villas_Rustic-Villa-Stolovi-with-panorama-view-32.jpeg",
+          "image": "https://villas-guide.com/villas_images/37251/1920/villas_Rustic-Villa-Stolovi-with-panorama-view-32.jpeg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/pA8n1SmA2cDFdPBy9"
         },
@@ -10529,13 +10532,14 @@
         },
         {
           "id": "pomnik-jana-nepomucena-w-bielsku-bia-ej",
-          "name": "Pomnik Jana Nepomucena w Bielsku-Białej",
+          "name": "Pomnik Jana Nepomucena",
           "description": "W Bielsku-Białej, gdzie historia miesza się z nowoczesnością niczym składniki w udanej potrawie, natknął się na niezwykłego świadka czasów – kamiennego Świętego Jana Nepomucena. Ten pomnik, postawiony w 1739 roku, stoi niewzruszenie, przypominając, że czasem milczenie jest złotem.",
           "latitude": 49.821084369495935,
           "longitude": 19.042652058139247,
           "address": "Rynek 6, 43-300 Bielsko-Biała, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
+          "image": "https://odtur.pl/data/thumbs/places/1/74/17417/300x300/pomnik_sw__jana_nepomucena_001.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/Ssg1HNyrL5voU3K57"
         },
@@ -10549,6 +10553,7 @@
           "country": "Polska",
           "type": "tourist_attraction",
           "websiteUrl": "",
+          "image": "https://bik.luteranie.pl/wp-content/uploads/2025/09/pomnik-marcina-lutra-w-bielsku-1024x683.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/8VxteYXBunkX4ivZ8"
         },
         {
@@ -10560,6 +10565,7 @@
           "address": "Plac Lutra 3, 43-300 Bielsko-Biała, Poland",
           "country": "Polska",
           "type": "tourist_attraction",
+          "image": "https://lh5.googleusercontent.com/proxy/nBsxJH5rtJhbYpKOP9qlZl4uk0qKaSulLWTlbhxoHLEPVqbzXdUsovH7kbR41m0sZZt-J-QFzeV4RzhB8oAeVieyIa8_kr-fVVrJ07vXT6d7",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/3kaCFz4kDHm7T4fB8"
         },
@@ -10583,7 +10589,8 @@
           "longitude": 19.040201462942566,
           "address": "Cieszyńska 24, 43-300 Bielsko-Biała, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
+          "image": "https://cdn.architekturaibiznes.pl/upload/cms_aktualnosci/34535/images/kadr12/fit/730x480/interaktywne-centrum-bajki-i-animacji-oko-w-bielsku-bialej-415345.webp?20260210173636",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/RkxPqrJTfcH8f2fq5"
         },
@@ -10607,7 +10614,8 @@
           "longitude": 19.051074751360037,
           "address": "Plac Wojska Polskiego 3, 43-300 Bielsko-Biała, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
+          "image": "https://s9.tvp.pl/images2/9/8/b/uid_98b76219fa877528faaec3ed3ef58f0a1632312537451_width_900_play_0_pos_0_gs_0_height_506.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/MjLC6d5WMUkLaeEFA"
         },
@@ -10643,7 +10651,8 @@
           "longitude": 18.985614888873553,
           "address": "JX94+2Q Wisła, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "nature",
+          "image": "https://www.wisla.pl/media/upload/k/a/kaskady-rodla-223966%5B1%5D.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/NFLkVamdWniMizUSA"
         },
@@ -10751,7 +10760,8 @@
           "longitude": 18.86591223029661,
           "address": "Breńska 113, 43-436 Górki Małe, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "museum",
+          "image": "https://atrakcjewszczyrku.pl/wp-content/uploads/2025/05/Chlebowa-Chata-w-Gorki-Male.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/VKpN6zWN2zJ5xfWGA"
         },
@@ -10794,13 +10804,14 @@
         {
           "id": "zamek-piastowski-w-raciborzu-punkt-informacji-turystycznej",
           "name": "Zamek Piastowski w Raciborzu - Punkt Informacji Turystycznej",
-          "description": "Wchodząc do Zamek Piastowskiego w Raciborzu, turystka czy turysta znajdzie się w miejscu, które od wieków czekało na opowiedzenie swojej historii - w końcu ten średniowieczny zamek, wzniesiony w XII wieku, był świadkiem wielu ważnych wydarzeń w historii Śląska. Dziś, jako Punkt Informacji Turystycznej, stanowi idealne miejsce, by rozpocząć przygodę z tym fascynującym regionem.",
+          "description": "Wchodząc do Zamku Piastowskiego w Raciborzu,znajdziesz się w miejscu, które od wieków czekało na opowiedzenie swojej historii - w końcu ten średniowieczny zamek, wzniesiony w XII wieku, był świadkiem wielu ważnych wydarzeń w historii Śląska. Dziś, jako Punkt Informacji Turystycznej, stanowi idealne miejsce, by rozpocząć przygodę z tym fascynującym regionem.",
           "latitude": 50.095939603907205,
           "longitude": 18.220942894870504,
           "address": "34RQ+7Q Raciborz, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
-          "websiteUrl": "",
+          "type": "art_culture",
+          "image":"https://www.slaskie.travel/Media/Default/.MainStorage/ContentItemDocumentTypeRecord/jacp2lho.1lg/Zamek%20Piastowski%20w%20Raciborzu.JPG",
+          "websiteUrl": "https://www.zamekpiastowski.pl/dla-zwiedzajacych/godziny-otwarcia",
           "GoogleMapsLink": "https://maps.app.goo.gl/NnX4gXaAnGaCz8Zh8"
         },
         {
@@ -10823,8 +10834,9 @@
           "longitude": 18.46405330073226,
           "address": "Szkolna 6, 47-430 Rudy, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
-          "websiteUrl": "",
+          "type": "art_culture",
+          "image": "https://static.polskieszlaki.pl/zdjecia/turystyka/2022-01/1920_1080/rudy-4-1.jpg",
+          "websiteUrl": "https://kolejkarudy.pl",
           "GoogleMapsLink": "https://maps.app.goo.gl/Qh1btsUseDYveRGN6"
         },
         {
@@ -10835,8 +10847,9 @@
           "longitude": 18.448464818296184,
           "address": "Kozielska 4, 47-430 Rudy, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
-          "websiteUrl": "",
+          "type": "art_culture",
+          "image": "https://www.slaskie.travel/Media/Default/.MainStorage/Poi/lc4r5kl3.scl/Ruy_11j-CF054647.jpg",
+          "websiteUrl": "https://rudy-opactwo.pl",
           "GoogleMapsLink": "https://maps.app.goo.gl/YfNs7qQfSJL3zKFQ9"
         },
         {
@@ -10848,6 +10861,7 @@
           "address": "Księdza Piotra Skargi 14, 44-273 Rybnik, Poland",
           "country": "Polska",
           "type": "tourist_attraction",
+          "image": "https://www.kopalniaignacy.pl/wp-content/uploads/2025/02/zki-kopalnia-ignacy.webp",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/pbgY4KQjhUqyNgpw7"
         },
@@ -10920,8 +10934,9 @@
           "longitude": 15.28256869237769,
           "address": "L340 2, 8562, Austria",
           "country": "Austria",
-          "type": "tourist_attraction",
-          "websiteUrl": "",
+          "type": "shopping",
+          "websiteUrl": "https://www.schnaps.at",
+          "image": "https://www.romy-schneider-ausstellung.de/img/start-03b.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/nM6KoNzK8Y4aUfKTA"
         },
         {
@@ -10932,8 +10947,9 @@
           "longitude": 15.362738430750925,
           "address": "Rosenweg 2, 8051 Thal, Austria",
           "country": "Austria",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "",
+          "image": "https://arnieslife.com/wp-content/uploads/2024/06/Film_05.webp",
           "GoogleMapsLink": "https://maps.app.goo.gl/L6jhRTzbiXwd89QZ6"
         },
         {
@@ -10969,19 +10985,21 @@
           "longitude": 16.35010659844022,
           "address": "Semperstraße 7, 1180 Wien, Austria",
           "country": "Austria",
-          "type": "tourist_attraction",
-          "websiteUrl": "",
+          "type": "art_culture",
+          "websiteUrl": "https://www.volksoper.at/",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Wien_-_Volksoper.JPG",
           "GoogleMapsLink": "https://maps.app.goo.gl/5dCrav74rrkihwxm7"
         },
         {
           "id": "else-feldmann-park",
-          "name": "Else-Feldmann-Park",
+          "name": "Else Feldmann Park",
           "description": "W sercu Wiednia, drobny przykład procesu odbetonowywania miasta. Zielona oaza stworzona w 2016 roku, oferująca wytchnienie od zgiełku miasta. Ten urokliwy park, nazwany na cześć działaczki społecznej i feministki, jest nie tylko miejscem spacerów, ale i symbolem walki o równość i wolność.",
           "latitude": 48.225148035041734,
           "longitude": 16.385942655367625,
           "address": "Am Tabor 5, 1020 Wien, Austria",
           "country": "Austria",
-          "type": "tourist_attraction",
+          "type": "nature",
+          "image": "https://www.gbstern.at/fileadmin/_processed_/4/9/csm_Else-Feldmann-Park1_e288734147.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/GBQAiKkAjRucyL1r9"
         },
@@ -11130,7 +11148,8 @@
           "longitude": 19.524581754102666,
           "address": "HGGC+4R Podlesice, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "nature",
+          "image": "https://orlegniazda.pl/Media/Default/.MainStorage/ContentItemDocumentTypeRecord/dev25egg.wyw/DSC_0171.JPG",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/PGqeHCe564oUpcbE6"
         },
@@ -11142,7 +11161,8 @@
           "longitude": 19.439788217877606,
           "address": "P94V+7P Siedlec, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
+          "image": "https://jura.slaskie.travel/Media/Default/.MainStorage/Poi/l0pa1dfp.wwm/main.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/nUWxiwSCpvSxiP2d6"
         },
@@ -11166,7 +11186,8 @@
           "longitude": 19.360017370018777,
           "address": "Polna 44, 42-310 Żarki, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/Cmentarz_żydowski_w_Żarkach23.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/ZFi59puCm2AGYKhB7"
         },
@@ -11178,7 +11199,8 @@
           "longitude": 19.370290734526556,
           "address": "Stary Rynek 4, 42-310 Żarki, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
+          "image": "https://static.polskieszlaki.pl/zdjecia/turystyka/2022-01/516_290/zarki-39-1.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/FtdV6GxDzHyNvefC6"
         },
@@ -11190,8 +11212,9 @@
           "longitude": 19.552104928012508,
           "address": "Bonerów 3A, 42-440 Podzamcze, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
-          "websiteUrl": "",
+          "type": "art_culture",
+          "image": "https://www.zamek-ogrodzieniec.pl/zdjecia/zdjecia_duze/g1.jpg",
+          "websiteUrl": "https://www.zamek-ogrodzieniec.pl",
           "GoogleMapsLink": "https://maps.app.goo.gl/SExZG15Hh1q4Bj6A9"
         },
         {
@@ -11226,7 +11249,8 @@
           "longitude": 18.799016845580102,
           "address": "Henryka Sienkiewicza 28, 41-800 Zabrze, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "museum",
+          "image": "https://zabytkitechniki.pl/uploads/media/document/0010/79/thumb_978336_document_box.jpeg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/uKKw1c94hpNKRV6v8"
         },
@@ -11250,8 +11274,9 @@
           "longitude": 19.02806246890931,
           "address": "al. Walentego Roździeńskiego 1b, 40-202 Katowice, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
-          "websiteUrl": "",
+          "type": "art_culture",
+          "image": "https://nospr.org.pl/public/upload/modules/medium/5d891b1c4dc07.jpg?1658401742",
+          "websiteUrl": "https://www.nospr.org.pl/",
           "GoogleMapsLink": "https://maps.app.goo.gl/TCWFV3RGfGkpVCJv7"
         },
         {
@@ -11280,13 +11305,14 @@
         },
         {
           "id": "nikiszowiec-katowice",
-          "name": "Nikiszowiec, Katowice",
+          "name": "Nikiszowiec",
           "description": "W Nikiszowcu, jednym z najbardziej oryginalnych osiedli w Polsce, architektura spotyka się z historią. To wyjątkowe miejsce, zbudowane w 1930 roku, fascynuje swoimi czerwonymi ceglanymi budynkami i atmosferą prawdziwej robotniczej dzielnicy.",
           "latitude": 50.24186841958814,
           "longitude": 19.08105132753585,
           "address": "Czechowa 5, 40-422 Katowice, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
+          "image": "https://tuudi.net/wp-content/uploads/2019/06/Nikiszowiec_z_drona_x.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/36QaKZzQ8619ntzm7"
         },
@@ -14355,14 +14381,15 @@
       "locations": [
         {
           "id": "badowo-k-ody-folwark",
-          "name": "Badowo Kłody. Folwark",
+          "name": "Folwark Badowo",
           "description": "Agrokulturystyka, instytucja edukacyjna i kulturalna w budynku dawnego folwarku. Miejsce kręcenia filmy Testosteron.",
           "latitude": 51.93259934869002,
           "longitude": 20.54140573054177,
           "address": "Piekarska 25, 96-320 Badów Górny, Poland",
           "country": "Polska",
           "type": "tourist_attraction",
-          "websiteUrl": "",
+          "image": "https://folwarkbadowo.com/wp-content/uploads/2019/04/badowo-1024x504.jpg",
+          "websiteUrl": "https://folwarkbadowo.com/",
           "GoogleMapsLink": "https://maps.app.goo.gl/TaTbjsTjQeorqsUC6"
         }
       ]
@@ -14733,8 +14760,9 @@
           "longitude": 19.234534015201206,
           "address": "E77 198, 976 39 Donovaly, Slovakia",
           "country": "Słowacja",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
+          "image": "https://domalenka.pl/uploads/_cache/uploads-images-atrakcie-fun-arena-funa-arena-donovaly3-jpg-crop-1216x684.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/WgshTqCrFzFe2YKB7"
         }
       ]
@@ -15208,7 +15236,7 @@
           "longitude": 17.164511881083936,
           "address": "X5X3+5G Duba Pelješka, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/CWWoq4VT9v1ejUMNA"
         },
@@ -15232,7 +15260,7 @@
           "longitude": 17.14000863312652,
           "address": "34A, 20250, Kučište, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "hotel",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/E4zt8cXNnEdKwVkZ8"
         },
