@@ -1,6 +1,6 @@
 import L from 'leaflet';
 import ReactDOMServer from 'react-dom/server';
-import { Utensils, Coffee, TreePine, Palette, Landmark, ShoppingBag, Hotel, Compass, MoreHorizontal, LucideProps } from 'lucide-react';
+import { Utensils, Coffee, TreePine, Palette, Landmark, ShoppingBag, Hotel, Compass, Tag, LucideProps } from 'lucide-react';
 
 const iconComponentMap: Partial<Record<LocationType, React.ComponentType<LucideProps>>> = {
     restaurant: Utensils,
@@ -12,7 +12,7 @@ const iconComponentMap: Partial<Record<LocationType, React.ComponentType<LucideP
     nature: TreePine,
     shopping: ShoppingBag,
     hotel: Hotel,
-    other: MoreHorizontal,
+    other: Tag,
 };
 
 const colorClassMap: Partial<Record<LocationType, keyof typeof styles>> = {

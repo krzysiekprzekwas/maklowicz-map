@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export default function About() {
 
-  const { allLocations } = useLocations(null, [], []);
+  const { allLocations } = useLocations(null, []);
   const totalLocations = allLocations.length;
   const videoCount = (() => {
     // Count from the same locationData used by the hook

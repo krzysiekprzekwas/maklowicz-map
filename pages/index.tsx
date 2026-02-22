@@ -28,12 +28,9 @@ export default function Home() {
     setSelectedCountry,
     selectedLocationTypes,
     setSelectedLocationTypes,
-    selectedCharacters,
-    setSelectedCharacters,
     isFiltersOpen,
     setIsFiltersOpen,
     toggleLocationType,
-    toggleCharacter,
     userLocation,
     locationStatus,
     nearbyRadius,
@@ -42,11 +39,10 @@ export default function Home() {
     clearUserLocation,
   } = useLocationState();
 
-  const { countries, filteredLocations, locationTypeCounts, characterCounts, allLocations } =
+  const { countries, filteredLocations, locationTypeCounts, allLocations } =
     useLocations(
       selectedCountry,
       selectedLocationTypes,
-      selectedCharacters,
       userLocation?.lat,
       userLocation?.lng,
       locationStatus === 'granted' ? nearbyRadius : undefined
@@ -101,10 +97,8 @@ export default function Home() {
           countries={countries}
           selectedCountry={selectedCountry}
           selectedLocationTypes={selectedLocationTypes}
-          selectedCharacters={selectedCharacters}
           filteredCount={filteredLocations.length}
           locationTypeCounts={locationTypeCounts}
-          characterCounts={characterCounts}
           locationStatus={locationStatus}
           nearbyRadius={nearbyRadius}
           onCountrySelect={(country) => {
@@ -112,12 +106,10 @@ export default function Home() {
             if (country) clearUserLocation();
           }}
           onToggleLocationType={toggleLocationType}
-          onToggleCharacter={toggleCharacter}
           onToggleFilters={() => setIsFiltersOpen(!isFiltersOpen)}
           onResetFilters={() => {
             setSelectedCountry(null);
             setSelectedLocationTypes([]);
-            setSelectedCharacters([]);
             clearUserLocation();
           }}
           onRequestLocation={requestUserLocation}

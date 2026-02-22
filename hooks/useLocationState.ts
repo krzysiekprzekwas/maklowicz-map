@@ -6,7 +6,6 @@ export function useLocationState() {
   const [previewLocation, setPreviewLocation] = useState<Location | null>(null);
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
   const [selectedLocationTypes, setSelectedLocationTypes] = useState<string[]>([]);
-  const [selectedCharacters, setSelectedCharacters] = useState<string[]>([]);
   const [isFiltersOpen, setIsFiltersOpen] = useState(false);
   const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
   const [locationStatus, setLocationStatus] = useState<'idle' | 'loading' | 'granted' | 'denied'>('idle');
@@ -20,12 +19,6 @@ export function useLocationState() {
   const toggleLocationType = (type: string) => {
     setSelectedLocationTypes(prev =>
       prev.includes(type) ? prev.filter(t => t !== type) : [...prev, type]
-    );
-  };
-
-  const toggleCharacter = (char: string) => {
-    setSelectedCharacters(prev =>
-      prev.includes(char) ? prev.filter(c => c !== char) : [...prev, char]
     );
   };
 
@@ -58,13 +51,10 @@ export function useLocationState() {
     setSelectedCountry,
     selectedLocationTypes,
     setSelectedLocationTypes,
-    selectedCharacters,
-    setSelectedCharacters,
     isFiltersOpen,
     setIsFiltersOpen,
     handleCountryClick,
     toggleLocationType,
-    toggleCharacter,
     userLocation,
     locationStatus,
     nearbyRadius,

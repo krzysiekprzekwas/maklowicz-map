@@ -1,9 +1,9 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Sheet } from 'react-modal-sheet';
 import {
   X, SlidersHorizontal, Search,
   Utensils, Coffee, TreePine, Palette,
-  Landmark, ShoppingBag, Hotel, Compass, MoreHorizontal,
+  Landmark, ShoppingBag, Hotel, Compass, Tag,
   MapPin, Loader2,
 } from 'lucide-react';
 
@@ -12,15 +12,12 @@ interface FiltersProps {
   countries: { name: string; count: number }[];
   selectedCountry: string | null;
   selectedLocationTypes: string[];
-  selectedCharacters: string[];
   filteredCount: number;
   locationTypeCounts: Record<string, number>;
-  characterCounts: Record<string, number>;
   locationStatus: 'idle' | 'loading' | 'granted' | 'denied';
   nearbyRadius: number;
   onCountrySelect: (country: string | null) => void;
   onToggleLocationType: (type: string) => void;
-  onToggleCharacter: (char: string) => void;
   onToggleFilters: () => void;
   onResetFilters: () => void;
   onRequestLocation: () => void;
@@ -29,33 +26,28 @@ interface FiltersProps {
 }
 
 const LOCATION_TYPES = [
-  { type: 'restaurant',         label: 'Restauracje',          icon: Utensils       },
-  { type: 'cafe',               label: 'Kawiarnie',            icon: Coffee         },
-  { type: 'nature',             label: 'Przyroda i plener',    icon: TreePine       },
-  { type: 'art_culture',        label: 'Sztuka i kultura',     icon: Palette        },
-  { type: 'museum',             label: 'Muzea',                icon: Landmark       },
-  { type: 'shopping',           label: 'Zakupy',               icon: ShoppingBag    },
-  { type: 'hotel',              label: 'Hotele',               icon: Hotel          },
-  { type: 'tourist_attraction', label: 'Atrakcje turystyczne', icon: Compass        },
-  { type: 'other',              label: 'Inne',                 icon: MoreHorizontal },
+  { type: 'restaurant',         label: 'Restauracje',          icon: Utensils  },
+  { type: 'cafe',               label: 'Kawiarnie',            icon: Coffee    },
+  { type: 'nature',             label: 'Przyroda i plener',    icon: TreePine  },
+  { type: 'art_culture',        label: 'Sztuka i kultura',     icon: Palette   },
+  { type: 'museum',             label: 'Muzea',                icon: Landmark  },
+  { type: 'shopping',           label: 'Zakupy',               icon: ShoppingBag },
+  { type: 'hotel',              label: 'Hotele',               icon: Hotel     },
+  { type: 'tourist_attraction', label: 'Atrakcje turystyczne', icon: Compass   },
+  { type: 'other',              label: 'Inne',                 icon: Tag       },
 ];
-
-const CHARACTERS = ['historyczny', 'patriotyczny', 'religijny', 'relaks'];
 
 export function Filters({
   isOpen,
   countries,
   selectedCountry,
   selectedLocationTypes,
-  selectedCharacters,
   filteredCount,
   locationTypeCounts,
-  characterCounts,
   locationStatus,
   nearbyRadius,
   onCountrySelect,
   onToggleLocationType,
-  onToggleCharacter,
   onToggleFilters,
   onResetFilters,
   onRequestLocation,
@@ -65,6 +57,7 @@ export function Filters({
   const [isMobile, setIsMobile] = useState(false);
   const [countrySearch, setCountrySearch] = useState('');
   const [isCountryDropdownOpen, setIsCountryDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const checkIfMobile = () => setIsMobile(window.innerWidth < 768);
@@ -73,6 +66,17 @@ export function Filters({
     return () => window.removeEventListener('resize', checkIfMobile);
   }, []);
 
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    if (!isCountryDropdownOpen) return;
+    const handleOutside = (e: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node))
+        setIsCountryDropdownOpen(false);
+    };
+    document.addEventListener('mousedown', handleOutside);
+    return () => document.removeEventListener('mousedown', handleOutside);
+  }, [isCountryDropdownOpen]);
+
   const filteredCountries = countries.filter(c =>
     c.name.toLowerCase().includes(countrySearch.toLowerCase())
   );
@@ -80,7 +84,6 @@ export function Filters({
   const hasActiveFilters =
     !!selectedCountry ||
     selectedLocationTypes.length > 0 ||
-    selectedCharacters.length > 0 ||
     locationStatus === 'granted';
 
   const handleCountryInputChange = (value: string) => {
@@ -143,16 +146,6 @@ export function Filters({
                   </button>
                 );
               })}
-              {selectedCharacters.map(char => (
-                <button
-                  key={char}
-                  onClick={() => onToggleCharacter(char)}
-                  className="flex items-center gap-1 px-3 py-1 bg-primary text-secondary rounded-full text-xs whitespace-nowrap flex-shrink-0"
-                >
-                  {char}
-                  <X className="h-3 w-3" />
-                </button>
-              ))}
             </div>
           </div>
           {/* Filter icon — active (dark fill) */}
@@ -243,16 +236,6 @@ export function Filters({
                   </button>
                 );
               })}
-              {selectedCharacters.map(char => (
-                <button
-                  key={char}
-                  onClick={() => onToggleCharacter(char)}
-                  className="flex items-center gap-1 px-2 py-1 bg-primary text-secondary rounded-full text-xs"
-                >
-                  {char}
-                  <X className="h-3 w-3" />
-                </button>
-              ))}
             </div>
           </div>
         )}
@@ -260,7 +243,7 @@ export function Filters({
         {/* Lokalizacja */}
         <div className="space-y-2">
           <span className="text-xs font-semibold text-primary uppercase tracking-wide">Lokalizacja</span>
-          <div className="relative">
+          <div className="relative" ref={dropdownRef}>
             <div className="flex items-center border border-secondary-border rounded-lg px-3 py-2 gap-2 bg-white">
               {locationStatus === 'loading' && <Loader2 className="h-4 w-4 animate-spin text-gray-400 flex-shrink-0" />}
               {locationStatus === 'granted' && <MapPin className="h-4 w-4 text-primary flex-shrink-0" />}
@@ -274,6 +257,13 @@ export function Filters({
                   locationStatus === 'granted' ? 'Moja lokalizacja' :
                   selectedCountry && !isCountryDropdownOpen ? selectedCountry : countrySearch
                 }
+                onMouseDown={(e) => {
+                  if (locationStatus === 'loading') { e.preventDefault(); return; }
+                  if (isCountryDropdownOpen) {
+                    e.preventDefault();
+                    setIsCountryDropdownOpen(false);
+                  }
+                }}
                 onFocus={() => {
                   if (locationStatus === 'loading') return;
                   if (locationStatus === 'granted') {
@@ -366,31 +356,6 @@ export function Filters({
                   {label}
                   <span className={active ? 'opacity-70' : 'text-gray-400'}>({count})</span>
                 </button>
-              );
-            })}
-          </div>
-        </div>
-
-        {/* Charakter lokacji */}
-        <div className="space-y-2">
-          <span className="text-xs font-semibold text-primary uppercase tracking-wide">Charakter lokacji</span>
-          <div className="space-y-2">
-            {CHARACTERS.map(char => {
-              const count = characterCounts[char] ?? 0;
-              const checked = selectedCharacters.includes(char);
-              return (
-                <label key={char} className="flex items-center gap-3 cursor-pointer group">
-                  <input
-                    type="checkbox"
-                    checked={checked}
-                    onChange={() => onToggleCharacter(char)}
-                    className="w-4 h-4 accent-primary"
-                  />
-                  <span className="flex-1 text-sm text-primary capitalize group-hover:text-primary-hover">
-                    {char}
-                  </span>
-                  <span className="text-xs text-gray-400">({count})</span>
-                </label>
               );
             })}
           </div>

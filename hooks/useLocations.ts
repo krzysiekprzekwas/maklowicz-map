@@ -5,7 +5,6 @@ import { haversineDistance } from '../src/lib/distance';
 export function useLocations(
   selectedCountry: string | null,
   selectedLocationTypes: string[],
-  selectedCharacters: string[],
   userLat?: number,
   userLng?: number,
   nearbyRadius?: number
@@ -33,10 +32,8 @@ export function useLocations(
     }
     if (selectedLocationTypes.length)
       locs = locs.filter(l => selectedLocationTypes.includes(l.type));
-    if (selectedCharacters.length)
-      locs = locs.filter(l => (l as any).character?.some((c: string) => selectedCharacters.includes(c)));
     return locs.map(l => ({ ...l, isFilteredOut: false }));
-  }, [selectedCountry, selectedLocationTypes, selectedCharacters, userLat, userLng, nearbyRadius]);
+  }, [selectedCountry, selectedLocationTypes, userLat, userLng, nearbyRadius]);
 
   const locationTypeCounts = useMemo(() => {
     const base = selectedCountry
@@ -48,22 +45,10 @@ export function useLocations(
     }, {});
   }, [selectedCountry]);
 
-  const characterCounts = useMemo(() => {
-    const base = selectedCountry
-      ? locationData.videos.flatMap(v => v.locations).filter(l => l.country === selectedCountry)
-      : locationData.videos.flatMap(v => v.locations);
-    return base.reduce<Record<string, number>>((acc, l) => {
-      ((l as any).character || []).forEach((c: string) => {
-        acc[c] = (acc[c] || 0) + 1;
-      });
-      return acc;
-    }, {});
-  }, [selectedCountry]);
-
   const allLocations = useMemo(
     () => locationData.videos.flatMap(v => v.locations),
     []
   );
 
-  return { countries, filteredLocations, locationTypeCounts, characterCounts, allLocations };
+  return { countries, filteredLocations, locationTypeCounts, allLocations };
 }

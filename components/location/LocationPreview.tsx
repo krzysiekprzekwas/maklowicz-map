@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { X, LucideProps, Utensils, Coffee, TreePine, Palette, Landmark, ShoppingBag, Hotel, Compass, MoreHorizontal } from 'lucide-react';
+import { X, LucideProps, Utensils, Coffee, TreePine, Palette, Landmark, ShoppingBag, Hotel, Compass, Tag } from 'lucide-react';
 import { ComponentType } from 'react';
 import { Location } from '../../types/Location';
 
@@ -13,7 +13,7 @@ const TYPE_META: Record<string, { label: string; icon: ComponentType<LucideProps
   hotel:              { label: 'Hotel',                icon: Hotel          },
   tourist_attraction: { label: 'Atrakcja turystyczna', icon: Compass        },
   attraction:         { label: 'Atrakcja',             icon: Compass        },
-  other:              { label: 'Inne',                 icon: MoreHorizontal },
+  other:              { label: 'Inne',                 icon: Tag },
 };
 
 interface LocationPreviewProps {
