@@ -234,7 +234,7 @@ export function Filters({
             <div className="flex items-center border border-secondary-border rounded-lg px-3 py-2 gap-2 bg-white">
               <input
                 type="text"
-                className="flex-1 text-sm text-primary outline-none bg-transparent placeholder-gray-400"
+                className="flex-1 text-base text-primary outline-none bg-transparent placeholder-gray-400"
                 placeholder="Szukaj kraju..."
                 value={selectedCountry && !isCountryDropdownOpen ? selectedCountry : countrySearch}
                 onFocus={() => {
