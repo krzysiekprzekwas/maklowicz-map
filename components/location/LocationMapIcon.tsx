@@ -1,18 +1,18 @@
-import L, { icon } from 'leaflet';
+import L from 'leaflet';
 import ReactDOMServer from 'react-dom/server';
-import { Utensils, MapPin, LucideProps, Landmark } from 'lucide-react';
+import { Utensils, Coffee, TreePine, Palette, Landmark, ShoppingBag, Hotel, Compass, MoreHorizontal, LucideProps } from 'lucide-react';
 
 const iconComponentMap: Partial<Record<LocationType, React.ComponentType<LucideProps>>> = {
     restaurant: Utensils,
-    cafe: Utensils,
-    attraction: Landmark,
-    tourist_attraction: Landmark,
+    cafe: Coffee,
+    attraction: Compass,
+    tourist_attraction: Compass,
     museum: Landmark,
-    art_culture: Landmark,
-    other: MapPin,
-    nature: MapPin,
-    shopping: MapPin,
-    hotel: MapPin,
+    art_culture: Palette,
+    nature: TreePine,
+    shopping: ShoppingBag,
+    hotel: Hotel,
+    other: MoreHorizontal,
 };
 
 const colorClassMap: Partial<Record<LocationType, keyof typeof styles>> = {

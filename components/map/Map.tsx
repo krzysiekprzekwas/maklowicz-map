@@ -89,22 +89,11 @@ const Map: React.FC<MapProps> = React.memo(({
     const previewLocationRef = React.useRef(previewLocation);
     previewLocationRef.current = previewLocation;
 
-    // Timer ref for desktop hover hide delay
-    const hideTimerRef = React.useRef<ReturnType<typeof setTimeout> | null>(null);
-
     React.useEffect(() => {
         setIsMobile(isMobileDevice());
         const handleResize = () => setIsMobile(isMobileDevice());
         window.addEventListener('resize', handleResize);
         return () => window.removeEventListener('resize', handleResize);
-    }, []);
-
-    const startHideTimer = React.useCallback(() => {
-        hideTimerRef.current = setTimeout(onClosePreview, 300);
-    }, [onClosePreview]);
-
-    const cancelHideTimer = React.useCallback(() => {
-        if (hideTimerRef.current) clearTimeout(hideTimerRef.current);
     }, []);
 
     const handlePositionUpdate = React.useCallback(
@@ -134,27 +123,12 @@ const Map: React.FC<MapProps> = React.memo(({
                     position={position}
                     icon={customIcon(location, isSelected)}
                     eventHandlers={{
-                        // Desktop: hover shows preview
-                        mouseover: () => {
-                            if (!isMobile) {
-                                cancelHideTimer();
-                                onLocationPreview(location);
-                            }
-                        },
-                        mouseout: () => {
-                            if (!isMobile) startHideTimer();
-                        },
-                        // Mobile: first tap = preview, second tap (same marker) = full details
-                        // Desktop: click = full details directly
+                        // First click = preview, second click on same marker = full details
                         click: () => {
-                            if (isMobile) {
-                                if (previewLocationRef.current?.id === location.id) {
-                                    onLocationSelect(location);
-                                } else {
-                                    onLocationPreview(location);
-                                }
-                            } else {
+                            if (previewLocationRef.current?.id === location.id) {
                                 onLocationSelect(location);
+                            } else {
+                                onLocationPreview(location);
                             }
                         },
                     }}
@@ -163,8 +137,7 @@ const Map: React.FC<MapProps> = React.memo(({
                 />
             );
         }),
-        [visibleLocations, selectedLocation, customIcon, onLocationSelect, onLocationPreview,
-         isMobile, cancelHideTimer, startHideTimer]
+        [visibleLocations, selectedLocation, customIcon, onLocationSelect, onLocationPreview]
     );
 
     const canvasRenderer = React.useMemo(
@@ -236,8 +209,6 @@ const Map: React.FC<MapProps> = React.memo(({
                         pixelPosition={previewPixelPos}
                         onOpenDetails={() => onLocationSelect(previewLocation)}
                         onClose={onClosePreview}
-                        onMouseEnter={cancelHideTimer}
-                        onMouseLeave={startHideTimer}
                     />
                 )}
             </AnimatePresence>

@@ -667,8 +667,9 @@
           "longitude": 23.72720256595007,
           "address": "Diplari 3, Athina 105 52, Greece",
           "country": "Grecja",
-          "type": "other",
-          "websiteUrl": ""
+          "type": "shopping",
+          "websiteUrl": "",
+          "image": "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=center,quality=60,width=400,height=265,dpr=2/tour_img/62722debddcdf.png"
         },
         {
           "id": "miran-athens",
@@ -678,7 +679,8 @@
           "longitude": 23.725829081776034,
           "address": "Evmorfopoulou 8, Athina 105 53, Greece",
           "country": "Grecja",
-          "type": "other",
+          "type": "shopping",
+          "image": "https://www.greekgastronomyguide.gr/wp-content/uploads/2015/07/miran-DSC_2072.jpg",
           "websiteUrl": ""
         },
         {
@@ -2459,7 +2461,7 @@
           "longitude": -16.68099734233851,
           "address": "P8Q9+JH Caniçal, Portugal",
           "country": "Portugalia",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
           "image": "https://s1.wklcdn.com/image_342/10274311/175146376/109243774.700x525.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/ycd5AP7yLWxuVjLh6"
@@ -2487,7 +2489,7 @@
           "country": "Portugalia",
           "type": "restaurant",
           "websiteUrl": "https://www.quintadofurao.com/",
-          "image": "https://cdn.prod.website-files.com/650405b2b396b77227b83039/650405b2b396b77227b830d4_32.%20Quinta%20do%20Furão.jpg",
+          "image": "https://visitmadeira.com/media/3qshiivf/miradouro-da-quinta-do-furão-4.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/zBVvhj5dBuvKpBR48"
         },
         {
@@ -2500,7 +2502,7 @@
           "country": "Portugalia",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "image": "https://www.dladziedzictwa.org/wp-content/uploads/2023/08/Churchil_01.jpg",
+          "image": "https://essential-madeira.com/en/images/00_OB_9746_DxO.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/7sjbqBFdypwW9Ms56"
         },
         {
@@ -2524,7 +2526,7 @@
           "longitude": -17.08707568594306,
           "address": "Estr. de Santo Antonio 2, 9360 Ponta do Sol, Portugal",
           "country": "Portugalia",
-          "type": "restaurant",
+          "type": "cafe",
           "websiteUrl": "",
           "image": "https://www.palmspringslife.com/wp-content/uploads/2016/10/international-banana-museum.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/37PTGh4fNewCcmJy5"
@@ -2601,7 +2603,7 @@
           "longitude": -17.143921172265305,
           "address": "RV53+RC Seixal, Portugal",
           "country": "Portugalia",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
           "image": "https://cdn.sanity.io/images/oyzyxja8/v2/855571428b775ed178781fb40e72f335aca944bd-2000x1333.jpg?w=2048&q=90&auto=format",
           "GoogleMapsLink": "https://maps.app.goo.gl/62QH8A2tp3r699tT6"
@@ -4971,7 +4973,7 @@
           "longitude": -9.43083951064238,
           "address": "XHC5+JG Pollboy, County Clare, Ireland",
           "country": "Irlandia",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "https://www.cliffsofmoher.ie/",
           "image": "https://www.mamasaidbecool.pl/wp-content/uploads/2018/10/klify-moheru-800x533.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/LmutqyGQhG9229Ve7"
@@ -5238,7 +5240,7 @@
           "longitude": 25.13415870930741,
           "address": "Μητσοτάκη I. 1, Iraklio 712 02, Greece",
           "country": "Grecja",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "",
           "image": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/ZRhTvrSTdTojqhv36"
@@ -5970,8 +5972,8 @@
           "longitude": 20.0914939,
           "address": "Rzeźnicza 30, 32-410 Dobczyce, Poland",
           "country": "Polska",
-          "type": "other",
-          "websiteUrl": "",
+          "type": "shopping",
+          "websiteUrl": "https://swiezoizdrowo.pl/",
           "image": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/75DwPTHMgQkPr8vj6"
         }
@@ -6574,7 +6576,7 @@
           "longitude": -88.20158466492768,
           "address": "C. 39 215a-y 46, entre Calle 44, Centro, 97780 Valladolid, Yuc., Mexico",
           "country": "Meksyk",
-          "type": "other",
+          "type": "hotel",
           "websiteUrl": "https://www.mesondelmarques.com",
           "image": "https://cdn.easy-rez.com/production/hotels/8700696094450c97c00b7f5c1e216f47/public/.crops/instalaciones_hotel/_mg_7436.jpg_1920x1080_0-100.67415730337079.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/TWyPT5CV1P6U1hm59"
@@ -6639,7 +6641,7 @@
           "longitude": -89.2101164329723,
           "address": "C. 23 556, Hoctún, 97480 Hoctún, Yuc., Mexico",
           "country": "Meksyk",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://www.elmundoconella.com/wp-content/uploads/2023/02/Mausoleos-en-el-cementerio-de-Hoctun.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/iGDr7dnYm5SBE81t7"
@@ -6652,7 +6654,7 @@
           "longitude": -89.37327984454474,
           "address": "QM45+XC Cuzamá, Yucatan, Mexico",
           "country": "Meksyk",
-          "type": "other",
+          "type": "hotel",
           "websiteUrl": "https://www.facebook.com/Hacienda-Nochan-1551888471513187/",
           "image": "https://www.swulinski.com/Images/MiddleAmerica/Mexico/HaciendaTemozon/HaciendaTemozon02-big.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/qDJ2SWrGpk2uVady7"
@@ -6768,7 +6770,7 @@
           "longitude": -88.20629995711647,
           "address": "PQGR+5C Valladolid, Yucatan, Mexico",
           "country": "Meksyk",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "",
           "image": "https://valladolid.mx/func/resize/galery/800x600/c0a9826535a8807470d5be74c96f8218.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/oYmqxyyiNZcvJkno8"
@@ -7011,7 +7013,7 @@
           "longitude": 10.862212260736479,
           "address": "WV75+4R Mittelberg, Austria",
           "country": "Austria",
-          "type": "restaurant",
+          "type": "cafe",
           "websiteUrl": "https://www.pitztaler-gletscher.at/cafe3440",
           "image": "https://images.squarespace-cdn.com/content/v1/61e9b1539516cb18da85d455/3d64fb4f-6881-4222-ac1f-0c457fe62db2/Cafe+3440+%283%29.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/XkPGcKpgqCk5vvcj7"
@@ -7153,7 +7155,7 @@
           "longitude": 11.390978224313946,
           "address": "Herzog-Friedrich-Straße 6, 6020 Innsbruck, Austria",
           "country": "Austria",
-          "type": "other",
+          "type": "art_culture",
           "websiteUrl": "https://www.innsbruck-altstadt.com/sehenswuerdigkeiten/innbruecke/",
           "image": "https://www.innsbruck-altstadt.com/wp-content/uploads/2024/10/Innbruecke.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/CNYxTatRuXA8p6hN8"
@@ -7590,7 +7592,7 @@
           "longitude": 20.6474765,
           "address": "Sami Harbour, Sami 280 80, Greece",
           "country": "Grecja",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "",
           "image": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/AHNveVZKJzCBAu3P9"
@@ -8590,9 +8592,9 @@
           "longitude": 7.939740386474439,
           "address": "8WC9+FX As-Sabikah, Tunisia",
           "country": "Tunezja",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "image": "https://tunisia-travel-guide.com/wp-content/uploads/2025/04/mountain-oases2.webp",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/97/d7/c4/douz.jpg?w=1200&h=-1&s=1",
           "GoogleMapsLink": "https://maps.app.goo.gl/5PxZFXCUpMrvAKeH7"
         }
       ]
@@ -8682,7 +8684,7 @@
           "country": "Tunezja",
           "type": "tourist_attraction",
           "websiteUrl": "https://galaxytours.com/starwars-tunisia-film-sites/eriguet-dunes-large-set-area/",
-          "image": "https://tunisia-travel-guide.com/wp-content/uploads/2025/03/mos-espa.webp",
+          "image": "https://img.atlasobscura.com/wjVM3yXf0TiaK45q1ldRDHsDBTBcrP1c4X_0ETXRrzY/rt:fit/h:400/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy83ODFi/ZTlhNS00MzYzLTQw/YjgtYjdlZC1kZjFh/NzFhMTk1ODlkOWVk/MWQ0MzM0MzZjYTBj/ZTlfRFNDRjcxOTEu/SlBH.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/NffQqQtUkfGvqiz36"
         }
       ]
@@ -8858,7 +8860,7 @@
           "longitude": 20.987478359809757,
           "address": "Świętej Anny 11, 33-100 Tarnów, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "",
           "image": "https://enovelo.pl/wp-content/uploads/2020/08/142.-Targowisko-Miejskie-Burek-1024x684.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/WYwiYD8mpMNiZJnP7"
@@ -8936,9 +8938,9 @@
           "longitude": 21.00196229878135,
           "address": "Gemini Park Tarnów, Nowodąbrowska, 33-100 Tarnów, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "https://tarnow.geminipark.pl/",
-          "image": "",
+          "image": "https://tarnow.geminipark.pl/wp-content/uploads/2022/12/gpta_informacje_1080x720.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/My2mWdtkZyp2eAmbA"
         },
         {
@@ -9450,7 +9452,8 @@
           "longitude": 17.53098852807559,
           "address": "D8 3, 20355, Slivno Ravno, Croatia",
           "country": "Chorwacja",
-          "type": "other",
+          "type": "hotel",
+          "imageUrl": "https://villas-guide.com/villas_images/37251/1920/villas_Rustic-Villa-Stolovi-with-panorama-view-32.jpeg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/pA8n1SmA2cDFdPBy9"
         },
@@ -9462,7 +9465,7 @@
           "longitude": 17.54559874872139,
           "address": "8FPMCQC8+4P",
           "country": "Chorwacja",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/G6h2hNVgUJvgwztt5"
         },
@@ -9690,7 +9693,7 @@
           "longitude": 13.634835180280952,
           "address": "Kolodvorska pot 1, 5250 Solkan, Słowenia",
           "country": "Słowenia",
-          "type": "other",
+          "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/owPRnQYPunjDicpj7"
         },
@@ -9732,13 +9735,14 @@
         },
         {
           "id": "napoleon-s-bridge",
-          "name": "Napoleon's Bridge",
+          "name": "Most Napoleona",
           "description": "Miejsce o iście cesarskim imieniu – Most Napoleona. Ta imponująca konstrukcja, wzniesiona w 1803 roku, nie tylko spina brzegi rzeki, ale też stanowi żywy pomnik epoki napoleońskiej. Stojąc na nim, można niemal usłyszeć echo tamtych czasów i poczuć ducha historii, a może i pomyśleć o prowiantach ówczesnej armii.",
           "latitude": 46.248355863266404,
           "longitude": 13.586133502898624,
           "address": "6HXP+7C Kobarid, Slovenia",
           "country": "Słowenia",
-          "type": "other",
+          "type": "art_culture",
+          "image": "https://img5.digsty.com/FHKZqicgTAhwmTNMHONPIsszi9I8RZM-HOU-icmO_kU/rs:fill:800:800:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy8xNC8xMDAxMjIxMC1iZmY4MjFkNi5qcGc.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/pgxkTDdGp7ZmbT936"
         },
@@ -10470,8 +10474,9 @@
           "longitude": 13.09390781543436,
           "address": "Via Roma, 1A, 06046 Norcia PG, Italy",
           "country": "Włochy",
-          "type": "other",
-          "websiteUrl": "",
+          "type": "shopping",
+          "image": "https://www.norcineriaansuini.it/wp-content/uploads/2012/04/ansuini-norcineria.jpg",
+          "websiteUrl": "https://www.norcineriaansuini.it/menu/",
           "GoogleMapsLink": "https://maps.app.goo.gl/HbGX1e2nUDVfWhPF7"
         }
       ]
@@ -10758,8 +10763,8 @@
           "longitude": 18.78564345274137,
           "address": "Spokojna 12, 43-430 Wilamowice, Poland",
           "country": "Polska",
-          "type": "other",
-          "websiteUrl": "",
+          "type": "shopping",
+          "websiteUrl": "https://www.polkap.pl/",
           "GoogleMapsLink": "https://maps.app.goo.gl/bmzoePPGzqP2J9oY6"
         },
         {
@@ -10854,8 +10859,8 @@
           "longitude": 18.39884401355426,
           "address": "Piaskowa 125, 44-350 Gorzyce, Poland",
           "country": "Polska",
-          "type": "other",
-          "websiteUrl": "",
+          "type": "shopping",
+          "websiteUrl": "https://www.facebook.com/spizarnia.smok",
           "GoogleMapsLink": "https://maps.app.goo.gl/X4z45M9QFKRrU6Jf6"
         }
       ]
@@ -11251,7 +11256,7 @@
         },
         {
           "id": "giszowiec-40-466-katowice",
-          "name": "Giszowiec, 40-466 Katowice",
+          "name": "Giszowiec",
           "description": "W Giszowcu, urokliwej dzielnicy Katowic, znajduje się niezwykle ciekawa osada robotnicza z charakterystycznymi czerwonymi dachami i ceglanymi fasadami. To miejsce, pełne uroku i historii, jest żywym świadectwem przemysłowej przeszłości regionu.",
           "latitude": 50.22203421668243,
           "longitude": 19.06841182222972,
@@ -11882,8 +11887,9 @@
           "longitude": 17.376609848859154,
           "address": "Dingač Zaškolj 31A, 20244, Pijavičino, Croatia",
           "country": "Chorwacja",
-          "type": "other",
-          "websiteUrl": "",
+          "type": "hotel",
+          "image": "https://c-europa.com/wp-content/uploads/2021/03/sk-aerial.png",
+          "websiteUrl": "https://www.airbnb.pl/rooms/850059279324384914",
           "GoogleMapsLink": "https://maps.app.goo.gl/s9mYHkcz1zUw722b8"
         },
         {
@@ -13356,8 +13362,8 @@
           "longitude": 17.951692116351094,
           "address": "RW2R+8G Veda, Sweden",
           "country": "Szwecja",
-          "type": "restaurant",
-          "websiteUrl": "",
+          "type": "hotel",
+          "websiteUrl": "http://www.hotellhoga-kusten.se/",
           "GoogleMapsLink": "https://maps.app.goo.gl/JSCoVH38DvpLssbaA"
         },
         {
@@ -13537,7 +13543,8 @@
           "longitude": 20.169809426902336,
           "address": "Pogorzany 314, 34-623, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "hotel",
+          "image": "https://e-turysta.pl/zdjecia/webp-q85-v2/galeria-glowna/w340h255/157/1746993422/Sosnowka-Sierakow-1575950.webp",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/ZsJy7GWyqEqXvjyb7"
         },
@@ -14071,14 +14078,15 @@
         },
         {
           "id": "browar-fortuna-sp-z-o-o",
-          "name": "Browar Fortuna Sp. z o.o.",
+          "name": "Browar Fortuna",
           "description": "Bardzo znany browar wywodzący się z Miłosławia. Wielu rodzajów, od codziennych, po wykwintne specjały.",
           "latitude": 52.20540842999674,
           "longitude": 17.48890942912712,
           "address": "Pałczyńska 1, 62-320 Miłosław, Poland",
           "country": "Polska",
-          "type": "other",
-          "websiteUrl": "",
+          "type": "shopping",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/65/Browar_Fortuna.jpg",
+          "websiteUrl": "http://browarfortuna.pl/",
           "GoogleMapsLink": "https://maps.app.goo.gl/u1bTDdCbrS1T3uEH7"
         },
         {
@@ -14461,7 +14469,7 @@
           "longitude": 18.68547401814893,
           "address": "Nikole Tesle 1B, 31315, Karanac, Croatia",
           "country": "Chorwacja",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/D4XfzXTVn9gpoPj26"
         },
