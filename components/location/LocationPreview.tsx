@@ -69,7 +69,8 @@ export function LocationPreview({
         <img
           src={location.image}
           alt={location.name}
-          className="w-full h-36 object-cover block"
+          className="w-full h-36 object-cover block cursor-pointer"
+          onClick={onOpenDetails}
         />
       )}
 
