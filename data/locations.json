@@ -2723,12 +2723,12 @@
         {
           "id": "uaucacau",
           "name": "UauCacau",
-          "description": "W malowniczym Porto, gdzie słońce ślizga się po dachach, a historia szepcze z każdej kamienicy, Robert Makłowicz, z właściwą sobie ciekawością, natrafił na UauCacau – miejsce, gdzie ziarno kakaowca, niegdyś cenne niczym złoto, przechodzi prawdziwą metamorfozę. To nie jest bowiem zwykła czekoladziarnia, lecz raczej alchemiczna pracownia, w której powstają małe arcydzieła, zdolne wywołać uśmiech na najbardziej wymagającym podniebieniu. Kto by pomyślał, że tak prozaiczna przyjemność może być jednocześnie tak wykwintną sztuką?",
+          "description": "W malowniczym Funchal, gdzie słońce ślizga się po dachach, a historia szepcze z każdej kamienicy, Robert Makłowicz, z właściwą sobie ciekawością, natrafił na UauCacau – miejsce, gdzie ziarno kakaowca, niegdyś cenne niczym złoto, przechodzi prawdziwą metamorfozę. To nie jest bowiem zwykła czekoladziarnia, lecz raczej alchemiczna pracownia, w której powstają małe arcydzieła, zdolne wywołać uśmiech na najbardziej wymagającym podniebieniu. Kto by pomyślał, że tak prozaiczna przyjemność może być jednocześnie tak wykwintną sztuką?",
           "latitude": 32.648712177989864,
           "longitude": -16.90862670340794,
           "address": "R. de São Francisco 15, São Martinho, 9000-050 Funchal, Portugal",
           "country": "Portugalia",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "https://www.uaucacau.com/",
           "image": "https://www.findmadeira.pt/wp-content/uploads/2024/03/Uaucacau_4.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/ePJ4KvsVsRbMStmu6"
@@ -2780,7 +2780,7 @@
           "longitude": -16.909356609737056,
           "address": "Av. Arriaga 75, São Martinho, 9000 Funchal, Portugal",
           "country": "Portugalia",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "http://www.happyhourmadeira.com/en",
           "image": "https://visitmadeira.com/media/svzppxa4/happyhour1-happy-hour.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/crGnjUcqno9sJvgN7"
@@ -3105,7 +3105,7 @@
           "longitude": 4.352105835401653,
           "address": "Rue Saint-Géry 15, 1000 Bruxelles, Belgium",
           "country": "Belgia",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "http://www.neuhauschocolates.com/",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/cd/fd/21/corne-port-royal.jpg?w=900&h=-1&s=1",
           "GoogleMapsLink": "https://maps.app.goo.gl/n9PvbqC417BgjiVY7"
@@ -3183,7 +3183,7 @@
           "longitude": 4.114230056112269,
           "address": "Dorpsstraat 64, 1755 Pajottegem, Belgium",
           "country": "Belgia",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "https://www.facebook.com/De.Cam.Pajottenland/",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Decam_03.jpg/1200px-Decam_03.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/6vbjQGcLpbzj4ajv6"
@@ -3512,13 +3512,13 @@
       "locations": [
         {
           "id": "rabehof-oldendorf",
-          "name": "Rabehof Oldendorf,",
+          "name": "Rabehof Oldendorf",
           "description": "W północnych Niemczech, w malowniczym Oldendorfie, Robert Makłowicz natknął się na Rabehof – urokliwy, szachulcowy zespół dworski, którego najstarsze budynki pamiętają rok 1680. To nie lada gratka dla miłośników dawnych czasów, bo ten doskonale zachowany kompleks jest żywym świadectwem wiejskiego życia i rzemiosła, gdzie powietrze zdaje się być przesycone obietnicą solidnego, lokalnego jadła.",
           "latitude": 52.79958739052083,
           "longitude": 10.08559022623755,
           "address": "Örtzheide 2, 29320 Südheide, Germany",
           "country": "Niemcy",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "http://www.rabehof.de/",
           "image": "https://cdn.shopify.com/s/files/1/1070/1486/files/Rabehof_60e18a93-7681-4f89-b31e-1ff3e4f75142_grande.jpg?v=1592305588",
           "GoogleMapsLink": "https://maps.app.goo.gl/9Z9yoUNSWSuPbms3A"
@@ -4674,7 +4674,7 @@
           "longitude": -6.103389843469671,
           "address": "Stable House, Kilruddery Demesne West, Bray, Co. Wicklow, Ireland",
           "country": "Irlandia",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "http://store.killruddery.com/",
           "image": "https://killruddery.com/cdn/shop/files/Farm_Shop_l.jpg?v=1720085822&width=1500",
           "GoogleMapsLink": "https://maps.app.goo.gl/XuA5ocMsgSD9deEA7"
@@ -4739,7 +4739,7 @@
           "longitude": -6.1906694706150684,
           "address": "Powerscourt Estate, Powerscourt Demesne, Enniskerry, Co. Wicklow, A98 A9T7, Ireland",
           "country": "Irlandia",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "http://www.powerscourtdistillery.com/",
           "image": "https://www.thespiritsbusiness.com/content/uploads/2025/08/Powerscourt-Distillery.png",
           "GoogleMapsLink": "https://maps.app.goo.gl/6kCK6iRptWzMuFR3A"
@@ -5622,7 +5622,7 @@
           "longitude": 34.97399882063788,
           "address": "CXPF+4C Aqaba, Jordan",
           "country": "Jordania",
-          "type": "other",
+          "type": "hotel",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/59/f6/96/berenice-beach-club.jpg?w=900&h=500&s=1",
           "GoogleMapsLink": "https://maps.app.goo.gl/ugYsKWc3SyuYzhsN7"
@@ -5673,7 +5673,7 @@
           "longitude": 35.586993308353975,
           "address": "PH9P+MH Swemeh, Jordan",
           "country": "Jordania",
-          "type": "other",
+          "type": "hotel",
           "websiteUrl": "https://www.marriott.com/en-us/hotels/qmdjv-dead-sea-marriott-resort-and-spa/overview/",
           "image": "https://singleflyer.com/wp-content/uploads/2022/07/Marriott_Dead_Sea_29_155512619.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/qUPMpXkaLsfw4hkAA"
@@ -6353,7 +6353,7 @@
           "longitude": 98.82591228390808,
           "address": "2RHC+VC Ao Nang, Mueang Krabi District, Krabi, Thailand",
           "country": "Tajlandia",
-          "type": "other",
+          "type": "hotel",
           "websiteUrl": "http://www.centarahotelsresorts.com/centara/cnk/",
           "image": "https://img.exim.pl/hotels/thajsko/oblast-krabi/krabi/centara-ao-nang-beach-resort-a-spa-krabi/323286a4ad6742a0765b29ef2a260fb3_kbvaona_21.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/yXH61rq3F5SNxVDBA"
@@ -6919,7 +6919,7 @@
           "longitude": -87.40440040224114,
           "address": "7H3V+P5 Dreams Tulum, Quintana Roo, Mexico",
           "country": "Meksyk",
-          "type": "other",
+          "type": "hotel",
           "websiteUrl": "https://www.hyattinclusivecollection.com/en/resorts-hotels/dreams/mexico/tulum-resort-spa/",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/44/c8/81/dreams-tulum-aerial-view.jpg?w=900&h=500&s=1",
           "GoogleMapsLink": "https://maps.app.goo.gl/uoE2sH4iJ2nQrBv18"
@@ -9915,7 +9915,7 @@
           "longitude": 19.31723528647857,
           "address": "Beskidzka 206, 34-120 Targanice, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "hotel",
           "websiteUrl": "https://www.kocierz.pl/",
           "GoogleMapsLink": "https://maps.app.goo.gl/HeEoPiVzxHdp1VL78"
         }
@@ -12474,7 +12474,7 @@
           "longitude": 18.099410982595842,
           "address": "Akacjowa 37, 83-333 Chmielno, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "hotel",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/8RWPNNkj4d8jYZwc9"
         },
