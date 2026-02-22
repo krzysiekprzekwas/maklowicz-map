@@ -83,7 +83,7 @@ const Map: React.FC<MapProps> = React.memo(({
     removeFavouriteLocation,
 }) => {
     const { getIcon } = useIconCache();
-    const [isMobile, setIsMobile] = React.useState(false);
+    const [isMobile, setIsMobile] = React.useState(() => isMobileDevice());
     const [previewPixelPos, setPreviewPixelPos] = React.useState<{ x: number; y: number } | null>(null);
 
     // Ref so marker event closures always see the latest previewLocation
