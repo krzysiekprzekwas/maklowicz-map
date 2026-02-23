@@ -354,9 +354,10 @@
           "longitude": 18.6038625688808,
           "address": "Mikołaja Kopernika 14, 87-100 Toruń, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/39F2ZV6xGiYAog1d9"
+          "type": "museum",
+          "websiteUrl": "https://muzeum.torun.pl/dom-mikolaja-kopernika/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/39F2ZV6xGiYAog1d9",
+          "image": "https://zwiedzajtorun.pl/wp-content/uploads/2019/04/dom-kopernika.jpg"
         },
         {
           "id": "4-pory-roku-restauracja",
@@ -367,8 +368,9 @@
           "address": "Mikołaja Kopernika 6, 87-100 Toruń, Poland",
           "country": "Polska",
           "type": "restaurant",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ndZLfFowbDoTECQ36"
+          "websiteUrl": "http://poryroku.com.pl/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ndZLfFowbDoTECQ36",
+          "image": "/images/4-pory-roku-restauracja.jpg"
         },
         {
           "id": "rejsy-w-toruniu-nasuta-copernicus",
@@ -380,7 +382,8 @@
           "country": "Polska",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/pkeqVjj1tbpSyq8S9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/pkeqVjj1tbpSyq8S9",
+          "image": "https://r.profitroom.pl/copernicustorunhotel/images/attractions/1730908728.Nasuta%20Copernicus.jpg"
         }
       ]
     },
@@ -403,8 +406,9 @@
           "address": "Szczytna 16, 87-100 Toruń, Poland",
           "country": "Polska",
           "type": "museum",
+          "websiteUrl": "https://muzeum.torun.pl/muzeum-torunskiego-piernika/",
           "GoogleMapsLink": "https://maps.app.goo.gl/BJ9snSxF7cX9WFRg7",
-          "websiteUrl": ""
+          "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Muzeum_Toruńskiego_Piernika1.jpg"
         },
         {
           "id": "iga-sarzynska-wzrusza-torun-pierniki-i-czekolada",
@@ -429,7 +433,8 @@
           "country": "Polska",
           "type": "shopping",
           "websiteUrl": "http://www.intekart.pl/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/FCDqehZsx3Z4jFr29"
+          "GoogleMapsLink": "https://maps.app.goo.gl/FCDqehZsx3Z4jFr29",
+          "image": "/images/intek-art-pracownia-witrazy-intek-s-awomir.jpg"
         },
         {
           "id": "spichrz-restauracja-w-toruniu",
@@ -440,8 +445,9 @@
           "address": "Łazienna 4A, 87-100 Toruń, Poland",
           "country": "Polska",
           "type": "restaurant",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/t9pr9vCTodfUmA8v9"
+          "websiteUrl": "https://www.spichrz.pl/restauracja/#karta-menu",
+          "GoogleMapsLink": "https://maps.app.goo.gl/t9pr9vCTodfUmA8v9",
+          "image": "/images/spichrz-restauracja-w-toruniu.jpg"
         }
       ]
     },
@@ -517,7 +523,8 @@
           "country": "Grecja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/SzFCC3tTfRSsmhhA8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/SzFCC3tTfRSsmhhA8",
+          "image": "/images/sama-authentic-samos-cuisine.jpg"
         },
         {
           "id": "metaxa-liknon",
@@ -541,8 +548,9 @@
           "address": "Δεσπότη Κυρίλλου 7, Pithagorio 831 03, Greece",
           "country": "Grecja",
           "type": "restaurant",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/HD6dRYgiiwzZcc699"
+          "websiteUrl": "https://www.facebook.com/Mermizeli/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/HD6dRYgiiwzZcc699",
+          "image": "/images/mermizeli.jpg"
         }
       ]
     },
@@ -578,8 +586,9 @@
           "address": "Satovriandou 44, Athina 104 37, Greece",
           "country": "Grecja",
           "type": "restaurant",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/1SP8H64SBAD9Rf5n8"
+          "websiteUrl": "http://www.stani1931.com/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/1SP8H64SBAD9Rf5n8",
+          "image": "/images/stani.jpg"
         },
         {
           "id": "politechnio-ateny-104-32-grecja",
@@ -603,8 +612,9 @@
           "address": "Koumoundourou 29, Athina 104 37, Greece",
           "country": "Grecja",
           "type": "restaurant",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/VwAuEbWSgUJMRGu39"
+          "websiteUrl": "https://www.lefterisopolitis.gr/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/VwAuEbWSgUJMRGu39",
+          "image": "/images/lefteris-o-politis-est-1951.jpg"
         },
         {
           "id": "loukoumades-ktistakis",
@@ -1155,9 +1165,10 @@
           "longitude": 14.28441299810383,
           "address": "Neugasse 3, 4040 Linz, Austria",
           "country": "Austria",
-          "type": "tourist_attraction",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Nk6F6hfQJD8zqPsD8"
+          "type": "museum",
+          "websiteUrl": "https://ars.electronica.art/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Nk6F6hfQJD8zqPsD8",
+          "image": "/images/ars-electronica.jpg"
         },
         {
           "id": "postlingberg",
@@ -1167,9 +1178,10 @@
           "longitude": 14.258244903391049,
           "address": "Am Pöstlingberg 15, 4040 Linz, Austria",
           "country": "Austria",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ZeA8XVs38cJ7XEPa7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZeA8XVs38cJ7XEPa7",
+          "image": "/images/postlingberg.jpg"
         },
         {
           "id": "die-wirtsleut-im-leopoldistuberl",
@@ -1203,9 +1215,10 @@
           "longitude": 15.290029873265013,
           "address": "Opletalova 178, Šipší, 284 01 Kutná Hora-Kutná Hora 1, Czechia",
           "country": "Czechy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/vK11ViZVWHgSaPRn8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/vK11ViZVWHgSaPRn8",
+          "image": "/images/katedra-wniebowziecia-nmp-i-sw-jana-chrzciciela.jpg"
         },
         {
           "id": "kaplica-czaszek-w-kutnej-horze",
@@ -1215,21 +1228,23 @@
           "longitude": 15.28795198584228,
           "address": "Starosedlecká 72, Sedlec, 284 03 Kutná Hora-Kutná Hora 3, Czechia",
           "country": "Czechy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/zY7gm1VK1NbyBxcy6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/zY7gm1VK1NbyBxcy6",
+          "image": "/images/kaplica-czaszek-w-kutnej-horze.jpg"
         },
         {
           "id": "the-fortress-malesov",
-          "name": "The fortress Malešov",
-          "description": "Mała twierdza niegdyś bogatego rodu Ruthardów, pełniąca też role faularną w grze Kingdom Come: Deliverance.",
+          "name": "Twierdza Malešov",
+          "description": "Mała twierdza niegdyś bogatego rodu Ruthardów, pełniąca też role fabularną w grze Kingdom Come: Deliverance.",
           "latitude": 49.91099567708513,
           "longitude": 15.221202749572017,
           "address": "Žižkovo nám. 54, 285 41 Malešov, Czechia",
           "country": "Czechy",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/mX7LRdnFEC36JfFp9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/mX7LRdnFEC36JfFp9",
+          "image": "/images/the-fortress-malesov.jpg"
         },
         {
           "id": "malesov-craft-brewery",
@@ -1287,9 +1302,10 @@
           "longitude": 15.266865824274701,
           "address": "Rakova 682, Vnitřní Město, 284 01 Kutná Hora-Kutná Hora 1, Czechia",
           "country": "Czechy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/fPVnPjbRJxbQ8wa7A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/fPVnPjbRJxbQ8wa7A",
+          "image": "/images/kolumna-niepokalanej-maryi-panny-w-kutnej-horze.jpg"
         },
         {
           "id": "hradek",
@@ -1299,9 +1315,10 @@
           "longitude": 15.265253802461805,
           "address": "Kremnická 115/6, 284 01 Kutná Hora-Kutná Hora 1, Czechia",
           "country": "Czechy",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/HqkPqwJsxaU9JEth7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/HqkPqwJsxaU9JEth7",
+          "image": "/images/hradek.jpg"
         },
         {
           "id": "restaurace-dacicky",
@@ -1323,9 +1340,10 @@
           "longitude": 15.263257401722441,
           "address": "Vojtěšská 106, 284 01 Kutná Hora-Kutná Hora 1, Czechia",
           "country": "Czechy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/TxCybo14KXhKvvzPA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/TxCybo14KXhKvvzPA",
+          "image": "/images/koscio-swietej-barbary.jpg"
         },
         {
           "id": "dwor-w-oski",
@@ -1335,9 +1353,10 @@
           "longitude": 15.268319234502092,
           "address": "Jakubská 562, 284 01 Kutná Hora-Kutná Hora 1, Czechia",
           "country": "Czechy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/VYfjtvCWYwZhaUjT6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/VYfjtvCWYwZhaUjT6",
+          "image": "/images/dwor-w-oski.jpg"
         },
         {
           "id": "wine-cellars-kutna-hora",
@@ -1378,14 +1397,15 @@
         {
           "id": "fca-poland-s-a",
           "name": "FCA Poland S.A",
-          "description": "Fabryka produkująca auta z koncernu Stelantis. Między innymimarki Fiat, Alfa Romeo i Lancia.",
+          "description": "Fabryka produkująca auta z koncernu Stelantis. Między innymi marek Fiat, Alfa Romeo i Lancia.",
           "latitude": 50.10736173369971,
           "longitude": 19.076833049066376,
           "address": "4338+MC, 43-109 Tychy, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/gHGtnAhWJ7hWp3T6A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/gHGtnAhWJ7hWp3T6A",
+          "image": "/images/fca-poland-s-a.jpg"
         },
         {
           "id": "la-fontana-pizza-napoletana",
@@ -2487,8 +2507,9 @@
           "address": "B59, Quatre Cocos, Mauritius",
           "country": "Mauritius",
           "type": "hotel",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/iY9GS9Zj5v8Vcdpq5"
+          "websiteUrl": "https://searesortshotels.com/seasense/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/iY9GS9Zj5v8Vcdpq5",
+          "image": "/images/seasense-boutique-hotel-spa.jpg"
         },
         {
           "id": "la-cambuse-public-beach",
