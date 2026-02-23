@@ -975,15 +975,16 @@
       "locations": [
         {
           "id": "lacanche-fourneaux-de-france",
-          "name": "Lacanche : Fourneaux de France",
+          "name": "Lacanche: Fourneaux de France",
           "description": "Producent jednych z najbardziej prestiżowych piecy kuchennych.",
           "latitude": 47.07559940007648,
           "longitude": 4.559230935731851,
           "address": "6 Rue Hubert Coste, 21230 Lacanche, France",
           "country": "Francja",
           "type": "shopping",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/LZZcs8o8u11kBsvo8"
+          "websiteUrl": "http://www.lacanche.fr/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/LZZcs8o8u11kBsvo8",
+          "image": "/images/lacanche-fourneaux-de-france.jpg"
         },
         {
           "id": "katedra-sw-azarza-w-autun",
@@ -1512,9 +1513,10 @@
           "longitude": 16.997920273292404,
           "address": "Splitska 27, Livno, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "other",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/qdHoRh49JjtjuzW29"
+          "type": "shopping",
+          "websiteUrl": "http://www.mljekaralivno.com/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/qdHoRh49JjtjuzW29",
+          "image": "/images/mljekara-livno.jpg"
         },
         {
           "id": "eko-sir-pu-a",
@@ -1524,9 +1526,10 @@
           "longitude": 17.01521886762027,
           "address": "Bilo Polje, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "other",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/1gfrr2qxfbSYTBkR9"
+          "type": "shopping",
+          "websiteUrl": "http://livanjskisir.com/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/1gfrr2qxfbSYTBkR9",
+          "image": "/images/eko-sir-pu-a.jpg"
         },
         {
           "id": "libro-restaurant",
@@ -1572,8 +1575,9 @@
           "address": "Via Lungomare, N.G/2, Via Lungomare, 2, 98050 Santa Marina Salina ME, Italy",
           "country": "Włochy",
           "type": "other",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/UzSYsrwEMqgAfncH6"
+          "websiteUrl": "http://www.marinasalina.com/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/UzSYsrwEMqgAfncH6",
+          "image": "/images/santa-marina-salina-port.jpg"
         },
         {
           "id": "da-alfredo",
@@ -2519,9 +2523,10 @@
           "longitude": 57.69949115119449,
           "address": "Marine Training Establishment Barrack, Mahebourg, Mauritius",
           "country": "Mauritius",
-          "type": "restaurant",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/KUWL3ophC1N792rEA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/KUWL3ophC1N792rEA",
+          "image": "/images/la-cambuse-public-beach.jpg"
         },
         {
           "id": "coco-de-la-cambuse",
@@ -7789,10 +7794,10 @@
           "longitude": 19.495850971681506,
           "address": "7CHR+MV Durrës, Albania",
           "country": "Albania",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "image": "https://albaniannight.com/wp-content/uploads/2025/02/Golem-Beach-scaled.jpeg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/P4xGYmSwhgjvbZHG8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/P4xGYmSwhgjvbZHG8",
+          "image": "https://albaniannight.com/wp-content/uploads/2025/02/Golem-Beach-scaled.jpeg"
         },
         {
           "id": "most-gorica",
@@ -9279,15 +9284,16 @@
         },
         {
           "id": "monument-to-adam-mickiewicz",
-          "name": "Monument to Adam Mickiewicz",
+          "name": "Pomnik Adama Mickiewicza w Wilnie",
           "description": "Oto w Wilnie pomnik Adama Mickiewicza, który wzniesiono w 1984 roku – miejsce o szczególnym znaczeniu, gdzie czuć ducha wspólnej historii. Ten monument to symbol łączący narody, równie solidny i trwały jak smak dobrze upieczonego kibina, który zaspokoi nie tylko głód, ale i ciekawość świata. Przechodząc obok, trudno nie pomyśleć o wieszczu i bogactwie tej ziemi.",
           "latitude": 54.68276407903973,
           "longitude": 25.293201580255698,
           "address": "Literatų g. 9, Vilnius, 01125 Vilniaus m. sav., Lithuania",
           "country": "Litwa",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/rHdGCpUde3rpTkCP8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/rHdGCpUde3rpTkCP8",
+          "image": "/images/monument-to-adam-mickiewicz.jpg"
         },
         {
           "id": "church-of-st-francis-of-assisi",
@@ -9591,7 +9597,8 @@
           "country": "Chorwacja",
           "type": "shopping",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/G6h2hNVgUJvgwztt5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/G6h2hNVgUJvgwztt5",
+          "image": "/images/opg-happy-citrus.jpg"
         },
         {
           "id": "muzej-vinarstva-putnikovici",
@@ -9625,9 +9632,10 @@
           "longitude": 17.17412759598577,
           "address": "Ul. Bana Josipa Jelačića 18, 20250, Orebić, Croatia",
           "country": "Chorwacja",
-          "type": "other",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/NRVHHuBqtT3zR58E7"
+          "type": "tourist_attraction",
+          "websiteUrl": "http://www.peliskajedra.hr/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/NRVHHuBqtT3zR58E7",
+          "image": "/images/port-orebic.jpg"
         },
         {
           "id": "heritage-hotel-adriatic-adults-only",
@@ -9686,8 +9694,9 @@
           "address": "77R2+7M Liganj, Croatia",
           "country": "Chorwacja",
           "type": "hotel",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/RTAYN9SeGnvspsWk9"
+          "websiteUrl": "https://hotel-lovran.hr/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/RTAYN9SeGnvspsWk9",
+          "image": "/images/hotel-lovran.jpg"
         },
         {
           "id": "willa-atlanta",
@@ -10072,9 +10081,10 @@
           "longitude": 19.947615698863267,
           "address": "QWXW+P9 Myślenice, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ga1kRW8XvrB8ck6W6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ga1kRW8XvrB8ck6W6",
+          "image": "/images/trasa-zjazdowa-che-m-myslenice-singletracks.jpg"
         }
       ]
     },
@@ -10408,9 +10418,10 @@
           "longitude": 12.38971364803966,
           "address": "Via Fratelli Pellas, 73, 06121 Perugia PG, Italy",
           "country": "Włochy",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/fPr2zPUUQoYh9oLa9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/fPr2zPUUQoYh9oLa9",
+          "image": "/images/parking-piazzale-europa.jpg"
         },
         {
           "id": "rocca-paolina",
@@ -10650,9 +10661,10 @@
           "longitude": 19.04485493125308,
           "address": "Pszenna 18, 43-303 Bielsko-Biała, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/e7hqwUiot7mt1YhaA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/e7hqwUiot7mt1YhaA",
+          "image": "/images/bielsko-bia-a-g-owna.jpg"
         },
         {
           "id": "pomnik-jana-nepomucena-w-bielsku-bia-ej",
@@ -10726,9 +10738,10 @@
           "longitude": 19.047984243972653,
           "address": "11 Listopada 11, 43-300 Bielsko-Biała, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/3Bkvf14g5woYhcEH6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/3Bkvf14g5woYhcEH6",
+          "image": "/images/most-miedzy-bielskiem-i-bia-a.jpg"
         },
         {
           "id": "pomnik-don-pedra-z-krainy-deszczowcow-i-myping",
@@ -10751,9 +10764,10 @@
           "longitude": 19.052264257487373,
           "address": "Bohaterów Warszawy 20A, 43-300 Bielsko-Biała, Poland",
           "country": "Polska",
-          "type": "other",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/fycgH8pnmE2V3egj8"
+          "type": "tourist_attraction",
+          "websiteUrl": "http://www.panbrzytwa.com/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/fycgH8pnmE2V3egj8",
+          "image": "/images/pan-brzytwa-barber-shop.jpg"
         },
         {
           "id": "schronisko-na-stecowce",
@@ -10812,9 +10826,10 @@
           "longitude": 18.626958901370298,
           "address": "Zamkowa 4, 43-400 Cieszyn, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ERjnQcPFmkHDixLVA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ERjnQcPFmkHDixLVA",
+          "image": "/images/most-przyjazni.jpg"
         },
         {
           "id": "pa-ac-mysliwski-habsburgow-w-cieszynie",
@@ -11147,9 +11162,10 @@
           "longitude": 16.536671828022044,
           "address": "Kaschauerpl. 29, 1220 Wien, Austria",
           "country": "Austria",
-          "type": "other",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/BNNrMwfmiZaWVUrUA"
+          "type": "shopping",
+          "websiteUrl": "http://www.bluen.at/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/BNNrMwfmiZaWVUrUA",
+          "image": "/images/blun.jpg"
         },
         {
           "id": "cafe-landtmann",
@@ -12937,15 +12953,16 @@
         },
         {
           "id": "harbour-of-hvar",
-          "name": "Harbour of Hvar",
+          "name": "Port pieszy Hvar",
           "description": "Port promu pieszego na wyspie Hvar. Samochodowy jest na drugiej stronie wyspy.",
           "latitude": 43.17006427104812,
           "longitude": 16.441103705303775,
           "address": "Hvar, Hvar, Croatia",
           "country": "Chorwacja",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/6vph89yNJp5or91JA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/6vph89yNJp5or91JA",
+          "image": "/images/harbour-of-hvar.jpg"
         },
         {
           "id": "hvar-theatre",
@@ -12955,9 +12972,10 @@
           "longitude": 16.441743176462385,
           "address": "S. Buzolić Tome 15, 21450, Hvar, Croatia",
           "country": "Chorwacja",
-          "type": "other",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/QETnBZhTxDXPaYXo8"
+          "type": "art_culture",
+          "websiteUrl": "https://www.hvarheritage.com/en/cultural-heritage/historic-theatre",
+          "GoogleMapsLink": "https://maps.app.goo.gl/QETnBZhTxDXPaYXo8",
+          "image": "/images/hvar-theatre.jpg"
         },
         {
           "id": "twierdza-hiszpanska",
@@ -13670,14 +13688,15 @@
         {
           "id": "rzeka-raba",
           "name": "Kładka nad Rabą",
-          "description": "Kładka piesza na rzece Raba w Pcimiu",
+          "description": "Widowiskowa kładka piesza szeroko rozwieszona nad rzeką Raba w Pcimiu",
           "latitude": 49.752700188072076,
           "longitude": 19.97276220758543,
           "address": "Pcim 1, 32-431, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/98PRQuFpeXedBx8i9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/98PRQuFpeXedBx8i9",
+          "image": "/images/rzeka-raba.jpg"
         },
         {
           "id": "grzybek-restauracja-noclegi",
@@ -13832,9 +13851,10 @@
           "longitude": 19.950288849290178,
           "address": "Stróża 389, 32-431, Poland",
           "country": "Polska",
-          "type": "other",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/TeoAFg8TSUwGX2Vr8"
+          "type": "tourist_attraction",
+          "websiteUrl": "http://sportarenamyslenice.pl/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/TeoAFg8TSUwGX2Vr8",
+          "image": "/images/stacja-narciarska-che-m-sport-arena-myslenice.jpg"
         },
         {
           "id": "rynek-w-myslenicach",
@@ -14833,9 +14853,10 @@
           "longitude": 16.189312449341198,
           "address": "3582+6F Vis, Croatia",
           "country": "Chorwacja",
-          "type": "other",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/gdnzgxKMjWziwwQW9"
+          "type": "tourist_attraction",
+          "websiteUrl": "http://divingvis.com/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/gdnzgxKMjWziwwQW9",
+          "image": "/images/nautica-vis-diving-center.jpg"
         },
         {
           "id": "raketna-baza-jna-ispred-sklonista-za-podmornicu",
@@ -14955,8 +14976,9 @@
           "address": "Kućište 54, 20267, Kučište, Croatia",
           "country": "Chorwacja",
           "type": "other",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/EDswJrPLo1BnkvjK6"
+          "websiteUrl": "http://www.besurf.pl/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/EDswJrPLo1BnkvjK6",
+          "image": "/images/besurf.jpg"
         },
         {
           "id": "konoba-panorama",
@@ -15234,15 +15256,16 @@
         },
         {
           "id": "peljeski-most-peljesac-bridge",
-          "name": "Pelješki most / Pelješac Bridge",
+          "name": "Pelješki most",
           "description": "Niezwykle ważny geopolitycznie most, który łączy półwysep Pelješac z kontynentem. Ostatecznie pozwolił wejść Chorwacji do strefy Schengen.",
           "latitude": 42.93153553783478,
           "longitude": 17.53574105827281,
           "address": "WGH7+XH Brijesta, Croatia",
           "country": "Chorwacja",
-          "type": "other",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/bSC7UCyfi7VApcts7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/bSC7UCyfi7VApcts7",
+          "image": "/images/peljeski-most-peljesac-bridge.jpg"
         },
         {
           "id": "napoleon-s-path",
@@ -15288,9 +15311,10 @@
           "longitude": 17.174219420908805,
           "address": "25CC+PJ Duba Pelješka, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/t2fDpATj21QwyMy89"
+          "GoogleMapsLink": "https://maps.app.goo.gl/t2fDpATj21QwyMy89",
+          "image": "/images/duba-beach.jpg"
         },
         {
           "id": "seosko-domacinstvo-ficovic",
