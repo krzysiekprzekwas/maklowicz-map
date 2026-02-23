@@ -31,7 +31,7 @@
           "longitude": 55.27968688429323,
           "address": "269 Financial Ctr St - Downtown Dubai - Dubai - United Arab Emirates",
           "country": "Zjednoczone Emiraty Arabskie",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "https://thedubaimall.com",
           "GoogleMapsLink": "https://maps.app.goo.gl/mDgzhWoEH86M7nhQ9",
           "image": "/images/the-dubai-mall.jpg.avif"
@@ -45,6 +45,7 @@
           "address": "12 61B St - Jumeirah - Jumeirah 1 - Dubai - United Arab Emirates",
           "country": "Zjednoczone Emiraty Arabskie",
           "type": "restaurant",
+          "image": "https://www.theworlds50best.com/discovery/filestore/jpg/Orfali-Bros-Bistro-Dubai-UAE%20(1).jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/NsruFnR8gUmtT83BA"
         },
@@ -57,6 +58,7 @@
           "address": "57VF+RHQ - Downtown Dubai - Dubai - United Arab Emirates",
           "country": "Zjednoczone Emiraty Arabskie",
           "type": "restaurant",
+          "image": "https://www.caterermiddleeast.com/2021/06/VwSQyWO9-Time_Out_Market_Dubai_CTME.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/7Nw2KSZH442omyQLA"
         },
@@ -69,6 +71,7 @@
           "address": "57QP+4XF - Business Bay - Dubai - United Arab Emirates",
           "country": "Zjednoczone Emiraty Arabskie",
           "type": "restaurant",
+          "image": "https://www.dorchestercollection.com/media/1bepkzm1/the-lana-veranda-night-view-dorchester-collection-full-size.jpg?rxy=0.5864661654135338%2C0.639981382359786&width=548&height=516&format=webp&rmode=crop",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/CBedV9NbooCT1RK67"
         },
@@ -81,7 +84,8 @@
           "address": "679H+MQ6 - Sheikh Zayed Rd - Trade Centre - Trade Centre 1 - Dubai - United Arab Emirates",
           "country": "Zjednoczone Emiraty Arabskie",
           "type": "museum",
-          "websiteUrl": "",
+          "image": "https://www.maccaferri.com/pl/wp-content/uploads/2023/06/2170_1-27.jpg",
+          "websiteUrl": "https://museumofthefuture.ae/en",
           "GoogleMapsLink": "https://maps.app.goo.gl/QbXEUL5PmbkLHYbQ9"
         },
         {
@@ -93,6 +97,7 @@
           "address": "62 26C St - Jumeirah - Jumeirah 1 - Dubai - United Arab Emirates",
           "country": "Zjednoczone Emiraty Arabskie",
           "type": "restaurant",
+          "image": "https://eatgosee.com/wp-content/uploads/2024/12/Sufret-Maryam-Restaurant-Main-Dining-Table.webp",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/382k6J1kt14wNhSj7"
         },
@@ -105,6 +110,7 @@
           "address": "446H+V2 - The Palm Jumeirah - Dubai - United Arab Emirates",
           "country": "Zjednoczone Emiraty Arabskie",
           "type": "tourist_attraction",
+          "image": "https://www.theviewpalm.ae/sites/default/files/ewkutxqfbcv5yl0mts4k.webp",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/myv6TWG5WAp4vLuS9"
         }
@@ -128,7 +134,10 @@
           "longitude": -75.55561815563627,
           "address": "Vía al Valle del Cocora #Km 2, Salento, Quindío",
           "country": "Kolumbia",
-          "type": "hotel"
+          "type": "hotel",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/5c/da/fe/ecohotel-la-cabana.jpg?w=900&h=-1&s=1",
+          "websiteUrl": "https://www.lacabanaecohotel.com/",
+          "googleMapsLink": "https://maps.app.goo.gl/5bJtH34d1RchZetn9"
         },
         {
           "id": "cafe-jesus-martin",
@@ -138,7 +147,9 @@
           "longitude": -75.57060564387156,
           "address": "Cra. 6a #6-14, Salento, Quindío",
           "country": "Kolumbia",
-          "type": "restaurant"
+          "type": "cafe",
+          "image": "https://media-cdn.tripadvisor.com/media/photo-s/06/7d/01/c0/cafe-jesus-martin.jpg",
+          "googleMapsLink": "https://maps.app.goo.gl/Edi313msqRTcJKVL9"
         }
       ]
     },
@@ -200,7 +211,10 @@
           "longitude": -75.54558463830094,
           "address": "Cl. 26 #10b-78, Getsemaní, Cartagena",
           "country": "Kolumbia",
-          "type": "restaurant"
+          "type": "restaurant",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/b5/f3/bf/painting-wall.jpg?w=500&h=-1&s=1",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/MvrncD6hoR7fq1xt9"
         },
         {
           "id": "rebelion-alma-sabor",
@@ -232,7 +246,10 @@
           "longitude": -75.53927702276529,
           "address": "Cielo mar, La Boquilla, Kartagena",
           "country": "Kolumbia",
-          "type": "tourist_attraction"
+          "type": "art_culture",
+          "image": "https://mustique.co/wp-content/uploads/2025/09/san-felipe-from-air-scaled.jpg",
+          "websiteUrl": "http://fortificacionescartagena.com.co/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/zXPdC3SLWCYbDe5Q8"
         },
         {
           "id": "monumento-torre-del-reloj",
@@ -242,7 +259,10 @@
           "longitude": -75.54921028968327,
           "address": "Boca del Puente, El Centro, Cartagena",
           "country": "Kolumbia",
-          "type": "tourist_attraction"
+          "type": "art_culture",
+          "image": "https://www.visitcartagena.com.co/_next/image?url=%2Fimages%2Fplaces%2Ftorre-reloj.jpg&w=3840&q=75",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/VS1ZKpEywqsTFBDN8"
         },
         {
           "id": "cancha-restaurante-ceviches-sushi",
@@ -253,7 +273,9 @@
           "address": "CCGR+7Q Turbaco, Bolivar, Colombia",
           "country": "Kolumbia",
           "type": "restaurant",
-          "websiteUrl": ""
+          "image": "https://gaycities-lv.b-cdn.net/listings/originals/restaurants-310542-mar-y-zielo-evlams-7bde2.png?width=318&height=318&aspect_ratio=1:1",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/XLX4WYJzinztnCby6"
         },
         {
           "id": "abaco-libros-y-cafe",
@@ -263,8 +285,10 @@
           "longitude": -75.55127689802752,
           "address": "Cl. 36 #2-80, El Centro, Cartagena de Indias, Provincia de Cartagena, Bolívar",
           "country": "Kolumbia",
-          "type": "restaurant",
-          "websiteUrl": ""
+          "type": "cafe",
+          "image": "https://www.abacolibros.com/wp-content/uploads/2015/09/abaco.jpg",
+          "websiteUrl": "https://www.abacolibros.com",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Q5GNNs8nxBqNsWPD7"
         },
         {
           "id": "hotel-movich-cartagena-de-indias",
@@ -275,7 +299,9 @@
           "address": "Carrera 2 #32-50, Calle del Triunfo, El Centro, Provincia de Cartagena, Bolívar",
           "country": "Kolumbia",
           "type": "hotel",
-          "websiteUrl": ""
+          "image": "https://www.movichhotels.com/storage/2025/09/movich-ctg-01-1.webp",
+          "websiteUrl": "https://www.movichhotels.com/cartagena",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZXCPp3Q1MeTtWkn28"
         }
       ]
     },
@@ -513,14 +539,15 @@
       "locations": [
         {
           "id": "mokka-specialty-coffee-s-a",
-          "name": "MOKKA SPECIALTY COFFEE S.A.",
+          "name": "Mokka Speciality Coffee",
           "description": "Kawiarnia speciality importująca kawe z Brazylijskiej i Etipijskiej plantacji przygotowywana w tradycyjny sposób, na piasku.",
           "latitude": 37.98074295945915,
           "longitude": 23.727368108991797,
           "address": "Pl. Theatrou 1, Athina 105 52, Greece",
           "country": "Grecja",
-          "type": "restaurant",
-          "websiteUrl": "",
+          "type": "cafe",
+          "image": "https://mindtrip.ai/cdn-cgi/image/format=webp,w=720/https://tcdn.mindtrip.ai/images/252614/1i0w5wp.png",
+          "websiteUrl": "https://mokka.coffee/",
           "GoogleMapsLink": "https://maps.app.goo.gl/agPSJwr9SGHUDqxF9"
         },
         {
@@ -1594,9 +1621,9 @@
           "longitude": 105.6399018,
           "address": "CJ8Q+HX Thi xa Cao Lanh, Dong Thap, Vietnam",
           "country": "Vietnam",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Cầu_Cao_Lãnh.jpg/360px-Cầu_Cao_Lãnh.jpg",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Cầu_Cao_Lãnh.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/UaQ7mDRmLkd5x69e7"
         },
         {
@@ -1620,7 +1647,7 @@
           "longitude": 106.36868097247923,
           "address": "272B Trương Định, Phường 6, Bến Tre, Vietnam",
           "country": "Vietnam",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://caodaibanchinhdao.net/home/thoikykhaidao/",
           "image": "https://scontent.iocvnpt.com/resources/portal/Images/BTE/superadminportal.bte/2024/11_2024/14_11_2024/toa_thanh_cao_dai_11_850404579.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/p8UDp3FKtrChqUNB6"
@@ -1633,7 +1660,7 @@
           "longitude": 106.3763259,
           "address": "3 Đại Lộ Đồng Khởi, Phường 2, Bến Tre, Vietnam",
           "country": "Vietnam",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "",
           "image": "https://global-uploads.webflow.com/60af8c708c6f35480d067652/62a30f18e397a858946a19c5_screenshot_1654853380.png",
           "GoogleMapsLink": "https://maps.app.goo.gl/hPRod38L2gmi1NK97"
@@ -1646,7 +1673,7 @@
           "longitude": 106.37417206912106,
           "address": "879 ấp 2, Phú Nhuận, Bến Tre, Vietnam",
           "country": "Vietnam",
-          "type": "tourist_attraction",
+          "type": "hotel",
           "websiteUrl": "https://www.booking.com/searchresults.pl.html?dest_id=2056737&highlighted_hotels=2056737",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/3a/63/58/caption.jpg?w=900&h=500&s=1",
           "GoogleMapsLink": "https://maps.app.goo.gl/zEv6nz2Ydn3FSx1QA"
@@ -1671,7 +1698,7 @@
           "longitude": 106.46282265196112,
           "address": "4FV6+JH Củ Chi, Ho Chi Minh City, Vietnam",
           "country": "Vietnam",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "",
           "image": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/15/a6/38/49.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/Ydw6QnncXtA1Qj8v7"
@@ -1684,7 +1711,7 @@
           "longitude": 106.45957832346282,
           "address": "4FV6+F4 Củ Chi, Ho Chi Minh City, Vietnam",
           "country": "Vietnam",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "",
           "image": "https://cdn.getyourguide.com/img/tour/b1c330594f1d3ab91f2d15ba91cecebb4c3d091e7db23ad8218f4041edb1634a.jpg/98.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/EV8nX94TZjRkZC1s7"
@@ -1748,7 +1775,7 @@
           "longitude": 106.70155808641546,
           "address": "110 Nguyễn Huệ, Bến Nghé, Quận 1, Thành phố Hồ Chí Minh, Vietnam",
           "country": "Vietnam",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://planetescape.pl//app/uploads/2015/08/Sajgon-Pomnik-Ho-Chi-Minha.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/tn5Stq3adCuUUXBv7"
@@ -1761,7 +1788,7 @@
           "longitude": 106.70316712460055,
           "address": "Nhà Ga Ngầm Nhà Hát Thành Phố, Bến Nghé, Quận 1, Thành phố Hồ Chí Minh, Vietnam",
           "country": "Vietnam",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://ticket-stations.com/a-o-show",
           "image": "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=center,quality=60,width=400,height=265,dpr=2/tour_img/ee3e4d026343b189ebe012a93fbd96be5fac5c0630cdb5557347d846e498c76a.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/qPSUcyh2QJ9T5eDT9"
@@ -1787,7 +1814,7 @@
           "longitude": 106.69990295438153,
           "address": "QMJX+2J3, 05 Công trường Công xã Paris, Bến Nghé, Quận 1, Thành phố Hồ Chí Minh 70000, Vietnam",
           "country": "Vietnam",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://statics.vinpearl.com/sai-gon-central-post-office-02_1675932134.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/Q2oQhuu7igPCiT2KA"
@@ -1813,7 +1840,7 @@
           "longitude": 106.6953235575064,
           "address": "Nhà Văn Hóa Lao Động - Đối Diện Số 138 - Nguyễn Thị Minh Khai, Nguyễn Thị Minh Khai, Phường Bến Thành, Quận 1, Thành phố Hồ Chí Minh, Vietnam",
           "country": "Vietnam",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://www.dinhdoclap.gov.vn/",
           "image": "https://www.theblondtravels.com/wp-content/uploads/2016/06/ho-chi-minh-city-independence-palace-outside-1.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/bgyKUGTyVEZggAsZ8"
@@ -1839,7 +1866,7 @@
           "longitude": 106.70648282843597,
           "address": "88 Đồng Khởi, Bến Nghé, Quận 1, Thành phố Hồ Chí Minh, Vietnam",
           "country": "Vietnam",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/8d/d0/7d/caption.jpg?w=900&h=500&s=1",
           "GoogleMapsLink": "https://maps.app.goo.gl/yJ6rXnKuScTnRK57A"
@@ -1955,7 +1982,7 @@
           "longitude": 103.97158421535583,
           "address": "11 1 Hùng Vương, Dương Đông, Phú Quốc, Kiên Giang, Vietnam",
           "country": "Vietnam",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "http://www.khaihoanphuquoc.com.vn/",
           "image": "https://thuysanvietnam.com.vn/wp-content/uploads/oldsite/thuysanvietnam.com.vn_uploads/article2/baiviet/nuoitrong/nuoc-mam-khai-hoan-02.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/iwvM4oRiDpJoAkT57"
@@ -3168,7 +3195,7 @@
           "longitude": 4.35453591657204,
           "address": "Rue au Beurre 51, 1000 Bruxelles, Belgium",
           "country": "Belgia",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/ac/85/3a/photo2jpg.jpg?w=800&h=500&s=1",
           "GoogleMapsLink": "https://maps.app.goo.gl/qVpYmVfXuSVZ6voY8"
@@ -3992,7 +4019,7 @@
           "longitude": 10.329327417789628,
           "address": "Str. Duomo, 1c, 43121 Parma PR, Italy",
           "country": "Włochy",
-          "type": "restaurant",
+          "type": "cafe",
           "websiteUrl": "",
           "image": "https://www.exibart.com/repository/media/formidable/28/img/8ed/IMG_3411.jpeg",
           "GoogleMapsLink": "https://maps.app.goo.gl/tZnz7KDBigmLyHKp8"
@@ -4442,7 +4469,7 @@
           "longitude": 17.283988493060555,
           "address": "Luka 24, 20240, Trpanj, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
           "image": "https://www.putovnica.net/images/480/382097-trpanj-plaza-luka-istok.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/cpLFXF9Y7ye88tVj9"
@@ -5171,7 +5198,7 @@
           "longitude": 25.45501253581015,
           "address": "Ελασας 28, Ηράκλειο 714 10, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://www.bookingcrete.eu/uploads/tour/destinations/gallery/912ee-lassithi-plateau-windmills.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/oguPpkWa1PXmLNAW9"
@@ -5272,7 +5299,7 @@
           "longitude": 25.13688137661747,
           "address": "ΣΤ. ΓΙΑΜΑΛΑΚΗ ΚΑΙ ΚΑΖΑΝΤΖΑΚΗ, Iraklio 712 02, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://i.redd.it/rocca-a-mare-fortress-heraklion-greece-v0-p2q6ip7398mb1.jpg?width=1024&format=pjpg&auto=webp&s=42261ad9d4354d50e0e15c761465e3452b262173",
           "GoogleMapsLink": "https://maps.app.goo.gl/dtF1XRisAYWTgcYw5"
@@ -5350,7 +5377,7 @@
           "longitude": 25.162781498177278,
           "address": "Πετελιδη 16, Knosos 714 09, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "http://odysseus.culture.gr/h/2/gh251.jsp?obj_id=716",
           "image": "https://tarkawdrodze.pl/wp-content/uploads/2024/12/Palac-minojski.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/dKpUuSrb4SA63EHLA"
@@ -5375,7 +5402,7 @@
           "longitude": 24.471093606289543,
           "address": "9FF5+Q3 Rethimno, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://www.globtroter.pl/zdjecia/grecja/28638_grecja_kreta_rethymno.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/NEYpUg8wJK3EnTg1A"
@@ -5388,7 +5415,7 @@
           "longitude": 24.474639580239582,
           "address": "Μελετίου Μεταξάκη 9, Rethymno 741 31, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://www.crete.pl/zdjecia/Fontanna-Rimondi/fontanna-rimondi2.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/RYuYSpsn8e1SoRj69"
@@ -5414,9 +5441,9 @@
           "longitude": 24.332368218667796,
           "address": "Grekland, Epar.Od. Argiroupolis-Asi Gonias, Lappei 740 55, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "image": "https://talosexpress.com/wp-content/uploads/2024/07/pixelcut-export-4.jpeg",
+          "image": "https://cdn.prod.website-files.com/629e1b4a73d10173b132470b/62e7fda1b1f2c139797d73ae_wycieczki-na-kreta-argyroupolis-cat03.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/3F4jRy9vZF55rDva6"
         },
         {
@@ -5440,7 +5467,7 @@
           "longitude": 24.202988811587318,
           "address": "85XX+R7 Krionerida, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "http://www.dourakiswinery.gr/",
           "image": "https://platanias-taxi.gr/wp-content/uploads/2018/03/111.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/m1k4fz6a8JhAzHZt6"
@@ -5478,7 +5505,7 @@
           "longitude": 24.01672331347377,
           "address": "Gerasimou Pardali 33, Chania 731 31, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://bazagdansk.pl/web_images/72_01.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/U3DzuzLQgMNUbwdU9"
@@ -5491,7 +5518,7 @@
           "longitude": 24.021171687754634,
           "address": "Venetian Neoria, Kallergon 1, Chania 731 32, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://greece.terrabook.com/wp-content/uploads/5/enetika-newria-01.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/qSbM2hx1pK4K9ETC8"
@@ -5504,7 +5531,7 @@
           "longitude": 24.01782676239302,
           "address": "Ag. Markou 8, Chania 731 32, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://live.staticflickr.com/4678/26631460238_d9d3017603_b.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/ZD9FUYgUnKz7UM1V7"
@@ -5517,7 +5544,7 @@
           "longitude": 24.016697884657965,
           "address": "Par. Kondilaki 26, Chania 731 31, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Kreta-Chania05.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/kzTs7bXSsnYQ8mdm7"
@@ -5543,7 +5570,7 @@
           "longitude": 24.023636789207465,
           "address": "Katre 10, Chania 731 32, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "",
           "image": "https://www.west-crete.com/excursion/chania/chania-street-market-13.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/18SxVbij8xgNj2Xq6"
@@ -5556,7 +5583,7 @@
           "longitude": 24.056079012608997,
           "address": "Geor. Simeni 9, Chania 731 33, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://bezkresnepodroze.pl/wp-content/uploads/2020/02/chapel-venizelos-chania-1.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/hZjjHi8gpGhHAvFR9"
@@ -5607,7 +5634,7 @@
           "longitude": 35.39626048206747,
           "address": "M9XW+MM Shakaria, Jordan",
           "country": "Jordania",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://img.atlasobscura.com/HPPWihwF-Pkvy8SsNKSytSYt7ffNtE24OVHKSCMoHG4/rt:fit/w:1200/q:80/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy9teDNj/M2I0eWI2bTFhMGEz/ZDQ1YjVhZTZiZTQz/Yl9SZWZ1cmJpc2hl/ZCBUcmFpbiBpbiBX/YWRpIFJ1bSAxIC0g/TWFyayBJYW5kb2xv/LmpwZw.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/XZjwnwFeFy2cYS5W8"
@@ -5633,9 +5660,9 @@
           "longitude": 35.42235679543926,
           "address": "GC84+P3 Wadi Rum Village, Jordan",
           "country": "Jordania",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "image": "https://whc.unesco.org/uploads/thumbs/site_1377_0024-1200-630-20151105113530.jpg",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Mountain_in_Wadi_Rum%2C_Jordan.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/CZWo7enrNRT2cNob8"
         },
         {
@@ -5646,7 +5673,7 @@
           "longitude": 35.002050846609905,
           "address": "G2C2+GRF, Aqaba, Jordan",
           "country": "Jordania",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/f6/f3/87/aqaba-castle.jpg?w=900&h=500&s=1",
           "GoogleMapsLink": "https://maps.app.goo.gl/aJLx94iMQGj7gnys5"
@@ -5697,7 +5724,7 @@
           "longitude": 35.7262441732379,
           "address": "2PQF+HV4, Pr Hasan Bin Talal St, As-Salt, Jordan",
           "country": "Jordania",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "",
           "image": "https://universes.art/fileadmin/_processed_/4/1/csm_04-IMG_3076-A_0ecf4dbe4a.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/jTCS8Y6r9ZrzNzfR6"
@@ -5736,7 +5763,7 @@
           "longitude": 35.44434077948932,
           "address": "8CHV+9P Uum Sayhoun, Jordan",
           "country": "Jordania",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://www.visitpetra.jo/",
           "image": "https://cdn.galleries.smcloud.net/t/galleries/gf-crAj-LCgq-E7G7_petra-perla-jordanii-cud-swiata-co-warto-o-niej-wiedziec-1920x1080-nocrop.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/uU5761gd4mTfoS4W8"
@@ -5761,7 +5788,7 @@
           "longitude": 35.936521751993794,
           "address": "XW3Q+R3, Amman, Jordan",
           "country": "Jordania",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://i0.wp.com/www.touristjordan.com/wp-content/uploads/2017/12/amman-citadel-jordan-travel.jpg?fit=1805%2C1205&ssl=1",
           "GoogleMapsLink": "https://maps.app.goo.gl/2kVixrdAMuf5tPwG6"
@@ -5774,7 +5801,7 @@
           "longitude": 35.93480074145132,
           "address": "K. Ali Ben Al-Hussein St. 146, Amman, Jordan",
           "country": "Jordania",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://www.worldhistory.org/uploads/images/3542.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/6p59UWjZTqDQ8Vgu5"
@@ -5787,7 +5814,7 @@
           "longitude": 35.93508930935998,
           "address": "K. Ali Ben Al-Hussein St. 146, Amman, Jordan",
           "country": "Jordania",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://universes.art/fileadmin/_processed_/f/1/csm_10-IMG_1434-A_ff66e72636.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/QJEhKMhtfDwcYVWL9"
@@ -5800,7 +5827,7 @@
           "longitude": 35.93513478840269,
           "address": "XW3M+MP9, Amman, Jordan",
           "country": "Jordania",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://thumbs.dreamstime.com/b/ruins-byzantine-church-amman-citadel-jordan-76651557.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/os9e7PMDzQkWWQiD6"
@@ -5813,7 +5840,7 @@
           "longitude": 35.93417472493628,
           "address": "XW3M+MP9, Amman, Jordan",
           "country": "Jordania",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://www.cultech.net/sites/default/files/aa.PNG",
           "GoogleMapsLink": "https://maps.app.goo.gl/Lx5U8mhLg5ShnDEN6"
@@ -5852,7 +5879,7 @@
           "longitude": 35.939283474924196,
           "address": "Basman St 61, Amman, Jordan",
           "country": "Jordania",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "http://roman-amphitheater.blogspot.com/",
           "image": "https://www.globtroter.pl/zdjecia/jordania/b281646_jordania_muhafaza_ma_an_dana.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/4bqN1Z3h5VuJtiEh8"
@@ -5865,7 +5892,7 @@
           "longitude": 35.935232470004664,
           "address": "Rainbow St. 58, Amman, Jordan",
           "country": "Jordania",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "",
           "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Souq_Al-Sukar.png",
           "GoogleMapsLink": "https://maps.app.goo.gl/9PCfwtiAgBTAHZDZ7"
@@ -6042,7 +6069,7 @@
           "longitude": 99.11165744546948,
           "address": "91 Moo 6 Lanta Noi Tambon Ko Lanta Noi, Amphoe Ko Lanta, Chang Wat Krabi 81150, Thailand",
           "country": "Tajlandia",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "https://www.facebook.com/lanta.batik.3",
           "image": "https://images.musement.com/cover/0154/94/thumb_15393508_cover_header.jpg?q=50&fit=crop&auto=format&w=1024&h=400&dpr=1",
           "GoogleMapsLink": "https://maps.app.goo.gl/kviuAyYvvYTuaFvM9"
@@ -6055,7 +6082,7 @@
           "longitude": 99.51534907069347,
           "address": "CG57+456 ถนน รัษฎาอุทิศ 1 Tambon Kantang, Amphoe Kantang, Chang Wat Trang 92110, Thailand",
           "country": "Tajlandia",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
           "image": "https://patricklepetit.jalbum.net/TRANG/PHOTOS/KATANG/The%20first%20rubber%20tree%20in%20Thailand/K0729042_resize.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/Mh6rRakNLpmjA8qQ8"
@@ -6094,7 +6121,7 @@
           "longitude": 99.60983220765785,
           "address": "21 หมู่บ้านปอนด์ทอง 38 ถนน Chingchit, Tambon Thap Thiang, Amphoe Mueang Trang, Chang Wat Trang 92000, Thailand",
           "country": "Tajlandia",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/d5/84/be/caption.jpg?w=1200&h=-1&s=1",
           "GoogleMapsLink": "https://maps.app.goo.gl/wtgHSsUbt6UrQpNUA"
@@ -6145,7 +6172,7 @@
           "longitude": 99.03108798621099,
           "address": "H2QH+H9 Sala Dan, Ko Lanta District, Krabi, Thailand",
           "country": "Tajlandia",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
           "image": "https://media-cdn.tripadvisor.com/media/photo-s/12/49/a2/0f/nui-bay.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/2aAA3L3TiTEFTy3r6"
@@ -6184,7 +6211,7 @@
           "longitude": 99.2039537899599,
           "address": "C58W+PJ Ko Lanta Yai, Ko Lanta District, Krabi, Thailand",
           "country": "Tajlandia",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
           "image": "https://theetstory.blog/wp-content/uploads/2023/04/koh-ngai-25.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/YpH1JQKiVhXQo83c7"
@@ -6261,20 +6288,20 @@
           "longitude": 99.09429449919932,
           "address": "G3JP+HH Ko Lanta Yai, Ko Lanta District, Krabi, Thailand",
           "country": "Tajlandia",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://photos.smugmug.com/KohLantaOldTown/Koh-Lanta-Old-Town/i-v3Q2j7P/0/690x690/Lanta-Old-Town-63-L.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/optvTTLeVru8i5V98"
         },
         {
           "id": "long-beach-koh-lanta",
-          "name": "Long Beach, Koh Lanta",
+          "name": "Koh Lanta Long Beach",
           "description": "A cóż to za miejsce, gdzie horyzont zdaje się nie mieć końca, a piasek delikatnie masuje stopy? Long Beach na Koh Lancie to zaiste kawałek raju, gdzie lokalna kultura splata się z rytmem oceanu, oferując niepowtarzalną symfonię smaków i widoków. Tu, w cieniu palm, podniebienie Pana Roberta z pewnością odnalazłoby nie lada gratkę w postaci świeżych owoców morza, podanych z nutą egzotycznych przypraw, a każdy zachód słońca smakowałby jak najwytworniejszy deser.",
           "latitude": 7.611352818556939,
           "longitude": 99.03126205800947,
           "address": "J26C+H9 Sala Dan, Ko Lanta District, Krabi, Thailand",
           "country": "Tajlandia",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
           "image": "https://www.diveworldwide.com/images/galleries/asia_thailand_koh_lanta_long_beach_chalet_beach_gallery.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/RmT2eDHkZk42E2iD7"
@@ -6312,9 +6339,9 @@
           "longitude": 98.80972277412917,
           "address": "79/52 หาดนพรัตน์ธารา หมู่ 3, ตำบลอ่าวนาง อำเภอเมือง จังหวัดกระบี่, 81000 Tambon Ao Nang, 81180, Thailand",
           "country": "Tajlandia",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "https://www.cktravels.com/wp-content/uploads/2022/12/ao-nang-28.jpg",
-          "image": "",
+          "image": "https://www.weseektravel.com/wp-content/uploads/2024/10/things-to-do-ao-nang-1.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/XjfvMy9g3NgGybgJ9"
         },
         {
@@ -6325,7 +6352,7 @@
           "longitude": 98.83769586219154,
           "address": "2R6H+77 Ao Nang, Mueang Krabi District, Krabi, Thailand",
           "country": "Tajlandia",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
           "image": "https://www.weseektravel.com/wp-content/uploads/2023/04/how-to-get-to-railay-beach-1.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/eH2eGwy76RS66dbs7"
@@ -6338,7 +6365,7 @@
           "longitude": 98.84034105578613,
           "address": "2R4P+3G, Ao Nang, Mueang Krabi District, Krabi 81000, Thailand",
           "country": "Tajlandia",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
           "image": "https://mountain-penguin.com/wp-content/uploads/IMG_4575.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/9cL4HtrPtLKyTL4N9"
@@ -6351,7 +6378,7 @@
           "longitude": 98.83746037497639,
           "address": "2R4M+9M Ao Nang, Mueang Krabi District, Krabi, Thailand",
           "country": "Tajlandia",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
           "image": "https://www.weseektravel.com/wp-content/uploads/2023/04/phra-nang-beach-krabi-1.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/RqkZeq8KkqFxvrNH7"
@@ -6364,7 +6391,7 @@
           "longitude": 98.84025284640171,
           "address": "2R4P+3G, Ao Nang, Mueang Krabi District, Krabi 81000, Thailand",
           "country": "Tajlandia",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://photos.smugmug.com/Thailand/Krabi/i-VC735xr/0/70101574/O/krabi-18.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/mtzK562oTXCR7xXN8"
@@ -9281,7 +9308,8 @@
           "longitude": 25.29560786474506,
           "address": "Bokšto g. 6, 01126 Vilnius, Lithuania",
           "country": "Litwa",
-          "type": "restaurant",
+          "type": "cafe",
+          "image": "https://neakivaizdinis-vilnius-uploads.s3-accelerate.amazonaws.com/2019/04/coffee-1-2017-4.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/vZDFXrda7ub9em36A"
         },
@@ -9389,7 +9417,8 @@
           "longitude": 25.28642491104393,
           "address": "Stiklių g. 7, Vilnius, 01131 Vilniaus m. sav., Lithuania",
           "country": "Litwa",
-          "type": "restaurant",
+          "type": "cafe",
+          "image":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/12/c8/95/lovely-place-for-sweetest.jpg?w=900&h=500&s=1",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/LH69sffmK9Xj4xc88"
         },
@@ -9479,13 +9508,14 @@
       "locations": [
         {
           "id": "winery-violic-m-boris",
-          "name": "Winery Violić M. Boris",
+          "name": "Vinarija Dingač “Pasi”",
           "description": "Rodzinna, pinniczna winiarnia, jedna z pierwszych niezależnych, założona przez \"Indjana\".",
           "latitude": 42.939281705717185,
           "longitude": 17.338030418634744,
           "address": "14, 20244, Potomje, Croatia",
           "country": "Chorwacja",
-          "type": "restaurant",
+          "type": "shopping",
+          "image":"https://www.wish.hr/wp-content/uploads/2019/05/vinski-razgovori-1.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/7W4XupYCVBfrxPDx9"
         },
@@ -9944,7 +9974,8 @@
           "longitude": 19.7159815333027,
           "address": "Lanckorona 490, 34-143, Poland",
           "country": "Polska",
-          "type": "restaurant",
+          "type": "cafe",
+          "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/19/1e/9a/5e/photo0jpg.jpg",
           "websiteUrl": "https://www.arkacafe.pl/",
           "GoogleMapsLink": "https://maps.app.goo.gl/uQq2inCqvBTY431T9"
         },
@@ -10412,8 +10443,9 @@
           "longitude": 12.582597869413751,
           "address": "Strada statale SR316, 06036 Montefalco PG, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
-          "websiteUrl": "",
+          "type": "shopping",
+          "image":"https://cdn.winedering.com/uploads/wineries/1302/big/img0011.jpg.webp?hash=8e30a659c31b53017073692309ab0da1",
+          "websiteUrl": "https://www.cantinascacciadiavoli.it/",
           "GoogleMapsLink": "https://maps.app.goo.gl/srw8bKoEPyc71qjw5"
         }
       ]
@@ -11933,7 +11965,8 @@
           "longitude": 17.346241556884035,
           "address": "X88R+JG Kuna Pelješka, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "shopping",
+          "image":"https://ochorwacji.pl/wp-content/uploads/2024/03/15-768x1024.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/DbvrCJe1yzoZvj349"
         },
@@ -11976,14 +12009,15 @@
         },
         {
           "id": "boutoque-winery-mikulic",
-          "name": "Boutoque Winery Mikulic",
+          "name": "Winiarnia Mikulic",
           "description": "Winnica Boutoque Mikulic to ukryty skarb Chorwacji, gdzie tradycja i nowoczesność splatają się w kieliszkach doskonałego wina, a wszystko to w otoczeniu przepięknej przyrody. Odwiedzający mogą tu spróbować wyjątkowych win, doświadczając gościnności, która jest równie ważna co same trunki.",
           "latitude": 42.97780671110237,
           "longitude": 17.224911476909668,
           "address": "X6HC+4W Stankovići, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
-          "websiteUrl": "",
+          "type": "shopping",
+          "image": "https://www.hoteladriaticorebic.com/wp-content/uploads/2020/11/Boutique-winery-Mikulic-cellars-1024x768.jpg",
+          "websiteUrl": "https://www.adriatic-mikulic.hr/pl/winiarnia-mikulic/",
           "GoogleMapsLink": "https://maps.app.goo.gl/wrGUCSUCAAAX67BH6"
         },
         {
