@@ -135,9 +135,9 @@
           "address": "Vía al Valle del Cocora #Km 2, Salento, Quindío",
           "country": "Kolumbia",
           "type": "hotel",
-          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/5c/da/fe/ecohotel-la-cabana.jpg?w=900&h=-1&s=1",
           "websiteUrl": "https://www.lacabanaecohotel.com/",
-          "googleMapsLink": "https://maps.app.goo.gl/5bJtH34d1RchZetn9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/NJdF1ufuryMAP2ZP7",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/5c/da/fe/ecohotel-la-cabana.jpg?w=900&h=-1&s=1"
         },
         {
           "id": "cafe-jesus-martin",
@@ -148,8 +148,9 @@
           "address": "Cra. 6a #6-14, Salento, Quindío",
           "country": "Kolumbia",
           "type": "cafe",
-          "image": "https://media-cdn.tripadvisor.com/media/photo-s/06/7d/01/c0/cafe-jesus-martin.jpg",
-          "googleMapsLink": "https://maps.app.goo.gl/Edi313msqRTcJKVL9"
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/mEeWcryzU3n3FTsHA",
+          "image": "https://media-cdn.tripadvisor.com/media/photo-s/06/7d/01/c0/cafe-jesus-martin.jpg"
         }
       ]
     },
@@ -171,27 +172,38 @@
           "longitude": -75.55200231202488,
           "address": "Plaza Santo Domingo, Cra. 3 #35-18, Kartagena",
           "country": "Kolumbia",
-          "type": "restaurant"
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/rQDMzXfdM7w2UoLT8",
+          "image": "https://sprudge.com/wp-content/uploads/2022/06/Cafe-San-Alberto-2.jpg"
         },
         {
           "id": "lena-y-carbon",
-          "name": "Leña y Carbon ",
+          "name": "Leña y Carbon",
           "description": "Regianalna kuchnia specjalizująca się w daniach z grilla.",
           "latitude": 10.400848010027762,
           "longitude": -75.55725924118696,
           "address": "Avenida san martin calle 6#6-40, Kartagena",
           "country": "Kolumbia",
-          "type": "restaurant"
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/XkZZRw4ENGqUh8DV6",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/f5/2d/5f/caption.jpg?w=900&h=500&s=1",
+          "character": [],
+          "isFilteredOut": false
         },
         {
           "id": "la-serrezuela",
           "name": "La Serrezuela",
-          "description": "XIX-wieczna budynek początkowo jako miejsce spotkań, potem arena do walk byków, teat, a obecniegaleria handlowa",
+          "description": "XIX-wieczna budynek początkowo jako miejsce spotkań, potem arena do walk byków, teat, a obecnie galeria handlowa",
           "latitude": 10.428583359676724,
           "longitude": -75.54582509799896,
           "address": "Cra. 11 #39-21, San Diego, Kartagena",
           "country": "Kolumbia",
-          "type": "tourist_attraction"
+          "type": "shopping",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/oPtnEtKq3XQigwTo7",
+          "image": "https://tensoestructuras.cidelsa.com/wp-content/uploads/2022/03/la-serrezuela-shopping-mall-cidelsa.jpg"
         },
         {
           "id": "parque-centenario",
@@ -201,7 +213,10 @@
           "longitude": -75.54659471127223,
           "address": "Media, Getsemaní, Cartagena",
           "country": "Kolumbia",
-          "type": "tourist_attraction"
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/GvQDvrJ8HiWC4nXs7",
+          "image": "https://media-cdn.sygictraveldata.com/media/1200x630/612664395a40232133447d33247d3836323436353135"
         },
         {
           "id": "basilica-pizzería-café",
@@ -224,7 +239,10 @@
           "longitude": -75.54438578193484,
           "address": "Cra. 10c #29-02, Getsemaní, Cartagena",
           "country": "Kolumbia",
-          "type": "restaurant"
+          "type": "restaurant",
+          "websiteUrl": "https://www.instagram.com/rebelion_ctg/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/8KgkUUAT5v1EYiRGA",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/18/6f/97/caption.jpg?w=900&h=500&s=1"
         }
       ]
     },
@@ -317,15 +335,16 @@
       "locations": [
         {
           "id": "monka-restauracja-torun-breakfast-bakery-restaurant",
-          "name": "MONKA - Restauracja Toruń - BREAKFAST | BAKERY | RESTAURANT",
+          "name": "MONKA",
           "description": "Restauracja umiejscowiona w dawnym spichlerzu, jednym z niewielu przykładów barokowego budownictwa w Toruniu.",
           "latitude": 53.00848947615667,
           "longitude": 18.602721935161355,
           "address": "al. Jana Pawła II 2, 87-100 Toruń, Poland",
           "country": "Polska",
           "type": "restaurant",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/PY1tx6p7e8o6zfq98"
+          "websiteUrl": "https://monka.com.pl/torun/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/PY1tx6p7e8o6zfq98",
+          "image": "https://monka.com.pl/wp-content/uploads/2025/09/MONKA_8-min.jpg"
         },
         {
           "id": "dom-miko-aja-kopernika",
@@ -445,7 +464,7 @@
           "address": "P258+78, Psili Ammos 831 00, Greece",
           "country": "Grecja",
           "type": "nature",
-          "image":"https://www.destinationcrete.gr//wp-content/uploads/2021/04/eb98abc90c5-1000x576.jpg",
+          "image": "https://www.destinationcrete.gr//wp-content/uploads/2021/04/eb98abc90c5-1000x576.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/269jByprsu9VC3mXA"
         },
@@ -471,7 +490,7 @@
           "address": "MVVR+VR Pithagorio, Greece",
           "country": "Grecja",
           "type": "art_culture",
-          "image" : "https://zwiedzo-maniacy.pl/lib/gm405y/Tunel-mini-min-makrjgcy.jpg",
+          "image": "https://zwiedzo-maniacy.pl/lib/gm405y/Tunel-mini-min-makrjgcy.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/MDpp4QtJ83z2H5Cx7"
         },
@@ -564,7 +583,7 @@
         },
         {
           "id": "politechnio-ateny-104-32-grecja",
-          "name": "Politechnio, Ateny 104 32, Grecja",
+          "name": "Politechnio",
           "description": "Politechnika w Atenach, a w szczególności jej brama tragicznie wpisująca się w historię nowożytnej Grecji po protestach studenckich z roku `73.",
           "latitude": 37.9880280355231,
           "longitude": 23.73059369894865,
@@ -572,7 +591,8 @@
           "country": "Grecja",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/c1D8q2PPqmxDVyJg7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/c1D8q2PPqmxDVyJg7",
+          "image": "https://www.ntua.gr/media/djmediatools/cache/images/home-showcase/1170x460-crop-100-1_averof.jpg"
         },
         {
           "id": "lefteris-o-politis-est-1951",
@@ -633,7 +653,8 @@
           "country": "Grecja",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/mAwoqCaLZRsKaVKp6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/mAwoqCaLZRsKaVKp6",
+          "image": "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=center,quality=60,width=400,height=265,dpr=2/tour_img/86e79466d06627f6522036830fe917826bc5483d52474504a423cd2b72185988.jpg"
         },
         {
           "id": "piraeus-port",
@@ -669,9 +690,9 @@
           "address": "Apostolou Pavlou 9, Athina 118 51, Greece",
           "country": "Grecja",
           "type": "art_culture",
-          "image": "https://chwalazapomniana.pl/wp-content/uploads/2020/03/DSC_1369.jpg",
           "websiteUrl": "",
-          "googleMapsLink": "https://maps.app.goo.gl/WXqmAoJ5D5o2sRAy8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZXKNNLQxjH3P9fZT9",
+          "image": "https://chwalazapomniana.pl/wp-content/uploads/2020/03/DSC_1369.jpg"
         },
         {
           "id": "agora-atenska",
@@ -682,9 +703,9 @@
           "address": "Adrianou 11, Athina 105 55, Greece",
           "country": "Grecja",
           "type": "art_culture",
-          "image": "https://podrozebezosci.pl/wp-content/uploads/2020/01/hefajstejon-swiatynia-hefajstosa-ateny-agora-atenska-starozytna-grecja-zwiedzanie-atrakcje.jpg",
           "websiteUrl": "",
-          "googleMapsLink": "https://maps.app.goo.gl/oipfpsy5JwvjJGMU7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Q7FMKnRSJk3VQuBVA",
+          "image": "https://podrozebezosci.pl/wp-content/uploads/2020/01/hefajstejon-swiatynia-hefajstosa-ateny-agora-atenska-starozytna-grecja-zwiedzanie-atrakcje.jpg"
         },
         {
           "id": "partenon",
@@ -695,9 +716,9 @@
           "address": "Apostolou Pavlou 1, Athina 118 51, Greece",
           "country": "Grecja",
           "type": "art_culture",
-          "image": "https://www.podrozepoeuropie.pl/system/gallery/images/images/000/013/346/large/Partenon-AKROPOL-Ateny.jpg?1583095780",
           "websiteUrl": "",
-          "googleMapsLink": "https://maps.app.goo.gl/TyXY3RjDr9LaHvTn6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/6JYDAZmqPSyXXJYy8",
+          "image": "https://www.podrozepoeuropie.pl/system/gallery/images/images/000/013/346/large/Partenon-AKROPOL-Ateny.jpg?1583095780"
         },
         {
           "id": "centralny-rynek-komunalny-w-atenach",
@@ -709,8 +730,8 @@
           "country": "Grecja",
           "type": "shopping",
           "websiteUrl": "",
-          "image": "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=center,quality=60,width=400,height=265,dpr=2/tour_img/62722debddcdf.png",
-          "googleMapsLink": "https://maps.app.goo.gl/4EvzeQHwke4gYce69"
+          "GoogleMapsLink": "https://maps.app.goo.gl/2YxVXUaCDok2EAEdA",
+          "image": "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=center,quality=60,width=400,height=265,dpr=2/tour_img/62722debddcdf.png"
         },
         {
           "id": "miran-athens",
@@ -721,9 +742,9 @@
           "address": "Evmorfopoulou 8, Athina 105 53, Greece",
           "country": "Grecja",
           "type": "shopping",
-          "image": "https://www.greekgastronomyguide.gr/wp-content/uploads/2015/07/miran-DSC_2072.jpg",
-          "websiteUrl": "",
-          "googleMapsLink": "https://maps.app.goo.gl/ftw547WP8xP2qrrn9"
+          "websiteUrl": "https://www.mirandeli.com/miranathens",
+          "GoogleMapsLink": "https://maps.app.goo.gl/E7qTGtrYvuyAs1ER6",
+          "image": "https://www.greekgastronomyguide.gr/wp-content/uploads/2015/07/miran-DSC_2072.jpg"
         },
         {
           "id": "tavern-klimataria",
@@ -734,9 +755,9 @@
           "address": "Pireos 68A, Athina 104 36, Greece",
           "country": "Grecja",
           "type": "restaurant",
-          "image": "https://www.greekgastronomyguide.gr/wp-content/uploads/2017/12/taverna-klimataria-attiki-DSC_5849-823x549.jpg",
-          "websiteUrl": "",
-          "googleMapsLink": "https://maps.app.goo.gl/57qPt5kvS8mrmbGr6"
+          "websiteUrl": "https://www.klimataria.gr/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/kFH42cyMu7WUhTZ77",
+          "image": "https://www.greekgastronomyguide.gr/wp-content/uploads/2017/12/taverna-klimataria-attiki-DSC_5849-823x549.jpg"
         },
         {
           "id": "monastiraki-square",
@@ -747,9 +768,9 @@
           "address": "Pl. Monastirakiou 10, Athina 105 55, Greece",
           "country": "Grecja",
           "type": "art_culture",
-          "image": "https://as2.ftcdn.net/v2/jpg/02/25/62/93/1000_F_225629353_PSvyIGezpCgEsqLjn8IWlCnVQXWzQDEf.jpg",
           "websiteUrl": "",
-          "googleMapsLink": "https://maps.app.goo.gl/sNvMFPXfWLqUrpFb7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/FtdzRfKk65Wkkous9",
+          "image": "https://as2.ftcdn.net/v2/jpg/02/25/62/93/1000_F_225629353_PSvyIGezpCgEsqLjn8IWlCnVQXWzQDEf.jpg"
         },
         {
           "id": "biblioteka-hadriana",
@@ -760,9 +781,9 @@
           "address": "Stoa Attalou, Athina 105 55, Greece",
           "country": "Grecja",
           "type": "art_culture",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Βιβλιοθήκη_Αδριανού_4165.jpg",
           "websiteUrl": "",
-          "googleMapsLink": "https://maps.app.goo.gl/Bua7Nuh2J5ncyqL6A" 
+          "GoogleMapsLink": "https://maps.app.goo.gl/MX8ui5skbFnVdZy47",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Βιβλιοθήκη_Αδριανού_4165.jpg"
         },
         {
           "id": "dopios",
@@ -773,9 +794,9 @@
           "address": "Vlachava 3, Athina 105 51, Greece",
           "country": "Grecja",
           "type": "restaurant",
-          "image": "https://www.living-postcards.com/sites/default/files/56a4020_0.jpeg",
           "websiteUrl": "https://dopiosrestaurant.gr",
-          "googleMapsLink": "https://maps.app.goo.gl/UuDBgzxMVKYsNGux8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/u8xHZzbiwxTm7br47",
+          "image": "https://www.living-postcards.com/sites/default/files/56a4020_0.jpeg"
         }
       ]
     },
@@ -823,8 +844,9 @@
           "address": "18 Rue Condorcet, 21000 Dijon, France",
           "country": "Francja",
           "type": "art_culture",
-          "image": "https://www.asso-acdn.fr/wp-content/uploads/2023/07/parvis-saint-jean-tdb-credit-vincent-arbel-1024x687.jpg",
-          "websiteUrl": "https://www.tdb-cdn.com/"
+          "websiteUrl": "https://www.tdb-cdn.com/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZHmBYaUzJMnWAjex9",
+          "image": "https://www.asso-acdn.fr/wp-content/uploads/2023/07/parvis-saint-jean-tdb-credit-vincent-arbel-1024x687.jpg"
         },
         {
           "id": "katedra-saint-benigne-w-dijon",
@@ -861,7 +883,7 @@
           "address": "9 Rle Morlot, 21200 Beaune, France",
           "country": "Francja",
           "type": "museum",
-          "image":"https://www.burgundy-tourism.com/uploads/external/c4cb40c34b3f64ab80ee9aac81e9083d-hospices-de-beaune-cour-interieure3-1600x0.jpg",
+          "image": "https://www.burgundy-tourism.com/uploads/external/c4cb40c34b3f64ab80ee9aac81e9083d-hospices-de-beaune-cour-interieure3-1600x0.jpg",
           "websiteUrl": "https://reservation-hoteldieu.hospices-de-beaune.com/",
           "GoogleMapsLink": "https://maps.app.goo.gl/3YnzSRvsddkppxeH8"
         },
@@ -912,7 +934,9 @@
           "address": "10 Chem. des Beveys, 21700 Villars-Fontaine, France",
           "country": "Francja",
           "type": "shopping",
-          "websiteUrl": ""
+          "websiteUrl": "http://www.domainemontmain.com/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/zPYH6h2bpiEL8o2s8",
+          "image": "https://static.wixstatic.com/media/370411_6fc134670bea4f9f88e2e14820003eb4~mv2.jpg/v1/fill/w_640,h_316,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/370411_6fc134670bea4f9f88e2e14820003eb4~mv2.jpg"
         },
         {
           "id": "le-meuzinc",
@@ -923,7 +947,9 @@
           "address": "17 Rte de la Serrée, 21700 Nuits-Saint-Georges, France",
           "country": "Francja",
           "type": "restaurant",
-          "websiteUrl": ""
+          "websiteUrl": "https://www.lemeuzinc.fr/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/46XpRWUFSyTW2jZw9",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/73/92/60/l-arriere-terrasse-du.jpg?w=900&h=500&s=1"
         }
       ]
     },
@@ -1007,9 +1033,10 @@
           "longitude": 14.378607754337525,
           "address": "Brucknerstraße 1, 4490 St. Florian, Austria",
           "country": "Austria",
-          "type": "tourist_attraction",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/g1fXVmuURdqj512c8"
+          "type": "art_culture",
+          "websiteUrl": "https://www.stift-st-florian.at",
+          "GoogleMapsLink": "https://maps.app.goo.gl/g1fXVmuURdqj512c8",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/23/89/38/das-stift-st-florian.jpg?w=1200&h=-1&s=1"
         },
         {
           "id": "hotel-restaurant-am-obstgarten",
@@ -1079,9 +1106,10 @@
           "longitude": 14.286617597125153,
           "address": "Hauptpl. 13, 4020 Linz, Austria",
           "country": "Austria",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/26pTNqdgrYwm3Ypy9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/26pTNqdgrYwm3Ypy9",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Linz_Hauptplatz_mit_WikiEule_2023-4036.jpg/1280px-Linz_Hauptplatz_mit_WikiEule_2023-4036.jpg"
         },
         {
           "id": "leberkas-pepi-linz-rathausgasse",
@@ -2945,7 +2973,7 @@
           "address": "7 Rue des Orfèvres, 67000 Strasbourg, France",
           "country": "Francja",
           "type": "shopping",
-          "image":"https://www.wolfberger.com/wp-content/uploads/2014/10/Wolfberger_Stras_6_2011.jpg",
+          "image": "https://www.wolfberger.com/wp-content/uploads/2014/10/Wolfberger_Stras_6_2011.jpg",
           "websiteUrl": "http://www.wolfberger.com/?utm_source=gmbhttps://www.wolfberger.com/wp-content/uploads/2014/10/Wolfberger_Stras_6_2011.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/ricnkA5X8kNHg1S86"
         },
@@ -3062,7 +3090,7 @@
           "country": "Luksemburg",
           "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://cdn-s-www.republicain-lorrain.fr/images/AF2C62D9-F21B-43F2-9E6C-D1DC38AAD1C3/NW_raw/le-monument-des-accords-date-de-1997-trois-hautes-steles-en-acier-portant-chacune-une-etoile-symbolisent-les-premiers-signataires-du-traite-la-france-l-allemagne-et-les-pays-du-benelux-qui-forment-le-pays-des-trois-frontieres-1507035628.jpg", 
+          "image": "https://cdn-s-www.republicain-lorrain.fr/images/AF2C62D9-F21B-43F2-9E6C-D1DC38AAD1C3/NW_raw/le-monument-des-accords-date-de-1997-trois-hautes-steles-en-acier-portant-chacune-une-etoile-symbolisent-les-premiers-signataires-du-traite-la-france-l-allemagne-et-les-pays-du-benelux-qui-forment-le-pays-des-trois-frontieres-1507035628.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/7TNGDUdVy5amRBBM9"
         },
         {
@@ -9418,7 +9446,7 @@
           "address": "Stiklių g. 7, Vilnius, 01131 Vilniaus m. sav., Lithuania",
           "country": "Litwa",
           "type": "cafe",
-          "image":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/12/c8/95/lovely-place-for-sweetest.jpg?w=900&h=500&s=1",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/12/c8/95/lovely-place-for-sweetest.jpg?w=900&h=500&s=1",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/LH69sffmK9Xj4xc88"
         },
@@ -9515,7 +9543,7 @@
           "address": "14, 20244, Potomje, Croatia",
           "country": "Chorwacja",
           "type": "shopping",
-          "image":"https://www.wish.hr/wp-content/uploads/2019/05/vinski-razgovori-1.jpg",
+          "image": "https://www.wish.hr/wp-content/uploads/2019/05/vinski-razgovori-1.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/7W4XupYCVBfrxPDx9"
         },
@@ -10444,7 +10472,7 @@
           "address": "Strada statale SR316, 06036 Montefalco PG, Italy",
           "country": "Włochy",
           "type": "shopping",
-          "image":"https://cdn.winedering.com/uploads/wineries/1302/big/img0011.jpg.webp?hash=8e30a659c31b53017073692309ab0da1",
+          "image": "https://cdn.winedering.com/uploads/wineries/1302/big/img0011.jpg.webp?hash=8e30a659c31b53017073692309ab0da1",
           "websiteUrl": "https://www.cantinascacciadiavoli.it/",
           "GoogleMapsLink": "https://maps.app.goo.gl/srw8bKoEPyc71qjw5"
         }
@@ -10885,7 +10913,7 @@
           "address": "34RQ+7Q Raciborz, Poland",
           "country": "Polska",
           "type": "art_culture",
-          "image":"https://www.slaskie.travel/Media/Default/.MainStorage/ContentItemDocumentTypeRecord/jacp2lho.1lg/Zamek%20Piastowski%20w%20Raciborzu.JPG",
+          "image": "https://www.slaskie.travel/Media/Default/.MainStorage/ContentItemDocumentTypeRecord/jacp2lho.1lg/Zamek%20Piastowski%20w%20Raciborzu.JPG",
           "websiteUrl": "https://www.zamekpiastowski.pl/dla-zwiedzajacych/godziny-otwarcia",
           "GoogleMapsLink": "https://maps.app.goo.gl/NnX4gXaAnGaCz8Zh8"
         },
@@ -11036,7 +11064,7 @@
           "address": "Lestein 113, 8511 Lemsitz, Austria",
           "country": "Austria",
           "type": "shopping",
-          "image":"https://steiermark.wine/wp-content/uploads/ws_winzer/468/6febd6da-0858-4511-bcbd-39847c2f9dd4@2x.jpg",
+          "image": "https://steiermark.wine/wp-content/uploads/ws_winzer/468/6febd6da-0858-4511-bcbd-39847c2f9dd4@2x.jpg",
           "websiteUrl": "http://trapl-schilcher.at/51/kontakt",
           "GoogleMapsLink": "https://maps.app.goo.gl/on84xgafPwiu8Xmy8"
         }
@@ -11966,7 +11994,7 @@
           "address": "X88R+JG Kuna Pelješka, Croatia",
           "country": "Chorwacja",
           "type": "shopping",
-          "image":"https://ochorwacji.pl/wp-content/uploads/2024/03/15-768x1024.jpg",
+          "image": "https://ochorwacji.pl/wp-content/uploads/2024/03/15-768x1024.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/DbvrCJe1yzoZvj349"
         },
@@ -13052,7 +13080,7 @@
           "address": "Obala kralja Petra Krešimira IV 2, 23000, Zadar, Croatia",
           "country": "Chorwacja",
           "type": "art_culture",
-          "image":"https://mindtrip.ai/cdn-cgi/image/format=webp,w=720/https://images.mindtrip.ai/attractions/0916/bb9a/8641/bc3d/b1ed/f8df/048a/ebdc",
+          "image": "https://mindtrip.ai/cdn-cgi/image/format=webp,w=720/https://images.mindtrip.ai/attractions/0916/bb9a/8641/bc3d/b1ed/f8df/048a/ebdc",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/LBtnd9ietjwdG3xk9"
         },
@@ -13329,7 +13357,7 @@
           "longitude": 22.87041353732386,
           "address": "9V79+8R Turna Mała, Poland",
           "country": "Polska",
-          "type": "ather",
+          "type": "tourist_attraction",
           "image": "https://i.wpimg.pl/420x280/i.nocimg.pl/s12/305/26-kozki-most-kolejowy-we-fronolowie.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/X4XH1b8SC8ujZuJ97"
@@ -13342,7 +13370,8 @@
           "longitude": 23.005986422678138,
           "address": "Szumiłówka 3, 17-330, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
+          "image": "https://lh6.googleusercontent.com/proxy/zrxReM7gttTo_ZXsGcLE5L-F29IIyGJ16klL9g-xDK4_p4WMCLcRzs5jAPPKL09r1bbBqo9QpvFPJXaPm81tYh_TNpF4ykj6",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/Ln5wFmrhZRycbYZu8"
         }
@@ -13492,7 +13521,7 @@
           "address": "Björnås 105, 873 99 Nordingrå, Sweden",
           "country": "Szwecja",
           "type": "hotel",
-          "image":"https://www.hogakusten.com/sites/cb_hogakusten/files/styles/cbis_product_large/http/images.citybreak.com/7060424.jpeg.webp?itok=a2__7OxV",
+          "image": "https://www.hogakusten.com/sites/cb_hogakusten/files/styles/cbis_product_large/http/images.citybreak.com/7060424.jpeg.webp?itok=a2__7OxV",
           "websiteUrl": "https://pelleabergsgarden.se/",
           "GoogleMapsLink": "https://maps.app.goo.gl/awnjVYw8MGnY4M3p8"
         }
