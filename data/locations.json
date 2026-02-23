@@ -626,7 +626,8 @@
           "country": "Grecja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Vwd5vsDT8vgrQrvd8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Vwd5vsDT8vgrQrvd8",
+          "image": "/images/loukoumades-ktistakis.jpg"
         },
         {
           "id": "metaxa-monoprosopi-abe",
@@ -651,7 +652,8 @@
           "country": "Grecja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/z3xPx2atXTchYsFZA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/z3xPx2atXTchYsFZA",
+          "image": "/images/george-of-the-deep-sea.jpg"
         },
         {
           "id": "mikrolimano",
@@ -674,10 +676,10 @@
           "longitude": 23.63842855027811,
           "address": "Piraeus Port, Pireas 185 31, Greece",
           "country": "Grecja",
-          "type": "other",
-          "image": "https://www.greece-is.com/wp-content/uploads/2021/01/limani-02.jpg",
+          "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/czuntxQuZb8BYwpj7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/czuntxQuZb8BYwpj7",
+          "image": "https://www.greece-is.com/wp-content/uploads/2021/01/limani-02.jpg"
         }
       ]
     },
@@ -843,7 +845,8 @@
           "country": "Francja",
           "type": "shopping",
           "websiteUrl": "https://bcommebourgogne.fr/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/G899mBj8PUYV9EGq6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/G899mBj8PUYV9EGq6",
+          "image": "/images/b-comme-bourgogne.jpg"
         },
         {
           "id": "dijon-burgundy-theatre",
@@ -1021,8 +1024,9 @@
           "address": "4 Rue de la Guiguetterie, 21230 Arnay-le-Duc, France",
           "country": "Francja",
           "type": "restaurant",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/EYG6AZXqb3Na76Wn7"
+          "websiteUrl": "https://www.chezcamillearnay.com/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/EYG6AZXqb3Na76Wn7",
+          "image": "/images/hotel-restaurant-chez-camille.jpg"
         }
       ]
     },
@@ -1058,8 +1062,9 @@
           "address": "Gehrenbergstraße 31, 88094 Oberteuringen, Germany",
           "country": "Niemcy",
           "type": "restaurant",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/1r3VQsdxHi4z2rQx7"
+          "websiteUrl": "http://www.am-obstgarten.de/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/1r3VQsdxHi4z2rQx7",
+          "image": "/images/hotel-restaurant-am-obstgarten.jpg"
         },
         {
           "id": "zeppelin-museum-friedrichshafen",
@@ -1070,8 +1075,9 @@
           "address": "Karlstraße 13, 88045 Friedrichshafen, Germany",
           "country": "Niemcy",
           "type": "museum",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/mcFrqmQP1xUCTyfm8"
+          "websiteUrl": "http://www.zeppelin-museum.de/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/mcFrqmQP1xUCTyfm8",
+          "image": "/images/zeppelin-museum-friedrichshafen.jpg"
         },
         {
           "id": "gutsschanke",
@@ -1082,8 +1088,9 @@
           "address": "Seminarstraße 5, 88709 Meersburg, Germany",
           "country": "Niemcy",
           "type": "restaurant",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/tMGiQfXmFtPFSZvR7"
+          "websiteUrl": "http://www.gutsschaenke-meersburg.de/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/tMGiQfXmFtPFSZvR7",
+          "image": "/images/gutsschanke.jpg"
         }
       ]
     },
@@ -1154,9 +1161,10 @@
           "longitude": 14.288367709841006,
           "address": "Hofgasse 23, 4020 Linz, Austria",
           "country": "Austria",
-          "type": "restaurant",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/yNm7wKgQKBqFmTHv6"
+          "type": "cafe",
+          "websiteUrl": "http://www.kuk-hofbaeckerei.at/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/yNm7wKgQKBqFmTHv6",
+          "image": "/images/k-u-k-hofbackerei-cafe.jpg"
         },
         {
           "id": "ars-electronica",
@@ -1574,7 +1582,7 @@
           "longitude": 14.872399560856639,
           "address": "Via Lungomare, N.G/2, Via Lungomare, 2, 98050 Santa Marina Salina ME, Italy",
           "country": "Włochy",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "http://www.marinasalina.com/",
           "GoogleMapsLink": "https://maps.app.goo.gl/UzSYsrwEMqgAfncH6",
           "image": "/images/santa-marina-salina-port.jpg"
@@ -3151,9 +3159,10 @@
           "longitude": 6.1275041,
           "address": "29 Rue Aldringen, 1118 Ville-Haute Luxembourg",
           "country": "Luksemburg",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/iF4j91gGPFvrUjgi6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/iF4j91gGPFvrUjgi6",
+          "image": "/images/statue-of-the-grand-duchess-charlotte.jpg"
         },
         {
           "id": "oberweis-grand-rue",
@@ -3469,10 +3478,10 @@
           "longitude": 17.617794334490007,
           "address": "Tét, Tét, Lesvárpuszta bejárati út, 9100 Hungary",
           "country": "Węgry",
-          "type": "other",
+          "type": "shopping",
           "websiteUrl": "https://www.pecsinger.hu/",
-          "image": "https://pecsinger.hu/wp-content/uploads/2023/02/Borlemente-kep-fooldal.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/sJTabc9qG1ZY4p8H7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/sJTabc9qG1ZY4p8H7",
+          "image": "https://pecsinger.hu/wp-content/uploads/2023/02/Borlemente-kep-fooldal.jpg"
         }
       ]
     },
@@ -4472,10 +4481,10 @@
           "longitude": 15.7802403,
           "address": "QQVJ+33 Vodice, Croatia",
           "country": "Chorwacja",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "",
-          "image": "https://img.adriagate.com/cdn/new/photos/2144073-15/zaton-sibenik-croatia_0_550.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/8tRtRHNZ8sHpgSVCA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/8tRtRHNZ8sHpgSVCA",
+          "image": "https://img.adriagate.com/cdn/new/photos/2144073-15/zaton-sibenik-croatia_0_550.jpg"
         },
         {
           "id": "mlin-montanari",
@@ -6290,10 +6299,10 @@
           "longitude": 99.09912689333602,
           "address": "Highway 4206, Ko Klang, Koh Lanta, Krabi, ตำบล เกาะกลาง อำเภอเกาะลันตา กระบี่ 81120, Thailand",
           "country": "Tajlandia",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "",
-          "image": "https://bangkokattractions.com/wp-content/uploads/2019/05/ao-nang-to-koh-lanta-car-ferry.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/CeHDYLPFxTKjh6Bo7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/CeHDYLPFxTKjh6Bo7",
+          "image": "https://bangkokattractions.com/wp-content/uploads/2019/05/ao-nang-to-koh-lanta-car-ferry.jpg"
         },
         {
           "id": "saturday-market",
@@ -7654,10 +7663,10 @@
           "longitude": 20.681666553370718,
           "address": "JMFJ+G8 Apollonii, Greece",
           "country": "Grecja",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "",
-          "image": "https://s3-eu-west-1.amazonaws.com/zalinga/800x600/fb6ec18e-00b1-4670-a951-e3426cd0d446.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ncmHiZnUfktsKFGE8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ncmHiZnUfktsKFGE8",
+          "image": "https://s3-eu-west-1.amazonaws.com/zalinga/800x600/fb6ec18e-00b1-4670-a951-e3426cd0d446.jpg"
         }
       ]
     },
@@ -7743,10 +7752,10 @@
           "longitude": 20.712014188271894,
           "address": "RJH4+7X Lefkada, Greece",
           "country": "Grecja",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "https://www.d-marin.com/en/marinas/lefkas/?utm_source=googlemybusiness&utm_medium=organic&utm_campaign=lefkas",
-          "image": "https://cdn.dockwalk.com/files/2022/04/ff32a9d0-c626-11ec-b15c-7fce0aafb02a-D-Marin%20Lefkas%20Marina.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/JYuD4YSqB72BrZkbA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/JYuD4YSqB72BrZkbA",
+          "image": "https://cdn.dockwalk.com/files/2022/04/ff32a9d0-c626-11ec-b15c-7fce0aafb02a-D-Marin%20Lefkas%20Marina.jpg"
         },
         {
           "id": "nikos-tavern",
@@ -7781,10 +7790,10 @@
           "longitude": 19.454474545991808,
           "address": "8F63+7V Durrës, Albania",
           "country": "Albania",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "https://www.durresport.al/",
-          "image": "https://euronews.al/en/wp-content/uploads/2024/07/Porti-i-Durresit-1125-1068x635.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Upg66GFuVRNV4kdq6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Upg66GFuVRNV4kdq6",
+          "image": "https://euronews.al/en/wp-content/uploads/2024/07/Porti-i-Durresit-1125-1068x635.jpg"
         },
         {
           "id": "durres-beach",
@@ -7961,10 +7970,10 @@
           "longitude": 16.714536017991527,
           "address": "Obala 4 bb, 20270, Vela Luka, Croatia",
           "country": "Chorwacja",
-          "type": "other",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://images.rtl.hr/media/images/1106xX/Jul2022/cro-3ce7adca-1019-11ed-ac0a-8e19cfbaf23b_794231.jpeg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/nUGvzTxuCLTApEfJA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/nUGvzTxuCLTApEfJA",
+          "image": "https://images.rtl.hr/media/images/1106xX/Jul2022/cro-3ce7adca-1019-11ed-ac0a-8e19cfbaf23b_794231.jpeg"
         },
         {
           "id": "monument-mosaic",
@@ -8743,10 +8752,10 @@
           "longitude": 10.92665814049048,
           "address": "MW5F+QW El Kantara, Tunisia",
           "country": "Tunezja",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSXf0f2hIendGlP7sTicdUWC_trLVXhLxMAg&s",
-          "GoogleMapsLink": "https://maps.app.goo.gl/96NcZ2A1NjaTQuiK8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/96NcZ2A1NjaTQuiK8",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSXf0f2hIendGlP7sTicdUWC_trLVXhLxMAg&s"
         },
         {
           "id": "tataouine-souk-market",
@@ -9038,10 +9047,10 @@
           "longitude": 20.974952319148485,
           "address": "Plac Dworcowy 5, 33-100 Tarnów, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://static.polskieszlaki.pl/zdjecia/turystyka/2021-02/1920_1080/tarnow-170.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/faQAzXTY27qNM4y58"
+          "GoogleMapsLink": "https://maps.app.goo.gl/faQAzXTY27qNM4y58",
+          "image": "https://static.polskieszlaki.pl/zdjecia/turystyka/2021-02/1920_1080/tarnow-170.jpg"
         },
         {
           "id": "galeria-panorama",
@@ -11244,10 +11253,10 @@
           "longitude": 16.511637902567667,
           "address": "Johann-Galler-Straße 14-16, 2120 Wolkersdorf im Weinviertel, Austria",
           "country": "Austria",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "https://www.kotanyi.com/pl/",
-          "image": "https://cms-at.kotanyi.com/wp-content/uploads/2019/05/kotanyi-wolkersdorf-luftaufnahme.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ojy3SxK6KGN8ZbdD7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ojy3SxK6KGN8ZbdD7",
+          "image": "https://cms-at.kotanyi.com/wp-content/uploads/2019/05/kotanyi-wolkersdorf-luftaufnahme.jpg"
         },
         {
           "id": "fuhrgassl-huber-weingut-und-buschenschank",
@@ -12349,10 +12358,10 @@
           "longitude": 18.659750547961895,
           "address": "Chmielna 1, 80-748 Gdańsk, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "https://sportgdansk.pl/obiekty/przystan-jachtowa-marina-gdansk/",
-          "image": "https://sportgdansk.pl/wp-content/uploads/2023/05/marina_szafarnia.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/K9JRCEYxhUJcMHjx5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/K9JRCEYxhUJcMHjx5",
+          "image": "https://sportgdansk.pl/wp-content/uploads/2023/05/marina_szafarnia.jpg"
         },
         {
           "id": "brovarnia-gdansk-i-restauracja-i-browar-w-gdansku",
@@ -12807,10 +12816,10 @@
           "longitude": 15.110241046880272,
           "address": "Veli Iž 192a, 23284, Veli Iž, Croatia",
           "country": "Chorwacja",
-          "type": "other",
-          "image": "https://marine-project.com/wp-content/uploads/2023/01/Marina-Veli-Iz-moorings-for-rent.jpg",
+          "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Re5cfKF8J5aXStXe6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Re5cfKF8J5aXStXe6",
+          "image": "https://marine-project.com/wp-content/uploads/2023/01/Marina-Veli-Iz-moorings-for-rent.jpg"
         },
         {
           "id": "konoba-galija",
@@ -12882,10 +12891,10 @@
           "longitude": 15.592505336909337,
           "address": "RHFQ+M4 Murter, Croatia",
           "country": "Chorwacja",
-          "type": "other",
-          "image": "https://atrea.eu/_files/gallery/4/23_T7Bqcxjx.jpg?resize=1600x",
+          "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/KHdn5dcMUWEuXR8B9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/KHdn5dcMUWEuXR8B9",
+          "image": "https://atrea.eu/_files/gallery/4/23_T7Bqcxjx.jpg?resize=1600x"
         },
         {
           "id": "restoran-mate",
@@ -12931,10 +12940,10 @@
           "longitude": 15.915834752334929,
           "address": "RW57+J2 Bićine, Croatia",
           "country": "Chorwacja",
-          "type": "other",
-          "image": "https://www.malypodroznik.pl/wp-content/uploads/2025/02/most-Krka-TP-1.jpg",
+          "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/KZrzbQitUxYU1tQn9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/KZrzbQitUxYU1tQn9",
+          "image": "https://www.malypodroznik.pl/wp-content/uploads/2025/02/most-Krka-TP-1.jpg"
         },
         {
           "id": "aci-marina-skradin",
@@ -12944,10 +12953,10 @@
           "longitude": 15.918999773301248,
           "address": "RW97+JQ Bićine, Croatia",
           "country": "Chorwacja",
-          "type": "other",
-          "image": "https://aci-marinas.com/wp-content/uploads/2019/11/Dron_Skradin_149.jpg",
+          "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/VJy7PyGJ1GZoCADx8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/VJy7PyGJ1GZoCADx8",
+          "image": "https://aci-marinas.com/wp-content/uploads/2019/11/Dron_Skradin_149.jpg"
         },
         {
           "id": "mate-vino",
@@ -13031,10 +13040,10 @@
           "longitude": 16.467794278582563,
           "address": "Ul. Uvala Stiniva 17, 21450, Brusje, Croatia",
           "country": "Chorwacja",
-          "type": "other",
-          "image": "https://gohvarblog.com/wp-content/uploads/2024/02/vs-4.jpg",
+          "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/sUzmDFMmJLZtJtTg6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/sUzmDFMmJLZtJtTg6",
+          "image": "https://gohvarblog.com/wp-content/uploads/2024/02/vs-4.jpg"
         },
         {
           "id": "underground-yugoslavia-naval-dock",
@@ -13325,10 +13334,10 @@
           "longitude": 23.637560449196236,
           "address": "Słuczanka 42, 16-040, Poland",
           "country": "Polska",
-          "type": "other",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Podlaskie_-_Gródek_-_Słuczanka_20120501_03.JPG",
+          "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/MSrcgeCzR8j8QuLW9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/MSrcgeCzR8j8QuLW9",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Podlaskie_-_Gródek_-_Słuczanka_20120501_03.JPG"
         }
       ]
     },
@@ -14052,10 +14061,10 @@
           "longitude": 17.68955052357352,
           "address": "Miłosławska 11A, 62-310 Pyzdry, Poland",
           "country": "Polska",
-          "type": "other",
-          "image": "https://kierunkowo.pl/wp-content/uploads/2021/08/DSC_6695-3.jpg",
+          "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/N8cDzTMVGpADfTqp7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/N8cDzTMVGpADfTqp7",
+          "image": "https://kierunkowo.pl/wp-content/uploads/2021/08/DSC_6695-3.jpg"
         },
         {
           "id": "bar-perkoz",
@@ -14854,10 +14863,10 @@
           "longitude": 16.18497713990757,
           "address": "Setalište stare, 21480, Vis, Croatia",
           "country": "Chorwacja",
-          "type": "other",
-          "image": "https://blog.ultra-sailing.hr/wp-content/uploads/2022/09/KomizaBay_IslandVis_Croatia.jpg",
+          "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/QQvN4AwmLJ6pNngS6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/QQvN4AwmLJ6pNngS6",
+          "image": "https://blog.ultra-sailing.hr/wp-content/uploads/2022/09/KomizaBay_IslandVis_Croatia.jpg"
         },
         {
           "id": "aerodrom-plisko-polje",
@@ -15043,7 +15052,7 @@
           "longitude": 17.126527056773806,
           "address": "Kućište 54, 20267, Kučište, Croatia",
           "country": "Chorwacja",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "http://www.besurf.pl/",
           "GoogleMapsLink": "https://maps.app.goo.gl/EDswJrPLo1BnkvjK6",
           "image": "/images/besurf.jpg"
@@ -15143,10 +15152,10 @@
           "longitude": 17.17477173907084,
           "address": "Ul. Bana Josipa Jelačića 18, 20250, Orebić, Croatia",
           "country": "Chorwacja",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "",
-          "image": "https://www.korculataxi.com/wp-content/uploads/water-taxi-orebic-korcula101-1024x621.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/sg8pVjeZs1huPbkv8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/sg8pVjeZs1huPbkv8",
+          "image": "https://www.korculataxi.com/wp-content/uploads/water-taxi-orebic-korcula101-1024x621.jpg"
         },
         {
           "id": "korcula-town-gate",
@@ -15202,16 +15211,16 @@
         },
         {
           "id": "loviste-chorwacja",
-          "name": "Lovište, Chorwacja",
+          "name": "Lovište",
           "description": "W Lovište, na samym koniuszku półwyspu Pelješac, Robert Makłowicz odnalazł prawdziwą perłę Adriatyku. To miejsce, gdzie rybackie tradycje splatają się z leniwym rytmem życia, a każdy posiłek – zwłaszcza te z darów morza – smakuje jak opowieść o wiekach spędzonych na falach. Można tu poczuć ducha dawnych, śródziemnomorskich osad, gdzie świeżość składników to świętość, a wino z lokalnych winnic dopełnia kulinarną symfonię.",
           "latitude": 43.023196937343855,
           "longitude": 17.03145549376697,
           "address": "22FH+VP Lovište, Croatia",
           "country": "Chorwacja",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "",
-          "image": "https://i.adriatic.hr/places/262/dalmatia-peljesac-loviste-croatia-1-l.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/AuoyfQqJf5v6kGtp7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/AuoyfQqJf5v6kGtp7",
+          "image": "https://i.adriatic.hr/places/262/dalmatia-peljesac-loviste-croatia-1-l.jpg"
         },
         {
           "id": "bolero-caffe-bar",
@@ -15310,10 +15319,10 @@
           "longitude": 16.442602689404726,
           "address": "FCXP+V4 Split, Croatia",
           "country": "Chorwacja",
-          "type": "other",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Port_of_Split_in_Croatia_%2848608601531%29.jpg",
+          "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/sQcE6XsGRb8yyXZX8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/sQcE6XsGRb8yyXZX8",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Port_of_Split_in_Croatia_%2848608601531%29.jpg"
         },
         {
           "id": "windsurfspot-usce-neretve",
@@ -15544,10 +15553,10 @@
           "longitude": 17.26744566073017,
           "address": "Žalo 30, 20240, Trpanj, Croatia",
           "country": "Chorwacja",
-          "type": "other",
-          "image": "https://www.hrvaska.net/resize1/trpanj_p284.jpg",
+          "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/eQUkP9dDd8yThrRr7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/eQUkP9dDd8yThrRr7",
+          "image": "https://www.hrvaska.net/resize1/trpanj_p284.jpg"
         }
       ]
     },
@@ -15658,10 +15667,10 @@
           "longitude": 17.432987639387513,
           "address": "2CX8+34 Baćina, Croatia",
           "country": "Chorwacja",
-          "type": "other",
-          "image": "https://www.lifeandventures.com/wp-content/uploads/2021/01/what_to_see_in_ploce09-1200x674.jpg",
+          "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/WY7UaAnPAUwrG7y57"
+          "GoogleMapsLink": "https://maps.app.goo.gl/WY7UaAnPAUwrG7y57",
+          "image": "https://www.lifeandventures.com/wp-content/uploads/2021/01/what_to_see_in_ploce09-1200x674.jpg"
         }
       ]
     }
