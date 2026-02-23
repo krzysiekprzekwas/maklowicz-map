@@ -9256,7 +9256,8 @@
           "country": "Litwa",
           "type": "tourist_attraction",
           "websiteUrl": "https://www.balloon.lt/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/jeySMiaiScHbPziE7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/jeySMiaiScHbPziE7",
+          "image": "/images/hot-air-balloons.jpg"
         }
       ]
     },
@@ -9327,9 +9328,10 @@
           "longitude": 25.293506303153002,
           "address": "Užupio g. 3-1, 01200 Vilnius, Lithuania",
           "country": "Litwa",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/PhHp9njshaVTjjhb7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/PhHp9njshaVTjjhb7",
+          "image": "/images/uzupis-gallery.jpg"
         },
         {
           "id": "tibetan-square-vilnius",
@@ -10178,9 +10180,10 @@
           "longitude": 11.876500554928894,
           "address": "Strada Planac, 3, 39033 Corvara in Badia BZ, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/nGSz9SUrPAEuFDJ98"
+          "GoogleMapsLink": "https://maps.app.goo.gl/nGSz9SUrPAEuFDJ98",
+          "image": ""
         },
         {
           "id": "boe-bergbahnen",
@@ -10286,9 +10289,10 @@
           "longitude": 11.95466761368383,
           "address": "PWPX+XX Mareo, Autonomous Province of Bolzano – South Tyrol, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Te8tp3px1TNhuRpF8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Te8tp3px1TNhuRpF8",
+          "image": ""
         }
       ]
     },
@@ -10455,9 +10459,10 @@
           "longitude": 12.388349149259604,
           "address": "Piazza IV Novembre, 5, 06123 Perugia PG, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/1XF2k3UHadLQwQfNA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/1XF2k3UHadLQwQfNA",
+          "image": ""
         },
         {
           "id": "palazzo-dei-priori",
@@ -10863,9 +10868,10 @@
           "longitude": 18.630105017224437,
           "address": "aleja Jana Łyska 1, 43-400 Cieszyn, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/orRccrYoQsDbMugL9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/orRccrYoQsDbMugL9",
+          "image": ""
         },
         {
           "id": "rynek-w-cieszynie",
@@ -11525,9 +11531,10 @@
           "longitude": 17.903365912459773,
           "address": "7W43+P8Q, Blagaj, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ztx9PcRUm6r6hKv5A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ztx9PcRUm6r6hKv5A",
+          "image": ""
         },
         {
           "id": "fajic",
@@ -11549,13 +11556,14 @@
           "longitude": 17.784923728100345,
           "address": "3Q6J+HX Opličići, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/gUVx9myvBaWW6c9z6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/gUVx9myvBaWW6c9z6",
+          "image": ""
         },
         {
           "id": "neum-bosnia-i-hercegowina",
-          "name": "Neum, Bośnia i Hercegowina",
+          "name": "Neum",
           "description": "Neum, morska perła Bośni i Hercegowiny, to urokliwe miasteczko nad Adriatykiem, które od wieków łączy w sobie wpływy wschodnie i zachodnie. Jego stare miasto, otoczone murami obronnymi z czasów osmańskich, skrywa wiele tajemnic i historii, które czekają na odkrycie.",
           "latitude": 42.92488319353119,
           "longitude": 17.614764698042336,
@@ -11563,7 +11571,8 @@
           "country": "Bośnia i Hercegowina",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/p7Y8Gd6xSWdwG4r48"
+          "GoogleMapsLink": "https://maps.app.goo.gl/p7Y8Gd6xSWdwG4r48",
+          "image": ""
         }
       ]
     },
@@ -11591,7 +11600,7 @@
         },
         {
           "id": "travnica-fortress-old-town",
-          "name": "Travnica fortress - Old Town",
+          "name": "Travnica fortress",
           "description": "W twierdzy Travnica, dawnej siedziby bośniackich wezyrów, historia splata się z pięknem architektury, tworząc niepowtarzalny klimat, który przenosi odwiedzających w czasy średniowiecza. Ta XIV-wieczna forteca, stanowiąca świadectwo bogatej przeszłości Bośni i Hercegowiny, zachowała swój urok i dziś jest obowiązkowym punktem w itinerarium każdego, kto chce poczuć ducha historii w tym wyjątkowym zakątku świata.",
           "latitude": 44.230043871215635,
           "longitude": 17.670827133103476,
@@ -11599,11 +11608,12 @@
           "country": "Bośnia i Hercegowina",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/YeHpy7caJAThYGtq6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/YeHpy7caJAThYGtq6",
+          "image": ""
         },
         {
           "id": "sahat-kula-na-musali-m-5-travnik-bosnia-i-hercegowina",
-          "name": "Sahat kula na Musali, M-5, Travnik, Bośnia i Hercegowina",
+          "name": "Sahat kula na Musali",
           "description": "Osmańska wieża zegarowa, która z humorem obserwuje mijające stulecia. Ta oto „kula” - bo tak się ją nazywa w tych stronach - jest nie tylko pięknym przykładem architektury osmańskiej, ale i świadkiem historii Bośni i Hercegowiny, która zostawiła na niej swoje niezatarte piętno.",
           "latitude": 44.22718448265235,
           "longitude": 17.670329787817426,
@@ -11611,7 +11621,8 @@
           "country": "Bośnia i Hercegowina",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/DmseyeeFAiQ5FTee9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/DmseyeeFAiQ5FTee9",
+          "image": ""
         },
         {
           "id": "ornamented-mosque",
@@ -11681,9 +11692,10 @@
           "longitude": 18.427823843858597,
           "address": "Ferhadija 43, Sarajevo 71000, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/MD8gZS17bVz3i2Sc9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/MD8gZS17bVz3i2Sc9",
+          "image": ""
         },
         {
           "id": "rm-tucana-kahva-dibek-no1",
@@ -11717,9 +11729,10 @@
           "longitude": 18.431270133385908,
           "address": "Baščaršija 8, Sarajevo 71000, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/3TEhC7MVN9Z5fTzN9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/3TEhC7MVN9Z5fTzN9",
+          "image": ""
         },
         {
           "id": "cevabdzinica-zeljo",
@@ -11814,9 +11827,10 @@
           "longitude": 18.693470551747094,
           "address": "8MXM+W3 Tjentište, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ysLTwrEsTkpqsWGp9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ysLTwrEsTkpqsWGp9",
+          "image": ""
         },
         {
           "id": "tjentiste-spomenik",
@@ -11826,9 +11840,10 @@
           "longitude": 18.686798216022787,
           "address": "8MWP+CPP, Tjentište, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/diJpAujihgqQEvGT9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/diJpAujihgqQEvGT9",
+          "image": ""
         },
         {
           "id": "braca-kovacevic",
@@ -11850,21 +11865,23 @@
           "longitude": 18.564571473022934,
           "address": "PHQ3+C8 Jahorina, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/aPPE8y6F9TiLFMBT6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/aPPE8y6F9TiLFMBT6",
+          "image": ""
         },
         {
           "id": "jahorina-viewpoint",
           "name": "Jahorina viewpoint",
-          "description": "\" Punkt widokowy Jahorina to miejsce, które zapiera dech w piersiach, a to nie tylko z powodu wysokości - otaczające góry niczym olbrzymie ramiona obejmują dolinę, a panorama rozciągająca się przed oczami jest po prostu olbrzymia. To również miejsce, które pamięta czasy zimowych igrzysk olimpijskich w 1984 roku, kiedy to Jahorina gościła najlepszych narciarzy świata.\"",
+          "description": "Punkt widokowy Jahorina to miejsce, które zapiera dech w piersiach, a to nie tylko z powodu wysokości - otaczające góry niczym olbrzymie ramiona obejmują dolinę, a panorama rozciągająca się przed oczami jest po prostu olbrzymia. To również miejsce, które pamięta czasy zimowych igrzysk olimpijskich w 1984 roku, kiedy to Jahorina gościła najlepszych narciarzy świata.",
           "latitude": 43.693970329095684,
           "longitude": 18.590008854711925,
           "address": "MHVQ+MX Hamzići, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/TnBy587hHew8BRft6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/TnBy587hHew8BRft6",
+          "image": ""
         },
         {
           "id": "turkuaz",
@@ -11904,15 +11921,16 @@
         },
         {
           "id": "radimlja-stecak-tombstones-unesco",
-          "name": "Radimlja STEĆAK TOMBSTONES (UNESCO)",
+          "name": "Radimlja STEĆAK TOMBSTONES",
           "description": "Wpisane na Listę Światowego Dziedzictwa UNESCO, średniowieczne nagrobki, które od wieków opowiadają historię Bośni i Hercegowiny. Te misterne kamienie, ozdobione symbolami i napisami, są nie tylko świadectwem historii, ale również nośnikiem tajemniczej atmosfery tego miejsca.",
           "latitude": 43.0925549876182,
           "longitude": 17.923285496302857,
           "address": "3WV9+28 Poprati, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/X5yLVwcxg1HXYNiK7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/X5yLVwcxg1HXYNiK7",
+          "image": ""
         },
         {
           "id": "ljetnikovac-sisic",
@@ -12018,9 +12036,10 @@
           "longitude": 17.34734877276661,
           "address": "X8CW+PW, 20243, Kuna Pelješka, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/RKtWg82KHgqZhBKZ9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/RKtWg82KHgqZhBKZ9",
+          "image": ""
         },
         {
           "id": "wine-spaleta",
@@ -12043,9 +12062,10 @@
           "longitude": 17.338341992785935,
           "address": "8, 20244, Potomje, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/9uF4KZdfZZYBHWsv6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/9uF4KZdfZZYBHWsv6",
+          "image": ""
         },
         {
           "id": "skaramuca-village",
@@ -12068,9 +12088,10 @@
           "longitude": 17.36524701658086,
           "address": "Donje Pijavičino 8, 20244, Pijavičino, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Vwskwv81snKLkgrb9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Vwskwv81snKLkgrb9",
+          "image": ""
         },
         {
           "id": "boutoque-winery-mikulic",
@@ -12201,9 +12222,10 @@
           "longitude": 16.925608025874322,
           "address": "6WMC+JR Rogalin, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/J5q9QkbXiHZiVzsB6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/J5q9QkbXiHZiVzsB6",
+          "image": ""
         },
         {
           "id": "zamek-w-korniku",
@@ -12225,9 +12247,10 @@
           "longitude": 17.092171856332275,
           "address": "Zamkowa 5, 62-035 Kórnik, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/tveXw8bFAhXeEFY59"
+          "GoogleMapsLink": "https://maps.app.goo.gl/tveXw8bFAhXeEFY59",
+          "image": ""
         },
         {
           "id": "wyspa-edwarda",
@@ -12237,9 +12260,10 @@
           "longitude": 17.163633320286234,
           "address": "45X6+57 Zaniemyśl, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/8mduqm8KyCEq4Zjy9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/8mduqm8KyCEq4Zjy9",
+          "image": ""
         },
         {
           "id": "restauracja-pozytywka",
@@ -12255,7 +12279,7 @@
         },
         {
           "id": "sredzka-kolej-powiatowa-waskotorowa-stacja-zaniemysl",
-          "name": "Średzka Kolej Powiatowa, Wąskotorowa, Stacja Zaniemyśl",
+          "name": "Średzka Kolej Powiatowa, Stacja Zaniemyśl",
           "description": "W Średzkiej Kolei Powiatowej, Wąskotorowej, Stacji Zaniemyśl, podróżni mogą przenieść się w czasie do ery parowozów i odkryć urok zapomnianych kolei wąskotorowych. Ta niewielka stacja, powstała w 1903 roku, kryje w sobie nie tylko historyczne znaczenie, ale i wyjątkowy klimat, który koniecznie trzeba odczuć osobiście.",
           "latitude": 52.15847343843969,
           "longitude": 17.15938648670153,
@@ -12263,7 +12287,8 @@
           "country": "Polska",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/gYQRPEHKhRGWQpHk9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/gYQRPEHKhRGWQpHk9",
+          "image": ""
         }
       ]
     },
@@ -12500,7 +12525,8 @@
           "country": "Polska",
           "type": "tourist_attraction",
           "websiteUrl": "https://k5.com.pl",
-          "GoogleMapsLink": "https://maps.app.goo.gl/2rv22hi4kr8vkKuFA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/2rv22hi4kr8vkKuFA",
+          "image": "/images/k5-akademia-kulinarna.jpg"
         }
       ]
     },
@@ -12522,9 +12548,10 @@
           "longitude": 17.409500763496677,
           "address": "P8XG+3J Smołdziński Las, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/5LxbHzfrgvjLv6sG7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/5LxbHzfrgvjLv6sG7",
+          "image": ""
         },
         {
           "id": "meduza-wedzarnia-ryb-przysiecki-z",
@@ -12546,9 +12573,10 @@
           "longitude": 17.046414114622678,
           "address": "M29V+V3 Rowy, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/kxuwc4RXeVRKq6Zk8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/kxuwc4RXeVRKq6Zk8",
+          "image": ""
         },
         {
           "id": "latarnia-morska-stilo",
@@ -12691,9 +12719,10 @@
           "longitude": 17.505539631364528,
           "address": "QCFC+Q7 Stara Rogoźnica, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/NBs6i14R6LaXj95F6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/NBs6i14R6LaXj95F6",
+          "image": ""
         },
         {
           "id": "wyspa-mi-osci",
@@ -12703,9 +12732,10 @@
           "longitude": 17.501485776720727,
           "address": "QF2X+9Q Charzykowy, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/9xtC7AmMieEdqg1h6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/9xtC7AmMieEdqg1h6",
+          "image": ""
         },
         {
           "id": "pomnik-przyrody-dab-bartus",
@@ -12715,9 +12745,10 @@
           "longitude": 17.532422741831038,
           "address": "RG8H+VW Małe Swornegacie, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/V7LoboEaNRRBZQzB9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/V7LoboEaNRRBZQzB9",
+          "image": ""
         },
         {
           "id": "jezioro-karsinskie",
@@ -12727,9 +12758,10 @@
           "longitude": 17.509129635569,
           "address": "Jeziorna 1, 89-608 Swornegacie, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/1MzQBS2D5PDenLkY6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/1MzQBS2D5PDenLkY6",
+          "image": ""
         },
         {
           "id": "akwedukt-fojutowo-89-504",
@@ -12812,21 +12844,23 @@
           "longitude": 15.964271062323883,
           "address": "RWV8+95 Velika Glava, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/1xf4x5AXaUxE9gso6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/1xf4x5AXaUxE9gso6",
+          "image": ""
         },
         {
           "id": "national-park-kornati",
-          "name": "National Park Kornati",
+          "name": "Park narodowy Kornati",
           "description": "Niemal bezludny archipelag Kornacki składający się z 147 wysp i wysepek.",
           "latitude": 43.79132790248742,
           "longitude": 15.361827965535678,
           "address": "8FMQQ3J7+JH",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/jFW538vWpWukpuyR7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/jFW538vWpWukpuyR7",
+          "image": "/images/national-park-kornati.jpg"
         },
         {
           "id": "konoba-smokvica",
@@ -13094,9 +13128,10 @@
           "longitude": 16.367360986466437,
           "address": "587W+RG Hvar, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/iQ8U6NNeNQfByai79"
+          "GoogleMapsLink": "https://maps.app.goo.gl/iQ8U6NNeNQfByai79",
+          "image": "/images/wyspy-paklinskie.jpg"
         }
       ]
     },
@@ -13137,15 +13172,16 @@
         },
         {
           "id": "forum-zadar",
-          "name": "Forum",
+          "name": "Forum Zadar",
           "description": "Ruiny rzymskiego forum, a jednocześnie same centrum historyczne Zadaru.",
           "latitude": 44.11572369554115,
           "longitude": 15.224553714447415,
           "address": "Forum,23000, Zadar, Chorwacja",
           "country": "Chorwacja",
           "type": "tourist_attraction",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/nU64Ec4hiSW6B5Lb8"
+          "websiteUrl": "https://zadar.travel/attractions/attractions/forum",
+          "GoogleMapsLink": "https://maps.app.goo.gl/nU64Ec4hiSW6B5Lb8",
+          "image": "/images/forum-zadar.jpg"
         },
         {
           "id": "konoba-masklin",
@@ -13227,9 +13263,10 @@
           "longitude": 23.839015757443825,
           "address": "5RQQ+FH Łosiniany, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/419cQ5XWph9oLFNa6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/419cQ5XWph9oLFNa6",
+          "image": "/images/gora-ekumeniczna.jpg"
         },
         {
           "id": "szpaler-lip-w-zyliczach",
@@ -13239,9 +13276,10 @@
           "longitude": 23.758895681581468,
           "address": "5QQ5+M7 Ciumicze, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ffyFyMvNMFe9tzAa8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ffyFyMvNMFe9tzAa8",
+          "image": "/images/szpaler-lip-w-zyliczach.jpg"
         },
         {
           "id": "16-120-ciumicze",
@@ -13312,9 +13350,10 @@
           "longitude": 23.81146236452885,
           "address": "Kruszyniany 59, 16-120, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/kVAX1WTvd2oYMuCMA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/kVAX1WTvd2oYMuCMA",
+          "image": ""
         },
         {
           "id": "drewniany-meczet-w-kruszynianach",
@@ -13779,9 +13818,10 @@
           "longitude": 20.151196285414237,
           "address": "G5W2+7M Ochotnica Górna, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/SoLtUN8dnCGruapDA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/SoLtUN8dnCGruapDA",
+          "image": ""
         },
         {
           "id": "pijalnia-wod-mineralnych-szczawa",
@@ -13900,9 +13940,10 @@
           "longitude": 20.04904692656808,
           "address": "V2F3+7H Borzęta, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Q5JDhnoRbantkngP9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Q5JDhnoRbantkngP9",
+          "image": ""
         },
         {
           "id": "zamek-w-dobczycach",
@@ -13948,9 +13989,10 @@
           "longitude": 17.68744268057065,
           "address": "Staszica 2, 62-310 Pyzdry, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/kzMf5Wx8Sw4T9tGP8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/kzMf5Wx8Sw4T9tGP8",
+          "image": "/images/pomnik-boles-awa-poboznego-w-pyzdrach.jpg"
         },
         {
           "id": "dom-podcieniowy",
@@ -13984,9 +14026,10 @@
           "longitude": 17.69015415717833,
           "address": "Kaliska 25, 62-310 Pyzdry, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/itH2Smh76AbkTdEo9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/itH2Smh76AbkTdEo9",
+          "image": ""
         },
         {
           "id": "wiatrak-holender-pyzdry",
@@ -13996,9 +14039,10 @@
           "longitude": 17.684789059717414,
           "address": "Wrocławska 40A, 62-310 Pyzdry, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/jzPw287DuyED36Hn7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/jzPw287DuyED36Hn7",
+          "image": "/images/wiatrak-holender-pyzdry.jpg"
         },
         {
           "id": "marina-pyzdry",
@@ -14033,9 +14077,10 @@
           "longitude": 17.667484752023828,
           "address": "5MV6+G2 Borzykowo, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/EGFsPj9iCntVK3VQ9"
+          "type": "art_culture",
+          "websiteUrl": "https://wystrzalowepyzdry.pl/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/EGFsPj9iCntVK3VQ9",
+          "image": "/images/dawna-granica-zaborow.jpg"
         }
       ]
     },
@@ -14059,7 +14104,8 @@
           "country": "Polska",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/cE5vLyziFfNxeQuv5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/cE5vLyziFfNxeQuv5",
+          "image": "/images/studzienka-bamberki.jpg"
         },
         {
           "id": "chmeli-suneli-restauracja-gruzinska-masztalarska-8",
@@ -14225,9 +14271,10 @@
           "longitude": 20.79022660188509,
           "address": "Mała Wieś 40, 05-622, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/VD19gVH6Xi4EfmTy8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/VD19gVH6Xi4EfmTy8",
+          "image": ""
         }
       ]
     },
@@ -14261,9 +14308,10 @@
           "longitude": 17.481342451238756,
           "address": "Dąb Słowackiego, Poznańska 15/16, 62-320 Miłosław, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/4qYPeSBnV4uKG8qh6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/4qYPeSBnV4uKG8qh6",
+          "image": "/images/pomnik-juliusza-s-owackiego-w-mi-os-awiu.jpg"
         },
         {
           "id": "browar-fortuna-sp-z-o-o",
@@ -14322,9 +14370,10 @@
           "longitude": 16.787000201328954,
           "address": "FP9M+3P Poznań, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/7eRNYNaSLfQXiRN78"
+          "GoogleMapsLink": "https://maps.app.goo.gl/7eRNYNaSLfQXiRN78",
+          "image": ""
         },
         {
           "id": "przeciwatomowy-schron-dla-w-adz-miasta-poznania",
@@ -14382,9 +14431,10 @@
           "longitude": 16.953487641093602,
           "address": "Śródka 5, 61-125 Poznań, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/VUzUn2uNtNRrhbMLA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/VUzUn2uNtNRrhbMLA",
+          "image": ""
         },
         {
           "id": "modra-kuchnia",
@@ -14406,9 +14456,10 @@
           "longitude": 16.928736874621087,
           "address": "plac Wolności 185, 61-738 Poznań, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/PaYK22yYRM3R5Pwo9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/PaYK22yYRM3R5Pwo9",
+          "image": "/images/posag-higiei-bogini-zdrowia.jpg"
         },
         {
           "id": "centrum-konferencyjne-m-ynska12",
@@ -14420,7 +14471,8 @@
           "country": "Polska",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Vf64FKcYYBrtMPyX8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Vf64FKcYYBrtMPyX8",
+          "image": "/images/centrum-konferencyjne-m-ynska12.jpg"
         },
         {
           "id": "a-noz-widelec",
@@ -14448,15 +14500,16 @@
       "locations": [
         {
           "id": "stary-rynek-61-772-poznan",
-          "name": "Stary Rynek, 61-772 Poznań",
+          "name": "Stary Rynek",
           "description": "Centralny punkt Poznania.",
           "latitude": 52.40798370551475,
           "longitude": 16.932846341953187,
           "address": "plac Wolności 185, 61-738 Poznań, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/X8D68zboNbDncxTY7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/X8D68zboNbDncxTY7",
+          "image": ""
         },
         {
           "id": "moliera2",
@@ -14466,9 +14519,10 @@
           "longitude": 16.929428399923374,
           "address": "plac Wolności 6, 61-738 Poznań, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/hDnb8JWBqVCtb1Cg7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/hDnb8JWBqVCtb1Cg7",
+          "image": ""
         },
         {
           "id": "hotel-bazar",
@@ -14492,7 +14546,8 @@
           "country": "Polska",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/CPvPGLcpAQMkaydFA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/CPvPGLcpAQMkaydFA",
+          "image": "/images/miedzynarodowe-targi-poznanskie.jpg"
         },
         {
           "id": "hotel-mercure-poznan-centrum",
@@ -14587,9 +14642,10 @@
           "longitude": 18.72818476729291,
           "address": "Put Lipa 1, 31300, Kneževi Vinogradi, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/624RaHFB46EcQLmf6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/624RaHFB46EcQLmf6",
+          "image": ""
         },
         {
           "id": "monument-of-batina-battle-julka",
@@ -14617,15 +14673,16 @@
       "locations": [
         {
           "id": "trogir-chorwacja",
-          "name": "Trogir, Chorwacja",
+          "name": "Trogir",
           "description": "Miasto załone oryginalnie przez Greckich koloniostów, następnie długo pod rządami Wenecji.",
           "latitude": 43.517691890237614,
           "longitude": 16.250559005605613,
           "address": "Trogirska cesta 11, 21220, Trogir, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/jwCUNTrvfLRx5rkx9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/jwCUNTrvfLRx5rkx9",
+          "image": ""
         },
         {
           "id": "nikola-tesla-memorial-centre",
@@ -14635,9 +14692,10 @@
           "longitude": 15.308589880728025,
           "address": "H862+7J Smiljan, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/XUeLgdPw9T3yhKEc6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/XUeLgdPw9T3yhKEc6",
+          "image": ""
         },
         {
           "id": "karanac-chorwacja",
@@ -14647,9 +14705,10 @@
           "longitude": 18.685685304791544,
           "address": "Nikole Tesle 1B, 31315, Karanac, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/tUkNCtjw5mZNiFex7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/tUkNCtjw5mZNiFex7",
+          "image": ""
         },
         {
           "id": "svijetli-dvori",
@@ -14708,9 +14767,10 @@
           "longitude": 16.08841823244763,
           "address": "2WRM+GX Komiža, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/owLHHiAjUiXvsDn5A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/owLHHiAjUiXvsDn5A",
+          "image": "/images/komiza-chorwacja.jpg"
         },
         {
           "id": "pekara-kol-eraj",
@@ -14738,7 +14798,7 @@
         },
         {
           "id": "stiniva",
-          "name": "Stiniva",
+          "name": "Plaża Stiniva",
           "description": "Urokliwa plaża w zatoce, czesto odwiedzana łodzią.",
           "latitude": 43.02137696782573,
           "longitude": 16.171567553467625,
@@ -14746,7 +14806,8 @@
           "country": "Chorwacja",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/NuJqkezaMM1NgL617"
+          "GoogleMapsLink": "https://maps.app.goo.gl/NuJqkezaMM1NgL617",
+          "image": "/images/stiniva.jpg"
         },
         {
           "id": "green-cave",
@@ -14756,9 +14817,10 @@
           "longitude": 16.224409399285804,
           "address": "2688+5M Rukavac, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/G7Q6acn3gm1ptHBz6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/G7Q6acn3gm1ptHBz6",
+          "image": ""
         },
         {
           "id": "villa-rustica-vis",
@@ -14805,9 +14867,10 @@
           "longitude": 16.183281330180527,
           "address": "Marine zemlje 18, 21480, Plisko Polje, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Ed3iA76zP2gKNgqZ8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Ed3iA76zP2gKNgqZ8",
+          "image": "/images/aerodrom-plisko-polje.jpg"
         },
         {
           "id": "aerodrom-gostionica",
@@ -14841,9 +14904,10 @@
           "longitude": 16.19655700951403,
           "address": "Šetalište Apolonija Zanelle 19, 21480, Vis, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ye6KzhnAYCBiK8Na6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ye6KzhnAYCBiK8Na6",
+          "image": ""
         },
         {
           "id": "nautica-vis-diving-center",
@@ -14866,9 +14930,10 @@
           "longitude": 16.18386715362597,
           "address": "35JM+87, 21480, Rogačić, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/dGaKvJaF3ihR6wun8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/dGaKvJaF3ihR6wun8",
+          "image": "/images/raketna-baza-jna-ispred-sklonista-za-podmornicu.jpg"
         },
         {
           "id": "jna-cannon-bunker",
@@ -14878,9 +14943,10 @@
           "longitude": 16.183410351433132,
           "address": "35JM+87, 21480, Rogačić, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/avp2bHvs5EX8S5QC9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/avp2bHvs5EX8S5QC9",
+          "image": ""
         },
         {
           "id": "restaurant-vatrica",
@@ -14951,9 +15017,10 @@
           "longitude": 17.493339370313368,
           "address": "Blaževo 4, 20246, Dubrava, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/CrK2dvyGKPUHX7XC9"
+          "type": "shopping",
+          "websiteUrl": "https://www.facebook.com/OstreumSparklingWine/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/CrK2dvyGKPUHX7XC9",
+          "image": "/images/ostreum-j-d-o-o.jpg"
         },
         {
           "id": "plaza-vucine",
@@ -14963,9 +15030,10 @@
           "longitude": 17.45119716908997,
           "address": "VCPR+98 Žuljana, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Uo5tony3KYuTYcBH9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Uo5tony3KYuTYcBH9",
+          "image": "/images/plaza-vucine.jpg"
         },
         {
           "id": "besurf",
@@ -15012,13 +15080,14 @@
           "longitude": 17.696059198276124,
           "address": "RMHM+33 Ston, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/gGzLYq9H62evZt6D9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/gGzLYq9H62evZt6D9",
+          "image": "/images/20230-ston-chorwacja.jpg"
         },
         {
           "id": "good-tower",
-          "name": "Good Tower",
+          "name": "Dobra Wieża",
           "description": "Niezwykłe fortyfikacje wokół miasta Ston przebiegające przez wzgórze, z wieżą \"Dobra\" na szczycie.",
           "latitude": 42.84369516874152,
           "longitude": 17.699725761508123,
@@ -15026,7 +15095,8 @@
           "country": "Chorwacja",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/qQ1DYK78RvdarqTU6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/qQ1DYK78RvdarqTU6",
+          "image": "/images/good-tower.jpg"
         },
         {
           "id": "solana-ston-ltd",
@@ -15036,9 +15106,10 @@
           "longitude": 17.695276030764287,
           "address": "Pelješki put 1, 20230, Ston, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/yx3PjBwNQzAAms4p9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/yx3PjBwNQzAAms4p9",
+          "image": "/images/solana-ston-ltd.jpg"
         },
         {
           "id": "bota-sare-mali-ston-restaurant-oyster-bar",
@@ -15203,7 +15274,8 @@
           "country": "Chorwacja",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/97EZ6neEcmVZLQ6J6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/97EZ6neEcmVZLQ6J6",
+          "image": "/images/split-riva.jpg"
         },
         {
           "id": "pa-ac-dioklecjana-w-splicie",
@@ -15215,7 +15287,8 @@
           "country": "Chorwacja",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Y1c5V2T7p5LhAPCN9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Y1c5V2T7p5LhAPCN9",
+          "image": "/images/pa-ac-dioklecjana-w-splicie.jpg"
         },
         {
           "id": "ostarija-u-vi-akovi",
@@ -15252,7 +15325,8 @@
           "country": "Chorwacja",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/bjjE84AePmeLR96V8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/bjjE84AePmeLR96V8",
+          "image": "/images/windsurfspot-usce-neretve.jpg"
         },
         {
           "id": "peljeski-most-peljesac-bridge",
@@ -15277,7 +15351,8 @@
           "country": "Chorwacja",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/qgpt6ukWVayWUZ7g6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/qgpt6ukWVayWUZ7g6",
+          "image": "/images/napoleon-s-path.jpg"
         }
       ]
     },
@@ -15293,7 +15368,7 @@
       "locations": [
         {
           "id": "franciscan-monastery",
-          "name": "Franciscan monastery",
+          "name": "Klasztor Franciszkanów",
           "description": "Klasztor Franciszkanów demonstrujący swe beżowe, kamienne mury nad brzegiem wody na wyspie Badija.",
           "latitude": 42.95152508037366,
           "longitude": 17.162301513840873,
@@ -15301,7 +15376,8 @@
           "country": "Chorwacja",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/XZD6WRBiZeSu1XMn9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/XZD6WRBiZeSu1XMn9",
+          "image": "/images/franciscan-monastery.jpg"
         },
         {
           "id": "duba-beach",
@@ -15418,9 +15494,10 @@
           "longitude": 17.15339019397144,
           "address": "Celestinov put 18, 20250, Podgorje, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/WvPyZw1GTmBkLSbP7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/WvPyZw1GTmBkLSbP7",
+          "image": ""
         },
         {
           "id": "villa-vrgorac",
