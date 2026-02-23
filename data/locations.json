@@ -418,19 +418,21 @@
           "longitude": 27.017563355401737,
           "address": "P258+78, Psili Ammos 831 00, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
+          "type": "nature",
+          "image":"https://www.destinationcrete.gr//wp-content/uploads/2021/04/eb98abc90c5-1000x576.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/269jByprsu9VC3mXA"
         },
         {
           "id": "pythagoras-statue",
-          "name": "Pythagoras Statue",
+          "name": "Statua Pythagorasa",
           "description": "Statuła filozofa, matematyka i astronoma w miejsciowości gdzie się urodził i spędził 40 lat swojego życia.",
           "latitude": 37.689716925329925,
           "longitude": 26.94486301069588,
           "address": "Ε.Ο. Πυθαγορείου Χώρας 9, Pithagorio 831 03, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
+          "image": "https://global-geography.org/attach/Geography/Europe/Greece/Pictures/Samos/Pythagoras_Statue_Pythagorio_2/B117_Pythagoras_Statue_Pythagorio_Pythagoras_Statue_Pythagorio.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/eNb8V25kYkLGBSXz5"
         },
@@ -442,7 +444,8 @@
           "longitude": 26.930279556583038,
           "address": "MVVR+VR Pithagorio, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
+          "image" : "https://zwiedzo-maniacy.pl/lib/gm405y/Tunel-mini-min-makrjgcy.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/MDpp4QtJ83z2H5Cx7"
         },
@@ -454,7 +457,8 @@
           "longitude": 26.842278281142434,
           "address": "Κουμανταραιοι Σαμος, Moni Megalis Panagias 831 04, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/05/3d/69/monastery-of-megali-panagia.jpg?w=1200&h=-1&s=1",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/fKe9v9j2q6kW2VvX6"
         },
@@ -478,7 +482,8 @@
           "longitude": 26.849160175237902,
           "address": "QRPV+XP Vathi, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
+          "type": "shopping",
+          "image": "https://www.metaxa.com/cdn/shop/files/1._METAXA_LIKNON_2_1920x.jpg?v=1745230106",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/FrkbaT27kf9TyuXU6"
         },
@@ -636,8 +641,10 @@
           "longitude": 23.727808738538144,
           "address": "Apostolou Pavlou 9, Athina 118 51, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
-          "websiteUrl": ""
+          "type": "art_culture",
+          "image": "https://chwalazapomniana.pl/wp-content/uploads/2020/03/DSC_1369.jpg",
+          "websiteUrl": "",
+          "googleMapsLink": "https://maps.app.goo.gl/WXqmAoJ5D5o2sRAy8"
         },
         {
           "id": "agora-atenska",
@@ -647,8 +654,10 @@
           "longitude": 23.722085883944914,
           "address": "Adrianou 11, Athina 105 55, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
-          "websiteUrl": ""
+          "type": "art_culture",
+          "image": "https://podrozebezosci.pl/wp-content/uploads/2020/01/hefajstejon-swiatynia-hefajstosa-ateny-agora-atenska-starozytna-grecja-zwiedzanie-atrakcje.jpg",
+          "websiteUrl": "",
+          "googleMapsLink": "https://maps.app.goo.gl/oipfpsy5JwvjJGMU7"
         },
         {
           "id": "partenon",
@@ -658,8 +667,10 @@
           "longitude": 23.726715820037107,
           "address": "Apostolou Pavlou 1, Athina 118 51, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
-          "websiteUrl": ""
+          "type": "art_culture",
+          "image": "https://www.podrozepoeuropie.pl/system/gallery/images/images/000/013/346/large/Partenon-AKROPOL-Ateny.jpg?1583095780",
+          "websiteUrl": "",
+          "googleMapsLink": "https://maps.app.goo.gl/TyXY3RjDr9LaHvTn6"
         },
         {
           "id": "centralny-rynek-komunalny-w-atenach",
@@ -671,7 +682,8 @@
           "country": "Grecja",
           "type": "shopping",
           "websiteUrl": "",
-          "image": "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=center,quality=60,width=400,height=265,dpr=2/tour_img/62722debddcdf.png"
+          "image": "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=center,quality=60,width=400,height=265,dpr=2/tour_img/62722debddcdf.png",
+          "googleMapsLink": "https://maps.app.goo.gl/4EvzeQHwke4gYce69"
         },
         {
           "id": "miran-athens",
@@ -683,7 +695,8 @@
           "country": "Grecja",
           "type": "shopping",
           "image": "https://www.greekgastronomyguide.gr/wp-content/uploads/2015/07/miran-DSC_2072.jpg",
-          "websiteUrl": ""
+          "websiteUrl": "",
+          "googleMapsLink": "https://maps.app.goo.gl/ftw547WP8xP2qrrn9"
         },
         {
           "id": "tavern-klimataria",
@@ -694,18 +707,22 @@
           "address": "Pireos 68A, Athina 104 36, Greece",
           "country": "Grecja",
           "type": "restaurant",
-          "websiteUrl": ""
+          "image": "https://www.greekgastronomyguide.gr/wp-content/uploads/2017/12/taverna-klimataria-attiki-DSC_5849-823x549.jpg",
+          "websiteUrl": "",
+          "googleMapsLink": "https://maps.app.goo.gl/57qPt5kvS8mrmbGr6"
         },
         {
           "id": "monastiraki-square",
-          "name": "Monastiraki Square",
-          "description": "Przjęty plac centralny Aten.",
+          "name": "Plac Monastiraki",
+          "description": "Plac publiczny z wielowiekowym bizantyjskim kościołem otoczony restauracjami i barami na dachach, przjęty za plac centralny Aten.",
           "latitude": 37.97640056050702,
           "longitude": 23.725886647291944,
           "address": "Pl. Monastirakiou 10, Athina 105 55, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
-          "websiteUrl": ""
+          "type": "art_culture",
+          "image": "https://as2.ftcdn.net/v2/jpg/02/25/62/93/1000_F_225629353_PSvyIGezpCgEsqLjn8IWlCnVQXWzQDEf.jpg",
+          "websiteUrl": "",
+          "googleMapsLink": "https://maps.app.goo.gl/sNvMFPXfWLqUrpFb7"
         },
         {
           "id": "biblioteka-hadriana",
@@ -715,8 +732,10 @@
           "longitude": 23.726029656828,
           "address": "Stoa Attalou, Athina 105 55, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
-          "websiteUrl": ""
+          "type": "art_culture",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Βιβλιοθήκη_Αδριανού_4165.jpg",
+          "websiteUrl": "",
+          "googleMapsLink": "https://maps.app.goo.gl/Bua7Nuh2J5ncyqL6A" 
         },
         {
           "id": "dopios",
@@ -727,7 +746,9 @@
           "address": "Vlachava 3, Athina 105 51, Greece",
           "country": "Grecja",
           "type": "restaurant",
-          "websiteUrl": ""
+          "image": "https://www.living-postcards.com/sites/default/files/56a4020_0.jpeg",
+          "websiteUrl": "https://dopiosrestaurant.gr",
+          "googleMapsLink": "https://maps.app.goo.gl/UuDBgzxMVKYsNGux8"
         }
       ]
     },
@@ -744,13 +765,15 @@
         {
           "id": "pa-ac-ksiazat-burgundzkich-w-dijon",
           "name": "Pałac książąt burgundzkich w Dijon",
-          "description": "Pałac będący niegdyś siedzibą książąt burgundzkich, obecnie siedziba muzeum.",
+          "description": "Pałac będący niegdyś siedzibą książąt burgundzkich z kolekcją artefaktów sięgających czasów średniowiecza i renesansu. Obecnie siedziba muzeum.",
           "latitude": 47.321797115892245,
           "longitude": 5.041578660335096,
           "address": "72 Rue de la Liberté, 21000 Dijon, France",
           "country": "Francja",
-          "type": "tourist_attraction",
-          "websiteUrl": ""
+          "type": "museum",
+          "image": "https://hispanico.pl/wp-content/uploads/2023/12/palac-ksiazat-burgundii-architektura-plac-monument-zwiedzanie-stare-miasto-dijon-francja.jpg",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/jQnqWd9iPtqRt4YP6"
         },
         {
           "id": "b-comme-bourgogne",
@@ -761,18 +784,20 @@
           "address": "68 Rue de la Liberté, 21000 Dijon, France",
           "country": "Francja",
           "type": "shopping",
-          "websiteUrl": ""
+          "websiteUrl": "https://bcommebourgogne.fr/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/G899mBj8PUYV9EGq6"
         },
         {
           "id": "dijon-burgundy-theatre",
-          "name": "Dijon Burgundy Theatre",
+          "name": "Théâtre Dijon Bourgogne",
           "description": "Teatr zlokalizowany w budynku historycznego ześwieczczonego kościoła gotyckiego.",
           "latitude": 47.3204347716377,
           "longitude": 5.035929910534355,
           "address": "18 Rue Condorcet, 21000 Dijon, France",
           "country": "Francja",
           "type": "art_culture",
-          "websiteUrl": ""
+          "image": "https://www.asso-acdn.fr/wp-content/uploads/2023/07/parvis-saint-jean-tdb-credit-vincent-arbel-1024x687.jpg",
+          "websiteUrl": "https://www.tdb-cdn.com/"
         },
         {
           "id": "katedra-saint-benigne-w-dijon",
@@ -782,8 +807,10 @@
           "longitude": 5.034506068543435,
           "address": "5 Rem de la Miséricorde, 21000 Dijon, France",
           "country": "Francja",
-          "type": "tourist_attraction",
-          "websiteUrl": ""
+          "type": "art_culture",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP0WPcwFyXr9p8PfihPGCYOUABLwlLEoDeyw&s",
+          "websiteUrl": "https://www.cathedrale-dijon.fr/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/cK9E385PK49rYDCP6"
         },
         {
           "id": "tonnellerie-meyrieux",
@@ -801,13 +828,15 @@
         {
           "id": "hotel-dieu-museum-hospices-de-beaune",
           "name": "Hôtel-Dieu Museum - Hospices de Beaune",
-          "description": "Nietuzinkowy budynek średniowiecznego burgundzkiego przytułku mieszczący obecnie muzeum miejscowej sztuki .",
+          "description": "Nietuzinkowy budynek średniowiecznego burgundzkiego przytułku mieszczący obecnie muzeum miejscowej sztuki.",
           "latitude": 47.02200125083075,
           "longitude": 4.836461425452169,
           "address": "9 Rle Morlot, 21200 Beaune, France",
           "country": "Francja",
           "type": "museum",
-          "websiteUrl": ""
+          "image":"https://www.burgundy-tourism.com/uploads/external/c4cb40c34b3f64ab80ee9aac81e9083d-hospices-de-beaune-cour-interieure3-1600x0.jpg",
+          "websiteUrl": "https://reservation-hoteldieu.hospices-de-beaune.com/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/3YnzSRvsddkppxeH8"
         },
         {
           "id": "biz-tro-chic-gourmand",
@@ -818,7 +847,9 @@
           "address": "7 Bd Perpreuil, 21200 Beaune, France",
           "country": "Francja",
           "type": "restaurant",
-          "websiteUrl": ""
+          "image": "https://welcomemagazine.fr/wp-content/uploads/2025/11/biztro-400x250.png",
+          "websiteUrl": "https://www.facebook.com/BiztroBeaune/menu/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/dqe7dFykDBnuAmMk9"
         },
         {
           "id": "la-moutarderie-fallot",
@@ -829,7 +860,9 @@
           "address": "1 Rue des Levées, 21200 Beaune, France",
           "country": "Francja",
           "type": "shopping",
-          "websiteUrl": ""
+          "image": "https://static.where-e.com/France/La-Moutarderie-Fallot_43a0ccc10ad378f643f81937c132d24f.jpg",
+          "websiteUrl": "http://www.fallot.com/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/t44QpiiWPnGSimzs7"
         }
       ]
     },
@@ -897,7 +930,8 @@
           "longitude": 4.299130503666983,
           "address": "3 Pl. du Terreau, 71400 Autun, France",
           "country": "Francja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Cathédrale_Autun_02.JPG",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/Wst9zwDvdhorCiEW9"
         },
@@ -909,7 +943,8 @@
           "longitude": 4.306090189522583,
           "address": "14 Rte de Château-Chinon, 71400 Autun, France",
           "country": "Francja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
+          "image": "https://www.burgundy-tourism.com/uploads/external/2ccffa4a1a737f450e4ba5b1d05f1a52-Porte-Saint-Andre-a-Autun---Jean-Marc-Schwartz-1600x0.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/pC6Rr3KX1o1vzLYk6"
         },
@@ -1498,7 +1533,8 @@
           "longitude": 14.806178556473244,
           "address": "HRH4+XR Malfa, Metropolitan City of Messina, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "nature",
+          "image": "https://slow-sicily.com/wp-content/uploads/2024/09/pollara_balate_sunset_salina_panoramic.webp",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/m29RCaG4vV5RG1qx6"
         },
@@ -1522,7 +1558,8 @@
           "longitude": 14.959969088191642,
           "address": "Contrada Porto Levante, 64, 98050 Vulcano Porto ME, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "nature",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/fb/a2/b5/caption.jpg?w=1200&h=-1&s=1",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/Ht2QTukqsCmk9qJJA"
         }
@@ -3087,14 +3124,15 @@
         },
         {
           "id": "schmit-fohl-maison-viticole",
-          "name": "Schmit-Fohl (Maison Viticole)",
+          "name": "Schmit-Fohl",
           "description": "Winiarnia która odpowiada za pierwszą apelację w sprawie luksemburskiego cremant, oficjalnego wina musucjącego tworzonego metodą szampańską. ",
           "latitude": 49.62798602273347,
           "longitude": 6.422205584039386,
           "address": "22 CR142, 5401 Ahn Wormeldange, Luxembourg",
           "country": "Luksemburg",
-          "type": "tourist_attraction",
-          "websiteUrl": "",
+          "image": "https://schmit-fohl.lu/wp-content/uploads/2023/10/Schmit-Fohl_2023-086-scaled.jpg",
+          "type": "shopping",
+          "websiteUrl": "https://schmit-fohl.lu/en/",
           "GoogleMapsLink": "https://maps.app.goo.gl/aRtUq8E8oqQGUAQd8"
         }
       ]
@@ -3556,7 +3594,7 @@
           "longitude": 9.919743494639802,
           "address": "7J5V+HX Wistedt, Germany",
           "country": "Niemcy",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "https://www.lueneburger-heide.de/",
           "image": "https://www.selected.de/fileadmin/user_upload/AdobeStock_36466385-Von-Gabriele-Rohde.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/mM1MRLmc7zyPG5FF7"
@@ -7554,7 +7592,7 @@
       "locations": [
         {
           "id": "agios-nikolaos-grecja",
-          "name": "Agios Nikolaos, Grecja",
+          "name": "Agios Nikolaos",
           "description": "Podróżnik odkrywał uroki Agios Nikolaos, miejsca na Krecie, gdzie czas płynie wolniej, a woda w jeziorze Voulismeni kryje ponoć starożytne sekrety. Wokół malowniczego portu kuszą zapachy lokalnej kuchni, zapraszając na chwilę prawdziwie greckiej sielanki, która smakuje najlepiej z kieliszkiem ouzo w dłoni.",
           "latitude": 37.90681136543238,
           "longitude": 20.70715668304411,
@@ -7573,9 +7611,9 @@
           "longitude": 20.661567773361032,
           "address": "6MX3+GF Sami, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://visitkefaloniaisland.gr/el/%CE%B1%CF%81%CF%87%CE%B1%CE%AF%CE%B1-%CE%B1%CE%BA%CF%81%CF%8C%CF%80%CE%BF%CE%BB%CE%B7-%CF%83%CE%AC%CE%BC%CE%B7%CF%82/",
-          "image": "https://www.kefaloniabyanna.com/wp-content/uploads/2015/10/ancient-sami-walls2-1.jpg",
+          "image": "https://images.greeka.com/resized/user_images/rosemary/580/miggOmUGX.jpeg",
           "GoogleMapsLink": "https://maps.app.goo.gl/XnySh1poszUQjTTR6"
         },
         {
@@ -7586,7 +7624,7 @@
           "longitude": 20.62357164474736,
           "address": "6JXM+3C Sami, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "http://sami.gov.gr/",
           "image": "https://theworldtravelguy.com/wp-content/uploads/2022/11/DSCF5422_1200.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/ePWsYktjQ4yGuFVY6"
@@ -8816,7 +8854,7 @@
           "longitude": 10.86290777758757,
           "address": "PVH2+8P, Guellala, Tunisia",
           "country": "Tunezja",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "",
           "image": "https://guide-voyage-tunisie.com/wp-content/uploads/2022/11/poterie-guellala-1024x768.webp",
           "GoogleMapsLink": "https://maps.app.goo.gl/SBJ4QwNQ6zyvArFB8"
@@ -13294,8 +13332,9 @@
           "longitude": 17.798500840816164,
           "address": "SÖRVIKEN 140, 872 96 Bjärtrå, Sweden",
           "country": "Szwecja",
-          "type": "tourist_attraction",
-          "websiteUrl": "",
+          "type": "shopping",
+          "image": "https://a.storyblok.com/f/200607/2000x1334/09907eb8af/ace_1852.jpg/m/3840x0/filters:quality(75)",
+          "websiteUrl": "https://www.highcoastwhisky.se",
           "GoogleMapsLink": "https://maps.app.goo.gl/zoKaYoSzNnGufuLj6"
         },
         {
@@ -13307,7 +13346,8 @@
           "address": "Dala 152, 871 93 Härnösand, Sweden",
           "country": "Szwecja",
           "type": "tourist_attraction",
-          "websiteUrl": "",
+          "image": "https://www.craftginclub.co.uk/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fcgc-web%2FNGFiMzllOTUtODEwZS00NzBjLWI1NDAtZmY1NzEzYWY1Zjkz_dsc_9931-1klar.jpg%3Fauto%3Dcompress%2Cformat%26rect%3D0%2C0%2C2500%2C1669%26w%3D2500%26h%3D1669&w=2058&q=75",
+          "websiteUrl": "https://www.hernogin.com",
           "GoogleMapsLink": "https://maps.app.goo.gl/5Wpo2QpW3UwUcFJP8"
         },
         {
@@ -13319,7 +13359,8 @@
           "address": "Backsjön 241, 881 92 Sollefteå, Sweden",
           "country": "Szwecja",
           "type": "tourist_attraction",
-          "websiteUrl": "",
+          "image": "https://www.hogakusten.com/sites/cb_hogakusten/files/styles/cbis_product_large/http/images.citybreak.com/6489811.jpeg.webp?itok=AeiYnlCG",
+          "websiteUrl": "https://www.farmbacksjon.com",
           "GoogleMapsLink": "https://maps.app.goo.gl/TZipVpQjWFfD8hDa6"
         },
         {
@@ -13354,7 +13395,8 @@
           "longitude": 18.49429085428748,
           "address": "4F9R+QJ Ytterböle, Sweden",
           "country": "Szwecja",
-          "type": "tourist_attraction",
+          "type": "nature",
+          "image": "https://raczejtrampki.pl/wp-content/uploads/2021/10/skuleskogen-zatoka-botnicka.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/D8MVZMDLwzUY4TwY9"
         },
@@ -13390,7 +13432,8 @@
           "longitude": 18.087026966048445,
           "address": "MXW3+V4 Innerfälle, Sweden",
           "country": "Szwecja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
+          "image": "https://coldwarsites.net/wp-content/tt/tt.php?src=https://coldwarsites.net/wp-content/uploads/2017/12/sverigejuni2008006www.jpg&w=584",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/mxAegBSaGBHm6Yp6A"
         },
@@ -13463,7 +13506,8 @@
           "longitude": 18.073412653517885,
           "address": "Jakobsgatan 10, 111 52 Stockholm, Sweden",
           "country": "Szwecja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Swedish_palace_2008-07-18_1_denoised.jpg",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/jbtFjMyT2k8jef9W9"
         },
