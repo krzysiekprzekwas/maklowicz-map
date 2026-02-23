@@ -15420,7 +15420,8 @@
           "country": "Chorwacja",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/maKgiYV8vYzw8eX5A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/maKgiYV8vYzw8eX5A",
+          "image": "/images/plaza-trstenica.jpg"
         }
       ]
     },
@@ -15434,18 +15435,6 @@
       "date": "2020-07-03T14:29:32Z",
       "show": "Robert Makłowicz w podróży",
       "locations": [
-        {
-          "id": "olive-orchards-of-trpanj",
-          "name": "Olive orchards of Trpanj",
-          "description": "Trpanjskie ogrody oliwne z ściezką turystyczną pomiędzy krzewami.",
-          "latitude": 43.001873590597775,
-          "longitude": 17.291491715410018,
-          "address": "272P+GQ Trpanj, Croatia",
-          "country": "Chorwacja",
-          "type": "tourist_attraction",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/YNydpKT65g5USXkV7"
-        },
         {
           "id": "port-of-trpanj",
           "name": "Port Trpanj",
@@ -15473,7 +15462,7 @@
       "locations": [
         {
           "id": "konoba-portun-potomje",
-          "name": "Konoba Portun, Potomje",
+          "name": "Konoba Portun",
           "description": "U wylotu tunelu Dingač, w tradycyjnych murach Konoby Portun, kryje się prawdziwy skarb dla podniebienia. To miejsce, gdzie czas płynie wolniej, a smaki lokalnej kuchni i słynnego wina Dingač opowiadają historię tej ziemi. Prawdziwa esencja Pelješacu, podana prosto z serca.",
           "latitude": 42.93957145130405,
           "longitude": 17.336837100437226,
@@ -15481,19 +15470,21 @@
           "country": "Chorwacja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Gjq5GRi3mvSstZfn8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Gjq5GRi3mvSstZfn8",
+          "image": "/images/konoba-portun-potomje.jpg"
         },
         {
           "id": "dingac-tunnel",
-          "name": "Dingač Tunnel",
+          "name": "Tunel Dingač",
           "description": "Zbudowany w 1973 roku, tunel Dingač to prawdziwa podziemna brama do legendarnej krainy wina. Kiedyś dotarcie do tych słynnych winnic było prawdziwą wyprawą, ale dziś to szybka droga do słońca, które rodzi ten wspaniały, gęsty trunek. Przejazd nim to jak wejście do piwnicy pełnej skarbów, gdzie czeka na podniebienie coś naprawdę wyjątkowego.",
           "latitude": 42.936200171887805,
           "longitude": 17.3344628361559,
           "address": "W8PG+GJ Potomje, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/YbodzfDn4exJ3z1J7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/YbodzfDn4exJ3z1J7",
+          "image": "/images/dingac-tunnel.jpg"
         }
       ]
     },
@@ -15515,9 +15506,10 @@
           "longitude": 17.308038848787085,
           "address": "X2M3+V7 Račišće, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/YWwmiz8CyHQFRxhu7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/YWwmiz8CyHQFRxhu7",
+          "image": "/images/koscio-sw-miko-aja.jpg"
         }
       ]
     },
@@ -15540,8 +15532,9 @@
           "address": "St2127 30, 94538 Fürstenstein, Germany",
           "country": "Niemcy",
           "type": "hotel",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/sTugpmW9CX7LvhL3A"
+          "websiteUrl": "https://www.pension-kerber.de/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/sTugpmW9CX7LvhL3A",
+          "image": "/images/gasthaus-kerber.jpg"
         },
         {
           "id": "demiri-restaurant",
@@ -15552,8 +15545,9 @@
           "address": "MJPP+34 Šentilj v Slov. goricah, Slovenia",
           "country": "Słowenia",
           "type": "restaurant",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/MdK5AXTSzUiuASsV8"
+          "websiteUrl": "https://de.restaurantguru.com/Demiri-Restaurant-Sentilj-v-Slov-goricah",
+          "GoogleMapsLink": "https://maps.app.goo.gl/MdK5AXTSzUiuASsV8",
+          "image": "/images/demiri-restaurant.jpg"
         },
         {
           "id": "port-promowy-ploce",
