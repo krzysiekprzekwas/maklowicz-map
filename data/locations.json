@@ -1139,8 +1139,9 @@
           "address": "Kapuzinerstraße 68, 4020 Linz, Austria",
           "country": "Austria",
           "type": "restaurant",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/pzS3ot2dpwef9Wj3A"
+          "websiteUrl": "http://www.leberkaspepi.at/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/pzS3ot2dpwef9Wj3A",
+          "image": "/images/leberkas-pepi-linz-rathausgasse.jpg"
         },
         {
           "id": "muzeum-zamkowe-w-linz",
@@ -1293,8 +1294,9 @@
           "address": "Pražská 581/22, 288 02 Nymburk-Nymburk 2, Czechia",
           "country": "Czechy",
           "type": "shopping",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/b3svcueJMwYKKqER7"
+          "websiteUrl": "http://www.postriziny.cz/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/b3svcueJMwYKKqER7",
+          "image": "/images/nymburk-brewery.jpg"
         }
       ]
     },
@@ -1343,8 +1345,9 @@
           "address": "Husova 129/57, Vnitřní Město, 284 01 Kutná Hora-Kutná Hora 1, Czechia",
           "country": "Czechy",
           "type": "restaurant",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/1hT1DY3fZ9K6A7de7"
+          "websiteUrl": "https://www.dacicky.com/jidelni-listek/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/1hT1DY3fZ9K6A7de7",
+          "image": "/images/restaurace-dacicky.jpg"
         },
         {
           "id": "koscio-swietej-barbary",
@@ -1381,8 +1384,9 @@
           "address": "Hradební 703, 284 01 Kutná Hora-Kutná Hora 1, Czechia",
           "country": "Czechy",
           "type": "shopping",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/wxLB24R4ot2krf4N6"
+          "websiteUrl": "https://vinokutnahora.cz/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/wxLB24R4ot2krf4N6",
+          "image": "/images/wine-cellars-kutna-hora.jpg"
         },
         {
           "id": "staroceska-restaurace-v-ruthardce",
@@ -1636,15 +1640,16 @@
         },
         {
           "id": "9852-vulcano-home-restaurant",
-          "name": "9852 vulcano home restaurant",
+          "name": "9852 Vulcano Home Restaurant",
           "description": "9852 to pierwszy numer kierunkowy na Vulcano, natomiast sam lokal sweruje dziś świetną pizzerię neaoplitańską.",
           "latitude": 38.41378441216721,
           "longitude": 14.959151671152169,
           "address": "Via degli Eucaliptus, 20, 98055 Vulcano Porto ME, Italy",
           "country": "Włochy",
           "type": "restaurant",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Fi4CrcBFs7MaG8vJA"
+          "websiteUrl": "https://www.instagram.com/9852_vulcano/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Fi4CrcBFs7MaG8vJA",
+          "image": "/images/9852-vulcano-home-restaurant.jpg"
         },
         {
           "id": "acque-calde",
@@ -10253,8 +10258,9 @@
           "address": "Str. Col Alt, 80, 39033 Corvara in Badia BZ, Italy",
           "country": "Włochy",
           "type": "hotel",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/LAhwVikQCKEUPbw37"
+          "websiteUrl": "https://www.laperlacorvara.it/it",
+          "GoogleMapsLink": "https://maps.app.goo.gl/LAhwVikQCKEUPbw37",
+          "image": "/images/hotel-la-perla.jpg"
         },
         {
           "id": "la-stua-de-michil",
@@ -10350,9 +10356,10 @@
           "longitude": 12.60540029790025,
           "address": "Viale Giovanna di Savoia, 59, 06081 Assisi PG, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/pm9YhSdtnutvCwbu9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/pm9YhSdtnutvCwbu9",
+          "image": "/images/bazylika-sw-franciszka-w-asyzu.jpg"
         },
         {
           "id": "trattoria-degli-umbri",
@@ -10406,14 +10413,15 @@
         {
           "id": "il-balcone-dei-sogni-in-fiore",
           "name": "Il balcone dei sogni in fiore",
-          "description": "Włochy, kraina słońca i smaków, kryją w sobie takie perełki jak \"Il balcone dei sogni in fiore\". To podobno miejsce, gdzie marzenia nie tylko się snują, ale wręcz kwitną na tle zapierającego dech w piersiach widoku, idealne na chwilę zadumy nad kieliszkiem lokalnego wina. Choć dokładna data powstania tego urokliwego zakątka mogła umknąć historykom, jego atmosfera z pewnością sprzyja kontemplacji i delektowaniu się włoskim \"dolce far niente\".",
+          "description": "Włochy, kraina słońca i smaków, kryją w sobie takie perełki jak zaułki starego miasta Spello. To podobno miejsce, gdzie marzenia nie tylko się snują, ale wręcz kwitną na tle zapierającego dech w piersiach widoku, idealne na chwilę zadumy nad kieliszkiem lokalnego wina. Choć dokładna data powstania tego urokliwego zakątka mogła umknąć historykom, jego atmosfera z pewnością sprzyja kontemplacji i delektowaniu się włoskim \"dolce far niente\".",
           "latitude": 42.99296820453098,
           "longitude": 12.671002860716099,
           "address": "Via Achille Grandi, 2a, 06038 Spello PG, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/viRhMif9o2zMSD9s7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/viRhMif9o2zMSD9s7",
+          "image": "/images/il-balcone-dei-sogni-in-fiore.jpg"
         },
         {
           "id": "giuliano-tartufi-spello",
@@ -10425,7 +10433,8 @@
           "country": "Włochy",
           "type": "shopping",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/wx86mANjcbTBsCYB6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/wx86mANjcbTBsCYB6",
+          "image": "/images/giuliano-tartufi-spello.jpg"
         },
         {
           "id": "bosco-sacro-di-monteluco",
@@ -10435,9 +10444,10 @@
           "longitude": 12.75083427615555,
           "address": "Località Monteluco, 3, 06049 Monteluco PG, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/3hsqXNKkHQH95U3W7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/3hsqXNKkHQH95U3W7",
+          "image": "/images/bosco-sacro-di-monteluco.jpg"
         }
       ]
     },
@@ -10472,9 +10482,10 @@
           "longitude": 12.388428719139975,
           "address": "Piazza Italia, 11, 06121 Perugia PG, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Mft747R7qfUo6EJU8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Mft747R7qfUo6EJU8",
+          "image": "/images/rocca-paolina.jpg"
         },
         {
           "id": "la-bottega-del-tartufo",
@@ -10484,9 +10495,10 @@
           "longitude": 12.387887896441075,
           "address": "Via della Cupa, 35, 06123 Perugia PG, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/mGNiTMQaskL6f8iU8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/mGNiTMQaskL6f8iU8",
+          "image": "/images/la-bottega-del-tartufo.jpg"
         },
         {
           "id": "chocostore-by-eurochocolate",
