@@ -1114,7 +1114,8 @@
           "country": "Austria",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/tEP8ShNsV3oEY5Mr5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/tEP8ShNsV3oEY5Mr5",
+          "image": "/images/restaurant-rauner.jpg"
         },
         {
           "id": "hauptplatz-linz",
@@ -1150,8 +1151,9 @@
           "address": "Martingasse 1, 4020 Linz, Austria",
           "country": "Austria",
           "type": "museum",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/qGVdbUzhfNKWQfti7"
+          "websiteUrl": "https://www.ooekultur.at/location-detail/schlossmuseum-linz",
+          "GoogleMapsLink": "https://maps.app.goo.gl/qGVdbUzhfNKWQfti7",
+          "image": "/images/muzeum-zamkowe-w-linz.jpg"
         },
         {
           "id": "k-u-k-hofbackerei-cafe",
@@ -1201,8 +1203,9 @@
           "address": "Ob. Donaulände 17, 4020 Linz, Austria",
           "country": "Austria",
           "type": "restaurant",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/t1Cxsgx3fTEM9Wgo7"
+          "websiteUrl": "http://www.diewirtsleut.at/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/t1Cxsgx3fTEM9Wgo7",
+          "image": "/images/die-wirtsleut-im-leopoldistuberl.jpg"
         }
       ]
     },
@@ -1264,8 +1267,9 @@
           "address": "Malešov 56, 285 41 Malešov, Czechia",
           "country": "Czechy",
           "type": "restaurant",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/fHKt5jpYoWwp6KSz9"
+          "websiteUrl": "http://www.pivovarmalesov.cz/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/fHKt5jpYoWwp6KSz9",
+          "image": "/images/malesov-craft-brewery.jpg"
         },
         {
           "id": "restaurace-u-gregoru",
@@ -1276,8 +1280,9 @@
           "address": "Dlouhá tř. 103/13, 288 02 Nymburk-Nymburk 2, Czechia",
           "country": "Czechy",
           "type": "restaurant",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/gc1rBbE5cfKhXvt89"
+          "websiteUrl": "http://www.ugregoru.cz/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/gc1rBbE5cfKhXvt89",
+          "image": "/images/restaurace-u-gregoru.jpg"
         },
         {
           "id": "nymburk-brewery",
@@ -1449,8 +1454,9 @@
           "address": "dr. Witolda Antesa 6, 43-200 Pszczyna, Poland",
           "country": "Polska",
           "type": "restaurant",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/rSbABcy6yt4voo6b6"
+          "websiteUrl": "https://wodna-wieza.pl/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/rSbABcy6yt4voo6b6",
+          "image": "/images/wodna-wieza.jpg"
         },
         {
           "id": "pa-ac-czeczow",
@@ -1485,9 +1491,10 @@
           "longitude": 17.009528878780245,
           "address": "Livno, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/C93Y3ogBEat8PHb87"
+          "GoogleMapsLink": "https://maps.app.goo.gl/C93Y3ogBEat8PHb87",
+          "image": "/images/dzamija-hadzi-ahmeta-dukatara.jpg"
         },
         {
           "id": "dzamija-milosnik",
@@ -1497,9 +1504,10 @@
           "longitude": 17.009776019278306,
           "address": "Kalajdžinica, Livno, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ZxRhyomRQg4zErAv8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZxRhyomRQg4zErAv8",
+          "image": "/images/dzamija-milosnik.jpg"
         },
         {
           "id": "stari-most",
@@ -1511,7 +1519,8 @@
           "country": "Bośnia i Hercegowina",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/BGc8wv76tdQVB5Z17"
+          "GoogleMapsLink": "https://maps.app.goo.gl/BGc8wv76tdQVB5Z17",
+          "image": "/images/stari-most.jpg"
         },
         {
           "id": "mljekara-livno",
@@ -3136,8 +3145,9 @@
           "address": "42 Pl. Guillaume II, 2090 Ville-Haute Luxembourg",
           "country": "Luksemburg",
           "type": "tourist_attraction",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/snaMGvRVBDxPdKRS9"
+          "websiteUrl": "https://monarchie.lu/en/visit-grand-ducal-palace",
+          "GoogleMapsLink": "https://maps.app.goo.gl/snaMGvRVBDxPdKRS9",
+          "image": "/images/pa-ac-wielkich-ksiazat-w-luksemburgu.jpg"
         },
         {
           "id": "hotel-de-ville",
@@ -3190,15 +3200,16 @@
         },
         {
           "id": "philharmonie-luxembourg",
-          "name": "Philharmonie Luxembourg",
+          "name": "Filharmonia Luxembourg",
           "description": "Wielka sala koncertowa z wysokim standardem w dzielnicy Kishberg.",
           "latitude": 49.618597449624914,
           "longitude": 6.142341125682589,
           "address": "J49Q+CX Luxembourg",
           "country": "Luksemburg",
-          "type": "tourist_attraction",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/mneUdtSeYCRaYSdg6"
+          "type": "art_culture",
+          "websiteUrl": "http://www.philharmonie.lu/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/mneUdtSeYCRaYSdg6",
+          "image": "/images/philharmonie-luxembourg.jpg"
         },
         {
           "id": "court-of-justice-of-the-european-union",
@@ -9289,8 +9300,9 @@
           "address": "Žydų g. 4a, 01131 Vilnius, Lithuania",
           "country": "Litwa",
           "type": "hotel",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/qADAZ3wrhN6mkGiu9"
+          "websiteUrl": "https://hotelpacai.com/en",
+          "GoogleMapsLink": "https://maps.app.goo.gl/qADAZ3wrhN6mkGiu9",
+          "image": "/images/hotel-pacai.jpg"
         },
         {
           "id": "monument-to-adam-mickiewicz",
@@ -9520,9 +9532,10 @@
           "longitude": 25.285841103692064,
           "address": "Pylimo g. 20, 01136 Vilnius, Lithuania",
           "country": "Litwa",
-          "type": "tourist_attraction",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/RMSbE2qcEqXWdME19"
+          "type": "shopping",
+          "websiteUrl": "https://www.halesturgaviete.lt/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/RMSbE2qcEqXWdME19",
+          "image": "/images/hales-turgus.jpg"
         },
         {
           "id": "senatoriu-pasazas",
@@ -9620,8 +9633,9 @@
           "address": "V6FC+46 Lumbarda, Croatia",
           "country": "Chorwacja",
           "type": "museum",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/9fqGDaN8dze7ekth9"
+          "websiteUrl": "https://putnikovic-vina.hr/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/9fqGDaN8dze7ekth9",
+          "image": "/images/muzej-vinarstva-putnikovici.jpg"
         }
       ]
     },
@@ -9692,9 +9706,10 @@
           "longitude": 13.961994728645436,
           "address": "Slap 3i, 5271 Vipava, Slovenia",
           "country": "Słowenia",
-          "type": "tourist_attraction",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/2TyRdeEaBKUEwMo59"
+          "type": "shopping",
+          "websiteUrl": "http://www.vipava1894.si/o-podjetju/kontakti",
+          "GoogleMapsLink": "https://maps.app.goo.gl/2TyRdeEaBKUEwMo59",
+          "image": "/images/vipava-1894-d-o-o.jpg"
         },
         {
           "id": "hotel-lovran",
@@ -9731,7 +9746,8 @@
           "country": "Chorwacja",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/hD43wkTLzKAwisgy9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/hD43wkTLzKAwisgy9",
+          "image": "/images/lungomare.jpg"
         },
         {
           "id": "bakar-chorwacja",
@@ -9743,7 +9759,8 @@
           "country": "Chorwacja",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/AW7HHAENUfxu3jBi6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/AW7HHAENUfxu3jBi6",
+          "image": "/images/bakar-chorwacja.jpg"
         },
         {
           "id": "bistro-konoba-lucija",
@@ -9783,15 +9800,16 @@
         },
         {
           "id": "memorial-church-of-the-holy-spirit",
-          "name": "Memorial Church of the Holy Spirit",
-          "description": "Memoriałowy Kościół Świętego Ducha w Javorcy. Ta drewniana świątynia, wzniesiona przez żołnierzy w 1916 roku, to wzruszający pomnik poświęcony poległym, stojący wysoko w górach jako świadectwo trudnych czasów i ludzkiego ducha. To kawałek historii zaklęty w drewnie, przypominający, że nawet w najtrudniejszych chwilach potrafimy tworzyć coś pięknego i trwałego.",
+          "name": "Memoriałowy Kościół Świętego Ducha w Javorcy",
+          "description": "Ta drewniana świątynia, wzniesiona przez żołnierzy w 1916 roku, to wzruszający pomnik poświęcony poległym, stojący wysoko w górach jako świadectwo trudnych czasów i ludzkiego ducha. To kawałek historii zaklęty w drewnie, przypominający, że nawet w najtrudniejszych chwilach potrafimy tworzyć coś pięknego i trwałego.",
           "latitude": 46.23482325504731,
           "longitude": 13.719877508934575,
           "address": "6PR8+FV Tolmin, Slovenia",
           "country": "Słowenia",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/D6TkEKrp1JY4jhpM7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/D6TkEKrp1JY4jhpM7",
+          "image": "/images/memorial-church-of-the-holy-spirit.jpg"
         },
         {
           "id": "most-kanal",
@@ -9825,9 +9843,10 @@
           "longitude": 13.498706398009817,
           "address": "QF2P+64 San Canzian d'Isonzo, Province of Gorizia, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/1WX8Kaa9ebgA7m6y6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/1WX8Kaa9ebgA7m6y6",
+          "image": "/images/riserva-naturale-regionale-della-foce-dell-isonzo-isola-della-cona.jpg"
         },
         {
           "id": "trg-evrope",
@@ -9961,19 +9980,21 @@
           "country": "Polska",
           "type": "museum",
           "websiteUrl": "https://www.mnw.art.pl/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Kj4ouSjFBZFrRmHv6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Kj4ouSjFBZFrRmHv6",
+          "image": "/images/muzeum-narodowe-w-warszawie.jpg"
         },
         {
           "id": "skyfall-warsaw",
           "name": "Skyfall Warsaw",
-          "description": "Mówiąc o Warszawie, nie sposób pominąć miejsca, które dosłownie wynosi gości na wyżyny. Skyfall Warsaw, mieszczący się w nowoczesnym gmachu oddanym do użytku w 2022 roku, oferuje nie tylko zapierający dech widok z 49. piętra, ale i możliwość delektowania się smakami, patrząc na świat z zupełnie innej perspektywy. To kulinarna przygoda z dreszczykiem emocji, bo część podłogi... potrafi się wychylić!",
+          "description": "Miejsce, które dosłownie wynosi gości na wyżyny. Skyfall Warsaw, mieszczący się w nowoczesnym gmachu oddanym do użytku w 2022 roku, oferuje nie tylko zapierający dech widok z 49. piętra, ale i możliwość delektowania się smakami, patrząc na świat z zupełnie innej perspektywy. To kulinarna przygoda z dreszczykiem emocji, bo część podłogi... potrafi się wychylić!",
           "latitude": 52.23020292194082,
           "longitude": 20.986204910401412,
           "address": "rondo Ignacego Daszyńskiego 1, 00-838 Warszawa, Poland",
           "country": "Polska",
           "type": "tourist_attraction",
           "websiteUrl": "http://www.skyfallwarsaw.com/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/EhkD1DsrSBksbSEL8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/EhkD1DsrSBksbSEL8",
+          "image": "/images/skyfall-warsaw.jpg"
         },
         {
           "id": "elephant-belgian-pub",
@@ -10007,9 +10028,10 @@
           "longitude": 20.41764604109211,
           "address": "Campi 27, 32-700 Bochnia, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://kopalnia-bochnia.pl/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/VrBi4iHsrH9p52P49"
+          "GoogleMapsLink": "https://maps.app.goo.gl/VrBi4iHsrH9p52P49",
+          "image": "/images/kopalnia-soli-bochnia.jpg"
         }
       ]
     },
@@ -10070,7 +10092,8 @@
           "country": "Polska",
           "type": "hotel",
           "websiteUrl": "https://www.kocierz.pl/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/HeEoPiVzxHdp1VL78"
+          "GoogleMapsLink": "https://maps.app.goo.gl/HeEoPiVzxHdp1VL78",
+          "image": "/images/kocierz-resort.jpg"
         }
       ]
     },
@@ -10129,9 +10152,10 @@
           "longitude": 11.899749346260045,
           "address": "Str. Sompunt, 25, 39036 Badia BZ, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/JGr4sWvRGyjvbePv9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/JGr4sWvRGyjvbePv9",
+          "image": "/images/parco-cervi-sompunt-alta-badia.jpg"
         },
         {
           "id": "miraval-naturhotel",
@@ -10192,7 +10216,7 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/nGSz9SUrPAEuFDJ98",
-          "image": ""
+          "image": "/images/punto-panoramico-corvara.jpg"
         },
         {
           "id": "boe-bergbahnen",
@@ -10203,8 +10227,9 @@
           "address": "strada Sotscofes, 12, 39033 Corvara in Badia BZ, Italy",
           "country": "Włochy",
           "type": "tourist_attraction",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/rdvSPwurCdbYDMHw5"
+          "websiteUrl": "https://moviment.it/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/rdvSPwurCdbYDMHw5",
+          "image": "/images/boe-bergbahnen.jpg"
         },
         {
           "id": "panificio-seppi-c-s-a-s",
@@ -10214,9 +10239,10 @@
           "longitude": 11.874066951255287,
           "address": "Str. Col Alt, 9, 39033 Corvara in Badia BZ, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/qc8BituzB1bK2EfH9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/qc8BituzB1bK2EfH9",
+          "image": "/images/panificio-seppi-c-s-a-s.jpg"
         },
         {
           "id": "hotel-la-perla",
@@ -10263,8 +10289,9 @@
           "address": "QWFM+X3 Bruneck, Autonomous Province of Bolzano – South Tyrol, Italy",
           "country": "Włochy",
           "type": "tourist_attraction",
-          "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/4oUzXRshaTwMU2ET9"
+          "websiteUrl": "http://www.kronplatz.com/",
+          "GoogleMapsLink": "https://maps.app.goo.gl/4oUzXRshaTwMU2ET9",
+          "image": "/images/skigebiet-kronplatz.jpg"
         },
         {
           "id": "alpinn-by-norbert-niederkofler",
@@ -10347,9 +10374,10 @@
           "longitude": 12.614693576522482,
           "address": "Via Portica, 23, 06081 Assisi PG, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/2scEzdDh47fcYeu9A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/2scEzdDh47fcYeu9A",
+          "image": "/images/chiesa-di-santa-maria-sopra-minerva-ad-assisi.jpg"
         },
         {
           "id": "eredi-di-e-zvbboli",
