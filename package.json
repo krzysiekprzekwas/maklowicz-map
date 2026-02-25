@@ -9,7 +9,8 @@
     "lint": "next lint",
     "sitemap": "next-sitemap",
     "parse-location": "cd scripts/location-parser && npx ts-node src/index.ts",
-    "parse-video": "cd scripts/video-parser && npx ts-node src/index.ts"
+    "parse-video": "cd scripts/video-parser && npx ts-node src/index.ts",
+    "backfill-websites": "node scripts/backfill-websites.js"
   },
   "dependencies": {
     "@google/genai": "^0.10.0",
@@ -20,6 +21,7 @@
     "@types/react-dom": "^19.2.3",
     "@vercel/analytics": "^1.5.0",
     "@vercel/speed-insights": "^1.2.0",
+    "any-ascii": "^0.3.3",
     "axios": "^1.8.2",
     "dotenv": "^16.4.7",
     "eslint-config-next": "^16.0.10",
