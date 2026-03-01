@@ -1398,7 +1398,8 @@
           "country": "Czechy",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/APaj6pwcfLnCEfMn9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/APaj6pwcfLnCEfMn9",
+          "image": "/images/staroceska-restaurace-v-ruthardce.jpg"
         }
       ]
     },
@@ -1435,7 +1436,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/AZGAguvejyCoNuqU9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/AZGAguvejyCoNuqU9",
+          "image": "/images/la-fontana-pizza-napoletana.jpg"
         },
         {
           "id": "muzeum-zamkowe-w-pszczynie",
@@ -1447,7 +1449,8 @@
           "country": "Polska",
           "type": "museum",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/D6znvczsgKud3EH1A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/D6znvczsgKud3EH1A",
+          "image": "/images/muzeum-zamkowe-w-pszczynie.jpg"
         },
         {
           "id": "wodna-wieza",
@@ -1562,7 +1565,8 @@
           "country": "Bośnia i Hercegowina",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/FKkDiQ7CpvyRSfmz8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/FKkDiQ7CpvyRSfmz8",
+          "image": "/images/libro-restaurant.jpg"
         }
       ]
     },
@@ -1610,7 +1614,8 @@
           "country": "Włochy",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/daSSh6TtXnXn52w96"
+          "GoogleMapsLink": "https://maps.app.goo.gl/daSSh6TtXnXn52w96",
+          "image": "/images/da-alfredo.jpg"
         },
         {
           "id": "fenech",
@@ -2560,7 +2565,8 @@
           "country": "Mauritius",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/wR41oVfnD4dzAgYd6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/wR41oVfnD4dzAgYd6",
+          "image": "/images/coco-de-la-cambuse.jpg"
         },
         {
           "id": "la-case-poisson",
@@ -2572,7 +2578,8 @@
           "country": "Mauritius",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/frK2YM9yTC1ry3t26"
+          "GoogleMapsLink": "https://maps.app.goo.gl/frK2YM9yTC1ry3t26",
+          "image": "/images/la-case-poisson.jpg"
         },
         {
           "id": "eglise-trou-d-eau-douce-notre-dame-du-bon-secours",
@@ -3164,7 +3171,8 @@
           "country": "Luksemburg",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Limtce3rC2wNJTNL7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Limtce3rC2wNJTNL7",
+          "image": "/images/hotel-de-ville.jpg"
         },
         {
           "id": "statue-of-the-grand-duchess-charlotte",
@@ -3187,13 +3195,14 @@
           "longitude": 6.131262970382719,
           "address": "20 Grand-Rue, 1660 Ville-Haute Luxembourg",
           "country": "Luksemburg",
-          "type": "restaurant",
+          "type": "cafe",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/tgytC7r45A1eSRZW8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/tgytC7r45A1eSRZW8",
+          "image": "/images/oberweis-grand-rue.jpg"
         },
         {
           "id": "le-quai-steffen-gare-de-luxembourg-restaurant",
-          "name": "Le Quai Steffen Gare de Luxembourg | Restaurant",
+          "name": "Le Quai Steffen Gare de Luxembourg",
           "description": "Lokal cieszący się opinią najlepszego miejsca do spotkania się z kuchnia luksemburską.",
           "latitude": 49.60021460390374,
           "longitude": 6.134033291987887,
@@ -3201,7 +3210,8 @@
           "country": "Luksemburg",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/mqQvyGp4uwhz5ZM28"
+          "GoogleMapsLink": "https://maps.app.goo.gl/mqQvyGp4uwhz5ZM28",
+          "image": "/images/le-quai-steffen-gare-de-luxembourg-restaurant.jpg"
         },
         {
           "id": "philharmonie-luxembourg",
@@ -3226,7 +3236,8 @@
           "country": "Luksemburg",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/7w3USDeQu6RJkKnn8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/7w3USDeQu6RJkKnn8",
+          "image": "/images/court-of-justice-of-the-european-union.jpg"
         },
         {
           "id": "schmit-fohl-maison-viticole",
@@ -4345,8 +4356,8 @@
           "country": "Bośnia i Hercegowina",
           "type": "restaurant",
           "websiteUrl": "https://www.facebook.com/p/Ljetna-bašta-Nargila-bar-HS-100054546395337/",
-          "image": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/4yvCCFM5hSzt7U9s5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/4yvCCFM5hSzt7U9s5",
+          "image": "/images/ljetna-basta-h-s.jpg"
         },
         {
           "id": "old-neretva-train-bridge",
@@ -5393,8 +5404,8 @@
           "country": "Grecja",
           "type": "shopping",
           "websiteUrl": "",
-          "image": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ZRhTvrSTdTojqhv36"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZRhTvrSTdTojqhv36",
+          "image": "/images/traditional-seafood-market.jpg"
         },
         {
           "id": "venetian-loggia",
@@ -6125,8 +6136,8 @@
           "country": "Polska",
           "type": "shopping",
           "websiteUrl": "https://swiezoizdrowo.pl/",
-          "image": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/75DwPTHMgQkPr8vj6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/75DwPTHMgQkPr8vj6",
+          "image": "/images/swiezo-i-zdrowo-sklep-ze-zdrowa-zywnoscia.jpg"
         }
       ]
     },
@@ -6343,8 +6354,8 @@
           "country": "Tajlandia",
           "type": "restaurant",
           "websiteUrl": "",
-          "image": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Naxy85wpuSJgCnJT6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Naxy85wpuSJgCnJT6",
+          "image": "/images/panpee-noodle-shop.jpg"
         },
         {
           "id": "mango-sticky-rice-by-auntie-joy",
@@ -7745,8 +7756,8 @@
           "country": "Grecja",
           "type": "shopping",
           "websiteUrl": "",
-          "image": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/AHNveVZKJzCBAu3P9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/AHNveVZKJzCBAu3P9",
+          "image": "/images/rassias.jpg"
         }
       ]
     },
@@ -8680,8 +8691,8 @@
           "country": "Tunezja",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "image": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/4CbNou5fAdb6F3kW6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/4CbNou5fAdb6F3kW6",
+          "image": "/images/the-gateway-to-the-sahara-desert.jpg"
         },
         {
           "id": "wielki-szott",
@@ -8935,9 +8946,10 @@
           "longitude": 11.044165346746796,
           "address": "R2FQ+CHJ, Djerba Midun, Tunisia",
           "country": "Tunezja",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/zniULZhGVzwDact46"
+          "GoogleMapsLink": "https://maps.app.goo.gl/zniULZhGVzwDact46",
+          "image": "/images/djerba-explore-village.jpg"
         },
         {
           "id": "djerba-crocodile-farm",
@@ -9000,8 +9012,8 @@
           "country": "Polska",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "image": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/aY65WuiuSR5wu5pi8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/aY65WuiuSR5wu5pi8",
+          "image": "/images/miejsce-urodzenia-gen-jozefa-bema.jpg"
         },
         {
           "id": "targowisko-miejskie-burek",
@@ -9217,9 +9229,10 @@
           "longitude": 24.933433628745632,
           "address": "MW4F+5Q Trakai, Trakai District Municipality, Lithuania",
           "country": "Litwa",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/qQpvCneGHDS87tQs6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/qQpvCneGHDS87tQs6",
+          "image": "/images/zamek-w-trokach.jpg"
         },
         {
           "id": "kybynlar",
@@ -9236,15 +9249,16 @@
         },
         {
           "id": "tatar-cemetery",
-          "name": "Tatar Cemetery",
+          "name": "Cmentarz Tatarski",
           "description": "A proszę państwa, kto by się spodziewał, że na Litwie, pośród zieleni, kryje się takie miejsce – tatarski cmentarz! To świadectwo wieków obecności Tatarów na tych ziemiach, opowieść o innej kulturze i wierze, która wrosła w lokalny krajobraz. Spacerując między nagrobkami, można niemal poczuć tę niezwykłą mieszankę historii i tradycji, która tworzy unikalny smak tego miejsca.",
           "latitude": 54.63532714461575,
           "longitude": 25.357083635818203,
           "address": "V. Sirokomlės g. 18, 13262 Nemėžis, Lithuania",
           "country": "Litwa",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/5hakxT9fP4ZEVswT8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/5hakxT9fP4ZEVswT8",
+          "image": "/images/tatar-cemetery.jpg"
         },
         {
           "id": "dwor-niemiez",
@@ -9256,7 +9270,8 @@
           "country": "Litwa",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/F35kmuAS5QWCPkMx9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/F35kmuAS5QWCPkMx9",
+          "image": "/images/dwor-niemiez.jpg"
         },
         {
           "id": "zemaiciu-asotis",
@@ -9324,15 +9339,16 @@
         },
         {
           "id": "church-of-st-francis-of-assisi",
-          "name": "Church of St. Francis of Assisi",
+          "name": "Kościół pw. św. Franciszka i św. Bernarda w Wilnie",
           "description": "Kościół św. Franciszka z Asyżu, znanym szerzej jako Kościół Bernardynów w Wilnie. To prawdziwy gotycki klejnot, którego budowa rozpoczęła się już pod koniec XV wieku, świadectwo burzliwej historii i niezwykłej architektury. Stojąc w cieniu jego potężnych murów, można poczuć ducha dawnych wieków, równie bogatego i złożonego jak smaki regionalnej kuchni.",
           "latitude": 54.68302884117986,
           "longitude": 25.293441835074503,
           "address": "Literatų g. 9, Vilnius, 01125 Vilniaus m. sav., Lithuania",
           "country": "Litwa",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/TYV6zTett2Y4c4EM6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/TYV6zTett2Y4c4EM6",
+          "image": "/images/church-of-st-francis-of-assisi.jpg"
         },
         {
           "id": "uzupis-bridge-swing",
@@ -9342,9 +9358,10 @@
           "longitude": 25.29252988039733,
           "address": "Užupio g. 1, 01200 Vilnius, Lithuania",
           "country": "Litwa",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/tDk6dXzfx3TCMrpQ6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/tDk6dXzfx3TCMrpQ6",
+          "image": "/images/uzupis-bridge-swing.jpg"
         },
         {
           "id": "uzupis-gallery",
@@ -9367,9 +9384,10 @@
           "longitude": 25.29384718648652,
           "address": "Bokštai-Vertikalės Vilnelėje, 01125 Vilnius, Lithuania",
           "country": "Litwa",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/pE3z3K74RfB3siNE9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/pE3z3K74RfB3siNE9",
+          "image": "/images/tibetan-square-vilnius.jpg"
         },
         {
           "id": "angel-of-uzupis",
@@ -9379,9 +9397,10 @@
           "longitude": 25.295412320727998,
           "address": "Bokšto g. 6A, Vilnius, 01125 Vilniaus m. sav., Lithuania",
           "country": "Litwa",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/8ZxJcpuaikBADSSN8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/8ZxJcpuaikBADSSN8",
+          "image": "/images/angel-of-uzupis.jpg"
         },
         {
           "id": "coffee1",
@@ -9406,7 +9425,8 @@
           "country": "Litwa",
           "type": "museum",
           "websiteUrl": "http://www.mo.lt/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/XK6ozRG4AtyVPGhr5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/XK6ozRG4AtyVPGhr5",
+          "image": "/images/mo-museum.jpg"
         },
         {
           "id": "paupio-turgus",
@@ -9418,7 +9438,8 @@
           "country": "Litwa",
           "type": "restaurant",
           "websiteUrl": "https://www.paupioturgus.lt/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/FyoChiNaRBVbGs699"
+          "GoogleMapsLink": "https://maps.app.goo.gl/FyoChiNaRBVbGs699",
+          "image": "/images/paupio-turgus.jpg"
         },
         {
           "id": "druska-miltai-vanduo-paupys",
@@ -9430,7 +9451,8 @@
           "country": "Litwa",
           "type": "restaurant",
           "websiteUrl": "https://www.facebook.com/dmvkepykla/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/YA1jHE4YdRWhmDHG7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/YA1jHE4YdRWhmDHG7",
+          "image": "/images/druska-miltai-vanduo-paupys.jpg"
         },
         {
           "id": "lukiskiu-kalejimas-2-0",
@@ -9440,21 +9462,23 @@
           "longitude": 25.26725647338589,
           "address": "Lukiškių skg. 6, 01108 Vilnius, Lithuania",
           "country": "Litwa",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://www.lukiskiukalejimas.lt/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Aggjg5YK2P5DWyKE7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Aggjg5YK2P5DWyKE7",
+          "image": "/images/lukiskiu-kalejimas-2-0.jpg"
         },
         {
           "id": "ertlio-namas",
           "name": "Ertlio Namas",
-          "description": "W sercu Litwy znajduje się niezwykłe miejsce, Ertlio Namas. To nie jest zwykła restauracja, lecz prawdziwa kulinarna podróż w przeszłość, gdzie odtwarzane są smaki dawnej litewskiej kuchni, często prosto ze szlacheckich dworów; można by rzec, że to jedzenie z duszą i historią, podane w sposób, który z pewnością zachwyciłby niejednego smakosza szukającego czegoś więcej niż tylko posiłku.",
+          "description": "To nie jest zwykła restauracja, lecz prawdziwa kulinarna podróż w przeszłość, gdzie odtwarzane są smaki dawnej litewskiej kuchni, często prosto ze szlacheckich dworów; można by rzec, że to jedzenie z duszą i historią, podane w sposób, który z pewnością zachwyciłby niejednego smakosza szukającego czegoś więcej niż tylko posiłku.",
           "latitude": 54.681905857040775,
           "longitude": 25.28745096037649,
           "address": "Universiteto g. 2C, 01121 Vilnius, Lithuania",
           "country": "Litwa",
           "type": "restaurant",
           "websiteUrl": "http://ertlionamas.lt/meniu/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/BCQYdgAPg3NwAhnT6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/BCQYdgAPg3NwAhnT6",
+          "image": "/images/ertlio-namas.jpg"
         }
       ]
     },
@@ -9470,7 +9494,7 @@
       "locations": [
         {
           "id": "gate-of-dawn",
-          "name": "Gate of Dawn",
+          "name": "Ostra Brama w Wilnie",
           "description": "Ostra Brama, wzniesiona na początku XVI wieku, która bynajmniej nie jest tylko starą bramą miejską. To prawdziwe serce duchowe miasta i regionu, kryjące w sobie cudowny obraz Matki Boskiej Ostrobramskiej, do którego od wieków pielgrzymują rzesze wiernych. Czuje się tu niezwykłą atmosferę, gdzie historia splata się z głęboką wiarą, a każdy kamień zdaje się opowiadać swoją opowieść.",
           "latitude": 54.674363486274885,
           "longitude": 25.28951288640458,
@@ -9478,11 +9502,12 @@
           "country": "Litwa",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/pbrphJsCszsMnTWX7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/pbrphJsCszsMnTWX7",
+          "image": "/images/gate-of-dawn.jpg"
         },
         {
           "id": "vilnius-cathedral",
-          "name": "Vilnius Cathedral",
+          "name": "Bazylika archikatedralna w Wilnie",
           "description": "Ta majestatyczna budowla, której korzenie sięgają głęboko w przeszłość, bo aż XIV wieku, a obecny kształt zyskała pod koniec XVIII stulecia, kryje w sobie prawdziwą esencję litewskiej tożsamości. To nie tylko świątynia, ale i panteon władców, miejsce, gdzie historia smakuje wyjątkowo.",
           "latitude": 54.6858640773493,
           "longitude": 25.287664459912985,
@@ -9490,7 +9515,8 @@
           "country": "Litwa",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/G2Xu68GaQDisSwiG6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/G2Xu68GaQDisSwiG6",
+          "image": "/images/vilnius-cathedral.jpg"
         },
         {
           "id": "augustas-barbora-love-story-cafe",
@@ -9507,7 +9533,7 @@
         },
         {
           "id": "office-of-the-president-of-the-republic-of-lithuania",
-          "name": "Office of the President of the Republic of Lithuania",
+          "name": "Pałac Prezydencki w Wilnie",
           "description": "W samym sercu Wilna, w pałacu o korzeniach sięgających XIV wieku, mieści się dziś biuro prezydenta Litwy. To miejsce, gdzie historia z teraźniejszością się splata, a mury mogłyby opowiedzieć niejedną frapującą opowieść o losach kraju, może przy filiżance dobrej kawy.",
           "latitude": 54.683265768115426,
           "longitude": 25.28600448284102,
@@ -9515,11 +9541,12 @@
           "country": "Litwa",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/eBYtrg5EbvV9m3sc9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/eBYtrg5EbvV9m3sc9",
+          "image": "/images/office-of-the-president-of-the-republic-of-lithuania.jpg"
         },
         {
           "id": "vilnius-university",
-          "name": "Vilnius University",
+          "name": "Uniwersytet Wileński",
           "description": "Uniwersytet Wileński, założony już w 1579 roku. To nie tylko mury, ale prawdziwa skarbnica wiedzy, gdzie przez wieki kształtowały się umysły, niczym najlepsze wino dojrzewające w piwnicy. To miejsce, które karmi duszę i umysł, równie sycąco co najlepszy litewski kindziuk!",
           "latitude": 54.68257224489004,
           "longitude": 25.28763329191612,
@@ -9527,7 +9554,8 @@
           "country": "Litwa",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/6q7FCFmHMkrVLpZw9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/6q7FCFmHMkrVLpZw9",
+          "image": "/images/vilnius-university.jpg"
         },
         {
           "id": "hales-turgus",
@@ -9552,7 +9580,8 @@
           "country": "Litwa",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/crgGJimT3gschKGk6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/crgGJimT3gschKGk6",
+          "image": "/images/senatoriu-pasazas.jpg"
         },
         {
           "id": "dirva",
@@ -9564,7 +9593,8 @@
           "country": "Litwa",
           "type": "shopping",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/SzV3VtVqyMY5WcWS9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/SzV3VtVqyMY5WcWS9",
+          "image": "/images/dirva.jpg"
         },
         {
           "id": "nineteen18",
@@ -9576,7 +9606,8 @@
           "country": "Litwa",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/aVRz2Rw7RfEMZoJW9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/aVRz2Rw7RfEMZoJW9",
+          "image": "/images/nineteen18.jpg"
         }
       ]
     },
@@ -9677,7 +9708,8 @@
           "country": "Chorwacja",
           "type": "hotel",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/FjqEPNfNzVPoEJjF8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/FjqEPNfNzVPoEJjF8",
+          "image": "/images/heritage-hotel-adriatic-adults-only.jpg"
         }
       ]
     },
@@ -9701,7 +9733,8 @@
           "country": "Słowenia",
           "type": "museum",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/xRvTcAv2q7Ndv9qC8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/xRvTcAv2q7Ndv9qC8",
+          "image": "/images/idrija-municipal-museum.jpg"
         },
         {
           "id": "vipava-1894-d-o-o",
@@ -9737,9 +9770,10 @@
           "longitude": 14.276261873332105,
           "address": "Dr. Nila Cara 3A, 51415, Lovran, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "hotel",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/bSFAD26gANAZquSe8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/bSFAD26gANAZquSe8",
+          "image": "/images/willa-atlanta.jpg"
         },
         {
           "id": "lungomare",
@@ -9777,7 +9811,8 @@
           "country": "Chorwacja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/PDVEjSWmDPxWkZk1A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/PDVEjSWmDPxWkZk1A",
+          "image": "/images/bistro-konoba-lucija.jpg"
         }
       ]
     },
@@ -9826,7 +9861,8 @@
           "country": "Słowenia",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/b2v2QwrE3miN8pDg6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/b2v2QwrE3miN8pDg6",
+          "image": "/images/most-kanal.jpg"
         },
         {
           "id": "smartno-s-owenia",
@@ -9838,7 +9874,8 @@
           "country": "Słowenia",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/WrfKMkqtdn8THdtN9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/WrfKMkqtdn8THdtN9",
+          "image": "/images/smartno-s-owenia.jpg"
         },
         {
           "id": "riserva-naturale-regionale-della-foce-dell-isonzo-isola-della-cona",
@@ -9863,19 +9900,21 @@
           "country": "Słowenia",
           "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/owPRnQYPunjDicpj7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/owPRnQYPunjDicpj7",
+          "image": "/images/trg-evrope.jpg"
         },
         {
           "id": "gostilna-metulj-d-o-o",
-          "name": "GOSTILNA METULJ",
-          "description": "Słoweńskie strony kryją czasem prawdziwe perełki, a jedną z nich jest z pewnością GOSTILNA METULJ – miejsce, gdzie tradycja spotyka się ze smakiem w zabytkowych murach, być może pamiętających nawet XIX wiek. To nie tylko restauracja, to prawdziwa gościna, gdzie na talerzu lądują dania proste, ale pełne ducha i autentycznego smaku pogranicza. Można tu poczuć, jak historia miesza się z kulinarną pasją.",
+          "name": "Gostilna Metulj",
+          "description": "Miejsce, gdzie tradycja spotyka się ze smakiem w zabytkowych murach, być może pamiętających nawet XIX wiek. To nie tylko restauracja, to prawdziwa gościna, gdzie na talerzu lądują dania proste, ale pełne ducha i autentycznego smaku pogranicza. Można tu poczuć, jak historia miesza się z kulinarną pasją.",
           "latitude": 45.961861893101876,
           "longitude": 13.644798800742407,
           "address": "Cankarjeva ul. 60, 5000 Nova Gorica, Słowenia",
           "country": "Słowenia",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/BzyykJRCxyi5iT9f6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/BzyykJRCxyi5iT9f6",
+          "image": "/images/gostilna-metulj-d-o-o.jpg"
         }
       ]
     },
@@ -9899,7 +9938,8 @@
           "country": "Słowenia",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/s5f26mJUNAb28kGHA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/s5f26mJUNAb28kGHA",
+          "image": "/images/san-fermin-church.jpg"
         },
         {
           "id": "napoleon-s-bridge",
@@ -9924,19 +9964,21 @@
           "country": "Słowenia",
           "type": "museum",
           "websiteUrl": "https://www.kobariski-muzej.si/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/orw22KT95sreom9p9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/orw22KT95sreom9p9",
+          "image": "/images/kobarid-museum.jpg"
         },
         {
           "id": "ossuary-of-italian-wwi-soldiers",
-          "name": "Ossuary of Italian WWI soldiers",
+          "name": "Osuarium Żołnierzy Włoskich z I Wojny Światowej",
           "description": "Miejsce, które chwyta za serce – ossuarium włoskich żołnierzy poległych w I wojnie światowej. Ta imponująca budowla, wzniesiona w latach 30. XX wieku, przypomina o burzliwych losach regionu, gdzie historia mieszała się z krwią. Po takiej wizycie najlepiej chyba usiąść w pobliskiej gospodzie i w ciszy pomyśleć nad tym, co się widziało, popijając lokalne wino.",
           "latitude": 46.246991089698476,
           "longitude": 13.583973673681928,
           "address": "Pot na gradič 5, 5222 Kobarid, Slovenia",
           "country": "Słowenia",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/vqHeTGoYczK6T6sC9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/vqHeTGoYczK6T6sC9",
+          "image": "/images/ossuary-of-italian-wwi-soldiers.jpg"
         },
         {
           "id": "hisa-polonka",
@@ -9948,7 +9990,8 @@
           "country": "Słowenia",
           "type": "restaurant",
           "websiteUrl": "https://hisapolonka.com/domov/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/7tjAwws8dYJiZKyE7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/7tjAwws8dYJiZKyE7",
+          "image": "/images/hisa-polonka.jpg"
         }
       ]
     },
@@ -10011,7 +10054,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "http://www.elephantbelgianpub.com.pl/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/HbofVduVEJTzSrNB7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/HbofVduVEJTzSrNB7",
+          "image": "/images/elephant-belgian-pub.jpg"
         }
       ]
     },
@@ -10058,9 +10102,10 @@
           "longitude": 19.71252346175239,
           "address": "Kalwaria Zebrzydowska 86, 34-130, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/hXidcgYzmF1XVxaD9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/hXidcgYzmF1XVxaD9",
+          "image": "/images/ruiny-zamku-w-lanckoronie.jpg"
         },
         {
           "id": "arka-cafe",
@@ -10083,9 +10128,10 @@
           "longitude": 19.67605488860325,
           "address": "Rynek 29, 34-130 Kalwaria Zebrzydowska, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "http://www.parafiakalwaria.pl/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/d57NtQFqoPncSwPs7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/d57NtQFqoPncSwPs7",
+          "image": "/images/koscio-sw-jozefa-w-kalwarii-zebrzydowskiej.jpg"
         },
         {
           "id": "kocierz-resort",
@@ -10147,7 +10193,8 @@
           "country": "Włochy",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/2stejmRrsuvrTcCm9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/2stejmRrsuvrTcCm9",
+          "image": "/images/rifugio-utia-paraciora.jpg"
         },
         {
           "id": "parco-cervi-sompunt-alta-badia",
@@ -10172,7 +10219,8 @@
           "country": "Włochy",
           "type": "hotel",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/17L2EHsvSdUbsw6n7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/17L2EHsvSdUbsw6n7",
+          "image": "/images/miraval-naturhotel.jpg"
         },
         {
           "id": "schutzhutte-hl-kreuz",
@@ -10184,7 +10232,8 @@
           "country": "Włochy",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/xc7A4DP8k2VXYCzAA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/xc7A4DP8k2VXYCzAA",
+          "image": "/images/schutzhutte-hl-kreuz.jpg"
         },
         {
           "id": "maso-runch-hof",
@@ -10196,7 +10245,8 @@
           "country": "Włochy",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/aNqQTQ3JECNS1hCq9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/aNqQTQ3JECNS1hCq9",
+          "image": "/images/maso-runch-hof.jpg"
         }
       ]
     },
@@ -10272,7 +10322,8 @@
           "country": "Włochy",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/LvhuPFWu91q4pLiD7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/LvhuPFWu91q4pLiD7",
+          "image": "/images/la-stua-de-michil.jpg"
         }
       ]
     },
@@ -10309,7 +10360,8 @@
           "country": "Włochy",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/421BpNQrNDem1GXh8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/421BpNQrNDem1GXh8",
+          "image": "/images/alpinn-by-norbert-niederkofler.jpg"
         },
         {
           "id": "lumen-museum-of-mountain-photography",
@@ -10321,7 +10373,8 @@
           "country": "Włochy",
           "type": "museum",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/2nJJV3bD5ruozPpQ9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/2nJJV3bD5ruozPpQ9",
+          "image": "/images/lumen-museum-of-mountain-photography.jpg"
         },
         {
           "id": "mmm-corones",
@@ -10334,7 +10387,7 @@
           "type": "museum",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/Te8tp3px1TNhuRpF8",
-          "image": ""
+          "image": "/images/mmm-corones.jpg"
         }
       ]
     },
@@ -10371,7 +10424,8 @@
           "country": "Włochy",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/o3rpttVdURYruJbTA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/o3rpttVdURYruJbTA",
+          "image": "/images/trattoria-degli-umbri.jpg"
         },
         {
           "id": "chiesa-di-santa-maria-sopra-minerva-ad-assisi",
@@ -10396,7 +10450,8 @@
           "country": "Włochy",
           "type": "shopping",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/fH1gn9JZRvBTz7eu7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/fH1gn9JZRvBTz7eu7",
+          "image": "/images/eredi-di-e-zvbboli.jpg"
         },
         {
           "id": "la-bottega-del-pasticcere",
@@ -10511,7 +10566,7 @@
           "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/1XF2k3UHadLQwQfNA",
-          "image": ""
+          "image": "/images/chocostore-by-eurochocolate.jpg"
         },
         {
           "id": "palazzo-dei-priori",
@@ -11563,14 +11618,15 @@
         {
           "id": "tekke-derwiszow-w-blagaj",
           "name": "Tekke derwiszów w Blagaj",
-          "description": "W malowniczym Blagaju, w Bośni i Hercegowinie, znajduje się Tekke derwiszów, fascynujące miejsce z XVI-wieczną historią, gdzie sufizm i piękno architektury łączą się w harmonijną całość. To tutaj, w otoczeniu zieleni i dźwięku wody, derwisze przez wieki praktykowali swoje rytuały, a miejsce stało się symbolem duchowej głębi i tolerancji.",
+          "description": "W malowniczym Blagaju, w Bośni i Hercegowinie, znajduje się Tekke derwiszów, fascynujące miejsce z XVI-wieczną historią, gdzie sufizm i piękno architektury łączą się w harmonijną całość. Wzniesiony nad wodą u stóp urwiska zabytkowy klasztor suficki z mauzoleum i starą łaźnią turecką. To tutaj, w otoczeniu zieleni i dźwięku wody, derwisze przez wieki praktykowali swoje rytuały, a miejsce stało się symbolem duchowej głębi i tolerancji.",
           "latitude": 43.257082787204006,
           "longitude": 17.903169613645694,
           "address": "7W24+5M Blagaj, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/FufGqSDUdVooMpq16"
+          "GoogleMapsLink": "https://maps.app.goo.gl/FufGqSDUdVooMpq16",
+          "image": "/images/tekke-derwiszow-w-blagaj.jpg"
         },
         {
           "id": "zrod-o-buny",
@@ -11675,15 +11731,16 @@
         },
         {
           "id": "ornamented-mosque",
-          "name": "Ornamented Mosque",
+          "name": "Zdobiony Meczet",
           "description": "Malowany, ozdobny meczet, Šarena džamija, którego piękno architektoniczne zachwyca odwiedzających od jej powstania w 1896 roku. Ten klejnot islamskiej architektury, z delikatnymi ornamentami i kolorowymi kafelkami, jest prawdziwą perełką, która przeniesie Cię w świat wielokulturowej historii regionu.",
           "latitude": 44.22650667215291,
           "longitude": 17.669868144183468,
           "address": "Zenjak 7A, Travnik 72270, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/MVxSbnm4kFfaaTca9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/MVxSbnm4kFfaaTca9",
+          "image": "/images/ornamented-mosque.jpg"
         },
         {
           "id": "cevabdzinica-hari",
@@ -11699,15 +11756,16 @@
         },
         {
           "id": "spomenik-for-the-wounded-at-neretva-battle",
-          "name": "Spomenik for the Wounded at Neretva battle",
+          "name": "Pomnik Rannych podczas bitwy na Neretwie",
           "description": "Unikalny spomenik ku czci żołnierzy rannych podczas bitwy na Neretwie. Ten niezwykły monument, powstały w 1972 roku, jest wyrazem szacunku dla ofiar wojny i stanowi ważną część historii kraju. Zniszczony, lecz wciąż monumentalny.",
           "latitude": 43.84276293969781,
           "longitude": 17.597029853866925,
           "address": "RHVR+4V Gmići, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/qamFLNxc3v7S1Txk8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/qamFLNxc3v7S1Txk8",
+          "image": "/images/spomenik-for-the-wounded-at-neretva-battle.jpg"
         },
         {
           "id": "restoran-zdrava-voda",
@@ -11766,9 +11824,10 @@
           "longitude": 18.431283415144417,
           "address": "Baščaršija 8, Sarajevo 71000, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/mTgTG4ngwg7JCdLJ9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/mTgTG4ngwg7JCdLJ9",
+          "image": "/images/bascarsija.jpg"
         },
         {
           "id": "sebilj",
@@ -11816,9 +11875,10 @@
           "longitude": 18.42896820885844,
           "address": "Zelenih beretki 2, Sarajevo 71000, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/AyWJN2FADJfgaNbt8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/AyWJN2FADJfgaNbt8",
+          "image": "/images/most-acinski.jpg"
         },
         {
           "id": "gradsko-groblje-stadion",
@@ -11828,9 +11888,10 @@
           "longitude": 18.411211903008038,
           "address": "VC96+XF8, Patriotske lige, Sarajevo 71000, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/GUftgUwKZDH12sebA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/GUftgUwKZDH12sebA",
+          "image": "/images/gradsko-groblje-stadion.jpg"
         },
         {
           "id": "vidikovac-sarajevo",
@@ -11879,7 +11940,7 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/ysLTwrEsTkpqsWGp9",
-          "image": ""
+          "image": "/images/park-narodowy-sutjeska.jpg"
         },
         {
           "id": "tjentiste-spomenik",
@@ -11964,9 +12025,10 @@
           "longitude": 17.954910922438334,
           "address": "3XJ3+FXR, Stolac, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/mbfd5FA9HetFEtMUA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/mbfd5FA9HetFEtMUA",
+          "image": "/images/stolac-old-town.jpg"
         },
         {
           "id": "radimlja-stecak-tombstones-unesco",
@@ -12051,7 +12113,8 @@
           "country": "Bośnia i Hercegowina",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/nbDEqLaY9vcfBfbM9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/nbDEqLaY9vcfBfbM9",
+          "image": "/images/panorama-miasta-trebinje.jpg"
         },
         {
           "id": "hercegowinska-gracanica",
@@ -12063,7 +12126,8 @@
           "country": "Bośnia i Hercegowina",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/frsc8e6WZW8rw4DG9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/frsc8e6WZW8rw4DG9",
+          "image": "/images/hercegowinska-gracanica.jpg"
         }
       ]
     },
@@ -12105,7 +12169,7 @@
         },
         {
           "id": "poljoprivredna-zadruga-i-vinarija-dingac",
-          "name": "POLJOPRIVREDNA ZADRUGA I VINARIJA DINGAČ",
+          "name": "Poljoprivredna Zadruga i Vinarija Dingac",
           "description": "W sercu chorwackiej Istrii, w miejscowości Potomje, znajduje się historyczna kooperatywa winna Dingac, wzniesiona w 1924 roku, gdzie tradycja produkcji wina i rolnictwa łączy się z niepowtarzalnym urokiem miejsca. To tutaj, wśród pięknych krajobrazów, powstają wyśmienite wina, a goście mogą doświadczyć prawdziwej chorwackiej gościnności.",
           "latitude": 42.93903365643543,
           "longitude": 17.338341992785935,
@@ -12114,7 +12178,7 @@
           "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/9uF4KZdfZZYBHWsv6",
-          "image": ""
+          "image": "/images/poljoprivredna-zadruga-i-vinarija-dingac.jpg"
         },
         {
           "id": "skaramuca-village",
@@ -12213,7 +12277,8 @@
           "country": "Polska",
           "type": "hotel",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/4L9jcvJPKFonXmdM8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/4L9jcvJPKFonXmdM8",
+          "image": "/images/sheraton-poznan-hotel.jpg"
         },
         {
           "id": "nocny-targ-towarzyski",
@@ -12253,7 +12318,7 @@
       "locations": [
         {
           "id": "muzeum-pa-ac-w-rogalinie-oddzia-muzeum-narodowego-w-poznaniu",
-          "name": "Muzeum Pałac w Rogalinie. Oddział Muzeum Narodowego w Poznaniu",
+          "name": "Muzeum Pałac w Rogalinie",
           "description": "Muzeum Pałac w Rogalinie to prawdziwa perełka wśród polskich muzeów, oferująca odwiedzającym niezapomnianą podróż przez historię i sztukę w przepięknych wnętrzach pałacu. To miejsce, gdzie historia spotyka się z pięknem, a zwiedzający mogą przenieść się w czasie i poczuć ducha minionych epok.",
           "latitude": 52.23458245095518,
           "longitude": 16.929773551995055,
@@ -12261,7 +12326,8 @@
           "country": "Polska",
           "type": "museum",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/8V2BTodD85fQPTkj7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/8V2BTodD85fQPTkj7",
+          "image": "/images/muzeum-pa-ac-w-rogalinie-oddzia-muzeum-narodowego-w-poznaniu.jpg"
         },
         {
           "id": "deby-rogalinskie",
@@ -12274,7 +12340,7 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/J5q9QkbXiHZiVzsB6",
-          "image": ""
+          "image": "/images/deby-rogalinskie.jpg"
         },
         {
           "id": "zamek-w-korniku",
@@ -12284,9 +12350,10 @@
           "longitude": 17.090885505515995,
           "address": "Zamkowa 8A, 62-035 Kórnik, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/1y1NFcA6swbMvvvE6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/1y1NFcA6swbMvvvE6",
+          "image": "/images/zamek-w-korniku.jpg"
         },
         {
           "id": "arboretum-w-korniku",
@@ -12299,7 +12366,7 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/tveXw8bFAhXeEFY59",
-          "image": ""
+          "image": "/images/arboretum-w-korniku.jpg"
         },
         {
           "id": "wyspa-edwarda",
@@ -12482,15 +12549,16 @@
       "locations": [
         {
           "id": "pomnik",
-          "name": "Pomnik w Porcie Gdyńskim",
+          "name": "Pomnik Eugeniusza Kwiatkowskiego i Tadeusza Wendy w Porcie Gdyńskim",
           "description": "Świetny punkt widokowy do oglądania jednostek jak i architektury portu.",
           "latitude": 54.53472922556157,
           "longitude": 18.54774493095364,
           "address": "Polska 2, 81-339 Gdynia, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/UPxFL9KNQYgda2Pi6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/UPxFL9KNQYgda2Pi6",
+          "image": "/images/pomnik.jpg"
         },
         {
           "id": "muzeum-emigracji-w-gdyni",
@@ -12506,7 +12574,7 @@
         },
         {
           "id": "bulwar-nadmorski-im-feliksa-nowowiejskiego-gdynia",
-          "name": "Bulwar Nadmorski im.Feliksa Nowowiejskiego, Gdynia",
+          "name": "Bulwar Nadmorski im. Feliksa Nowowiejskiego",
           "description": "Piesz-rowerowy bulwar łączący Gdynie z Sopotem",
           "latitude": 54.508707321136974,
           "longitude": 18.553877174786344,
@@ -12514,7 +12582,8 @@
           "country": "Polska",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/3G3azUway9DQBRfbA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/3G3azUway9DQBRfbA",
+          "image": ""
         },
         {
           "id": "bia-y-krolik",
@@ -12550,7 +12619,8 @@
           "country": "Polska",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/u4eemDFfg2fLe77F7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/u4eemDFfg2fLe77F7",
+          "image": "/images/przystan-rybacka-w-sopocie.jpg"
         },
         {
           "id": "tawerna-rybaki",
@@ -12591,7 +12661,7 @@
       "locations": [
         {
           "id": "madwiny-ruchome-wydmy",
-          "name": "Madwiny - \"Ruchome wydmy\"",
+          "name": "Ruchome wydmy",
           "description": "Ruchome wydmy w Słowińskim Parku Narodowym",
           "latitude": 54.74762900756025,
           "longitude": 17.409500763496677,
@@ -12600,7 +12670,7 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/5LxbHzfrgvjLv6sG7",
-          "image": ""
+          "image": "/images/madwiny-ruchome-wydmy.jpg"
         },
         {
           "id": "meduza-wedzarnia-ryb-przysiecki-z",
@@ -12625,7 +12695,7 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/kxuwc4RXeVRKq6Zk8",
-          "image": ""
+          "image": "/images/plaza-w-rowach.jpg"
         },
         {
           "id": "latarnia-morska-stilo",
@@ -12635,9 +12705,10 @@
           "longitude": 17.733952735717683,
           "address": "QPPJ+QG Osetnik, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/bzYmXhNyaDrY7zLAA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/bzYmXhNyaDrY7zLAA",
+          "image": "/images/latarnia-morska-stilo.jpg"
         },
         {
           "id": "restauracja-ewa-zaprasza",
@@ -12649,11 +12720,12 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/zJMADBJjo55dXPPTA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/zJMADBJjo55dXPPTA",
+          "image": "/images/restauracja-ewa-zaprasza.jpg"
         },
         {
           "id": "gorzelnia-podole-wielkie-producent-okowit-i-wodek",
-          "name": "Gorzelnia Podole Wielkie. Producent okowit i wódek",
+          "name": "Gorzelnia Podole Wielkie",
           "description": "Gorzelnia rolnicza jeszcze z czasów PGR'u. W cudnym otoczeniu i świetnym stanie.",
           "latitude": 54.580885698960344,
           "longitude": 17.49839059720868,
@@ -12661,7 +12733,8 @@
           "country": "Polska",
           "type": "shopping",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/8abYwtaDtDBitW1U8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/8abYwtaDtDBitW1U8",
+          "image": "/images/gorzelnia-podole-wielkie-producent-okowit-i-wodek.jpg"
         },
         {
           "id": "pa-ac-poraj",
@@ -12690,7 +12763,7 @@
       "locations": [
         {
           "id": "muzeum-kaszubski-park-etnograficzny-im-teodory-i-izydora-gulgowskich-we-wdzydzach",
-          "name": "Muzeum - Kaszubski Park Etnograficzny im. Teodory i Izydora Gulgowskich we Wdzydzach",
+          "name": "Kaszubski Park Etnograficzny  we Wdzydzach",
           "description": "Skansen historyczny, jeden z najstarszych w Polsce. Zabytkowe domy, wiatraki i inne budynki z Kaszub.",
           "latitude": 54.01083713575312,
           "longitude": 17.944127198728406,
@@ -12698,7 +12771,8 @@
           "country": "Polska",
           "type": "museum",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/gCrnNYcToYyAPpDj9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/gCrnNYcToYyAPpDj9",
+          "image": "/images/muzeum-kaszubski-park-etnograficzny-im-teodory-i-izydora-gulgowskich-we-wdzydzach.jpg"
         },
         {
           "id": "zagroda-szkolna-z-wieckow",
@@ -12708,9 +12782,10 @@
           "longitude": 17.93991926251696,
           "address": "Teodory i Izydora Gulgowskich 48a, 83-406 Wdzydze, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/RUqNCZsS1qR4wHgj8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/RUqNCZsS1qR4wHgj8",
+          "image": "/images/zagroda-szkolna-z-wieckow.jpg"
         },
         {
           "id": "gospodarstwo-kaszubska-koza-kozie-sery",
@@ -12722,7 +12797,8 @@
           "country": "Polska",
           "type": "shopping",
           "websiteUrl": "https://facebook.com/GospodarstwoKaszubskaKoza",
-          "GoogleMapsLink": "https://maps.app.goo.gl/1UVcjoix7eFk1mDK6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/1UVcjoix7eFk1mDK6",
+          "image": "/images/gospodarstwo-kaszubska-koza-kozie-sery.jpg"
         },
         {
           "id": "u-ch-opa-resort-spa",
@@ -12734,7 +12810,8 @@
           "country": "Polska",
           "type": "hotel",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/8RWPNNkj4d8jYZwc9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/8RWPNNkj4d8jYZwc9",
+          "image": "/images/u-ch-opa-resort-spa.jpg"
         },
         {
           "id": "lesny-dwor",
@@ -12771,7 +12848,7 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/NBs6i14R6LaXj95F6",
-          "image": ""
+          "image": "/images/jezioro-charzykowskie.jpg"
         },
         {
           "id": "wyspa-mi-osci",
@@ -12784,7 +12861,7 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/9xtC7AmMieEdqg1h6",
-          "image": ""
+          "image": "/images/wyspa-mi-osci.jpg"
         },
         {
           "id": "pomnik-przyrody-dab-bartus",
@@ -12797,7 +12874,7 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/V7LoboEaNRRBZQzB9",
-          "image": ""
+          "image": "/images/pomnik-przyrody-dab-bartus.jpg"
         },
         {
           "id": "jezioro-karsinskie",
@@ -12810,7 +12887,7 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/1MzQBS2D5PDenLkY6",
-          "image": ""
+          "image": "/images/jezioro-karsinskie.jpg"
         },
         {
           "id": "akwedukt-fojutowo-89-504",
@@ -12822,7 +12899,8 @@
           "country": "Polska",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/xn957DenYEjavFZF9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/xn957DenYEjavFZF9",
+          "image": "/images/akwedukt-fojutowo-89-504.jpg"
         },
         {
           "id": "restauracja-las-i-woda",
@@ -12834,7 +12912,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/qJWZxdHHkDtn6DdC8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/qJWZxdHHkDtn6DdC8",
+          "image": "/images/restauracja-las-i-woda.jpg"
         }
       ]
     },
@@ -12896,7 +12975,7 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/1xf4x5AXaUxE9gso6",
-          "image": ""
+          "image": "/images/park-narodowy-krka.jpg"
         },
         {
           "id": "national-park-kornati",
@@ -12968,9 +13047,10 @@
           "longitude": 15.85455773008331,
           "address": "PRCV+QM Šibenik, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/pj1HGn5pvHiUzBp67"
+          "GoogleMapsLink": "https://maps.app.goo.gl/pj1HGn5pvHiUzBp67",
+          "image": "/images/st-nicholas-fortress.jpg"
         },
         {
           "id": "most-krka",
@@ -13030,9 +13110,10 @@
           "longitude": 16.448682849213327,
           "address": "Put Poljuna 3, 21450, Hvar, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/q9Yb2op31VUDj1qA8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/q9Yb2op31VUDj1qA8",
+          "image": "/images/twierdza-francuska.jpg"
         },
         {
           "id": "harbour-of-hvar",
@@ -13070,7 +13151,8 @@
           "country": "Chorwacja",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ixWD9topM3JHM1Gr9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ixWD9topM3JHM1Gr9",
+          "image": "/images/twierdza-hiszpanska.jpg"
         },
         {
           "id": "stiniva-port",
@@ -13093,9 +13175,10 @@
           "longitude": 16.507750761570687,
           "address": "7C2X+JC Nerežišća, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/bjPrgc4kwmNtSv858"
+          "GoogleMapsLink": "https://maps.app.goo.gl/bjPrgc4kwmNtSv858",
+          "image": "/images/underground-yugoslavia-naval-dock.jpg"
         },
         {
           "id": "restaurant-fjaka",
@@ -13129,9 +13212,10 @@
           "longitude": 16.247179827532587,
           "address": "Obala bana Berislavića 25, 21218, Seget Donji, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/A1jMv8ixGV8xtbhH7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/A1jMv8ixGV8xtbhH7",
+          "image": "/images/toranj-od-veriga.jpg"
         },
         {
           "id": "solta",
@@ -13143,7 +13227,8 @@
           "country": "Chorwacja",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ox63e22jaXQJS1AV6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ox63e22jaXQJS1AV6",
+          "image": "/images/solta.jpg"
         },
         {
           "id": "konoba-bajso",
@@ -13167,7 +13252,8 @@
           "country": "Chorwacja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/VUQhYmCW24Jtb4o28"
+          "GoogleMapsLink": "https://maps.app.goo.gl/VUQhYmCW24Jtb4o28",
+          "image": "/images/toto-s.jpg"
         },
         {
           "id": "wyspy-paklinskie",
@@ -13215,9 +13301,10 @@
           "longitude": 15.228461907605174,
           "address": "Ul. Ante Kuzmanića, 23000, Zadar, Chorwacja",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/5CMDUPBG12PbuGdJ8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/5CMDUPBG12PbuGdJ8",
+          "image": "/images/brama-miejska-zadar.jpg"
         },
         {
           "id": "forum-zadar",
@@ -13278,7 +13365,8 @@
           "country": "Polska",
           "type": "hotel",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/dzBC1ZbM72xPwUp3A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/dzBC1ZbM72xPwUp3A",
+          "image": "/images/pod-lipkami.jpg"
         },
         {
           "id": "zagroda-kurpiowska-w-kadzidle",
@@ -13288,9 +13376,10 @@
           "longitude": 21.46538176795054,
           "address": "Słoneczna 17, 07-420 Kadzidło, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/6aL4NKXnfqEYtauZA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/6aL4NKXnfqEYtauZA",
+          "image": "/images/zagroda-kurpiowska-w-kadzidle.jpg"
         }
       ]
     },
@@ -13340,7 +13429,8 @@
           "country": "Polska",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/bqnHmq8fGbzaLgkG8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/bqnHmq8fGbzaLgkG8",
+          "image": "/images/16-120-ciumicze.jpg"
         },
         {
           "id": "kundzicz-jolanta",
@@ -13362,9 +13452,10 @@
           "longitude": 23.704760226094326,
           "address": "Leszczany 27, 16-120, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/QGukFkL1FmLiXvd9A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/QGukFkL1FmLiXvd9A",
+          "image": "/images/stara-grusza-w-osadzie-wierszalin.jpg"
         },
         {
           "id": "s-uczanka",
@@ -13412,21 +13503,23 @@
           "longitude": 23.813760815909088,
           "address": "Kruszyniany 58, 16-120, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ZNbaCPCx978vyiZZ7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZNbaCPCx978vyiZZ7",
+          "image": "/images/drewniany-meczet-w-kruszynianach.jpg"
         },
         {
           "id": "cmentarz-tatarski-mizar-w-kruszynianach",
-          "name": "Cmentarz tatarski (Mizar w Kruszynianach)",
+          "name": "Mizar w Kruszynianach",
           "description": "Cmentarz muzułmański",
           "latitude": 53.17775448802412,
           "longitude": 23.816242810558943,
           "address": "Transbór 25A, 05-334, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ckStvdDFKexC4Moh8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ckStvdDFKexC4Moh8",
+          "image": "/images/cmentarz-tatarski-mizar-w-kruszynianach.jpg"
         },
         {
           "id": "tatarska-jurta",
@@ -13460,9 +13553,10 @@
           "longitude": 22.290982000796827,
           "address": "Wólka Wiśniewska 44, 08-112, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/hmNva62i7moymqsv7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/hmNva62i7moymqsv7",
+          "image": "/images/dwor-moscibrody.jpg"
         },
         {
           "id": "zak-ad-miesny-moscibrody",
@@ -13474,7 +13568,8 @@
           "country": "Polska",
           "type": "shopping",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/fnqAp9URj3r8Are37"
+          "GoogleMapsLink": "https://maps.app.goo.gl/fnqAp9URj3r8Are37",
+          "image": "/images/zak-ad-miesny-moscibrody.jpg"
         },
         {
           "id": "most-na-rzece-bug",
@@ -13563,7 +13658,8 @@
           "country": "Szwecja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/oGcbMaSb7R92c42d6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/oGcbMaSb7R92c42d6",
+          "image": "/images/the-chef-by-the-sea.jpg"
         }
       ]
     },
@@ -13600,7 +13696,8 @@
           "country": "Szwecja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/vbc1DyWN26czEUHx9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/vbc1DyWN26czEUHx9",
+          "image": "/images/hotell-hallstaberget.jpg"
         }
       ]
     },
@@ -13637,7 +13734,8 @@
           "country": "Szwecja",
           "type": "hotel",
           "websiteUrl": "http://www.hotellhoga-kusten.se/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/JSCoVH38DvpLssbaA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/JSCoVH38DvpLssbaA",
+          "image": "/images/hotel-high-coast.jpg"
         },
         {
           "id": "pelle-abergsgarden",
@@ -13674,7 +13772,8 @@
           "country": "Szwecja",
           "type": "museum",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ERBa2sak84QCDbHdA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ERBa2sak84QCDbHdA",
+          "image": "/images/millesgarden-museum.jpg"
         },
         {
           "id": "millesgarden-lanthandel",
@@ -13711,7 +13810,8 @@
           "country": "Szwecja",
           "type": "museum",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ErpsCskWAqREeVyK7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ErpsCskWAqREeVyK7",
+          "image": "/images/muzeum-vasa.jpg"
         },
         {
           "id": "museum-of-spirits",
@@ -13870,7 +13970,7 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/SoLtUN8dnCGruapDA",
-          "image": ""
+          "image": "/images/gorczanski-park-narodowy.jpg"
         },
         {
           "id": "pijalnia-wod-mineralnych-szczawa",
@@ -13904,9 +14004,10 @@
           "longitude": 19.959026818567516,
           "address": "Jana Sobieskiego 9C, 32-400 Myślenice, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/p33c1TpnPr5J74Yr9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/p33c1TpnPr5J74Yr9",
+          "image": "/images/dolny-jaz-w-myslenicach.jpg"
         },
         {
           "id": "koscio-sw-franciszka-z-asyzu-w-myslenicach",
@@ -13916,9 +14017,10 @@
           "longitude": 19.945723305716832,
           "address": "RVC9+HQ Bysina, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/uHCTkqE4J8nbaoce6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/uHCTkqE4J8nbaoce6",
+          "image": ""
         },
         {
           "id": "siedem-smakow",
@@ -14002,9 +14104,10 @@
           "longitude": 20.08528216130321,
           "address": "Podgórska 6, 32-410 Dobczyce, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/qwgwWRGN8USyVpmu8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/qwgwWRGN8USyVpmu8",
+          "image": "/images/zamek-w-dobczycach.jpg"
         },
         {
           "id": "opactwo-ojcow-cystersow-w-szczyrzycu",
@@ -14014,9 +14117,10 @@
           "longitude": 20.18813334849978,
           "address": "Pogorzany 149, 34-623, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/5AxunZjYpajt4n4d9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/5AxunZjYpajt4n4d9",
+          "image": ""
         }
       ]
     },
@@ -14301,7 +14405,7 @@
       "show": "Robert Makłowicz w podróży",
       "locations": [
         {
-          "id": "pa-ac-ma-a-wies",
+          "id": "palac-mala-wies",
           "name": "Pałac Mała Wieś",
           "description": "Pałac a wokół niego bezkresne sady jabłoniowe.",
           "latitude": 51.82458719079066,
@@ -14310,7 +14414,8 @@
           "country": "Polska",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/g9UBQWvWhUwbiehe6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/g9UBQWvWhUwbiehe6",
+          "image": "/images/palac-mala-wies.jpg"
         },
         {
           "id": "ogrod-rozany",
@@ -14338,16 +14443,17 @@
       "show": "Robert Makłowicz w podróży",
       "locations": [
         {
-          "id": "pa-ac-w-mi-os-awiu",
+          "id": "palac-w-miloslawiu",
           "name": "Pałac w Miłosławiu",
           "description": "Pałac rodziny kościelskich, niegdyś włodarzy miasta Miłosław, a równiez znanych z powodu fundacji, która po dziś przyznaje prestiowe nagrody literackie.",
           "latitude": 52.198574954730546,
           "longitude": 17.487599321841213,
           "address": "Poznańska 8, 62-320 Miłosław, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/3W2ouZgyvcEoZdrA8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/3W2ouZgyvcEoZdrA8",
+          "image": "/images/palac-w-miloslawiu.jpg"
         },
         {
           "id": "pomnik-juliusza-s-owackiego-w-mi-os-awiu",
@@ -14383,9 +14489,10 @@
           "longitude": 17.48891812862125,
           "address": "Kościelna 8, 62-320 Miłosław, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/f5RqTwxtsBPy6PTP7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/f5RqTwxtsBPy6PTP7",
+          "image": "/images/koscio-rzymskokatolicki-pw-sw-jakuba-aposto-a.jpg"
         },
         {
           "id": "hotel-boss",
@@ -14395,9 +14502,10 @@
           "longitude": 17.48846875884252,
           "address": "Plac Wiosny Ludów 15, 62-320 Miłosław, Poland",
           "country": "Polska",
-          "type": "restaurant",
+          "type": "hotel",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/CVm4jbrJaGCY8fra9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/CVm4jbrJaGCY8fra9",
+          "image": "/images/hotel-boss.jpg"
         }
       ]
     },
@@ -14432,9 +14540,10 @@
           "longitude": 16.807928848329386,
           "address": "CMR4+G6 Lusówko, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/w5TvQqaYfeubRCSk7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/w5TvQqaYfeubRCSk7",
+          "image": "/images/przeciwatomowy-schron-dla-w-adz-miasta-poznania.jpg"
         },
         {
           "id": "beza-cukiernia-bezowa",
@@ -14444,9 +14553,10 @@
           "longitude": 16.942013505893836,
           "address": "Pogodna 42, 60-275 Poznań, Poland",
           "country": "Polska",
-          "type": "restaurant",
+          "type": "cafe",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ToV6y1eZ5EPD7ZVt5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ToV6y1eZ5EPD7ZVt5",
+          "image": "/images/beza-cukiernia-bezowa.jpg"
         },
         {
           "id": "muzeum-archidiecezjalne-w-poznaniu",
@@ -14458,7 +14568,8 @@
           "country": "Polska",
           "type": "museum",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/NKQMxBrUvZZv8ZU89"
+          "GoogleMapsLink": "https://maps.app.goo.gl/NKQMxBrUvZZv8ZU89",
+          "image": "/images/muzeum-archidiecezjalne-w-poznaniu.jpg"
         },
         {
           "id": "bazylika-archikatedralna-sw-aposto-ow-piotra-i-paw-a",
@@ -14468,9 +14579,10 @@
           "longitude": 16.949299579216056,
           "address": "Ostrów Tumski 17, 61-109 Poznań, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/vYNimMSxZvd2CXUv9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/vYNimMSxZvd2CXUv9",
+          "image": "/images/bazylika-archikatedralna-sw-aposto-ow-piotra-i-paw-a.jpg"
         },
         {
           "id": "mural-srodka",
@@ -14533,7 +14645,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ZA3ngKEXBTNHuRCV6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZA3ngKEXBTNHuRCV6",
+          "image": "/images/a-noz-widelec.jpg"
         }
       ]
     },
@@ -14558,7 +14671,7 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/X8D68zboNbDncxTY7",
-          "image": ""
+          "image": "/images/stary-rynek-61-772-poznan.jpg"
         },
         {
           "id": "moliera2",
@@ -14571,19 +14684,20 @@
           "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/hDnb8JWBqVCtb1Cg7",
-          "image": ""
+          "image": "/images/moliera2.jpg"
         },
         {
           "id": "hotel-bazar",
           "name": "Hotel Bazar",
-          "description": "Restauracja w Hotelu Bazar serwująca kuchnię polską godną historycznej wzniosłości budynku w któróm sie znajduje.",
+          "description": "Urokliwy hotel w samym centrum miasta z restauracją, serwująca kuchnię polską godną historycznej wzniosłości budynku w którym sie znajduje.",
           "latitude": 52.40778310075553,
           "longitude": 16.92956763853322,
           "address": "plac Wolności 182, 61-738 Poznań, Poland",
           "country": "Polska",
-          "type": "restaurant",
+          "type": "hotel",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/7ev2tt3RGaLT2NhE7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/7ev2tt3RGaLT2NhE7",
+          "image": "/images/hotel-bazar.jpg"
         },
         {
           "id": "miedzynarodowe-targi-poznanskie",
@@ -14606,9 +14720,10 @@
           "longitude": 16.91161972722036,
           "address": "Zwierzyniecka 14, 60-813 Poznań, Poland",
           "country": "Polska",
-          "type": "restaurant",
+          "type": "cafe",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ToURfbvFD4ogAeLH9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ToURfbvFD4ogAeLH9",
+          "image": "/images/hotel-mercure-poznan-centrum.jpg"
         },
         {
           "id": "zamek-cesarski-w-poznaniu",
@@ -14618,9 +14733,10 @@
           "longitude": 16.919166029775532,
           "address": "Święty Marcin 83, 61-804 Poznań, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/3Vp4zNEqXFj2EMf66"
+          "GoogleMapsLink": "https://maps.app.goo.gl/3Vp4zNEqXFj2EMf66",
+          "image": "/images/zamek-cesarski-w-poznaniu.jpg"
         },
         {
           "id": "3-kolory-malta",
@@ -14681,7 +14797,8 @@
           "country": "Chorwacja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/iXwtY3gGycL469rU8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/iXwtY3gGycL469rU8",
+          "image": "/images/josic-restaurant-and-winery.jpg"
         },
         {
           "id": "destilerija-knezevi-vinogradi",
@@ -14694,19 +14811,20 @@
           "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/624RaHFB46EcQLmf6",
-          "image": ""
+          "image": "/images/destilerija-knezevi-vinogradi.jpg"
         },
         {
           "id": "monument-of-batina-battle-julka",
-          "name": "Monument of Batina battle,(\"Julka\")",
+          "name": "Julka - Monument of Batina battle",
           "description": "Pomnik miejsca gdzie sowieci przebili niemiecką obronę na Dunaju. Jednoczeście świetny punkt widokowy na trójstyk granic.",
           "latitude": 45.85463992493574,
           "longitude": 18.849296740529052,
           "address": "VQ4G+6M Draž, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/vV7X9CELaXapsWHEA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/vV7X9CELaXapsWHEA",
+          "image": "/images/monument-of-batina-battle-julka.jpg"
         }
       ]
     },
@@ -14744,7 +14862,7 @@
           "type": "museum",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/XUeLgdPw9T3yhKEc6",
-          "image": ""
+          "image": "/images/nikola-tesla-memorial-centre.jpg"
         },
         {
           "id": "karanac-chorwacja",
@@ -14881,7 +14999,8 @@
           "country": "Chorwacja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/rVxC4fwi7ZxXMN7U8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/rVxC4fwi7ZxXMN7U8",
+          "image": "/images/villa-rustica-vis.jpg"
         }
       ]
     },
@@ -14931,7 +15050,8 @@
           "country": "Chorwacja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Voho4weCTEqTwjCp9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Voho4weCTEqTwjCp9",
+          "image": "/images/aerodrom-gostionica.jpg"
         }
       ]
     },
@@ -15007,7 +15127,8 @@
           "country": "Chorwacja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/jy58ywHZneYx5yGm7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/jy58ywHZneYx5yGm7",
+          "image": "/images/restaurant-vatrica.jpg"
         }
       ]
     },
