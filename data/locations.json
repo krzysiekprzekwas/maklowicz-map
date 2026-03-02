@@ -10629,9 +10629,10 @@
           "longitude": 12.614032841691428,
           "address": "Via Francesco Pennacchi, 4, 06081 Assisi PG, Italy",
           "country": "Włochy",
-          "type": "restaurant",
+          "type": "cafe",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/VNnVaYCoKGDRWaSQ6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/VNnVaYCoKGDRWaSQ6",
+          "image": "/images/la-bottega-del-pasticcere.jpg"
         },
         {
           "id": "il-balcone-dei-sogni-in-fiore",
@@ -10744,13 +10745,14 @@
           "longitude": 12.388544442966946,
           "address": "Piazza IV Novembre, 1, 06123 Perugia PG, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Sx7BEfYRuLNRZRoY6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Sx7BEfYRuLNRZRoY6",
+          "image": "/images/palazzo-dei-priori.jpg"
         },
         {
           "id": "the-fontana-maggiore",
-          "name": "The Fontana Maggiore",
+          "name": "Fontana Maggiore",
           "description": "Fontana Maggiore we Włoszech to nie tylko fontanna, ale prawdziwa opowieść wykuta w kamieniu, dzieło ojca i syna Pisano z lat 1277-1278. Wokół niej tętni życie miasta, idealne miejsce, by przysiąść z filiżanką kawy i podziwiać kunszt średniowiecznych mistrzów, czując smak historii.",
           "latitude": 43.11214135073476,
           "longitude": 12.388826075104635,
@@ -10758,7 +10760,8 @@
           "country": "Włochy",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/PuKfY3RHyLcXuunU6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/PuKfY3RHyLcXuunU6",
+          "image": "/images/the-fontana-maggiore.jpg"
         },
         {
           "id": "06061-castiglione-del-lago-prowincja-perugia-w-ochy",
@@ -10770,7 +10773,8 @@
           "country": "Włochy",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/wsjfqA5wxY43d9iE9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/wsjfqA5wxY43d9iE9",
+          "image": "/images/06061-castiglione-del-lago-prowincja-perugia-w-ochy.jpg"
         },
         {
           "id": "azienda-agraria-scacciadiavoli-of-pambuffetti",
@@ -10817,9 +10821,10 @@
           "longitude": 12.739637251592871,
           "address": "Via Loreto, 3, 06049 Spoleto PG, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/cqQMEZi9LV4s2waw9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/cqQMEZi9LV4s2waw9",
+          "image": "/images/fontana-del-mascherone.jpg"
         },
         {
           "id": "padrichelli-giancarlo",
@@ -10841,9 +10846,10 @@
           "longitude": 12.73708048681041,
           "address": "Via dell' Angelo, 1, 06049 Spoleto PG, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/mcRsnpy7VFfvGxRT8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/mcRsnpy7VFfvGxRT8",
+          "image": "/images/arco-di-druso.jpg"
         },
         {
           "id": "katedra-wniebowziecia-najswietszej-maryi-panny-w-spoleto",
@@ -10914,9 +10920,10 @@
           "longitude": 12.771896076120985,
           "address": "QQF6+2W Spoleto, Province of Perugia, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "https://www.monini.com/it/il-frantoio",
-          "GoogleMapsLink": "https://maps.app.goo.gl/rjPuNWA1VhEFwuNs8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/rjPuNWA1VhEFwuNs8",
+          "image": "/images/frantoio-del-poggiolo-monini.jpg"
         }
       ]
     },
@@ -12262,14 +12269,15 @@
         {
           "id": "city-market-trebinje",
           "name": "City Market Trebinje",
-          "description": "W Trebinje znajduje się tętniący życiem City Market, który przyciąga mieszkańców i turystów szeroką ofertą produktów i niepowtarzalną atmosferą. Ten kolorowy rynek to idealne miejsce, by skosztować lokalnych specjałów i doświadczyć prawdziwego ducha Bałkanów.",
+          "description": "W Trebinje znajduje się tętniący życiem rynek miejski, który przyciąga mieszkańców i turystów szeroką ofertą produktów i niepowtarzalną atmosferą. Ten kolorowy rynek to idealne miejsce, by skosztować lokalnych specjałów i doświadczyć prawdziwego ducha Bałkanów.",
           "latitude": 42.71153333880062,
           "longitude": 18.344162068492242,
           "address": "Vuka Karadžića 2, Trebinje 89101, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
           "type": "shopping",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/M92CD3gzwvSKykgLA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/M92CD3gzwvSKykgLA",
+          "image": "/images/city-market-trebinje.jpg"
         },
         {
           "id": "panorama-miasta-trebinje",
@@ -12426,14 +12434,15 @@
         {
           "id": "cudo",
           "name": "CUDO",
-          "description": "W sercu Poznania, w miejscu o nazwie CUDO, zlokalizowanym przy Poplińskich 1A/11, znajduje się wyjątkowa przestrzeń, która od 2021 roku bije rekordy popularności. To nie tylko miejsce, ale prawdziwa instytucja kulturalna, będąca hołdem dla sztuki i kreatywności, gdzie odwiedzający mogą doświadczyć prawdziwego artystycznego szaleństwa.",
+          "description": "W sercu Poznania, w miejscu o nazwie CUDO znajduje się wyjątkowa przestrzeń, która od 2021 roku bije rekordy popularności. To nie tylko miejsce, ale prawdziwa instytucja kulturalna, będąca hołdem dla sztuki i kreatywności, gdzie odwiedzający mogą doświadczyć prawdziwego artystycznego szaleństwa.",
           "latitude": 52.39658137413952,
           "longitude": 16.924822829589004,
           "address": "Poplińskich 1A/11, 61-573 Poznań, Poland",
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/4RS35CAccZWB9uzs6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/4RS35CAccZWB9uzs6",
+          "image": "/images/cudo.jpg"
         },
         {
           "id": "sheraton-poznan-hotel",
@@ -12458,7 +12467,8 @@
           "country": "Polska",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/GQxVKLxS8hE2rFb97"
+          "GoogleMapsLink": "https://maps.app.goo.gl/GQxVKLxS8hE2rFb97",
+          "image": "/images/nocny-targ-towarzyski.jpg"
         },
         {
           "id": "nurt",
@@ -12547,7 +12557,7 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/8mduqm8KyCEq4Zjy9",
-          "image": ""
+          "image": "/images/wyspa-edwarda.jpg"
         },
         {
           "id": "restauracja-pozytywka",
@@ -12559,7 +12569,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/vcHT2rutRZVFdv9v8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/vcHT2rutRZVFdv9v8",
+          "image": "/images/restauracja-pozytywka.jpg"
         },
         {
           "id": "sredzka-kolej-powiatowa-waskotorowa-stacja-zaniemysl",
@@ -12738,7 +12749,8 @@
           "country": "Polska",
           "type": "museum",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/5RiWHJkXwUpLbdEbA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/5RiWHJkXwUpLbdEbA",
+          "image": "/images/muzeum-emigracji-w-gdyni.jpg"
         },
         {
           "id": "bulwar-nadmorski-im-feliksa-nowowiejskiego-gdynia",
@@ -12751,7 +12763,7 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/3G3azUway9DQBRfbA",
-          "image": ""
+          "image": "/images/bulwar-nadmorski-im-feliksa-nowowiejskiego-gdynia.jpg"
         },
         {
           "id": "bia-y-krolik",
@@ -13661,7 +13673,7 @@
           "type": "museum",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/kVAX1WTvd2oYMuCMA",
-          "image": ""
+          "image": "/images/regionalne-centrum-kultury-tatarow-polskich-asman.jpg"
         },
         {
           "id": "drewniany-meczet-w-kruszynianach",
@@ -13946,14 +13958,15 @@
         {
           "id": "millesgarden-lanthandel",
           "name": "Millesgården Lanthandel",
-          "description": "Restauracja obok muzeum rzeźby z klasyczną sztokholmską kuchnią.  ",
+          "description": "Restauracja obok muzeum rzeźby z klasyczną sztokholmską kuchnią.",
           "latitude": 59.35929860846592,
           "longitude": 18.121981959072116,
           "address": "Herserudsvägen 28, 181 50 Lidingö, Sweden",
           "country": "Szwecja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/j9cv8FfV8uMDxzEs6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/j9cv8FfV8uMDxzEs6",
+          "image": "/images/millesgarden-lanthandel.jpg"
         },
         {
           "id": "zamek-krolewski-w-sztokholmie",
@@ -13991,7 +14004,8 @@
           "country": "Szwecja",
           "type": "museum",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/gxqL327CWsgzvpF49"
+          "GoogleMapsLink": "https://maps.app.goo.gl/gxqL327CWsgzvpF49",
+          "image": "/images/museum-of-spirits.jpg"
         },
         {
           "id": "spritmuseum-restaurant",
@@ -14003,7 +14017,8 @@
           "country": "Szwecja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/qDYHGecM6uQBKioi9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/qDYHGecM6uQBKioi9",
+          "image": "/images/spritmuseum-restaurant.jpg"
         }
       ]
     },
@@ -14150,7 +14165,8 @@
           "country": "Polska",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/GWADvy7gF5W1oKNk7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/GWADvy7gF5W1oKNk7",
+          "image": "/images/pijalnia-wod-mineralnych-szczawa.jpg"
         }
       ]
     },
@@ -14223,9 +14239,10 @@
           "longitude": 19.938332008784297,
           "address": "Andrzeja Średniawskiego 1, 32-400 Myślenice, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/e858nj811LMbucKm6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/e858nj811LMbucKm6",
+          "image": "/images/rynek-w-myslenicach.jpg"
         }
       ]
     },
@@ -14262,7 +14279,7 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/Q5JDhnoRbantkngP9",
-          "image": ""
+          "image": "/images/jezioro-dobczyckie.jpg"
         },
         {
           "id": "zamek-w-dobczycach",
