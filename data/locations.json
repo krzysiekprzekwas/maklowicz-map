@@ -1,6 +1,174 @@
 {
   "videos": [
     {
+      "videoId": "OYq8gxO5u1I",
+      "videoUrl": "https://www.youtube.com/watch?v=OYq8gxO5u1I",
+      "title": "„Wrocław klasyczny \" - ROBERT MAKŁOWICZ POLSKA odc.235",
+      "filterTitle": "Wrocław klasyczny (odc. 235)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2025-07-04T15:00:07Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "marina-topacz",
+          "name": "Marina Topacz",
+          "description": "Marina Topacz, otóż to miejsce, gdzie wędrowiec może zakotwiczyć swe myśli, a może i jacht, w cieniu czternastowiecznego zamku. Zaiste, to niebagatelne połączenie wiekowych murów z nowoczesnym szumem wody, gdzie z pewnością smakuje wybornie każda potrawa, podana z apetytem na życie. Tu historia z gracją spotyka się z kulinarną przyjemnością.",
+          "latitude": 51.1149786,
+          "longitude": 17.0308142,
+          "address": "Mosty Pomorskie, 50-206 Wrocław, Poland",
+          "country": "Polska",
+          "type": "tourist_attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Woo8TbotWM6q1Gxx9",
+          "image": "/images/marina-topacz.jpg"
+        },
+        {
+          "id": "most-grunwaldzki",
+          "name": "Most Grunwaldzki",
+          "description": "Wrocław, miasto mostów, ma w swoim arsenale prawdziwą perłę inżynierii, która od 1910 roku dumnie spina brzegi Odry – Most Grunwaldzki. Patrząc na jego stalowe liny i monumentalną konstrukcję, człowiek od razu czuje, że to nie byle jaka przeprawa, a raczej solidny fundament pod wspomnienia, może nawet te o wyśmienitym obiedzie, który czeka po drugiej stronie, gdzieś na Starym Mieście.",
+          "latitude": 51.1094937,
+          "longitude": 17.0476913,
+          "address": "Urząd Wojewódzki (Muzeum Narodowe), Wrocław, Poland",
+          "country": "Polska",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/XPqZVJZGbUEQBRyn9",
+          "image": "/images/most-grunwaldzki.jpg"
+        },
+        {
+          "id": "rynek-50-529-wroc-aw",
+          "name": "Rynek Wrocławski",
+          "description": "Powiadają, że wrocławski Rynek to prawdziwa perła architektury, której korzenie sięgają głęboko w XIII wiek. To miejsce, gdzie historia z gracją splata się z teraźniejszością, a każdy kamień zdaje się opowiadać własną, soczystą anegdotę. Nie dziwota zatem, że do dziś jest to epicentrum miejskiego życia, gdzie z równym zapałem delektuje się widokami, co i wybornymi smakami, które kuszą z każdej kamienicy.",
+          "latitude": 51.1107025,
+          "longitude": 17.0297913,
+          "address": "Kiełbaśnicza 7a/lok.2, 50-108 Wrocław, Poland",
+          "country": "Polska",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/icsy1vU8VteZAjMd7",
+          "image": "/images/rynek-50-529-wroc-aw.jpg"
+        },
+        {
+          "id": "restauracja-piwnica-swidnicka-wroc-aw",
+          "name": "Restauracja Piwnica Świdnicka Wrocław",
+          "description": "We Wrocławiu, w sercu Rynku, kryje się prawdziwy kulinarny wehikuł czasu – Piwnica Świdnicka. Od 1273 roku, niczym dobry trunek, dojrzewa w podziemiach Ratusza, stając się nie tylko restauracją, ale i żywą legendą, która widziała już chyba wszystko. To miejsce, gdzie historia miesza się z aromatem tradycyjnej kuchni, celebrując wieki smaku i opowieści.",
+          "latitude": 51.1094821,
+          "longitude": 17.0271071,
+          "address": "Psie Budy 10/11, 50-074 Wrocław, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/FN7Hw6EdnH2cGgan7",
+          "image": "/images/restauracja-piwnica-swidnicka-wroc-aw.jpg"
+        },
+        {
+          "id": "domek-miedziorytnika",
+          "name": "Domek Miedziorytnika",
+          "description": "W Polsce, wśród zakamarków, gdzie historia najpiękniej pachnie, odnaleźć można prawdziwą perełkę – Domek Miedziorytnika, który, niczym kapsuła czasu, przenosi w epokę dawnych mistrzów rzemiosła. To tu, w ciszy i skupieniu, rodziły się dzieła misternie ryte w metalu, a powietrze, niczym wykwintna przyprawa, nasycone było duchem precyzji i zapewne aromatem solidnego, wiejskiego chleba, który dodawał sił do tworzenia.",
+          "latitude": 51.1111598,
+          "longitude": 17.0280728,
+          "address": "Rzeźnicza 27, 50-130 Wrocław, Poland",
+          "country": "Polska",
+          "type": "museum",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/U8h8vchhnQ1Fkore8",
+          "image": "/images/domek-miedziorytnika.jpg"
+        },
+        {
+          "id": "krasnale-pozarki",
+          "name": "Krasnale Pożarki",
+          "description": "Wrocławskie krasnale to małe pomniki z wielkim poczuciem humoru – rozsiane po mieście jak rodzynki w świątecznym cieście. Krasnale pożarki, w hełmach i z wężem strażackim, z uroczą powagą przypominają, że nawet najmniejszy bohater może stać na straży bezpieczeństwa. To miejska legenda w wersji kieszonkowej – trochę żart, trochę hołd, a przede wszystkim czysta sympatia.",
+          "latitude": 51.081737,
+          "longitude": 16.9960773,
+          "address": "Stolarska 74, 53-205 Wrocław, Poland",
+          "country": "Polska",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/X36hBCtWNpvFZNXs6",
+          "image": "/images/krasnale-pozarki.jpg"
+        },
+        {
+          "id": "baba",
+          "name": "BABA",
+          "description": "Otóż, w Polsce, w pewnym urokliwym zakątku, odnajdziemy miejsce o intrygującej nazwie \"BABA\". Czy to hołd dla tradycyjnej babki drożdżowej, czy może dla niezłomnej gospodyni, która od dekad czuwa nad smakiem, trudno orzec. Wiadomo jednak, że w murach, pamiętających zapewne lata dwudzieste ubiegłego wieku, kulinarna tradycja ma się nader dobrze, oferując gościom nie tylko strawę, ale i kawałek lokalnej historii, podany z nieodłącznym uśmiechem.",
+          "latitude": 51.1127436,
+          "longitude": 17.0269526,
+          "address": "Antoniego Cieszyńskiego 9, 50-136 Wrocław, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/SkU1jL3y8erujwGK8",
+          "image": "/images/baba.jpg"
+        },
+        {
+          "id": "hala-stulecia",
+          "name": "Hala Stulecia",
+          "description": "Gdy w 1913 roku wrocławscy budowniczowie stawiali Halę Stulecia, nikt chyba nie przypuszczał, że tworzą obiekt, który po ponad stu latach wciąż będzie budził podziw. Ta żelbetowa kolubryna, prawdziwy pomnik inżynierskiej brawury, to nie tylko kawał historii wpisany na listę UNESCO, ale też miejsce, gdzie duch epoki modernizmu wciąż unosi się w powietrzu, niczym aromat wykwintnego dania.",
+          "latitude": 51.1069567,
+          "longitude": 17.0747538,
+          "address": "Wystawowa 1/49, 51-618 Wrocław, Poland",
+          "country": "Polska",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/RYsCZNYdUxzvLTRC7",
+          "image": "/images/hala-stulecia.jpg"
+        },
+        {
+          "id": "iglica-wroclaw",
+          "name": "Iglica",
+          "description": "Ach, wrocławska Iglica! Wzniesiona w 1948 roku, niczym pieczołowicie przygotowany szpikulec do szaszłyków, dumnie pnie się ku niebu obok Hali Stulecia, będąc świadkiem historii i symbolem powojennej odnowy. To miejsce, gdzie modernistyczna finezja spotyka się z architektoniczną potęgą, a człowiek, patrząc na nią, mimowolnie myśli o tym, co by tu zjeść, by godnie uczcić taką konstrukcję.",
+          "latitude": 51.1069567,
+          "longitude": 17.0747538,
+          "address": "Wystawowa 1/49, 51-618 Wrocław, Poland",
+          "country": "Polska",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ThoNRY7NzVxGv3Fs9",
+          "image": "/images/iglica.jpg"
+        },
+        {
+          "id": "restauracja-tarasowa",
+          "name": "Restauracja Tarasowa",
+          "description": "Restauracja Tarasowa, gdzieś w malowniczym zakątku Polski, to miejsce, gdzie historia zdaje się szeptać zza każdego stołu, a rozległy taras od lat zaprasza do celebrowania życia pod gołym niebem. Wszakże, kucharze z Tarasowej, z iście alchemiczną precyzją, potrafią wyczarować dania, które nie tylko sycą ciało, ale i rozgrzewają duszę, a ich smak pozostaje w pamięci na długo, niczym wspomnienie najlepszej wakacyjnej przygody.",
+          "latitude": 51.1069567,
+          "longitude": 17.0747538,
+          "address": "Wystawowa 1/49, 51-618 Wrocław, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/NGxbkzLNXAhYGLBy8",
+          "image": "/images/restauracja-tarasowa.jpg"
+        },
+        {
+          "id": "zoo-wroclaw",
+          "name": "ZOO Wrocław",
+          "description": "Wrocławskie ZOO, założone w 1865 roku, to prawdziwa perła na mapie Polski, gdzie historia splata się z egzotyką w niezwykłą opowieść. Można by rzec, że to taka swoista, wielokontynentalna uczta dla zmysłów, gdzie każdy gatunek to wykwintny składnik w tej niezwykłej, przyrodniczej mozaice. Z pewnością warto poświęcić mu czas, by podziwiać to, co natura ma najlepszego do zaoferowania, a przy okazji poczuć ducha minionych epok.",
+          "latitude": 51.1056294,
+          "longitude": 17.0736739,
+          "address": "434F+7F Wrocław, Poland",
+          "country": "Polska",
+          "type": "tourist_attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/mKMJqTNH886k8i328",
+          "image": "/images/zoo-wroc-aw.jpg"
+        },
+        {
+          "id": "stacja-breslau",
+          "name": "Stacja Breslau",
+          "description": "\"Stacja Breslau\" to miejsce, gdzie historia Wrocławia splata się z kulinarną przyjemnością, a mury, być może pamiętające jeszcze XIX-wieczny zgiełk dworcowy, zapraszają do niezwykłej podróży. Nie jest to bynajmniej zwykła poczekalnia, lecz raczej przystań dla podniebień, gdzie podaje się potrawy godne podróżników – tych, co po długiej eskapadzie szukają czegoś więcej niż tylko posiłku, a raczej smaku, który opowiada własną historię, niczym najciekawsza anegdota.",
+          "latitude": 51.100203,
+          "longitude": 17.0098411,
+          "address": "Lubuska 76, 53-514 Wrocław, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/pF66xruQq2GCKZ87A",
+          "image": "/images/stacja-breslau.jpg"
+        }
+      ]
+    },
+    {
       "videoId": "eZ0lE866eGs",
       "videoUrl": "https://www.youtube.com/watch?v=eZ0lE866eGs",
       "title": "„ Miasto z przyszłości\" - ROBERT MAKŁOWICZ DUBAJ odc.221",
@@ -3169,7 +3337,7 @@
           "longitude": 6.1304929773612695,
           "address": "36 Rue Philippe II, 2340 Ville-Haute Luxembourg",
           "country": "Luksemburg",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/Limtce3rC2wNJTNL7",
           "image": "/images/hotel-de-ville.jpg"
@@ -3853,7 +4021,7 @@
           "longitude": 7.655418399856038,
           "address": "Hof Grenzau 1, 56203 Höhr-Grenzhausen, Germany",
           "country": "Niemcy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Burg_Grenzau.jpg/1024px-Burg_Grenzau.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/3hEGTQ7x86B9vHt99"
@@ -3955,7 +4123,7 @@
           "longitude": 8.441537568572999,
           "address": "Maximilianstraße 100, 67346 Speyer, Germany",
           "country": "Niemcy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://aws-tiqets-cdn.imgix.net/images/content/6c4c393144954f93975bd99f31d4fd7f.jpg?auto=format%2Ccompress&fit=crop&ixlib=python-4.0.0&q=70",
           "GoogleMapsLink": "https://maps.app.goo.gl/vgTGECuFxJVGR6478"
@@ -3993,7 +4161,7 @@
           "longitude": 10.806672030514935,
           "address": "Via dell'Aeroporto, 140, 41123 Modena MO, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "http://www.paninimotormuseum.it/",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/dc/9d/8b/maserati-s-young-and.jpg?w=1200&h=-1&s=1",
           "GoogleMapsLink": "https://maps.app.goo.gl/hgrQGdN8oa8BUZiZA"
@@ -4070,7 +4238,7 @@
           "longitude": 10.330438314139908,
           "address": "Piazza Duomo, 7, 43121 Parma PR, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "http://www.piazzaduomoparma.com/battistero/",
           "image": "https://media.zonzofox.com/cities/parma/geoplaces/poi/800x400/parma-battistero.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/d7UE95ayLsrtRohs8"
@@ -4148,7 +4316,7 @@
           "longitude": 10.11758382729047,
           "address": "Via Giaranzana, 14, 43010 Santa Croce PR, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "https://www.palazzocaraffini.com/",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/77/e9/12/nestled-in-beautiful.jpg?w=1200&h=-1&s=1",
           "GoogleMapsLink": "https://maps.app.goo.gl/Kix77Lbx2UVXFicS8"
@@ -4238,7 +4406,7 @@
           "longitude": 10.925537927820185,
           "address": "Corso Canalchiaro, 89, 41121 Modena MO, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "https://www.mercatoalbinelli.it",
           "image": "https://www.mercatoalbinelli.it/wp-content/uploads/2022/10/Interno.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/ev2746494F519qD19"
@@ -6109,7 +6277,7 @@
           "longitude": 19.67698229172016,
           "address": "Tadeusza Kościuszki 10, 34-130 Kalwaria Zebrzydowska, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "image": "https://www.miejscapamiecinarodowej.pl/images/malopolskie2/kalwaria_cment6.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/1fTFUMA93ZMssbP56"
@@ -8419,7 +8587,7 @@
           "longitude": 9.189995372591074,
           "address": "Galleria Vittorio Emanuele II, 12, 20121 Milano MI, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://www.yesmilano.it/esplora/luoghi/galleria-vittorio-emanuele-ii",
           "image": "https://www.whitemad.pl/wp-content/uploads/2024/02/resize_Jorge-Lascar-f2-1.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/oMpsZurjeoBX9PMQA"
@@ -10685,7 +10853,7 @@
           "longitude": 12.740151038668879,
           "address": "Piazza del Duomo, 4, 06049 Spoleto PG, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/4FcBB6p4PJbg6B52A"
         },
@@ -10709,7 +10877,7 @@
           "longitude": 13.092810974688536,
           "address": "Piazza del Duomo, 1a, 06046 Norcia PG, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/y7hfvMqMi4fNEXxj9"
         },
@@ -11386,7 +11554,7 @@
           "longitude": 19.27415829111604,
           "address": "Castle in Olsztyn, Zamkowa 18, 42-256 Olsztyn, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/cQzaR1vwhL5HtG4X8"
         },
@@ -13630,7 +13798,7 @@
           "longitude": 17.77586460138832,
           "address": "Dala 152, 871 93 Härnösand, Sweden",
           "country": "Szwecja",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "image": "https://www.craftginclub.co.uk/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fcgc-web%2FNGFiMzllOTUtODEwZS00NzBjLWI1NDAtZmY1NzEzYWY1Zjkz_dsc_9931-1klar.jpg%3Fauto%3Dcompress%2Cformat%26rect%3D0%2C0%2C2500%2C1669%26w%3D2500%26h%3D1669&w=2058&q=75",
           "websiteUrl": "https://www.hernogin.com",
           "GoogleMapsLink": "https://maps.app.goo.gl/5Wpo2QpW3UwUcFJP8"
