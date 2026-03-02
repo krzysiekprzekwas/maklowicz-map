@@ -37,7 +37,7 @@ module.exports = {
   plugins: [],
   safelist: [
     {
-      pattern: /(bg|text|border)-(primary|secondary|restaurant|attraction|other)/,
+      pattern: /(bg|text|border)-(primary|secondary|restaurant|attraction)/,
     },
   ],
 }; 

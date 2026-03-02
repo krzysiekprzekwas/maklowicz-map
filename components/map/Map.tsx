@@ -30,6 +30,7 @@ interface MapProps {
     onClosePreview: () => void;
     userLat?: number;
     userLng?: number;
+    leftPanelWidth?: number;
 }
 
 // Tracks the pixel position of previewLocation as the map pans/zooms.
@@ -57,18 +58,24 @@ const PositionTracker: React.FC<{
     return null;
 };
 
-const ChangeView: React.FC<{ locations: Location[] }> = React.memo(({ locations }) => {
-    const map = useMap();
-    React.useEffect(() => {
-        if (locations.length > 0) {
-            const bounds = L.latLngBounds(
-                locations.filter(x => !x.isFilteredOut).map(loc => [loc.latitude, loc.longitude])
-            );
-            map.fitBounds(bounds as LatLngBoundsExpression, { padding: [50, 50], maxZoom: maxZoomValue });
-        }
-    }, [locations]);
-    return null;
-});
+const ChangeView: React.FC<{ locations: Location[]; leftPanelWidth?: number }> = React.memo(
+    ({ locations, leftPanelWidth = 0 }) => {
+        const map = useMap();
+        React.useEffect(() => {
+            if (locations.length > 0) {
+                const bounds = L.latLngBounds(
+                    locations.filter(x => !x.isFilteredOut).map(loc => [loc.latitude, loc.longitude])
+                );
+                map.fitBounds(bounds as LatLngBoundsExpression, {
+                    paddingTopLeft: [50 + leftPanelWidth, 50],
+                    paddingBottomRight: [50, 50],
+                    maxZoom: maxZoomValue,
+                });
+            }
+        }, [locations, leftPanelWidth]);
+        return null;
+    }
+);
 
 const Map: React.FC<MapProps> = React.memo(({
     locations,
@@ -79,6 +86,7 @@ const Map: React.FC<MapProps> = React.memo(({
     onClosePreview,
     userLat,
     userLng,
+    leftPanelWidth = 0,
 }) => {
     const { getIcon } = useIconCache();
     const [isMobile, setIsMobile] = React.useState(() => isMobileDevice());
@@ -175,7 +183,7 @@ const Map: React.FC<MapProps> = React.memo(({
                     location={previewLocation}
                     onPositionUpdate={handlePositionUpdate}
                 />
-                <ChangeView locations={visibleLocations} />
+                <ChangeView locations={visibleLocations} leftPanelWidth={leftPanelWidth} />
                 {userLat != null && userLng != null && (
                     <Marker
                         position={[userLat, userLng]}

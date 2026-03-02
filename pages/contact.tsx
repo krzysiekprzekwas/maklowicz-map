@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export default function Contact() {
   return (
-    <main className="flex flex-1 flex-col bg-secondary">
+    <main className="flex flex-1 flex-col bg-secondary overflow-y-auto">
       <div className="container mx-auto px-6 py-12">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}

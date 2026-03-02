@@ -10,6 +10,7 @@ export function useLocationState() {
   const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
   const [locationStatus, setLocationStatus] = useState<'idle' | 'loading' | 'granted' | 'denied'>('idle');
   const [nearbyRadius, setNearbyRadius] = useState(50);
+  const [activeView, setActiveView] = useState<'map' | 'list'>('map');
 
   const handleCountryClick = (countryName: string) => {
     setSelectedCountry(countryName === selectedCountry ? null : countryName);
@@ -61,5 +62,7 @@ export function useLocationState() {
     setNearbyRadius,
     requestUserLocation,
     clearUserLocation,
+    activeView,
+    setActiveView,
   };
 }

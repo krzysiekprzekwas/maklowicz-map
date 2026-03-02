@@ -40,3 +40,6 @@ scripts/youtube-scraper/output
 # location parser
 scripts/location-parser/output
 scripts/location-parser/dist 
+
+# backup files
+locations.backup.json

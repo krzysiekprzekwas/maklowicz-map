@@ -33,7 +33,7 @@ export default function CountryPage({ country, locations, videos }: Props) {
   };
 
   return (
-    <main className="flex flex-1 flex-col bg-secondary">
+    <main className="flex flex-1 flex-col bg-secondary overflow-y-auto">
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />

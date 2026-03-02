@@ -1,20 +1,7 @@
 import { motion } from 'framer-motion';
-import { X, LucideProps, Utensils, Coffee, TreePine, Palette, Landmark, ShoppingBag, Hotel, Compass, Tag } from 'lucide-react';
-import { ComponentType } from 'react';
+import { X } from 'lucide-react';
 import { Location } from '../../types/Location';
-
-const TYPE_META: Record<string, { label: string; icon: ComponentType<LucideProps> }> = {
-  restaurant:         { label: 'Restauracja',          icon: Utensils       },
-  cafe:               { label: 'Kawiarnia',            icon: Coffee         },
-  nature:             { label: 'Przyroda i plener',    icon: TreePine       },
-  art_culture:        { label: 'Sztuka i kultura',     icon: Palette        },
-  museum:             { label: 'Muzeum',               icon: Landmark       },
-  shopping:           { label: 'Zakupy',               icon: ShoppingBag    },
-  hotel:              { label: 'Hotel',                icon: Hotel          },
-  tourist_attraction: { label: 'Atrakcja turystyczna', icon: Compass        },
-  attraction:         { label: 'Atrakcja',             icon: Compass        },
-  other:              { label: 'Inne',                 icon: Tag },
-};
+import { TYPE_META } from '../../src/lib/locationTypeMeta';
 
 interface LocationPreviewProps {
   location: Location;
@@ -33,7 +20,7 @@ export function LocationPreview({
   onMouseEnter,
   onMouseLeave,
 }: LocationPreviewProps) {
-  const typeMeta = TYPE_META[location.type] ?? TYPE_META.other;
+  const typeMeta = TYPE_META[location.type] ?? TYPE_META.tourist_attraction;
   const TypeIcon = typeMeta.icon;
 
   return (

@@ -1,14 +1,11 @@
 import { useEffect, useRef, useState } from 'react';
 import { Sheet } from 'react-modal-sheet';
-import {
-  X, SlidersHorizontal, Search,
-  Utensils, Coffee, TreePine, Palette,
-  Landmark, ShoppingBag, Hotel, Compass, Tag,
-  MapPin, Loader2,
-} from 'lucide-react';
+import { X, SlidersHorizontal, Search, MapPin, Loader2 } from 'lucide-react';
+import { LOCATION_TYPES } from '../../src/lib/locationTypeMeta';
 
 interface FiltersProps {
   isOpen: boolean;
+  activeView?: 'map' | 'list';
   countries: { name: string; count: number }[];
   selectedCountry: string | null;
   selectedLocationTypes: string[];
@@ -25,20 +22,9 @@ interface FiltersProps {
   onClearNearby: () => void;
 }
 
-const LOCATION_TYPES = [
-  { type: 'restaurant',         label: 'Restauracje',          icon: Utensils  },
-  { type: 'cafe',               label: 'Kawiarnie',            icon: Coffee    },
-  { type: 'nature',             label: 'Przyroda i plener',    icon: TreePine  },
-  { type: 'art_culture',        label: 'Sztuka i kultura',     icon: Palette   },
-  { type: 'museum',             label: 'Muzea',                icon: Landmark  },
-  { type: 'shopping',           label: 'Zakupy',               icon: ShoppingBag },
-  { type: 'hotel',              label: 'Hotele',               icon: Hotel     },
-  { type: 'tourist_attraction', label: 'Atrakcje turystyczne', icon: Compass   },
-  { type: 'other',              label: 'Inne',                 icon: Tag       },
-];
-
 export function Filters({
   isOpen,
+  activeView = 'map',
   countries,
   selectedCountry,
   selectedLocationTypes,
@@ -387,8 +373,8 @@ export function Filters({
 
   return (
     <>
-      {/* Mobile top bar — absolute over map, hidden on desktop */}
-      {mobileTopBar}
+      {/* Mobile top bar — absolute over map, hidden on desktop and in list view */}
+      {activeView === 'map' && mobileTopBar}
 
       {/* Desktop sidebar */}
       {!isMobile && (
@@ -402,7 +388,7 @@ export function Filters({
         </aside>
       )}
 
-      {/* Mobile bottom sheet */}
+      {/* Filter sheet — mobile only */}
       {isMobile && (
         <Sheet
           isOpen={isOpen}

@@ -12,7 +12,6 @@ const iconComponentMap: Partial<Record<LocationType, React.ComponentType<LucideP
     nature: TreePine,
     shopping: ShoppingBag,
     hotel: Hotel,
-    other: Tag,
 };
 
 const colorClassMap: Partial<Record<LocationType, keyof typeof styles>> = {
@@ -22,7 +21,6 @@ const colorClassMap: Partial<Record<LocationType, keyof typeof styles>> = {
     tourist_attraction: 'markerPurple',
     museum: 'markerPurple',
     art_culture: 'markerPurple',
-    other: 'markerRed',
     nature: 'markerRed',
     shopping: 'markerRed',
     hotel: 'markerRed',

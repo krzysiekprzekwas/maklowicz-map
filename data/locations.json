@@ -6054,7 +6054,7 @@
         },
         {
           "id": "wadi-rum-desert",
-          "name": "Wadi Rum Desert",
+          "name": "Pustynia Wadi Rum",
           "description": "Otóż Wadi Rum, ta jordańska kraina, to prawdziwa uczta dla oczu – czerwone piaski i majestatyczne skały, które zdają się opowiadać historie sprzed milionów lat. W tych ostępach, gdzie niegdyś Lawrence z Arabii snuł plany, do dziś beduińskie ogniska rozświetlają noce, a pod ziemią powoli piecze się baranina, czekając na podniebienia spragnione autentycznych smaków. Prawdziwa perła Bliskiego Wschodu, gdzie czas płynie inaczej, a każdy kamień ma swoją opowieść.",
           "latitude": 29.53471079243598,
           "longitude": 35.42235679543926,
@@ -6080,7 +6080,7 @@
         },
         {
           "id": "arab-revolt-flagpole",
-          "name": "Arab Revolt Flagpole",
+          "name": "Maszt Flagi Wielkiej Rewolucji Arabskiej",
           "description": "W jordańskiej Akabie, gdzie historia splata się z błękitem Morza Czerwonego, wznosi się imponujący Maszt Flagi Wielkiej Rewolucji Arabskiej, postawiony w 2004 roku. To nie jest zwykła tyczka na szmatkę, lecz monumentalny symbol wolności, tak wysoki, że z pewnością zaostrza apetyt nie tylko na opowieści o minionych zrywach, ale i na wyborne, lokalne przysmaki, które smakują tu wyjątkowo.",
           "latitude": 29.52146242483517,
           "longitude": 35.000825608207265,
@@ -6182,7 +6182,7 @@
       "locations": [
         {
           "id": "amman-citadel",
-          "name": "Amman Citadel",
+          "name": "Cytadela w Ammanie",
           "description": "Cytadela w Ammanie to prawdziwa gratka dla koneserów historii, miejsce, gdzie czas smakuje niczym wielowarstwowa potrawa, serwowana nieprzerwanie od epoki brązu, czyli około 1800 roku p.n.e. Od rzymskich świątyń po bizantyjskie kościoły i pałace Umajjadów – każda epoka zostawiła tu swój wyrazisty ślad, a z jej szczytu rozciąga się panorama Ammanu, która niczym dobry aperitif, zaostrza apetyt na dalsze odkrycia.",
           "latitude": 31.954279574574322,
           "longitude": 35.936521751993794,
@@ -6195,7 +6195,7 @@
         },
         {
           "id": "roman-temple-of-hercules",
-          "name": "Roman Temple Of Hercules",
+          "name": "Rzymska Świątynia Herkulesa",
           "description": "Pozostałości rzymskiej świątyni Herkulesa, datowanej na lata 162-166 naszej ery. To miejsce, gdzie potęga Imperium Rzymskiego spotykała się z bliskowschodnim słońcem, a widoki stąd są tak zapierające dech, że z pewnością niejeden starożytny pielgrzym poczułby się tu jak po sycącym posiłku – pełen wrażeń i zadowolenia.",
           "latitude": 31.953792078178815,
           "longitude": 35.93480074145132,
@@ -6208,8 +6208,8 @@
         },
         {
           "id": "early-bronze-age-cave",
-          "name": "Early Bronze Age Cave",
-          "description": "Niezwykłe jaskinie z wczesnej epoki brązu. To nie tylko kawałek historii, ale i świadectwo ludzkiej zaradności, gdzie przed tysiącami lat, być może, zapach ogniska i pieczonego mięsa unosił się w powietrzu. Prawdziwa kapsuła czasu, która wciąż szepcze opowieści o dawnych smakach i życiu.",
+          "name": "Jaskinie z wczesnej Epoki Brązu",
+          "description": "To nie tylko kawałek historii, ale i świadectwo ludzkiej zaradności, gdzie przed tysiącami lat, być może, zapach ogniska i pieczonego mięsa unosił się w powietrzu. Prawdziwa kapsuła czasu, która wciąż szepcze opowieści o dawnych smakach i życiu.",
           "latitude": 31.954128429120924,
           "longitude": 35.93508930935998,
           "address": "K. Ali Ben Al-Hussein St. 146, Amman, Jordan",
@@ -6221,7 +6221,7 @@
         },
         {
           "id": "byzantine-church",
-          "name": "Byzantine Church",
+          "name": "Kościół Bizantyjski",
           "description": "Prawdziwa perła, bizantyjski kościół, który niczym wytrawny trunek dojrzewał przez wieki. Ta budowla, często datowana na V-VII wiek, to nie tylko świadectwo dawnej wiary, lecz przede wszystkim galeria niezwykłych mozaik, których każdy fragment, niczym składnik wykwintnego dania, opowiada o kunszcie i życiu tamtych czasów.",
           "latitude": 31.95450694277913,
           "longitude": 35.93513478840269,

@@ -1,30 +1,14 @@
 import { Location } from '../../types/Location';
 import locationData from '../../data/locations.json';
-import {
-  Share2, X,
-  Utensils, Coffee, TreePine, Palette, Tag,
-  Landmark, ShoppingBag, Hotel, Compass, LucideProps,
-} from 'lucide-react';
-import { ComponentType, useEffect, useState } from 'react';
+import { Share2, X } from 'lucide-react';
+import { useEffect, useState } from 'react';
 import { Sheet } from 'react-modal-sheet';
+import { TYPE_META } from '../../src/lib/locationTypeMeta';
 
 interface LocationDetailsProps {
   location: Location | null;
   onClose: () => void;
 }
-
-const TYPE_META: Record<string, { label: string; icon: ComponentType<LucideProps> }> = {
-  restaurant:         { label: 'Restauracja',          icon: Utensils       },
-  cafe:               { label: 'Kawiarnia',            icon: Coffee         },
-  nature:             { label: 'Przyroda i plener',    icon: TreePine       },
-  art_culture:        { label: 'Sztuka i kultura',     icon: Palette        },
-  museum:             { label: 'Muzeum',               icon: Landmark       },
-  shopping:           { label: 'Zakupy',               icon: ShoppingBag    },
-  hotel:              { label: 'Hotel',                icon: Hotel          },
-  tourist_attraction: { label: 'Atrakcja turystyczna', icon: Compass        },
-  attraction:         { label: 'Atrakcja',             icon: Compass        },
-  other:              { label: 'Inne',                 icon: Tag },
-};
 
 export function LocationDetails({
   location,
@@ -49,7 +33,7 @@ export function LocationDetails({
     setIsImageLoading(true);
   }, [location?.id]);
 
-  const typeMeta = TYPE_META[location?.type ?? ''] ?? TYPE_META.other;
+  const typeMeta = TYPE_META[location?.type ?? ''] ?? TYPE_META.tourist_attraction;
   const TypeIcon = typeMeta.icon;
 
   const detailsContent = location && (
