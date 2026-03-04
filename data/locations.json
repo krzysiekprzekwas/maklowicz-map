@@ -11003,7 +11003,8 @@
           "country": "Włochy",
           "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/4FcBB6p4PJbg6B52A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/4FcBB6p4PJbg6B52A",
+          "image": "/images/katedra-wniebowziecia-najswietszej-maryi-panny-w-spoleto.jpg"
         },
         {
           "id": "scala-mobile-rocca-1-1",
@@ -11015,7 +11016,8 @@
           "country": "Włochy",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/5DrCuaRdRtN1db3o8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/5DrCuaRdRtN1db3o8",
+          "image": "/images/scala-mobile-rocca-1-1.jpg"
         },
         {
           "id": "statua-di-san-benedetto",
@@ -11230,7 +11232,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/m6QaXyhbSS5xKJHg6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/m6QaXyhbSS5xKJHg6",
+          "image": "/images/chata-olimpijczyka-jasia-i-helenki.jpg"
         }
       ]
     },
@@ -11265,9 +11268,10 @@
           "longitude": 18.626769589053612,
           "address": "Zamkowa 3, 43-400 Cieszyn",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/unKskZyX7XpZWbxC6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/unKskZyX7XpZWbxC6",
+          "image": "/images/pa-ac-mysliwski-habsburgow-w-cieszynie.jpg"
         },
         {
           "id": "rotunda-pw-sw-miko-aja-w-cieszynie",
@@ -11277,9 +11281,10 @@
           "longitude": 18.62560526505028,
           "address": "Zamkowa 3B, 43-400 Cieszyn, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/SLjPa8TZ7EfWLJ72A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/SLjPa8TZ7EfWLJ72A",
+          "image": "/images/rotunda-pw-sw-miko-aja-w-cieszynie.jpg"
         },
         {
           "id": "wenecja-cieszynska",
@@ -11314,9 +11319,10 @@
           "longitude": 18.63370025275431,
           "address": "Tadeusza Regera 6, 43-400 Cieszyn, Poland",
           "country": "Polska",
-          "type": "restaurant",
+          "type": "cafe",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/XdVPJCVQvJ3qNpAf8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/XdVPJCVQvJ3qNpAf8",
+          "image": "/images/cafe-muzeum.jpg"
         },
         {
           "id": "chlebowa-chata",
@@ -11341,7 +11347,8 @@
           "country": "Polska",
           "type": "shopping",
           "websiteUrl": "https://www.polkap.pl/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/bmzoePPGzqP2J9oY6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/bmzoePPGzqP2J9oY6",
+          "image": "/images/polkap.jpg"
         },
         {
           "id": "winiarnia-u-czecha",
@@ -11390,7 +11397,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/8o2KkMbRJojdmFvJ8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/8o2KkMbRJojdmFvJ8",
+          "image": "/images/browar-zamkowy-raciborz.jpg"
         },
         {
           "id": "zabytkowa-stacja-kolei-waskotorowej-w-rudach",
@@ -11441,7 +11449,8 @@
           "country": "Polska",
           "type": "shopping",
           "websiteUrl": "https://www.facebook.com/spizarnia.smok",
-          "GoogleMapsLink": "https://maps.app.goo.gl/X4z45M9QFKRrU6Jf6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/X4z45M9QFKRrU6Jf6",
+          "image": "/images/spizarnia-jak-za-starej-polski.jpg"
         }
       ]
     },
@@ -11488,9 +11497,10 @@
           "longitude": 15.264492537546548,
           "address": "X7F6+MQ Gersdorf, Austria",
           "country": "Austria",
-          "type": "restaurant",
+          "type": "hotel",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/hThma95ZdbBhm2ks5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/hThma95ZdbBhm2ks5",
+          "image": "/images/landhof-lazarus.jpg"
         },
         {
           "id": "destillerie-hochstrasser-gmbh-co-kg",
@@ -11579,7 +11589,8 @@
           "country": "Austria",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/sT87FWQX8uZFAXkF7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/sT87FWQX8uZFAXkF7",
+          "image": "/images/zum-martin-sepp.jpg"
         },
         {
           "id": "blun",
@@ -11602,9 +11613,10 @@
           "longitude": 16.361548885756257,
           "address": "Christkindlmarkt 1523/1, 1010 Wien, Austria",
           "country": "Austria",
-          "type": "restaurant",
+          "type": "cafe",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/rqCYedP2sFFzHLho6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/rqCYedP2sFFzHLho6",
+          "image": "/images/cafe-landtmann.jpg"
         }
       ]
     },
@@ -11705,7 +11717,8 @@
           "country": "Polska",
           "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/cQzaR1vwhL5HtG4X8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/cQzaR1vwhL5HtG4X8",
+          "image": "/images/ruiny-zamku-w-olsztynie-k-czestochowy.jpg"
         },
         {
           "id": "jaskinia-g-eboka",
@@ -11743,7 +11756,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Mt8hAAEitofthBPb6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Mt8hAAEitofthBPb6",
+          "image": "/images/pstragarnia-smazalnia-ryb-w-z-otym-potoku.jpg"
         },
         {
           "id": "cmentarz-zydowski-w-zarkach",
@@ -11823,7 +11837,7 @@
         },
         {
           "id": "szyb-maciej-restauracja-bistro-turystyka",
-          "name": "Szyb Maciej - Restauracja, Bistro, Turystyka",
+          "name": "Szyb Maciej - Restauracja",
           "description": "W dawnym szybie kopalni węgla, teraz króluje zupełnie inna kopania - smaków i doznań kulinarnych! To miejsce, gdzie historia przemysłowa Zabrza spotyka się z nowoczesną kuchnią, serwując gościom niezapomniane doświadczenia gastronomiczne.",
           "latitude": 50.31514690602173,
           "longitude": 18.7413775482941,
@@ -11831,7 +11845,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/aTVMJCV8icEfTDTc9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/aTVMJCV8icEfTDTc9",
+          "image": "/images/szyb-maciej-restauracja-bistro-turystyka.jpg"
         },
         {
           "id": "narodowa-orkiestra-symfoniczna-polskiego-radia-w-katowicach",
@@ -11869,7 +11884,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/pwzJsaU4h1j8myw77"
+          "GoogleMapsLink": "https://maps.app.goo.gl/pwzJsaU4h1j8myw77",
+          "image": "/images/slaska-prohibicja.jpg"
         },
         {
           "id": "nikiszowiec-katowice",
@@ -11894,7 +11910,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/5hUqjSpwWyvCN5kt5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/5hUqjSpwWyvCN5kt5",
+          "image": "/images/szapoba-bistro.jpg"
         }
       ]
     },
@@ -11956,7 +11973,7 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/ztx9PcRUm6r6hKv5A",
-          "image": ""
+          "image": "/images/zrod-o-buny.jpg"
         },
         {
           "id": "fajic",
@@ -11981,7 +11998,7 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/gUVx9myvBaWW6c9z6",
-          "image": ""
+          "image": "/images/hutovo-blato.jpg"
         },
         {
           "id": "neum-bosnia-i-hercegowina",
@@ -12028,10 +12045,10 @@
           "longitude": 17.670827133103476,
           "address": "Varoš 62, Travnik, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/YeHpy7caJAThYGtq6",
-          "image": ""
+          "image": "/images/travnica-fortress-old-town.jpg"
         },
         {
           "id": "sahat-kula-na-musali-m-5-travnik-bosnia-i-hercegowina",
@@ -12119,7 +12136,7 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/MD8gZS17bVz3i2Sc9",
-          "image": ""
+          "image": "/images/sarajevo-meeting-of-cultures.jpg"
         },
         {
           "id": "rm-tucana-kahva-dibek-no1",
@@ -12169,7 +12186,8 @@
           "country": "Bośnia i Hercegowina",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/SfNjZmHMNadmPHP36"
+          "GoogleMapsLink": "https://maps.app.goo.gl/SfNjZmHMNadmPHP36",
+          "image": "/images/cevabdzinica-zeljo.jpg"
         },
         {
           "id": "butik-badem",
@@ -12232,7 +12250,8 @@
           "country": "Bośnia i Hercegowina",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/CopVgC74vDmmWRKh8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/CopVgC74vDmmWRKh8",
+          "image": "/images/restoran-brajlovic.jpg"
         }
       ]
     },
@@ -12270,7 +12289,7 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/diJpAujihgqQEvGT9",
-          "image": ""
+          "image": "/images/tjentiste-spomenik.jpg"
         },
         {
           "id": "braca-kovacevic",
@@ -12295,7 +12314,7 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/aPPE8y6F9TiLFMBT6",
-          "image": ""
+          "image": "/images/jahorina-bosnia-i-hercegowina.jpg"
         },
         {
           "id": "jahorina-viewpoint",
@@ -12305,10 +12324,10 @@
           "longitude": 18.590008854711925,
           "address": "MHVQ+MX Hamzići, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "art_culture",
+          "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/TnBy587hHew8BRft6",
-          "image": ""
+          "image": "/images/jahorina-viewpoint.jpg"
         },
         {
           "id": "turkuaz",
@@ -12358,7 +12377,7 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/X5yLVwcxg1HXYNiK7",
-          "image": ""
+          "image": "/images/radimlja-stecak-tombstones-unesco.jpg"
         },
         {
           "id": "ljetnikovac-sisic",
@@ -12382,7 +12401,8 @@
           "country": "Bośnia i Hercegowina",
           "type": "hotel",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Ei9RSSR7yUYwyE1L8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Ei9RSSR7yUYwyE1L8",
+          "image": "/images/hotel-platani.jpg"
         },
         {
           "id": "restoran-kolo",
@@ -12522,7 +12542,7 @@
           "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/Vwskwv81snKLkgrb9",
-          "image": ""
+          "image": "/images/wine-shop-skaramuca.jpg"
         },
         {
           "id": "boutoque-winery-mikulic",
@@ -14213,7 +14233,7 @@
         },
         {
           "id": "grzybek-restauracja-noclegi",
-          "name": "Grzybek | Restauracja & Noclegi",
+          "name": "Grzybek | Restauracja",
           "description": "Restauracja historią sięgająca jeszcze lat 80tych tuż przy Zakopiance.",
           "latitude": 49.80576588329058,
           "longitude": 19.924018500970867,
@@ -14221,7 +14241,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Jwa9Xm2TL9hrmGZB7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Jwa9Xm2TL9hrmGZB7",
+          "image": "/images/grzybek-restauracja-noclegi.jpg"
         }
       ]
     },
@@ -14657,7 +14678,8 @@
           "country": "Polska",
           "type": "museum",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/jG3kFkvLz8VX1CB99"
+          "GoogleMapsLink": "https://maps.app.goo.gl/jG3kFkvLz8VX1CB99",
+          "image": "/images/muzeum-regionalne-im-dzieci-wrzesinskich.jpg"
         },
         {
           "id": "szwarc-cukiernia-smodlibowski-a",
@@ -14717,7 +14739,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/5SBRZLpTwPBqpkT28"
+          "GoogleMapsLink": "https://maps.app.goo.gl/5SBRZLpTwPBqpkT28",
+          "image": "/images/ministerstwo-browaru.jpg"
         }
       ]
     },
@@ -14755,7 +14778,7 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/VD19gVH6Xi4EfmTy8",
-          "image": ""
+          "image": "/images/ogrod-rozany.jpg"
         }
       ]
     },
@@ -14922,7 +14945,7 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/VUzUn2uNtNRrhbMLA",
-          "image": ""
+          "image": "/images/mural-srodka.jpg"
         },
         {
           "id": "modra-kuchnia",
@@ -14934,7 +14957,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/tasQKovf353zHC6z5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/tasQKovf353zHC6z5",
+          "image": "/images/modra-kuchnia.jpg"
         },
         {
           "id": "posag-higiei-bogini-zdrowia",
@@ -15075,7 +15099,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Pg9FS42ZpHcWmjpn9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Pg9FS42ZpHcWmjpn9",
+          "image": "/images/3-kolory-malta.jpg"
         }
       ]
     },
@@ -15274,9 +15299,10 @@
           "longitude": 16.089290683596218,
           "address": "Trg kralja Tomislava 1, 21485, Komiža, Croatia",
           "country": "Chorwacja",
-          "type": "restaurant",
+          "type": "cafe",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/iaH5V4zNyw9EQXaJA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/iaH5V4zNyw9EQXaJA",
+          "image": "/images/pekara-kol-eraj.jpg"
         },
         {
           "id": "kavana-riva",
@@ -15479,7 +15505,8 @@
           "country": "Słowacja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/6z2Q9RvGPkaVNrwn9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/6z2Q9RvGPkaVNrwn9",
+          "image": "/images/koliba-u-sv-kristofa.jpg"
         },
         {
           "id": "976-39-donovaly-s-owacja",
@@ -15555,7 +15582,8 @@
           "country": "Chorwacja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/MZxSGpW51wxXk9eX7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/MZxSGpW51wxXk9eX7",
+          "image": "/images/konoba-panorama.jpg"
         }
       ]
     },
@@ -15618,7 +15646,8 @@
           "country": "Chorwacja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/XD5rwQVjUJtw27vy6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/XD5rwQVjUJtw27vy6",
+          "image": "/images/bota-sare-mali-ston-restaurant-oyster-bar.jpg"
         }
       ]
     },
@@ -15797,7 +15826,8 @@
           "country": "Chorwacja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/f4j2mhY6FhpAtpoj6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/f4j2mhY6FhpAtpoj6",
+          "image": "/images/ostarija-u-vi-akovi.jpg"
         },
         {
           "id": "ferry-port-split",
@@ -15899,7 +15929,8 @@
           "country": "Chorwacja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/TSsCq7uYkMKPRfKa8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/TSsCq7uYkMKPRfKa8",
+          "image": "/images/seosko-domacinstvo-ficovic.jpg"
         }
       ]
     },
@@ -15923,7 +15954,8 @@
           "country": "Chorwacja",
           "type": "hotel",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/VnpREiurf44xk3Yp9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/VnpREiurf44xk3Yp9",
+          "image": "/images/apartments-sime.jpg"
         },
         {
           "id": "villa-anadingac",
@@ -15935,7 +15967,8 @@
           "country": "Chorwacja",
           "type": "hotel",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/tASizFe3cyHwfB5UA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/tASizFe3cyHwfB5UA",
+          "image": "/images/villa-anadingac.jpg"
         },
         {
           "id": "restauracja-braenovic",
@@ -15985,8 +16018,8 @@
         },
         {
           "id": "monastery-and-church-of-our-lady-of-the-angels",
-          "name": "Monastery and church of Our Lady of the Angels",
-          "description": "Kościół i klastor Matki Boskiej Anielskiej wraz z towarzyszącym im przepięknym historycznym cmentarzem.",
+          "name": "Klasztor Matki Boskiej Anielskiej",
+          "description": "Kościół i klasztor Matki Boskiej Anielskiej wraz z towarzyszącym im przepięknym historycznym cmentarzem.",
           "latitude": 42.97744570172432,
           "longitude": 17.15339019397144,
           "address": "Celestinov put 18, 20250, Podgorje, Croatia",
@@ -15994,7 +16027,7 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/WvPyZw1GTmBkLSbP7",
-          "image": ""
+          "image": "/images/monastery-and-church-of-our-lady-of-the-angels.jpg"
         },
         {
           "id": "villa-vrgorac",
@@ -16006,7 +16039,8 @@
           "country": "Chorwacja",
           "type": "hotel",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/E4zt8cXNnEdKwVkZ8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/E4zt8cXNnEdKwVkZ8",
+          "image": "/images/villa-vrgorac.jpg"
         },
         {
           "id": "plaza-trstenica",
