@@ -7878,7 +7878,7 @@
         },
         {
           "id": "dom-uphagena-oddzia-muzeum-gdanska",
-          "name": "Dom Uphagena. Oddział Muzeum Gdańska",
+          "name": "Dom Uphagena - Oddział Muzeum Gdańska",
           "description": "Oto Dom Uphagena w Gdańsku, wyjątkowy przykład XVIII-wiecznej kamienicy mieszczańskiej, należącej do zamożnego kupca Johanna Uphagena. To jedyne w Polsce muzeum, które pozwala przenieść się w czasie i poczuć atmosferę życia ówczesnych elit, może nawet wyobrażając sobie zapachy egzotycznych przypraw, które trafiały na ich stoły.",
           "latitude": 54.34933065737539,
           "longitude": 18.649292648796624,
@@ -7886,8 +7886,8 @@
           "country": "Polska",
           "type": "museum",
           "websiteUrl": "https://muzeumgdansk.pl/oddzialy-muzeum/dom-uphagena/",
-          "image": "https://www.suerteprzewodnicy.pl/blog/wp-content/uploads/2023/10/dom-uphagena.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ezKdr1sopazcBfwg6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ezKdr1sopazcBfwg6",
+          "image": "/images/dom-uphagena-oddzia-muzeum-gdanska.jpg"
         },
         {
           "id": "muzeum-gdanska-ratusz-g-ownego-miasta",
@@ -7925,8 +7925,8 @@
           "country": "Polska",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "image": "https://umg.edu.pl/sites/default/files/styles/skrot-newsa/public/ilustracje/tytulowe_dar.jpg?itok=7eraPiLo",
-          "GoogleMapsLink": "https://maps.app.goo.gl/nYu9m8Enyh7HRDNk9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/nYu9m8Enyh7HRDNk9",
+          "image": "/images/dar-m-odziezy.jpg"
         },
         {
           "id": "alga-street-food",
@@ -10978,7 +10978,8 @@
           "country": "Włochy",
           "type": "shopping",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/CeiAzHux4aRKgboRA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/CeiAzHux4aRKgboRA",
+          "image": "/images/padrichelli-giancarlo.jpg"
         },
         {
           "id": "arco-di-druso",
@@ -11029,7 +11030,8 @@
           "country": "Włochy",
           "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/y7hfvMqMi4fNEXxj9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/y7hfvMqMi4fNEXxj9",
+          "image": "/images/statua-di-san-benedetto.jpg"
         },
         {
           "id": "norcineria-ansuini-brothers-mastro-peppe",
@@ -11143,7 +11145,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/NFrzaXpEwJLVJhvx5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/NFrzaXpEwJLVJhvx5",
+          "image": "/images/ristorante-al-caminetto.jpg"
         },
         {
           "id": "studio-filmow-rysunkowych-centrum-bajki-i-animacji-oko",
@@ -11207,7 +11210,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/AfCkNbM31FnxaaMn8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/AfCkNbM31FnxaaMn8",
+          "image": "/images/schronisko-na-stecowce.jpg"
         },
         {
           "id": "kaskady-rod-a",
@@ -11297,7 +11301,7 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/orRccrYoQsDbMugL9",
-          "image": ""
+          "image": "/images/wenecja-cieszynska.jpg"
         },
         {
           "id": "rynek-w-cieszynie",
@@ -11307,9 +11311,10 @@
           "longitude": 18.63340591935272,
           "address": "Przykopa 21, 43-400 Cieszyn, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/qLAZ8djPbFkaGUcT9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/qLAZ8djPbFkaGUcT9",
+          "image": "/images/rynek-w-cieszynie.jpg"
         },
         {
           "id": "cafe-muzeum",
@@ -11360,7 +11365,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/z3bW8L5XsPNdQisz5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/z3bW8L5XsPNdQisz5",
+          "image": "/images/winiarnia-u-czecha.jpg"
         }
       ]
     },
@@ -11474,7 +11480,8 @@
           "country": "Austria",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/gFmuuGRiUaXY3WuUA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/gFmuuGRiUaXY3WuUA",
+          "image": "/images/eiscafe-la-piazza.jpg"
         },
         {
           "id": "gasthof-restaurant-zum-brauhaus",
@@ -11808,7 +11815,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/bafFEfbLP8y1dJb89"
+          "GoogleMapsLink": "https://maps.app.goo.gl/bafFEfbLP8y1dJb89",
+          "image": "/images/restauracja-511.jpg"
         }
       ]
     },
@@ -11945,9 +11953,10 @@
           "longitude": 17.814828785057557,
           "address": "8RP7+RWW, Jusovina, Mostar 88000, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "restaurant",
+          "type": "cafe",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ZApjpuZiKeq4aW4w8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZApjpuZiKeq4aW4w8",
+          "image": "/images/karma.jpg"
         },
         {
           "id": "tekke-derwiszow-w-blagaj",
@@ -12035,7 +12044,8 @@
           "country": "Bośnia i Hercegowina",
           "type": "hotel",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/q1E1FfAdWaug8Pzj6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/q1E1FfAdWaug8Pzj6",
+          "image": "/images/hotel-vezir-palace.jpg"
         },
         {
           "id": "travnica-fortress-old-town",
@@ -12058,10 +12068,10 @@
           "longitude": 17.670329787817426,
           "address": "Šehida 47, Travnik 72270, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/DmseyeeFAiQ5FTee9",
-          "image": ""
+          "image": "/images/sahat-kula-na-musali-m-5-travnik-bosnia-i-hercegowina.jpg"
         },
         {
           "id": "ornamented-mosque",
@@ -12086,7 +12096,8 @@
           "country": "Bośnia i Hercegowina",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/YGUZd9xYwfk5dgsC9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/YGUZd9xYwfk5dgsC9",
+          "image": "/images/cevabdzinica-hari.jpg"
         },
         {
           "id": "spomenik-for-the-wounded-at-neretva-battle",
@@ -12111,7 +12122,8 @@
           "country": "Bośnia i Hercegowina",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/JbSLhVy43r6dtNjf6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/JbSLhVy43r6dtNjf6",
+          "image": "/images/restoran-zdrava-voda.jpg"
         }
       ]
     },
@@ -12146,9 +12158,10 @@
           "longitude": 18.428797304298303,
           "address": "Mudželiti veliki 10, Sarajevo 71000, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "restaurant",
+          "type": "cafe",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/iZAjGEVCGqtpsxNk6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/iZAjGEVCGqtpsxNk6",
+          "image": "/images/rm-tucana-kahva-dibek-no1.jpg"
         },
         {
           "id": "bascarsija",
@@ -12301,7 +12314,8 @@
           "country": "Bośnia i Hercegowina",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/m2pPyooG9brXnugB6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/m2pPyooG9brXnugB6",
+          "image": "/images/braca-kovacevic.jpg"
         },
         {
           "id": "jahorina-bosnia-i-hercegowina",
@@ -12389,7 +12403,8 @@
           "country": "Bośnia i Hercegowina",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/spR5ouaqcKQzd5FD8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/spR5ouaqcKQzd5FD8",
+          "image": "/images/ljetnikovac-sisic.jpg"
         },
         {
           "id": "hotel-platani",
@@ -12414,7 +12429,8 @@
           "country": "Bośnia i Hercegowina",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/TYYGW5Pw6o2dKbp27"
+          "GoogleMapsLink": "https://maps.app.goo.gl/TYYGW5Pw6o2dKbp27",
+          "image": "/images/restoran-kolo.jpg"
         },
         {
           "id": "pijaca",
@@ -12845,10 +12861,10 @@
           "longitude": 18.65226489979032,
           "address": "Piwna 26, 80-831 Gdańsk, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://bazylikamariacka.gdansk.pl",
-          "image": "https://globtroterek.com/wp-content/uploads/2021/10/Gdańsk-56.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Qwh82QtZuUUdYNr16"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Qwh82QtZuUUdYNr16",
+          "image": "/images/bazylika-mariacka-wniebowziecia-najswietszej-maryi-panny-w-gdansku.jpg"
         },
         {
           "id": "kaplica-krolewska",
@@ -12937,7 +12953,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/cmKjqu61aJ6SFZLq9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/cmKjqu61aJ6SFZLq9",
+          "image": "/images/bia-y-krolik.jpg"
         },
         {
           "id": "polskie-smaki",
@@ -12949,7 +12966,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Z8AT5pmH5uHnFU4M9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Z8AT5pmH5uHnFU4M9",
+          "image": "/images/polskie-smaki.jpg"
         },
         {
           "id": "przystan-rybacka-w-sopocie",
@@ -12974,7 +12992,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/KTmMgFLALQ4tWZkS7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/KTmMgFLALQ4tWZkS7",
+          "image": "/images/tawerna-rybaki.jpg"
         },
         {
           "id": "k5-akademia-kulinarna",
@@ -13165,7 +13184,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/T9S3ownq8wetPq6C8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/T9S3ownq8wetPq6C8",
+          "image": "/images/lesny-dwor.jpg"
         }
       ]
     },
@@ -13532,7 +13552,8 @@
           "country": "Chorwacja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/KG9kSUyCbBTYcw9m6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/KG9kSUyCbBTYcw9m6",
+          "image": "/images/restaurant-fjaka.jpg"
         }
       ]
     },
@@ -13683,7 +13704,8 @@
           "country": "Chorwacja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/L6W9eqLp7CfLVbfu5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/L6W9eqLp7CfLVbfu5",
+          "image": "/images/restaurant-lavanda.jpg"
         }
       ]
     },
@@ -14204,7 +14226,8 @@
           "country": "Szwecja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/LdfU4Yrb2n4BgqU46"
+          "GoogleMapsLink": "https://maps.app.goo.gl/LdfU4Yrb2n4BgqU46",
+          "image": "/images/ruby.jpg"
         }
       ]
     },
@@ -14294,16 +14317,17 @@
       "show": "Robert Makłowicz w podróży",
       "locations": [
         {
-          "id": "schronisko-pttk-na-kud-aczach-730-m-n-p-m",
-          "name": "Schronisko PTTK na Kudłaczach 730 m n.p.m.",
+          "id": "schronisko-pttk-na-kud-aczach",
+          "name": "Schronisko PTTK na Kudłaczach",
           "description": "Najbliższe Krakowa prawdziwe schronisko górskie",
           "latitude": 49.7822763072962,
           "longitude": 20.022005993461136,
           "address": "Q2J8+WV Myślenice, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/eUUQVEZNKKxtF7dm6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/eUUQVEZNKKxtF7dm6",
+          "image": "/images/schronisko-pttk-na-kud-aczach.jpg"
         },
         {
           "id": "gorczanski-park-narodowy",
@@ -14503,9 +14527,10 @@
           "longitude": 17.688358885594017,
           "address": "Rynek 8, 62-310 Pyzdry, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/1VJsPRxLp31ks3ms9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/1VJsPRxLp31ks3ms9",
+          "image": "/images/dom-podcieniowy.jpg"
         },
         {
           "id": "muzeum-regionalne-ziemi-pyzdrskiej",
@@ -14517,7 +14542,8 @@
           "country": "Polska",
           "type": "museum",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/57accUNafK5CsLnAA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/57accUNafK5CsLnAA",
+          "image": "/images/muzeum-regionalne-ziemi-pyzdrskiej.jpg"
         },
         {
           "id": "mozaika-artystyczna-na-schodach",
@@ -14568,7 +14594,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/nv3vSp6WW9fwSuss5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/nv3vSp6WW9fwSuss5",
+          "image": "/images/bar-perkoz.jpg"
         },
         {
           "id": "dawna-granica-zaborow",
@@ -14642,7 +14669,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/xC5yea8ZYNhD3zWu7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/xC5yea8ZYNhD3zWu7",
+          "image": "/images/happa-to-mame.jpg"
         },
         {
           "id": "u-aipo-restauracja-z-kuchnia-kirgistanu",
@@ -14683,15 +14711,16 @@
         },
         {
           "id": "szwarc-cukiernia-smodlibowski-a",
-          "name": "Szwarc. Cukiernia. Smodlibowski A.",
+          "name": "Cukiernia Szwarc",
           "description": "Nieprzerwanie działająca od XIX wieku cukiernia.",
           "latitude": 52.326506305795604,
           "longitude": 17.565206758294703,
           "address": "Azaliowa 21, 62-300 Września, Poland",
           "country": "Polska",
-          "type": "restaurant",
+          "type": "cafe",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/4QLpNpNS7KodFJnL7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/4QLpNpNS7KodFJnL7",
+          "image": "/images/szwarc-cukiernia-smodlibowski-a.jpg"
         },
         {
           "id": "esplanada",
