@@ -111,7 +111,7 @@ export function LocationDetails({
               rel="noopener noreferrer"
               className="text-sm text-primary underline underline-offset-2"
             >
-              Zobacz odcinek na YouTube
+              {video.filterTitle}
             </a>
           </section>
           <hr className="border-secondary-border mb-5" />
