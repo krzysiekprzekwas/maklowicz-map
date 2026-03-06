@@ -5,7 +5,6 @@ import { LOCATION_TYPES } from '../../src/lib/locationTypeMeta';
 
 interface FiltersProps {
   isOpen: boolean;
-  activeView?: 'map' | 'list';
   countries: { name: string; count: number }[];
   selectedCountry: string | null;
   selectedLocationTypes: string[];
@@ -24,7 +23,6 @@ interface FiltersProps {
 
 export function Filters({
   isOpen,
-  activeView = 'map',
   countries,
   selectedCountry,
   selectedLocationTypes,
@@ -67,6 +65,12 @@ export function Filters({
     c.name.toLowerCase().includes(countrySearch.toLowerCase())
   );
 
+  function pluralMiejsc(n: number) {
+    if (n === 1) return 'miejsce';
+    if (n >= 2 && n <= 4) return 'miejsca';
+    return 'miejsc';
+  }
+
   const hasActiveFilters =
     !!selectedCountry ||
     selectedLocationTypes.length > 0 ||
@@ -95,10 +99,10 @@ export function Filters({
     <div className="absolute top-4 left-4 right-4 z-[9998] flex items-center gap-2 md:hidden">
       {hasActiveFilters ? (
         <>
-          {/* Scrollable chips */}
-          <div className="flex-1 bg-white rounded-2xl shadow-lg px-3 py-2.5 min-w-0 overflow-hidden">
+          {/* Scrollable chips + inline count */}
+          <div className="flex-1 bg-white rounded-2xl shadow-lg min-w-0 overflow-hidden flex items-center">
             <div
-              className="flex gap-2 overflow-x-auto"
+              className="flex flex-1 gap-2 overflow-x-auto px-3 py-2.5 min-w-0"
               style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' } as React.CSSProperties}
             >
               {locationStatus === 'granted' ? (
@@ -133,6 +137,12 @@ export function Filters({
                 );
               })}
             </div>
+            {/* Gradient — normal flex child, overlaps chips via -ml-10 */}
+            <div className="flex-shrink-0 self-stretch w-10 bg-gradient-to-r from-transparent to-white -ml-10 relative z-10 pointer-events-none" />
+            {/* Count */}
+            <span className="flex-shrink-0 relative z-10 text-xs text-gray-400 whitespace-nowrap pl-1 pr-3 bg-white">
+              {filteredCount.toLocaleString('pl-PL')} {pluralMiejsc(filteredCount)}
+            </span>
           </div>
           {/* Filter icon — active (dark fill) */}
           <button
@@ -373,8 +383,8 @@ export function Filters({
 
   return (
     <>
-      {/* Mobile top bar — absolute over map, hidden on desktop and in list view */}
-      {activeView === 'map' && mobileTopBar}
+      {/* Mobile top bar — absolute overlay, always visible on mobile */}
+      {mobileTopBar}
 
       {/* Desktop sidebar */}
       {!isMobile && (

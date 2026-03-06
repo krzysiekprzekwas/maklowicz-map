@@ -98,29 +98,14 @@ export default function Home() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [router.isReady, router.query.placeId, allLocations]);
 
-  const hasActiveFilters =
-    !!selectedCountry ||
-    selectedLocationTypes.length > 0 ||
-    locationStatus === 'granted';
-
   const listProps = {
     locations: filteredLocations,
     onLocationSelect: handleLocationSelect,
-    selectedCountry,
-    selectedLocationTypes,
-    filteredCount: filteredLocations.length,
-    hasActiveFilters,
-    locationStatus,
-    nearbyRadius,
-    onToggleFilters: () => setIsFiltersOpen(true),
-    onRemoveCountry: () => setSelectedCountry(null),
-    onRemoveLocationType: toggleLocationType,
     onClearFilters: () => {
       setSelectedCountry(null);
       setSelectedLocationTypes([]);
       clearUserLocation();
     },
-    onClearNearby: clearUserLocation,
   };
 
   return (
@@ -133,7 +118,6 @@ export default function Home() {
       <div className="flex flex-1 relative overflow-hidden">
         <Filters
           isOpen={isFiltersOpen}
-          activeView={activeView}
           countries={countries}
           selectedCountry={selectedCountry}
           selectedLocationTypes={selectedLocationTypes}
@@ -177,17 +161,17 @@ export default function Home() {
             leftPanelWidth={isMobile ? 0 : 384}
           />
 
-          {/* Mobile list overlay — slides up from bottom */}
+          {/* Mobile list overlay — fades in over map */}
           {isMobile && (
             <AnimatePresence>
               {activeView === 'list' && (
                 <motion.div
                   key="list-mobile"
                   className="absolute inset-0 z-[9980] bg-white"
-                  initial={{ opacity: 0, y: '100%' }}
+                  initial={{ opacity: 0, y: 8 }}
                   animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: '100%' }}
-                  transition={{ type: 'spring', stiffness: 300, damping: 35 }}
+                  exit={{ opacity: 0, y: 8 }}
+                  transition={{ duration: 0.18, ease: 'easeOut' }}
                 >
                   <LocationList {...listProps} />
                 </motion.div>
