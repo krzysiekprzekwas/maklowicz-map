@@ -2485,7 +2485,7 @@
       "videoId": "4TQISlxeZDU",
       "videoUrl": "https://www.youtube.com/watch?v=4TQISlxeZDU",
       "title": "ROBERT MAKŁOWICZ MAURITIUS odc.166 „W skarbnicy wielu kultur\".",
-      "filterTitle": "skarbnicy wielu kultur. (odc. 166)",
+      "filterTitle": "W skarbnicy wielu kultur. (odc. 166)",
       "playlistId": "",
       "playlistTitle": "",
       "date": "2024-01-19T16:00:12Z",
@@ -2579,8 +2579,8 @@
           "country": "Mauritius",
           "type": "restaurant",
           "websiteUrl": "",
-          "image": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/FGLg9h1KKG8RQboC7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/FGLg9h1KKG8RQboC7",
+          "image": "/images/pure-veg-hare-rama.jpg"
         }
       ]
     },
@@ -10144,9 +10144,10 @@
           "longitude": 13.723561268422912,
           "address": "5220 Tolmin, Słowenia",
           "country": "Słowenia",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/TpjjdeFyUvzLHYoL8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/TpjjdeFyUvzLHYoL8",
+          "image": "/images/bunkier-slowenia.jpg"
         },
         {
           "id": "memorial-church-of-the-holy-spirit",
@@ -10951,9 +10952,10 @@
           "longitude": 12.743712483218786,
           "address": "Frazione Collerisana, 148, 06049 Spoleto PG, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/EVwdAx4iLR4u4YP6A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/EVwdAx4iLR4u4YP6A",
+          "image": "/images/ponte-delle-torri.jpg"
         },
         {
           "id": "fontana-del-mascherone",
@@ -11941,9 +11943,10 @@
           "longitude": 17.81505499665045,
           "address": "8RP8+W2G, Mostar 88000, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/yoBvQCDqZUmxSwwd6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/yoBvQCDqZUmxSwwd6",
+          "image": "/images/stary-most.jpg"
         },
         {
           "id": "karma",
@@ -11994,7 +11997,8 @@
           "country": "Bośnia i Hercegowina",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/c25eXX2F9hMMdUBm8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/c25eXX2F9hMMdUBm8",
+          "image": "/images/fajic.jpg"
         },
         {
           "id": "hutovo-blato",
@@ -12020,7 +12024,7 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/p7Y8Gd6xSWdwG4r48",
-          "image": ""
+          "image": "/images/neum-bosnia-i-hercegowina.jpg"
         }
       ]
     },
@@ -12187,7 +12191,7 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/3TEhC7MVN9Z5fTzN9",
-          "image": ""
+          "image": "/images/sebilj.jpg"
         },
         {
           "id": "cevabdzinica-zeljo",
@@ -12251,7 +12255,8 @@
           "country": "Bośnia i Hercegowina",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/AFRfDEzwNgYiPYja7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/AFRfDEzwNgYiPYja7",
+          "image": "/images/vidikovac-sarajevo.jpg"
         },
         {
           "id": "restoran-brajlovic",
@@ -12353,7 +12358,8 @@
           "country": "Bośnia i Hercegowina",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/H2eaiQFmxSssDgV3A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/H2eaiQFmxSssDgV3A",
+          "image": "/images/turkuaz.jpg"
         }
       ]
     },
@@ -12442,7 +12448,8 @@
           "country": "Bośnia i Hercegowina",
           "type": "shopping",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/FeAqNN267mvZbpJD7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/FeAqNN267mvZbpJD7",
+          "image": "/images/pijaca.jpg"
         },
         {
           "id": "city-market-trebinje",
@@ -12497,7 +12504,7 @@
       "locations": [
         {
           "id": "vidikovac",
-          "name": "Vidikovac",
+          "name": "Punkt widokowy Półwyspu Peljesac",
           "description": "W niewielkiej miejscowości Kuna Pelješka, Vidikovac, wierza widokowa gdzie można zapomnieć o codziennych troskach i delektować się słonecznym lenistwem z widokiem na Male More.",
           "latitude": 42.971753598205396,
           "longitude": 17.34734877276661,
@@ -12506,7 +12513,7 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/RKtWg82KHgqZhBKZ9",
-          "image": ""
+          "image": "/images/vidikovac.jpg"
         },
         {
           "id": "wine-spaleta",
@@ -12583,7 +12590,8 @@
           "country": "Chorwacja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/4eFzwDww4SNfCbYK6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/4eFzwDww4SNfCbYK6",
+          "image": "/images/peninsula-d-o-o.jpg"
         }
       ]
     },
@@ -12599,7 +12607,7 @@
       "locations": [
         {
           "id": "zielony-targ-rynek-produktow-ekologicznych",
-          "name": "Zielony Targ. Rynek produktów ekologicznych.",
+          "name": "Zielony Targ. Rynek produktów ekologicznych",
           "description": "W sercu Poznania, tam gdzie tradycja spotyka się z nowoczesnością, znajduje się Zielony Targ - rynek produktów ekologicznych, gdzie można znaleźć wszystko, co najlepsze dla zdrowia i planety. Od 2007 roku, kiedy to miejsce powstało, stało się ulubionym miejscem mieszkańców i turystów, szukających świeżych, lokalnych produktów, które nie tylko smakują, ale i robią dobro dla środowiska.",
           "latitude": 52.426358969830325,
           "longitude": 16.943660058874617,
@@ -12607,7 +12615,8 @@
           "country": "Polska",
           "type": "shopping",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/DkJeLKGKVC52D2Vi6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/DkJeLKGKVC52D2Vi6",
+          "image": "/images/zielony-targ-rynek-produktow-ekologicznych.jpg"
         },
         {
           "id": "cudo",
@@ -12658,7 +12667,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/cwBoT5mBGnTcUBSF6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/cwBoT5mBGnTcUBSF6",
+          "image": "/images/nurt.jpg"
         }
       ]
     },
@@ -12761,7 +12771,7 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/gYQRPEHKhRGWQpHk9",
-          "image": ""
+          "image": "/images/sredzka-kolej-powiatowa-waskotorowa-stacja-zaniemysl.jpg"
         }
       ]
     },
@@ -13034,8 +13044,8 @@
           "image": "/images/madwiny-ruchome-wydmy.jpg"
         },
         {
-          "id": "meduza-wedzarnia-ryb-przysiecki-z",
-          "name": "Meduza. Wędzarnia ryb. Przysiecki Z.",
+          "id": "meduza-wedzarnia-ryb",
+          "name": "Wędzarnia ryb Meduza",
           "description": "Rodzinna przetwórnia, a wręcz manufaktura wyrobów rybnych.",
           "latitude": 54.639555774048674,
           "longitude": 17.174401104061165,
@@ -13043,7 +13053,8 @@
           "country": "Polska",
           "type": "shopping",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/6KHLEPwYjXef21DT9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/6KHLEPwYjXef21DT9",
+          "image": "/images/meduza-wedzarnia-ryb.jpg"
         },
         {
           "id": "plaza-w-rowach",
@@ -13312,7 +13323,8 @@
           "country": "Chorwacja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/aoGR4Hc1sFoUAvyd8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/aoGR4Hc1sFoUAvyd8",
+          "image": "/images/konoba-galija.jpg"
         }
       ]
     },
@@ -13362,7 +13374,8 @@
           "country": "Chorwacja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/RRU6pc1gvn2HbYg66"
+          "GoogleMapsLink": "https://maps.app.goo.gl/RRU6pc1gvn2HbYg66",
+          "image": "/images/konoba-smokvica.jpg"
         },
         {
           "id": "marina-hramina",
@@ -13387,7 +13400,8 @@
           "country": "Chorwacja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/es4n9c3ypPJvjvCx5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/es4n9c3ypPJvjvCx5",
+          "image": "/images/restoran-mate.jpg"
         }
       ]
     },
@@ -13444,13 +13458,14 @@
           "id": "mate-vino",
           "name": "Mate Vino",
           "description": "Wyborna konoba tuż przy marinie w miejscowości Skradin.",
-          "latitude": 43.8170394,
-          "longitude": 15.9197737,
+          "latitude": 43.81742076361095,
+          "longitude": 15.921528339385988,
           "address": "Obala Bana Pavla Subica 20, 22222, Skradin, Croatia",
           "country": "Chorwacja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/LksjvkYnArC8pyVs8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/LksjvkYnArC8pyVs8",
+          "image": "/images/mate-vino.jpg"
         }
       ]
     },
@@ -13603,7 +13618,8 @@
           "country": "Chorwacja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/7ctrQNwTww3bCF6NA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/7ctrQNwTww3bCF6NA",
+          "image": "/images/konoba-bajso.jpg"
         },
         {
           "id": "toto-s",
@@ -13692,7 +13708,8 @@
           "country": "Chorwacja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ydTczdMEi9oV65PeA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ydTczdMEi9oV65PeA",
+          "image": "/images/konoba-masklin.jpg"
         },
         {
           "id": "restaurant-lavanda",
@@ -13797,16 +13814,17 @@
           "image": "/images/16-120-ciumicze.jpg"
         },
         {
-          "id": "kundzicz-jolanta",
-          "name": "Kundzicz Jolanta.",
+          "id": "agroturystyka-kundzicz-jolanta",
+          "name": "Agroturystyka Kundzicz Jolanta",
           "description": "Agroturystyka z restauracją o wdzięcznej nazwie \"W chlewie\".",
           "latitude": 53.21076617966958,
           "longitude": 23.774497788193216,
           "address": "6Q65+9P Ciumicze, Poland",
           "country": "Polska",
-          "type": "restaurant",
+          "type": "hotel",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/oDDX3gCNJJqPXnJ66"
+          "GoogleMapsLink": "https://maps.app.goo.gl/oDDX3gCNJJqPXnJ66",
+          "image": "/images/agroturystyka-kundzicz-jolanta.jpg"
         },
         {
           "id": "stara-grusza-w-osadzie-wierszalin",
@@ -13895,7 +13913,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/XYXoU4Zd3UMuarCt9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/XYXoU4Zd3UMuarCt9",
+          "image": "/images/tatarska-jurta.jpg"
         }
       ]
     },
@@ -14302,7 +14321,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/YA7WRAc4C4ReVFaSA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/YA7WRAc4C4ReVFaSA",
+          "image": "/images/restobar-ogien.jpg"
         }
       ]
     },
@@ -14391,7 +14411,7 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/uHCTkqE4J8nbaoce6",
-          "image": ""
+          "image": "/images/koscio-sw-franciszka-z-asyzu-w-myslenicach.jpg"
         },
         {
           "id": "siedem-smakow",
@@ -14403,7 +14423,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/q4FstqwnyFQBrEh9A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/q4FstqwnyFQBrEh9A",
+          "image": "/images/siedem-smakow.jpg"
         },
         {
           "id": "stacja-narciarska-che-m-sport-arena-myslenice",
@@ -14445,7 +14466,7 @@
       "locations": [
         {
           "id": "wieza-widokowa-che-m-sport-arena-myslenice",
-          "name": "Wieża widokowa CHEŁM",
+          "name": "Wieża widokowa na górze Chełm",
           "description": "Wieża widokowa na górze Chełm w Beskidzie Wyspowym.",
           "latitude": 49.79876584886046,
           "longitude": 19.95255376215688,
@@ -14453,7 +14474,8 @@
           "country": "Polska",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/wETywJqsLLfM3RiXA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/wETywJqsLLfM3RiXA",
+          "image": "/images/wieza-widokowa-che-m-sport-arena-myslenice.jpg"
         },
         {
           "id": "jezioro-dobczyckie",
@@ -14492,7 +14514,7 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/5AxunZjYpajt4n4d9",
-          "image": ""
+          "image": "/images/opactwo-ojcow-cystersow-w-szczyrzycu.jpg"
         }
       ]
     },
@@ -14556,7 +14578,7 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/itH2Smh76AbkTdEo9",
-          "image": ""
+          "image": "/images/mozaika-artystyczna-na-schodach.jpg"
         },
         {
           "id": "wiatrak-holender-pyzdry",
@@ -14645,7 +14667,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/3azgn8kh69fAF1m79"
+          "GoogleMapsLink": "https://maps.app.goo.gl/3azgn8kh69fAF1m79",
+          "image": "/images/chmeli-suneli-restauracja-gruzinska-masztalarska-8.jpg"
         },
         {
           "id": "tonir",
@@ -14657,7 +14680,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/1qA1YwhoFwpbEbFW8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/1qA1YwhoFwpbEbFW8",
+          "image": "/images/tonir.jpg"
         },
         {
           "id": "happa-to-mame",
@@ -14682,7 +14706,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/3cpKU52jRGyRjQkY9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/3cpKU52jRGyRjQkY9",
+          "image": "/images/u-aipo-restauracja-z-kuchnia-kirgistanu.jpg"
         }
       ]
     },
@@ -14732,7 +14757,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/URWmA9HAYbjerLPN8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/URWmA9HAYbjerLPN8",
+          "image": "/images/esplanada.jpg"
         },
         {
           "id": "poznanska-farma-miejska",
@@ -14744,7 +14770,8 @@
           "country": "Polska",
           "type": "shopping",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/sdfHshWL3uxTsW3x8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/sdfHshWL3uxTsW3x8",
+          "image": "/images/poznanska-farma-miejska.jpg"
         },
         {
           "id": "bo",
@@ -14756,7 +14783,8 @@
           "country": "Polska",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/8zjHFhbVryDnwG3Z9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/8zjHFhbVryDnwG3Z9",
+          "image": "/images/bo.jpg"
         },
         {
           "id": "ministerstwo-browaru",
@@ -14909,7 +14937,7 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/7eRNYNaSLfQXiRN78",
-          "image": ""
+          "image": "/images/kiekrz-poznan.jpg"
         },
         {
           "id": "przeciwatomowy-schron-dla-w-adz-miasta-poznania",
@@ -15230,7 +15258,7 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/jwCUNTrvfLRx5rkx9",
-          "image": ""
+          "image": "/images/trogir-chorwacja.jpg"
         },
         {
           "id": "nikola-tesla-memorial-centre",
@@ -15256,7 +15284,7 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/tUkNCtjw5mZNiFex7",
-          "image": ""
+          "image": "/images/karanac-chorwacja.jpg"
         },
         {
           "id": "svijetli-dvori",
@@ -15268,7 +15296,8 @@
           "country": "Chorwacja",
           "type": "shopping",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/D4XfzXTVn9gpoPj26"
+          "GoogleMapsLink": "https://maps.app.goo.gl/D4XfzXTVn9gpoPj26",
+          "image": "/images/svijetli-dvori.jpg"
         },
         {
           "id": "podrum-szabo-pinceszet",
@@ -15293,7 +15322,8 @@
           "country": "Chorwacja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ZqTJWeDgS2rxUeV59"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZqTJWeDgS2rxUeV59",
+          "image": "/images/baranjska-kuca.jpg"
         }
       ]
     },
@@ -15343,7 +15373,8 @@
           "country": "Chorwacja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/y95pAQcC5PncCiHo6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/y95pAQcC5PncCiHo6",
+          "image": "/images/kavana-riva.jpg"
         },
         {
           "id": "stiniva",
@@ -15360,7 +15391,7 @@
         },
         {
           "id": "green-cave",
-          "name": "Green Cave",
+          "name": "Zielona Grota",
           "description": "Zielona grota na małej wyspie Ravnik, dostępna dla łodzi motorowodnych.",
           "latitude": 43.0153607443064,
           "longitude": 16.224409399285804,
@@ -15369,7 +15400,7 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/G7Q6acn3gm1ptHBz6",
-          "image": ""
+          "image": "/images/green-cave.jpg"
         },
         {
           "id": "villa-rustica-vis",
@@ -15458,7 +15489,7 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/ye6KzhnAYCBiK8Na6",
-          "image": ""
+          "image": "/images/boj-pod-visom-fortica-king-george-iii-central-dalmatia-croatia-theme-trails.jpg"
         },
         {
           "id": "nautica-vis-diving-center",
@@ -15497,7 +15528,7 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/avp2bHvs5EX8S5QC9",
-          "image": ""
+          "image": "/images/jna-cannon-bunker.jpg"
         },
         {
           "id": "restaurant-vatrica",
@@ -16009,7 +16040,8 @@
           "country": "Chorwacja",
           "type": "restaurant",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Anh5r9bkSPZQcf2F8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Anh5r9bkSPZQcf2F8",
+          "image": "/images/restauracja-braenovic.jpg"
         }
       ]
     },
@@ -16043,7 +16075,8 @@
           "country": "Chorwacja",
           "type": "nature",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/CWWoq4VT9v1ejUMNA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/CWWoq4VT9v1ejUMNA",
+          "image": "/images/sveti-ilija.jpg"
         },
         {
           "id": "monastery-and-church-of-our-lady-of-the-angels",
