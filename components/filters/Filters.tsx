@@ -404,20 +404,6 @@ export function Filters({
           <Sheet.Backdrop onTap={onToggleFilters} />
         </Sheet>
       )}
-
-      {/* FAB — desktop only */}
-      {!isMobile && (
-        <button
-          onClick={onToggleFilters}
-          className="fixed bottom-4 left-4 w-12 h-12 bg-primary text-secondary rounded-full shadow-lg flex items-center justify-center z-[9999] hover:bg-primary-darker transition-colors"
-          aria-label={isOpen ? 'Ukryj filtry' : 'Pokaż filtry'}
-        >
-          <SlidersHorizontal className="h-5 w-5" />
-          {hasActiveFilters && (
-            <span className="absolute top-1 right-1 w-3 h-3 bg-red-500 rounded-full" />
-          )}
-        </button>
-      )}
     </>
   );
 }

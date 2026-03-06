@@ -107,7 +107,7 @@ export function LocationList({
       </div>
 
       {/* Scrollable list */}
-      <div className="flex-1 min-h-0 overflow-y-auto pb-20">
+      <div className="flex-1 min-h-0 overflow-y-auto pt-1 pb-20">
         {locations.length === 0 ? (
           <div className="flex flex-col items-center justify-center h-64 text-gray-400 gap-3">
             <p className="text-sm">Brak miejsc spełniających kryteria</p>

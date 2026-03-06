@@ -1,4 +1,3 @@
-import React from 'react';
 import { LocationType } from '../../types/Location';
 import { MapPin, Utensils, Landmark } from 'lucide-react';
 

@@ -1,5 +1,5 @@
 import { ComponentType } from 'react';
-import { LucideProps, Utensils, Coffee, TreePine, Palette, Landmark, ShoppingBag, Hotel, Compass, Tag } from 'lucide-react';
+import { LucideProps, Utensils, Coffee, TreePine, Palette, Landmark, ShoppingBag, Hotel, Compass } from 'lucide-react';
 
 export const TYPE_META: Record<string, { label: string; icon: ComponentType<LucideProps> }> = {
   restaurant:         { label: 'Restauracja',          icon: Utensils       },
