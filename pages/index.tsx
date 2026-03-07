@@ -98,6 +98,11 @@ export default function Home() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [router.isReady, router.query.placeId, allLocations]);
 
+  const hasActiveFilters =
+    selectedCountry !== null ||
+    selectedLocationTypes.length > 0 ||
+    locationStatus === 'granted';
+
   const listProps = {
     locations: filteredLocations,
     onLocationSelect: handleLocationSelect,
@@ -144,7 +149,22 @@ export default function Home() {
         {/* Desktop list panel — permanent, always visible */}
         {!isMobile && (
           <div className="w-96 flex-shrink-0 h-full overflow-hidden bg-white border-r border-secondary-border shadow-xl">
-            <LocationList {...listProps} />
+            <LocationList
+              {...listProps}
+              onToggleFilters={() => setIsFiltersOpen(!isFiltersOpen)}
+              hasActiveFilters={hasActiveFilters}
+              filteredCount={filteredLocations.length}
+              selectedCountry={selectedCountry}
+              selectedLocationTypes={selectedLocationTypes}
+              locationStatus={locationStatus}
+              nearbyRadius={nearbyRadius}
+              onCountrySelect={(country) => {
+                setSelectedCountry(country);
+                if (country) clearUserLocation();
+              }}
+              onToggleLocationType={toggleLocationType}
+              onClearNearby={clearUserLocation}
+            />
           </div>
         )}
 

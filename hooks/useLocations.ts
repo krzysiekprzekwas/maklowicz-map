@@ -1,6 +1,9 @@
 import { useMemo } from 'react';
 import locationData from '../data/locations.json';
 import { haversineDistance } from '../src/lib/distance';
+import type { Location, LocationData } from '../types/Location';
+
+const typedData = locationData as LocationData;
 
 export function useLocations(
   selectedCountry: string | null,
@@ -11,7 +14,7 @@ export function useLocations(
 ) {
   const countries = useMemo(() => {
     const countryMap: Record<string, number> = {};
-    locationData.videos.forEach(video =>
+    typedData.videos.forEach(video =>
       video.locations.forEach(loc => {
         countryMap[loc.country] = (countryMap[loc.country] || 0) + 1;
       })
@@ -22,7 +25,7 @@ export function useLocations(
   }, []);
 
   const filteredLocations = useMemo(() => {
-    let locs = locationData.videos.flatMap(v => v.locations);
+    let locs = typedData.videos.flatMap(v => v.locations);
     if (selectedCountry)
       locs = locs.filter(l => l.country === selectedCountry);
     if (userLat != null && userLng != null && nearbyRadius != null) {
@@ -37,8 +40,8 @@ export function useLocations(
 
   const locationTypeCounts = useMemo(() => {
     const base = selectedCountry
-      ? locationData.videos.flatMap(v => v.locations).filter(l => l.country === selectedCountry)
-      : locationData.videos.flatMap(v => v.locations);
+      ? typedData.videos.flatMap(v => v.locations).filter(l => l.country === selectedCountry)
+      : typedData.videos.flatMap(v => v.locations);
     return base.reduce<Record<string, number>>((acc, l) => {
       acc[l.type] = (acc[l.type] || 0) + 1;
       return acc;
@@ -46,7 +49,7 @@ export function useLocations(
   }, [selectedCountry]);
 
   const allLocations = useMemo(
-    () => locationData.videos.flatMap(v => v.locations),
+    () => typedData.videos.flatMap(v => v.locations),
     []
   );
 
