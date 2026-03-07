@@ -5207,7 +5207,7 @@
         },
         {
           "id": "zaton-chorwacja",
-          "name": "Zaton, Chorwacja",
+          "name": "Zaton",
           "description": "Zaton, ta urokliwa chorwacka zatoka, to miejsce, gdzie czas zdaje się zwalniać, a słońce opowiada historie. Nieopodal, w starożytnym Ninie, od IX wieku p.n.e. rodziły się podwaliny chorwackiej państwowości, a dziś w Zatonie można delektować się świeżymi owocami morza i winem, którego smak zdaje się nieść echa dawnych wieków.",
           "latitude": 43.7926271,
           "longitude": 15.7802403,
@@ -8037,8 +8037,8 @@
           "country": "Austria",
           "type": "restaurant",
           "websiteUrl": "http://www.ottoburg.at/",
-          "image": "https://www.histouring.com/data/cch/addon_gallery/15971280x1024xy/2019.10.24-16.55.20_1.png",
-          "GoogleMapsLink": "https://maps.app.goo.gl/3k33t55fXRyBU25Y9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/3k33t55fXRyBU25Y9",
+          "image": "/images/ottoburg.jpg"
         },
         {
           "id": "obstbau-und-edelbrande-draxl",
@@ -8867,10 +8867,10 @@
           "longitude": 11.121511921412027,
           "address": "Piazza del Duomo, 30, 38122 Trento TN, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Trento-Piazza_del_Duomo.jpg/1024px-Trento-Piazza_del_Duomo.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/sR9DX7xvp2qcv87s9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/sR9DX7xvp2qcv87s9",
+          "image": "/images/piazza-del-duomo-di-trento.jpg"
         },
         {
           "id": "museo-castello-del-buonconsiglio",
@@ -8972,8 +8972,8 @@
           "country": "Włochy",
           "type": "shopping",
           "websiteUrl": "http://store.agririva.it/",
-          "image": "https://store.agririva.it/wp-content/uploads/2020/09/0118-Agririva-esterni-┬®-2020-Fabio-Staropoli-fotofiore.com_-scaled-optimized.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/cxsH6DnGPuG2tu7r5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/cxsH6DnGPuG2tu7r5",
+          "image": "/images/agraria-riva-del-garda.jpg"
         },
         {
           "id": "vittoriale-degli-italiani",
@@ -9021,10 +9021,10 @@
           "longitude": 9.08293832441871,
           "address": "Piazza del Duomo, 12, 22100 Como CO, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Como_Piazza_del_Duomo_2.jpg/2560px-Como_Piazza_del_Duomo_2.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/c5bn3rC9yo1CaB4u5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/c5bn3rC9yo1CaB4u5",
+          "image": "/images/piazza-del-duomo.jpg"
         },
         {
           "id": "la-bottega-del-tartufo-como",
@@ -12068,7 +12068,7 @@
           "longitude": 16.369476656527972,
           "address": "Goethegasse 1, 1010 Wien, Austria",
           "country": "Austria",
-          "type": "restaurant",
+          "type": "cafe",
           "websiteUrl": "https://www.cafe-mozart.at",
           "image": "https://www.cafe-mozart.at/xstorage/3/_cache/Mozart_sacher_dunkel_9189_1_c016ee6ddd14ea6d8abcd7ea622c3d90.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/KkghPPTfQW622HLZ9"
@@ -13847,7 +13847,7 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/VJy7PyGJ1GZoCADx8",
-          "image": "https://aci-marinas.com/wp-content/uploads/2019/11/Dron_Skradin_149.jpg"
+          "image": "/images/aci-marina-skradin.jpg"
         },
         {
           "id": "mate-vino",
