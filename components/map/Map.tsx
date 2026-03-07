@@ -170,6 +170,7 @@ const Map: React.FC<MapProps> = React.memo(({
                 attributionControl={true}
                 minZoom={3}
                 maxZoom={maxZoomValue}
+                worldCopyJump={true}
                 preferCanvas={isMobile}
                 renderer={canvasRenderer}
             >
