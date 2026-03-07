@@ -4009,8 +4009,8 @@
           "GoogleMapsLink": "https://maps.app.goo.gl/Hy2g15hkLEfhGGAg9"
         },
         {
-          "id": "european-parliament",
-          "name": "European Parliament",
+          "id": "european-parliament-belgium",
+          "name": "Centrum Operacyjne Parlamentu Europejskiego",
           "description": "W brukselskim sercu Belgii, Makłowicz z pewnością zamyśliłby się przed okazałym gmachem Parlamentu Europejskiego, którego główna część powstała w 1993 roku. To tu, w tyglu różnorodności, niczym w dobrze przyprawionym gulaszu, ścierają się wizje przyszłości kontynentu. Po tak intensywnych debatach człowiek z pewnością nabiera ochoty na solidny, lokalny przysmak.",
           "latitude": 50.83883844594063,
           "longitude": 4.374334453389182,
@@ -4018,8 +4018,8 @@
           "country": "Belgia",
           "type": "tourist_attraction",
           "websiteUrl": "https://www.europarl.europa.eu/portal/en",
-          "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fbeneluks.pl%2Fgdzie-dobrze-zjesc-blisko-parlamentu-europejskiego-w-brukseli%2F&psig=AOvVaw14sROeHp5v3H5X7_cjAulP&ust=1764080181258000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCIC02fj8ipEDFQAAAAAdAAAAABAL",
-          "GoogleMapsLink": "https://maps.app.goo.gl/DE8zph85L7wTuGwA8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/DE8zph85L7wTuGwA8",
+          "image": "/images/european-parliament-belgium.jpg"
         },
         {
           "id": "dom-historii-europejskiej",
@@ -4519,10 +4519,10 @@
           "longitude": 7.605645927013674,
           "address": "Schartwiesenweg 4, 56070 Koblenz, Germany",
           "country": "Niemcy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://www.kuladig.de/Objektansicht/O-95475-20140627-4",
-          "image": "https://www.romantischer-rhein.de/images/8si1dmhh18o-/deutsches-eck-im-sonnenuntergang.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/UHiHuVVet3tmws4U7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/UHiHuVVet3tmws4U7",
+          "image": "/images/kaiser-wilhelm-monument.jpg"
         },
         {
           "id": "jesuitenplatz",
@@ -4560,8 +4560,8 @@
           "country": "Niemcy",
           "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Burg_Grenzau.jpg/1024px-Burg_Grenzau.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/3hEGTQ7x86B9vHt99"
+          "GoogleMapsLink": "https://maps.app.goo.gl/3hEGTQ7x86B9vHt99",
+          "image": "/images/grenzau-castle.jpg"
         }
       ]
     },
@@ -4737,10 +4737,10 @@
           "longitude": 10.73104407812785,
           "address": "Lazise, 37017 Lazise VR, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://jeziorogarda.pl/wp-content/uploads/2023/12/Lazise.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/A4FcrsRav4JQ5HW9A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/A4FcrsRav4JQ5HW9A",
+          "image": "/images/molo-lazise.jpg"
         },
         {
           "id": "gio-max-s-n-c-di-paldino-g-e-c",
@@ -5207,7 +5207,7 @@
         },
         {
           "id": "zaton-chorwacja",
-          "name": "Zaton, Chorwacja",
+          "name": "Zaton",
           "description": "Zaton, ta urokliwa chorwacka zatoka, to miejsce, gdzie czas zdaje się zwalniać, a słońce opowiada historie. Nieopodal, w starożytnym Ninie, od IX wieku p.n.e. rodziły się podwaliny chorwackiej państwowości, a dziś w Zatonie można delektować się świeżymi owocami morza i winem, którego smak zdaje się nieść echa dawnych wieków.",
           "latitude": 43.7926271,
           "longitude": 15.7802403,
@@ -6534,8 +6534,8 @@
           "country": "Jordania",
           "type": "restaurant",
           "websiteUrl": "https://www.instagram.com/beit_aziz/",
-          "image": "https://www.visitas-salt.com/uploads/photo/3520839a-1462-406e-a263-4e3487b1ab79.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/KU5kVRvx2xoo9qbEA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/KU5kVRvx2xoo9qbEA",
+          "image": "/images/beit-aziz.jpg"
         },
         {
           "id": "dead-sea-marriott-resort-spa",
@@ -6598,8 +6598,8 @@
           "country": "Jordania",
           "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://www.worldhistory.org/uploads/images/3542.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/6p59UWjZTqDQ8Vgu5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/6p59UWjZTqDQ8Vgu5",
+          "image": "/images/roman-temple-of-hercules.jpg"
         },
         {
           "id": "early-bronze-age-cave",
@@ -8037,8 +8037,8 @@
           "country": "Austria",
           "type": "restaurant",
           "websiteUrl": "http://www.ottoburg.at/",
-          "image": "https://www.histouring.com/data/cch/addon_gallery/15971280x1024xy/2019.10.24-16.55.20_1.png",
-          "GoogleMapsLink": "https://maps.app.goo.gl/3k33t55fXRyBU25Y9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/3k33t55fXRyBU25Y9",
+          "image": "/images/ottoburg.jpg"
         },
         {
           "id": "obstbau-und-edelbrande-draxl",
@@ -8867,10 +8867,10 @@
           "longitude": 11.121511921412027,
           "address": "Piazza del Duomo, 30, 38122 Trento TN, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Trento-Piazza_del_Duomo.jpg/1024px-Trento-Piazza_del_Duomo.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/sR9DX7xvp2qcv87s9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/sR9DX7xvp2qcv87s9",
+          "image": "/images/piazza-del-duomo-di-trento.jpg"
         },
         {
           "id": "museo-castello-del-buonconsiglio",
@@ -8972,8 +8972,8 @@
           "country": "Włochy",
           "type": "shopping",
           "websiteUrl": "http://store.agririva.it/",
-          "image": "https://store.agririva.it/wp-content/uploads/2020/09/0118-Agririva-esterni-┬®-2020-Fabio-Staropoli-fotofiore.com_-scaled-optimized.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/cxsH6DnGPuG2tu7r5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/cxsH6DnGPuG2tu7r5",
+          "image": "/images/agraria-riva-del-garda.jpg"
         },
         {
           "id": "vittoriale-degli-italiani",
@@ -9021,10 +9021,10 @@
           "longitude": 9.08293832441871,
           "address": "Piazza del Duomo, 12, 22100 Como CO, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Como_Piazza_del_Duomo_2.jpg/2560px-Como_Piazza_del_Duomo_2.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/c5bn3rC9yo1CaB4u5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/c5bn3rC9yo1CaB4u5",
+          "image": "/images/piazza-del-duomo.jpg"
         },
         {
           "id": "la-bottega-del-tartufo-como",
@@ -9216,8 +9216,8 @@
           "country": "Niemcy",
           "type": "tourist_attraction",
           "websiteUrl": "http://www.seenschifffahrt.de/koenigssee/fahrplan/fahrplan-und-fahrbetrieb/",
-          "image": "https://www.seenschifffahrt.de/fileadmin/_processed_/f/0/csm_K_Seegasse_mit_SB_2005_sie_9ce7303563.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/UqwMKYi3nKJTrteA7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/UqwMKYi3nKJTrteA7",
+          "image": "/images/schifffahrt-konigssee-ticket-kasse-bayerische-seenschifffahrt.jpg"
         },
         {
           "id": "pilgrimage-church-of-st-bartholomew",
@@ -9255,8 +9255,8 @@
           "country": "Niemcy",
           "type": "restaurant",
           "websiteUrl": "http://www.schloss-berchtesgaden.de/de/",
-          "image": "https://www.berchtesgaden.de/cdn/uploads/koenigliches-schloss-berchtesgaden.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/d6hMgS4aQidLuhtm7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/d6hMgS4aQidLuhtm7",
+          "image": "/images/schloss-berchtesgaden.jpg"
         },
         {
           "id": "hofbrauhaus-berchtesgaden-gmbh",
@@ -9268,8 +9268,8 @@
           "country": "Niemcy",
           "type": "restaurant",
           "websiteUrl": "https://www.hofbrauhaus-berchtesgaden.de/",
-          "image": "https://www.berchtesgaden.de/cdn/uploads/hofbrauhaus-berchtesgaden-4.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/i3YgH7vonsgsqQTe8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/i3YgH7vonsgsqQTe8",
+          "image": "/images/hofbrauhaus-berchtesgaden-gmbh.jpg"
         }
       ]
     },
@@ -9435,8 +9435,8 @@
           "country": "Tunezja",
           "type": "shopping",
           "websiteUrl": "",
-          "image": "https://lh3.googleusercontent.com/proxy/U7rkeSqmvlYOnUVCzfQ5F5KOaZgqLx0Vq2EOGwYtKt_gnlCN22R-aC16t1jsG2m6MwqvvmnLnIcYvzPRhnaHzkCXVVXmyNIRC5s3QvoSkw",
-          "GoogleMapsLink": "https://maps.app.goo.gl/tjyb9q1LFbaVvczXA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/tjyb9q1LFbaVvczXA",
+          "image": "/images/central-market-of-tozeur.jpg"
         },
         {
           "id": "eden-palm",
@@ -9530,7 +9530,7 @@
         },
         {
           "id": "troglodyte-house",
-          "name": "Troglodyte House - ⵜⴰⴷⴷⴰⵔⵜ ⵏ ⵢⵉⴼⵔⵉ",
+          "name": "Troglodyte House",
           "description": "W Tunezji, gdzie słońce potrafi prażyć niemiłosiernie, odkryto niezwykłe domy troglodytów, jak ten zwany Taddart n Yifri. To świadectwo prastarej pomysłowości Berberów, którzy drążyli swoje siedziby w ziemi, by uciec przed upałem i stworzyć schronienie, gdzie życie toczyło się w cieniu, a pewnie i posiłki smakowały inaczej.",
           "latitude": 33.549809496073344,
           "longitude": 9.94272720025166,
@@ -9538,8 +9538,8 @@
           "country": "Tunezja",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "image": "https://tunisia-travel-guide.com/wp-content/uploads/2025/03/matmata-1.webp",
-          "GoogleMapsLink": "https://maps.app.goo.gl/jBu1E59ukEfKdVkp7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/jBu1E59ukEfKdVkp7",
+          "image": "/images/troglodyte-house.jpg"
         },
         {
           "id": "star-wars-mos-espa",
@@ -9795,8 +9795,8 @@
           "country": "Polska",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "image": "https://napoludnie.pl/wp-content/uploads/2023/01/Galeria-Panorama-1024x576.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/HUKfs4rbJ1DwjGSF9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/HUKfs4rbJ1DwjGSF9",
+          "image": "/images/galeria-panorama.jpg"
         },
         {
           "id": "gemini-park-tarnow",
@@ -12068,7 +12068,7 @@
           "longitude": 16.369476656527972,
           "address": "Goethegasse 1, 1010 Wien, Austria",
           "country": "Austria",
-          "type": "restaurant",
+          "type": "cafe",
           "websiteUrl": "https://www.cafe-mozart.at",
           "image": "https://www.cafe-mozart.at/xstorage/3/_cache/Mozart_sacher_dunkel_9189_1_c016ee6ddd14ea6d8abcd7ea622c3d90.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/KkghPPTfQW622HLZ9"
@@ -13847,7 +13847,7 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/VJy7PyGJ1GZoCADx8",
-          "image": "https://aci-marinas.com/wp-content/uploads/2019/11/Dron_Skradin_149.jpg"
+          "image": "/images/aci-marina-skradin.jpg"
         },
         {
           "id": "mate-vino",
