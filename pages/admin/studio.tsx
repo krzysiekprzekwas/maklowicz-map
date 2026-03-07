@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import dynamic from 'next/dynamic';
 import type { Location, LocationType, Video } from '../../types/Location';
+import { NEWEST_EPISODE } from '../../src/lib/adminConfig';
 
 const LocationPinMap = dynamic(() => import('../../components/admin/LocationPinMap'), {
   ssr: false,
@@ -105,6 +106,19 @@ export default function AdminStudioPage() {
     () => locations.find((location) => toLocationKey(location) === selectedLocationKey) || null,
     [locations, selectedLocationKey, toLocationKey]
   );
+
+  const missingEpisodes = React.useMemo(() => {
+    const present = new Set<number>();
+    for (const video of videos) {
+      const match = video.filterTitle?.match(/\(odc\. (\d+)\)/);
+      if (match) present.add(parseInt(match[1], 10));
+    }
+    const missing: number[] = [];
+    for (let i = 1; i <= NEWEST_EPISODE; i++) {
+      if (!present.has(i)) missing.push(i);
+    }
+    return missing;
+  }, [videos]);
 
   const loadVideos = React.useCallback(async () => {
     const res = await fetch('/api/admin/videos');
@@ -617,7 +631,7 @@ export default function AdminStudioPage() {
           One-by-one ingest + quick editor for all locations. Data is written directly to data/locations.json.
         </p>
 
-        <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-3">
+        <div className="mt-4 grid grid-cols-1 md:grid-cols-3 gap-3">
           <div className="rounded-lg border border-secondary-border bg-white p-4">
             <p className="text-xs uppercase text-gray-500">All locations</p>
             <p className="text-2xl font-bold text-primary">{stats.total}</p>
@@ -625,6 +639,13 @@ export default function AdminStudioPage() {
           <div className="rounded-lg border border-secondary-border bg-white p-4">
             <p className="text-xs uppercase text-gray-500">Missing image</p>
             <p className="text-2xl font-bold text-primary">{stats.missingImage}</p>
+          </div>
+          <div className="rounded-lg border border-secondary-border bg-white p-4">
+            <p className="text-xs uppercase text-gray-500">Missing episodes</p>
+            <p className="text-2xl font-bold text-primary">{missingEpisodes.length}</p>
+            {missingEpisodes[0] != null && (
+              <p className="text-xs text-gray-500 mt-1">Next: odc. {missingEpisodes[0]}</p>
+            )}
           </div>
         </div>
 
