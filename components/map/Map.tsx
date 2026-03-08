@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapContainer, TileLayer, Marker, useMap } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, useMap, useMapEvents } from 'react-leaflet';
 import MarkerClusterGroup from 'react-leaflet-cluster';
 import { LatLngBoundsExpression, LatLngExpression, DivIcon } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
@@ -55,6 +55,11 @@ const PositionTracker: React.FC<{
         return () => { map.off('move zoom moveend zoomend', update); };
     }, [location, map, onPositionUpdate]);
 
+    return null;
+};
+
+const MapClickCloser: React.FC<{ onClose: () => void }> = ({ onClose }) => {
+    useMapEvents({ click: onClose });
     return null;
 };
 
@@ -217,6 +222,7 @@ const Map: React.FC<MapProps> = React.memo(({
                     maxZoom={maxZoomValue}
                     maxNativeZoom={maxZoomValue}
                 />
+                <MapClickCloser onClose={onClosePreview} />
                 <PositionTracker
                     location={previewLocation}
                     onPositionUpdate={handlePositionUpdate}

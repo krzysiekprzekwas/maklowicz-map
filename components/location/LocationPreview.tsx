@@ -51,6 +51,15 @@ export function LocationPreview({
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
     >
+      {/* Close button — top-right corner */}
+      <button
+        onClick={e => { e.stopPropagation(); onClose(); }}
+        className="absolute top-2 right-2 w-7 h-7 flex items-center justify-center rounded-full bg-white/80 hover:bg-white transition-colors shadow-sm z-10"
+        aria-label="Zamknij"
+      >
+        <X className="h-4 w-4 text-gray-500" />
+      </button>
+
       {/* Image (only when present) */}
       {location.image && (
         <img
@@ -71,15 +80,8 @@ export function LocationPreview({
           <span className="font-bold text-primary text-sm leading-snug line-clamp-1 flex-1">
             {location.name}
           </span>
-          <button
-            onClick={e => { e.stopPropagation(); onClose(); }}
-            className="flex-shrink-0 w-6 h-6 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors ml-1"
-            aria-label="Zamknij"
-          >
-            <X className="h-3.5 w-3.5 text-gray-400" />
-          </button>
         </div>
-        <p className="text-xs text-gray-500 leading-relaxed line-clamp-2 mt-0.5 pr-7">
+        <p className="text-xs text-gray-500 leading-relaxed line-clamp-2 mt-0.5">
           {location.address}
         </p>
       </div>
