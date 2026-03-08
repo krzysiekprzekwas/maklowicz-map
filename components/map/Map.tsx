@@ -58,6 +58,43 @@ const PositionTracker: React.FC<{
     return null;
 };
 
+const PreviewPanner: React.FC<{ location: Location | null }> = ({ location }) => {
+    const map = useMap();
+
+    React.useEffect(() => {
+        if (!location) return;
+
+        const CARD_WIDTH = 260;
+        const CARD_HEIGHT = location.image ? 224 : 80;
+        const PADDING = 12;
+
+        const pt = map.latLngToContainerPoint([location.latitude, location.longitude]);
+
+        const cardTop    = pt.y - 8 - CARD_HEIGHT;
+        const cardBottom = pt.y - 8;
+        const cardLeft   = pt.x - CARD_WIDTH / 2;
+        const cardRight  = pt.x + CARD_WIDTH / 2;
+
+        const mapEl = map.getContainer();
+        const safeTop    = PADDING;
+        const safeBottom = mapEl.clientHeight - PADDING;
+        const safeLeft   = PADDING;
+        const safeRight  = mapEl.clientWidth  - PADDING;
+
+        let dx = 0, dy = 0;
+        if      (cardTop    < safeTop)    dy = cardTop    - safeTop;
+        else if (cardBottom > safeBottom) dy = cardBottom - safeBottom;
+        if      (cardLeft   < safeLeft)   dx = cardLeft   - safeLeft;
+        else if (cardRight  > safeRight)  dx = cardRight  - safeRight;
+
+        if (dx !== 0 || dy !== 0) {
+            map.panBy([dx, dy], { animate: true });
+        }
+    }, [location, map]);
+
+    return null;
+};
+
 const ChangeView: React.FC<{ locations: Location[]; leftPanelWidth?: number }> = React.memo(
     ({ locations, leftPanelWidth = 0 }) => {
         const map = useMap();
@@ -185,6 +222,7 @@ const Map: React.FC<MapProps> = React.memo(({
                     onPositionUpdate={handlePositionUpdate}
                 />
                 <ChangeView locations={visibleLocations} leftPanelWidth={leftPanelWidth} />
+                <PreviewPanner location={previewLocation} />
                 {userLat != null && userLng != null && (
                     <Marker
                         position={[userLat, userLng]}
