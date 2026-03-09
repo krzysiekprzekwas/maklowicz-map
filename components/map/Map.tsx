@@ -195,6 +195,21 @@ const Map: React.FC<MapProps> = React.memo(({
         [isMobile]
     );
 
+    // Zoom-dependent cluster radius: large at wide view, shrinks to near-zero at street level.
+    // leaflet.markercluster natively accepts (zoom: number) => number for maxClusterRadius.
+    const clusterRadius = React.useMemo(() => {
+        const m = isMobile ? 0.75 : 1.0;
+        return (zoom: number): number => {
+            if (zoom <= 5)  return Math.round(90 * m);
+            if (zoom <= 7)  return Math.round(70 * m);
+            if (zoom <= 9)  return Math.round(55 * m);
+            if (zoom <= 11) return Math.round(40 * m);
+            if (zoom <= 13) return Math.round(25 * m);
+            if (zoom <= 15) return Math.round(15 * m);
+            return Math.round(10 * m);
+        };
+    }, [isMobile]);
+
     const userLocationIcon = React.useMemo(() => L.divIcon({
         className: '',
         html: '<div style="width:14px;height:14px;border-radius:50%;background:#1a1a1a;border:2px solid white;box-shadow:0 2px 6px rgba(0,0,0,0.4)"></div>',
@@ -239,11 +254,11 @@ const Map: React.FC<MapProps> = React.memo(({
                 )}
                 <MarkerClusterGroup
                     iconCreateFunction={createClusterCustomIcon}
-                    maxClusterRadius={isMobile ? 60 : 80}
+                    // @ts-ignore — leaflet.markercluster accepts function form, but @types/leaflet types it as number
+                    maxClusterRadius={clusterRadius}
                     spiderfyOnMaxZoom={false}
                     showCoverageOnHover={false}
                     zoomToBoundsOnClick={true}
-                    disableClusteringAtZoom={8}
                     animate={!isMobile}
                     animateAddingMarkers={false}
                     removeOutsideVisibleBounds={true}
