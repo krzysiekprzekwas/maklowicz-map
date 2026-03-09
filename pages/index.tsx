@@ -151,19 +151,23 @@ export default function Home() {
           <div className="w-96 flex-shrink-0 h-full overflow-hidden bg-white border-r border-secondary-border shadow-xl">
             <LocationList
               {...listProps}
-              onToggleFilters={() => setIsFiltersOpen(!isFiltersOpen)}
-              hasActiveFilters={hasActiveFilters}
+              showInlineFilters
               filteredCount={filteredLocations.length}
               selectedCountry={selectedCountry}
               selectedLocationTypes={selectedLocationTypes}
               locationStatus={locationStatus}
               nearbyRadius={nearbyRadius}
+              locationTypeCounts={locationTypeCounts}
+              countries={countries}
               onCountrySelect={(country) => {
                 setSelectedCountry(country);
                 if (country) clearUserLocation();
               }}
               onToggleLocationType={toggleLocationType}
               onClearNearby={clearUserLocation}
+              onRequestLocation={requestUserLocation}
+              onSetNearbyRadius={setNearbyRadius}
+              onClearLocationTypes={() => setSelectedLocationTypes([])}
             />
           </div>
         )}

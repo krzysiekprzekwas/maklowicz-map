@@ -386,18 +386,6 @@ export function Filters({
       {/* Mobile top bar — absolute overlay, always visible on mobile */}
       {mobileTopBar}
 
-      {/* Desktop sidebar */}
-      {!isMobile && (
-        <aside
-          className={`fixed md:top-[116px] bottom-0 left-0 w-80 bg-white shadow-xl transform transition-transform duration-300 ease-in-out
-            h-[calc(100vh-116px)] max-h-screen
-            ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}
-          style={{ zIndex: 9999 }}
-        >
-          {filterContent}
-        </aside>
-      )}
-
       {/* Filter sheet — mobile only */}
       {isMobile && (
         <Sheet
