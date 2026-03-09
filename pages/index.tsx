@@ -98,11 +98,6 @@ export default function Home() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [router.isReady, router.query.placeId, allLocations]);
 
-  const hasActiveFilters =
-    selectedCountry !== null ||
-    selectedLocationTypes.length > 0 ||
-    locationStatus === 'granted';
-
   const listProps = {
     locations: filteredLocations,
     onLocationSelect: handleLocationSelect,
@@ -157,7 +152,6 @@ export default function Home() {
               selectedLocationTypes={selectedLocationTypes}
               locationStatus={locationStatus}
               nearbyRadius={nearbyRadius}
-              locationTypeCounts={locationTypeCounts}
               countries={countries}
               onCountrySelect={(country) => {
                 setSelectedCountry(country);

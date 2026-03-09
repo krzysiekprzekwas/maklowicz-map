@@ -196,58 +196,22 @@ export function Filters({
           </button>
         </div>
 
-        {/* Wybrane chips */}
-        {hasActiveFilters && (
-          <div className="space-y-2">
-            <span className="text-xs font-semibold text-primary uppercase tracking-wide">Wybrane</span>
-            <div className="flex flex-wrap gap-2">
-              {locationStatus === 'granted' ? (
-                <button
-                  onClick={onClearNearby}
-                  className="flex items-center gap-1 px-2 py-1 bg-primary text-secondary rounded-full text-xs"
-                >
-                  <MapPin className="h-3 w-3" />
-                  Moja lokalizacja ({nearbyRadius} km)
-                  <X className="h-3 w-3" />
-                </button>
-              ) : selectedCountry && (
-                <button
-                  onClick={() => onCountrySelect(null)}
-                  className="flex items-center gap-1 px-2 py-1 bg-primary text-secondary rounded-full text-xs"
-                >
-                  {selectedCountry}
-                  <X className="h-3 w-3" />
-                </button>
-              )}
-              {selectedLocationTypes.map(type => {
-                const meta = LOCATION_TYPES.find(t => t.type === type);
-                return (
-                  <button
-                    key={type}
-                    onClick={() => onToggleLocationType(type)}
-                    className="flex items-center gap-1 px-2 py-1 bg-primary text-secondary rounded-full text-xs"
-                  >
-                    {meta?.label ?? type}
-                    <X className="h-3 w-3" />
-                  </button>
-                );
-              })}
-            </div>
-          </div>
-        )}
-
         {/* Lokalizacja */}
         <div className="space-y-2">
           <span className="text-xs font-semibold text-primary uppercase tracking-wide">Lokalizacja</span>
           <div className="relative" ref={dropdownRef}>
-            <div className="flex items-center border border-secondary-border rounded-lg px-3 py-2 gap-2 bg-white">
-              {locationStatus === 'loading' && <Loader2 className="h-4 w-4 animate-spin text-gray-400 flex-shrink-0" />}
-              {locationStatus === 'granted' && <MapPin className="h-4 w-4 text-primary flex-shrink-0" />}
+            <div className="flex items-center border border-secondary-border rounded-lg px-3 py-2.5 gap-2 bg-white">
+              {locationStatus === 'loading'
+                ? <Loader2 className="h-4 w-4 animate-spin text-gray-400 flex-shrink-0" />
+                : locationStatus === 'granted'
+                  ? <MapPin className="h-4 w-4 text-primary flex-shrink-0" />
+                  : <Search className="h-4 w-4 text-gray-400 flex-shrink-0" />
+              }
               <input
                 type="text"
                 readOnly={locationStatus === 'loading' || locationStatus === 'granted'}
-                className="flex-1 text-base text-primary outline-none bg-transparent placeholder-gray-400"
-                placeholder="Szukaj kraju..."
+                className="flex-1 text-sm text-primary outline-none bg-transparent placeholder-gray-400"
+                placeholder="Szukaj w pobliżu mojej lokalizacji"
                 value={
                   locationStatus === 'loading' ? 'Uzyskiwanie lokalizacji…' :
                   locationStatus === 'granted' ? 'Moja lokalizacja' :

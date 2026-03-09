@@ -15,7 +15,6 @@ interface LocationListProps {
   selectedLocationTypes?: string[];
   locationStatus?: 'idle' | 'loading' | 'granted' | 'denied';
   nearbyRadius?: number;
-  locationTypeCounts?: Record<string, number>;
   countries?: { name: string; count: number }[];
   onCountrySelect?: (country: string | null) => void;
   onToggleLocationType?: (type: string) => void;
@@ -35,7 +34,6 @@ export function LocationList({
   selectedLocationTypes = [],
   locationStatus,
   nearbyRadius,
-  locationTypeCounts,
   countries = [],
   onCountrySelect,
   onToggleLocationType,
@@ -262,10 +260,6 @@ export function LocationList({
             )}
           </div>
 
-          {/* Count label */}
-          <div className="px-4 pb-3 text-xs text-gray-500">
-            {filteredCount?.toLocaleString('pl-PL')} Miejsca
-          </div>
         </div>
       )}
 
