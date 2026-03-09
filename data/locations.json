@@ -1,6 +1,122 @@
 {
   "videos": [
     {
+      "videoId": "HG1Afci76Bw",
+      "videoUrl": "https://www.youtube.com/watch?v=HG1Afci76Bw",
+      "title": "ROBERT MAKŁOWICZ TENERYFA odc.177  „Piękne skutki eksplozji\".",
+      "filterTitle": "Piękne skutki eksplozji. (odc. 177)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-04-19T15:00:07Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "38613-vilaflor-prowincja-santa-cruz-de-tenerife-hiszpania",
+          "name": "Vilaflor",
+          "description": "Wilaflor, najwyżej położona wioska na Teneryfie, to miejsce, gdzie powietrze jest tak krystaliczne, że niemal czuć w nim smak górskiej świeżości, a horyzont zdaje się rozciągać w nieskończoność. To tutaj, w otoczeniu pradawnych lasów sosnowych, narodził się Santo Hermano Pedro, a lokalne winnice i sady migdałowe od wieków karmią zmysły, oferując trunki i przysmaki o smaku słońca i wulkanicznej ziemi.",
+          "latitude": 28.158659930470098,
+          "longitude": -16.636476516723636,
+          "address": "Vilaflor, Spain",
+          "country": "Hiszpania",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/oWqz9rGsSrchs2ry8",
+          "image": "/images/38613-vilaflor-prowincja-santa-cruz-de-tenerife-hiszpania.jpg"
+        },
+        {
+          "id": "dulceria-hermano-pedro",
+          "name": "Dulcería Hermano Pedro",
+          "description": "Oto Dulcería Hermano Pedro, gdzie zaiste czas zdaje się płynąć wolniej, a podniebienie doznaje prawdziwej, słodkiej ekstazy. W tym niezwykłym miejscu, kultywującym dziedzictwo hiszpańskich klasztorów, od wieków pielęgnuje się przepisy na tradycyjne słodkości, nierzadko pamiętające czasy, gdy zakonne mniszki z pietyzmem strzegły kulinarnych sekretów. To prawdziwa podróż przez historię smaku, gdzie każdy kęs jest świadectwem mistrzostwa przekazywanego z pokolenia na pokolenie.",
+          "latitude": 28.157770779287844,
+          "longitude": -16.637452840805057,
+          "address": "5955+52 Vilaflor, Spain",
+          "country": "Hiszpania",
+          "type": "cafe",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/H1dSzEoTDqx4cMXv6",
+          "image": "/images/dulceria-hermano-pedro.jpg"
+        },
+        {
+          "id": "llano-de-ucanca-vista-point",
+          "name": "Llano de Ucanca Vista Point",
+          "description": "W Hiszpanii, daleko od zgiełku miejskich placów, rozpościera się Llano de Ucanca Vista Point – miejsce, gdzie ziemia, niczym wytrawny gawędziarz, opowiada historie sprzed milionów lat. To właśnie tutaj, pośród wulkanicznych formacji, człowiek czuje się jak na innej planecie, a widok na majestatyczne Teide sprawia, że nawet najbardziej wyrafinowane podniebienie zapomina na chwilę o ziemskich smakach. Choć nie ma tu daty wmurowania kamienia węgielnego, to przecież sama natura, przez miliony lat, rzeźbiła ten kosmiczny pejzaż, który od 2007 roku dumnie figuruje na liście UNESCO.",
+          "latitude": 28.211201315933852,
+          "longitude": -16.634759902954105,
+          "address": "Paradores Cañadas del Teide, Spain",
+          "country": "Hiszpania",
+          "type": "nature",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/TmQrTjx5TUdCJNXf9",
+          "image": "/images/llano-de-ucanca-vista-point.jpg"
+        },
+        {
+          "id": "cho-pancho",
+          "name": "Cho Pancho",
+          "description": "Na słonecznej Teneryfie, gdzie wulkaniczne krajobrazy spotykają się z błękitem Atlantyku, znajduje się Cho Pancho – miejsce, gdzie czas zdaje się płynąć wolniej, a kulinarna tradycja ma się doskonale. To nie jest restauracja z gwiazdkami, lecz raczej guachinche z duszą, gdzie na stołach króluje soczysta kozina i inne lokalne specjały, które z miejsca podbijają serca i podniebienia. W jego progach, wzniesionych być może przed dekadami, czuć ducha dawnych pokoleń, które wiedziały, że najlepsze smaki rodzą się z prostoty i autentyczności.",
+          "latitude": 28.119076094100723,
+          "longitude": -16.635832786560062,
+          "address": "4993+5F Jama, Spain",
+          "country": "Hiszpania",
+          "type": "nature",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/t1tLsDcwuV52Vyuj9",
+          "image": "/images/cho-pancho.jpg"
+        },
+        {
+          "id": "casa-del-vino",
+          "name": "Casa del Vino",
+          "description": "W słonecznej Hiszpanii, gdzie winorośl od wieków jest niemalże członkiem rodziny, znajduje się miejsce niezwykłe – Casa del Vino. To nie tylko budynek, lecz prawdziwa świątynia płynnego złota, opowiadająca historię stuleci winiarskiej pasji i trudu, która kształtowała lokalną kulturę i podniebienia. Tutaj, wśród dębowych beczek i butelek pełnych słońca, każdy koneser poczuje się jak w domu, a nawet ci mniej obeznani z winem odkryją, że życie potrafi smakować znacznie lepiej.",
+          "latitude": 28.470483263493524,
+          "longitude": -16.434817314147953,
+          "address": "C. Laurisilva, 121, 38360 El Sauzal, Santa Cruz de Tenerife, Spain",
+          "country": "Hiszpania",
+          "type": "museum",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/1aKgz9c4HvMEfauw5",
+          "image": "/images/casa-del-vino.jpg"
+        },
+        {
+          "id": "casa-ayo",
+          "name": "Casa Ayo",
+          "description": "W hiszpańskiej Nerji, tuż nad brzegiem morza, od dekad króluje Casa Ayo – miejsce, gdzie czas zdaje się płynąć wolniej, a kulinarna tradycja jest celebrowana z prawdziwym rozmachem. To właśnie tam, pod gołym niebem, w gigantycznych patelniach powstaje legendarna paella, której aromat, niesiony morską bryzą, stał się nieodłącznym elementem lokalnego krajobrazu i magnesem dla każdego smakosza poszukującego autentycznych doznań.",
+          "latitude": 28.46140522729879,
+          "longitude": -16.413960456848148,
+          "address": "C. Corraletes, 67, 38359 El Sauzal, Santa Cruz de Tenerife, Spain",
+          "country": "Hiszpania",
+          "type": "other",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/xLA9wjqQ6uaRCfeV7",
+          "image": "/images/casa-ayo.jpg"
+        },
+        {
+          "id": "la-orotava-prowincja-santa-cruz-de-tenerife-hiszpania",
+          "name": "La Orotava",
+          "description": "Wysoko na Teneryfie, w La Orotava, czas zdaje się płynąć wolniej, a kolonialne kamienice z misternie rzeźbionymi balkonami, często pamiętające XVII i XVIII wiek, opowiadają historie o dawnych kupcach i podróżnikach. To miejsce, gdzie bujna zieleń splata się z architekturą, tworząc pejzaż tak urokliwy, że aż prosi się o kieliszek lokalnego wina i talerz wyśmienitych kanaryjskich specjałów, by w pełni nacieszyć się chwilą.",
+          "latitude": 28.38973920948441,
+          "longitude": -16.5245532989502,
+          "address": "La Orotava, Santa Cruz de Tenerife, Spain",
+          "country": "Hiszpania",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/fmvMusy2vA3EppW47",
+          "image": "/images/la-orotava-prowincja-santa-cruz-de-tenerife-hiszpania.jpg"
+        },
+        {
+          "id": "bar-parada-cerveceria",
+          "name": "Bar Parada Cerveceria",
+          "description": "W zakamarkach słonecznej Hiszpanii, gdzie historia splata się z codziennością, odnajdujemy Bar Parada Cerveceria – miejsce, które, choć może nie szczyci się wiekami, tętni duchem prawdziwej lokalnej gościnności. To tutaj, przy szklanicy doskonale schłodzonego piwa i talerzu lokalnych przekąsek, smakuje się życie w jego najczystszej, nieskomplikowanej formie, a każda wizyta staje się małą podróżą w głąb hiszpańskiej duszy.",
+          "latitude": 28.39080575676924,
+          "longitude": -16.522890329360965,
+          "address": "Plaza Cantos Canarios de San Agustín, C. Cantos Canarios, 10A, 38300 La Orotava, Santa Cruz de Tenerife, Spain",
+          "country": "Hiszpania",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/1HrbHyNYhMSDRDPw7",
+          "image": "/images/bar-parada-cerveceria.jpg"
+        }
+      ]
+    },
+    {
       "videoId": "f7tnfVYgnw8",
       "videoUrl": "https://www.youtube.com/watch?v=f7tnfVYgnw8",
       "title": "ROBERT MAKŁOWICZ TENERYFA odc.176  „Guanczowie i konkwistadorzy\".",
@@ -7270,7 +7386,7 @@
         },
         {
           "id": "quinta-avenida-playa-del-carmen-q-r-meksyk",
-          "name": "Quinta Avenida, Playa del Carmen, Q.R., Meksyk",
+          "name": "Quinta Avenida",
           "description": "Robert Makłowicz, gdyby tylko miał czas, z pewnością zagłębiłby się w ten kulinarno-kulturowy ferment, jakim jest Piąta Aleja w Playa del Carmen. To nie tylko ulica, to istny tygiel zapachów – od świeżych owoców morza po aromatyczne tacos al pastor – gdzie karaibski luz miesza się z meksykańską energią. Prawdziwy raj dla podniebienia i ducha, gdzie każdy wieczór to małe święto smaków i barw.",
           "latitude": 20.629102043085812,
           "longitude": -87.07057014157523,
@@ -7278,8 +7394,8 @@
           "country": "Meksyk",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "image": "https://travel.usnews.com/images/la_quinta_avenida_2_getty_m1KSC67.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/M9RK2hKQddU6GMVA7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/M9RK2hKQddU6GMVA7",
+          "image": "https://travel.usnews.com/images/la_quinta_avenida_2_getty_m1KSC67.jpg"
         }
       ]
     },
@@ -7360,7 +7476,7 @@
         },
         {
           "id": "p-de-montejo-zona-paseo-montejo-merida-yuc-meksyk",
-          "name": "P.º de Montejo, Zona Paseo Montejo, Mérida, Yuc., Meksyk",
+          "name": "P.º de Montejo",
           "description": "Ta niezwykła aleja, niczym paryski bulwar przeniesiony w tropiki, zachwyca okazałymi rezydencjami z przełomu XIX i XX wieku, świadczącymi o dawnej potędze regionu. Po tak wytwornym spacerze, z pewnością czekałaby nań kulinarna uczta, bo Jukatan to przecież prawdziwa Mekka dla podniebienia, gdzie smaki tańczą sambę na języku.",
           "latitude": 20.983821892641522,
           "longitude": -89.6179530165292,
@@ -7368,8 +7484,8 @@
           "country": "Meksyk",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "image": "https://meridaelite.com/blog/images/paseomontejo-merida2.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/zwrduXRVDUMaNZKr9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/zwrduXRVDUMaNZKr9",
+          "image": "https://meridaelite.com/blog/images/paseomontejo-merida2.jpg"
         },
         {
           "id": "archaeological-site-yucatan-ake",
@@ -7585,10 +7701,10 @@
           "longitude": -88.2100375662286,
           "address": "C. 49 236A, Sisal, 97784 Valladolid, Yuc., Mexico",
           "country": "Meksyk",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Iglesia_y_Ex-Convento_San_Bernardino_de_Siena_-_Valladolid_-_Yucatan_-_Mexico_-_02.jpg/2560px-Iglesia_y_Ex-Convento_San_Bernardino_de_Siena_-_Valladolid_-_Yucatan_-_Mexico_-_02.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Z1Hn4yQXnwV9hB2A7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Z1Hn4yQXnwV9hB2A7",
+          "image": "/images/convento-de-san-bernardino-de-siena.jpg"
         },
         {
           "id": "casa-de-los-venados",
@@ -7869,8 +7985,8 @@
           "country": "Austria",
           "type": "nature",
           "websiteUrl": "",
-          "image": "https://www.pitztaler-gletscher.at/mediatypes/textImgBox/sonnenaufgang_wildspitzbahn_leuchtende_fenster_rz.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/gSqYwL3nVK5vQZJUA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/gSqYwL3nVK5vQZJUA",
+          "image": "/images/pitztaler-gletscher.jpg"
         },
         {
           "id": "cafe-3440-on-the-pitztal-glacier",
@@ -8550,8 +8666,8 @@
           "country": "Albania",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "image": "https://thumbs.dreamstime.com/b/kamienny-most-nad-osum-rzeką-przy-berat-42657335.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/k7vjUJkebLPNrjXF8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/k7vjUJkebLPNrjXF8",
+          "image": "/images/most-gorica.jpg"
         },
         {
           "id": "zamek-w-beracie",
