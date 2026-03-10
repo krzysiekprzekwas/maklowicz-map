@@ -44,7 +44,7 @@ export default function Home() {
     setActiveView,
   } = useLocationState();
 
-  const { countries, filteredLocations, locationTypeCounts, allLocations } =
+  const { countries, filteredLocations, locationTypeCounts, allLocations, zoomLocations } =
     useLocations(
       selectedCountry,
       selectedLocationTypes,
@@ -169,6 +169,7 @@ export default function Home() {
         <div className="flex-1 relative overflow-hidden">
           <Map
             locations={filteredLocations}
+            zoomLocations={zoomLocations}
             selectedLocation={selectedLocation}
             previewLocation={previewLocation}
             onLocationSelect={handleLocationSelect}

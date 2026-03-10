@@ -53,5 +53,17 @@ export function useLocations(
     []
   );
 
-  return { countries, filteredLocations, locationTypeCounts, allLocations };
+  const zoomLocations = useMemo(() => {
+    let locs = typedData.videos.flatMap(v => v.locations);
+    if (selectedCountry)
+      locs = locs.filter(l => l.country === selectedCountry);
+    if (userLat != null && userLng != null && nearbyRadius != null) {
+      locs = locs.filter(l =>
+        haversineDistance(userLat, userLng, l.latitude, l.longitude) <= nearbyRadius
+      );
+    }
+    return locs;
+  }, [selectedCountry, userLat, userLng, nearbyRadius]);
+
+  return { countries, filteredLocations, locationTypeCounts, allLocations, zoomLocations };
 }

@@ -23,6 +23,7 @@ L.Icon.Default.mergeOptions({
 
 interface MapProps {
     locations: Location[];
+    zoomLocations?: Location[];
     selectedLocation: Location | null;
     previewLocation: Location | null;
     onLocationSelect: (location: Location) => void;
@@ -100,13 +101,13 @@ const PreviewPanner: React.FC<{ location: Location | null }> = ({ location }) =>
     return null;
 };
 
-const ChangeView: React.FC<{ locations: Location[]; leftPanelWidth?: number }> = React.memo(
-    ({ locations, leftPanelWidth = 0 }) => {
+const ChangeView: React.FC<{ zoomLocations: Location[]; leftPanelWidth?: number }> = React.memo(
+    ({ zoomLocations, leftPanelWidth = 0 }) => {
         const map = useMap();
         React.useEffect(() => {
-            if (locations.length > 0) {
+            if (zoomLocations.length > 0) {
                 const bounds = L.latLngBounds(
-                    locations.filter(x => !x.isFilteredOut).map(loc => [loc.latitude, loc.longitude])
+                    zoomLocations.map(loc => [loc.latitude, loc.longitude])
                 );
                 map.fitBounds(bounds as LatLngBoundsExpression, {
                     paddingTopLeft: [50 + leftPanelWidth, 50],
@@ -114,13 +115,14 @@ const ChangeView: React.FC<{ locations: Location[]; leftPanelWidth?: number }> =
                     maxZoom: maxZoomValue,
                 });
             }
-        }, [locations, leftPanelWidth]);
+        }, [zoomLocations, leftPanelWidth]);
         return null;
     }
 );
 
 const Map: React.FC<MapProps> = React.memo(({
     locations,
+    zoomLocations,
     selectedLocation,
     previewLocation,
     onLocationSelect,
@@ -242,7 +244,7 @@ const Map: React.FC<MapProps> = React.memo(({
                     location={previewLocation}
                     onPositionUpdate={handlePositionUpdate}
                 />
-                <ChangeView locations={visibleLocations} leftPanelWidth={leftPanelWidth} />
+                <ChangeView zoomLocations={zoomLocations ?? locations} leftPanelWidth={leftPanelWidth} />
                 <PreviewPanner location={previewLocation} />
                 {userLat != null && userLng != null && (
                     <Marker
