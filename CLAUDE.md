@@ -77,7 +77,9 @@ GEMINI_API_KEY=...
 
 ## Analytics
 
-Vercel Analytics is enabled (`src/lib/analytics.ts` wraps `@vercel/analytics`). Local dev (`npm run dev`) is automatically excluded — events are never sent in `NODE_ENV=development`.
+PostHog Cloud is used for custom events (`src/lib/analytics.ts` wraps `posthog-js`). Vercel Analytics remains for page views only. Requires `NEXT_PUBLIC_POSTHOG_KEY` env var (and optionally `NEXT_PUBLIC_POSTHOG_HOST`, defaults to `https://eu.i.posthog.com`).
+
+Local dev (`npm run dev`) is automatically excluded — PostHog calls `opt_out_capturing()` when `NODE_ENV=development`.
 
 To exclude yourself from production analytics (run once in browser DevTools on the live site):
 ```js

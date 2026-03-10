@@ -1,22 +1,22 @@
-import { track } from '@vercel/analytics';
+import posthog from 'posthog-js';
 
 export const trackLocationSelect = (loc: { name: string; type: string; country: string; id: string }) =>
-  track('location_select', { name: loc.name, type: loc.type, country: loc.country, placeId: loc.id });
+  posthog.capture('location_select', { name: loc.name, type: loc.type, country: loc.country, placeId: loc.id });
 
 export const trackCountryFilter = (country: string | null) =>
-  track('filter_country', { country: country ?? 'all' });
+  posthog.capture('filter_country', { country: country ?? 'all' });
 
 export const trackTypeFilter = (type: string, active: boolean) =>
-  track('filter_type', { type, active });
+  posthog.capture('filter_type', { type, active });
 
 export const trackNearbySearch = (radiusKm: number) =>
-  track('filter_nearby', { radiusKm });
+  posthog.capture('filter_nearby', { radiusKm });
 
 export const trackViewToggle = (view: 'map' | 'list') =>
-  track('view_toggle', { view });
+  posthog.capture('view_toggle', { view });
 
 export const trackShare = (locationName: string) =>
-  track('share', { locationName });
+  posthog.capture('share', { locationName });
 
 export const trackOutboundLink = (destination: 'google_maps' | 'youtube', locationName: string) =>
-  track('outbound_link', { destination, locationName });
+  posthog.capture('outbound_link', { destination, locationName });

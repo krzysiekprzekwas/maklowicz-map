@@ -1,11 +1,26 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import type { AppProps } from 'next/app';
 import '../styles/globals.css';
 import { Header } from '../components/layout/Header';
 import Head from 'next/head';
 import { Analytics } from '@vercel/analytics/next';
+import posthog from 'posthog-js';
 
 function MyApp({ Component, pageProps }: AppProps) {
+  useEffect(() => {
+    if (!process.env.NEXT_PUBLIC_POSTHOG_KEY) return;
+    posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY, {
+      api_host: process.env.NEXT_PUBLIC_POSTHOG_HOST ?? 'https://eu.i.posthog.com',
+      loaded: (ph) => {
+        if (process.env.NODE_ENV === 'development') ph.opt_out_capturing();
+        if (typeof window !== 'undefined' &&
+            localStorage.getItem('analyticsOptOut') === 'true') {
+          ph.opt_out_capturing();
+        }
+      },
+    });
+  }, []);
+
   return (
     <>
       <div className="h-full flex flex-col">
@@ -29,15 +44,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Header />
         <Component {...pageProps} className="flex-1" />
       </div>
-      <Analytics
-        beforeSend={(event) => {
-          if (typeof window !== 'undefined' &&
-              localStorage.getItem('analyticsOptOut') === 'true') {
-            return null;
-          }
-          return event;
-        }}
-      />
+      <Analytics />
     </>
   );
 }
