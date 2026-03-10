@@ -14,14 +14,14 @@ const iconComponentMap: Partial<Record<LocationType, React.ComponentType<LucideP
 };
 
 const colorClassMap: Partial<Record<LocationType, keyof typeof styles>> = {
-    restaurant: 'markerYellow',
-    cafe: 'markerYellow',
-    tourist_attraction: 'markerPurple',
-    museum: 'markerPurple',
-    art_culture: 'markerPurple',
-    nature: 'markerPurple',
-    shopping: 'markerPurple',
-    hotel: 'markerPurple',
+    restaurant: 'markerFood',
+    cafe:        'markerFood',
+    art_culture: 'markerCulture',
+    museum:      'markerCulture',
+    nature:      'markerNature',
+    tourist_attraction: 'markerExplore',
+    hotel:    'markerExplore',
+    shopping: 'markerExplore',
 };
 
 import styles from './LocationMapIcon.module.css';
@@ -38,7 +38,7 @@ const createCustomIcon = (
     if (iconComponentMap[type] === undefined) {
         console.warn(`No icon found for type: ${type}`);
     }
-    const colorClassNameKey = colorClassMap[type] ?? 'markerPurple';
+    const colorClassNameKey = colorClassMap[type] ?? 'markerExplore';
     const colorModuleClass = styles[colorClassNameKey];
 
     // Don't render tooltips on mobile for better performance

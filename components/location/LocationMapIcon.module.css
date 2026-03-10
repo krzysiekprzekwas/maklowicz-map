@@ -38,29 +38,37 @@
     transition: all 0.2s ease-in-out; 
   }
 
-  .markerYellow { 
+  /* Food: restaurant, cafe */
+  .markerFood {
       background-color: #fff3cd;
-      border: 3px solid #ffc107;
+      border: 3px solid #f59e0b;
   }
-  .markerYellow::after {
-      border-top-color: #ffc107;
+  .markerFood::after { border-top-color: #f59e0b; }
+  .markerFood .markerIconContent { color: #78350f; }
+
+  /* Culture: art_culture, museum */
+  .markerCulture {
+      background-color: #ede9fe;
+      border: 3px solid #7c3aed;
   }
- 
-  .markerYellow .markerIconContent {
-      color: #8c6d07;
+  .markerCulture::after { border-top-color: #7c3aed; }
+  .markerCulture .markerIconContent { color: #3b0764; }
+
+  /* Nature */
+  .markerNature {
+      background-color: #dcfce7;
+      border: 3px solid #16a34a;
   }
-  
-  
-  .markerPurple { /* For Attraction */
-      background-color: #e0d6f9;
-      border: 3px solid #8a63d2;
+  .markerNature::after { border-top-color: #16a34a; }
+  .markerNature .markerIconContent { color: #14532d; }
+
+  /* Explore: tourist_attraction, hotel, shopping */
+  .markerExplore {
+      background-color: #dbeafe;
+      border: 3px solid #3b82f6;
   }
-  .markerPurple::after {
-      border-top-color: #8a63d2;
-  }
-  .markerPurple .markerIconContent {
-     color: #502d8e;
-  }
+  .markerExplore::after { border-top-color: #3b82f6; }
+  .markerExplore .markerIconContent { color: #1e3a8a; }
   
   
 /* --- Leaflet Global Override --- */

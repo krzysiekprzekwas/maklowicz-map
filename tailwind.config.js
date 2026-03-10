@@ -16,16 +16,14 @@ module.exports = {
           darker: '#f4ede4',
           border: '#e6dfd7',
         },
-        restaurant: {
-          DEFAULT: '#fff3cd',
-          border: '#ffc107',
-          text: '#8c6d07',
-        },
-        tourist_attraction: {
-          DEFAULT: '#e0d6f9',
-          border: '#8a63d2',
-          text: '#502d8e',
-        },
+        restaurant: { DEFAULT: '#fff3cd', border: '#f59e0b', text: '#78350f' },
+        cafe:        { DEFAULT: '#fff3cd', border: '#f59e0b', text: '#78350f' },
+        art_culture: { DEFAULT: '#ede9fe', border: '#7c3aed', text: '#3b0764' },
+        museum:      { DEFAULT: '#ede9fe', border: '#7c3aed', text: '#3b0764' },
+        nature:      { DEFAULT: '#dcfce7', border: '#16a34a', text: '#14532d' },
+        tourist_attraction: { DEFAULT: '#dbeafe', border: '#3b82f6', text: '#1e3a8a' },
+        hotel:    { DEFAULT: '#dbeafe', border: '#3b82f6', text: '#1e3a8a' },
+        shopping: { DEFAULT: '#dbeafe', border: '#3b82f6', text: '#1e3a8a' },
 
       },
     },
@@ -33,7 +31,7 @@ module.exports = {
   plugins: [],
   safelist: [
     {
-      pattern: /(bg|text|border)-(primary|secondary|restaurant|tourist_attraction)/,
+      pattern: /(bg|text|border)-(primary|secondary|restaurant|cafe|art_culture|museum|nature|tourist_attraction|hotel|shopping)/,
     },
   ],
 }; 

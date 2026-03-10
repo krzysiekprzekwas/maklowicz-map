@@ -29,9 +29,9 @@ export function createClusterCustomIcon(cluster: any) {
       text: '#8c6d07',
     },
     tourist_attraction: {
-      bg: '#e0d6f9',
-      border: '#8a63d2',
-      text: '#502d8e',
+      bg: '#dbeafe',
+      border: '#3b82f6',
+      text: '#1e3a8a',
     },
   };
 
