@@ -16,7 +16,7 @@
           "description": "Los Cristianos Port to miejsce, gdzie morska przygoda splata się z kulinarną obietnicą. Z dawnej, skromnej wioski rybackiej wyrósł tu prawdziwy hub, z którego promy niczym statki-matki wyruszają na sąsiednie wyspy, a zapach świeżych owoców morza unosi się w powietrzu, kusząc do pobliskich tawern. Jest to bowiem nie tylko brama na sąsiednie wyspy, ale i świadectwo dynamicznego rozwoju Teneryfy, gdzie historia spotyka się z nowoczesnym, wakacyjnym zgiełkiem.",
           "latitude": 28.0479018,
           "longitude": -16.7184054,
-          "address": "Calle Espigón del Benchijigua, 11A, 38650 NULL, Santa Cruz de Tenerife, Spain",
+          "address": "Calle Espigón del Benchijigua, 11A, Santa Cruz de Tenerife, Spain",
           "country": "Hiszpania",
           "type": "tourist_attraction",
           "websiteUrl": "",
@@ -3229,10 +3229,10 @@
           "longitude": 57.49342925253939,
           "address": "Bois Cheri, Mauritius",
           "country": "Mauritius",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/74/3c/8e/grand-bassin.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/TEtRiRKuKtPUfWhB9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/TEtRiRKuKtPUfWhB9",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/74/3c/8e/grand-bassin.jpg?w=900&h=500&s=1"
         },
         {
           "id": "lord-shiva-grand-bassin-hindu-temple",
@@ -3397,10 +3397,10 @@
           "longitude": 57.70964239774792,
           "address": "Mahebourg, Mauritius",
           "country": "Mauritius",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://photos.wikimapia.org/p/00/07/18/51/88_big.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/FNKFApSpgnYkVHcW7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/FNKFApSpgnYkVHcW7",
+          "image": "https://photos.wikimapia.org/p/00/07/18/51/88_big.jpg"
         },
         {
           "id": "mahebourg-museum",
@@ -3564,10 +3564,10 @@
           "longitude": -16.828082423793823,
           "address": "ER108 19, 9225, Portugal",
           "country": "Portugalia",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "https://visitmadeira.com/en/where-to-go/madeira/east-coast/machico/engenhos-do-norte/",
-          "image": "https://www.madere-leguide.com/madere/distillerie-porto-da-cruz/rhum-factory.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/qtSzwKFMJyqyB2TU7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/qtSzwKFMJyqyB2TU7",
+          "image": "https://www.madere-leguide.com/madere/distillerie-porto-da-cruz/rhum-factory.jpg"
         },
         {
           "id": "hotel-quinta-do-furao",
@@ -3590,10 +3590,10 @@
           "longitude": -16.97410004476081,
           "address": "Câmara de Lobos, Portugal",
           "country": "Portugalia",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://essential-madeira.com/en/images/00_OB_9746_DxO.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/7sjbqBFdypwW9Ms56"
+          "GoogleMapsLink": "https://maps.app.goo.gl/7sjbqBFdypwW9Ms56",
+          "image": "https://essential-madeira.com/en/images/00_OB_9746_DxO.jpg"
         },
         {
           "id": "banana-museum-of-madeira-bam",
@@ -3648,7 +3648,7 @@
       "locations": [
         {
           "id": "sao-vicente-portugalia",
-          "name": "São Vicente, Portugalia",
+          "name": "São Vicente",
           "description": "São Vicente, położone na północnym wybrzeżu Madery, toż to prawdziwa perła, gdzie natura z rozmachem rzeźbiła krajobraz przez miliony lat. Tu, między dramatycznymi klifami a zielonymi dolinami, odkryć można nie tylko urokliwe miasteczko, ale i fascynujące jaskinie wulkaniczne, niczym świadectwo prastarych procesów. Takie widoki z pewnością zaostrzają apetyt na lokalne wino i świeże owoce morza, które smakują tu wyjątkowo.",
           "latitude": 32.8022515198985,
           "longitude": -17.04614053402705,
@@ -3656,8 +3656,8 @@
           "country": "Portugalia",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/St_Vicente.jpg/1200px-St_Vicente.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/fjtjVAtakANxPUQA8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/fjtjVAtakANxPUQA8",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/St_Vicente.jpg/1200px-St_Vicente.jpg"
         },
         {
           "id": "snack-bar-estoril",
@@ -3744,10 +3744,10 @@
           "longitude": -16.900510522022678,
           "address": "Caminho das Babosas 4, Monte, 9050-288 Funchal, Portugal",
           "country": "Portugalia",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "http://www.montepalacemadeira.com/",
-          "image": "https://static.wixstatic.com/media/9430cb_7f9da4c03c374dddb07649d7ecd965c9~mv2.jpg/v1/fill/w_1000,h_750,al_c,q_85,usm_0.66_1.00_0.01/9430cb_7f9da4c03c374dddb07649d7ecd965c9~mv2.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/KJxAoJis33n8td1x6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/KJxAoJis33n8td1x6",
+          "image": "https://static.wixstatic.com/media/9430cb_7f9da4c03c374dddb07649d7ecd965c9~mv2.jpg/v1/fill/w_1000,h_750,al_c,q_85,usm_0.66_1.00_0.01/9430cb_7f9da4c03c374dddb07649d7ecd965c9~mv2.jpg"
         },
         {
           "id": "statue-of-charles-i-of-austria",
@@ -3770,10 +3770,10 @@
           "longitude": -16.90252107551836,
           "address": "Caminho do Monte 180, Monte, 9050-288 Funchal, Portugal",
           "country": "Portugalia",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://pnsmonte.pt/",
-          "image": "https://img.freepik.com/premium-zdjecie/funchal-madera-04-lipca-wewnatrz-katedry-matki-bozej-z-gory-w-dniu-04-lipca-2014-r-na-maderze-portugalia_78361-5529.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/hFtLBJraELikmWEP9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/hFtLBJraELikmWEP9",
+          "image": "https://img.freepik.com/premium-zdjecie/funchal-madera-04-lipca-wewnatrz-katedry-matki-bozej-z-gory-w-dniu-04-lipca-2014-r-na-maderze-portugalia_78361-5529.jpg"
         },
         {
           "id": "mercado-dos-lavradores",
@@ -3899,10 +3899,10 @@
           "longitude": 7.748531361950193,
           "address": "11 Pl. Gutenberg, 67000 Strasbourg, France",
           "country": "Francja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Gutenberg_Statue_in_Strasbourg.jpg/508px-Gutenberg_Statue_in_Strasbourg.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/qyLs4YMmG4SUadiV8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/qyLs4YMmG4SUadiV8",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Gutenberg_Statue_in_Strasbourg.jpg/508px-Gutenberg_Statue_in_Strasbourg.jpg"
         },
         {
           "id": "katedra-najswietszej-marii-panny-w-strasburgu",
@@ -4093,7 +4093,7 @@
           "longitude": 6.132727900772976,
           "address": "42 Pl. Guillaume II, 2090 Ville-Haute Luxembourg",
           "country": "Luksemburg",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://monarchie.lu/en/visit-grand-ducal-palace",
           "GoogleMapsLink": "https://maps.app.goo.gl/snaMGvRVBDxPdKRS9",
           "image": "/images/pa-ac-wielkich-ksiazat-w-luksemburgu.jpg"
@@ -4312,10 +4312,10 @@
           "longitude": 19.039571220952922,
           "address": "Budapest, Batthyány tér HÉV-állomás, 1011 Hungary",
           "country": "Węgry",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://cdn.bookingkit.de/vendor_images/72a1bb08580afa5f7a02f7e60f635b31/detail/Tank1.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/E3tc9a9Qn7StFcXk8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/E3tc9a9Qn7StFcXk8",
+          "image": "https://cdn.bookingkit.de/vendor_images/72a1bb08580afa5f7a02f7e60f635b31/detail/Tank1.jpg"
         },
         {
           "id": "rubik-s-cube-mini-statue-by-kolodko",
@@ -4364,10 +4364,10 @@
           "longitude": 19.055768271819076,
           "address": "Budapest, Raoul Wallenberg rkp. 6, 1111 Hungary",
           "country": "Węgry",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://traveltoexist.com/wp-content/uploads/2025/04/Kolodko-statues-Budapest-King-Franz-Joseph.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/R6SK3cNs4SQCucy68"
+          "GoogleMapsLink": "https://maps.app.goo.gl/R6SK3cNs4SQCucy68",
+          "image": "https://traveltoexist.com/wp-content/uploads/2025/04/Kolodko-statues-Budapest-King-Franz-Joseph.jpg"
         },
         {
           "id": "a-rubik-kocka",
@@ -4429,10 +4429,10 @@
           "longitude": 17.635183382746447,
           "address": "Győr, Városház tér 1, 9021 Hungary",
           "country": "Węgry",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "http://www.gyor.hu/",
-          "image": "https://d37rmf1ynyg9aw.cloudfront.net/fit-in/1280x1280/data/v4/pois/sygic-poi-5558980/resources/625018.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/rzW1yGAdV58sH8b9A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/rzW1yGAdV58sH8b9A",
+          "image": "https://d37rmf1ynyg9aw.cloudfront.net/fit-in/1280x1280/data/v4/pois/sygic-poi-5558980/resources/625018.jpg"
         },
         {
           "id": "pecsinger-szolobirtok",
@@ -4493,10 +4493,10 @@
           "longitude": 19.05673078466258,
           "address": "Budapest, Deák Ferenc tér 4, 1052 Hungary",
           "country": "Węgry",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://us.123rf.com/450wm/diegograndi/diegograndi2210/diegograndi221000155/194228235-budapest-hungary-oct-22-2019-sisi-statue-elisabeth-at-madach-square-budapest-hungary.jpg?ver=6",
-          "GoogleMapsLink": "https://maps.app.goo.gl/4L8FYXKrERo2zDi48"
+          "GoogleMapsLink": "https://maps.app.goo.gl/4L8FYXKrERo2zDi48",
+          "image": "https://us.123rf.com/450wm/diegograndi/diegograndi2210/diegograndi221000155/194228235-budapest-hungary-oct-22-2019-sisi-statue-elisabeth-at-madach-square-budapest-hungary.jpg?ver=6"
         },
         {
           "id": "wielka-synagoga-w-budapeszcie",
@@ -4506,10 +4506,10 @@
           "longitude": 19.06059080781756,
           "address": "Budapest, Dohány u. 6, 1074 Hungary",
           "country": "Węgry",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://jewishtourhungary.com/",
-          "image": "https://wp.pl.aleteia.org/wp-content/uploads/sites/9/2018/10/web3-great-synagogue-budapest-hungary.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/oTXCCb955LdxmBe37"
+          "GoogleMapsLink": "https://maps.app.goo.gl/oTXCCb955LdxmBe37",
+          "image": "https://wp.pl.aleteia.org/wp-content/uploads/sites/9/2018/10/web3-great-synagogue-budapest-hungary.jpg"
         },
         {
           "id": "rubik-s-cube-speedcube-shop-rubik-toys-speedcube-shop-budapest-cube-shop",
@@ -4532,10 +4532,10 @@
           "longitude": 19.0776995855609,
           "address": "Budapest, Szondi u. 83-85, 1068 Hungary",
           "country": "Węgry",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://easm2025.com/www/wp-content/uploads/2025/02/Heroes-Square-and-City-Park_A-Gateway-to-Budapests-History-and-Culture1-1024x683.png",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Ar1yQwxUikT1yHHTA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Ar1yQwxUikT1yHHTA",
+          "image": "https://easm2025.com/www/wp-content/uploads/2025/02/Heroes-Square-and-City-Park_A-Gateway-to-Budapests-History-and-Culture1-1024x683.png"
         },
         {
           "id": "gundel-cafe-patisserie-restaurant",
@@ -4738,10 +4738,10 @@
           "longitude": 7.604445370994447,
           "address": "Kastorhof 2, 56068 Koblenz, Germany",
           "country": "Niemcy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "http://www.sankt-kastor-koblenz.de/",
-          "image": "https://www.visit-koblenz.de/_Resources/Persistent/a/d/e/0/ade010e353df4660fb1065c095ab651db01ab83b/Koblenz-Touristik-2019-129-7839x4100-1200x628.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/keSKoQ8yXGtBJPfL9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/keSKoQ8yXGtBJPfL9",
+          "image": "https://www.visit-koblenz.de/_Resources/Persistent/a/d/e/0/ade010e353df4660fb1065c095ab651db01ab83b/Koblenz-Touristik-2019-129-7839x4100-1200x628.jpg"
         },
         {
           "id": "kaiser-wilhelm-monument",
@@ -5020,10 +5020,10 @@
           "longitude": 10.330900080288934,
           "address": "Borgo Venti Marzo, 26B, 43121 Parma PR, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://www.piazzaduomoparma.com/la-piazza/cattedrale/",
-          "image": "https://www.waszaturystyka.pl/wp-content/uploads/2020/08/parma-atrakcje-turystyczne2.jpeg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Ge6fLqo4ViJWWc8k7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Ge6fLqo4ViJWWc8k7",
+          "image": "https://www.waszaturystyka.pl/wp-content/uploads/2020/08/parma-atrakcje-turystyczne2.jpeg"
         },
         {
           "id": "antica-salumeria-alimentaria-rastelli",
@@ -5072,10 +5072,10 @@
           "longitude": 10.327268426053255,
           "address": "Piazza della Pilotta, 5, 43121 Parma PR, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://parma.info/monumento-a-giuseppe-verdi/",
-          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/cd/b6/bb/l-ara-la-parte-posteriore.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/8pZxg8NPNPTE9XYx6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/8pZxg8NPNPTE9XYx6",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/cd/b6/bb/l-ara-la-parte-posteriore.jpg?w=900&h=500&s=1"
         },
         {
           "id": "palazzo-caraffini",
@@ -5149,10 +5149,10 @@
           "longitude": 10.92550372736339,
           "address": "Corso Duomo, 29, 41121 Modena MO, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://dlaczegoitalia.com/wp-content/uploads/2019/04/Modena_Katedra3.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/7PdHFB6YsnD6S4M7A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/7PdHFB6YsnD6S4M7A",
+          "image": "https://dlaczegoitalia.com/wp-content/uploads/2019/04/Modena_Katedra3.jpg"
         },
         {
           "id": "pavarotti-bar",
@@ -5182,7 +5182,7 @@
         },
         {
           "id": "modena-maserati",
-          "name": "MODENA - Maserati",
+          "name": "Maserati",
           "description": "Modena, miasto, gdzie powietrze przesiąka aromatem octu balsamicznego i świeżo startego parmezanu, oferuje także inną, równie wyrafinowaną ucztę dla zmysłów. To właśnie tutaj, od 1940 roku, powstają arcydzieła motoryzacji spod znaku Maserati, których każdy detal smakuje włoską pasją i inżynieryjną precyzją, godną najlepszych składników.",
           "latitude": 44.64878233011042,
           "longitude": 10.940467600505404,
@@ -5190,8 +5190,8 @@
           "country": "Włochy",
           "type": "tourist_attraction",
           "websiteUrl": "https://www.maserati.com/it/it/shopping-tools/dealer-locator",
-          "image": "https://maserati.scene7.com/is/image/maserati/maserati/international/Brand/factory-tour/factory-tour-2021/16_9/3LOR5187_169.jpg?$1400x2000$&fit=constrain",
-          "GoogleMapsLink": "https://maps.app.goo.gl/1eMDKfwutLXMWFJm8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/1eMDKfwutLXMWFJm8",
+          "image": "https://maserati.scene7.com/is/image/maserati/maserati/international/Brand/factory-tour/factory-tour-2021/16_9/3LOR5187_169.jpg?$1400x2000$&fit=constrain"
         },
         {
           "id": "ristorante-montana",
@@ -5252,10 +5252,10 @@
           "longitude": 18.028798282769593,
           "address": "Podgorani, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://lll.ba/wp-content/uploads/2024/01/Necropolis-Stecci-Ravansjka-vrata-Kupres-Bosnia-Herzegovina-lll.ba-@discover_bosnia_herzegovina-5-1024x1024.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/rJUQKeYtXvS18Ke27"
+          "GoogleMapsLink": "https://maps.app.goo.gl/rJUQKeYtXvS18Ke27",
+          "image": "https://lll.ba/wp-content/uploads/2024/01/Necropolis-Stecci-Ravansjka-vrata-Kupres-Bosnia-Herzegovina-lll.ba-@discover_bosnia_herzegovina-5-1024x1024.jpg"
         },
         {
           "id": "boracko-jezero",
@@ -5380,10 +5380,10 @@
           "longitude": 15.610760953231505,
           "address": "Radašinovci 98 a, 23422, Radašinovci, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "http://www.pp-vransko-jezero.hr/hr/info-centar-kamenjak/",
-          "image": "https://komunistickizlocini.net/wp-content/uploads/2015/10/svi_sveti_vransko_4.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/3gvPmXax5ywK9Aap8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/3gvPmXax5ywK9Aap8",
+          "image": "https://komunistickizlocini.net/wp-content/uploads/2015/10/svi_sveti_vransko_4.jpg"
         },
         {
           "id": "konoba-kamenjak",
@@ -5406,10 +5406,10 @@
           "longitude": 15.889076539514127,
           "address": "Obala palih omladinaca 1, 22000, Šibenik, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://croatia.hr/cmsmedia/Atrakcija/UNESCO/sibenik-katedrala-sv-jakova-zoran-jelaca.jpeg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/CeDgEioe78PVdU4m8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/CeDgEioe78PVdU4m8",
+          "image": "https://croatia.hr/cmsmedia/Atrakcija/UNESCO/sibenik-katedrala-sv-jakova-zoran-jelaca.jpeg"
         },
         {
           "id": "zamek-sw-micha-a",
@@ -5419,10 +5419,10 @@
           "longitude": 15.8843222,
           "address": "Šibenik, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://www.tvrdjava-kulture.hr/hr/",
-          "image": "https://dalmacja.pl/wp-content/uploads/2023/02/_shutterstock_19959456141.jpg.webp",
-          "GoogleMapsLink": "https://maps.app.goo.gl/wSF7h7jJDyDMDza4A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/wSF7h7jJDyDMDza4A",
+          "image": "https://dalmacja.pl/wp-content/uploads/2023/02/_shutterstock_19959456141.jpg.webp"
         },
         {
           "id": "fort-sw-jana",
@@ -5521,10 +5521,10 @@
           "longitude": 17.979130923039197,
           "address": "Potok 7, 20235, Trsteno, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://i.adriatic.hr/places/395/dalmatia-dubrovnik-slano-croatia-15-l.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/QKLPtvKtNALLCrpj8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/QKLPtvKtNALLCrpj8",
+          "image": "https://i.adriatic.hr/places/395/dalmatia-dubrovnik-slano-croatia-15-l.jpg"
         },
         {
           "id": "trsteno-arboretum",
@@ -5739,10 +5739,10 @@
           "longitude": -6.095979999085774,
           "address": "12 Wyvern, Bray, Co. Wicklow, A98 E6X8, Ireland",
           "country": "Irlandia",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "image": "https://i.ytimg.com/vi/gYPUMqMM9L4/maxresdefault.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/sYAJstaatjer7mjm8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/sYAJstaatjer7mjm8",
+          "image": "https://i.ytimg.com/vi/gYPUMqMM9L4/maxresdefault.jpg"
         },
         {
           "id": "the-harbour-bar",
@@ -5894,10 +5894,10 @@
           "longitude": -6.260965109392256,
           "address": "7-12 Dame St, Dublin 2, D02 KX20, Ireland",
           "country": "Irlandia",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://m.media-amazon.com/images/I/716Io-19LgL.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/56JDzZ4WPYX7TciH8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/56JDzZ4WPYX7TciH8",
+          "image": "https://m.media-amazon.com/images/I/716Io-19LgL.jpg"
         },
         {
           "id": "st-stephen-s-green",
@@ -5946,10 +5946,10 @@
           "longitude": -6.289894048285188,
           "address": "Dublin 8, Ireland",
           "country": "Irlandia",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "https://www.pearselyonsdistillery.com/",
-          "image": "https://www.whisky.com/fileadmin/web_data/irland/Pearse_Lyons/Pearse_Lyons_Distillery.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Fo5JBnb6WvrHdoBH8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Fo5JBnb6WvrHdoBH8",
+          "image": "https://www.whisky.com/fileadmin/web_data/irland/Pearse_Lyons/Pearse_Lyons_Distillery.jpg"
         },
         {
           "id": "muzeum-browaru-guinnessa",
@@ -6258,7 +6258,7 @@
         },
         {
           "id": "ajos-nikolaos-grecja",
-          "name": "Ajos Nikolaos, Grecja",
+          "name": "Ajos Nikolaos",
           "description": "Ajos Nikolaos na Krecie to prawdziwa perła, gdzie jezioro Wulismeni, ponoć bezdenne, łączy się z morzem, tworząc scenerię wprost z pocztówki. Mówi się, że sama Atena zażywała w nim kąpieli, co dodaje miejscu mitologicznego sznytu. W takich okolicznościach, przy stoliku w jednej z uroczych tawern, świeża ryba smakuje najlepiej, a świat nabiera zupełnie nowego wymiaru.",
           "latitude": 35.19102927665975,
           "longitude": 25.718561179424647,
@@ -6266,8 +6266,8 @@
           "country": "Grecja",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "image": "https://traveltalks.esky.pl/wp-content/uploads/Port-Agios-Nikolaos-wyspa-Kreta-Grecja-©-Shutterstock.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/mvJ7wRTwT6Xb7ddTA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/mvJ7wRTwT6Xb7ddTA",
+          "image": "https://traveltalks.esky.pl/wp-content/uploads/Port-Agios-Nikolaos-wyspa-Kreta-Grecja-©-Shutterstock.jpg"
         }
       ]
     },
@@ -6391,10 +6391,10 @@
           "longitude": 25.13457673927986,
           "address": "Minotavrou 15, Iraklio 712 02, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://navicup.com//upload/map-files/images/1859/image_354.png",
-          "GoogleMapsLink": "https://maps.app.goo.gl/RyF9WdztCj4PBKTL7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/RyF9WdztCj4PBKTL7",
+          "image": "https://navicup.com//upload/map-files/images/1859/image_354.png"
         },
         {
           "id": "pa-ac-minojski-w-knossos",
@@ -6636,10 +6636,10 @@
           "longitude": 23.786862498483643,
           "address": "Kolimvari, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "image": "https://static0.thetravelimages.com/wordpress/wp-content/uploads/2025/04/dreamstime_xxl_195993571-2.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/7swJqLRT7h1iP4Qz9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/7swJqLRT7h1iP4Qz9",
+          "image": "https://static0.thetravelimages.com/wordpress/wp-content/uploads/2025/04/dreamstime_xxl_195993571-2.jpg"
         }
       ]
     },
@@ -7027,16 +7027,16 @@
         },
         {
           "id": "klasztor-oo-bernardynow",
-          "name": "Klasztor oo. Bernardynów",
+          "name": "Klasztor Bernardynów",
           "description": "W Polsce, gdzie historia ma smak najlepiej dojrzewającego wina, Klasztor oo. Bernardynów to zaiste perła, której mury, często pamiętające XV wiek, szepczą opowieści o minionych epokach. Wędrując jego krużgankami, człowiek mimowolnie zastanawia się, jakież to proste, lecz sycące potrawy gościły na refektarzowych stołach przez stulecia, karmiąc nie tylko ciało, ale i ducha.",
           "latitude": 49.86013607999555,
           "longitude": 19.671499220955607,
           "address": "Bernardyńska 46, 34-130 Kalwaria Zebrzydowska, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "http://www.kalwaria.eu/",
-          "image": "https://kalwaria.eu/wp-content/themes/kalwaria/klasztor1.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/UmaFd66HruyLu7CK7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/UmaFd66HruyLu7CK7",
+          "image": "https://kalwaria.eu/wp-content/themes/kalwaria/klasztor1.jpg"
         },
         {
           "id": "cmentarz-wojenny-z-i-wojny-swiatowej-1915-r",
@@ -7888,7 +7888,7 @@
       "locations": [
         {
           "id": "coba-archaeological-site-77793-q-r-meksyk",
-          "name": "Coba archaeological site, 77793 Q.R., Meksyk",
+          "name": "Coba archaeological site",
           "description": "Gdzieś w sercu meksykańskiej dżungli, tam gdzie słońce praży niczym na rozgrzanym comalu, Robert Makłowicz zawitał do Coby. To prekolumbijskie miasto Majów, z monumentalną piramidą Nohoch Mul na czele, pamięta czasy, gdy po kamiennych drogach, niczym po nitce do kłębka, wędrowały tu zapewne karawany pełne kakao i kukurydzy. Człowiek od razu czuje, że historia ma tu swój niepowtarzalny, wilgotny aromat.",
           "latitude": 20.491168628606744,
           "longitude": -87.72603824658567,
@@ -7896,8 +7896,8 @@
           "country": "Meksyk",
           "type": "tourist_attraction",
           "websiteUrl": "https://www.inah.gob.mx/zonas/515-zona-arqueologica-de-coba",
-          "image": "https://expertvagabond.com/wp-content/uploads/coba-nohoch-mul-pyramid-XL-1-1.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/nSkakRWWTTAUy4eq7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/nSkakRWWTTAUy4eq7",
+          "image": "https://expertvagabond.com/wp-content/uploads/coba-nohoch-mul-pyramid-XL-1-1.jpg"
         },
         {
           "id": "grupo-macanxoc",
@@ -7971,10 +7971,10 @@
           "longitude": -87.43051140873945,
           "address": "Zona Hotelera Tulum, Tulum, Quintana Roo, Mexico",
           "country": "Meksyk",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "image": "https://images.myguide-cdn.com/md/mexico/companies/n-a/large/n-a-716881.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/4gQwvLJfGTNESmsi9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/4gQwvLJfGTNESmsi9",
+          "image": "https://images.myguide-cdn.com/md/mexico/companies/n-a/large/n-a-716881.jpg"
         },
         {
           "id": "arrecife-de-coral-de-tulum",
@@ -8299,16 +8299,16 @@
       "locations": [
         {
           "id": "zamek-krzyzacki-w-bytowie-zamkowa-1-77-100-bytow",
-          "name": "Zamek Krzyżacki w Bytowie, Zamkowa 1, 77-100 Bytów",
+          "name": "Zamek Krzyżacki w Bytowie",
           "description": "Ach, Bytów! Tamtejszy Zamek Krzyżacki, potężna warownia wzniesiona na przełomie XIV i XV wieku, to prawdziwa perełka Pomorza, która opowiada fascynującą historię tych ziem. Choć mury pamiętają surowe czasy rycerzy zakonnych, dziś tchnie z nich gościnność, a wizyta w tym miejscu to doskonała okazja, by poczuć ducha przeszłości i rozejrzeć się za lokalnymi smakołykami, które dopełnią wrażeń z tej historycznej podróży.",
           "latitude": 54.168677397445535,
           "longitude": 17.49188174902706,
           "address": "Szkolna 1, 84-342 Bytów, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://image.bilety24.pl/nf_building_big/building/obiekt52.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/KSHbW43FSXDtxcmWA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/KSHbW43FSXDtxcmWA",
+          "image": "https://image.bilety24.pl/nf_building_big/building/obiekt52.jpg"
         },
         {
           "id": "kaszubskie-zio-a",
@@ -8369,10 +8369,10 @@
           "longitude": 17.026734678620066,
           "address": "Juliana Tuwima 32, 76-200 Słupsk, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "http://www.slupsk.pl/",
-          "image": "https://www.slupsk.pl/var/site/storage/images/0/3/0/3/73030-1-pol-PL/107773749_684048852151583_8873759288623017196_n.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/MDvyaCUfk2hvEawdA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/MDvyaCUfk2hvEawdA",
+          "image": "https://www.slupsk.pl/var/site/storage/images/0/3/0/3/73030-1-pol-PL/107773749_684048852151583_8873759288623017196_n.jpg"
         },
         {
           "id": "omni-kaiser-patisserie",
@@ -8793,10 +8793,10 @@
           "longitude": 19.9457063386618,
           "address": "Rruga Shen Triadha, Berat 5000, Albania",
           "country": "Albania",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/10/da/34/62.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/fctCZCgjEMTV3esb8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/fctCZCgjEMTV3esb8",
+          "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/10/da/34/62.jpg"
         },
         {
           "id": "antigoni",
@@ -8819,10 +8819,10 @@
           "longitude": 20.139387098876487,
           "address": "Rruga Gjin Bue Shpata, Gjirokastër, Albania",
           "country": "Albania",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "http://www.drtkgjirokaster.com/",
-          "image": "https://bartekwpodrozy.pl/wp-content/uploads/2024/01/Depositphotos_94122700_XL-2048x1367.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/c3SfLduQ4Rnoy7JN7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/c3SfLduQ4Rnoy7JN7",
+          "image": "https://bartekwpodrozy.pl/wp-content/uploads/2024/01/Depositphotos_94122700_XL-2048x1367.jpg"
         },
         {
           "id": "cold-war-museum",
@@ -8851,7 +8851,7 @@
       "locations": [
         {
           "id": "sveti-stefan-czarnogora",
-          "name": "Sveti Stefan, Czarnogóra",
+          "name": "Sveti Stefan",
           "description": "Oto Sveti Stefan w Czarnogórze, prawdziwa perełka Adriatyku! Ta dawna rybacka wioska, której korzenie sięgają XV wieku i która niegdyś stanowiła warownię, dziś prezentuje się jako ekskluzywny kurort, wyglądający jakby wyjęty z pocztówki. Można tylko pomarzyć, jakie smaki kryją się w jej kamiennych zaułkach – pewnie świeże owoce morza, przygotowane z pasją godną najlepszych kucharzy.",
           "latitude": 42.2557614470749,
           "longitude": 18.89128416646666,
@@ -8859,8 +8859,8 @@
           "country": "Czarnogóra",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "image": "https://mdrealtyme4927e.zapwp.com/q:i/r:0/wp:1/w:1/u:https://mdrealty.me/wp-content/uploads/Курорт-Свети-Стефан-власти-ожидают-открытия-в-2021-году.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/9aR2hvXNmpQv2MiC7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/9aR2hvXNmpQv2MiC7",
+          "image": "https://mdrealtyme4927e.zapwp.com/q:i/r:0/wp:1/w:1/u:https://mdrealty.me/wp-content/uploads/Курорт-Свети-Стефан-власти-ожидают-открытия-в-2021-году.jpg"
         },
         {
           "id": "jezioro-szkoderskie",
@@ -8909,10 +8909,10 @@
           "longitude": 19.49375191083328,
           "address": "Shkodër, Albania",
           "country": "Albania",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://dalekoniedaleko.pl/wp-content/uploads/2017/08/szkodra_06.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/cyrqZrTRbYXHiZuv9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/cyrqZrTRbYXHiZuv9",
+          "image": "https://dalekoniedaleko.pl/wp-content/uploads/2017/08/szkodra_06.jpg"
         }
       ]
     },
@@ -9343,10 +9343,10 @@
           "longitude": 9.190618243366943,
           "address": "Viale S. Michele del Carso, 12, 20144 Milano MI, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://www.duomomilano.it/",
-          "image": "https://www.bautrip.com/images/what-to-visit/duomo-di-milano.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/jJ7Z7ZNNXU6jYTjZ9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/jJ7Z7ZNNXU6jYTjZ9",
+          "image": "https://www.bautrip.com/images/what-to-visit/duomo-di-milano.jpg"
         },
         {
           "id": "galeria-wiktora-emanuela-ii",
@@ -9768,7 +9768,7 @@
           "longitude": 9.94272720025166,
           "address": "Matmatat-Al-Qadimal, Tunisia",
           "country": "Tunezja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/jBu1E59ukEfKdVkp7",
           "image": "/images/troglodyte-house.jpg"
@@ -9832,10 +9832,10 @@
           "longitude": 10.858910008994798,
           "address": "Rue 2 Mars, Houmt Souk, Tunisia",
           "country": "Tunezja",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "",
-          "image": "https://media-cdn.tripadvisor.com/media/photo-p/13/2b/1c/08/souk-couvert.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ETRKjJaiz3WzJKkb6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ETRKjJaiz3WzJKkb6",
+          "image": "https://media-cdn.tripadvisor.com/media/photo-p/13/2b/1c/08/souk-couvert.jpg"
         },
         {
           "id": "zamek-borj-el-kebir",
@@ -10025,7 +10025,7 @@
           "longitude": 20.974434208195266,
           "address": "Tarnów Plac Dworcowy Train Station, 33-100 Tarnów, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/HUKfs4rbJ1DwjGSF9",
           "image": "/images/galeria-panorama.jpg"
@@ -10784,7 +10784,7 @@
           "longitude": 13.719877508934575,
           "address": "Tolmin, Slovenia",
           "country": "Słowenia",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/D6TkEKrp1JY4jhpM7",
           "image": "/images/memorial-church-of-the-holy-spirit.jpg"
@@ -13433,10 +13433,10 @@
           "longitude": 18.649885260806254,
           "address": "Doki 1, 80-863 Gdańsk, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://3krajobrazygdanskie.com/media/photos/437/original.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/FoHt8maqjBouBNJQ7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/FoHt8maqjBouBNJQ7",
+          "image": "https://3krajobrazygdanskie.com/media/photos/437/original.jpg"
         },
         {
           "id": "europejskie-centrum-solidarnosci",
@@ -13446,10 +13446,10 @@
           "longitude": 18.64970659596087,
           "address": "Jana z Kolna 6, 80-864 Gdańsk, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "https://ecs.gda.pl",
-          "image": "https://ecs.gda.pl/wp-content/uploads/2021/10/ecs_bud_052_zoom-1.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/BerCURiJEDxH6fXJ7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/BerCURiJEDxH6fXJ7",
+          "image": "https://ecs.gda.pl/wp-content/uploads/2021/10/ecs_bud_052_zoom-1.jpg"
         },
         {
           "id": "przystan-jachtowa-marina-gdansk",
@@ -16011,7 +16011,7 @@
           "longitude": 16.171567553467625,
           "address": "Marinje Zemlje, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/NuJqkezaMM1NgL617",
           "image": "/images/stiniva.jpg"
@@ -16305,7 +16305,7 @@
           "longitude": 17.699725761508123,
           "address": "Tvrđava Pozvizd, 20230, Ston, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/qQ1DYK78RvdarqTU6",
           "image": "/images/good-tower.jpg"
@@ -16485,7 +16485,7 @@
           "longitude": 16.438288377094207,
           "address": "Obala Lazareta 1, 21000, Split, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/97EZ6neEcmVZLQ6J6",
           "image": "/images/split-riva.jpg"
@@ -16498,7 +16498,7 @@
           "longitude": 16.440215548121433,
           "address": "Trumbićeva obala 18, 21000, Split, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/Y1c5V2T7p5LhAPCN9",
           "image": "/images/pa-ac-dioklecjana-w-splicie.jpg"
@@ -16557,13 +16557,13 @@
         },
         {
           "id": "napoleon-s-path",
-          "name": "Napoleon's path",
+          "name": "Szlak Napoleona",
           "description": "Historyczna ścieżka, a raczej szlak turystyczny upomiętniający przemarsz wojsk Napoleona przez półwysep Pelješac.",
           "latitude": 42.83328736473892,
           "longitude": 17.66817194703613,
           "address": "Metohija, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/qgpt6ukWVayWUZ7g6",
           "image": "/images/napoleon-s-path.jpg"
@@ -16588,7 +16588,7 @@
           "longitude": 17.162301513840873,
           "address": "Otok Badija 4, 20260, Korčula, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/XZD6WRBiZeSu1XMn9",
           "image": "/images/franciscan-monastery.jpg"
@@ -16740,7 +16740,7 @@
           "longitude": 17.191869768340116,
           "address": "Ul. Bana Josipa Jelačića 104, 20250, Orebić, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/maKgiYV8vYzw8eX5A",
           "image": "/images/plaza-trstenica.jpg"
