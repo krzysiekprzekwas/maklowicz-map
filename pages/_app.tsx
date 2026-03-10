@@ -10,7 +10,8 @@ function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
     if (!process.env.NEXT_PUBLIC_POSTHOG_KEY) return;
     posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY, {
-      api_host: process.env.NEXT_PUBLIC_POSTHOG_HOST ?? 'https://eu.i.posthog.com',
+      api_host: process.env.NEXT_PUBLIC_POSTHOG_HOST ?? 'https://a.sladami-roberta.pl',
+      ui_host: 'https://eu.posthog.com',
       loaded: (ph) => {
         if (process.env.NODE_ENV === 'development') ph.opt_out_capturing();
         if (typeof window !== 'undefined' &&
