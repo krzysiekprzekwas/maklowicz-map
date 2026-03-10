@@ -6,8 +6,7 @@ export interface CountryData {
 
 export type LocationType =
   | 'restaurant' | 'cafe' | 'nature' | 'art_culture'
-  | 'museum' | 'shopping' | 'hotel' | 'tourist_attraction'
-  | 'attraction' | 'other';
+  | 'museum' | 'shopping' | 'hotel' | 'tourist_attraction';
 
 export type LocationCharacter = 'historyczny' | 'patriotyczny' | 'religijny' | 'relaks';
 

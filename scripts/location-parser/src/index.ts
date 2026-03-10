@@ -90,18 +90,18 @@ function generateId(name: string): string {
     .replace(/^-+|-+$/g, ''); // Remove leading/trailing hyphens
 }
 
-function determineLocationType(types: string[]): 'restaurant' | 'attraction' | 'other' {
+function determineLocationType(types: string[]): 'restaurant' | 'tourist_attraction' {
   if (types.includes('restaurant') || types.includes('food') || types.includes('cafe') || types.includes('bar')) {
     return 'restaurant';
   }
   if (types.includes('tourist_attraction') || types.includes('museum') || types.includes('park') || 
       types.includes('point_of_interest') || types.includes('establishment')) {
-    return 'attraction';
+    return 'tourist_attraction';
   }
-  return 'other';
+  return 'tourist_attraction';
 }
 
-function determineLocationTypeFromName(name: string): 'restaurant' | 'attraction' | 'other' {
+function determineLocationTypeFromName(name: string): 'restaurant' | 'tourist_attraction' {
   const lowerName = name.toLowerCase();
   
   // Check for restaurant-related keywords
@@ -134,10 +134,10 @@ function determineLocationTypeFromName(name: string): 'restaurant' | 'attraction
     lowerName.includes('landmark') ||
     lowerName.includes('memorial')
   ) {
-    return 'attraction';
+    return 'tourist_attraction';
   }
   
-  return 'other';
+  return 'tourist_attraction';
 }
 
 async function resolveShortUrl(url: string): Promise<string> {

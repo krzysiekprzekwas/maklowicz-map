@@ -1,6 +1,122 @@
 {
   "videos": [
     {
+      "videoId": "0yho5TDn3as",
+      "videoUrl": "https://www.youtube.com/watch?v=0yho5TDn3as",
+      "title": "ROBERT MAKŁOWICZ TENERYFA odc.178  „Gwizdanie na wulkanie\".",
+      "filterTitle": "Gwizdanie na wulkanie. (odc. 178)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-04-26T15:00:08Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "los-cristianos-port",
+          "name": "Los Cristianos Port",
+          "description": "Los Cristianos Port to miejsce, gdzie morska przygoda splata się z kulinarną obietnicą. Z dawnej, skromnej wioski rybackiej wyrósł tu prawdziwy hub, z którego promy niczym statki-matki wyruszają na sąsiednie wyspy, a zapach świeżych owoców morza unosi się w powietrzu, kusząc do pobliskich tawern. Jest to bowiem nie tylko brama na sąsiednie wyspy, ale i świadectwo dynamicznego rozwoju Teneryfy, gdzie historia spotyka się z nowoczesnym, wakacyjnym zgiełkiem.",
+          "latitude": 28.0479018,
+          "longitude": -16.7184054,
+          "address": "Calle Espigón del Benchijigua, 11A, 38650 NULL, Santa Cruz de Tenerife, Spain",
+          "country": "Hiszpania",
+          "type": "tourist_attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/QfdU9XYP24uRtjGS7",
+          "image": "/images/los-cristianos-port.jpg"
+        },
+        {
+          "id": "mirador-lomada-del-camello",
+          "name": "Mirador Lomada del Camello",
+          "description": "Na hiszpańskiej ziemi, gdzie słońce hojnie obdarza krajobraz złotem, Mirador Lomada del Camello to punkt, z którego świat nabiera zupełnie nowego smaku – i to nie tylko kulinarnego! Z tego miejsca, o nazwie przywodzącej na myśl dalekie podróże i wytrwałość, roztacza się panorama, która aż prosi się o kieliszek lokalnego wina i talerz tapas, by z należytym namaszczeniem celebrować każdą, nawet najmniejszą, chwilę.",
+          "latitude": 28.0852466,
+          "longitude": -17.1368983,
+          "address": "3VP7+36 San Sebastián de La Gomera, Spain",
+          "country": "Hiszpania",
+          "type": "tourist_attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/JckUgzCns6Z4j7MF7",
+          "image": "/images/mirador-lomada-del-camello.jpg"
+        },
+        {
+          "id": "mirador-degollada-de-peraza",
+          "name": "Mirador Degollada de Peraza",
+          "description": "Oto Mirador Degollada de Peraza, punkt widokowy o iście epickim rozmachu, gdzie wzrok błądzi pośród monumentalnych wąwozów La Gomery, schodzących śmiało ku błękitnym wodom Atlantyku. To miejsce arcyciekawe, nie tylko ze względu na fenomenalną panoramę, ale i mroczne legendy o hrabim Perazie, które nadają tutejszym skałom aury tajemniczości. W tym zacnym anturażu, smagani rześką bryzą, możemy kontemplować surowe piękno wulkanicznego krajobrazu, który jest – proszę Państwa – po prostu bezapelacyjnym cudem natury.",
+          "latitude": 28.0996377,
+          "longitude": -17.1847465,
+          "address": "Calle Degollada, 4, 38811, Santa Cruz de Tenerife, Spain",
+          "country": "Hiszpania",
+          "type": "nature",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/7tpX1iz8YsvbQEj7A",
+          "image": "/images/mirador-degollada-de-peraza.jpg"
+        },
+        {
+          "id": "mirador-de-abrante",
+          "name": "Mirador de Abrante",
+          "description": "Na kanaryjskiej La Gomerze, gdzie wiatry szepczą opowieści o dawnych odkrywcach, w 2014 roku wzniesiono konstrukcję, która śmiało mogłaby konkurować z najśmielszymi marzeniami architekta – Mirador de Abrante. Ten szklany balkon, niczym zawieszony w eterze, oferuje widoki tak spektakularne, że aż prosi się o kieliszek lokalnego wina i małą przekąskę, by celebrować moment, w którym pod stopami rozpościera się przepaść, a w oddali majaczy majestatyczny Teide.",
+          "latitude": 28.18591734205811,
+          "longitude": -17.201135158538822,
+          "address": "5QPW+9G Agulo, Spain",
+          "country": "Hiszpania",
+          "type": "tourist_attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/WZXhUqefkqM7ucpCA",
+          "image": "/images/mirador-de-abrante.jpg"
+        },
+        {
+          "id": "torre-del-conde",
+          "name": "Torre del Conde",
+          "description": "Oto i Torre del Conde – prawdziwy klejnot architektury, jedyna średniowieczna warownia, która przetrwała na Wyspach Kanaryjskich, wzniesiona tam w połowie XV wieku, około 1447 roku. Ileż to intryg i podróży widziały jej kamienne ściany, ileż to opowieści mogłyby snuć o żeglarzach i buntach, a wszystko to w miejscu, gdzie historia smakuje równie wybornie, co lokalne słońce.",
+          "latitude": 28.09064694234804,
+          "longitude": -17.111635208129886,
+          "address": "Travesía Barranco Primera, 2, 38811 San Sebastián de La Gomera, Santa Cruz de Tenerife, Spain",
+          "country": "Hiszpania",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZKUU9Uw6xLXEQtqW7",
+          "image": "/images/torre-del-conde.jpg"
+        },
+        {
+          "id": "plaza-de-las-americas",
+          "name": "Plaza de Las Américas",
+          "description": "Plaza de Las Américas to arcyciekawy salon San Sebastián de la Gomera, gdzie historia wielkich odkryć geograficznych splata się z iście kanaryjskim spokojem. W tym zacnym anturażu, pośród palm i zabytkowej architektury, unosi się aromat wybornej pasty almogrote oraz niebywale głębokiego w smaku miodu palmowego. To miejsce jawi się jako fenomenalny przykład harmonii między dawną tradycją a leniwym, wyspiarskim rytmem życia, który jest po prostu... cudem.",
+          "latitude": 28.0904744,
+          "longitude": -17.1102949,
+          "address": "Plaza de las Américas, 18, 38800 San Sebastián de La Gomera, Santa Cruz de Tenerife, Spain",
+          "country": "Hiszpania",
+          "type": "tourist_attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/sPMtq8g7bcfQzbcRA",
+          "image": "/images/plaza-de-las-americas.jpg"
+        },
+        {
+          "id": "plaza-de-masca",
+          "name": "Plaza de Masca",
+          "description": "Wśród wulkanicznych szczytów Teneryfy, gdzie droga wije się niczym wstążka, nagle wyłania się Plaza de Masca – serce wioski, która zdaje się być zawieszona między niebem a ziemią. Podróżnik z pewnością doceniłby ten zapierający dech w piersiach widok, gdzie czas zdaje się płynąć wolniej, a kamienne domy i XVIII-wieczny kościółek szepczą historie, idealne na chwilę zadumy przy lampce lokalnego wina i talerzu *papas arrugadas*.",
+          "latitude": 28.30541974979709,
+          "longitude": -16.840469241142277,
+          "address": "Carretera Masca, 51, 38489 Masca, Santa Cruz de Tenerife, Spain",
+          "country": "Hiszpania",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/nYPzs5ePvytkWBJ57",
+          "image": "/images/plaza-de-masca.jpg"
+        },
+        {
+          "id": "la-piedra",
+          "name": "La Piedra",
+          "description": "W słonecznej Hiszpanii, gdzie kamień pamięta wieki, a słońce opala dachy od wieków, leży La Piedra – miejsce o fundamentach, które, jak wieść niesie, wzniesiono już w XVIII wieku. To właśnie tutaj, w cieniu wiekowych murów, gdzie powietrze wibruje od opowieści, a stół ugina się pod ciężarem lokalnych specjałów, można prawdziwie poczuć ducha hiszpańskiej gościnności, co z pewnością ucieszyłoby niejednego smakosza.",
+          "latitude": 28.305566162944366,
+          "longitude": -16.840753555297855,
+          "address": "C. la Piedra, 15, 38489 Masca, Santa Cruz de Tenerife, Spain",
+          "country": "Hiszpania",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/5XMNvx9nCv5sSWug6",
+          "image": "/images/la-piedra.jpg"
+        }
+      ]
+    },
+    {
       "videoId": "HG1Afci76Bw",
       "videoUrl": "https://www.youtube.com/watch?v=HG1Afci76Bw",
       "title": "ROBERT MAKŁOWICZ TENERYFA odc.177  „Piękne skutki eksplozji\".",
@@ -83,7 +199,7 @@
           "longitude": -16.413960456848148,
           "address": "C. Corraletes, 67, 38359 El Sauzal, Santa Cruz de Tenerife, Spain",
           "country": "Hiszpania",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/xLA9wjqQ6uaRCfeV7",
           "image": "/images/casa-ayo.jpg"
@@ -225,7 +341,7 @@
           "longitude": -16.30175828933716,
           "address": "Calle Dr. José Saez y Saenz Diez, 15, 38107 Santa Cruz de Tenerife, Spain",
           "country": "Hiszpania",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/E9YJbkriChR8NkKN7",
           "image": "/images/la-cueva-caprichosa.jpg"
@@ -290,7 +406,7 @@
           "longitude": -16.25182628631592,
           "address": "Av. la Salle, 4, 38005 Santa Cruz de Tenerife, Spain",
           "country": "Hiszpania",
-          "type": "other",
+          "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/DjVMr62CsSru5zK96",
           "image": "/images/2-centigrados.jpg"
@@ -465,7 +581,7 @@
           "longitude": 19.949331879615787,
           "address": "Dajwór 8, 30-301 Kraków, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/3grBwPq8g2rRphrR9",
           "image": "/images/bufet-krk.jpg"
@@ -491,7 +607,7 @@
           "longitude": 19.940636157989502,
           "address": "Augustiańska 1, 31-064 Kraków, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/scK1vFwfxcG4iYP89",
           "image": "/images/kropka-krakow.jpg"
@@ -504,7 +620,7 @@
           "longitude": 19.944584369659427,
           "address": "Miodowa 19, 31-055 Kraków, Poland",
           "country": "Polska",
-          "type": "other",
+          "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/QDn7r5Be92Q5zEg26",
           "image": "/images/taj-krakow-kazimierz.jpg"

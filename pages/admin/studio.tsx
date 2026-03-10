@@ -51,7 +51,6 @@ const LOCATION_TYPES: LocationType[] = [
   'shopping',
   'hotel',
   'tourist_attraction',
-  'attraction',
 ];
 
 const emptyLocation: Partial<Location> = {

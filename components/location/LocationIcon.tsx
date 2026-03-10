@@ -8,7 +8,7 @@ interface LocationIconProps {
 const LocationIcon = ({ type }: LocationIconProps) => {
   const typeIcon = type === 'restaurant' ? (
     <Utensils className="h-4 w-4" />
-  ) : type === 'attraction' ? (
+  ) : type === 'tourist_attraction' ? (
     <Landmark className="h-4 w-4" />
   ) : (
     <MapPin className="h-4 w-4" />

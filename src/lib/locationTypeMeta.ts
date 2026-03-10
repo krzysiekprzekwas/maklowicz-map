@@ -10,7 +10,6 @@ export const TYPE_META: Record<string, { label: string; icon: ComponentType<Luci
   shopping:           { label: 'Zakupy',               icon: ShoppingBag    },
   hotel:              { label: 'Hotel',                icon: Hotel          },
   tourist_attraction: { label: 'Atrakcja turystyczna', icon: Compass        },
-  attraction:         { label: 'Atrakcja',             icon: Compass        },
 };
 
 export const LOCATION_TYPES = [

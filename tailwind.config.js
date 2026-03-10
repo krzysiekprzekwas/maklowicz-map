@@ -21,23 +21,19 @@ module.exports = {
           border: '#ffc107',
           text: '#8c6d07',
         },
-        attraction: {
+        tourist_attraction: {
           DEFAULT: '#e0d6f9',
           border: '#8a63d2',
           text: '#502d8e',
         },
-        other: {
-          DEFAULT: '#fdd8d8',
-          border: '#e57373',
-          text: '#a73737',
-        }
+
       },
     },
   },
   plugins: [],
   safelist: [
     {
-      pattern: /(bg|text|border)-(primary|secondary|restaurant|attraction)/,
+      pattern: /(bg|text|border)-(primary|secondary|restaurant|tourist_attraction)/,
     },
   ],
 }; 

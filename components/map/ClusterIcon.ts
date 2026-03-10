@@ -9,18 +9,17 @@ export function createClusterCustomIcon(cluster: any) {
   const markers = cluster.getAllChildMarkers();
   
   // Determine dominant location type in cluster
-  const typeCounts = { restaurant: 0, attraction: 0, other: 0 };
+  const typeCounts = { restaurant: 0, tourist_attraction: 0 };
   markers.forEach((marker: any) => {
-    const type = marker.options?.locationType || 'other';
-    if (type in typeCounts) {
-      typeCounts[type as keyof typeof typeCounts]++;
-    }
+    const type = marker.options?.locationType || 'tourist_attraction';
+    const key = type === 'restaurant' ? 'restaurant' : 'tourist_attraction';
+    typeCounts[key]++;
   });
-  
+
   // Find dominant type
-  const dominantType = Object.entries(typeCounts).reduce((a, b) => 
+  const dominantType = Object.entries(typeCounts).reduce((a, b) =>
     a[1] > b[1] ? a : b
-  )[0] as 'restaurant' | 'attraction' | 'other';
+  )[0] as 'restaurant' | 'tourist_attraction';
 
   // Color schemes matching your Tailwind config
   const colorSchemes = {
@@ -29,15 +28,10 @@ export function createClusterCustomIcon(cluster: any) {
       border: '#ffc107',
       text: '#8c6d07',
     },
-    attraction: {
+    tourist_attraction: {
       bg: '#e0d6f9',
       border: '#8a63d2',
       text: '#502d8e',
-    },
-    other: {
-      bg: '#fdd8d8',
-      border: '#e57373',
-      text: '#a73737',
     },
   };
 

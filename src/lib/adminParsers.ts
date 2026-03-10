@@ -105,8 +105,8 @@ function determineLocationType(types: string[]): Location['type'] {
   if (types.includes('art_gallery')) return 'art_culture';
   if (types.includes('lodging')) return 'hotel';
   if (types.includes('shopping_mall') || types.includes('store')) return 'shopping';
-  if (types.includes('point_of_interest') || types.includes('establishment')) return 'attraction';
-  return 'other';
+  if (types.includes('point_of_interest') || types.includes('establishment')) return 'tourist_attraction';
+  return 'tourist_attraction';
 }
 
 function determineLocationTypeFromName(name: string): Location['type'] {
@@ -133,9 +133,9 @@ function determineLocationTypeFromName(name: string): Location['type'] {
     lowerName.includes('garden') ||
     lowerName.includes('landmark')
   ) {
-    return 'attraction';
+    return 'tourist_attraction';
   }
-  return 'other';
+  return 'tourist_attraction';
 }
 
 async function resolveShortUrl(url: string): Promise<string> {

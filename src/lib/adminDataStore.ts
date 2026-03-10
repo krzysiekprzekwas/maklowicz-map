@@ -14,8 +14,6 @@ export const ALLOWED_LOCATION_TYPES: LocationType[] = [
   'shopping',
   'hotel',
   'tourist_attraction',
-  'attraction',
-  'other',
 ];
 
 export type LocationRow = Location & {
@@ -68,7 +66,7 @@ export function ensureUniqueLocationId(baseId: string, takenIds: Set<string>): s
 
 export function sanitizeLocationInput(input: Partial<Location>): Location {
   const name = `${input.name ?? ''}`.trim();
-  const type = `${input.type ?? 'other'}` as LocationType;
+  const type = `${input.type ?? 'tourist_attraction'}` as LocationType;
 
   return {
     id: `${input.id ?? ''}`.trim(),
@@ -78,7 +76,7 @@ export function sanitizeLocationInput(input: Partial<Location>): Location {
     longitude: Number(input.longitude ?? 0),
     address: `${input.address ?? ''}`.trim(),
     country: `${input.country ?? ''}`.trim(),
-    type: ALLOWED_LOCATION_TYPES.includes(type) ? type : 'other',
+    type: ALLOWED_LOCATION_TYPES.includes(type) ? type : 'tourist_attraction',
     websiteUrl: `${input.websiteUrl ?? ''}`.trim(),
     GoogleMapsLink: `${input.GoogleMapsLink ?? ''}`.trim(),
     image: `${input.image ?? ''}`.trim(),

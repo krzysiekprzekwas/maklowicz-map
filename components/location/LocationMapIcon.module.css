@@ -63,18 +63,7 @@
   }
   
   
-  .markerRed { /* For Other */
-      background-color: #fdd8d8;
-      border: 3px solid #e57373;
-  }
-  .markerRed::after {
-      border-top-color: #e57373;
-  }
-  .markerRed .markerIconContent {
-     color: #a73737;
-  }
-  
-  /* --- Leaflet Global Override --- */
+/* --- Leaflet Global Override --- */
   /* Note: Global styles moved to globals.css due to Next.js 16 CSS module restrictions */
 
 .selectedHighlight {
