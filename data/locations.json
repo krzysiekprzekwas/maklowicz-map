@@ -11759,10 +11759,10 @@
           "longitude": 19.040126163582453,
           "address": "Plac Lutra 3, 43-300 Bielsko-Biała, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
-          "image": "https://lh5.googleusercontent.com/proxy/nBsxJH5rtJhbYpKOP9qlZl4uk0qKaSulLWTlbhxoHLEPVqbzXdUsovH7kbR41m0sZZt-J-QFzeV4RzhB8oAeVieyIa8_kr-fVVrJ07vXT6d7",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/3kaCFz4kDHm7T4fB8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/3kaCFz4kDHm7T4fB8",
+          "image": "https://lh5.googleusercontent.com/proxy/nBsxJH5rtJhbYpKOP9qlZl4uk0qKaSulLWTlbhxoHLEPVqbzXdUsovH7kbR41m0sZZt-J-QFzeV4RzhB8oAeVieyIa8_kr-fVVrJ07vXT6d7"
         },
         {
           "id": "ristorante-al-caminetto",
@@ -12268,7 +12268,7 @@
       "locations": [
         {
           "id": "segedyn-wegry",
-          "name": "Segedyn, Węgry",
+          "name": "Segedyn",
           "description": "W Segedynie, urokliwym mieście na południu Węgier, historia splata się z piękną architekturą i niezrównaną gościnnością, a również i z kulturowym dziedzictwem w postaci suszonej węgierskiej papryki. Odwiedzający mogą podziwiać przepiękne budynki z czasów Austro-Węgier, w tym słynną synagogę, która od 1902 roku jest jednym z symboli miasta.",
           "latitude": 46.25278570033293,
           "longitude": 20.14563321991048,
@@ -12276,8 +12276,8 @@
           "country": "Węgry",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "image": "https://navtur.pl/files/plc_pano/356.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ecFeqTFYSoXzN2sQA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ecFeqTFYSoXzN2sQA",
+          "image": "https://navtur.pl/files/plc_pano/356.jpg"
         },
         {
           "id": "old-korossy-fish-restaurant",
@@ -13112,7 +13112,7 @@
           "longitude": 18.359835379954692,
           "address": "Brijeg 21, Trebinje 89101, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/frsc8e6WZW8rw4DG9",
           "image": "/images/hercegowinska-gracanica.jpg"
@@ -13485,10 +13485,10 @@
           "longitude": 18.65335222279266,
           "address": "Długi Targ 44, 80-830 Gdańsk, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://muzeumgdansk.pl/wizyta-w-muzeum-gdanska/oddzialy/",
-          "image": "https://tourguideservicegdansk.pl/wp-content/uploads/2019/02/Dwór-Artusa-w-Gdańsku-Ania-Anna-Kotula-przewodnik-po-Gdansku.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/gzgefpSULKyjmUjU9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/gzgefpSULKyjmUjU9",
+          "image": "https://tourguideservicegdansk.pl/wp-content/uploads/2019/02/Dwór-Artusa-w-Gdańsku-Ania-Anna-Kotula-przewodnik-po-Gdansku.jpg"
         },
         {
           "id": "bazylika-mariacka-wniebowziecia-najswietszej-maryi-panny-w-gdansku",
@@ -13511,10 +13511,10 @@
           "longitude": 18.65374765410023,
           "address": "Świętego Ducha 58, 80-834 Gdańsk, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://bazylikamariacka.gdansk.pl/bazylika/kaplica-krolewska/",
-          "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://bazylikamariacka.gdansk.pl/wp-content/uploads/slider/cache/b61000dc82e93f3f33eb0fa45dfd0756/DSC04111.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/tdYVKXuswQG4Xmqw6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/tdYVKXuswQG4Xmqw6",
+          "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://bazylikamariacka.gdansk.pl/wp-content/uploads/slider/cache/b61000dc82e93f3f33eb0fa45dfd0756/DSC04111.jpg"
         },
         {
           "id": "gdanski-bowke",
@@ -14148,12 +14148,12 @@
         {
           "id": "twierdza-hiszpanska",
           "name": "Twierdza Hiszpańska",
-          "description": "Kolejna z twierdz obronnych na wyspie Hvar.",
+          "description": "Treść wiadomości Gemini\nKłaniam się Państwu nisko, prosto z serca San Sebastián de la Gomera, gdzie słońce operuje z iście kanaryjską finezją!\n\nSpójrzcie Państwo, oto Plaza de Las Américas – salon tej uroczej stolicy, miejsce arcyciekawe i przesiąknięte historią tak gęsto, jak tutejszy miód palmowy. To właśnie tutaj, wśród tych cieni dających wytchnienie, Krzysztof Kolumb miał przechadzać się, dopracowując szczegóły swojej wielkiej wyprawy. Można by rzec: to stąd, z tego skrawka ziemi, Europa po raz pierwszy tak śmiało wyciągnęła rękę po Nowy Świat.\n\nAle nie samą historią człowiek żyje, zwłaszcza gdy wokół roztaczają się zapachy tak fenomenalne! Proszę tylko spojrzeć na te tarasy, na te restauracyjki... Co my tu mamy? Toż to prawdziwe królestwo almogrote! Ta pasta serowa, robiona z twardego koziego sera, czosnku i papryki, to jest – proszę Państwa – absolutna eksplozja smaku. Coś niebywałego!\n\nA do tego, obowiązkowo, papas arrugadas, czyli te małe, pomarszczone ziemniaczki, gotowane w tak słonej wodzie, że ich skórka lśni od kryształków soli niczym śniegi w Alpach, choć przecież jesteśmy niemal u wrót Afryki. Wszystko to skąpane w sosach mojo – czerwonym, pikantnym niczym hiszpański temperament, i zielonym, trawiastym, orzeźwiającym jak poranna bryza.\n\nI nie zapominajmy o miel de palma – to nie jest zwykły miód, to esencja palmy kanaryjskiej, gęsta, ciemna, o głębokim, karmelowym aromacie. Prawdziwy dar natury! Można by tu siedzieć godzinami, popijać miejscowe białe wino ze szczepu Forastera Gomera i po prostu... być. Państwo wybaczą, ale zapach tej zupy z rukwi wodnej, tutejszego potaje de berros, jest tak obezwładniający, że muszę czym prędzej sprawdzić, czy smakuje równie wybornie, jak wygląda.\n\nCudo, po prostu cudo!\n\nTreść Twojej wiadomości\ndużo krócej, 3-4 zdania\nTreść wiadomości Gemini\nKłaniam się Państwu nisko z Plaza de Las Américas, gdzie słońce operuje z iście kanaryjską finezją wśród historycznych murów San Sebastián. To właśnie tutaj, przed wyprawą w nieznane, Krzysztof Kolumb mógł kosztować wybornej pasty almogrote, która jest – proszę Państwa – absolutną i niebywałą eksplozją smaku! Miejsce to jest arcyciekawe, przesycone aromatem morskiej bryzy i lokalnego wina, po prostu fenomenalne. Cudo, po prostu cudo!\n\nCzy chciałby Pan, abym przygotował teraz przepis na wspomniane almogrote, czy może woli Pan opis kolejnego zakątka La Gomery?\n\nTreść Twojej wiadomości\nnie pisz tak jakby Makłowicz to mówił - tylko co to jest, pisane stylem podobnym do makłowicza\nTreść wiadomości Gemini\nPlaza de Las Américas to arcyciekawy salon San Sebastián de la Gomera, gdzie historia wielkich odkryć geograficznych splata się z iście kanaryjskim spokojem. W tym zacnym anturażu, pośród palm i zabytkowej architektury, unosi się aromat wybornej pasty almogrote oraz niebywale głębokiego w smaku miodu palmowego. To miejsce jawi się jako fenomenalny przykład harmonii między dawną tradycją a leniwym, wyspiarskim rytmem życia, który jest po prostu... cudem.\n\nCzy chciałbyś, abym opisał Ci w tym samym stylu inne kluczowe miejsce na mapie La Gomery, na przykład słynną wieżę Torre del Conde?\n\nTreść Twojej wiadomości\nteraz to https://maps.app.goo.gl/7tpX1iz8YsvbQEj7A\nTreść wiadomości Gemini\nOto Mirador Degollada de Peraza, punkt widokowy o iście epickim rozmachu, gdzie wzrok błądzi pośród monumentalnych wąwozów La Gomery, schodzących śmiało ku błękitnym wodom Atlantyku. To miejsce arcyciekawe, nie tylko ze względu na fenomenalną panoramę, ale i mroczne legendy o hrabim Perazie, które nadają tutejszym skałom aury tajemniczości. W tym zacnym anturażu, smagani rześką bryzą, możemy kontemplować surowe piękno wulkanicznego krajobrazu, który jest – proszę Państwa – po prostu bezapelacyjnym cudem natury.\n\nTreść Twojej wiadomości\nteraz to https://maps.app.goo.gl/bS7hv5ocdhqhDDAZA\nTreść wiadomości Gemini\nOto monumentalny mural poświęcony kostce Rubika w Budapeszcie, dzieło iście genialne, upamiętniające najsłynniejszy węgierski wynalazek w samym sercu dzielnicy żydowskiej. Ten barwny akcent na fasadzie kamienicy to arcyciekawy przykład sztuki ulicznej, która z matematyczną precyzją wpisuje się w tkankę tego środkowoeuropejskiego metropolitalnego tygla. W tym zacnym anturażu, pośród gwarnych uliczek Pesztu, mural jawi się jako fenomenalny hołd dla ludzkiego intelektu i kreatywności, będąc po prostu... estetycznym cudem.\n\nTreść Twojej wiadomości\nto, troche krocej\n\nhttps://maps.app.goo.gl/ixWD9topM3JHM1Gr9\nTreść wiadomości Gemini\nOto Góra Teide, potężny wulkan i najwyższy szczyt hiszpańskiej ziemi, który króluje nad Teneryfą z iście cesarskim dostojeństwem. Ten księżycowy, surowy krajobraz z zastygłej lawy to arcyciekawy fenomen natury, wpisany na listę dziedzictwa UNESCO. W tym zacnym anturażu, pośród chmur i wulkanicznych pyłów, człowiek czuje się doprawdy maluczki, obcując z czymś, co jest po prostu... bezapelacyjnym cudem.\n\nTreść Twojej wiadomości\nhttps://maps.app.goo.gl/ixWD9topM3JHM1Gr9\nTreść wiadomości Gemini\nOto Twierdza Hiszpańska w Hvarze, budowla iście monumentalna, która z wyniosłego wzgórza spogląda na adriatyckie wybrzeże z iście królewskim dostojeństwem. Ten arcyciekawy przykład architektury obronnej oferuje widok na miasto i wyspy Paklińskie, który jest doprawdy fenomenalny. W tym zacnym anturażu, pośród kamiennych murów i zapachu rozmarynu, można poczuć tchnienie historii.",
           "latitude": 43.17496209568312,
           "longitude": 16.441820295935635,
           "address": "Hvar, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/ixWD9topM3JHM1Gr9",
           "image": "/images/twierdza-hiszpanska.jpg"
@@ -14320,7 +14320,7 @@
           "longitude": 15.224553714447415,
           "address": "Forum,23000, Zadar, Chorwacja",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://zadar.travel/attractions/attractions/forum",
           "GoogleMapsLink": "https://maps.app.goo.gl/nU64Ec4hiSW6B5Lb8",
           "image": "/images/forum-zadar.jpg"
@@ -15279,7 +15279,7 @@
           "longitude": 16.933594208777738,
           "address": "Franciszkańska 2, 61-001 Poznań, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/cE5vLyziFfNxeQuv5",
           "image": "/images/studzienka-bamberki.jpg"
@@ -15446,7 +15446,7 @@
           "longitude": 20.790181044615945,
           "address": "Mała Wieś 2, 05-622, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "hotel",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/g9UBQWvWhUwbiehe6",
           "image": "/images/palac-mala-wies.jpg"
@@ -16382,10 +16382,10 @@
           "longitude": 17.136517859897236,
           "address": "Ul. Rafa Arneri 10, 20260, Korčula, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "",
-          "image": "https://www.korculainfo.com/blog/wp-content/uploads/marco-polo-center-exterior-tower1-1024x912.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/a5rw4uj47e1AsC5v6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/a5rw4uj47e1AsC5v6",
+          "image": "https://www.korculainfo.com/blog/wp-content/uploads/marco-polo-center-exterior-tower1-1024x912.jpg"
         },
         {
           "id": "skver-konoba",
