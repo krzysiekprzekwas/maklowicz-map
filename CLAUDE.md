@@ -75,6 +75,16 @@ GOOGLE_MAPS_API_KEY=...
 GEMINI_API_KEY=...
 ```
 
+## Analytics
+
+Vercel Analytics is enabled (`src/lib/analytics.ts` wraps `@vercel/analytics`). Local dev (`npm run dev`) is automatically excluded — events are never sent in `NODE_ENV=development`.
+
+To exclude yourself from production analytics (run once in browser DevTools on the live site):
+```js
+localStorage.setItem('analyticsOptOut', 'true')
+```
+To re-enable: `localStorage.removeItem('analyticsOptOut')`
+
 ## Adding New Locations
 
 Use `npm run parse-location` / `npm run parse-video` scripts (in `scripts/`) to generate JSON entries, then manually append to `data/locations.json`. Modify `locations.json` carefully — it is the entire dataset.

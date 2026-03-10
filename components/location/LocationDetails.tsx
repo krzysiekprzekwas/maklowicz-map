@@ -4,6 +4,7 @@ import { Share2, X } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { Sheet } from 'react-modal-sheet';
 import { TYPE_META } from '../../src/lib/locationTypeMeta';
+import { trackShare, trackOutboundLink } from '../../src/lib/analytics';
 
 interface LocationDetailsProps {
   location: Location | null;
@@ -93,6 +94,7 @@ export function LocationDetails({
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-primary underline underline-offset-2"
+            onClick={() => trackOutboundLink('google_maps', location.name)}
           >
             Znajdź lokalizację na Google Maps
           </a>
@@ -110,6 +112,7 @@ export function LocationDetails({
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-primary underline underline-offset-2"
+              onClick={() => trackOutboundLink('youtube', location.name)}
             >
               {video.filterTitle}
             </a>
@@ -121,11 +124,14 @@ export function LocationDetails({
       {/* Action buttons */}
       <div className="pb-6">
         <button
-          onClick={() => navigator.share?.({
-            title: location.name,
-            text: `Sprawdź to miejsce: ${location.name}`,
-            url: `/?placeId=${encodeURIComponent(location.id)}`,
-          })}
+          onClick={() => {
+            trackShare(location.name);
+            navigator.share?.({
+              title: location.name,
+              text: `Sprawdź to miejsce: ${location.name}`,
+              url: `/?placeId=${encodeURIComponent(location.id)}`,
+            });
+          }}
           disabled={typeof navigator !== 'undefined' && !navigator.share}
           className="flex items-center justify-center gap-2 py-2.5 px-4 rounded-full border border-secondary-border bg-white text-primary text-sm hover:border-primary transition-colors disabled:opacity-40"
         >

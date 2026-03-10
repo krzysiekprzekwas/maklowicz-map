@@ -83,7 +83,7 @@
           "longitude": -17.1102949,
           "address": "Plaza de las Américas, 18, 38800 San Sebastián de La Gomera, Santa Cruz de Tenerife, Spain",
           "country": "Hiszpania",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/sPMtq8g7bcfQzbcRA",
           "image": "/images/plaza-de-las-americas.jpg"
@@ -199,7 +199,7 @@
           "longitude": -16.413960456848148,
           "address": "C. Corraletes, 67, 38359 El Sauzal, Santa Cruz de Tenerife, Spain",
           "country": "Hiszpania",
-          "type": "tourist_attraction",
+          "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/xLA9wjqQ6uaRCfeV7",
           "image": "/images/casa-ayo.jpg"
@@ -341,7 +341,7 @@
           "longitude": -16.30175828933716,
           "address": "Calle Dr. José Saez y Saenz Diez, 15, 38107 Santa Cruz de Tenerife, Spain",
           "country": "Hiszpania",
-          "type": "tourist_attraction",
+          "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/E9YJbkriChR8NkKN7",
           "image": "/images/la-cueva-caprichosa.jpg"
@@ -581,7 +581,7 @@
           "longitude": 19.949331879615787,
           "address": "Dajwór 8, 30-301 Kraków, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/3grBwPq8g2rRphrR9",
           "image": "/images/bufet-krk.jpg"
@@ -607,7 +607,7 @@
           "longitude": 19.940636157989502,
           "address": "Augustiańska 1, 31-064 Kraków, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/scK1vFwfxcG4iYP89",
           "image": "/images/kropka-krakow.jpg"
@@ -620,7 +620,7 @@
           "longitude": 19.944584369659427,
           "address": "Miodowa 19, 31-055 Kraków, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/QDn7r5Be92Q5zEg26",
           "image": "/images/taj-krakow-kazimierz.jpg"
@@ -1535,7 +1535,7 @@
           "longitude": 23.73059369894865,
           "address": "Filippon 4, Athina 104 41, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/c1D8q2PPqmxDVyJg7",
           "image": "https://www.ntua.gr/media/djmediatools/cache/images/home-showcase/1170x460-crop-100-1_averof.jpg"
@@ -2191,7 +2191,7 @@
           "longitude": 15.221202749572017,
           "address": "Žižkovo nám. 54, 285 41 Malešov, Czechia",
           "country": "Czechy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/mX7LRdnFEC36JfFp9",
           "image": "/images/the-fortress-malesov.jpg"
@@ -2461,7 +2461,7 @@
           "longitude": 17.008234557705094,
           "address": "Zastinjska, Livno, Bosnia and Herzegovina",
           "country": "Bośnia i Hercegowina",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/BGc8wv76tdQVB5Z17",
           "image": "/images/stari-most.jpg"
@@ -3049,10 +3049,10 @@
           "longitude": 20.957455707153144,
           "address": "Borsucza 10, 02-213 Warszawa, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "http://targowiskobakalarska.pl/",
-          "image": "https://bi.im-g.pl/im/d1/03/14/z20985809IEG,Targowisko-Bakalarska.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/jdKHUs8C6L4M2FB76"
+          "GoogleMapsLink": "https://maps.app.goo.gl/jdKHUs8C6L4M2FB76",
+          "image": "https://bi.im-g.pl/im/d1/03/14/z20985809IEG,Targowisko-Bakalarska.jpg"
         },
         {
           "id": "hanoi-grill",
@@ -3139,10 +3139,10 @@
           "longitude": 57.80369112615278,
           "address": "Beau Champ, Mauritius",
           "country": "Mauritius",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "image": "https://i.content4travel.com/seeplaces/temp/e59133c8-4ad9-46fa-ba57-f4843a049fcc.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/j7VBhZ85J6rkRmLo8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/j7VBhZ85J6rkRmLo8",
+          "image": "https://i.content4travel.com/seeplaces/temp/e59133c8-4ad9-46fa-ba57-f4843a049fcc.jpg"
         },
         {
           "id": "chinese-gourmet",
@@ -3191,10 +3191,10 @@
           "longitude": 57.50201493711968,
           "address": "The Celicourt Tower, Sir Célicourt Antelme St, Port Louis, Mauritius",
           "country": "Mauritius",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://www.holidify.com/images/cmsuploads/compressed/6162882557_16f9ed9234_b_20180829152443.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Ajyh2FrqxGDMLiFg6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Ajyh2FrqxGDMLiFg6",
+          "image": "https://www.holidify.com/images/cmsuploads/compressed/6162882557_16f9ed9234_b_20180829152443.jpg"
         },
         {
           "id": "pure-veg-hare-rama",
@@ -3242,10 +3242,10 @@
           "longitude": 57.49326833456023,
           "address": "Bois Cheri, Mauritius",
           "country": "Mauritius",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://nataniatravel.com/wp-content/uploads/2024/07/Dji_0100-mauritius-ganga-talao-ihindu-temple-ft-1030x525.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/7v79efGn437mm3UE7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/7v79efGn437mm3UE7",
+          "image": "https://nataniatravel.com/wp-content/uploads/2024/07/Dji_0100-mauritius-ganga-talao-ihindu-temple-ft-1030x525.jpg"
         },
         {
           "id": "le-morne-world-heritage-site",
@@ -3255,10 +3255,10 @@
           "longitude": 57.31429404999416,
           "address": "Le Morne Road, Le Morne, Mauritius",
           "country": "Mauritius",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://whc.unesco.org/en/list/1259",
-          "image": "https://www.cipdh.gob.ar/memorias-situadas/wp-content/uploads/2019/02/IMG-20190218-WA0007.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/7e86oNZ2bgT3fYfBA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/7e86oNZ2bgT3fYfBA",
+          "image": "https://www.cipdh.gob.ar/memorias-situadas/wp-content/uploads/2019/02/IMG-20190218-WA0007.jpg"
         },
         {
           "id": "rhumerie-de-chamarel-restaurant-rum-distillery",
@@ -3281,10 +3281,10 @@
           "longitude": 57.385800157939556,
           "address": "Chamarel, Mauritius",
           "country": "Mauritius",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "https://www.chamarel7colouredearth.com/",
-          "image": "https://mauritiusattractions.com/content/images/gallery/1600/chamarel-waterfalls-mauritius%20(2).jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/eW28rsxcYT6MHNwP9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/eW28rsxcYT6MHNwP9",
+          "image": "https://mauritiusattractions.com/content/images/gallery/1600/chamarel-waterfalls-mauritius%20(2).jpg"
         },
         {
           "id": "chamarel-seven-colored-earth-geopark",
@@ -3526,10 +3526,10 @@
           "longitude": 57.786297632635566,
           "address": "Vacoas-Phoenix, Mauritius",
           "country": "Mauritius",
-          "type": "tourist_attraction",
-          "image": "https://vintagemauritius.org/wp-content/uploads/Trou-Deau-Douce-Notre-Dame-du-Bon-Secours.jpg",
+          "type": "art_culture",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/8DNH58EmDQ35GMrD6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/8DNH58EmDQ35GMrD6",
+          "image": "https://vintagemauritius.org/wp-content/uploads/Trou-Deau-Douce-Notre-Dame-du-Bon-Secours.jpg"
         }
       ]
     },
@@ -3757,10 +3757,10 @@
           "longitude": -16.9026718345494,
           "address": "Caminho do Monte, Entrada 151, Porta 4, Monte, 9050-288 Funchal, Portugal",
           "country": "Portugalia",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://cultura.madeira.gov.pt/olhares-sobre-o-passado/2723-imperador-da-%C3%A1ustria,-carlos-de-habsburgo,-i-de-%C3%A1ustria-e-iv-da-hungria.html",
-          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/ff/16/81/caption.jpg?w=1200&h=-1&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/MuAbPndaZRh5mHVP9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/MuAbPndaZRh5mHVP9",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/ff/16/81/caption.jpg?w=1200&h=-1&s=1"
         },
         {
           "id": "koscio-matki-bozej-z-gory",
@@ -3796,10 +3796,10 @@
           "longitude": -16.90746590966375,
           "address": "R. do Castanheiro 29, São Martinho, 9000-081 Funchal, Portugal",
           "country": "Portugalia",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "http://www.fabricastoantonio.com/",
-          "image": "https://visitmadeira.com/media/41ufrxkm/fabrica-de-sto-antonio3-ricardo-paulino.jpg?width=1920&height=1080&rnd=133409047228870000",
-          "GoogleMapsLink": "https://maps.app.goo.gl/CeeDf2s7eNEZeusP8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/CeeDf2s7eNEZeusP8",
+          "image": "https://visitmadeira.com/media/41ufrxkm/fabrica-de-sto-antonio3-ricardo-paulino.jpg?width=1920&height=1080&rnd=133409047228870000"
         },
         {
           "id": "fontanna-funchal-igreja-de-sao-joao-evangelista",
@@ -3835,10 +3835,10 @@
           "longitude": -16.91061751368113,
           "address": "R. Maj. Reis Gomes 2, São Martinho, 9000-038 Funchal, Portugal",
           "country": "Portugalia",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "https://www.blandyswinelodge.com/",
-          "image": "https://visitmadeira.com/media/hgtooh2k/blandy_s-wine-lodge3.jpg?width=1920&height=1080&rnd=133476270423230000",
-          "GoogleMapsLink": "https://maps.app.goo.gl/6e546y1q2fw1DpBq6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/6e546y1q2fw1DpBq6",
+          "image": "https://visitmadeira.com/media/hgtooh2k/blandy_s-wine-lodge3.jpg?width=1920&height=1080&rnd=133476270423230000"
         },
         {
           "id": "peixaria-no-mercado",
@@ -3912,10 +3912,10 @@
           "longitude": 7.750508189763342,
           "address": "13-10 Pl. de la Cathédrale, 67000 Strasbourg, France",
           "country": "Francja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://www.cathedrale-strasbourg.fr/",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Strasbourg_Cathedral_Exterior_-_Diliff.jpg/250px-Strasbourg_Cathedral_Exterior_-_Diliff.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/V7RQZrFxKSK2suhN8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/V7RQZrFxKSK2suhN8",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Strasbourg_Cathedral_Exterior_-_Diliff.jpg/250px-Strasbourg_Cathedral_Exterior_-_Diliff.jpg"
         },
         {
           "id": "patisserie-buhler-la-maison-du-kougelhopf",
@@ -3938,10 +3938,10 @@
           "longitude": 7.750145572022739,
           "address": "21 Pl. Broglie, 67000 Strasbourg, France",
           "country": "Francja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://www.strassburg.eu/sites/default/files/images/hotel-de-ville-altes-rathaus-strassburg_0.JPG",
-          "GoogleMapsLink": "https://maps.app.goo.gl/RLDA3Vzhe4N5xvqp9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/RLDA3Vzhe4N5xvqp9",
+          "image": "https://www.strassburg.eu/sites/default/files/images/hotel-de-ville-altes-rathaus-strassburg_0.JPG"
         },
         {
           "id": "opera-national-du-rhin",
@@ -4029,10 +4029,10 @@
           "longitude": 7.742066859160102,
           "address": "5 Rue des Moulins, 67000 Strasbourg, France",
           "country": "Francja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://www.freetour.com/images/tours/6327/tour-a-pie-gratis-estrasburgo-es-emocionante-16.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/6pTsGohRYCfNKXQY8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/6pTsGohRYCfNKXQY8",
+          "image": "https://www.freetour.com/images/tours/6327/tour-a-pie-gratis-estrasburgo-es-emocionante-16.jpg"
         },
         {
           "id": "le-meteor",
@@ -4325,10 +4325,10 @@
           "longitude": 19.03966535112728,
           "address": "Budapest, Bem rkp. 26, 1011 Hungary",
           "country": "Węgry",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://dohanyutcai.hu/wp-content/uploads/2023/07/kolodko-rubik.png",
-          "GoogleMapsLink": "https://maps.app.goo.gl/nN6HjzP8z49vJUAZ7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/nN6HjzP8z49vJUAZ7",
+          "image": "https://dohanyutcai.hu/wp-content/uploads/2023/07/kolodko-rubik.png"
         },
         {
           "id": "feny-street-market",
@@ -4372,15 +4372,15 @@
         {
           "id": "a-rubik-kocka",
           "name": "A Rubik-kocka",
-          "description": "Węgierska ziemia, która nierzadko zaskakuje podniebienie wybornymi smakami, dała światu również coś dla umysłu – oto bowiem tutaj narodziła się legendarna kostka Rubika. Ten genialny wynalazek Ernő Rubika z 1974 roku, choć z pozoru prosty, potrafi przyprawić o zawrót głowy i sprawić, że niejeden smakosz intelektualnych wyzwań spędzi nad nim długie godziny, próbując ułożyć wszystkie kolory w idealnym porządku.",
+          "description": "Oto monumentalny mural poświęcony kostce Rubika w Budapeszcie, dzieło iście genialne, upamiętniające najsłynniejszy węgierski wynalazek w samym sercu dzielnicy żydowskiej. Ten barwny akcent na fasadzie kamienicy to arcyciekawy przykład sztuki ulicznej, która z matematyczną precyzją wpisuje się w tkankę tego środkowoeuropejskiego metropolitalnego tygla. W tym zacnym anturażu, pośród gwarnych uliczek Pesztu, mural jawi się jako fenomenalny hołd dla ludzkiego intelektu i kreatywności, będąc po prostu... estetycznym cudem.",
           "latitude": 47.49732423569579,
           "longitude": 19.059419601372507,
           "address": "Budapest, Fő u. 9, 1011 Hungary",
           "country": "Węgry",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://budapestflow.b-cdn.net/wp-content/uploads/2016/03/Rubik-cube-1.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/bS7hv5ocdhqhDDAZA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/bS7hv5ocdhqhDDAZA",
+          "image": "https://budapestflow.b-cdn.net/wp-content/uploads/2016/03/Rubik-cube-1.jpg"
         },
         {
           "id": "szabad-bisztro-uj-hely",
@@ -4725,10 +4725,10 @@
           "longitude": 7.60080764675555,
           "address": "Entenpfuhl 6, 56068 Koblenz, Germany",
           "country": "Niemcy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "http://www.koblenz-touristik.de/kultur/plaetze-in-koblenz/goerresplatz.html",
-          "image": "https://www.visit-koblenz.de/_Resources/Persistent/1/2/f/f/12ff4256e8a6f5f383efd1977765494844323b61/Koblenz-Touristik-2019-290-2560x1339-1200x628.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/KntEBxP6AbMfeXb49"
+          "GoogleMapsLink": "https://maps.app.goo.gl/KntEBxP6AbMfeXb49",
+          "image": "https://www.visit-koblenz.de/_Resources/Persistent/1/2/f/f/12ff4256e8a6f5f383efd1977765494844323b61/Koblenz-Touristik-2019-290-2560x1339-1200x628.jpg"
         },
         {
           "id": "basilica-of-st-castor",
@@ -5432,10 +5432,10 @@
           "longitude": 15.893717313508226,
           "address": "Šibenik, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://www.tvrdjava-kulture.hr/hr/",
-          "image": "https://www.zamkipolskie.com/zagranica/chorwacja/sibenik/108.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/HkKPVNHtFoeXQtUa6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/HkKPVNHtFoeXQtUa6",
+          "image": "https://www.zamkipolskie.com/zagranica/chorwacja/sibenik/108.jpg"
         },
         {
           "id": "zaton-chorwacja",
@@ -5534,10 +5534,10 @@
           "longitude": 17.976823587784995,
           "address": "Trsteno Arboretum, Potok 20, 20233, Trsteno, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "http://www.pvdp.hr/",
-          "image": "https://excursionmania.com/cdn-cgi/image/quality=75,format=webp,w=auto,h=auto,fit=scale-down,trim=border/https://excursionmania.com/uploads/blog/gallery/1253/17369424644.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/P6bhkGhodJxDyj3R9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/P6bhkGhodJxDyj3R9",
+          "image": "https://excursionmania.com/cdn-cgi/image/quality=75,format=webp,w=auto,h=auto,fit=scale-down,trim=border/https://excursionmania.com/uploads/blog/gallery/1253/17369424644.jpg"
         },
         {
           "id": "vidikovac-lozica",
@@ -5765,10 +5765,10 @@
           "longitude": -6.103668496865993,
           "address": "Stable House, Kilruddery Demesne West, Bray, Co. Wicklow, Ireland",
           "country": "Irlandia",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "http://www.killruddery.com/",
-          "image": "https://killruddery.com/cdn/shop/files/Killruddery-200_websize_2.jpg?v=1685455818&width=1500",
-          "GoogleMapsLink": "https://maps.app.goo.gl/SeCUdmaVRZ8qWGnV9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/SeCUdmaVRZ8qWGnV9",
+          "image": "https://killruddery.com/cdn/shop/files/Killruddery-200_websize_2.jpg?v=1685455818&width=1500"
         },
         {
           "id": "killruddery-farm-shop",
@@ -5920,10 +5920,10 @@
           "longitude": -6.2590117576569515,
           "address": "Dublin, County Dublin, Ireland",
           "country": "Irlandia",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://www.buildingsofireland.ie/building-images-iiif/niah/images/survey_specific/original/50100272_2.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/LM9xksB7Nxv5BQZb6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/LM9xksB7Nxv5BQZb6",
+          "image": "https://www.buildingsofireland.ie/building-images-iiif/niah/images/survey_specific/original/50100272_2.jpg"
         },
         {
           "id": "o-sheas-restaurant",
@@ -6085,10 +6085,10 @@
           "longitude": -9.431277516812509,
           "address": "Pollboy, County Clare, Ireland",
           "country": "Irlandia",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://img5.digsty.com/NHhOj4F-Or3To2hlUBO39PXOj-wsmKj32zwlCeXLQHs/rs:fit:800:800:1/g:fp:0.5:0.5/aHR0cHM6Ly91cGxvYWQud2lraW1lZGlhLm9yZy93aWtpcGVkaWEvY29tbW9ucy82LzY4L08lMjdCcmllbiUyN3NfVG93ZXIuanBn.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/vcNLb6X7VETntnxa9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/vcNLb6X7VETntnxa9",
+          "image": "https://img5.digsty.com/NHhOj4F-Or3To2hlUBO39PXOj-wsmKj32zwlCeXLQHs/rs:fit:800:800:1/g:fp:0.5:0.5/aHR0cHM6Ly91cGxvYWQud2lraW1lZGlhLm9yZy93aWtpcGVkaWEvY29tbW9ucy82LzY4L08lMjdCcmllbiUyN3NfVG93ZXIuanBn.jpg"
         },
         {
           "id": "zamek-krola-jana",
@@ -6098,10 +6098,10 @@
           "longitude": -8.6254710342608,
           "address": "26 Reidy Park, Deanery Land, Limerick, Ireland",
           "country": "Irlandia",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://us.123rf.com/450wm/patrykkosmider/patrykkosmider1603/patrykkosmider160300996/58699960-king-john-castle-in-limerick-ireland.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ZZJmDSZW1gLn4pW9A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZZJmDSZW1gLn4pW9A",
+          "image": "https://us.123rf.com/450wm/patrykkosmider/patrykkosmider1603/patrykkosmider160300996/58699960-king-john-castle-in-limerick-ireland.jpg"
         },
         {
           "id": "the-glen-tavern",
@@ -6150,10 +6150,10 @@
           "longitude": -8.476439338060569,
           "address": "Shandon Court Apartments, 3 O'Connell Square, Dominick St, Shandon, Cork, Ireland",
           "country": "Irlandia",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "http://www.corkbutter.museum/",
-          "image": "https://www.irishexaminer.com/cms_media/module_img/6096/3048413_3_seoimage4x3_1036147.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/P5y14nhV7p63JkDQ9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/P5y14nhV7p63JkDQ9",
+          "image": "https://www.irishexaminer.com/cms_media/module_img/6096/3048413_3_seoimage4x3_1036147.jpg"
         }
       ]
     },
@@ -6238,10 +6238,10 @@
           "longitude": 25.738037922423903,
           "address": "Agios Nikolaos, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://www.destinationcrete.gr//wp-content/uploads/2021/04/view-of-the-island-of-spinalonga-with-calm-sea-here-were-isolated-lepers-humans-with-gm-1024x576.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/YyaUX2tUvamdJt228"
+          "GoogleMapsLink": "https://maps.app.goo.gl/YyaUX2tUvamdJt228",
+          "image": "https://www.destinationcrete.gr//wp-content/uploads/2021/04/view-of-the-island-of-spinalonga-with-calm-sea-here-were-isolated-lepers-humans-with-gm-1024x576.jpg"
         },
         {
           "id": "ta-kymata",
@@ -6313,10 +6313,10 @@
           "longitude": 25.130769153108762,
           "address": "Geor. Georgiadou 53, Iraklio 713 05, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://aboutheraklion.com/wp-content/uploads/2018/02/61894268_313113852956226_4748229202991909668_n.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/nWCDJn67FiYepXzD6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/nWCDJn67FiYepXzD6",
+          "image": "https://aboutheraklion.com/wp-content/uploads/2018/02/61894268_313113852956226_4748229202991909668_n.jpg"
         },
         {
           "id": "venetian-fortress-rocca-a-mare",
@@ -6365,10 +6365,10 @@
           "longitude": 25.13317716901551,
           "address": "Pl. El. Venizelou 5, Iraklio 712 02, Greece",
           "country": "Grecja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://knossos-palace.gr/wp-content/uploads/2024/07/Jasper_2024-07-26T103A093A30.457Z.jpeg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/w5UResLL71ThCdDUA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/w5UResLL71ThCdDUA",
+          "image": "https://knossos-palace.gr/wp-content/uploads/2024/07/Jasper_2024-07-26T103A093A30.457Z.jpeg"
         },
         {
           "id": "kirkor-bougatsa",
@@ -6713,10 +6713,10 @@
           "longitude": 35.000825608207265,
           "address": "Aqaba, Jordan",
           "country": "Jordania",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://www.shutterstock.com/image-photo/great-arab-revolt-flag-symbol-600nw-412082575.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/UbUCgw5U4Xmfdwug9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/UbUCgw5U4Xmfdwug9",
+          "image": "https://www.shutterstock.com/image-photo/great-arab-revolt-flag-symbol-600nw-412082575.jpg"
         },
         {
           "id": "berenice-beach-resort",

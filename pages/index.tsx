@@ -10,6 +10,7 @@ import { LocationDetails } from '../components/location/LocationDetails';
 import { LocationList } from '../components/location/LocationList';
 import { ViewToggle } from '../components/ViewToggle';
 import type { Location as MapLocation } from '../types/Location';
+import { trackLocationSelect, trackCountryFilter, trackTypeFilter, trackNearbySearch, trackViewToggle } from '../src/lib/analytics';
 
 const Map = dynamic(() => import('../components/map/Map'), {
   ssr: false,
@@ -53,6 +54,14 @@ export default function Home() {
       locationStatus === 'granted' ? nearbyRadius : undefined
     );
 
+  // Track nearby search when geolocation is granted
+  useEffect(() => {
+    if (locationStatus === 'granted') {
+      trackNearbySearch(nearbyRadius);
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [locationStatus]);
+
   // Detect mobile for list view animation variant
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
@@ -66,6 +75,7 @@ export default function Home() {
   const handleLocationSelect = React.useCallback((loc: MapLocation) => {
     setSelectedLocation(loc);
     setPreviewLocation(null);
+    trackLocationSelect(loc);
   }, [setSelectedLocation, setPreviewLocation]);
 
   const handleLocationPreview = React.useCallback((loc: MapLocation) => {
@@ -128,8 +138,13 @@ export default function Home() {
           onCountrySelect={(country) => {
             setSelectedCountry(country);
             if (country) clearUserLocation();
+            trackCountryFilter(country);
           }}
-          onToggleLocationType={toggleLocationType}
+          onToggleLocationType={(type) => {
+            const isActive = !selectedLocationTypes.includes(type);
+            toggleLocationType(type);
+            trackTypeFilter(type, isActive);
+          }}
           onToggleFilters={() => setIsFiltersOpen(!isFiltersOpen)}
           onResetFilters={() => {
             setSelectedCountry(null);
@@ -156,8 +171,13 @@ export default function Home() {
               onCountrySelect={(country) => {
                 setSelectedCountry(country);
                 if (country) clearUserLocation();
+                trackCountryFilter(country);
               }}
-              onToggleLocationType={toggleLocationType}
+              onToggleLocationType={(type) => {
+                const isActive = !selectedLocationTypes.includes(type);
+                toggleLocationType(type);
+                trackTypeFilter(type, isActive);
+              }}
               onClearNearby={clearUserLocation}
               onRequestLocation={requestUserLocation}
               onSetNearbyRadius={setNearbyRadius}
@@ -205,7 +225,15 @@ export default function Home() {
         />
       </div>
 
-      {isMobile && <ViewToggle activeView={activeView} onViewChange={setActiveView} />}
+      {isMobile && (
+        <ViewToggle
+          activeView={activeView}
+          onViewChange={(view) => {
+            setActiveView(view);
+            trackViewToggle(view);
+          }}
+        />
+      )}
     </main>
   );
 }

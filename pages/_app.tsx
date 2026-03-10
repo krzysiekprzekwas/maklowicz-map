@@ -3,6 +3,7 @@ import type { AppProps } from 'next/app';
 import '../styles/globals.css';
 import { Header } from '../components/layout/Header';
 import Head from 'next/head';
+import { Analytics } from '@vercel/analytics/next';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -28,6 +29,15 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Header />
         <Component {...pageProps} className="flex-1" />
       </div>
+      <Analytics
+        beforeSend={(event) => {
+          if (typeof window !== 'undefined' &&
+              localStorage.getItem('analyticsOptOut') === 'true') {
+            return null;
+          }
+          return event;
+        }}
+      />
     </>
   );
 }
