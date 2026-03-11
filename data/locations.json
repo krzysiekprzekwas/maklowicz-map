@@ -1,6 +1,70 @@
 {
   "videos": [
     {
+      "videoId": "C9TZwfrFxV8",
+      "videoUrl": "https://www.youtube.com/watch?v=C9TZwfrFxV8",
+      "title": "ROBERT MAKŁOWICZ POŁUDNIOWY TYROL odc.179 „Szparagi i wino\".",
+      "filterTitle": "Szparagi i wino. (odc. 179)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-05-10T15:00:08Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "terlaner-spargel",
+          "name": "Terlaner Spargel",
+          "description": "Terlaner Spargel, to nie tylko nazwa warzywa, ale wręcz kulinarna instytucja w Południowym Tyrolu, gdzie od wieków pielęgnuje się tradycję uprawy tych białych, delikatnych pędów. To właśnie tutaj, na styku kultur włoskiej i austriackiej, narodziła się legenda szparaga tak wyjątkowego, że jego sezon to prawdziwe święto dla podniebienia. Ich aksamitna delikatność i subtelny smak to efekt stuleci doświadczeń, które sprawiają, że każdy kęs jest niczym opowieść o tej niezwykłej krainie, którą Robert Makłowicz z pewnością doceniłby z uśmiechem i kieliszkiem wina.",
+          "latitude": 46.53065714835454,
+          "longitude": 11.252145767211916,
+          "address": "Ponte sull'Adige, SP11, 39018 Terlano BZ, Italy",
+          "country": "Włochy",
+          "type": "tourist_attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/RXH5UwBwSdbKTEPi7",
+          "image": "/images/terlaner-spargel.jpg"
+        },
+        {
+          "id": "restaurant-patauner",
+          "name": "Restaurant Patauner",
+          "description": "Miejsce, gdzie czas zdaje się płynąć wolniej, a tradycja jest równie solidna jak tutejsze góry. Ta urokliwa gospoda, będąca w rękach tej samej rodziny od pokoleń, z dumą kultywuje południowotyrolskie smaki, oferując gościom nie tylko wyborne potrawy, ale i kawałek żywej historii regionu.",
+          "latitude": 46.51143341983027,
+          "longitude": 11.273807287216188,
+          "address": "Via Bolzano, 2, 39018 Settequerce BZ, Italy",
+          "country": "Włochy",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/W2hUJDErCNK6Ujx77",
+          "image": "/images/restaurant-patauner.jpg"
+        },
+        {
+          "id": "cantina-terlano",
+          "name": "Cantina Terlano",
+          "description": "W malowniczym Południowym Tyrolu, gdzie alpejskie powietrze spotyka się z włoską gościnnością, od 1893 roku działa Cantina Terlano – miejsce, gdzie wino dojrzewa z godnością, niczym dobra opowieść. To niezwykła spółdzielnia, która z finezją łączy tradycję z nowoczesnością, udowadniając, że prawdziwa jakość nie potrzebuje wielkich słów, a jedynie kieliszka pełnego smaku i historii.",
+          "latitude": 46.530782626539164,
+          "longitude": 11.252210140228273,
+          "address": "Via Silberleiten, 7, 39018 Terlano BZ, Italy",
+          "country": "Włochy",
+          "type": "shopping",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Lmw8tRFhj12HbV8k8",
+          "image": "/images/cantina-terlano.jpg"
+        },
+        {
+          "id": "thanhammer",
+          "name": "Thanhammer",
+          "description": "W urokliwym Terlan, gdzie alpejskie szczyty pieszczą śródziemnomorski temperament, Robert Makłowicz z pewnością doceniłby Thanhammer. To azyl tylko dla dorosłych, gdzie cisza ma smak wybornego wina, a poranne śniadanie, pełne lokalnych specjałów, jest preludium do dnia odkrywania historii i kulinarnych cudów regionu. Wszak wiadomo, że w takich miejscach, gdzie tyrolska precyzja spotyka włoską swobodę, każdy kąsek i każdy widok staje się niezapomnianą opowieścią.",
+          "latitude": 46.539373502200725,
+          "longitude": 11.250193119049074,
+          "address": "Via Novale di Sopra, 12, 39018 Terlano BZ, Italy",
+          "country": "Włochy",
+          "type": "hotel",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/dTo4iJD3yEFjX6UK8",
+          "image": "/images/thanhammer.jpg"
+        }
+      ]
+    },
+    {
       "videoId": "0yho5TDn3as",
       "videoUrl": "https://www.youtube.com/watch?v=0yho5TDn3as",
       "title": "ROBERT MAKŁOWICZ TENERYFA odc.178  „Gwizdanie na wulkanie\".",
@@ -10874,7 +10938,7 @@
           "longitude": 13.613014993263825,
           "address": "Drežnica 35, 5222 Kobarid, Slovenia",
           "country": "Słowenia",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/s5f26mJUNAb28kGHA",
           "image": "/images/san-fermin-church.jpg"
@@ -11528,7 +11592,7 @@
           "longitude": 12.388826075104635,
           "address": "Piazza IV Novembre, 1, 06123 Perugia PG, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/PuKfY3RHyLcXuunU6",
           "image": "/images/the-fontana-maggiore.jpg"
