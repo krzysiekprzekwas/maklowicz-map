@@ -1,6 +1,83 @@
 {
   "videos": [
     {
+      "videoId": "VNHQL1a9jsU",
+      "videoUrl": "https://www.youtube.com/watch?v=VNHQL1a9jsU",
+      "title": "ROBERT MAKŁOWICZ POŁUDNIOWY TYROL odc.180 „Z wizytą w kozim raju\".",
+      "filterTitle": "Z wizytą w kozim raju. (odc. 180)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-05-17T15:00:08Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "floribunda-cidervariationen-creazioni-di-sidro",
+          "name": "Floribunda- Cidervariationen Creazioni di Sidro",
+          "description": "W malowniczym zakątku Włoch, gdzie jabłka mają duszę, a słońce hojnie je obdarza, Robert Makłowicz z pewnością z uśmiechem odkryłby Floribundę. To niezwykłe miejsce, gdzie sidr przestaje być prostym napojem, a staje się prawdziwą poezją w butelce, kreowaną z pasją i szacunkiem dla lokalnej, sadowniczej tradycji. Tu nawet najwytrawniejszy koneser znajdzie coś, co zaskoczy jego podniebienie, dowodząc, że historia smaku wciąż pisze się na nowo, z każdym kolejnym łykiem.",
+          "latitude": 46.242996749581465,
+          "longitude": 11.214187145233154,
+          "address": "Via Aldo Moro, 15, 39040 Salorno sulla Strada del Vino BZ, Italy",
+          "country": "Włochy",
+          "type": "shopping",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/TvZjd8owaxEMKc7e8",
+          "image": "/images/floribunda-cidervariationen-creazioni-di-sidro.jpg"
+        },
+        {
+          "id": "gretl-am-see-restaurant",
+          "name": "Gretl am See Restaurant",
+          "description": "W Południowym Tyrolu, gdzie alpejskie szczyty łagodnie schodzą ku krystalicznym jeziorom, Robert Makłowicz z pewnością doceniłby Gretl am See – miejsce, gdzie czas zdaje się płynąć wolniej, a smaki opowiadają historię. Ten urokliwy zakątek, z ponad stuletnią tradycją gospody nad brzegiem jeziora Montiggl, serwuje dania będące kwintesencją regionu – połączeniem alpejskiej solidności i włoskiej finezji. Prawdziwa uczta dla podniebienia i duszy, w otoczeniu widoków, które same w sobie są wybornym deserem.",
+          "latitude": 46.38341223768277,
+          "longitude": 11.259119510650635,
+          "address": "Localita' S. Giuseppe Al Lago, 20, 39052 San Giuseppe al Lago BZ, Italy",
+          "country": "Włochy",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/M2eEPtrs9HpwYbvFA",
+          "image": "/images/gretl-am-see-restaurant.jpg"
+        },
+        {
+          "id": "capriz-feinkaserei-capriz-caseifico",
+          "name": "Capriz Feinkäserei - Capriz Caseifico",
+          "description": "Włoskie Alpy, a w nich Capriz Feinkäserei – Capriz Caseifico, gdzie rodzi się ser, prawdziwy skarb regionu. Robert Makłowicz, z właściwą sobie ciekawością, z pewnością zawitałby w to miejsce, by odkryć tajniki alpejskiej tradycji serowarskiej, gdzie z najlepszego mleka powstają kulinarne arcydzieła, będące świadectwem pasji i górskiego dziedzictwa.",
+          "latitude": 46.81542170764874,
+          "longitude": 11.736295223236084,
+          "address": "Strada Val Pusteria, 1, 39030 Vandoies di Sopra BZ, Italy",
+          "country": "Włochy",
+          "type": "tourist_attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/nFmBE6Q82MuSTR5h6",
+          "image": "/images/capriz-feinkaserei-capriz-caseifico.jpg"
+        },
+        {
+          "id": "viertel-bier",
+          "name": "Viertel Bier",
+          "description": "Włoskie słońce, a tu nagle, niczym fatamorgana, wyłania się Viertel Bier w Trieście – miejscu, gdzie Adriatyk spotyka się z historią monarchii habsburskiej. Nie jest to bynajmniej zwykła piwiarnia, lecz prawdziwa oaza dla koneserów, gdzie złocisty trunek, nierzadko z lokalnych, rzemieślniczych browarów, doskonale komponuje się z wybornymi przekąskami, a w murach czuć ducha środkowoeuropejskiej gościnności.",
+          "latitude": 46.78285614636779,
+          "longitude": 11.668918132781984,
+          "address": "QMM8+5C Natz-Schabs, Autonomous Province of Bolzano – South Tyrol, Italy",
+          "country": "Włochy",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/VrEDnrKtpjG4PPJn9",
+          "image": "/images/viertel-bier.jpg"
+        },
+        {
+          "id": "restaurant-pizzeria-torgglkeller",
+          "name": "Restaurant Pizzeria Torgglkeller",
+          "description": "W sercu Południowego Tyrolu, gdzie alpejskie szczyty spotykają włoską radość życia, znajduje się Restauracja Pizzeria Torgglkeller – miejsce o niebagatelnym, wręcz historycznym rodowodzie. W jego kamiennych piwnicach, które z pewnością widziały niejedną epokę, kulinarna podróż staje się prawdziwą ucztą, gdzie tradycja łączy się z radosnym smakiem, oferując coś więcej niż tylko pizzę. To fenomen, gdzie historia i smak podają sobie ręce.",
+          "latitude": 46.63987565167791,
+          "longitude": 11.56437635421753,
+          "address": "Via Fraghes, 60, 39043 Chiusa BZ, Italy",
+          "country": "Włochy",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/RgsbXiSBH1dDM9TT9",
+          "image": "/images/restaurant-pizzeria-torgglkeller.jpg"
+        }
+      ]
+    },
+    {
       "videoId": "C9TZwfrFxV8",
       "videoUrl": "https://www.youtube.com/watch?v=C9TZwfrFxV8",
       "title": "ROBERT MAKŁOWICZ POŁUDNIOWY TYROL odc.179 „Szparagi i wino\".",
