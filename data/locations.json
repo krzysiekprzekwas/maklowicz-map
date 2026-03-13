@@ -670,7 +670,7 @@
         },
         {
           "id": "c-del-castillo-santa-cruz-de-tenerife-hiszpania",
-          "name": "C. del Castillo, Santa Cruz de Tenerife, Hiszpania",
+          "name": "C. del Castillo",
           "description": "Na słonecznej Teneryfie, w sercu Santa Cruz, ulica C. del Castillo szepcze historie sprzed wieków. To właśnie tutaj, w cieniu dawnego zamku, którego fundamenty pamiętają rok 1575, bije puls miasta. W powietrzu unosi się tu nie tylko zapach morskiej bryzy, ale i obietnica kanaryjskich przysmaków, a niejeden wytrawny smakosz z pewnością znajdzie ukojenie dla podniebienia i pretekst do filiżanki mocnej kawy, spoglądając na minione wieki.",
           "latitude": 28.467172818038,
           "longitude": -16.25162243843079,
@@ -3914,8 +3914,8 @@
           "country": "Portugalia",
           "type": "cafe",
           "websiteUrl": "",
-          "image": "https://www.palmspringslife.com/wp-content/uploads/2016/10/international-banana-museum.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/37PTGh4fNewCcmJy5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/37PTGh4fNewCcmJy5",
+          "image": "/images/banana-museum-cafe.jpg"
         },
         {
           "id": "socalco-nature-hotel",
@@ -4198,7 +4198,7 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/qyLs4YMmG4SUadiV8",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Gutenberg_Statue_in_Strasbourg.jpg/508px-Gutenberg_Statue_in_Strasbourg.jpg"
+          "image": "/images/statue-de-johannes-gutenberg.jpg"
         },
         {
           "id": "katedra-najswietszej-marii-panny-w-strasburgu",
