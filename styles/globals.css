@@ -30,6 +30,13 @@ html, body, #__next {
   border: none !important;
 }
 
+/* Prevent iOS Safari auto-zoom on input focus (triggers when font-size < 16px) */
+@media (max-width: 767px) {
+  input, select, textarea {
+    font-size: 16px;
+  }
+}
+
 /* Disable transitions on mobile for cluster markers */
 @media (max-width: 767px) {
   .marker-cluster,
