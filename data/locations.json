@@ -161,7 +161,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/U2HEkQt9dCMw1bbw5",
-          "image": "/images/enoteca-ansitz-pillhof.jpg"
+          "image": "/images/enoteca-ansitz-pillhof.jpg",
+          "summary": "Winiarski dwór w Południowym Tyrolu – degustacja lokalnych win w alpejskiej posiadłości z tradycjami."
         }
       ]
     },
@@ -186,7 +187,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/TvZjd8owaxEMKc7e8",
-          "image": "/images/floribunda-cidervariationen-creazioni-di-sidro.jpg"
+          "image": "/images/floribunda-cidervariationen-creazioni-di-sidro.jpg",
+          "summary": "Rzemieślnicza wytwórnia cydru z jabłek Południowego Tyrolu – owocowy trunek w wielu odsłonach."
         },
         {
           "id": "gretl-am-see-restaurant",
@@ -199,7 +201,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/M2eEPtrs9HpwYbvFA",
-          "image": "/images/gretl-am-see-restaurant.jpg"
+          "image": "/images/gretl-am-see-restaurant.jpg",
+          "summary": "Restauracja nad alpejskim jeziorem w Południowym Tyrolu – kuchnia regionalna z widokiem na wodę."
         },
         {
           "id": "capriz-feinkaserei-capriz-caseifico",
@@ -212,7 +215,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/nFmBE6Q82MuSTR5h6",
-          "image": "/images/capriz-feinkaserei-capriz-caseifico.jpg"
+          "image": "/images/capriz-feinkaserei-capriz-caseifico.jpg",
+          "summary": "Alpejska serowarnia produkująca tradycyjne sery z mleka górskich krów Południowego Tyrolu."
         },
         {
           "id": "viertel-bier",
@@ -225,7 +229,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/VrEDnrKtpjG4PPJn9",
-          "image": "/images/viertel-bier.jpg"
+          "image": "/images/viertel-bier.jpg",
+          "summary": "Klimatyczny bar piwny w Trieście, gdzie lokalne kraftowe piwa spotykają się z włoskim charakterem."
         },
         {
           "id": "restaurant-pizzeria-torgglkeller",
@@ -238,7 +243,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/RgsbXiSBH1dDM9TT9",
-          "image": "/images/restaurant-pizzeria-torgglkeller.jpg"
+          "image": "/images/restaurant-pizzeria-torgglkeller.jpg",
+          "summary": "Restauracja i pizzeria w Południowym Tyrolu łącząca włoskie i austriackie tradycje kulinarne."
         }
       ]
     },
@@ -263,7 +269,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/RXH5UwBwSdbKTEPi7",
-          "image": "/images/terlaner-spargel.jpg"
+          "image": "/images/terlaner-spargel.jpg",
+          "summary": "Terlan słynie z wyjątkowych białych szparagów – kulinarny skarb Południowego Tyrolu zbierany wiosną."
         },
         {
           "id": "restaurant-patauner",
@@ -276,7 +283,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/W2hUJDErCNK6Ujx77",
-          "image": "/images/restaurant-patauner.jpg"
+          "image": "/images/restaurant-patauner.jpg",
+          "summary": "Tradycyjna restauracja w Południowym Tyrolu, gdzie region serwuje swoje najlepsze dania od pokoleń."
         },
         {
           "id": "cantina-terlano",
@@ -289,7 +297,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/Lmw8tRFhj12HbV8k8",
-          "image": "/images/cantina-terlano.jpg"
+          "image": "/images/cantina-terlano.jpg",
+          "summary": "Spółdzielnia winiarska w Terlan działająca od 1893 roku – jedne z najdłużej leżakujących białych win."
         },
         {
           "id": "thanhammer",
@@ -302,7 +311,8 @@
           "type": "hotel",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/dTo4iJD3yEFjX6UK8",
-          "image": "/images/thanhammer.jpg"
+          "image": "/images/thanhammer.jpg",
+          "summary": "Urokliwy hotel w Terlan, gdzie alpejski spokój Południowego Tyrolu łączy się z włoską gościnnością."
         }
       ]
     },
@@ -327,7 +337,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/QfdU9XYP24uRtjGS7",
-          "image": "/images/los-cristianos-port.jpg"
+          "image": "/images/los-cristianos-port.jpg",
+          "summary": "Port na południu Teneryfy z połączeniami promowymi na inne Wyspy Kanaryjskie."
         },
         {
           "id": "mirador-lomada-del-camello",
@@ -340,7 +351,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/JckUgzCns6Z4j7MF7",
-          "image": "/images/mirador-lomada-del-camello.jpg"
+          "image": "/images/mirador-lomada-del-camello.jpg",
+          "summary": "Punkt widokowy na La Gomerze z rozległą panoramą wulkanicznego krajobrazu i wybrzeża."
         },
         {
           "id": "mirador-degollada-de-peraza",
@@ -353,7 +365,8 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/7tpX1iz8YsvbQEj7A",
-          "image": "/images/mirador-degollada-de-peraza.jpg"
+          "image": "/images/mirador-degollada-de-peraza.jpg",
+          "summary": "Spektakularny punkt widokowy na La Gomerze z panoramą na wulkaniczne góry i głębokie wąwozy."
         },
         {
           "id": "mirador-de-abrante",
@@ -366,7 +379,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/WZXhUqefkqM7ucpCA",
-          "image": "/images/mirador-de-abrante.jpg"
+          "image": "/images/mirador-de-abrante.jpg",
+          "summary": "Szklany taras widokowy z 2014 roku na La Gomerze – 600 metrów nad oceanem."
         },
         {
           "id": "torre-del-conde",
@@ -379,7 +393,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/ZKUU9Uw6xLXEQtqW7",
-          "image": "/images/torre-del-conde.jpg"
+          "image": "/images/torre-del-conde.jpg",
+          "summary": "Jedyna zachowana średniowieczna warownia na La Gomerze, wzniesiona w XV wieku w San Sebastián."
         },
         {
           "id": "plaza-de-las-americas",
@@ -392,7 +407,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/sPMtq8g7bcfQzbcRA",
-          "image": "/images/plaza-de-las-americas.jpg"
+          "image": "/images/plaza-de-las-americas.jpg",
+          "summary": "Historyczny plac w San Sebastián de la Gomera, skąd Kolumb wyruszył w swoją słynną wyprawę."
         },
         {
           "id": "plaza-de-masca",
@@ -405,7 +421,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/nYPzs5ePvytkWBJ57",
-          "image": "/images/plaza-de-masca.jpg"
+          "image": "/images/plaza-de-masca.jpg",
+          "summary": "Plac w malowniczej wiosce Masca, ukrytej w wulkanicznych wąwozach na północy Teneryfy."
         },
         {
           "id": "la-piedra",
@@ -418,7 +435,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/5XMNvx9nCv5sSWug6",
-          "image": "/images/la-piedra.jpg"
+          "image": "/images/la-piedra.jpg",
+          "summary": "Restauracja na Teneryfie z daniami kuchni kanaryjskiej w kamiennym, tradycyjnym budynku."
         }
       ]
     },
@@ -443,7 +461,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/oWqz9rGsSrchs2ry8",
-          "image": "/images/38613-vilaflor-prowincja-santa-cruz-de-tenerife-hiszpania.jpg"
+          "image": "/images/38613-vilaflor-prowincja-santa-cruz-de-tenerife-hiszpania.jpg",
+          "summary": "Najwyżej położona wioska na Teneryfie otoczona lasami sosnowymi na skraju krateru Teide."
         },
         {
           "id": "dulceria-hermano-pedro",
@@ -456,7 +475,8 @@
           "type": "cafe",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/H1dSzEoTDqx4cMXv6",
-          "image": "/images/dulceria-hermano-pedro.jpg"
+          "image": "/images/dulceria-hermano-pedro.jpg",
+          "summary": "Tradycyjna cukiernia z wyspiarskimi słodkościami – lokalne przysmaki rodem z Wysp Kanaryjskich."
         },
         {
           "id": "llano-de-ucanca-vista-point",
@@ -469,7 +489,8 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/TmQrTjx5TUdCJNXf9",
-          "image": "/images/llano-de-ucanca-vista-point.jpg"
+          "image": "/images/llano-de-ucanca-vista-point.jpg",
+          "summary": "Punkt widokowy w Parku Narodowym Teide z panoramą wulkanicznej kaldery i szczytów Teneryfy."
         },
         {
           "id": "cho-pancho",
@@ -482,7 +503,8 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/t1tLsDcwuV52Vyuj9",
-          "image": "/images/cho-pancho.jpg"
+          "image": "/images/cho-pancho.jpg",
+          "summary": "Urokliwa enklawa przyrody na Teneryfie, gdzie kanaryjskie krajobrazy i spokój góralskich terenów."
         },
         {
           "id": "casa-del-vino",
@@ -495,7 +517,8 @@
           "type": "museum",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/1aKgz9c4HvMEfauw5",
-          "image": "/images/casa-del-vino.jpg"
+          "image": "/images/casa-del-vino.jpg",
+          "summary": "Muzeum wina na Teneryfie poświęcone tradycji winiarstwa Wysp Kanaryjskich."
         },
         {
           "id": "casa-ayo",
@@ -508,7 +531,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/xLA9wjqQ6uaRCfeV7",
-          "image": "/images/casa-ayo.jpg"
+          "image": "/images/casa-ayo.jpg",
+          "summary": "Słynna restauracja na Lanzarote serwująca tradycyjne papas arrugadas i dania kuchni kanaryjskiej."
         },
         {
           "id": "la-orotava-prowincja-santa-cruz-de-tenerife-hiszpania",
@@ -521,7 +545,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/fmvMusy2vA3EppW47",
-          "image": "/images/la-orotava-prowincja-santa-cruz-de-tenerife-hiszpania.jpg"
+          "image": "/images/la-orotava-prowincja-santa-cruz-de-tenerife-hiszpania.jpg",
+          "summary": "Kolonialne miasto na Teneryfie z misternie rzeźbionymi balkonami i tradycyjnymi ogrodami."
         },
         {
           "id": "bar-parada-cerveceria",
@@ -534,7 +559,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/1HrbHyNYhMSDRDPw7",
-          "image": "/images/bar-parada-cerveceria.jpg"
+          "image": "/images/bar-parada-cerveceria.jpg",
+          "summary": "Tradycyjny bar z piwem i tapas w Santa Cruz de Tenerife – typowe miejsce codziennego życia wyspy."
         }
       ]
     },
@@ -559,7 +585,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/SYKYGJaawQK8wKBF8",
-          "image": "/images/bazylika-matki-bozej-w-candelarii.jpg"
+          "image": "/images/bazylika-matki-bozej-w-candelarii.jpg",
+          "summary": "Główne sanktuarium Wysp Kanaryjskich z figurą patronki Teneryfy czczoną przez Gwanczów."
         },
         {
           "id": "estatuas-de-los-menceyes",
@@ -572,7 +599,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/MdEKhKGTHWEuTwrT7",
-          "image": "/images/estatuas-de-los-menceyes.jpg"
+          "image": "/images/estatuas-de-los-menceyes.jpg",
+          "summary": "Pomniki dziewięciu tubylczych królów Gwanczów – strażników historii pierwotnych mieszkańców Teneryfy."
         },
         {
           "id": "ermita-de-san-miguel",
@@ -585,7 +613,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/F4E47MFwEZmE2Ltu7",
-          "image": "/images/ermita-de-san-miguel.jpg"
+          "image": "/images/ermita-de-san-miguel.jpg",
+          "summary": "Historyczna kaplica na Teneryfie, skromna i cicha świadek wielowiekowej historii wyspy."
         },
         {
           "id": "casa-alvarado-bracamonte",
@@ -598,7 +627,8 @@
           "type": "museum",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/2DwdEGgqoPMxGpnc8",
-          "image": "/images/casa-alvarado-bracamonte.jpg"
+          "image": "/images/casa-alvarado-bracamonte.jpg",
+          "summary": "XVI-wieczny renesansowy pałac w La Lagunie – perła architektury kanaryjskiej wpisana na listę UNESCO."
         },
         {
           "id": "plaza-de-los-remedios",
@@ -611,7 +641,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/hyVBraxKhprTise68",
-          "image": "/images/plaza-de-los-remedios.jpg"
+          "image": "/images/plaza-de-los-remedios.jpg",
+          "summary": "Serce historycznej La Laguny na Teneryfie z kościołem i kolonialnymi kamienicami wokół placu."
         },
         {
           "id": "casa-salazar",
@@ -624,7 +655,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/Qqr6YxgaSuGkJNxX8",
-          "image": "/images/casa-salazar.jpg"
+          "image": "/images/casa-salazar.jpg",
+          "summary": "Barokowy pałac z XVIII wieku w La Lagunie, siedziba biskupa i perła architektury kolonialnej."
         },
         {
           "id": "municipal-market",
@@ -637,7 +669,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/oANV4YaQgm8ZTsFe8",
-          "image": "/images/municipal-market.jpg"
+          "image": "/images/municipal-market.jpg",
+          "summary": "Miejski targ w Santa Cruz de Tenerife z lokalną żywnością, świeżymi owocami i kanaryjską atmosferą."
         },
         {
           "id": "la-cueva-caprichosa",
@@ -650,7 +683,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/E9YJbkriChR8NkKN7",
-          "image": "/images/la-cueva-caprichosa.jpg"
+          "image": "/images/la-cueva-caprichosa.jpg",
+          "summary": "Restauracja wykuta w skale na Teneryfie, serwująca dania kuchni kanaryjskiej w groteskowym wnętrzu."
         },
         {
           "id": "playa-de-las-teresitas",
@@ -663,7 +697,8 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/MjXee13coeYzCxFh7",
-          "image": "/images/playa-de-las-teresitas.jpg"
+          "image": "/images/playa-de-las-teresitas.jpg",
+          "summary": "Sztucznie usypana plaża ze złotym piaskiem z Sahary – najpiękniejsza miejska plaża Teneryfy."
         },
         {
           "id": "plaza-de-espana",
@@ -676,7 +711,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/SQ4Kf8VmFCnsgHGCA",
-          "image": "/images/plaza-de-espana.jpg"
+          "image": "/images/plaza-de-espana.jpg",
+          "summary": "Reprezentacyjny plac w Santa Cruz de Tenerife z fontanną i charakterystyczną architekturą lat 20."
         },
         {
           "id": "c-del-castillo-santa-cruz-de-tenerife-hiszpania",
@@ -689,7 +725,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/uEtsMamdgBdQqdjT6",
-          "image": "/images/c-del-castillo-santa-cruz-de-tenerife-hiszpania.jpg"
+          "image": "/images/c-del-castillo-santa-cruz-de-tenerife-hiszpania.jpg",
+          "summary": "Główna ulica handlowa Santa Cruz de Tenerife z butikamii kawiarniami w kolonialnych kamienicach."
         },
         {
           "id": "mercado-ntra-senora-de-africa",
@@ -702,7 +739,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/Kjcb2Lr65hKqPSVE8",
-          "image": "/images/mercado-ntra-senora-de-africa.jpg"
+          "image": "/images/mercado-ntra-senora-de-africa.jpg",
+          "summary": "Tętniący kolorami targ z 1943 roku w Santa Cruz, gdzie kanaryjskie owoce i ryby pienią się obfitością."
         },
         {
           "id": "2-centigrados",
@@ -715,7 +753,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/DjVMr62CsSru5zK96",
-          "image": "/images/2-centigrados.jpg"
+          "image": "/images/2-centigrados.jpg",
+          "summary": "Restauracja i bar w Santa Cruz de Tenerife z kreatywną kuchnią w nowoczesnym wydaniu."
         }
       ]
     },
@@ -740,7 +779,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/FPzJzu1S2webEiCa9",
-          "image": "/images/obelisk-upamietniajacy-smierc-leonharda-von-thun-und-hohenstein.jpg"
+          "image": "/images/obelisk-upamietniajacy-smierc-leonharda-von-thun-und-hohenstein.jpg",
+          "summary": "Obelisk przy Przełęczy Snozka upamiętniający hrabiego von Thun, który zginął tu w 1809 roku."
         },
         {
           "id": "cmentarz-wojenny-nr-368",
@@ -753,7 +793,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/cZAbF76rUS9YFmHH9",
-          "image": "/images/cmentarz-wojenny-nr-368.jpg"
+          "image": "/images/cmentarz-wojenny-nr-368.jpg",
+          "summary": "Kameralny cmentarz z I wojny światowej na Pogórzu Karpackim – jeden z 400 galicyjskich nekropolii."
         }
       ]
     },
@@ -778,7 +819,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/e8XPjTei1CHzz8HSA",
-          "image": "/images/rynek-w-lipnicy-murowanej.jpg"
+          "image": "/images/rynek-w-lipnicy-murowanej.jpg",
+          "summary": "Średniowieczny rynek małopolskiej wsi Lipnica Murowana, znany z wierzbowych palm na Wielkanoc."
         },
         {
           "id": "koscio-sw-leonarda",
@@ -791,7 +833,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/HwoUS1UKfeGxTJRV7",
-          "image": "/images/koscio-sw-leonarda.jpg"
+          "image": "/images/koscio-sw-leonarda.jpg",
+          "summary": "Drewniany kościół z XV wieku w Lipnicy Murowanej, wpisany na listę UNESCO jako zabytek architektury."
         }
       ]
     },
@@ -838,7 +881,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/gGLBqGGVNC2nauaA6",
-          "image": "/images/asia-deli-delikatesy-azjatyckie-krakow.jpg"
+          "image": "/images/asia-deli-delikatesy-azjatyckie-krakow.jpg",
+          "summary": "Sklep z azjatyckimi produktami w Krakowie – spiżarnia dla miłośników kuchni Dalekiego Wschodu."
         },
         {
           "id": "greckie-przysmaki-greckie-delikatesy",
@@ -851,7 +895,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/NVvjxgRvW4XDZgSB7",
-          "image": "/images/greckie-przysmaki-greckie-delikatesy.jpg"
+          "image": "/images/greckie-przysmaki-greckie-delikatesy.jpg",
+          "summary": "Delikatesy z greckimi przysmakamii oliwą, oliwkami i serami feta prosto z Hellady."
         },
         {
           "id": "favo-deli-apero-delikatesy",
@@ -864,7 +909,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/BhRHBwBnG6ZaWqzM6",
-          "image": "/images/favo-deli-apero-delikatesy.jpg"
+          "image": "/images/favo-deli-apero-delikatesy.jpg",
+          "summary": "Delikatesy z wyselekcjonowanymi produktami włoskimi i śródziemnomorskimi w sercu Krakowa."
         },
         {
           "id": "best-market",
@@ -877,7 +923,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/3e3i8VpVTvxjgw7J9",
-          "image": "/images/best-market.jpg"
+          "image": "/images/best-market.jpg",
+          "summary": "Sklep wielokulturowy w Krakowie z produktami z całego świata – kulinarna wyprawa bez wyjazdu."
         },
         {
           "id": "bufet-krk",
@@ -890,7 +937,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/3grBwPq8g2rRphrR9",
-          "image": "/images/bufet-krk.jpg"
+          "image": "/images/bufet-krk.jpg",
+          "summary": "Niedrogi bufet w centrum Krakowa z prostą polską kuchnią dla głodnych o każdej porze dnia."
         },
         {
           "id": "rynek-podgorski",
@@ -903,7 +951,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/AHYr12XtP2JSHd5u9",
-          "image": "/images/rynek-podgorski.jpg"
+          "image": "/images/rynek-podgorski.jpg",
+          "summary": "Historyczny plac w podkrakowskim Podgórzu, niegdyś centrum osobnego miasta z mroczną historią."
         },
         {
           "id": "kropka-krakow",
@@ -916,7 +965,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/scK1vFwfxcG4iYP89",
-          "image": "/images/kropka-krakow.jpg"
+          "image": "/images/kropka-krakow.jpg",
+          "summary": "Restauracja w Krakowie serwująca nowoczesne polskie dania z lokalnych składników."
         },
         {
           "id": "taj-krakow-kazimierz",
@@ -929,7 +979,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/QDn7r5Be92Q5zEg26",
-          "image": "/images/taj-krakow-kazimierz.jpg"
+          "image": "/images/taj-krakow-kazimierz.jpg",
+          "summary": "Restauracja z kuchnią indyjską na krakowskim Kazimierzu – subkontynentalne smaki w żydowskiej dzielnicy."
         }
       ]
     },
@@ -954,7 +1005,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/NWBt3cw9hrCwJvB6A",
-          "image": "/images/bastion-sakwowy.jpg"
+          "image": "/images/bastion-sakwowy.jpg",
+          "summary": "Renesansowy bastion obronny w Krakowie z tarasem widokowym na Wisłę i Wawel."
         },
         {
           "id": "gustaw-restauracja",
@@ -967,7 +1019,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/MRizscMJBHwFk7X88",
-          "image": "/images/gustaw-restauracja.jpg"
+          "image": "/images/gustaw-restauracja.jpg",
+          "summary": "Restauracja w Krakowie z klasyczną polską kuchnią serwowaną w eleganckim, historycznym wnętrzu."
         },
         {
           "id": "dworzec-swiebodzki",
@@ -980,7 +1033,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/UkYPKJrQuGwbUZso8",
-          "image": "/images/dworzec-swiebodzki.jpg"
+          "image": "/images/dworzec-swiebodzki.jpg",
+          "summary": "Neogotycki dworzec kolejowy z 1842 roku we Wrocławiu – jeden z najstarszych zachowanych w Polsce."
         },
         {
           "id": "pastrami-summer-wroc-aw",
@@ -993,7 +1047,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/pniNUqf5mUmb3jA58",
-          "image": "/images/pastrami-summer-wroc-aw.jpg"
+          "image": "/images/pastrami-summer-wroc-aw.jpg",
+          "summary": "Wrocławski lokal serwujący kanapki z pastrami i street food inspirowany kuchnią żydowską."
         },
         {
           "id": "muzeum-gry-i-komputery-minionej-ery",
@@ -1006,7 +1061,8 @@
           "type": "museum",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/6okwRCdCC8MuiWWa9",
-          "image": "/images/muzeum-gry-i-komputery-minionej-ery-muzeum-gier.jpg"
+          "image": "/images/muzeum-gry-i-komputery-minionej-ery-muzeum-gier.jpg",
+          "summary": "Muzeum z kolekcją gier i komputerów lat 80. i 90. – sentymentalna podróż w czasy 8-bitowe."
         },
         {
           "id": "szparagi-prosto-z-pola-agrar-magnice",
@@ -1019,7 +1075,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/qS6KpVvK9hrrZR999",
-          "image": "/images/szparagi-prosto-z-pola-agrar-magnice.jpg"
+          "image": "/images/szparagi-prosto-z-pola-agrar-magnice.jpg",
+          "summary": "Sezonowa sprzedaż białych szparagów prosto z dolnośląskich pól – wiosenny rarytas."
         },
         {
           "id": "piekarnia-gurumi-korean-bakery",
@@ -1032,7 +1089,8 @@
           "type": "cafe",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/VS35V4tXgoeHbPSs7",
-          "image": "/images/piekarnia-gurumi-korean-bakery.jpg"
+          "image": "/images/piekarnia-gurumi-korean-bakery.jpg",
+          "summary": "Koreańska piekarnia we Wrocławiu z chlebkiem mlecznym, bao i słodkościami rodem z Seulu."
         },
         {
           "id": "u-i-mart-korean-mart-asian-mart-k-food",
@@ -1045,7 +1103,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/kc32GYYgQbdttems8",
-          "image": "/images/u-i-mart-korean-mart-asian-mart-k-food.jpg"
+          "image": "/images/u-i-mart-korean-mart-asian-mart-k-food.jpg",
+          "summary": "Koreański sklep spożywczy we Wrocławiu z autentycznymi produktami i przekąskami z Azji Wschodniej."
         },
         {
           "id": "father-s-kitchen",
@@ -1058,7 +1117,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/HxpUv8z76RSjyTWe7",
-          "image": "/images/father-s-kitchen.jpg"
+          "image": "/images/father-s-kitchen.jpg",
+          "summary": "Restauracja z domową kuchnią polską – proste, szczere dania jakby od ojca."
         },
         {
           "id": "miedzy-mostami-kuchnia-polska-restauracja-wroc-aw",
@@ -1071,7 +1131,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/mmDoLxjtVdpSjMNv6",
-          "image": "/images/miedzy-mostami-kuchnia-polska-restauracja-wroc-aw.jpg"
+          "image": "/images/miedzy-mostami-kuchnia-polska-restauracja-wroc-aw.jpg",
+          "summary": "Restauracja z tradycyjną polską kuchnią we Wrocławiu, dumnie serwująca regionalne klasyki."
         }
       ]
     },
@@ -1096,7 +1157,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/Woo8TbotWM6q1Gxx9",
-          "image": "/images/marina-topacz.jpg"
+          "image": "/images/marina-topacz.jpg",
+          "summary": "Przystań jachtowa na Odrze pod Wrocławiem z restauracją i widokiem na wodę."
         },
         {
           "id": "most-grunwaldzki",
@@ -1109,7 +1171,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/XPqZVJZGbUEQBRyn9",
-          "image": "/images/most-grunwaldzki.jpg"
+          "image": "/images/most-grunwaldzki.jpg",
+          "summary": "Wiszący most z 1910 roku we Wrocławiu – arcydzieło inżynierii z początku XX wieku."
         },
         {
           "id": "rynek-50-529-wroc-aw",
@@ -1122,7 +1185,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/icsy1vU8VteZAjMd7",
-          "image": "/images/rynek-50-529-wroc-aw.jpg"
+          "image": "/images/rynek-50-529-wroc-aw.jpg",
+          "summary": "Jeden z największych rynków miejskich w Polsce, serce Wrocławia z gotyckim ratuszem."
         },
         {
           "id": "restauracja-piwnica-swidnicka",
@@ -1135,7 +1199,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/FN7Hw6EdnH2cGgan7",
-          "image": "/images/restauracja-piwnica-swidnicka-wroc-aw.jpg"
+          "image": "/images/restauracja-piwnica-swidnicka-wroc-aw.jpg",
+          "summary": "Najstarsza piwiarnia w Polsce działająca od 1273 roku w gotyckich piwnicach wrocławskiego ratusza."
         },
         {
           "id": "domek-miedziorytnika",
@@ -1148,7 +1213,8 @@
           "type": "museum",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/U8h8vchhnQ1Fkore8",
-          "image": "/images/domek-miedziorytnika.jpg"
+          "image": "/images/domek-miedziorytnika.jpg",
+          "summary": "Mały barokowy domek we Wrocławiu słynący z bogatej historii rzemiosła artystycznego."
         },
         {
           "id": "krasnale-pozarki",
@@ -1161,7 +1227,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/X36hBCtWNpvFZNXs6",
-          "image": "/images/krasnale-pozarki.jpg"
+          "image": "/images/krasnale-pozarki.jpg",
+          "summary": "Wrocławskie krasnale strażackie – jeden z setek figurek rozsianych po mieście od 2001 roku."
         },
         {
           "id": "baba",
@@ -1174,7 +1241,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/SkU1jL3y8erujwGK8",
-          "image": "/images/baba.jpg"
+          "image": "/images/baba.jpg",
+          "summary": "Restauracja we Wrocławiu z nowoczesną kuchnią polską i naciskiem na lokalne, sezonowe produkty."
         },
         {
           "id": "hala-stulecia",
@@ -1187,7 +1255,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/RYsCZNYdUxzvLTRC7",
-          "image": "/images/hala-stulecia.jpg"
+          "image": "/images/hala-stulecia.jpg",
+          "summary": "Hala widowiskowo-sportowa z 1913 roku – arcydzieło modernizmu i obiekt wpisany na listę UNESCO."
         },
         {
           "id": "iglica-wroclaw",
@@ -1200,7 +1269,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/ThoNRY7NzVxGv3Fs9",
-          "image": "/images/iglica.jpg"
+          "image": "/images/iglica.jpg",
+          "summary": "Stalowa iglica z 1948 roku, symbol odbudowy Wrocławia, wzniesiona na Wystawie Ziem Odzyskanych."
         },
         {
           "id": "restauracja-tarasowa",
@@ -1213,7 +1283,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/NGxbkzLNXAhYGLBy8",
-          "image": "/images/restauracja-tarasowa.jpg"
+          "image": "/images/restauracja-tarasowa.jpg",
+          "summary": "Restauracja w Hali Stulecia we Wrocławiu z widokiem na słynną kopułę i park Szczytnicki."
         },
         {
           "id": "zoo-wroclaw",
@@ -1226,7 +1297,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/mKMJqTNH886k8i328",
-          "image": "/images/zoo-wroc-aw.jpg"
+          "image": "/images/zoo-wroc-aw.jpg",
+          "summary": "Jedno z największych i najstarszych zoo w Polsce, założone w 1865 roku nad Odrą."
         },
         {
           "id": "stacja-breslau",
@@ -1239,7 +1311,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/pF66xruQq2GCKZ87A",
-          "image": "/images/stacja-breslau.jpg"
+          "image": "/images/stacja-breslau.jpg",
+          "summary": "Restauracja we Wrocławiu nawiązująca do historii miasta jako Breslau w klimacie dworca kolejowego."
         }
       ]
     },
@@ -1264,7 +1337,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/d42jUUAnV5WSmXqr7",
-          "image": "/images/dubai-mall-waterfalls.png"
+          "image": "/images/dubai-mall-waterfalls.png",
+          "summary": "Spektakularny sztuczny wodospad wewnątrz Dubai Mall – jedna z atrakcji największego centrum handlowego świata."
         },
         {
           "id": "the-dubai-mall",
@@ -1277,7 +1351,8 @@
           "type": "shopping",
           "websiteUrl": "https://thedubaimall.com",
           "GoogleMapsLink": "https://maps.app.goo.gl/mDgzhWoEH86M7nhQ9",
-          "image": "/images/the-dubai-mall.jpg.avif"
+          "image": "/images/the-dubai-mall.jpg.avif",
+          "summary": "Największe centrum handlowe świata w Dubaju z lodowiskiem, akwarium i spektakularnymi wodospadami."
         },
         {
           "id": "orfali-bros-restaurant",
@@ -1290,7 +1365,8 @@
           "type": "restaurant",
           "image": "https://www.theworlds50best.com/discovery/filestore/jpg/Orfali-Bros-Bistro-Dubai-UAE%20(1).jpg",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/NsruFnR8gUmtT83BA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/NsruFnR8gUmtT83BA",
+          "summary": "Restauracja z gwiazdką Michelin w Dubaju serwująca kreatywne miniporcje inspirowane Bliskim Wschodem."
         },
         {
           "id": "time-out-market-dubai",
@@ -1303,7 +1379,8 @@
           "type": "restaurant",
           "image": "https://www.caterermiddleeast.com/2021/06/VwSQyWO9-Time_Out_Market_Dubai_CTME.jpg",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/7Nw2KSZH442omyQLA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/7Nw2KSZH442omyQLA",
+          "summary": "Nowoczesny foodhall w Dubaju z najlepszymi restauracjami miasta pod jednym dachem."
         },
         {
           "id": "the-lana-dorchester-collection",
@@ -1316,7 +1393,8 @@
           "type": "restaurant",
           "image": "https://www.dorchestercollection.com/media/1bepkzm1/the-lana-veranda-night-view-dorchester-collection-full-size.jpg?rxy=0.5864661654135338%2C0.639981382359786&width=548&height=516&format=webp&rmode=crop",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/CBedV9NbooCT1RK67"
+          "GoogleMapsLink": "https://maps.app.goo.gl/CBedV9NbooCT1RK67",
+          "summary": "Restauracja na dachu luksusowego hotelu The Lana z widokiem na panoramę Dubaju."
         },
         {
           "id": "museum-of-the-future",
@@ -1329,7 +1407,8 @@
           "type": "museum",
           "image": "https://www.maccaferri.com/pl/wp-content/uploads/2023/06/2170_1-27.jpg",
           "websiteUrl": "https://museumofthefuture.ae/en",
-          "GoogleMapsLink": "https://maps.app.goo.gl/QbXEUL5PmbkLHYbQ9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/QbXEUL5PmbkLHYbQ9",
+          "summary": "Futurystyczne muzeum w kształcie oka w Dubaju poświęcone technologiom i wizjom przyszłości."
         },
         {
           "id": "sufret-maryam",
@@ -1342,7 +1421,8 @@
           "type": "restaurant",
           "image": "https://eatgosee.com/wp-content/uploads/2024/12/Sufret-Maryam-Restaurant-Main-Dining-Table.webp",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/382k6J1kt14wNhSj7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/382k6J1kt14wNhSj7",
+          "summary": "Restauracja z kuchnią emiracką prowadzona przez jedną z najbardziej cenionych szefowych kuchni Dubaju."
         },
         {
           "id": "the-view-palm-jumeirah",
@@ -1355,7 +1435,8 @@
           "type": "tourist_attraction",
           "image": "https://www.theviewpalm.ae/sites/default/files/ewkutxqfbcv5yl0mts4k.webp",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/myv6TWG5WAp4vLuS9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/myv6TWG5WAp4vLuS9",
+          "summary": "Przeszklony taras widokowy na Wyspach Palmowych z panoramą Dubaju z wysokości ponad 240 metrów."
         }
       ]
     },
@@ -1380,7 +1461,8 @@
           "type": "hotel",
           "websiteUrl": "https://www.lacabanaecohotel.com/",
           "GoogleMapsLink": "https://maps.app.goo.gl/NJdF1ufuryMAP2ZP7",
-          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/5c/da/fe/ecohotel-la-cabana.jpg?w=900&h=-1&s=1"
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/5c/da/fe/ecohotel-la-cabana.jpg?w=900&h=-1&s=1",
+          "summary": "Agroturystyczny hotel w Salento w kolumbijskiej dolinie kawy – cisza, natura i lokalne smaki."
         },
         {
           "id": "cafe-jesus-martin",
@@ -1393,7 +1475,8 @@
           "type": "cafe",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/mEeWcryzU3n3FTsHA",
-          "image": "https://media-cdn.tripadvisor.com/media/photo-s/06/7d/01/c0/cafe-jesus-martin.jpg"
+          "image": "https://media-cdn.tripadvisor.com/media/photo-s/06/7d/01/c0/cafe-jesus-martin.jpg",
+          "summary": "Kawiarnia w Kartagenie serwująca jedną z najlepszych kaw w Kolumbii z własnej palarnii."
         }
       ]
     },
@@ -1418,7 +1501,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/rQDMzXfdM7w2UoLT8",
-          "image": "https://sprudge.com/wp-content/uploads/2022/06/Cafe-San-Alberto-2.jpg"
+          "image": "https://sprudge.com/wp-content/uploads/2022/06/Cafe-San-Alberto-2.jpg",
+          "summary": "Wyjątkowa kawiarnia w Kartagenie parząca kawę metodami z XIX wieku z kolumbijskich ziaren."
         },
         {
           "id": "lena-y-carbon",
@@ -1433,7 +1517,8 @@
           "GoogleMapsLink": "https://maps.app.goo.gl/XkZZRw4ENGqUh8DV6",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/f5/2d/5f/caption.jpg?w=900&h=500&s=1",
           "character": [],
-          "isFilteredOut": false
+          "isFilteredOut": false,
+          "summary": "Restauracja w Kartagenie specjalizująca się w daniach z grilla według regionalnych receptur."
         },
         {
           "id": "la-serrezuela",
@@ -1446,7 +1531,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/oPtnEtKq3XQigwTo7",
-          "image": "https://tensoestructuras.cidelsa.com/wp-content/uploads/2022/03/la-serrezuela-shopping-mall-cidelsa.jpg"
+          "image": "https://tensoestructuras.cidelsa.com/wp-content/uploads/2022/03/la-serrezuela-shopping-mall-cidelsa.jpg",
+          "summary": "Zabytkowy XIX-wieczny budynek w Kartagenie z targiem i kulturalną przestrzenią w dawnej arenie."
         },
         {
           "id": "parque-centenario",
@@ -1459,7 +1545,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/GvQDvrJ8HiWC4nXs7",
-          "image": "https://media-cdn.sygictraveldata.com/media/1200x630/612664395a40232133447d33247d3836323436353135"
+          "image": "https://media-cdn.sygictraveldata.com/media/1200x630/612664395a40232133447d33247d3836323436353135",
+          "summary": "Park z 1916 roku w Kartagenie z bujną tropikalną roślinnością i pomnikami historii."
         },
         {
           "id": "basilica-pizzería-café",
@@ -1472,7 +1559,8 @@
           "type": "restaurant",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/b5/f3/bf/painting-wall.jpg?w=500&h=-1&s=1",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/MvrncD6hoR7fq1xt9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/MvrncD6hoR7fq1xt9",
+          "summary": "Pizzeria-kawiarnia w Kartagenie znana z koktajlu Coco Loco i relaksującej atmosfery."
         },
         {
           "id": "rebelion-alma-sabor",
@@ -1485,7 +1573,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.instagram.com/rebelion_ctg/",
           "GoogleMapsLink": "https://maps.app.goo.gl/8KgkUUAT5v1EYiRGA",
-          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/18/6f/97/caption.jpg?w=900&h=500&s=1"
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/18/6f/97/caption.jpg?w=900&h=500&s=1",
+          "summary": "Restauracja w Kartagenie z autentyczną kuchnią karaibską – ryby, kokos i lokalne smaki."
         }
       ]
     },
@@ -1510,7 +1599,8 @@
           "type": "art_culture",
           "image": "https://mustique.co/wp-content/uploads/2025/09/san-felipe-from-air-scaled.jpg",
           "websiteUrl": "http://fortificacionescartagena.com.co/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/zXPdC3SLWCYbDe5Q8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/zXPdC3SLWCYbDe5Q8",
+          "summary": "Potężna hiszpańska twierdza z XVII wieku wznosząca się nad Kartageną – największa w Ameryce."
         },
         {
           "id": "monumento-torre-del-reloj",
@@ -1523,7 +1613,8 @@
           "type": "art_culture",
           "image": "https://www.visitcartagena.com.co/_next/image?url=%2Fimages%2Fplaces%2Ftorre-reloj.jpg&w=3840&q=75",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/VS1ZKpEywqsTFBDN8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/VS1ZKpEywqsTFBDN8",
+          "summary": "Słynna Brama Zegarowa z XIX wieku – symboliczne wejście do zabytkowego centrum Kartageny."
         },
         {
           "id": "cancha-restaurante-ceviches-sushi",
@@ -1536,7 +1627,8 @@
           "type": "restaurant",
           "image": "https://gaycities-lv.b-cdn.net/listings/originals/restaurants-310542-mar-y-zielo-evlams-7bde2.png?width=318&height=318&aspect_ratio=1:1",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/XLX4WYJzinztnCby6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/XLX4WYJzinztnCby6",
+          "summary": "Restauracja w Kartagenie z wybornym ceviche i owocami morza gotowanymi w soku z limonki."
         },
         {
           "id": "abaco-libros-y-cafe",
@@ -1549,7 +1641,8 @@
           "type": "cafe",
           "image": "https://www.abacolibros.com/wp-content/uploads/2015/09/abaco.jpg",
           "websiteUrl": "https://www.abacolibros.com",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Q5GNNs8nxBqNsWPD7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Q5GNNs8nxBqNsWPD7",
+          "summary": "Klimatyczna kawiarnia-księgarnia w Kartagenie – kawa, książki i kolumbijska atmosfera."
         },
         {
           "id": "hotel-movich-cartagena-de-indias",
@@ -1562,7 +1655,8 @@
           "type": "hotel",
           "image": "https://www.movichhotels.com/storage/2025/09/movich-ctg-01-1.webp",
           "websiteUrl": "https://www.movichhotels.com/cartagena",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ZXCPp3Q1MeTtWkn28"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZXCPp3Q1MeTtWkn28",
+          "summary": "Butikowy hotel w centrum historycznej Kartageny z tarasową restauracją z widokiem na miasto."
         }
       ]
     },
@@ -1587,7 +1681,8 @@
           "type": "restaurant",
           "websiteUrl": "https://monka.com.pl/torun/",
           "GoogleMapsLink": "https://maps.app.goo.gl/PY1tx6p7e8o6zfq98",
-          "image": "https://monka.com.pl/wp-content/uploads/2025/09/MONKA_8-min.jpg"
+          "image": "https://monka.com.pl/wp-content/uploads/2025/09/MONKA_8-min.jpg",
+          "summary": "Restauracja i piekarnia w barokowym spichlerzu toruńskiego podzamcza."
         },
         {
           "id": "dom-miko-aja-kopernika",
@@ -1600,7 +1695,8 @@
           "type": "museum",
           "websiteUrl": "https://muzeum.torun.pl/dom-mikolaja-kopernika/",
           "GoogleMapsLink": "https://maps.app.goo.gl/39F2ZV6xGiYAog1d9",
-          "image": "https://zwiedzajtorun.pl/wp-content/uploads/2019/04/dom-kopernika.jpg"
+          "image": "https://zwiedzajtorun.pl/wp-content/uploads/2019/04/dom-kopernika.jpg",
+          "summary": "Dom urodzin Mikołaja Kopernika w Toruniu, dziś muzeum wielkiego astronoma."
         },
         {
           "id": "4-pory-roku-restauracja",
@@ -1613,7 +1709,8 @@
           "type": "restaurant",
           "websiteUrl": "http://poryroku.com.pl/",
           "GoogleMapsLink": "https://maps.app.goo.gl/ndZLfFowbDoTECQ36",
-          "image": "/images/4-pory-roku-restauracja.jpg"
+          "image": "/images/4-pory-roku-restauracja.jpg",
+          "summary": "Restauracja w dawnym młynie na toruńskim podzamczu z polską kuchnią i historycznym klimatem."
         },
         {
           "id": "rejsy-w-toruniu-nasuta-copernicus",
@@ -1626,7 +1723,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/pkeqVjj1tbpSyq8S9",
-          "image": "https://r.profitroom.pl/copernicustorunhotel/images/attractions/1730908728.Nasuta%20Copernicus.jpg"
+          "image": "https://r.profitroom.pl/copernicustorunhotel/images/attractions/1730908728.Nasuta%20Copernicus.jpg",
+          "summary": "Replika średniowiecznej koggi towarowej – rejs po Wiśle śladem historii toruńskiego handlu."
         }
       ]
     },
@@ -1651,7 +1749,8 @@
           "type": "museum",
           "websiteUrl": "https://muzeum.torun.pl/muzeum-torunskiego-piernika/",
           "GoogleMapsLink": "https://maps.app.goo.gl/BJ9snSxF7cX9WFRg7",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Muzeum_Toruńskiego_Piernika1.jpg"
+          "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Muzeum_Toruńskiego_Piernika1.jpg",
+          "summary": "Muzeum piernika toruńskiego w dawnej XIX-wiecznej fabryce z warsztatami i historią słodkiej tradycji."
         },
         {
           "id": "iga-sarzynska-wzrusza-torun-pierniki-i-czekolada",
@@ -1664,7 +1763,8 @@
           "type": "shopping",
           "image": "https://tylkotorun.pl/wp-content/uploads/2023/06/Iga-Sarzynska-piec11-scaled.jpg",
           "websiteUrl": "http://igasarzynska.pl/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/3dYmRDEk1FD9QySA7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/3dYmRDEk1FD9QySA7",
+          "summary": "Pracownia wyrafinowanych pierników i czekolad – toruński przysmak w artystycznym wydaniu."
         },
         {
           "id": "intek-art-pracownia-witrazy-intek-s-awomir",
@@ -1677,7 +1777,8 @@
           "type": "shopping",
           "websiteUrl": "http://www.intekart.pl/",
           "GoogleMapsLink": "https://maps.app.goo.gl/FCDqehZsx3Z4jFr29",
-          "image": "/images/intek-art-pracownia-witrazy-intek-s-awomir.jpg"
+          "image": "/images/intek-art-pracownia-witrazy-intek-s-awomir.jpg",
+          "summary": "Pracownia witraży w Toruniu łącząca tradycyjne rzemiosło z nowoczesnym wzornictwem."
         },
         {
           "id": "spichrz-restauracja-w-toruniu",
@@ -1690,7 +1791,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.spichrz.pl/restauracja/#karta-menu",
           "GoogleMapsLink": "https://maps.app.goo.gl/t9pr9vCTodfUmA8v9",
-          "image": "/images/spichrz-restauracja-w-toruniu.jpg"
+          "image": "/images/spichrz-restauracja-w-toruniu.jpg",
+          "summary": "Restauracja w zabytkowym spichlerzu toruńskim serwująca dania według historycznych receptur."
         }
       ]
     },
@@ -1715,7 +1817,8 @@
           "type": "nature",
           "image": "https://www.destinationcrete.gr//wp-content/uploads/2021/04/eb98abc90c5-1000x576.jpg",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/269jByprsu9VC3mXA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/269jByprsu9VC3mXA",
+          "summary": "Piaszczysta plaża na Samos z widokiem na wybrzeże Azji Mniejszej – spokój na skraju dwóch kontynentów."
         },
         {
           "id": "pythagoras-statue",
@@ -1728,7 +1831,8 @@
           "type": "art_culture",
           "image": "https://global-geography.org/attach/Geography/Europe/Greece/Pictures/Samos/Pythagoras_Statue_Pythagorio_2/B117_Pythagoras_Statue_Pythagorio_Pythagoras_Statue_Pythagorio.jpg",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/eNb8V25kYkLGBSXz5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/eNb8V25kYkLGBSXz5",
+          "summary": "Pomnik Pitagorasa w Pythagorion na Samos – hołd dla filozofa i matematyka urodzonego na tej wyspie."
         },
         {
           "id": "tunel-eupalinosa",
@@ -1741,7 +1845,8 @@
           "type": "art_culture",
           "image": "https://zwiedzo-maniacy.pl/lib/gm405y/Tunel-mini-min-makrjgcy.jpg",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/MDpp4QtJ83z2H5Cx7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/MDpp4QtJ83z2H5Cx7",
+          "summary": "Antyczny akwedukt z VI w. p.n.e. wykuty w skale – cud starożytnej inżynierii na wyspie Samos."
         },
         {
           "id": "monastyr-matki-boskiej-samos",
@@ -1754,7 +1859,8 @@
           "type": "art_culture",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/05/3d/69/monastery-of-megali-panagia.jpg?w=1200&h=-1&s=1",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/fKe9v9j2q6kW2VvX6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/fKe9v9j2q6kW2VvX6",
+          "summary": "Czynny klasztor z XVII wieku na zboczu góry Ambelos, zamieszkany przez mnichów do dziś."
         },
         {
           "id": "sama-authentic-samos-cuisine",
@@ -1767,7 +1873,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/SzFCC3tTfRSsmhhA8",
-          "image": "/images/sama-authentic-samos-cuisine.jpg"
+          "image": "/images/sama-authentic-samos-cuisine.jpg",
+          "summary": "Tawerna z autentyczną grecką kuchnią górską – lokalne produkty wyspy Samos w prostym wydaniu."
         },
         {
           "id": "metaxa-liknon",
@@ -1780,7 +1887,8 @@
           "type": "shopping",
           "image": "https://www.metaxa.com/cdn/shop/files/1._METAXA_LIKNON_2_1920x.jpg?v=1745230106",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/FrkbaT27kf9TyuXU6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/FrkbaT27kf9TyuXU6",
+          "summary": "Destylarnia słynnej greckiej brandy Metaxa na wyspie Samos – kolebka tego wyjątkowego trunku."
         },
         {
           "id": "mermizeli",
@@ -1793,7 +1901,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.facebook.com/Mermizeli/",
           "GoogleMapsLink": "https://maps.app.goo.gl/HD6dRYgiiwzZcc699",
-          "image": "/images/mermizeli.jpg"
+          "image": "/images/mermizeli.jpg",
+          "summary": "Restauracja przy marinie Pythagorion na Samos z owocami morza i widokiem na port."
         }
       ]
     },
@@ -1818,7 +1927,8 @@
           "type": "cafe",
           "image": "https://mindtrip.ai/cdn-cgi/image/format=webp,w=720/https://tcdn.mindtrip.ai/images/252614/1i0w5wp.png",
           "websiteUrl": "https://mokka.coffee/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/agPSJwr9SGHUDqxF9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/agPSJwr9SGHUDqxF9",
+          "summary": "Kawiarnia speciality w Atenach parząca kawę z brazylijskich i etiopskich plantacji."
         },
         {
           "id": "stani",
@@ -1831,7 +1941,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.stani1931.com/",
           "GoogleMapsLink": "https://maps.app.goo.gl/1SP8H64SBAD9Rf5n8",
-          "image": "/images/stani.jpg"
+          "image": "/images/stani.jpg",
+          "summary": "Tradycyjny grecki sklep mleczny w Atenach, który wyrósł na kultowe miejsce śniadaniowe."
         },
         {
           "id": "politechnio-ateny-104-32-grecja",
@@ -1844,7 +1955,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/c1D8q2PPqmxDVyJg7",
-          "image": "https://www.ntua.gr/media/djmediatools/cache/images/home-showcase/1170x460-crop-100-1_averof.jpg"
+          "image": "https://www.ntua.gr/media/djmediatools/cache/images/home-showcase/1170x460-crop-100-1_averof.jpg",
+          "summary": "Brama Politechniki Ateńskiej – symbol studenckiego powstania przeciwko juncie wojskowej w 1973 roku."
         },
         {
           "id": "lefteris-o-politis-est-1951",
@@ -1857,7 +1969,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.lefterisopolitis.gr/",
           "GoogleMapsLink": "https://maps.app.goo.gl/VwAuEbWSgUJMRGu39",
-          "image": "/images/lefteris-o-politis-est-1951.jpg"
+          "image": "/images/lefteris-o-politis-est-1951.jpg",
+          "summary": "Kultowy ateński street food od 1951 roku – pita z gyrosem, szaszłyk i kiełbaski suzukaki."
         },
         {
           "id": "loukoumades-ktistakis",
@@ -1870,7 +1983,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/Vwd5vsDT8vgrQrvd8",
-          "image": "/images/loukoumades-ktistakis.jpg"
+          "image": "/images/loukoumades-ktistakis.jpg",
+          "summary": "Lokal w Atenach serwujący wyłącznie loukoumades – greckie mini pączki w miodzie i cynamonie."
         },
         {
           "id": "metaxa-monoprosopi-abe",
@@ -1883,7 +1997,8 @@
           "type": "tourist_attraction",
           "image": "https://mindtrip.ai/cdn-cgi/image/format=webp,w=720/https://images.mindtrip.ai/attractions/24c9/7dce/3b5c/1d4b/1709/3787/a3d7/7b64",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/HK7E2YW2QfuHicdh6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/HK7E2YW2QfuHicdh6",
+          "summary": "Historyczna destylarnia oryginalnej Metaxy w Atenach – rzadko dostępna dla zwiedzających."
         },
         {
           "id": "george-of-the-deep-sea",
@@ -1896,7 +2011,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/z3xPx2atXTchYsFZA",
-          "image": "/images/george-of-the-deep-sea.jpg"
+          "image": "/images/george-of-the-deep-sea.jpg",
+          "summary": "Nieturystyczna ateńska restauracja rybna, gdzie sam wybierasz rybę i sposób jej przyrządzenia."
         },
         {
           "id": "mikrolimano",
@@ -1909,7 +2025,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/mAwoqCaLZRsKaVKp6",
-          "image": "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=center,quality=60,width=400,height=265,dpr=2/tour_img/86e79466d06627f6522036830fe917826bc5483d52474504a423cd2b72185988.jpg"
+          "image": "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=center,quality=60,width=400,height=265,dpr=2/tour_img/86e79466d06627f6522036830fe917826bc5483d52474504a423cd2b72185988.jpg",
+          "summary": "Malowniczy port w Pireusie z restauracjami rybnymi – niegdyś największa marina starożytnej Grecji."
         },
         {
           "id": "piraeus-port",
@@ -1922,7 +2039,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/czuntxQuZb8BYwpj7",
-          "image": "https://www.greece-is.com/wp-content/uploads/2021/01/limani-02.jpg"
+          "image": "https://www.greece-is.com/wp-content/uploads/2021/01/limani-02.jpg",
+          "summary": "Największy port w Europie i brama do greckich wysp – serce morskiej komunikacji Aten."
         }
       ]
     },
@@ -1947,7 +2065,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/ZXKNNLQxjH3P9fZT9",
-          "image": "https://chwalazapomniana.pl/wp-content/uploads/2020/03/DSC_1369.jpg"
+          "image": "https://chwalazapomniana.pl/wp-content/uploads/2020/03/DSC_1369.jpg",
+          "summary": "Najstarszy kamienny teatr na świecie u stóp Akropolu, miejsce narodzin greckiej tragedii."
         },
         {
           "id": "agora-atenska",
@@ -1960,7 +2079,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/Q7FMKnRSJk3VQuBVA",
-          "image": "https://podrozebezosci.pl/wp-content/uploads/2020/01/hefajstejon-swiatynia-hefajstosa-ateny-agora-atenska-starozytna-grecja-zwiedzanie-atrakcje.jpg"
+          "image": "https://podrozebezosci.pl/wp-content/uploads/2020/01/hefajstejon-swiatynia-hefajstosa-ateny-agora-atenska-starozytna-grecja-zwiedzanie-atrakcje.jpg",
+          "summary": "Starożytna Agora Ateńska – kolebka demokracji, filozofii i handlu antycznej Grecji."
         },
         {
           "id": "partenon",
@@ -1973,7 +2093,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/6JYDAZmqPSyXXJYy8",
-          "image": "https://www.podrozepoeuropie.pl/system/gallery/images/images/000/013/346/large/Partenon-AKROPOL-Ateny.jpg?1583095780"
+          "image": "https://www.podrozepoeuropie.pl/system/gallery/images/images/000/013/346/large/Partenon-AKROPOL-Ateny.jpg?1583095780",
+          "summary": "Świątynia bogini Ateny z V w. p.n.e. na Akropolu – symbol antycznej Grecji i architektury."
         },
         {
           "id": "centralny-rynek-komunalny-w-atenach",
@@ -1986,7 +2107,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/2YxVXUaCDok2EAEdA",
-          "image": "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=center,quality=60,width=400,height=265,dpr=2/tour_img/62722debddcdf.png"
+          "image": "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=center,quality=60,width=400,height=265,dpr=2/tour_img/62722debddcdf.png",
+          "summary": "Hala targowa w Atenach ze świeżymi rybami, mięsem i warzywami – serce kulinarnych Aten."
         },
         {
           "id": "miran-athens",
@@ -1999,7 +2121,8 @@
           "type": "shopping",
           "websiteUrl": "https://www.mirandeli.com/miranathens",
           "GoogleMapsLink": "https://maps.app.goo.gl/E7qTGtrYvuyAs1ER6",
-          "image": "https://www.greekgastronomyguide.gr/wp-content/uploads/2015/07/miran-DSC_2072.jpg"
+          "image": "https://www.greekgastronomyguide.gr/wp-content/uploads/2015/07/miran-DSC_2072.jpg",
+          "summary": "Delikatesy w Atenach z wyselekcjonowanymi produktami śródziemnomorskimi i lokalnymi specjałami."
         },
         {
           "id": "tavern-klimataria",
@@ -2012,7 +2135,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.klimataria.gr/",
           "GoogleMapsLink": "https://maps.app.goo.gl/kFH42cyMu7WUhTZ77",
-          "image": "https://www.greekgastronomyguide.gr/wp-content/uploads/2017/12/taverna-klimataria-attiki-DSC_5849-823x549.jpg"
+          "image": "https://www.greekgastronomyguide.gr/wp-content/uploads/2017/12/taverna-klimataria-attiki-DSC_5849-823x549.jpg",
+          "summary": "Tradycyjna tawerna ateńska czynna nieprzerwanie od lat 20. XX wieku z klasyczną kuchnią grecką."
         },
         {
           "id": "monastiraki-square",
@@ -2025,7 +2149,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/FtdzRfKk65Wkkous9",
-          "image": "https://as2.ftcdn.net/v2/jpg/02/25/62/93/1000_F_225629353_PSvyIGezpCgEsqLjn8IWlCnVQXWzQDEf.jpg"
+          "image": "https://as2.ftcdn.net/v2/jpg/02/25/62/93/1000_F_225629353_PSvyIGezpCgEsqLjn8IWlCnVQXWzQDEf.jpg",
+          "summary": "Tętniący plac w centrum Aten z bazarem, kawiarnami i widokiem na Akropol."
         },
         {
           "id": "biblioteka-hadriana",
@@ -2038,7 +2163,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/MX8ui5skbFnVdZy47",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Βιβλιοθήκη_Αδριανού_4165.jpg"
+          "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Βιβλιοθήκη_Αδριανού_4165.jpg",
+          "summary": "Starożytna biblioteka z II w. n.e. w centrum Aten, ufundowana przez cesarza Hadriana."
         },
         {
           "id": "dopios",
@@ -2051,7 +2177,8 @@
           "type": "restaurant",
           "websiteUrl": "https://dopiosrestaurant.gr",
           "GoogleMapsLink": "https://maps.app.goo.gl/u8xHZzbiwxTm7br47",
-          "image": "https://www.living-postcards.com/sites/default/files/56a4020_0.jpeg"
+          "image": "https://www.living-postcards.com/sites/default/files/56a4020_0.jpeg",
+          "summary": "Bezpretensjonalna ateńska restauracja z tarasem, grillowanym mięsem i klasycznym souvlaki."
         }
       ]
     },
@@ -2076,7 +2203,8 @@
           "type": "museum",
           "image": "https://hispanico.pl/wp-content/uploads/2023/12/palac-ksiazat-burgundii-architektura-plac-monument-zwiedzanie-stare-miasto-dijon-francja.jpg",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/jQnqWd9iPtqRt4YP6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/jQnqWd9iPtqRt4YP6",
+          "summary": "Dawna siedziba książąt Burgundii w Dijon, dziś muzeum z kolekcją od średniowiecza po XIX wiek."
         },
         {
           "id": "b-comme-bourgogne",
@@ -2089,7 +2217,8 @@
           "type": "shopping",
           "websiteUrl": "https://bcommebourgogne.fr/",
           "GoogleMapsLink": "https://maps.app.goo.gl/G899mBj8PUYV9EGq6",
-          "image": "/images/b-comme-bourgogne.jpg"
+          "image": "/images/b-comme-bourgogne.jpg",
+          "summary": "Sklep w Dijon z najlepszymi winami burgundzkimi i lokalnymi specjałami regionu."
         },
         {
           "id": "dijon-burgundy-theatre",
@@ -2102,7 +2231,8 @@
           "type": "art_culture",
           "websiteUrl": "https://www.tdb-cdn.com/",
           "GoogleMapsLink": "https://maps.app.goo.gl/ZHmBYaUzJMnWAjex9",
-          "image": "https://www.asso-acdn.fr/wp-content/uploads/2023/07/parvis-saint-jean-tdb-credit-vincent-arbel-1024x687.jpg"
+          "image": "https://www.asso-acdn.fr/wp-content/uploads/2023/07/parvis-saint-jean-tdb-credit-vincent-arbel-1024x687.jpg",
+          "summary": "Teatr w Dijon mieszczący się w zabytkowym gotyckim kościele – sztuka w historycznych murach."
         },
         {
           "id": "katedra-saint-benigne-w-dijon",
@@ -2115,7 +2245,8 @@
           "type": "art_culture",
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP0WPcwFyXr9p8PfihPGCYOUABLwlLEoDeyw&s",
           "websiteUrl": "https://www.cathedrale-dijon.fr/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/cK9E385PK49rYDCP6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/cK9E385PK49rYDCP6",
+          "summary": "Gotycka katedra w Dijon wzniesiona nad najstarszą kryptą romańską w Burgundii."
         },
         {
           "id": "tonnellerie-meyrieux",
@@ -2128,7 +2259,8 @@
           "type": "tourist_attraction",
           "image": "https://www.francebleu.fr/pikapi/images/31a0282c-c651-40a9-9172-a2047f3ee960/1200x680",
           "websiteUrl": "https://www.tonnelleriemeyrieux.com",
-          "GoogleMapsLink": "https://maps.app.goo.gl/JXyEVuNeH3JvZiD97"
+          "GoogleMapsLink": "https://maps.app.goo.gl/JXyEVuNeH3JvZiD97",
+          "summary": "Beczkarnia w Burgundii produkująca dębowe beczki do leżakowania wina – francuskie rzemiosło w najczystszej postaci."
         },
         {
           "id": "hotel-dieu-museum-hospices-de-beaune",
@@ -2141,7 +2273,8 @@
           "type": "museum",
           "image": "https://www.burgundy-tourism.com/uploads/external/c4cb40c34b3f64ab80ee9aac81e9083d-hospices-de-beaune-cour-interieure3-1600x0.jpg",
           "websiteUrl": "https://reservation-hoteldieu.hospices-de-beaune.com/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/3YnzSRvsddkppxeH8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/3YnzSRvsddkppxeH8",
+          "summary": "Gotycki przytułek z 1443 roku w Beaune z kolorowymi dachówkami – perła architektury burgundzkiej."
         },
         {
           "id": "biz-tro-chic-gourmand",
@@ -2154,7 +2287,8 @@
           "type": "restaurant",
           "image": "https://welcomemagazine.fr/wp-content/uploads/2025/11/biztro-400x250.png",
           "websiteUrl": "https://www.facebook.com/BiztroBeaune/menu/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/dqe7dFykDBnuAmMk9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/dqe7dFykDBnuAmMk9",
+          "summary": "Kameralne bistro w Beaune z klasyczną kuchnią burgundzką i lokalnym winem."
         },
         {
           "id": "la-moutarderie-fallot",
@@ -2167,7 +2301,8 @@
           "type": "shopping",
           "image": "https://static.where-e.com/France/La-Moutarderie-Fallot_43a0ccc10ad378f643f81937c132d24f.jpg",
           "websiteUrl": "http://www.fallot.com/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/t44QpiiWPnGSimzs7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/t44QpiiWPnGSimzs7",
+          "summary": "Jedyna pozostała tradycyjna wytwórnia musztardy w Beaune – musztarda burgundzka od 1840 roku."
         }
       ]
     },
@@ -2192,7 +2327,8 @@
           "type": "shopping",
           "websiteUrl": "http://www.domainemontmain.com/",
           "GoogleMapsLink": "https://maps.app.goo.gl/zPYH6h2bpiEL8o2s8",
-          "image": "https://static.wixstatic.com/media/370411_6fc134670bea4f9f88e2e14820003eb4~mv2.jpg/v1/fill/w_640,h_316,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/370411_6fc134670bea4f9f88e2e14820003eb4~mv2.jpg"
+          "image": "https://static.wixstatic.com/media/370411_6fc134670bea4f9f88e2e14820003eb4~mv2.jpg/v1/fill/w_640,h_316,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/370411_6fc134670bea4f9f88e2e14820003eb4~mv2.jpg",
+          "summary": "Tradycyjna winnica w sercu Burgundii produkująca szlachetne wina z lokalnych szczepów."
         },
         {
           "id": "le-meuzinc",
@@ -2205,7 +2341,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.lemeuzinc.fr/",
           "GoogleMapsLink": "https://maps.app.goo.gl/46XpRWUFSyTW2jZw9",
-          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/73/92/60/l-arriere-terrasse-du.jpg?w=900&h=500&s=1"
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/73/92/60/l-arriere-terrasse-du.jpg?w=900&h=500&s=1",
+          "summary": "Burgundzka oberża w Beaune z kuchnią regionalną prowadzona przez paryskiego kucharza."
         }
       ]
     },
@@ -2230,7 +2367,8 @@
           "type": "shopping",
           "websiteUrl": "http://www.lacanche.fr/",
           "GoogleMapsLink": "https://maps.app.goo.gl/LZZcs8o8u11kBsvo8",
-          "image": "/images/lacanche-fourneaux-de-france.jpg"
+          "image": "/images/lacanche-fourneaux-de-france.jpg",
+          "summary": "Manufaktura prestiżowych pieców kuchennych Lacanche – francukie rzemiosło dla smakoszy gotowania."
         },
         {
           "id": "katedra-sw-azarza-w-autun",
@@ -2243,7 +2381,8 @@
           "type": "art_culture",
           "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Cathédrale_Autun_02.JPG",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Wst9zwDvdhorCiEW9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Wst9zwDvdhorCiEW9",
+          "summary": "Romańsko-gotycka katedra w Autun z XII wieku z unikalnymi rzeźbami Gisleberta na tympanonie."
         },
         {
           "id": "porte-saint-andre",
@@ -2256,7 +2395,8 @@
           "type": "art_culture",
           "image": "https://www.burgundy-tourism.com/uploads/external/2ccffa4a1a737f450e4ba5b1d05f1a52-Porte-Saint-Andre-a-Autun---Jean-Marc-Schwartz-1600x0.jpg",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/pC6Rr3KX1o1vzLYk6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/pC6Rr3KX1o1vzLYk6",
+          "summary": "Dobrze zachowana brama z murów rzymskich w Autun z I-II w. n.e. – ślad antycznego Augustodunum."
         },
         {
           "id": "hotel-restaurant-chez-camille",
@@ -2269,7 +2409,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.chezcamillearnay.com/",
           "GoogleMapsLink": "https://maps.app.goo.gl/EYG6AZXqb3Na76Wn7",
-          "image": "/images/hotel-restaurant-chez-camille.jpg"
+          "image": "/images/hotel-restaurant-chez-camille.jpg",
+          "summary": "Hotel i restauracja przy historycznej trasie N6 w Burgundii z tradycyjną kuchnią francuską."
         }
       ]
     },
@@ -2294,7 +2435,8 @@
           "type": "art_culture",
           "websiteUrl": "https://www.stift-st-florian.at",
           "GoogleMapsLink": "https://maps.app.goo.gl/g1fXVmuURdqj512c8",
-          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/23/89/38/das-stift-st-florian.jpg?w=1200&h=-1&s=1"
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/23/89/38/das-stift-st-florian.jpg?w=1200&h=-1&s=1",
+          "summary": "Drugie co do wielkości opactwo w Austrii z barokową biblioteką i organami, na których grał Bruckner."
         },
         {
           "id": "hotel-restaurant-am-obstgarten",
@@ -2307,7 +2449,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.am-obstgarten.de/",
           "GoogleMapsLink": "https://maps.app.goo.gl/1r3VQsdxHi4z2rQx7",
-          "image": "/images/hotel-restaurant-am-obstgarten.jpg"
+          "image": "/images/hotel-restaurant-am-obstgarten.jpg",
+          "summary": "Gasthaus z restauracją w sadzie nad Jeziorem Bodeńskim z regionalną kuchnią szwabską."
         },
         {
           "id": "zeppelin-museum-friedrichshafen",
@@ -2320,7 +2463,8 @@
           "type": "museum",
           "websiteUrl": "http://www.zeppelin-museum.de/",
           "GoogleMapsLink": "https://maps.app.goo.gl/mcFrqmQP1xUCTyfm8",
-          "image": "/images/zeppelin-museum-friedrichshafen.jpg"
+          "image": "/images/zeppelin-museum-friedrichshafen.jpg",
+          "summary": "Muzeum poświęcone sterowcom i ich twórcy Ferdinandowi von Zeppelinowi nad Jeziorem Bodeńskim."
         },
         {
           "id": "gutsschanke",
@@ -2333,7 +2477,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.gutsschaenke-meersburg.de/",
           "GoogleMapsLink": "https://maps.app.goo.gl/tMGiQfXmFtPFSZvR7",
-          "image": "/images/gutsschanke.jpg"
+          "image": "/images/gutsschanke.jpg",
+          "summary": "Restauracja kooperatywy winiarskiej nad Jeziorem Bodeńskim z widokiem na wodę i lokalnymi winami."
         }
       ]
     },
@@ -2358,7 +2503,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/tEP8ShNsV3oEY5Mr5",
-          "image": "/images/restaurant-rauner.jpg"
+          "image": "/images/restaurant-rauner.jpg",
+          "summary": "Restauracja w Austrii łącząca tradycję z nowoczesnością – jeden z lepszych adresów w okolicy."
         },
         {
           "id": "hauptplatz-linz",
@@ -2371,7 +2517,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/26pTNqdgrYwm3Ypy9",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Linz_Hauptplatz_mit_WikiEule_2023-4036.jpg/1280px-Linz_Hauptplatz_mit_WikiEule_2023-4036.jpg"
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Linz_Hauptplatz_mit_WikiEule_2023-4036.jpg/1280px-Linz_Hauptplatz_mit_WikiEule_2023-4036.jpg",
+          "summary": "Główny rynek Linzu z barokową kolumną maryjną i śródrynkowymi kamienicami wzdłuż Dunaju."
         },
         {
           "id": "leberkas-pepi-linz-rathausgasse",
@@ -2384,7 +2531,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.leberkaspepi.at/",
           "GoogleMapsLink": "https://maps.app.goo.gl/pzS3ot2dpwef9Wj3A",
-          "image": "/images/leberkas-pepi-linz-rathausgasse.jpg"
+          "image": "/images/leberkas-pepi-linz-rathausgasse.jpg",
+          "summary": "Kultowy bar w Linzu z Leberkäse – austriacką pieczeń mięsną w bułce, lokalnym street foodem."
         },
         {
           "id": "muzeum-zamkowe-w-linz",
@@ -2397,7 +2545,8 @@
           "type": "museum",
           "websiteUrl": "https://www.ooekultur.at/location-detail/schlossmuseum-linz",
           "GoogleMapsLink": "https://maps.app.goo.gl/qGVdbUzhfNKWQfti7",
-          "image": "/images/muzeum-zamkowe-w-linz.jpg"
+          "image": "/images/muzeum-zamkowe-w-linz.jpg",
+          "summary": "Muzeum historii Górnej Austrii w zamku Linz wznoszącym się nad Dunajem."
         },
         {
           "id": "k-u-k-hofbackerei-cafe",
@@ -2410,7 +2559,8 @@
           "type": "cafe",
           "websiteUrl": "http://www.kuk-hofbaeckerei.at/",
           "GoogleMapsLink": "https://maps.app.goo.gl/yNm7wKgQKBqFmTHv6",
-          "image": "/images/k-u-k-hofbackerei-cafe.jpg"
+          "image": "/images/k-u-k-hofbackerei-cafe.jpg",
+          "summary": "Cesarsko-królewska piekarnia w Linzu w historycznym lokalu gildii piekarskiej z tradycją od wieków."
         },
         {
           "id": "ars-electronica",
