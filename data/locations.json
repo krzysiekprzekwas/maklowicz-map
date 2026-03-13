@@ -2573,7 +2573,8 @@
           "type": "museum",
           "websiteUrl": "https://ars.electronica.art/",
           "GoogleMapsLink": "https://maps.app.goo.gl/Nk6F6hfQJD8zqPsD8",
-          "image": "/images/ars-electronica.jpg"
+          "image": "/images/ars-electronica.jpg",
+          "summary": "Centrum sztuki i technologii cyfrowej nad Dunajem, jeden z wazniejszych osrodkow medialnych Europy."
         },
         {
           "id": "postlingberg",
@@ -2586,7 +2587,8 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/ZeA8XVs38cJ7XEPa7",
-          "image": "/images/postlingberg.jpg"
+          "image": "/images/postlingberg.jpg",
+          "summary": "Wzgorze z barokowa bazylika nad Linzem, dostepne tramwajem miejskim z panorama na cale miasto."
         },
         {
           "id": "die-wirtsleut-im-leopoldistuberl",
@@ -2599,7 +2601,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.diewirtsleut.at/",
           "GoogleMapsLink": "https://maps.app.goo.gl/t1Cxsgx3fTEM9Wgo7",
-          "image": "/images/die-wirtsleut-im-leopoldistuberl.jpg"
+          "image": "/images/die-wirtsleut-im-leopoldistuberl.jpg",
+          "summary": "Tradycyjny lokal w stylu sztuby z krotkim menu opartym na historycznych potrawach Linzu."
         }
       ]
     },
@@ -2624,7 +2627,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/vK11ViZVWHgSaPRn8",
-          "image": "/images/katedra-wniebowziecia-nmp-i-sw-jana-chrzciciela.jpg"
+          "image": "/images/katedra-wniebowziecia-nmp-i-sw-jana-chrzciciela.jpg",
+          "summary": "Cysterska katedra w Sedlcu z XIV wieku, wpisana na Liste Swiatowego Dziedzictwa UNESCO."
         },
         {
           "id": "kaplica-czaszek-w-kutnej-horze",
@@ -2637,7 +2641,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/zY7gm1VK1NbyBxcy6",
-          "image": "/images/kaplica-czaszek-w-kutnej-horze.jpg"
+          "image": "/images/kaplica-czaszek-w-kutnej-horze.jpg",
+          "summary": "Gotyckie ossarium ozdobione kosccmi ok. 40 000 ludzi z girlandami czaszek i zyrandolem z ludzkich szczatkow."
         },
         {
           "id": "the-fortress-malesov",
@@ -2650,7 +2655,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/mX7LRdnFEC36JfFp9",
-          "image": "/images/the-fortress-malesov.jpg"
+          "image": "/images/the-fortress-malesov.jpg",
+          "summary": "Renesansowa twierdza rodu Ruthardow znana jako jedna z lokacji gry Kingdom Come: Deliverance."
         },
         {
           "id": "malesov-craft-brewery",
@@ -2663,7 +2669,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.pivovarmalesov.cz/",
           "GoogleMapsLink": "https://maps.app.goo.gl/fHKt5jpYoWwp6KSz9",
-          "image": "/images/malesov-craft-brewery.jpg"
+          "image": "/images/malesov-craft-brewery.jpg",
+          "summary": "RzemieśLniczy browar w Malešovie produkujący lokalne piwa kraftowe."
         },
         {
           "id": "restaurace-u-gregoru",
@@ -2676,7 +2683,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.ugregoru.cz/",
           "GoogleMapsLink": "https://maps.app.goo.gl/gc1rBbE5cfKhXvt89",
-          "image": "/images/restaurace-u-gregoru.jpg"
+          "image": "/images/restaurace-u-gregoru.jpg",
+          "summary": "Rodzinna restauracja w Nymburku, mieście urodzenia Bohumila Hrabala."
         },
         {
           "id": "nymburk-brewery",
@@ -2689,7 +2697,8 @@
           "type": "shopping",
           "websiteUrl": "http://www.postriziny.cz/",
           "GoogleMapsLink": "https://maps.app.goo.gl/b3svcueJMwYKKqER7",
-          "image": "/images/nymburk-brewery.jpg"
+          "image": "/images/nymburk-brewery.jpg",
+          "summary": "Browar w Nymburku związany z twórczością Bohumila Hrabala i jego powiescią Postrzyzyny."
         }
       ]
     },
@@ -2714,7 +2723,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/fPVnPjbRJxbQ8wa7A",
-          "image": "/images/kolumna-niepokalanej-maryi-panny-w-kutnej-horze.jpg"
+          "image": "/images/kolumna-niepokalanej-maryi-panny-w-kutnej-horze.jpg",
+          "summary": "Barokowa kolumna morowa z XVII wieku wzniesiona przez Habsburgow na rynku Kutnej Hory."
         },
         {
           "id": "hradek",
@@ -2727,7 +2737,8 @@
           "type": "museum",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/HqkPqwJsxaU9JEth7",
-          "image": "/images/hradek.jpg"
+          "image": "/images/hradek.jpg",
+          "summary": "XV-wieczny zamek pelnący dziś rolę muzeum gornictwa srebrnego z podziemnym tunelem dla zwiedzajacych."
         },
         {
           "id": "restaurace-dacicky",
@@ -2740,7 +2751,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.dacicky.com/jidelni-listek/",
           "GoogleMapsLink": "https://maps.app.goo.gl/1hT1DY3fZ9K6A7de7",
-          "image": "/images/restaurace-dacicky.jpg"
+          "image": "/images/restaurace-dacicky.jpg",
+          "summary": "Gospoda nawiązująca nazwą do kronikarza Mikułáša Dačického, serwująca tradycyjne czeskie dania."
         },
         {
           "id": "koscio-swietej-barbary",
@@ -2753,7 +2765,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/TxCybo14KXhKvvzPA",
-          "image": "/images/koscio-swietej-barbary.jpg"
+          "image": "/images/koscio-swietej-barbary.jpg",
+          "summary": "Gotycka katedra patronki gornikow z XV wieku, jeden z najpiękniejszych kościowów w Czechach."
         },
         {
           "id": "dwor-w-oski",
@@ -2766,7 +2779,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/VYfjtvCWYwZhaUjT6",
-          "image": "/images/dwor-w-oski.jpg"
+          "image": "/images/dwor-w-oski.jpg",
+          "summary": "Dawna mennica krolewska w Kutnej Horze, gdzie bito grosze praskie metodami sprowadzonymi z Wloch."
         },
         {
           "id": "wine-cellars-kutna-hora",
@@ -2779,7 +2793,8 @@
           "type": "shopping",
           "websiteUrl": "https://vinokutnahora.cz/",
           "GoogleMapsLink": "https://maps.app.goo.gl/wxLB24R4ot2krf4N6",
-          "image": "/images/wine-cellars-kutna-hora.jpg"
+          "image": "/images/wine-cellars-kutna-hora.jpg",
+          "summary": "Sklep winny z czeskim pinot noir i innymi winami z lokalnych winnic."
         },
         {
           "id": "staroceska-restaurace-v-ruthardce",
@@ -2792,7 +2807,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/APaj6pwcfLnCEfMn9",
-          "image": "/images/staroceska-restaurace-v-ruthardce.jpg"
+          "image": "/images/staroceska-restaurace-v-ruthardce.jpg",
+          "summary": "Restauracja serwująca dania staroczeskiej kuchni, zbudowana na fundamentach siedziby rodu Ruthardow."
         }
       ]
     },
@@ -2817,7 +2833,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/gHGtnAhWJ7hWp3T6A",
-          "image": "/images/fca-poland-s-a.jpg"
+          "image": "/images/fca-poland-s-a.jpg",
+          "summary": "Fabryka w Tychach produkująca samochody Fiat, Alfa Romeo i Lancia dla całej Europy."
         },
         {
           "id": "la-fontana-pizza-napoletana",
@@ -2830,7 +2847,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/AZGAguvejyCoNuqU9",
-          "image": "/images/la-fontana-pizza-napoletana.jpg"
+          "image": "/images/la-fontana-pizza-napoletana.jpg",
+          "summary": "Pizzeria z prawdziwym neapolitańskim ciastem pieczonym w piecu opalanym drewnem, w centrum Tych."
         },
         {
           "id": "muzeum-zamkowe-w-pszczynie",
@@ -2843,7 +2861,8 @@
           "type": "museum",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/D6znvczsgKud3EH1A",
-          "image": "/images/muzeum-zamkowe-w-pszczynie.jpg"
+          "image": "/images/muzeum-zamkowe-w-pszczynie.jpg",
+          "summary": "Barokowy zamek rodowy Hochbergów zachowany w 80% w oryginalnym stanie, dziś muzeum."
         },
         {
           "id": "wodna-wieza",
@@ -2856,7 +2875,8 @@
           "type": "restaurant",
           "websiteUrl": "https://wodna-wieza.pl/",
           "GoogleMapsLink": "https://maps.app.goo.gl/rSbABcy6yt4voo6b6",
-          "image": "/images/wodna-wieza.jpg"
+          "image": "/images/wodna-wieza.jpg",
+          "summary": "Zabytkowa wieża ciśnień z XIX wieku przebudowana na restaurację, hotel i basen."
         },
         {
           "id": "pa-ac-czeczow",
@@ -2869,7 +2889,8 @@
           "type": "art_culture",
           "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/02015_Schloss_von_Czecz-Lindewald_0054.JPG",
           "websiteUrl": "http://www.kozy.pl/files/folder%20wersja%20finalna.pdf",
-          "GoogleMapsLink": "https://maps.app.goo.gl/R3T1eashW6iv3ZFj8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/R3T1eashW6iv3ZFj8",
+          "summary": "Neorenesansowy pałac rodu Czeczów przekształcony w efektowna bibliotekę publiczną."
         }
       ]
     },
@@ -2894,7 +2915,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/C93Y3ogBEat8PHb87",
-          "image": "/images/dzamija-hadzi-ahmeta-dukatara.jpg"
+          "image": "/images/dzamija-hadzi-ahmeta-dukatara.jpg",
+          "summary": "Historyczny meczet z okresu osmańskiego, jeden z zabytków architektury islamskiej w okolicach Livna."
         },
         {
           "id": "dzamija-milosnik",
@@ -2907,7 +2929,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/ZxRhyomRQg4zErAv8",
-          "image": "/images/dzamija-milosnik.jpg"
+          "image": "/images/dzamija-milosnik.jpg",
+          "summary": "Meczet łączący lokalne i osmańskie tradycje budowlane, przykład wielokulturowej architektury Bośni."
         },
         {
           "id": "stari-most",
@@ -2920,7 +2943,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/BGc8wv76tdQVB5Z17",
-          "image": "/images/stari-most.jpg"
+          "image": "/images/stari-most.jpg",
+          "summary": "Osmański most w Mostarze, po zniszczeniu w wojnie wiernie odbudowany i wpisany na Listę UNESCO."
         },
         {
           "id": "mljekara-livno",
@@ -2933,7 +2957,8 @@
           "type": "shopping",
           "websiteUrl": "http://www.mljekaralivno.com/",
           "GoogleMapsLink": "https://maps.app.goo.gl/qdHoRh49JjtjuzW29",
-          "image": "/images/mljekara-livno.jpg"
+          "image": "/images/mljekara-livno.jpg",
+          "summary": "Spółdzielnia mleczarska w Livnie produkująca ser livański, regionalny specjał Bośni i Hercegowiny."
         },
         {
           "id": "eko-sir-pu-a",
@@ -2946,7 +2971,8 @@
           "type": "shopping",
           "websiteUrl": "http://livanjskisir.com/",
           "GoogleMapsLink": "https://maps.app.goo.gl/1gfrr2qxfbSYTBkR9",
-          "image": "/images/eko-sir-pu-a.jpg"
+          "image": "/images/eko-sir-pu-a.jpg",
+          "summary": "Rodzinna wytwÓrnia serów żółtych produkująca tradycyjnymi metodami w bOśniackim stylu."
         },
         {
           "id": "libro-restaurant",
@@ -2959,7 +2985,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/FKkDiQ7CpvyRSfmz8",
-          "image": "/images/libro-restaurant.jpg"
+          "image": "/images/libro-restaurant.jpg",
+          "summary": "Restauracja serwująca autentyczne potrawy kuchni hercegowińskiej, ceniona przez lokalnych mieszkańców."
         }
       ]
     },
@@ -2995,7 +3022,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "http://www.marinasalina.com/",
           "GoogleMapsLink": "https://maps.app.goo.gl/UzSYsrwEMqgAfncH6",
-          "image": "/images/santa-marina-salina-port.jpg"
+          "image": "/images/santa-marina-salina-port.jpg",
+          "summary": "Główny port wyspy Salina, punkt startowy wycieczek po Wyspach Lipańskich."
         },
         {
           "id": "da-alfredo",
@@ -3008,7 +3036,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/daSSh6TtXnXn52w96",
-          "image": "/images/da-alfredo.jpg"
+          "image": "/images/da-alfredo.jpg",
+          "summary": "Kultowa tratoria na Salinie serwująca pane cunzato, wyspiarską wersję pizzy na chrupiącym chlebie."
         },
         {
           "id": "fenech",
@@ -3021,7 +3050,8 @@
           "type": "shopping",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/37/6c/1c/caption.jpg?w=1200&h=-1&s=1",
           "websiteUrl": "https://www.fenech.it/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/fE5uSYQyKvvuqGAUA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/fE5uSYQyKvvuqGAUA",
+          "summary": "Winiarnia na Salinie założona przez maltańskich imigrantów, produkująca wina z miejscowych winoRśli."
         },
         {
           "id": "spiaggia-di-pollara",
@@ -3034,7 +3064,8 @@
           "type": "nature",
           "image": "https://slow-sicily.com/wp-content/uploads/2024/09/pollara_balate_sunset_salina_panoramic.webp",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/m29RCaG4vV5RG1qx6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/m29RCaG4vV5RG1qx6",
+          "summary": "Odludna plaża na Salinie otoczona skalnymi klifami z ruinami budynków wkomponowanych w wulkaniczną skałę."
         },
         {
           "id": "9852-vulcano-home-restaurant",
@@ -3047,7 +3078,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.instagram.com/9852_vulcano/",
           "GoogleMapsLink": "https://maps.app.goo.gl/Fi4CrcBFs7MaG8vJA",
-          "image": "/images/9852-vulcano-home-restaurant.jpg"
+          "image": "/images/9852-vulcano-home-restaurant.jpg",
+          "summary": "Restauracja na Vulcano serwująca autentyczną pizzę neapolitańską, nazwa pochodzi od pierwszego numeru kierunkowego wyspy."
         },
         {
           "id": "acque-calde",
@@ -3060,7 +3092,8 @@
           "type": "nature",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/fb/a2/b5/caption.jpg?w=1200&h=-1&s=1",
           "websiteUrl": "",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Ht2QTukqsCmk9qJJA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Ht2QTukqsCmk9qJJA",
+          "summary": "Naturalne podwodne jacuzzi przy plaży na Vulcano — para wulkaniczna wydobywa się spod dna morskiego."
         }
       ]
     },
@@ -3096,7 +3129,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Cầu_Cao_Lãnh.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/UaQ7mDRmLkd5x69e7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/UaQ7mDRmLkd5x69e7",
+          "summary": "Most Cao Lãnh oddany do użytku w 2018 roku, imponująca stalowa konstrukcja spinająca brzegi delty Mekongu."
         },
         {
           "id": "nha-hang-ben-song-que",
@@ -3109,7 +3143,8 @@
           "type": "restaurant",
           "websiteUrl": "http://bensongquebt.wordpress.com/",
           "image": "https://scontent.iocvnpt.com/resources/portal//Images/BTE/superadminportal.bte/am_thuc/que_dua/106396983_2613869585519626_2959367178418600576_n_386204603.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Wu9dMZa1dCpq94up6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Wu9dMZa1dCpq94up6",
+          "summary": "Restauracja nad rzeką w Bến Tre serwująca tradycyjne potrawy kuchni wietnamskiej delty Mekongu."
         },
         {
           "id": "toa-thanh-ben-tre",
@@ -3122,7 +3157,8 @@
           "type": "art_culture",
           "websiteUrl": "https://caodaibanchinhdao.net/home/thoikykhaidao/",
           "image": "https://scontent.iocvnpt.com/resources/portal/Images/BTE/superadminportal.bte/2024/11_2024/14_11_2024/toa_thanh_cao_dai_11_850404579.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/p8UDp3FKtrChqUNB6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/p8UDp3FKtrChqUNB6",
+          "summary": "Świątynia Cao Đài w Bến Tre, przykład synkretycznej religii łączącej tradycje Wschodu i Zachodu."
         },
         {
           "id": "cho-ben-tre",
@@ -3135,7 +3171,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "image": "https://global-uploads.webflow.com/60af8c708c6f35480d067652/62a30f18e397a858946a19c5_screenshot_1654853380.png",
-          "GoogleMapsLink": "https://maps.app.goo.gl/hPRod38L2gmi1NK97"
+          "GoogleMapsLink": "https://maps.app.goo.gl/hPRod38L2gmi1NK97",
+          "summary": "Tętniący życiem targ w Bến Tre z owocami, warzywami i produktami delty Mekongu."
         },
         {
           "id": "ben-tre-farm-stay",
@@ -3148,7 +3185,8 @@
           "type": "hotel",
           "websiteUrl": "https://www.booking.com/searchresults.pl.html?dest_id=2056737&highlighted_hotels=2056737",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/3a/63/58/caption.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/zEv6nz2Ydn3FSx1QA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/zEv6nz2Ydn3FSx1QA",
+          "summary": "Agroturystyka w zielonej delcie Mekongu pozwalająca poczuć rytm wiejskiego życia Wietnamu."
         }
       ]
     },
@@ -3173,7 +3211,8 @@
           "type": "museum",
           "websiteUrl": "",
           "image": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/15/a6/38/49.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Ydw6QnncXtA1Qj8v7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Ydw6QnncXtA1Qj8v7",
+          "summary": "Podziemne tunele i kuchnia polowa Hoàng Cầm — pamiątki po wojnie wietnamskiej otwarte dla zwiedzających."
         },
         {
           "id": "cu-chi-tunnel-ben-duoc",
@@ -3186,7 +3225,8 @@
           "type": "museum",
           "websiteUrl": "",
           "image": "https://cdn.getyourguide.com/img/tour/b1c330594f1d3ab91f2d15ba91cecebb4c3d091e7db23ad8218f4041edb1634a.jpg/98.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/EV8nX94TZjRkZC1s7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/EV8nX94TZjRkZC1s7",
+          "summary": "Słynne tunele Cu Chi z czasów wojny wietnamskiej — setki kilometrów korytarzy otwartych dla turystów."
         },
         {
           "id": "tan-inh-market",
@@ -3199,7 +3239,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "image": "https://vietravelasia.com/media/images/2024/8/cho-tan-dinh-1-857f6173192c32d723a6dbdca8cd5dc2.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/znUVFboJNxeHNiXL8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/znUVFboJNxeHNiXL8",
+          "summary": "Targ Tân Định w Ho Chi Minh działający nieprzerwanie od 1926 roku, jedno z centrów życia codziennego miasta."
         },
         {
           "id": "muzeum-tradycyjnej-medycyny-wietnamskiej",
@@ -3212,7 +3253,8 @@
           "type": "museum",
           "websiteUrl": "http://fitomuseum.com.vn/",
           "image": "https://wikingiwilkolak.pl/images/wmuzeum/2023/muzeum-tradycyjnej-medycyny-wietnamskiej/muzeum-wejscie.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/5sUZdqdSTrFh6UYo7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/5sUZdqdSTrFh6UYo7",
+          "summary": "Muzeum medycyny tradycyjnej w Ho Chi Minh prezentujące tysiąclecia wietnamskiego zielarstwa i terapii wschodnich."
         },
         {
           "id": "oc-loan",
@@ -3225,7 +3267,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "image": "https://cdn3.ivivu.com/2019/10/quan-oc-ky-la-tai-sai-gon-voi-ong-ba-chu-thuong-dung-tuyet-chieu-deo-ca-tram-cay-vang-de-thu-hut-khach-ivivu-1.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/WaxmcjT3iF8rYxMs6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/WaxmcjT3iF8rYxMs6",
+          "summary": "Uliczna restauracja w Ho Chi Minh specjalizująca się w daniach ze ślimaków morskich i owoców morza."
         }
       ]
     },
@@ -3250,7 +3293,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "image": "https://planetescape.pl//app/uploads/2015/08/Sajgon-Pomnik-Ho-Chi-Minha.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/tn5Stq3adCuUUXBv7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/tn5Stq3adCuUUXBv7",
+          "summary": "Pomnik Hồ Chí Minha przed siedzibą władz Ho Chi Minh, ojca zjednoczenia i patrona współczesnego Wietnamu."
         },
         {
           "id": "gmach-opery-w-sajgonie",
@@ -3263,7 +3307,8 @@
           "type": "art_culture",
           "websiteUrl": "https://ticket-stations.com/a-o-show",
           "image": "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=center,quality=60,width=400,height=265,dpr=2/tour_img/ee3e4d026343b189ebe012a93fbd96be5fac5c0630cdb5557347d846e498c76a.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/qPSUcyh2QJ9T5eDT9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/qPSUcyh2QJ9T5eDT9",
+          "summary": "Kolonialna opera z 1900 roku w centrum Ho Chi Minh, jeden z najpiękniejszych przykładów architektury francuskiej w Azji."
         },
         {
           "id": "rex-hotel-garden-bar",
@@ -3276,7 +3321,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "image": "https://d2ile4x3f22snf.cloudfront.net/wp-content/uploads/sites/174/2017/08/10070932/Rooftop-Garden-Bar-12.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/SFGMCqbCqyXTjxc58"
+          "GoogleMapsLink": "https://maps.app.goo.gl/SFGMCqbCqyXTjxc58",
+          "summary": "Kultowy bar na dachu hotelu Rex, od lat 60. ulubione miejsce spotkań dziennikarzy i oficerów w Ho Chi Minh."
         },
         {
           "id": "saigon-central-post-office",
@@ -3289,7 +3335,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "image": "https://statics.vinpearl.com/sai-gon-central-post-office-02_1675932134.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Q2oQhuu7igPCiT2KA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Q2oQhuu7igPCiT2KA",
+          "summary": "Centralna Poczta Sajgonu z 1891 roku w stylu kolonialnym — jedna z ikon architektonicznych Ho Chi Minh."
         },
         {
           "id": "banh-mi-huynh-hoa",
@@ -3302,7 +3349,8 @@
           "type": "restaurant",
           "websiteUrl": "https://banhmihuynhhoa.vn/thuc-don/",
           "image": "https://phapluatbanquyen.phaply.vn/uploads/images/users/images/2021/12/5515151565656.png",
-          "GoogleMapsLink": "https://maps.app.goo.gl/43eQWVxbzzfAJ2HNA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/43eQWVxbzzfAJ2HNA",
+          "summary": "Kultowy punkt z bánh mì w Ho Chi Minh, serwujący kanapkę z bogatym nadzieniem uznawaną za jedną z najlepszych."
         },
         {
           "id": "pa-ac-zjednoczenia",
@@ -3315,7 +3363,8 @@
           "type": "art_culture",
           "websiteUrl": "https://www.dinhdoclap.gov.vn/",
           "image": "https://www.theblondtravels.com/wp-content/uploads/2016/06/ho-chi-minh-city-independence-palace-outside-1.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/bgyKUGTyVEZggAsZ8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/bgyKUGTyVEZggAsZ8",
+          "summary": "Dawna siedziba prezydenta Wietnamu Południowego, miejsce zakończenia wojny w 1975 roku — dziś muzeum."
         },
         {
           "id": "war-remnants-museum",
@@ -3328,7 +3377,8 @@
           "type": "museum",
           "websiteUrl": "https://baotangchungtichchientranh.vn/",
           "image": "https://res.klook.com/image/upload/activities/rhs9bb4z1ztznp7tsevc.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/UEsGEDuaVLhrW2FJ6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/UEsGEDuaVLhrW2FJ6",
+          "summary": "Muzeum prezentujące skutki wojny wietnamskiej z wietnamskiej perspektywy — zdjęcia, sprzęt wojskowy i dokumenty."
         },
         {
           "id": "tran-hung-dao-statue",
@@ -3341,7 +3391,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/8d/d0/7d/caption.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/yJ6rXnKuScTnRK57A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/yJ6rXnKuScTnRK57A",
+          "summary": "Pomnik średniowiecznego wodza Trần Hưng Đạo, który trzykrotnie pokonał Mongołów — patrona marynarzy w Ho Chi Minh."
         },
         {
           "id": "liquid-sky-bar",
@@ -3354,7 +3405,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.marriott.com/hotels/hotel-information/restaurant/sgnbr-renaissance-riverside-hotel-saigon/",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/9d/1a/c2/view.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/rgfXpoJkapnrNLQ76"
+          "GoogleMapsLink": "https://maps.app.goo.gl/rgfXpoJkapnrNLQ76",
+          "summary": "Bar na dachu z widokiem na panoramę Ho Chi Minh, popularny punkt na koktajlowej mapie Sajgonu."
         },
         {
           "id": "pho-viet-nam",
@@ -3367,7 +3419,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.phovietnam.vn/",
           "image": "https://cafefcdn.com/zoom/700_438/203337114487263232/2023/6/7/avatar1686113273793-16861132757561906281427.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/kv2hjrC4WqnSuVhNA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/kv2hjrC4WqnSuVhNA",
+          "summary": "Restauracja serwująca phở — tradycyjną zupę makaronową, flagowe danie kuchni wietnamskiej."
         }
       ]
     },
@@ -3392,7 +3445,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "https://sunset-town.com/",
           "image": "https://image.vietnamnews.vn/MediaUpload/Org/2023/02/20/02202320114904_1.JPG",
-          "GoogleMapsLink": "https://maps.app.goo.gl/CDxkEVv4qHqD5C8A9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/CDxkEVv4qHqD5C8A9",
+          "summary": "Nadmorska miejscowość na Phú Quốc z architekturą inspirowaną śródziemnomorskim miasteczkiem i kolorowymi uliczkami."
         },
         {
           "id": "hon-thom-departure-terminal-sun-world-hon-thom-nature-park",
@@ -3405,7 +3459,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "https://ticketcheap.shop/hon-thom",
           "image": "https://d2e5ushqwiltxm.cloudfront.net/wp-content/uploads/sites/225/2020/03/06040339/PHOTO4-1.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/B7fM5FLTao4X9qy47"
+          "GoogleMapsLink": "https://maps.app.goo.gl/B7fM5FLTao4X9qy47",
+          "summary": "Terminal promowy na wyspę Hòn Thơm, punkt startowy do parku przyrody Sun World Hon Thom Nature Park."
         },
         {
           "id": "ao-thien-uong-hon-thom-paradise-island",
@@ -3418,7 +3473,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "https://shorten.asia/q2XSXP17",
           "image": "https://chungcuhn24h.net/wp-content/uploads/2022/03/paradise-island-hon-thom-phu-quoc.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/wCQTMocJP5RAersM6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/wCQTMocJP5RAersM6",
+          "summary": "Rajska wyspa Hòn Thơm na Phú Quốc z plażami, parkiem wodnym i kolejką linową."
         },
         {
           "id": "phu-quoc-prison-history-museum",
@@ -3431,7 +3487,8 @@
           "type": "museum",
           "websiteUrl": "https://www.tripadvisor.com/Attraction_Review-g469418-d1990359-Reviews-Phu_Quoc_Prison_History_Museum-Phu_Quoc_Island_Kien_Giang_Province.html",
           "image": "https://vietnamdiscovery.com/wp-content/uploads/2020/02/Phu-Quoc-prison-flashpacker-travelguide.de_.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/VvFbyc4LB6RgeM8u6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/VvFbyc4LB6RgeM8u6",
+          "summary": "Muzeum historii więzienia na Phú Quốc, gdzie przetrzymywano więźniów politycznych podczas wojen kolonialnych."
         },
         {
           "id": "xin-chao-seafood-restaurant",
@@ -3444,7 +3501,8 @@
           "type": "restaurant",
           "websiteUrl": "https://m.facebook.com/nhahangxinchaophuquoc/",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/22/54/cf/sunset-dinner.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/vTBVisSR3gEKV79n7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/vTBVisSR3gEKV79n7",
+          "summary": "Restauracja owoców morza na Phú Quốc serwująca świeże ryby i krustaceany z Morza Południowochińskiego."
         },
         {
           "id": "doanh-nghiep-tu-nhan-hai-san-khai-hoan",
@@ -3457,7 +3515,8 @@
           "type": "shopping",
           "websiteUrl": "http://www.khaihoanphuquoc.com.vn/",
           "image": "https://thuysanvietnam.com.vn/wp-content/uploads/oldsite/thuysanvietnam.com.vn_uploads/article2/baiviet/nuoitrong/nuoc-mam-khai-hoan-02.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/iwvM4oRiDpJoAkT57"
+          "GoogleMapsLink": "https://maps.app.goo.gl/iwvM4oRiDpJoAkT57",
+          "summary": "Targ rybny na Phú Quốc z szerokim wyborem świeżych owoców morza prosto z lokalnych kutrów."
         },
         {
           "id": "be-ha-quyen",
@@ -3470,7 +3529,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "image": "https://down-vn.img.susercontent.com/vn-11134259-7r98o-lwep1vjjj8pn61@resize_ss640x400",
-          "GoogleMapsLink": "https://maps.app.goo.gl/pFF3S4ZQmq2Chv7u8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/pFF3S4ZQmq2Chv7u8",
+          "summary": "Pływająca restauracja w Zatoce Ha Long serwująca świeże owoce morza na tle wapiennych skał."
         }
       ]
     },
@@ -3495,7 +3555,8 @@
           "type": "restaurant",
           "websiteUrl": "https://chinahotpotandgrill.pl/",
           "image": "https://chinahotpotandgrill.pl/wp-content/uploads/2025/02/chinahotpotgrill-bakalarska-1a-2.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/q8tz2d6JCoKtoGQ89"
+          "GoogleMapsLink": "https://maps.app.goo.gl/q8tz2d6JCoKtoGQ89",
+          "summary": "Azjatycka restauracja w Polsce serwująca hot pot i grillowane dania kuchni wschodnioazjatyckiej."
         },
         {
           "id": "targowisko-bakalarska",
@@ -3508,7 +3569,8 @@
           "type": "shopping",
           "websiteUrl": "http://targowiskobakalarska.pl/",
           "GoogleMapsLink": "https://maps.app.goo.gl/jdKHUs8C6L4M2FB76",
-          "image": "https://bi.im-g.pl/im/d1/03/14/z20985809IEG,Targowisko-Bakalarska.jpg"
+          "image": "https://bi.im-g.pl/im/d1/03/14/z20985809IEG,Targowisko-Bakalarska.jpg",
+          "summary": "Wielokulturowy targ w Warszawie z produktami kuchni azjatyckiej, afrykańskiej i latynoamerykańskiej."
         },
         {
           "id": "hanoi-grill",
@@ -3521,7 +3583,8 @@
           "type": "restaurant",
           "websiteUrl": "https://halabakalarska.pl/wp-content/uploads/2021/01/DSC_0189-copy.jpg",
           "image": "https://www.facebook.com/hanoigrill/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/DY6zc8kMaHDwWu5B6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/DY6zc8kMaHDwWu5B6",
+          "summary": "Wietnamska restauracja grillowa w Polsce serwująca dania inspirowane kuchnią Hanoi."
         },
         {
           "id": "oh-my-pho",
@@ -3534,7 +3597,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.instagram.com/ohmy_pho?igsh=MWZ1b2JyemR3ZzhlMw%3D%3D&utm_source=qr",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/28/4e/f3/oh-my-pho.jpg?w=500&h=-1&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/qHyfrS65ZUa1N8KJ6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/qHyfrS65ZUa1N8KJ6",
+          "summary": "Restauracja specjalizująca się w phở, tradycyjnej wietnamskiej zupie makaronowej."
         },
         {
           "id": "restauracja-tran-tran",
@@ -3547,7 +3611,8 @@
           "type": "restaurant",
           "websiteUrl": "http://trantran.pl/",
           "image": "https://trantran.pl/wp-content/uploads/2019/10/trantran-naturalnie-smaczne.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/7hW4FVEab9z3AggB9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/7hW4FVEab9z3AggB9",
+          "summary": "Wietnamska restauracja serwująca autentyczne dania kuchni Wietnamu Środkowego i Południowego."
         },
         {
           "id": "la-ban",
@@ -3560,7 +3625,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.facebook.com/La-B%C3%A0n-104443331386888",
           "image": "https://kulinarnieniepowazni.pl/wp-content/uploads/2021/08/laban.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/CxotTckFcTgwB66U7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/CxotTckFcTgwB66U7",
+          "summary": "Warszawska restauracja serwująca kuchnię wietnamską z produktami sprowadzanymi bezpośrednio z Wietnamu."
         }
       ]
     },
@@ -3585,7 +3651,8 @@
           "type": "nature",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/bd/f6/61/grse-waterfallamazing.jpg?w=900&h=-1&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/mpF4jAbXimHkVBdM9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/mpF4jAbXimHkVBdM9",
+          "summary": "Malowniczy wodospad na Mauritiusie schowany w tropikalnej dżungli, z dala od turystycznych szlaków."
         },
         {
           "id": "ile-aux-cerfs",
@@ -3598,7 +3665,8 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/j7VBhZ85J6rkRmLo8",
-          "image": "https://i.content4travel.com/seeplaces/temp/e59133c8-4ad9-46fa-ba57-f4843a049fcc.jpg"
+          "image": "https://i.content4travel.com/seeplaces/temp/e59133c8-4ad9-46fa-ba57-f4843a049fcc.jpg",
+          "summary": "Prywatna wyspa na lagunie maurytyjskiej z białymi plażami i wodami idealnymi do snorkelingu."
         },
         {
           "id": "chinese-gourmet",
@@ -3611,7 +3679,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "image": "https://media-cdn.tripadvisor.com/media/photo-s/22/0f/e3/db/roasted-duck.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ex4HUgRduUnYK1R96"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ex4HUgRduUnYK1R96",
+          "summary": "Restauracja chińska w Port Louis serwująca kuchnię kantońską z maurytyjskim akcentem."
         },
         {
           "id": "aapravasi-ghat-world-heritage-site",
@@ -3624,7 +3693,8 @@
           "type": "museum",
           "websiteUrl": "",
           "image": "https://s.content4travel.com/itkpl/mauritius_aapravasi_zabytki_655153b24f.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/VVJtymu4SnTsdFsa9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/VVJtymu4SnTsdFsa9",
+          "summary": "Kompleks z 1849 r. wpisany na Listę UNESCO — miejsce lądowania kontraktowych robotników indyjskich na Mauritiusie."
         },
         {
           "id": "mister-chu-aka-chu-fung-leung",
@@ -3637,7 +3707,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.instagram.com/mister_chu_aka_chufungleung",
           "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0sdHir0bHiOf7WyG4AiMcBuoORUFIYrc3yvYb3-rtFIYX5SKrRSJbkCumyM7XCkAblPG6cP4DY2Y0g7QZKW1bVVICYZnZN-_8hHJb0yVxo7Jif2opTxLuardZUGR2PPbycowoXo_bJxBFdvakXGi0eZS4HhW-W4qvWpahGJWp8aH8mfHKZHusQBhakA/s1280/IMG_0972B.jpeg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/nUvWm6j82a8Xnv9n9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/nUvWm6j82a8Xnv9n9",
+          "summary": "Legendarna restauracja w Port Louis serwująca kuchnię chińsko-maurytyjską od kilku pokoleń."
         },
         {
           "id": "les-jardins-de-la-compagnie",
@@ -3650,7 +3721,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/Ajyh2FrqxGDMLiFg6",
-          "image": "https://www.holidify.com/images/cmsuploads/compressed/6162882557_16f9ed9234_b_20180829152443.jpg"
+          "image": "https://www.holidify.com/images/cmsuploads/compressed/6162882557_16f9ed9234_b_20180829152443.jpg",
+          "summary": "XVIII-wieczny ogród botaniczny w Port Louis, dawny warzywnik Kompanii Wschodnioindyjskiej."
         },
         {
           "id": "pure-veg-hare-rama",
@@ -3663,7 +3735,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/FGLg9h1KKG8RQboC7",
-          "image": "/images/pure-veg-hare-rama.jpg"
+          "image": "/images/pure-veg-hare-rama.jpg",
+          "summary": "Wegetariańska restauracja hinduska w Port Louis serwująca indyjskie dania bez mięsa."
         }
       ]
     },
@@ -3688,7 +3761,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/TEtRiRKuKtPUfWhB9",
-          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/74/3c/8e/grand-bassin.jpg?w=900&h=500&s=1"
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/74/3c/8e/grand-bassin.jpg?w=900&h=500&s=1",
+          "summary": "Świątynia hinduska nad jeziorem kraterowym Grand Bassin, cel corocznej pielgrzymki Maha Shivaratri."
         },
         {
           "id": "lord-shiva-grand-bassin-hindu-temple",
@@ -3701,7 +3775,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/7v79efGn437mm3UE7",
-          "image": "https://nataniatravel.com/wp-content/uploads/2024/07/Dji_0100-mauritius-ganga-talao-ihindu-temple-ft-1030x525.jpg"
+          "image": "https://nataniatravel.com/wp-content/uploads/2024/07/Dji_0100-mauritius-ganga-talao-ihindu-temple-ft-1030x525.jpg",
+          "summary": "Świątynia Pana Sziwy nad świętym jeziorem Grand Bassin, jeden z głównych ośrodków hinduizmu na Mauritiusie."
         },
         {
           "id": "le-morne-world-heritage-site",
@@ -3714,7 +3789,8 @@
           "type": "art_culture",
           "websiteUrl": "https://whc.unesco.org/en/list/1259",
           "GoogleMapsLink": "https://maps.app.goo.gl/7e86oNZ2bgT3fYfBA",
-          "image": "https://www.cipdh.gob.ar/memorias-situadas/wp-content/uploads/2019/02/IMG-20190218-WA0007.jpg"
+          "image": "https://www.cipdh.gob.ar/memorias-situadas/wp-content/uploads/2019/02/IMG-20190218-WA0007.jpg",
+          "summary": "Skalny przylądek na Liście UNESCO — symbol walki maurytyjskich niewolników o wolność w XVIII i XIX w."
         },
         {
           "id": "rhumerie-de-chamarel-restaurant-rum-distillery",
@@ -3727,7 +3803,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.rhumeriedechamarel.com/",
           "image": "https://mauritiusattractions.com/content/images/gallery/319/visit-tour-rhumerie-chamarel-distillery%20(7).jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/RrNYbRNkdDnjqNQx7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/RrNYbRNkdDnjqNQx7",
+          "summary": "Destylarnia rumu z 2008 roku w Chamarel serwująca własny rum z trzciny cukrowej i dania kreolskie."
         },
         {
           "id": "chamarel-waterfall",
@@ -3740,7 +3817,8 @@
           "type": "nature",
           "websiteUrl": "https://www.chamarel7colouredearth.com/",
           "GoogleMapsLink": "https://maps.app.goo.gl/eW28rsxcYT6MHNwP9",
-          "image": "https://mauritiusattractions.com/content/images/gallery/1600/chamarel-waterfalls-mauritius%20(2).jpg"
+          "image": "https://mauritiusattractions.com/content/images/gallery/1600/chamarel-waterfalls-mauritius%20(2).jpg",
+          "summary": "Jeden z najwyższych wodospadów Mauritiusa w okolicach Chamarel, otoczony tropikalną roślinnością."
         },
         {
           "id": "chamarel-seven-colored-earth-geopark",
@@ -3753,7 +3831,8 @@
           "type": "nature",
           "websiteUrl": "https://www.chamarel7colouredearth.com/",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/39/a6/4a/the-undulating-strips.jpg?w=1200&h=-1&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/96gjagqTYdjR3ctK9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/96gjagqTYdjR3ctK9",
+          "summary": "Geopark w Chamarel ze słynną ziemią o siedmiu kolorach — wydmami z pyłu wulkanicznego."
         },
         {
           "id": "mamie-sophie-table-d-hote",
@@ -3766,7 +3845,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.facebook.com/profile.php?id=100063622626232",
           "image": "https://media-cdn.tripadvisor.com/media/photo-s/1b/19/aa/39/20200305-192443-largejpg.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/EVdPsLDfj2f59L746"
+          "GoogleMapsLink": "https://maps.app.goo.gl/EVdPsLDfj2f59L746",
+          "summary": "Domowy stół kreolski prowadzony przez Mamie Sophie z potrawami z własnego ogródka."
         }
       ]
     },
@@ -3791,7 +3871,8 @@
           "type": "shopping",
           "websiteUrl": "http://biscuitmanioc.com/home.html",
           "image": "https://i0.wp.com/www.thegirlonthemove.com/wp-content/uploads/2024/11/IMG_7128-e1703258965257.jpeg?fit=1536%2C1150&ssl=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/rkaLJb46MenXBM7ZA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/rkaLJb46MenXBM7ZA",
+          "summary": "Rodzinna fabryka herbatników maniokowych działająca nieprzerwanie od 1870 roku w Mahebourgu."
         },
         {
           "id": "cavendish-bridge",
@@ -3804,7 +3885,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://i0.wp.com/vintagemauritius.org/wp-content/uploads/Cavendish-Bridge-viewed-from-large.jpg?w=445&h=286",
-          "GoogleMapsLink": "https://maps.app.goo.gl/1GmvpcgVjpdjJaWo9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/1GmvpcgVjpdjJaWo9",
+          "summary": "Historyczny most w Grand Port na Mauritiusie, pamiątka brytyjskiego okresu kolonialnego."
         },
         {
           "id": "mahebourg-market",
@@ -3817,7 +3899,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "image": "https://mauritiusattractions.com/content/images/gallery/1603/mahebourg-market-mauritius%20(3).jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/i7ZXtmKYZY8nc4gH9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/i7ZXtmKYZY8nc4gH9",
+          "summary": "Tradycyjny targ w Mahebourgu z egzotycznymi przyprawami, warzywami i owocami tropikalnymi."
         },
         {
           "id": "pyramid-briani-baguettes",
@@ -3830,7 +3913,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/23/60/fc/photo0jpg.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/fTcZtPA1aejuibaH6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/fTcZtPA1aejuibaH6",
+          "summary": "Lokal w Mahebourgu serwujący biryani i bagietki, przykład maurytyjskiego tygla kulinarnych wpływów."
         },
         {
           "id": "mahebourg-pier",
@@ -3843,7 +3927,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://mediaim.expedia.com/localexpert/47279987/e54f4a79-2e61-4276-a3ef-a22a6bd9ac61.jpg?impolicy=resizecrop&rw=500&rh=280",
-          "GoogleMapsLink": "https://maps.app.goo.gl/aCTzQJFGDJmptmbc7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/aCTzQJFGDJmptmbc7",
+          "summary": "Historyczne molo w Mahebourgu nad Zatoką Grand Port z widokiem na Wyspę Aux Aigrettes."
         },
         {
           "id": "monument-commemorating-la-bataille-naval-du-vieux-grand-port",
@@ -3856,7 +3941,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/FNKFApSpgnYkVHcW7",
-          "image": "https://photos.wikimapia.org/p/00/07/18/51/88_big.jpg"
+          "image": "https://photos.wikimapia.org/p/00/07/18/51/88_big.jpg",
+          "summary": "Pomnik upamiętniający bitwę morską z 1810 roku — jedyne zwycięstwo Napoleona na morzu."
         },
         {
           "id": "mahebourg-museum",
@@ -3869,7 +3955,8 @@
           "type": "museum",
           "websiteUrl": "",
           "image": "https://www.holidify.com/images/cmsuploads/compressed/1266479618_53d3ebe283_b_20180626165345.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/uJt7Q2XVz67JuiwS9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/uJt7Q2XVz67JuiwS9",
+          "summary": "Muzeum historii Mauritiusa w Mahebourgu z kolekcją artefaktów z okresu kolonialnego i wojennego."
         },
         {
           "id": "rochester-falls",
@@ -3882,7 +3969,8 @@
           "type": "nature",
           "websiteUrl": "",
           "image": "https://mauritiusattractions.com/content/images/guide/i-335/rochester-falls%20(1).jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/rdFrAC2Zks7VGVQTA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/rdFrAC2Zks7VGVQTA",
+          "summary": "Oryginalny wodospad na południu Mauritiusa ze skalistymi kolumnami o nieregularnych kształtach."
         },
         {
           "id": "roche-qui-pleure",
@@ -3895,7 +3983,8 @@
           "type": "nature",
           "websiteUrl": "",
           "image": "https://www.infoilemaurice.com/wp-content/uploads/2022/03/Le-Souffleur-et-La-Roche-qui-Pleure.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/RMfFYEwQZxgchseF7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/RMfFYEwQZxgchseF7",
+          "summary": "Formacja skalna na wybrzeżu Mauritiusa, której ukształtowanie przypomina płaczącą twarz."
         },
         {
           "id": "timoris",
@@ -3908,7 +3997,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "image": "https://theyakmag.com/wp-content/uploads/2017/11/Ti-moris-minYak-online.png",
-          "GoogleMapsLink": "https://maps.app.goo.gl/4dKKYQQhod5NmcHp8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/4dKKYQQhod5NmcHp8",
+          "summary": "Kreolska restauracja na Mauritiusie serwująca lokalne specjały z ryb i owoców morza."
         }
       ]
     },
@@ -3933,7 +4023,8 @@
           "type": "hotel",
           "websiteUrl": "https://searesortshotels.com/seasense/",
           "GoogleMapsLink": "https://maps.app.goo.gl/iY9GS9Zj5v8Vcdpq5",
-          "image": "/images/seasense-boutique-hotel-spa.jpg"
+          "image": "/images/seasense-boutique-hotel-spa.jpg",
+          "summary": "Kameralny hotel butikowy dla dorosłych z basenem i spa przy prywatnej plaży na wschodnim Mauritiusie."
         },
         {
           "id": "la-cambuse-public-beach",
@@ -3946,7 +4037,8 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/KUWL3ophC1N792rEA",
-          "image": "/images/la-cambuse-public-beach.jpg"
+          "image": "/images/la-cambuse-public-beach.jpg",
+          "summary": "Publiczna plaża w pobliżu Blue Bay z płytkimi wodami i bogatymi ławicami koralowców."
         },
         {
           "id": "coco-de-la-cambuse",
@@ -3959,7 +4051,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/wR41oVfnD4dzAgYd6",
-          "image": "/images/coco-de-la-cambuse.jpg"
+          "image": "/images/coco-de-la-cambuse.jpg",
+          "summary": "Uliczny kiosk na plaży La Cambuse z owocami, napojami i prostymi przekąskami."
         },
         {
           "id": "la-case-poisson",
@@ -3972,7 +4065,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/frK2YM9yTC1ry3t26",
-          "image": "/images/la-case-poisson.jpg"
+          "image": "/images/la-case-poisson.jpg",
+          "summary": "Kreolska restauracja w Trou d'Eau Douce specjalizująca się w świeżych rybach i owocach morza."
         },
         {
           "id": "eglise-trou-d-eau-douce-notre-dame-du-bon-secours",
@@ -3985,7 +4079,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/8DNH58EmDQ35GMrD6",
-          "image": "https://vintagemauritius.org/wp-content/uploads/Trou-Deau-Douce-Notre-Dame-du-Bon-Secours.jpg"
+          "image": "https://vintagemauritius.org/wp-content/uploads/Trou-Deau-Douce-Notre-Dame-du-Bon-Secours.jpg",
+          "summary": "Kościół Notre Dame du Bon Secours z 1990 roku utrzymany w tradycyjnym kolonialnym stylu architektonicznym."
         }
       ]
     },
@@ -4010,7 +4105,8 @@
           "type": "nature",
           "websiteUrl": "",
           "image": "https://s1.wklcdn.com/image_342/10274311/175146376/109243774.700x525.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ycd5AP7yLWxuVjLh6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ycd5AP7yLWxuVjLh6",
+          "summary": "Punkt widokowy na Maderze z panoramą na atlantyckie klify i wschodnie wybrzeże wyspy."
         },
         {
           "id": "north-mills-distillery",
@@ -4023,7 +4119,8 @@
           "type": "shopping",
           "websiteUrl": "https://visitmadeira.com/en/where-to-go/madeira/east-coast/machico/engenhos-do-norte/",
           "GoogleMapsLink": "https://maps.app.goo.gl/qtSzwKFMJyqyB2TU7",
-          "image": "https://www.madere-leguide.com/madere/distillerie-porto-da-cruz/rhum-factory.jpg"
+          "image": "https://www.madere-leguide.com/madere/distillerie-porto-da-cruz/rhum-factory.jpg",
+          "summary": "Destylarnia na Maderze produkująca słynną ponchę z agardente i trzciny cukrowej."
         },
         {
           "id": "hotel-quinta-do-furao",
@@ -4036,7 +4133,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.quintadofurao.com/",
           "image": "https://visitmadeira.com/media/3qshiivf/miradouro-da-quinta-do-furão-4.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/zBVvhj5dBuvKpBR48"
+          "GoogleMapsLink": "https://maps.app.goo.gl/zBVvhj5dBuvKpBR48",
+          "summary": "Hotel z restauracją na klifach Madery w otoczeniu winnic, z widokiem na wąwóz Santana."
         },
         {
           "id": "miradouro-winston-churchill",
@@ -4049,7 +4147,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/7sjbqBFdypwW9Ms56",
-          "image": "https://essential-madeira.com/en/images/00_OB_9746_DxO.jpg"
+          "image": "https://essential-madeira.com/en/images/00_OB_9746_DxO.jpg",
+          "summary": "Punkt widokowy upamiętniający wizytę Churchilla malującego tu akwarele na Maderze w 1950 roku."
         },
         {
           "id": "banana-museum-of-madeira-bam",
@@ -4062,7 +4161,8 @@
           "type": "museum",
           "websiteUrl": "https://visitmadeira.com/en/what-to-do/culture-passionates/heritage/museums/madeira-banana-museum-bam/",
           "image": "https://visitmadeira.com/media/1iri0bc3/banne-centro-1212-pedro-vasconcelos.jpg?width=1920&height=1080&rnd=133778077836430000",
-          "GoogleMapsLink": "https://maps.app.goo.gl/SYLNvXkF949c9Fyk6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/SYLNvXkF949c9Fyk6",
+          "summary": "Muzeum bananów na Maderze opowiadające historię uprawy owocu kształtującego wyspę przez stulecia."
         },
         {
           "id": "banana-museum-cafe",
@@ -4075,7 +4175,8 @@
           "type": "cafe",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/37PTGh4fNewCcmJy5",
-          "image": "/images/banana-museum-cafe.jpg"
+          "image": "/images/banana-museum-cafe.jpg",
+          "summary": "Kawiarnia przy muzeum bananów serwująca wypieki i napoje z maderskich bananów."
         },
         {
           "id": "socalco-nature-hotel",
@@ -4088,7 +4189,8 @@
           "type": "hotel",
           "websiteUrl": "https://socalconature.com/",
           "image": "https://socalconature.com/wp-content/uploads/2021/06/Socalco-Nature-Calheta-Madeira-Island-2.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/y5B62Xquu3JveNWZ9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/y5B62Xquu3JveNWZ9",
+          "summary": "Hotel w tarasowej zabudowie na Maderze wśród winnic i ogrodów z widokiem na ocean."
         }
       ]
     },
@@ -4113,7 +4215,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/fjtjVAtakANxPUQA8",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/St_Vicente.jpg/1200px-St_Vicente.jpg"
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/St_Vicente.jpg/1200px-St_Vicente.jpg",
+          "summary": "Malownicza miejscowość na północy Madery z jaskiniami lawy i centrum wulkanicznym."
         },
         {
           "id": "snack-bar-estoril",
@@ -4126,7 +4229,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/bd/af/66/widok-na-snack-bar-od.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/yifuWBdBL55zWynY8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/yifuWBdBL55zWynY8",
+          "summary": "Przytulny bar na Maderze serwujący ponchę i lokalne przekąski, popularny wśród funchalczyków."
         },
         {
           "id": "miradouro-da-eira-da-achada",
@@ -4139,7 +4243,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "https://madeira.best/pt-pt/produto/miradouro-da-eira-da-achada/",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/65/d0/f4/caption.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/6MiJKK5F3HPqbbwG8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/6MiJKK5F3HPqbbwG8",
+          "summary": "Punkt widokowy na Maderze z rozległą panoramą na góry i wybrzeże wschodniej wyspy."
         },
         {
           "id": "fanal-forest",
@@ -4152,7 +4257,8 @@
           "type": "nature",
           "websiteUrl": "",
           "image": "https://cdn.sanity.io/images/oyzyxja8/v2/855571428b775ed178781fb40e72f335aca944bd-2000x1333.jpg?w=2048&q=90&auto=format",
-          "GoogleMapsLink": "https://maps.app.goo.gl/62QH8A2tp3r699tT6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/62QH8A2tp3r699tT6",
+          "summary": "Las wawrzynowy na Maderze z wiekowymi drzewami spowitymi mgłą, chroniony przez UNESCO."
         },
         {
           "id": "akua",
@@ -4165,7 +4271,8 @@
           "type": "restaurant",
           "websiteUrl": "http://akuafunchal.pt/",
           "image": "https://maps.yourtravel.pt/cgmlImg/1810-aqpbqzr/wmdpi16/1718294906.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/sbNbJoXWUPAGB3VA7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/sbNbJoXWUPAGB3VA7",
+          "summary": "Nowoczesna restauracja w Funchal serwująca dania kuchni maderskiej z widokiem na port."
         }
       ]
     },
@@ -4190,7 +4297,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "https://madeiracablecar.com/",
           "image": "https://madeiracablecar.com/media/nldd0ttj/madeira_cable_car_2024-37-3.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/hosTdrjWR6gMz1kz8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/hosTdrjWR6gMz1kz8",
+          "summary": "Kolejka linowa łącząca centrum Funchal z Monte, z widokami na zatokę i dach miasta."
         },
         {
           "id": "monte-palace-ogrod-tropikalny",
@@ -4203,7 +4311,8 @@
           "type": "nature",
           "websiteUrl": "http://www.montepalacemadeira.com/",
           "GoogleMapsLink": "https://maps.app.goo.gl/KJxAoJis33n8td1x6",
-          "image": "https://static.wixstatic.com/media/9430cb_7f9da4c03c374dddb07649d7ecd965c9~mv2.jpg/v1/fill/w_1000,h_750,al_c,q_85,usm_0.66_1.00_0.01/9430cb_7f9da4c03c374dddb07649d7ecd965c9~mv2.jpg"
+          "image": "https://static.wixstatic.com/media/9430cb_7f9da4c03c374dddb07649d7ecd965c9~mv2.jpg/v1/fill/w_1000,h_750,al_c,q_85,usm_0.66_1.00_0.01/9430cb_7f9da4c03c374dddb07649d7ecd965c9~mv2.jpg",
+          "summary": "Ogród tropikalny przy pałacu Monte z roślinnością z całego świata i ceramiką azulejo."
         },
         {
           "id": "statue-of-charles-i-of-austria",
@@ -4216,7 +4325,8 @@
           "type": "art_culture",
           "websiteUrl": "https://cultura.madeira.gov.pt/olhares-sobre-o-passado/2723-imperador-da-%C3%A1ustria,-carlos-de-habsburgo,-i-de-%C3%A1ustria-e-iv-da-hungria.html",
           "GoogleMapsLink": "https://maps.app.goo.gl/MuAbPndaZRh5mHVP9",
-          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/ff/16/81/caption.jpg?w=1200&h=-1&s=1"
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/ff/16/81/caption.jpg?w=1200&h=-1&s=1",
+          "summary": "Pomnik Karola I Habsburga na Maderze, gdzie cesarz spędził ostatnie lata na wygnaniu przed śmiercią w 1922 r."
         },
         {
           "id": "koscio-matki-bozej-z-gory",
@@ -4229,7 +4339,8 @@
           "type": "art_culture",
           "websiteUrl": "https://pnsmonte.pt/",
           "GoogleMapsLink": "https://maps.app.goo.gl/hFtLBJraELikmWEP9",
-          "image": "https://img.freepik.com/premium-zdjecie/funchal-madera-04-lipca-wewnatrz-katedry-matki-bozej-z-gory-w-dniu-04-lipca-2014-r-na-maderze-portugalia_78361-5529.jpg"
+          "image": "https://img.freepik.com/premium-zdjecie/funchal-madera-04-lipca-wewnatrz-katedry-matki-bozej-z-gory-w-dniu-04-lipca-2014-r-na-maderze-portugalia_78361-5529.jpg",
+          "summary": "Barokowy kościół w Monte na Maderze — cel pielgrzymek i miejsce pochówku cesarza Karola I Habsburga."
         },
         {
           "id": "mercado-dos-lavradores",
@@ -4242,7 +4353,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://visit.funchal.pt/wp-content/uploads/2022/01/Leonor-S-7-1030x687.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ZU4UnMcDmTVdtHEo9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZU4UnMcDmTVdtHEo9",
+          "summary": "Targ rolniczy w Funchal z kolorowymi straganami pełnymi egzotycznych owoców, kwiatów i ryb."
         },
         {
           "id": "fabrica-santo-antonio",
@@ -4255,7 +4367,8 @@
           "type": "shopping",
           "websiteUrl": "http://www.fabricastoantonio.com/",
           "GoogleMapsLink": "https://maps.app.goo.gl/CeeDf2s7eNEZeusP8",
-          "image": "https://visitmadeira.com/media/41ufrxkm/fabrica-de-sto-antonio3-ricardo-paulino.jpg?width=1920&height=1080&rnd=133409047228870000"
+          "image": "https://visitmadeira.com/media/41ufrxkm/fabrica-de-sto-antonio3-ricardo-paulino.jpg?width=1920&height=1080&rnd=133409047228870000",
+          "summary": "Manufaktura słodyczy w Funchal działająca od 1893 roku, produkująca tradycyjne maderskie ciastka."
         },
         {
           "id": "fontanna-funchal-igreja-de-sao-joao-evangelista",
@@ -4268,7 +4381,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://visit.funchal.pt/wp-content/uploads/2016/04/ic-02.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/S47zZqredju5ghog9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/S47zZqredju5ghog9",
+          "summary": "Fontanna przy kościele São João Evangelista, jeden z charakterystycznych punktów starego Funchal."
         },
         {
           "id": "uaucacau",
@@ -4281,7 +4395,8 @@
           "type": "shopping",
           "websiteUrl": "https://www.uaucacau.com/",
           "image": "https://www.findmadeira.pt/wp-content/uploads/2024/03/Uaucacau_4.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ePJ4KvsVsRbMStmu6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ePJ4KvsVsRbMStmu6",
+          "summary": "Czekoladiernia w Funchal tworząca czekolady z maderskich składników, w tym batonów z ponchą."
         },
         {
           "id": "blandy-s-wine-lodge",
@@ -4294,7 +4409,8 @@
           "type": "shopping",
           "websiteUrl": "https://www.blandyswinelodge.com/",
           "GoogleMapsLink": "https://maps.app.goo.gl/6e546y1q2fw1DpBq6",
-          "image": "https://visitmadeira.com/media/hgtooh2k/blandy_s-wine-lodge3.jpg?width=1920&height=1080&rnd=133476270423230000"
+          "image": "https://visitmadeira.com/media/hgtooh2k/blandy_s-wine-lodge3.jpg?width=1920&height=1080&rnd=133476270423230000",
+          "summary": "Historyczna piwnica wina madeira rodziny Blandy czynna od 1811 roku z degustacjami i muzeum."
         },
         {
           "id": "peixaria-no-mercado",
@@ -4307,7 +4423,8 @@
           "type": "restaurant",
           "websiteUrl": "https://instagram.com/peixarianomercado.pt?utm_medium=copy_link",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/d6/01/3d/peixaria-no-mercado.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/b2Xhv7U1tAfnP99g6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/b2Xhv7U1tAfnP99g6",
+          "summary": "Stragan rybny na targu Lavradores w Funchal ze świeżą espada — głębinową rybą-żmiją z Atlantyku."
         },
         {
           "id": "cr7-museum",
@@ -4320,7 +4437,8 @@
           "type": "museum",
           "websiteUrl": "https://www.museucr7.com/",
           "image": "https://img.atlasobscura.com/9yAWFoJFUnMafOw-Wzvev2HqA9oOF_Orttzc-elXydI/rt:fit/w:1200/q:80/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy9jYTIw/ZTgwYi1jMDVkLTRj/MWYtOTY5ZS0zOTc5/MzViMzQxZjU2NGI4/NGQzMGVlN2YzMzA4/MTBfMjAyMjA2MjFf/MTA0OTU3LmpwZw.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/NVUh8aMG7B97M5Ud7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/NVUh8aMG7B97M5Ud7",
+          "summary": "Muzeum Cristiano Ronaldo otwarte w 2013 roku w Funchal, poświęcone karierze maderskiego piłkarza."
         },
         {
           "id": "happy-hour-madeira",
@@ -4333,7 +4451,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "http://www.happyhourmadeira.com/en",
           "image": "https://visitmadeira.com/media/svzppxa4/happyhour1-happy-hour.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/crGnjUcqno9sJvgN7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/crGnjUcqno9sJvgN7",
+          "summary": "Plenerowa strefa rozrywki w Funchal z widokiem na zatokę, popularna wśród turystów i mieszkańców."
         }
       ]
     },
@@ -4358,7 +4477,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/qyLs4YMmG4SUadiV8",
-          "image": "/images/statue-de-johannes-gutenberg.jpg"
+          "image": "/images/statue-de-johannes-gutenberg.jpg",
+          "summary": "Pomnik Johannesa Gutenberga na głównym placu Strasburga, upamiętniający wynalazcę druku w mieście jego działalności."
         },
         {
           "id": "katedra-najswietszej-marii-panny-w-strasburgu",
@@ -4371,7 +4491,8 @@
           "type": "art_culture",
           "websiteUrl": "https://www.cathedrale-strasbourg.fr/",
           "GoogleMapsLink": "https://maps.app.goo.gl/V7RQZrFxKSK2suhN8",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Strasbourg_Cathedral_Exterior_-_Diliff.jpg/250px-Strasbourg_Cathedral_Exterior_-_Diliff.jpg"
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Strasbourg_Cathedral_Exterior_-_Diliff.jpg/250px-Strasbourg_Cathedral_Exterior_-_Diliff.jpg",
+          "summary": "Gotycka katedra z różowego piaskowca z XII–XV w. — przez wieki najwyższy budynek świata, ikona Strasburga."
         },
         {
           "id": "patisserie-buhler-la-maison-du-kougelhopf",
@@ -4384,7 +4505,8 @@
           "type": "cafe",
           "websiteUrl": "",
           "image": "https://media-cdn.tripadvisor.com/media/photo-s/09/c2/eb/d5/the-perfect-cafe.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ZjGvzPSgdcVKgdQz6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZjGvzPSgdcVKgdQz6",
+          "summary": "Cukiernia od 1780 roku słynąca z alzackiego kougelhopfa — drożdżowego ciasta z rodzynkami."
         },
         {
           "id": "town-hall",
@@ -4397,7 +4519,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/RLDA3Vzhe4N5xvqp9",
-          "image": "https://www.strassburg.eu/sites/default/files/images/hotel-de-ville-altes-rathaus-strassburg_0.JPG"
+          "image": "https://www.strassburg.eu/sites/default/files/images/hotel-de-ville-altes-rathaus-strassburg_0.JPG",
+          "summary": "Renesansowy ratusz Strasburga z XVI wieku, siedziba władz miejskich i punkt orientacyjny centrum."
         },
         {
           "id": "opera-national-du-rhin",
@@ -4410,7 +4533,8 @@
           "type": "art_culture",
           "websiteUrl": "http://www.operanationaldurhin.eu/",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/L%27Opéra_de_Strasbourg.jpg/1200px-L%27Opéra_de_Strasbourg.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/L1i8P2mavBXDnHFF6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/L1i8P2mavBXDnHFF6",
+          "summary": "Opera neoklasyczna z lat 1804–1821, jedna z prestiżowych scen muzycznych Alzacji i całej Francji."
         },
         {
           "id": "boutique-wolfberger-strasbourg",
@@ -4423,7 +4547,8 @@
           "type": "shopping",
           "image": "https://www.wolfberger.com/wp-content/uploads/2014/10/Wolfberger_Stras_6_2011.jpg",
           "websiteUrl": "http://www.wolfberger.com/?utm_source=gmbhttps://www.wolfberger.com/wp-content/uploads/2014/10/Wolfberger_Stras_6_2011.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ricnkA5X8kNHg1S86"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ricnkA5X8kNHg1S86",
+          "summary": "Sklep alzackiej spółdzielni winiarskiej Wolfberger z winami z Alzacji i piwem certyfikowanego browaru."
         },
         {
           "id": "le-clou",
@@ -4436,7 +4561,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.le-clou.com/",
           "image": "https://images.squarespace-cdn.com/content/v1/64be98c2fdfe7b5700c6933f/1690306531651-2SFOA4SXJTJE0FWKBW3W/winstubclou-juliengerard-d3-1906201206.jpg?format=2500w",
-          "GoogleMapsLink": "https://maps.app.goo.gl/hQepFonknLkQRDwV6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/hQepFonknLkQRDwV6",
+          "summary": "Tradycyjna alzacka winstub serwująca choucroute, baeckeoffe i inne regionalne dania Strasburga."
         },
         {
           "id": "boutique-du-gourmet-georges-bruck-foies-gras-d-alsace",
@@ -4449,7 +4575,8 @@
           "type": "shopping",
           "websiteUrl": "http://www.bruck-foiegras.com/",
           "image": "https://www.bruck-foiegras.com/wp-content/uploads/2021/06/georges-bruck-foie-gras-alsace-a-strasbourg-boutique-de-strasbourg-photo2.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/RScYEsbfH3U91sSC9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/RScYEsbfH3U91sSC9",
+          "summary": "Sklep Georgesa Brucka specjalizujący się w foie gras z Alzacji i alzackich specjałach gastronomicznych."
         },
         {
           "id": "la-cloche-a-fromage-fromagerie",
@@ -4462,7 +4589,8 @@
           "type": "shopping",
           "websiteUrl": "http://www.fromagerie-tourrette.com/",
           "image": "https://www.fromagerie-tourrette.com/wp-content/uploads/2020/06/restaurant-la-cloche-a-fromage-1018x600.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/dVziZh8baQxx16m57"
+          "GoogleMapsLink": "https://maps.app.goo.gl/dVziZh8baQxx16m57",
+          "summary": "Seriarnia w Strasburgu z szerokim wyborem lokalnych i francuskich serów dojrzewanych."
         },
         {
           "id": "christmas-in-alsace",
@@ -4475,7 +4603,8 @@
           "type": "shopping",
           "websiteUrl": "http://www.noelenalsace.fr/",
           "image": "https://mangue-poudree.fr/wp-content/uploads/2016/08/boutique-un-noecc88l-en-alsace.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/s9stcuaVCzcPKi4t7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/s9stcuaVCzcPKi4t7",
+          "summary": "Słynne targi bożonarodzeniowe w Alzacji — jedne z najstarszych i najpiękniejszych w Europie."
         },
         {
           "id": "centre-historique-petite-france",
@@ -4488,7 +4617,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/6pTsGohRYCfNKXQY8",
-          "image": "https://www.freetour.com/images/tours/6327/tour-a-pie-gratis-estrasburgo-es-emocionante-16.jpg"
+          "image": "https://www.freetour.com/images/tours/6327/tour-a-pie-gratis-estrasburgo-es-emocionante-16.jpg",
+          "summary": "Historyczna dzielnica Strasburga z ryglowymi kamienicami nad kanałami Ill, wpisana na Listę UNESCO."
         },
         {
           "id": "le-meteor",
@@ -4501,7 +4631,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.lemeteor.fr/",
           "image": "https://static.actu.fr/uploads/2019/10/le-meteor.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/CLTAi6zU7uxREAWc8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/CLTAi6zU7uxREAWc8",
+          "summary": "Knajpa w Strasburgu serwująca dania alzackie w parze z lokalnym piwem z browaru Météor."
         },
         {
           "id": "parlament-europejski",
@@ -4514,7 +4645,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "https://visiting.europarl.europa.eu/en/visitor-offer/strasbourg/hemicycle",
           "image": "https://dzieje.pl/sites/default/files/styles/open_article_750x0_/public/202001/Parlament_Europejski_Strasburg_.jpg?itok=WVGKMbEx",
-          "GoogleMapsLink": "https://maps.app.goo.gl/4EjCeGQ3Bnj86pTx8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/4EjCeGQ3Bnj86pTx8",
+          "summary": "Siedziba Parlamentu Europejskiego w Strasburgu z głównym gmachem otwartym w 1999 roku."
         }
       ]
     },
@@ -4539,7 +4671,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "image": "https://cdn-s-www.republicain-lorrain.fr/images/AF2C62D9-F21B-43F2-9E6C-D1DC38AAD1C3/NW_raw/le-monument-des-accords-date-de-1997-trois-hautes-steles-en-acier-portant-chacune-une-etoile-symbolisent-les-premiers-signataires-du-traite-la-france-l-allemagne-et-les-pays-du-benelux-qui-forment-le-pays-des-trois-frontieres-1507035628.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/7TNGDUdVy5amRBBM9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/7TNGDUdVy5amRBBM9",
+          "summary": "Instalacja artystyczna w Luksemburgu gloryfikująca kulturową różnorodność krajów członkowskich UE."
         },
         {
           "id": "pa-ac-wielkich-ksiazat-w-luksemburgu",
@@ -4552,7 +4685,8 @@
           "type": "art_culture",
           "websiteUrl": "https://monarchie.lu/en/visit-grand-ducal-palace",
           "GoogleMapsLink": "https://maps.app.goo.gl/snaMGvRVBDxPdKRS9",
-          "image": "/images/pa-ac-wielkich-ksiazat-w-luksemburgu.jpg"
+          "image": "/images/pa-ac-wielkich-ksiazat-w-luksemburgu.jpg",
+          "summary": "Oficjalna rezydencja Wielkiego Księcia Luksemburga, renesansowy pałac w centrum starego miasta."
         },
         {
           "id": "hotel-de-ville",
@@ -4565,7 +4699,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/Limtce3rC2wNJTNL7",
-          "image": "/images/hotel-de-ville.jpg"
+          "image": "/images/hotel-de-ville.jpg",
+          "summary": "Ratusz miasta Luksemburg w centrum starego miasta wpisanego na Listę UNESCO."
         },
         {
           "id": "statue-of-the-grand-duchess-charlotte",
@@ -4578,7 +4713,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/iF4j91gGPFvrUjgi6",
-          "image": "/images/statue-of-the-grand-duchess-charlotte.jpg"
+          "image": "/images/statue-of-the-grand-duchess-charlotte.jpg",
+          "summary": "Pomnik Wielkiej Księżnej Charlotty, która prowadziła kraj przez trudne lata II wojny światowej."
         },
         {
           "id": "oberweis-grand-rue",
@@ -4591,7 +4727,8 @@
           "type": "cafe",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/tgytC7r45A1eSRZW8",
-          "image": "/images/oberweis-grand-rue.jpg"
+          "image": "/images/oberweis-grand-rue.jpg",
+          "summary": "Królewska cukiernia przy głównej ulicy Luksemburga, oficjalny dostawca dworu wielkoksiążęcego."
         },
         {
           "id": "le-quai-steffen-gare-de-luxembourg-restaurant",
@@ -4604,7 +4741,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/mqQvyGp4uwhz5ZM28",
-          "image": "/images/le-quai-steffen-gare-de-luxembourg-restaurant.jpg"
+          "image": "/images/le-quai-steffen-gare-de-luxembourg-restaurant.jpg",
+          "summary": "Elegancka restauracja przy dworcu kolejowym ceniona za tradycyjną kuchnię luksemburską."
         },
         {
           "id": "philharmonie-luxembourg",
@@ -4617,7 +4755,8 @@
           "type": "art_culture",
           "websiteUrl": "http://www.philharmonie.lu/",
           "GoogleMapsLink": "https://maps.app.goo.gl/mneUdtSeYCRaYSdg6",
-          "image": "/images/philharmonie-luxembourg.jpg"
+          "image": "/images/philharmonie-luxembourg.jpg",
+          "summary": "Nowoczesna sala koncertowa w dzielnicy Kirchberg, siedziba Orkiestry Filharmonicznej Luksemburga."
         },
         {
           "id": "court-of-justice-of-the-european-union",
@@ -4630,7 +4769,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/7w3USDeQu6RJkKnn8",
-          "image": "/images/court-of-justice-of-the-european-union.jpg"
+          "image": "/images/court-of-justice-of-the-european-union.jpg",
+          "summary": "Trybunał Sprawiedliwości UE w Luksemburgu, główna instancja sądownictwa europejskiego."
         },
         {
           "id": "schmit-fohl-maison-viticole",
@@ -4643,7 +4783,8 @@
           "image": "https://schmit-fohl.lu/wp-content/uploads/2023/10/Schmit-Fohl_2023-086-scaled.jpg",
           "type": "shopping",
           "websiteUrl": "https://schmit-fohl.lu/en/",
-          "GoogleMapsLink": "https://maps.app.goo.gl/aRtUq8E8oqQGUAQd8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/aRtUq8E8oqQGUAQd8",
+          "summary": "Winiarnia odpowiedzialna za pierwszą apelację luksemburskiego crémant, oficjalnego wina narodowegow."
         }
       ]
     },
@@ -4668,7 +4809,8 @@
           "type": "shopping",
           "websiteUrl": "http://www.neuhauschocolates.com/",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/cd/fd/21/corne-port-royal.jpg?w=900&h=-1&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/n9PvbqC417BgjiVY7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/n9PvbqC417BgjiVY7",
+          "summary": "Belgijska czekoladiernia Neuhaus — twórców oryginalnej belgijskiej pralinki z 1912 roku w Brukseli."
         },
         {
           "id": "galerie-de-la-reine-1000-brussel-belgia",
@@ -4681,7 +4823,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/ac/85/3a/photo2jpg.jpg?w=800&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/qVpYmVfXuSVZ6voY8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/qVpYmVfXuSVZ6voY8",
+          "summary": "Neogotycka galeria handlowa z 1847 roku w centrum Brukseli, wpisana na Listę Dziedzictwa UNESCO."
         },
         {
           "id": "tintin-comic-mural",
@@ -4694,7 +4837,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "image": "https://i.redd.it/uhvj00y9veg81.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Hy2g15hkLEfhGGAg9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Hy2g15hkLEfhGGAg9",
+          "summary": "Słynny mural z Tininem na brukselskiej kamienicy, jeden z komiksowych murali zdobiących stolicę Belgii."
         },
         {
           "id": "european-parliament-belgium",
@@ -4707,7 +4851,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "https://www.europarl.europa.eu/portal/en",
           "GoogleMapsLink": "https://maps.app.goo.gl/DE8zph85L7wTuGwA8",
-          "image": "/images/european-parliament-belgium.jpg"
+          "image": "/images/european-parliament-belgium.jpg",
+          "summary": "Centrum operacyjne Parlamentu Europejskiego w Brukseli z siedzibą Sekretariatu Generalnego."
         },
         {
           "id": "dom-historii-europejskiej",
@@ -4720,7 +4865,8 @@
           "type": "museum",
           "websiteUrl": "https://historia.europa.eu/",
           "image": "https://culture.ec.europa.eu/sites/default/files/styles/eac_ratio_16_9_xl/public/2020-10/cheritage-houseofeuhistory-c_goodlifestoodioistock.jpg?h=10d202d3&itok=g1mVlDXe",
-          "GoogleMapsLink": "https://maps.app.goo.gl/huGfLdbdPbNjEoNQ9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/huGfLdbdPbNjEoNQ9",
+          "summary": "Muzeum historii Europy w Brukseli otwarte w 2017 roku, prezentujące dzieje kontynentu od XIX w."
         },
         {
           "id": "ristorante-pizzeria-ichnusa-e-brutium",
@@ -4733,7 +4879,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.ichnusaebrutium.be/en/menu",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/15/bb/e0/ristorante-pizzeria-ichnusa.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Dbq5Cvckb4DF3Tzn6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Dbq5Cvckb4DF3Tzn6",
+          "summary": "Włoska restauracja w Brukseli serwująca sardyńskie i kalabryjskie potrawy z importowanymi produktami z południa."
         },
         {
           "id": "oude-geuzestekerij-de-cam",
@@ -4746,7 +4893,8 @@
           "type": "shopping",
           "websiteUrl": "https://www.facebook.com/De.Cam.Pajottenland/",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Decam_03.jpg/1200px-Decam_03.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/6vbjQGcLpbzj4ajv6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/6vbjQGcLpbzj4ajv6",
+          "summary": "Rzemieślnicza blendownia gueuze w Getze kupująca lambic od tradycyjnych browarów i mieszająca go w starych beczkach."
         }
       ]
     },
@@ -4771,7 +4919,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/E3tc9a9Qn7StFcXk8",
-          "image": "https://cdn.bookingkit.de/vendor_images/72a1bb08580afa5f7a02f7e60f635b31/detail/Tank1.jpg"
+          "image": "https://cdn.bookingkit.de/vendor_images/72a1bb08580afa5f7a02f7e60f635b31/detail/Tank1.jpg",
+          "summary": "Minimalistyczna rzeźba Kolodko z smutnym czołgiem, ukryta w uliczkach Budapesztu."
         },
         {
           "id": "rubik-s-cube-mini-statue-by-kolodko",
@@ -4784,7 +4933,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/nN6HjzP8z49vJUAZ7",
-          "image": "https://dohanyutcai.hu/wp-content/uploads/2023/07/kolodko-rubik.png"
+          "image": "https://dohanyutcai.hu/wp-content/uploads/2023/07/kolodko-rubik.png",
+          "summary": "Mała figurka Kostki Rubika autorstwa Kolodko, jeden z ukrytych miniaturowych posążków Budapesztu."
         },
         {
           "id": "feny-street-market",
@@ -4797,7 +4947,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "image": "https://expat-press.com/wp-content/uploads/2018/04/Feny-utcai-piac-1.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/qANJEtw8ZEyVnBJP6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/qANJEtw8ZEyVnBJP6",
+          "summary": "Targ na Fény utca w Budzie z lokalnym nabiałem, warzywami, wędlinami i wyrobami rzemiosła."
         },
         {
           "id": "buja-diszno-k-buda-a-rantotthus-es-egyeb-disznosagok",
@@ -4810,7 +4961,8 @@
           "type": "restaurant",
           "websiteUrl": "https://bujadisznok.hu/",
           "image": "https://res.cloudinary.com/doxk6xjyq/image/upload/v1755421436/buja%20disznok%20budapest%203.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/4VNszoL2zkyoCEpd7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/4VNszoL2zkyoCEpd7",
+          "summary": "Restauracja w Budzie specjalizująca się w daniach wieprzowych — rántott hús i inne węgierskie klasyki."
         },
         {
           "id": "king-franz-joseph-mini-statue-by-kolodko",
@@ -4823,7 +4975,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/R6SK3cNs4SQCucy68",
-          "image": "https://traveltoexist.com/wp-content/uploads/2025/04/Kolodko-statues-Budapest-King-Franz-Joseph.jpg"
+          "image": "https://traveltoexist.com/wp-content/uploads/2025/04/Kolodko-statues-Budapest-King-Franz-Joseph.jpg",
+          "summary": "Miniaturowy posążek Franciszka Józefa I autorstwa Kolodko, ukryty w przestrzeni publicznej Budapesztu."
         },
         {
           "id": "a-rubik-kocka",
@@ -4836,7 +4989,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/bS7hv5ocdhqhDDAZA",
-          "image": "https://budapestflow.b-cdn.net/wp-content/uploads/2016/03/Rubik-cube-1.jpg"
+          "image": "https://budapestflow.b-cdn.net/wp-content/uploads/2016/03/Rubik-cube-1.jpg",
+          "summary": "Mural poświęcony Kostce Rubika w Budapeszcie, upamiętniający wynalazek Ernő Rubika."
         },
         {
           "id": "szabad-bisztro-uj-hely",
@@ -4849,7 +5003,8 @@
           "type": "restaurant",
           "websiteUrl": "https://szabadbisztro.hu/",
           "image": "https://images.happycow.net/venues/1024/37/12/hcmp371275_2347735.jpeg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/fFctLHb9arZqPWas7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/fFctLHb9arZqPWas7",
+          "summary": "Bistro w odrestaurowanym budynku w Budapeszcie z kuchnią węgierską w nowoczesnym wydaniu."
         },
         {
           "id": "langos-manufaktura",
@@ -4862,7 +5017,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "image": "https://static.where-e.com/Hungary/Lngos-Manufaktra_8a35ada5b5f2bd576e930db0bd6ce54e.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/3tNWprnrBuNM4Y7L7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/3tNWprnrBuNM4Y7L7",
+          "summary": "Manufaktura lángosza w Budapeszcie serwująca usmażone ciasto z tradycyjnymi i nowoczesnymi dodatkami."
         },
         {
           "id": "frigylada-szobor",
@@ -4875,7 +5031,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "image": "https://kornyeke.hu/fotok/tartalom/1/2-210209113525410610.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/X7Tyv4gbm4T2KMJx7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/X7Tyv4gbm4T2KMJx7",
+          "summary": "Rzeźba Arki Przymierza w Budapeszcie, często mylnie brana za replikę biblijnego obiektu."
         },
         {
           "id": "gyor-town-hall",
@@ -4888,7 +5045,8 @@
           "type": "art_culture",
           "websiteUrl": "http://www.gyor.hu/",
           "GoogleMapsLink": "https://maps.app.goo.gl/rzW1yGAdV58sH8b9A",
-          "image": "https://d37rmf1ynyg9aw.cloudfront.net/fit-in/1280x1280/data/v4/pois/sygic-poi-5558980/resources/625018.jpg"
+          "image": "https://d37rmf1ynyg9aw.cloudfront.net/fit-in/1280x1280/data/v4/pois/sygic-poi-5558980/resources/625018.jpg",
+          "summary": "Eklektyczny ratusz z XIX wieku w Győrze, jedna z dominant architektonicznych węgierskiego miasta."
         },
         {
           "id": "pecsinger-szolobirtok",
@@ -4901,7 +5059,8 @@
           "type": "shopping",
           "websiteUrl": "https://www.pecsinger.hu/",
           "GoogleMapsLink": "https://maps.app.goo.gl/sJTabc9qG1ZY4p8H7",
-          "image": "https://pecsinger.hu/wp-content/uploads/2023/02/Borlemente-kep-fooldal.jpg"
+          "image": "https://pecsinger.hu/wp-content/uploads/2023/02/Borlemente-kep-fooldal.jpg",
+          "summary": "Winnica nad Balatonem produkująca wysokiej jakości białe wina z lokalnych odmian winorośli."
         }
       ]
     },
@@ -4926,7 +5085,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://inzynieria.com/uploaded/articles/crop_5/ł_578cbbc99c.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/r6PtDUGAXnm5CNou7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/r6PtDUGAXnm5CNou7",
+          "summary": "Most Łańcuchowy z 1849 roku, symbol Budapesztu łączący Budę z Pestem nad Dunajem."
         },
         {
           "id": "cafe-gerbeaud",
