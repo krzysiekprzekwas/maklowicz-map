@@ -37,7 +37,7 @@ export function LocationListItem({ location, onClick }: LocationListItemProps) {
             {location.name}
           </span>
         </div>
-        <p className="text-xs text-gray-500 line-clamp-2">{location.address}</p>
+        <p className="text-xs text-gray-500 line-clamp-3">{location.summary || location.address}</p>
         <p className="text-xs text-gray-400 mt-0.5">{location.country}</p>
       </div>
     </div>

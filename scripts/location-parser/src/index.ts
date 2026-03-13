@@ -447,8 +447,18 @@ async function main() {
     const location = createLocation(mapsData, url);
 
     const description = await generateDescription(location);
-
     location.description = description;
+
+    if (process.env.GEMINI_API_KEY) {
+      const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+      const summaryPrompt = `Napisz jedno zdanie po polsku (max 120 znaków), które jasno opisuje czym jest miejsce "${location.name}" w ${location.country}. Odpowiedź to samo zdanie, bez cudzysłowów.`;
+      const summaryResponse = await ai.models.generateContent({
+        model: 'gemini-2.5-flash',
+        contents: summaryPrompt,
+        config: { temperature: 0.4 }
+      });
+      location.summary = summaryResponse.text.trim();
+    }
 
     console.log('\nLocation data:');
     console.log(JSON.stringify(location, null, 2));

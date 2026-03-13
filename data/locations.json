@@ -19,6 +19,7 @@
           "address": "Ponte Talvera, Ponte Talvera, 39100 Bolzano BZ, Italy",
           "country": "Włochy",
           "type": "museum",
+          "summary": "Muzeum słynące z Ötziego – człowieka lodu sprzed 5300 lat, odkrytego w Alpach Południowego Tyrolu.",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/Ny8aqCo2Ei2QpaEd7",
           "image": "/images/south-tyrol-archeological-museum.jpg"
@@ -32,6 +33,7 @@
           "address": "Via Museo, 21/B, 39100 Bolzano BZ, Italy",
           "country": "Włochy",
           "type": "cafe",
+          "summary": "Historyczna kawiarnia w Bolzano działająca od 1890 roku – klasyczne espresso i ciastka z duszą.",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/stdoz8Vj87MbaGit8",
           "image": "/images/cafe-peter.jpg"
@@ -45,6 +47,7 @@
           "address": "Via Museo, 21/B, 39100 Bolzano BZ, Italy",
           "country": "Włochy",
           "type": "shopping",
+          "summary": "Tętniący życiem targ w centrum Bolzano, gdzie lokalne owoce i smaki Południowego Tyrolu.",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/jNbnskT8JQfJK1wZ6",
           "image": "/images/obstmarkt.jpg"
@@ -58,6 +61,7 @@
           "address": "Bolzano, Piazza Vittoria, 39100 Bolzano BZ, Italy",
           "country": "Włochy",
           "type": "cafe",
+          "summary": "Tradycyjna piekarnia z duszą – chrupiąca focaccia, świeży chleb i słodkości prosto z pieca.",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/wCZfgWRjc8J6gdF29",
           "image": "/images/panetteria-grandi.jpg"
@@ -71,6 +75,7 @@
           "address": "Via Leonardo Da Vinci, 2/A, 39100 Bolzano BZ, Italy",
           "country": "Włochy",
           "type": "restaurant",
+          "summary": "Restauracja w Bolzano otwarta w 1872 roku, serwująca dania kuchni południowotyrolskiej.",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/UZPeERbo9xWvTiMG8",
           "image": "/images/wirtshaus-vogele.jpg"
@@ -84,6 +89,7 @@
           "address": "Via Leonardo Da Vinci, 2, 39100 Bolzano BZ, Italy",
           "country": "Włochy",
           "type": "museum",
+          "summary": "Barokowy pałac kupiecki z 1713 roku w Bolzano – dawne centrum handlowego życia regionu.",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/ACxoM8JmeWL5858n6",
           "image": "/images/museo-mercantile.jpg"
@@ -97,6 +103,7 @@
           "address": "Via Museo, 18a, 39100 Bolzano BZ, Italy",
           "country": "Włochy",
           "type": "restaurant",
+          "summary": "Restauracja rybna przy historycznym Mercato delle Erbe w Bolonii, ze świeżymi owocami morza.",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/ZJd2WV7M3ZEArTTZA",
           "image": "/images/banco-11.jpg"
@@ -110,6 +117,7 @@
           "address": "Via Tre Santi, 1, 39100 Bolzano BZ, Italy",
           "country": "Włochy",
           "type": "tourist_attraction",
+          "summary": "Dolna stacja kolejki linowej z 1907 roku łączącej Bolzano z płaskowyżem Renon.",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/aGTxFVznnuYcmEXi6",
           "image": "/images/funivia-renon-stazione-a-valle.jpg"
@@ -123,6 +131,7 @@
           "address": "Via Cermes, 9, 39011 Lana BZ, Italy",
           "country": "Włochy",
           "type": "art_culture",
+          "summary": "Historyczna posiadłość winiarska z 1236 roku z labiryntem ogrodowym w Południowym Tyrolu.",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/PhTnYhEaEvAU9gxQ8",
           "image": "/images/kranzelhof.jpg"
@@ -136,6 +145,7 @@
           "address": "Via delle Palade, 1, 39010 Cermes BZ, Italy",
           "country": "Włochy",
           "type": "restaurant",
+          "summary": "Restauracja urządzona w XVII-wiecznym młynie – wyrafinowane dania w historycznych wnętrzach.",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/xaBieqtAcs2GVk26A",
           "image": "/images/miil.jpg"
@@ -17011,6 +17021,7 @@
           "address": "Celestinov put 18, 20250, Podgorje, Croatia",
           "country": "Chorwacja",
           "type": "art_culture",
+          "summary": "Franciszkański klasztor z kościołem i zabytkowym cmentarzem na półwyspie Pelješac.",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/WvPyZw1GTmBkLSbP7",
           "image": "/images/monastery-and-church-of-our-lady-of-the-angels.jpg"
@@ -17024,6 +17035,7 @@
           "address": "34A, 20250, Kučište, Croatia",
           "country": "Chorwacja",
           "type": "hotel",
+          "summary": "Kameralny hotel w Kučište z domową kuchnią i widokiem na wyspę Korčulę.",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/E4zt8cXNnEdKwVkZ8",
           "image": "/images/villa-vrgorac.jpg"
@@ -17037,6 +17049,7 @@
           "address": "Ul. Bana Josipa Jelačića 104, 20250, Orebić, Croatia",
           "country": "Chorwacja",
           "type": "nature",
+          "summary": "Jedna z piękniejszych plaż półwyspu Pelješac, otoczona winnicami i adriatycką bryzą.",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/maKgiYV8vYzw8eX5A",
           "image": "/images/plaza-trstenica.jpg"
@@ -17062,6 +17075,7 @@
           "address": "Žalo 30, 20240, Trpanj, Croatia",
           "country": "Chorwacja",
           "type": "tourist_attraction",
+          "summary": "Malowniczy port dalmatyński na półwyspie Pelješac, brama do kulinarnych skarbów Adriatyku.",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/eQUkP9dDd8yThrRr7",
           "image": "https://www.hrvaska.net/resize1/trpanj_p284.jpg"
@@ -17087,6 +17101,7 @@
           "address": "26, 20244, Potomje, Croatia",
           "country": "Chorwacja",
           "type": "restaurant",
+          "summary": "Tradycyjna konoba przy wyjściu z tunelu Dingač, serwująca lokalne wino i dania Pelješacu.",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/Gjq5GRi3mvSstZfn8",
           "image": "/images/konoba-portun-potomje.jpg"
@@ -17100,6 +17115,7 @@
           "address": "Potomje, Croatia",
           "country": "Chorwacja",
           "type": "art_culture",
+          "summary": "Wydrążony w skale tunel z 1973 roku łączący Potomje z legendarną krainą wina Dingač.",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/YbodzfDn4exJ3z1J7",
           "image": "/images/dingac-tunnel.jpg"
@@ -17125,6 +17141,7 @@
           "address": "Račišće, Croatia",
           "country": "Chorwacja",
           "type": "art_culture",
+          "summary": "Preromański kościółek z XI–XII wieku, jedna z najstarszych sakralnych budowli w Dalmacji.",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/YWwmiz8CyHQFRxhu7",
           "image": "/images/koscio-sw-miko-aja.jpg"
@@ -17150,6 +17167,7 @@
           "address": "St2127 30, 94538 Fürstenstein, Germany",
           "country": "Niemcy",
           "type": "hotel",
+          "summary": "Tradycyjny bawarski pensjonat z domową kuchnią, od pokoleń goszczący podróżników w Fürstenstein.",
           "websiteUrl": "https://www.pension-kerber.de/",
           "GoogleMapsLink": "https://maps.app.goo.gl/sTugpmW9CX7LvhL3A",
           "image": "/images/gasthaus-kerber.jpg"
@@ -17163,6 +17181,7 @@
           "address": "Šentilj v Slov. goricah, Slovenia",
           "country": "Słowenia",
           "type": "restaurant",
+          "summary": "Restauracja przy granicy słoweńsko-austriackiej serwująca tradycyjną kuchnię słoweńską.",
           "websiteUrl": "https://de.restaurantguru.com/Demiri-Restaurant-Sentilj-v-Slov-goricah",
           "GoogleMapsLink": "https://maps.app.goo.gl/MdK5AXTSzUiuASsV8",
           "image": "/images/demiri-restaurant.jpg"
@@ -17176,6 +17195,7 @@
           "address": "Baćina, Croatia",
           "country": "Chorwacja",
           "type": "tourist_attraction",
+          "summary": "Port promowy stanowiący bramę na półwysep Pelješac i dalmatyńskie wybrzeże.",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/WY7UaAnPAUwrG7y57",
           "image": "https://www.lifeandventures.com/wp-content/uploads/2021/01/what_to_see_in_ploce09-1200x674.jpg"

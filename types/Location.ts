@@ -19,6 +19,7 @@ export interface Location {
     address: string;
     country: string;
     type: LocationType;
+    summary?: string;
     websiteUrl?: string;
     GoogleMapsLink?: string;
     image?: string;

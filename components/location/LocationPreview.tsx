@@ -81,8 +81,8 @@ export function LocationPreview({
             {location.name}
           </span>
         </div>
-        <p className="text-xs text-gray-500 leading-relaxed line-clamp-2 mt-0.5">
-          {location.address}
+        <p className="text-xs text-gray-500 leading-relaxed line-clamp-3 mt-0.5">
+          {location.summary || location.address}
         </p>
       </div>
     </motion.div>
