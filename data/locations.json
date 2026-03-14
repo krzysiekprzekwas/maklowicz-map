@@ -21,7 +21,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/TcTde8bATzNDwr227",
-          "image": "/images/restauracja-concordia-taste-poznan.jpg"
+          "image": "/images/restauracja-concordia-taste-poznan.jpg",
+          "summary": "Restauracja w zabytkowej drukarni z 1910 roku w Poznaniu serwująca nowoczesną kuchnię polską."
         },
         {
           "id": "muga",
@@ -34,7 +35,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/acvzEF8Dn4NbJDsP7",
-          "image": "/images/muga.jpg"
+          "image": "/images/muga.jpg",
+          "summary": "Krakowska restauracja łącząca polską tradycję kulinarną z nowoczesnym podejściem do kuchni."
         },
         {
           "id": "fromazeria",
@@ -47,7 +49,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/gp2g1z9VdLp6zK5M9",
-          "image": "/images/fromazeria.jpg"
+          "image": "/images/fromazeria.jpg",
+          "summary": "Polska fromażeria z szerokim wyborem dojrzewających serów i potraw na ich bazie."
         }
       ]
     },
@@ -5150,7 +5153,8 @@
           "type": "restaurant",
           "websiteUrl": "https://gerbeaud.hu/",
           "image": "https://www.komuwdrogetemuczas.eu/wp-content/uploads/2025/06/gerbeaud-cafe.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/PMTNnURMEbGJzA8f9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/PMTNnURMEbGJzA8f9",
+          "summary": "Legendarny salon cukierniczy w sercu Budapesztu działający od 1858 roku, słynący z tortów i ciast."
         },
         {
           "id": "pomnik-sisi",
@@ -5163,7 +5167,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/4L8FYXKrERo2zDi48",
-          "image": "https://us.123rf.com/450wm/diegograndi/diegograndi2210/diegograndi221000155/194228235-budapest-hungary-oct-22-2019-sisi-statue-elisabeth-at-madach-square-budapest-hungary.jpg?ver=6"
+          "image": "https://us.123rf.com/450wm/diegograndi/diegograndi2210/diegograndi221000155/194228235-budapest-hungary-oct-22-2019-sisi-statue-elisabeth-at-madach-square-budapest-hungary.jpg?ver=6",
+          "summary": "Pomnik cesarzowej Elżbiety (Sisi) w Budapeszcie, umiłowanej przez Węgrów monarchini Austro-Węgier."
         },
         {
           "id": "wielka-synagoga-w-budapeszcie",
@@ -5176,7 +5181,8 @@
           "type": "art_culture",
           "websiteUrl": "https://jewishtourhungary.com/",
           "GoogleMapsLink": "https://maps.app.goo.gl/oTXCCb955LdxmBe37",
-          "image": "https://wp.pl.aleteia.org/wp-content/uploads/sites/9/2018/10/web3-great-synagogue-budapest-hungary.jpg"
+          "image": "https://wp.pl.aleteia.org/wp-content/uploads/sites/9/2018/10/web3-great-synagogue-budapest-hungary.jpg",
+          "summary": "Największa synagoga w Europie z 1859 roku w Budapeszcie mieszcząca 3000 wiernych."
         },
         {
           "id": "rubik-s-cube-speedcube-shop-rubik-toys-speedcube-shop-budapest-cube-shop",
@@ -5189,7 +5195,8 @@
           "type": "shopping",
           "websiteUrl": "https://rcube.hu/",
           "image": "https://rcube.hu/wp-content/uploads/2024/05/Rubiks-Cube-Shop-exhibition-1024x768.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/fqf7Pvc8sx7Y4tXr9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/fqf7Pvc8sx7Y4tXr9",
+          "summary": "Sklep poświęcony Kostce Rubika i układankom logicznym w centrum Budapesztu."
         },
         {
           "id": "budapest-hosok-tere-1146-wegry",
@@ -5202,7 +5209,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/Ar1yQwxUikT1yHHTA",
-          "image": "https://easm2025.com/www/wp-content/uploads/2025/02/Heroes-Square-and-City-Park_A-Gateway-to-Budapests-History-and-Culture1-1024x683.png"
+          "image": "https://easm2025.com/www/wp-content/uploads/2025/02/Heroes-Square-and-City-Park_A-Gateway-to-Budapests-History-and-Culture1-1024x683.png",
+          "summary": "Monumentalny Plac Bohaterów z Kolumną Milenijną i figurami przywódców Węgier, wpisany na Listę UNESCO."
         },
         {
           "id": "gundel-cafe-patisserie-restaurant",
@@ -5215,7 +5223,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.gundel.hu/",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/93/10/b1/130-years-old-gundel.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/r4kLKVVHv86c5Ua6A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/r4kLKVVHv86c5Ua6A",
+          "summary": "Legendarny Gundel od 1894 roku — najsłynniejsza restauracja Budapesztu z klasyczną kuchnią węgierską."
         },
         {
           "id": "divino-wine-bar",
@@ -5228,7 +5237,8 @@
           "type": "restaurant",
           "websiteUrl": "https://bazilika.divino.hu/",
           "image": "https://welovebudapest.com/i/b8/divino-bazilika_korosi-tamas_20170510.exact1980w.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/FNwz6V9rkiDZuB7k8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/FNwz6V9rkiDZuB7k8",
+          "summary": "Bar winiarski w zabytkowym podwórzu Gozsdu w Budapeszcie z szerokim wyborem węgierskich win."
         },
         {
           "id": "aznia-termalna-rudas",
@@ -5241,7 +5251,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "http://www.rudasfurdo.hu/",
           "image": "https://cdn-imgix.headout.com/media/images/6e75e4ead5d605585af014a3c41191f7-2.jpg?auto=format&w=900&h=562.5&q=90&ar=16%3A10&fit=crop",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ffo6QKN4NGC6m1yh7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ffo6QKN4NGC6m1yh7",
+          "summary": "Osmańska łaźnia termalna z 1566 roku w Budapeszcie z historycznym basenem i sauną z widokiem na Dunaj."
         },
         {
           "id": "corso",
@@ -5254,7 +5265,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.budapest.intercontinental.com/corso-bar-and-restaurant",
           "image": "https://hovamenjek.hu/upload/places/4678_ac4d17530106c3e3c2fb5e2dad0e51b7/main/budapest-v-kerulet-corso-etterem-bar-es-terasz-intercontinental-budapest2.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/wTLmKhxUvF2xoSxx6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/wTLmKhxUvF2xoSxx6",
+          "summary": "Elegancka restauracja nad Dunajem w Budapeszcie z panoramą na Zamek Królewski i Górę Gellerta."
         },
         {
           "id": "kehli-vendeglo",
@@ -5267,7 +5279,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.kehli.hu/",
           "image": "https://storage.googleapis.com/msgsndr/gLvoA2CMGmXZBhWY2CkZ/media/66eacfe5b42edc4a9dfd64be.jpeg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/t5HpJUS8DhUDWbC89"
+          "GoogleMapsLink": "https://maps.app.goo.gl/t5HpJUS8DhUDWbC89",
+          "summary": "Tradycyjna restauracja w Óbudzie upamiętniająca pisarza Gyulę Krúdyego — jej stałego bywalca."
         }
       ]
     },
@@ -5292,7 +5305,8 @@
           "type": "shopping",
           "websiteUrl": "http://www.rabehof.de/",
           "image": "https://cdn.shopify.com/s/files/1/1070/1486/files/Rabehof_60e18a93-7681-4f89-b31e-1ff3e4f75142_grande.jpg?v=1592305588",
-          "GoogleMapsLink": "https://maps.app.goo.gl/9Z9yoUNSWSuPbms3A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/9Z9yoUNSWSuPbms3A",
+          "summary": "Wiejska farma w Oldendorfie na północy Niemiec z lokalnymi produktami i tradycyjną produkcją żywności."
         },
         {
           "id": "restaurant-die-schaferei",
@@ -5305,7 +5319,8 @@
           "type": "restaurant",
           "websiteUrl": "https://die-schaeferei.de/",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/76/a1/a3/kiosk-imbiss-schaferei.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/VGhMmcpi5nXQkzC49"
+          "GoogleMapsLink": "https://maps.app.goo.gl/VGhMmcpi5nXQkzC49",
+          "summary": "Restauracja w dawnym owczarni na wrzosowisku Lüneburg serwująca dania z mięsa owczego."
         },
         {
           "id": "luneburg-heath",
@@ -5318,7 +5333,8 @@
           "type": "nature",
           "websiteUrl": "https://www.lueneburger-heide.de/",
           "image": "https://www.selected.de/fileadmin/user_upload/AdobeStock_36466385-Von-Gabriele-Rohde.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/mM1MRLmc7zyPG5FF7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/mM1MRLmc7zyPG5FF7",
+          "summary": "Rozległe wrzosowisko Lüneburg pokrywające się latem fioletem — jeden z największych takich terenów Europy."
         },
         {
           "id": "hotel-restaurant-landhaus-eden",
@@ -5331,7 +5347,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.landhauseden.de/",
           "image": "https://www.landhauseden.de/wp-content/uploads/2022/03/hotel01.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/aWuPFYKwVaJATJNy7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/aWuPFYKwVaJATJNy7",
+          "summary": "Kameralny hotel z restauracją w północnych Niemczech serwujący dania z lokalnych produktów."
         }
       ]
     },
@@ -5356,7 +5373,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "https://www.neumagen-dhron.de/weinschiff-stella-noviomagi/",
           "image": "https://mosel-zweinull.de/wp-content/uploads/stella-noviomagi.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/pizrFsGrbYsdtgoC9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/pizrFsGrbYsdtgoC9",
+          "summary": "Wierna rekonstrukcja rzymskiego statku z IV w. nad Mozelą w Neumagenie, ukończona w 2004 roku."
         },
         {
           "id": "gute-neuerburger",
@@ -5369,7 +5387,8 @@
           "type": "hotel",
           "websiteUrl": "https://bauer-brennerei.de/hofladen/",
           "image": "https://bauer-brennerei.de/wp-content/uploads/2019/01/Bauer-Roman-2018-354-1030x687.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/FDmG17UgvcTYNdSM6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/FDmG17UgvcTYNdSM6",
+          "summary": "Hotel i restauracja w Neuerburgu w Eifel, w historycznym budynku u stóp średniowiecznego zamku."
         },
         {
           "id": "restaurant-daus",
@@ -5382,7 +5401,8 @@
           "type": "restaurant",
           "websiteUrl": "https://restaurant-daus.de/",
           "image": "https://restaurant-daus.de/wp-content/uploads/2021/01/Hausfront1.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ATEp7VgTXN9UVZFm7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ATEp7VgTXN9UVZFm7",
+          "summary": "Restauracja w rejonie Mozeli serwująca regionalne dania Nadrenii-Palatynatu."
         },
         {
           "id": "history-column",
@@ -5395,7 +5415,8 @@
           "type": "art_culture",
           "websiteUrl": "http://www.koblenz-touristik.de/kultur/plaetze-in-koblenz/goerresplatz.html",
           "GoogleMapsLink": "https://maps.app.goo.gl/KntEBxP6AbMfeXb49",
-          "image": "https://www.visit-koblenz.de/_Resources/Persistent/1/2/f/f/12ff4256e8a6f5f383efd1977765494844323b61/Koblenz-Touristik-2019-290-2560x1339-1200x628.jpg"
+          "image": "https://www.visit-koblenz.de/_Resources/Persistent/1/2/f/f/12ff4256e8a6f5f383efd1977765494844323b61/Koblenz-Touristik-2019-290-2560x1339-1200x628.jpg",
+          "summary": "Kolumna historyczna w Koblencji ze scenami z dziejów miasta na styku Renu i Mozeli."
         },
         {
           "id": "basilica-of-st-castor",
@@ -5408,7 +5429,8 @@
           "type": "art_culture",
           "websiteUrl": "http://www.sankt-kastor-koblenz.de/",
           "GoogleMapsLink": "https://maps.app.goo.gl/keSKoQ8yXGtBJPfL9",
-          "image": "https://www.visit-koblenz.de/_Resources/Persistent/a/d/e/0/ade010e353df4660fb1065c095ab651db01ab83b/Koblenz-Touristik-2019-129-7839x4100-1200x628.jpg"
+          "image": "https://www.visit-koblenz.de/_Resources/Persistent/a/d/e/0/ade010e353df4660fb1065c095ab651db01ab83b/Koblenz-Touristik-2019-129-7839x4100-1200x628.jpg",
+          "summary": "Bazylika św. Kastora z IX w. w Koblencji — najstarszy kościół miasta nad ujściem Mozeli do Renu."
         },
         {
           "id": "kaiser-wilhelm-monument",
@@ -5421,7 +5443,8 @@
           "type": "art_culture",
           "websiteUrl": "https://www.kuladig.de/Objektansicht/O-95475-20140627-4",
           "GoogleMapsLink": "https://maps.app.goo.gl/UHiHuVVet3tmws4U7",
-          "image": "/images/kaiser-wilhelm-monument.jpg"
+          "image": "/images/kaiser-wilhelm-monument.jpg",
+          "summary": "Pomnik Wilhelma I z 1897 roku w Koblencji, wzniesiony na Deutsches Eck u zbiegu Renu i Mozeli."
         },
         {
           "id": "jesuitenplatz",
@@ -5434,7 +5457,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://koblenz-tipps.de/wp-content/uploads/2023/07/Jesuitenplatz-Koblenz-scaled.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/HjieeemkCYFJgmbNA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/HjieeemkCYFJgmbNA",
+          "summary": "Historyczny plac jezuicki w centrum starego Koblencji z barokową fontanną i zabytkową zabudową."
         },
         {
           "id": "landgasthof-zur-burg-grenzau",
@@ -5447,7 +5471,8 @@
           "type": "hotel",
           "websiteUrl": "http://www.landgasthof-grenzau.com/",
           "image": "https://landgasthof-grenzau.com/wp-content/uploads/2025/02/Landgasthof-1.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/yBgwLA5M6wCRXzFr6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/yBgwLA5M6wCRXzFr6",
+          "summary": "Gospoda u podnóża ruin zamku Grenzau z restauracją serwującą dania regionalne Westerwaldu."
         },
         {
           "id": "grenzau-castle",
@@ -5460,7 +5485,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/3hEGTQ7x86B9vHt99",
-          "image": "/images/grenzau-castle.jpg"
+          "image": "/images/grenzau-castle.jpg",
+          "summary": "Ruiny zamku Grenzau z XIII w. w Westerwaldzie, jedna z nielicznych budowli z wolno stojącą wieżą."
         }
       ]
     },
@@ -5485,7 +5511,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.weingut-pastor.de/",
           "image": "https://www.volksfreund.de/imgs/28/2/1/5/6/5/7/5/0/5/tok_109ef711d2851dd9af01637e0a385b7c/w1900_h1425_x1796_y1347_P1010386-b1d94909e409e114.JPG",
-          "GoogleMapsLink": "https://maps.app.goo.gl/pko4sJJ9YWPiPio78"
+          "GoogleMapsLink": "https://maps.app.goo.gl/pko4sJJ9YWPiPio78",
+          "summary": "Winiarski stragan nad Mozelą serwujący lokalne rieslingi w scenerii mozelijskich wzgórz."
         },
         {
           "id": "market-place",
@@ -5498,7 +5525,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "image": "https://www.rlp-tourismus.com/uploads/tx_sfcontenthub/50eb1c44-6a88-4e50-bd90-69225c8cc5a9.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/zuAswk9Un6QEFJbt8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/zuAswk9Un6QEFJbt8",
+          "summary": "Historyczny rynek w Bernkastel-Kues z zabytkową zabudową ryglową z XVI–XVII wieku."
         },
         {
           "id": "museum-graacher-tor",
@@ -5511,7 +5539,8 @@
           "type": "museum",
           "websiteUrl": "",
           "image": "https://resc.deskline.net/images/RPT/1/06bae90f-ceff-4c1b-ae6b-c385dfcb0966/99/image.jpg?637957384242500000",
-          "GoogleMapsLink": "https://maps.app.goo.gl/dyuHVFiTUdQCsQfJ9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/dyuHVFiTUdQCsQfJ9",
+          "summary": "Muzeum w gotyckiej bramie Graacher Tor z 1300 roku w Bernkastel-Kues nad Mozelą."
         },
         {
           "id": "deinhard-s-markthaus",
@@ -5524,7 +5553,8 @@
           "type": "shopping",
           "websiteUrl": "https://www.deinhards-markthaus.com/",
           "image": "https://www.graach.de/uploads/tx_sfcontenthub/1fc051d1-ba28-49d1-b90c-8d0cfec96b72.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/b3G7QEW7LqjRvgst7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/b3G7QEW7LqjRvgst7",
+          "summary": "Historyczna piwnica winna Deinhard w Koblencji z bogatą tradycją produkcji win nadreńskich."
         }
       ]
     },
@@ -5549,7 +5579,8 @@
           "type": "museum",
           "websiteUrl": "http://www.deutscheskartoffelmuseum.de/",
           "image": "https://www.rhein-neckar-industriekultur.de/sites/default/files/styles/schemaevent169/public/_dateien/bilder/termine_2025-2/250830_kartoffelmuseum.jpg?itok=5iJRFbjP",
-          "GoogleMapsLink": "https://maps.app.goo.gl/vGB78cGf5cBBNAjQ7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/vGB78cGf5cBBNAjQ7",
+          "summary": "Muzeum ziemniaka w Fußgönheim — jedyne w Niemczech, z kolekcją ponad 10 000 eksponatów."
         },
         {
           "id": "katedra-w-spirze",
@@ -5562,7 +5593,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "image": "https://aws-tiqets-cdn.imgix.net/images/content/6c4c393144954f93975bd99f31d4fd7f.jpg?auto=format%2Ccompress&fit=crop&ixlib=python-4.0.0&q=70",
-          "GoogleMapsLink": "https://maps.app.goo.gl/vgTGECuFxJVGR6478"
+          "GoogleMapsLink": "https://maps.app.goo.gl/vgTGECuFxJVGR6478",
+          "summary": "Romańska katedra z XI w. w Spirze — jeden z największych romańskich kościołów świata na Liście UNESCO."
         },
         {
           "id": "rentschlers",
@@ -5575,7 +5607,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.rentschlers-speyer.de/",
           "image": "https://img0.oastatic.com/img2/44528661/600x300c/variant.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/q6UprgX9xv6jKrwu6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/q6UprgX9xv6jKrwu6",
+          "summary": "Restauracja działająca od 1887 roku w Szwarcwaldzie serwująca tradycyjne dania regionalne."
         }
       ]
     },
@@ -5600,7 +5633,8 @@
           "type": "museum",
           "websiteUrl": "http://www.paninimotormuseum.it/",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/dc/9d/8b/maserati-s-young-and.jpg?w=1200&h=-1&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/hgrQGdN8oa8BUZiZA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/hgrQGdN8oa8BUZiZA",
+          "summary": "Prywatne muzeum samochodów Maserati w Modenie z unikalną kolekcją pojazdów tej marki."
         },
         {
           "id": "osteria-del-tuffetto",
@@ -5613,7 +5647,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.osteriadeltuffetto.com/",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1f/fd/1f/7b/sala-principale-osteria.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ZpiWqeqMdtvewgNh7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZpiWqeqMdtvewgNh7",
+          "summary": "Tradycyjna osteria w Emilii-Romanii serwująca dania regionalne z lokalnych produktów."
         },
         {
           "id": "opera-02-ca-montanari",
@@ -5626,7 +5661,8 @@
           "type": "hotel",
           "websiteUrl": "http://www.opera02.it/",
           "image": "https://static.where-e.com/Italy/Emilia_Romagna/Modena/Opera-02-Ca-Montanari_77ad18d996974d40b23613849edbe165.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/htPh2tACzxgZRzeE7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/htPh2tACzxgZRzeE7",
+          "summary": "Butikowy hotel w centrum Emilii-Romanii z eleganckim wystrojem i regionalną kuchnią."
         },
         {
           "id": "molo-lazise",
@@ -5639,7 +5675,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/A4FcrsRav4JQ5HW9A",
-          "image": "/images/molo-lazise.jpg"
+          "image": "/images/molo-lazise.jpg",
+          "summary": "Historyczne molo w Lazise — jednej z najstarszych osad nad Jeziorem Garda z X-wiecznymi przywilejami."
         },
         {
           "id": "gio-max-s-n-c-di-paldino-g-e-c",
@@ -5652,7 +5689,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/4a/bd/00/gio-max.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/WHZCZVHQs21QcfAS7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/WHZCZVHQs21QcfAS7",
+          "summary": "Rodzinna restauracja włoska serwująca regionalne dania z lokalnych produktów."
         }
       ]
     },
@@ -5677,7 +5715,8 @@
           "type": "art_culture",
           "websiteUrl": "http://www.piazzaduomoparma.com/battistero/",
           "image": "https://media.zonzofox.com/cities/parma/geoplaces/poi/800x400/parma-battistero.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/d7UE95ayLsrtRohs8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/d7UE95ayLsrtRohs8",
+          "summary": "Romańsko-gotycki baptysterium z przełomu XII i XIII w. w Parmie, arcydzieło Benedetta Antelamiego."
         },
         {
           "id": "katedra-w-parmie",
@@ -5690,7 +5729,8 @@
           "type": "art_culture",
           "websiteUrl": "https://www.piazzaduomoparma.com/la-piazza/cattedrale/",
           "GoogleMapsLink": "https://maps.app.goo.gl/Ge6fLqo4ViJWWc8k7",
-          "image": "https://www.waszaturystyka.pl/wp-content/uploads/2020/08/parma-atrakcje-turystyczne2.jpeg"
+          "image": "https://www.waszaturystyka.pl/wp-content/uploads/2020/08/parma-atrakcje-turystyczne2.jpeg",
+          "summary": "Romańska katedra z XII w. w Parmie ze słynnym freskiem Correggia w kopule — wpisana na Listę UNESCO."
         },
         {
           "id": "antica-salumeria-alimentaria-rastelli",
@@ -5703,7 +5743,8 @@
           "type": "shopping",
           "websiteUrl": "http://www.anticasalumeriarastelli.it/",
           "image": "https://media-cdn.tripadvisor.com/media/photo-s/18/ed/09/4d/esterno.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/6KUZtz335EJpdJsUA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/6KUZtz335EJpdJsUA",
+          "summary": "Historyczna delikatessa w Parmie z szynką parmeńską, Parmigiano Reggiano i specjałami Emilii."
         },
         {
           "id": "magnolia-cafe",
@@ -5716,7 +5757,8 @@
           "type": "cafe",
           "websiteUrl": "",
           "image": "https://www.exibart.com/repository/media/formidable/28/img/8ed/IMG_3411.jpeg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/tZnz7KDBigmLyHKp8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/tZnz7KDBigmLyHKp8",
+          "summary": "Włoska kawiarnia serwująca ciasta i kawy, popularna wśród miejscowych."
         },
         {
           "id": "palazzo-della-pilotta",
@@ -5729,7 +5771,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "https://complessopilotta.it/",
           "image": "https://complessopilotta.it/wp-content/uploads/2020/05/Pilotta-Hanninen.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/aH8Si73NBYEba7sbA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/aH8Si73NBYEba7sbA",
+          "summary": "Monumentalny pałac Farnese z XVI w. w Parmie mieszczący muzeum, teatr Farnese i galerię malarstwa."
         },
         {
           "id": "monumento-a-giuseppe-verdi",
@@ -5742,7 +5785,8 @@
           "type": "art_culture",
           "websiteUrl": "https://parma.info/monumento-a-giuseppe-verdi/",
           "GoogleMapsLink": "https://maps.app.goo.gl/8pZxg8NPNPTE9XYx6",
-          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/cd/b6/bb/l-ara-la-parte-posteriore.jpg?w=900&h=500&s=1"
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/cd/b6/bb/l-ara-la-parte-posteriore.jpg?w=900&h=500&s=1",
+          "summary": "Pomnik Giuseppe Verdiego w Parmie, mieście urodzenia kompozytora i centrum jego kultu muzycznego."
         },
         {
           "id": "palazzo-caraffini",
@@ -5755,7 +5799,8 @@
           "type": "shopping",
           "websiteUrl": "https://www.palazzocaraffini.com/",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/77/e9/12/nestled-in-beautiful.jpg?w=1200&h=-1&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Kix77Lbx2UVXFicS8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Kix77Lbx2UVXFicS8",
+          "summary": "Historyczny pałac we Włoszech z elegancką ofertą gastronomiczną lub kulturalną."
         },
         {
           "id": "trattoria-la-buca",
@@ -5768,7 +5813,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.trattorialabuca.com/",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/a7/de/25/caption.jpg?w=1200&h=1200&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/72fpERBbACTFferGA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/72fpERBbACTFferGA",
+          "summary": "Tradycyjna trattoria we Włoszech serwująca klasyczne dania kuchni emiliańskiej."
         },
         {
           "id": "trattoria-leon-d-oro",
@@ -5781,7 +5827,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/43/98/bb/i-tavoli-sottto-il-porticato.jpg?w=500&h=-1&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/gWmuXA6Fm1o4vd2x5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/gWmuXA6Fm1o4vd2x5",
+          "summary": "Trattoria w centrum Bolonii serwująca klasyczne bolońskie tagliatelle al ragù i inne dania regionalne."
         }
       ]
     },
@@ -5806,7 +5853,8 @@
           "type": "restaurant",
           "websiteUrl": "https://lasquadra.pl",
           "image": "https://lasquadra.pl/wp-content/uploads/2023/08/Zrzut-ekranu-2023-08-18-o-08.55.29.png",
-          "GoogleMapsLink": "https://maps.app.goo.gl/nJHoVTuPozBRx1eQ8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/nJHoVTuPozBRx1eQ8",
+          "summary": "Włoska restauracja w Polsce serwująca autentyczną kuchnię włoską z importowanymi produktami."
         },
         {
           "id": "katedra-w-modenie",
@@ -5819,7 +5867,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/7PdHFB6YsnD6S4M7A",
-          "image": "https://dlaczegoitalia.com/wp-content/uploads/2019/04/Modena_Katedra3.jpg"
+          "image": "https://dlaczegoitalia.com/wp-content/uploads/2019/04/Modena_Katedra3.jpg",
+          "summary": "Romańska katedra w Modenie z XII w. — arcydzieło Lanfranka, wpisane na Listę UNESCO."
         },
         {
           "id": "pavarotti-bar",
@@ -5832,7 +5881,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.instagram.com/explore/locations/472412765/bar-caffe-pavarotti/",
           "image": "https://www.farredo.it/wp-content/gallery/pavarotti-modena/DSC_0042_x-min.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/FkVctQiHoi857c5t8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/FkVctQiHoi857c5t8",
+          "summary": "Bar w Modenie nawiązujący do sławy najwybitniejszego tenora, który urodził się w tym mieście."
         },
         {
           "id": "mercato-storico-albinelli",
@@ -5845,7 +5895,8 @@
           "type": "shopping",
           "websiteUrl": "https://www.mercatoalbinelli.it",
           "image": "https://www.mercatoalbinelli.it/wp-content/uploads/2022/10/Interno.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ev2746494F519qD19"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ev2746494F519qD19",
+          "summary": "Zabytkowy targ Albinelli w Modenie od 1931 roku z tradycyjnymi straganami włoskich specjałów."
         },
         {
           "id": "modena-maserati",
@@ -5858,7 +5909,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "https://www.maserati.com/it/it/shopping-tools/dealer-locator",
           "GoogleMapsLink": "https://maps.app.goo.gl/1eMDKfwutLXMWFJm8",
-          "image": "https://maserati.scene7.com/is/image/maserati/maserati/international/Brand/factory-tour/factory-tour-2021/16_9/3LOR5187_169.jpg?$1400x2000$&fit=constrain"
+          "image": "https://maserati.scene7.com/is/image/maserati/maserati/international/Brand/factory-tour/factory-tour-2021/16_9/3LOR5187_169.jpg?$1400x2000$&fit=constrain",
+          "summary": "Fabryka i siedziba Maserati w Modenie — mieście narodzin tej legendarnej włoskiej marki."
         },
         {
           "id": "ristorante-montana",
@@ -5871,7 +5923,8 @@
           "type": "restaurant",
           "websiteUrl": "https://ristorantemontana.it/en/",
           "image": "https://ancaslifestyle.co.uk/wp-content/uploads/2022/08/01-Ristorante-Montana.-Outside.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/yrFQrWBQn9fdFYR77"
+          "GoogleMapsLink": "https://maps.app.goo.gl/yrFQrWBQn9fdFYR77",
+          "summary": "Restauracja we Włoszech serwująca lokalne dania regionalne z produktów okolicznych farm."
         }
       ]
     },
@@ -5896,7 +5949,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://glasstoca.ba/wp-content/uploads/2023/04/B0AF9CA0-3262-430F-90AB-04DCF3104F4E-750x375.jpeg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/NQ53QLkEFb14a8Jr8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/NQ53QLkEFb14a8Jr8",
+          "summary": "Osmański meczet z okresu tureckiego panowania w Bośni i Hercegowinie, zabytek architektury islamskiej."
         },
         {
           "id": "stolac-mlinica-old-mill",
@@ -5909,7 +5963,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.instagram.com/oldmill23_stolac/",
           "image": "https://glasstoca.ba/wp-content/uploads/2022/04/C009DABE-01D2-41DC-B9C9-40E73AE4DE35.jpeg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/LPBPFroFjmH74ehW9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/LPBPFroFjmH74ehW9",
+          "summary": "Restauracja w zabytkowym młynie nad Bregavą w Stołacu serwująca tradycyjne dania Hercegowiny."
         },
         {
           "id": "nekropola-stecaka",
@@ -5922,7 +5977,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/rJUQKeYtXvS18Ke27",
-          "image": "https://lll.ba/wp-content/uploads/2024/01/Necropolis-Stecci-Ravansjka-vrata-Kupres-Bosnia-Herzegovina-lll.ba-@discover_bosnia_herzegovina-5-1024x1024.jpg"
+          "image": "https://lll.ba/wp-content/uploads/2024/01/Necropolis-Stecci-Ravansjka-vrata-Kupres-Bosnia-Herzegovina-lll.ba-@discover_bosnia_herzegovina-5-1024x1024.jpg",
+          "summary": "Nekropola ze średniowiecznymi nagrobkami stećak w Bośni i Hercegowinie, wpisana na Listę UNESCO."
         },
         {
           "id": "boracko-jezero",
@@ -5935,7 +5991,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/a4/81/55/apartmani-boracko-jezero.jpg?w=900&h=-1&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/3jgxJHXRR7FQoyWC8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/3jgxJHXRR7FQoyWC8",
+          "summary": "Jezioro Boračko w górach Bośni otoczone sosnowymi lasami — malowniczy cel turystyczny Hercegowiny."
         },
         {
           "id": "stara-cuprija-konjic",
@@ -5948,7 +6005,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://s.inyourpocket.com/gallery/277816.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/TuGTyG65Zd6VYMRQ7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/TuGTyG65Zd6VYMRQ7",
+          "summary": "Osmański kamienny most z XVII w. nad Neretwą w Konjicu, symbol historii bośniackiego miasta."
         },
         {
           "id": "ljetna-basta-h-s",
@@ -5961,7 +6019,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.facebook.com/p/Ljetna-bašta-Nargila-bar-HS-100054546395337/",
           "GoogleMapsLink": "https://maps.app.goo.gl/4yvCCFM5hSzt7U9s5",
-          "image": "/images/ljetna-basta-h-s.jpg"
+          "image": "/images/ljetna-basta-h-s.jpg",
+          "summary": "Letni ogródek restauracyjny w Bośni i Hercegowinie serwujący lokalne dania pod cienistymi drzewami."
         },
         {
           "id": "old-neretva-train-bridge",
@@ -5974,7 +6033,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "http://muzej-jablanica.com/",
           "image": "https://www.pixeoapp.com/wp-content/uploads/2024/09/old-neretva-train-bridge-by-christian-lendl.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/vLkvhvfeuaRzCFMN8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/vLkvhvfeuaRzCFMN8",
+          "summary": "Stary most kolejowy nad Neretwą, zabytek inżynierski z okresu austro-węgierskiej administracji."
         },
         {
           "id": "restaurant-udovice",
@@ -5987,7 +6047,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.udovice.ba/",
           "image": "https://media-cdn.tripadvisor.com/media/photo-s/04/7a/59/1c/restoran-udovice.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/VmyvjaRveMYfXuvd9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/VmyvjaRveMYfXuvd9",
+          "summary": "Restauracja w Bośni i Hercegowinie serwująca tradycyjne dania kuchni bałkańskiej."
         }
       ]
     },
@@ -6012,7 +6073,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.adriatic-mikulic.hr/",
           "image": "https://www.adriatic-mikulic.hr/wp-content/uploads/2019/10/beach-bar.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/2GjumYdJuX7oJWkRA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/2GjumYdJuX7oJWkRA",
+          "summary": "Bar plażowy na chorwackim wybrzeżu Adriatyku z napojami i przekąskami z widokiem na morze."
         }
       ]
     },
@@ -6037,7 +6099,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://travelcroatia.live/wp-content/uploads/2021/12/thumb_6519_1170x0_0_0_auto.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/qh8Ru3uMa1srburC8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/qh8Ru3uMa1srburC8",
+          "summary": "Punkt widokowy na przylądku Kamenjak w Istrii z panoramą na Adriatyk i pobliskie wyspy."
         },
         {
           "id": "church-of-the-all-saints",
@@ -6050,7 +6113,8 @@
           "type": "art_culture",
           "websiteUrl": "http://www.pp-vransko-jezero.hr/hr/info-centar-kamenjak/",
           "GoogleMapsLink": "https://maps.app.goo.gl/3gvPmXax5ywK9Aap8",
-          "image": "https://komunistickizlocini.net/wp-content/uploads/2015/10/svi_sveti_vransko_4.jpg"
+          "image": "https://komunistickizlocini.net/wp-content/uploads/2015/10/svi_sveti_vransko_4.jpg",
+          "summary": "Historyczny kościół Wszystkich Świętych w Chorwacji z cennym wystrojem wnętrza."
         },
         {
           "id": "konoba-kamenjak",
@@ -6063,7 +6127,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "image": "https://www.visitravnikotari.com/tzrk/images/articles/okusi/16_konoba_kamenjak.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/tkAak8xsEhcVhVyq5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/tkAak8xsEhcVhVyq5",
+          "summary": "Konoba na przylądku Kamenjak w Istrii serwująca regionalne dania z lokalnych ryb i owoców morza."
         },
         {
           "id": "katedra-sw-jakuba-w-szybeniku",
@@ -6076,7 +6141,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/CeDgEioe78PVdU4m8",
-          "image": "https://croatia.hr/cmsmedia/Atrakcija/UNESCO/sibenik-katedrala-sv-jakova-zoran-jelaca.jpeg"
+          "image": "https://croatia.hr/cmsmedia/Atrakcija/UNESCO/sibenik-katedrala-sv-jakova-zoran-jelaca.jpeg",
+          "summary": "Gotycko-renesansowa katedra z XV w. w Szybeniku — arcydzieło Jerzego Dalmatyjczyka na Liście UNESCO."
         },
         {
           "id": "zamek-sw-micha-a",
@@ -6089,7 +6155,8 @@
           "type": "art_culture",
           "websiteUrl": "https://www.tvrdjava-kulture.hr/hr/",
           "GoogleMapsLink": "https://maps.app.goo.gl/wSF7h7jJDyDMDza4A",
-          "image": "https://dalmacja.pl/wp-content/uploads/2023/02/_shutterstock_19959456141.jpg.webp"
+          "image": "https://dalmacja.pl/wp-content/uploads/2023/02/_shutterstock_19959456141.jpg.webp",
+          "summary": "Wenecki zamek z XV w. na wzgórzu nad Szybenikiem, dziś scena widowisk z panoramą na zatokę."
         },
         {
           "id": "fort-sw-jana",
@@ -6102,7 +6169,8 @@
           "type": "art_culture",
           "websiteUrl": "https://www.tvrdjava-kulture.hr/hr/",
           "GoogleMapsLink": "https://maps.app.goo.gl/HkKPVNHtFoeXQtUa6",
-          "image": "https://www.zamkipolskie.com/zagranica/chorwacja/sibenik/108.jpg"
+          "image": "https://www.zamkipolskie.com/zagranica/chorwacja/sibenik/108.jpg",
+          "summary": "Wenecki fort z 1646 roku w Szybeniku, jeden z bastionów obronnych broniących miasto przed Turkami."
         },
         {
           "id": "zaton-chorwacja",
@@ -6115,7 +6183,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/8tRtRHNZ8sHpgSVCA",
-          "image": "https://img.adriagate.com/cdn/new/photos/2144073-15/zaton-sibenik-croatia_0_550.jpg"
+          "image": "https://img.adriagate.com/cdn/new/photos/2144073-15/zaton-sibenik-croatia_0_550.jpg",
+          "summary": "Malownicza zatoczka nad Adriatykiem w Dalmacji, popularne miejsce odpoczynku z plażą."
         },
         {
           "id": "mlin-montanari",
@@ -6128,7 +6197,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.mlinmontanari.com/",
           "image": "https://www.wherewedding.co.uk/uploads/mlin-montanari/gallery-mlin-montanari-307.jpeg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/gjTXZ3R19y2M1gYeA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/gjTXZ3R19y2M1gYeA",
+          "summary": "Restauracja w zabytkowym młynie w Chorwacji z kuchnią dalmatyńską i atmosferą historycznego miejsca."
         }
       ]
     },
@@ -6153,7 +6223,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.edivovina.hr/",
           "image": "https://www.edivovina.hr/wp-content/uploads/2021/04/c3.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/WXAzDbzshDfBRgLS9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/WXAzDbzshDfBRgLS9",
+          "summary": "Winiarnia na Pelješacu słynąca z win dojrzewających w butelkach zakopywanych w głębinach Adriatyku."
         },
         {
           "id": "bijavka-beach",
@@ -6166,7 +6237,8 @@
           "type": "nature",
           "websiteUrl": "",
           "image": "https://www.putovnica.net/images/480/382097-trpanj-plaza-luka-istok.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/cpLFXF9Y7ye88tVj9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/cpLFXF9Y7ye88tVj9",
+          "summary": "Dzika plaża na chorwackim wybrzeżu z krystaliczną wodą, spokojna i z dala od tłumów."
         }
       ]
     },
@@ -6191,7 +6263,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/QKLPtvKtNALLCrpj8",
-          "image": "https://i.adriatic.hr/places/395/dalmatia-dubrovnik-slano-croatia-15-l.jpg"
+          "image": "https://i.adriatic.hr/places/395/dalmatia-dubrovnik-slano-croatia-15-l.jpg",
+          "summary": "Okrągły barokowy kościół św. Wita z XVII w. w Rijece, jeden z symboli architektonicznych miasta."
         },
         {
           "id": "trsteno-arboretum",
@@ -6204,7 +6277,8 @@
           "type": "nature",
           "websiteUrl": "http://www.pvdp.hr/",
           "GoogleMapsLink": "https://maps.app.goo.gl/P6bhkGhodJxDyj3R9",
-          "image": "https://excursionmania.com/cdn-cgi/image/quality=75,format=webp,w=auto,h=auto,fit=scale-down,trim=border/https://excursionmania.com/uploads/blog/gallery/1253/17369424644.jpg"
+          "image": "https://excursionmania.com/cdn-cgi/image/quality=75,format=webp,w=auto,h=auto,fit=scale-down,trim=border/https://excursionmania.com/uploads/blog/gallery/1253/17369424644.jpg",
+          "summary": "Jedno z najstarszych arboretów świata w Trsteno, założone przez dubrownicką szlachtę w XV w."
         },
         {
           "id": "vidikovac-lozica",
@@ -6217,7 +6291,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://www.photohound.co/images/2051034l.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/NcVHst3VeVEAbe2MA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/NcVHst3VeVEAbe2MA",
+          "summary": "Punkt widokowy Lozica w Dalmacji z panoramą na wyspy i chorwackie wybrzeże Adriatyku."
         },
         {
           "id": "sokol-grad-sokol-fortress",
@@ -6230,7 +6305,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "https://citywallsdubrovnik.hr/",
           "image": "https://citywallsdubrovnik.hr/wp-content/uploads/2020/07/SOKOL-KULA-003-Large.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ejyY7quGVVgBcW2Y6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ejyY7quGVVgBcW2Y6",
+          "summary": "Średniowieczna twierdza Sokol w Konavlach, wzniesiona na skale 400 m n.p.m., niemal niedostępna."
         },
         {
           "id": "kameni-dvori-tavern",
@@ -6243,7 +6319,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.holiday-village-konavle.com/kameni-dvori-tavern-inn",
           "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/156803435.jpg?k=406cc222d62006ba71e819b0fafe0127a7a77ededd425ef4b90dff4f4da247b3&o=&hp=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/oLeRp1EBYFW5b7oR9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/oLeRp1EBYFW5b7oR9",
+          "summary": "Tawerna z kamiennym wystrojem w Konavlach serwująca tradycyjne dania kuchni dubrownicko-dalmatyńskiej."
         }
       ]
     },
@@ -6268,7 +6345,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://www.npkrka.hr/wp-content/uploads/Vidikovac-Krnici-Gornji-2-NASLOVNA.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ChbTm97aKrLozB9A7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ChbTm97aKrLozB9A7",
+          "summary": "Punkt widokowy po wschodniej stronie Parku Narodowego Krka z widokiem na wodospady i przełom rzeki."
         },
         {
           "id": "krka-belvedere-restau",
@@ -6281,7 +6359,8 @@
           "type": "restaurant",
           "websiteUrl": "https://heyzine.com/flip-book/e1a04d110c.html",
           "image": "https://media-cdn.tripadvisor.com/media/photo-s/0f/38/ba/47/the-krka-belvedere-restaurant.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/kVVuCGQc9wXWfmWcA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/kVVuCGQc9wXWfmWcA",
+          "summary": "Restauracja z tarasem widokowym w Parku Narodowym Krka z panoramą na słynne wodospady."
         },
         {
           "id": "zvijezda-mora",
@@ -6294,7 +6373,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://www.globtroter.pl/zdjecia/chorwacja/b218188_chorwacja_peljesac_port_w_trpanj.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/r1QvKENEoGXhrBFS6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/r1QvKENEoGXhrBFS6",
+          "summary": "Atrakcja turystyczna na chorwackim wybrzeżu Adriatyku z widokiem na morze i okoliczne wyspy."
         }
       ]
     },
@@ -6319,7 +6399,8 @@
           "type": "hotel",
           "websiteUrl": "https://www.marriott.com/en-us/hotels/wawlc-hotel-bristol-a-luxury-collection-hotel-warsaw/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
           "image": "https://www.konferencje.pl/media/cache/resolve/slideshow_v2_jpeg/0/c/b/8/0cb8dc7f938265a74bbef1409829cc17.jpg?2022-07-14T10:15:39+00:00",
-          "GoogleMapsLink": "https://maps.app.goo.gl/68R3F5SCGEEGPAdw5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/68R3F5SCGEEGPAdw5",
+          "summary": "Luksusowy Hotel Bristol w Warszawie otwarty w 1901 roku, jeden z najsłynniejszych hoteli w Polsce."
         },
         {
           "id": "cafe-bristol",
@@ -6332,7 +6413,8 @@
           "type": "cafe",
           "websiteUrl": "https://www.cafebristol.pl/",
           "image": "https://www.cafebristol.pl/pl/resourcefiles/homeimages/cafe-bristol-interior.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/dUGPiuYUJ8JHXhro8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/dUGPiuYUJ8JHXhro8",
+          "summary": "Elegancka kawiarnia Hotelu Bristol w Warszawie z historycznym wystrojem z początku XX wieku."
         },
         {
           "id": "kuznia-smaku-restauracja",
@@ -6345,7 +6427,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.kuzniasmaku.pl/",
           "image": "https://gdziejubileusz.pl/uploads/restauracja-kuznia-smaku/galeria-restauracja-kuznia-smaku-8186.jpeg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Gk3cZayL55RZLXPc7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Gk3cZayL55RZLXPc7",
+          "summary": "Polska restauracja łącząca kulinarną tradycję z nowoczesnymi technikami przygotowania dań."
         },
         {
           "id": "rest-baczewskich",
@@ -6358,7 +6441,8 @@
           "type": "restaurant",
           "websiteUrl": "http://baczewskich.rest/",
           "image": "https://www.horecabc.pl/wp-content/uploads/2019/02/restauracja-baczewskich.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Tj1oJzF7hRgU3F7N8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Tj1oJzF7hRgU3F7N8",
+          "summary": "Restauracja nawiązująca do tradycji słynnej lwowskiej wytwórni wódek i likierów Baczewskich."
         },
         {
           "id": "restauracja-u-wieniawy",
@@ -6371,7 +6455,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.uwieniawy.pl/",
           "image": "https://uwieniawy.pl/wp-content/uploads/2023/03/smaki_jedzenie_klimat_nastroj_restauracja_u_wieniawy_kuchnia_polska_warszawa.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/81oKEAdqG68fcCpj6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/81oKEAdqG68fcCpj6",
+          "summary": "Warszawska restauracja z przedwojennym klimatem nawiązująca do legendy generała Wieniawy-Długoszowskiego."
         },
         {
           "id": "marconi",
@@ -6384,7 +6469,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.restauracjamarconi.pl/en",
           "image": "https://www.restauracjamarconi.pl/pl/resourcefiles/homeimages/marconi-i.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/JzHh59822jAjzpxU9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/JzHh59822jAjzpxU9",
+          "summary": "Restauracja w historycznym budynku w Polsce z menu opartym na polskich tradycjach kulinarnych."
         }
       ]
     },
@@ -6409,7 +6495,8 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/sYAJstaatjer7mjm8",
-          "image": "https://i.ytimg.com/vi/gYPUMqMM9L4/maxresdefault.jpg"
+          "image": "https://i.ytimg.com/vi/gYPUMqMM9L4/maxresdefault.jpg",
+          "summary": "Nadmorska promenada w Bray na południe od Dublina z widokiem na Morze Irlandzkie i Bray Head."
         },
         {
           "id": "the-harbour-bar",
@@ -6422,7 +6509,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.theharbourbar.ie/",
           "image": "https://images.squarespace-cdn.com/content/v1/662648fe3da552548273937e/8b603c12-cde8-4807-8e00-cf2079dae9b0/Harbour+Main+Bar+Interior.jpeg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/UftNe7kNKszLswjn9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/UftNe7kNKszLswjn9",
+          "summary": "Pub w Bray działający od 1872 roku, wielokrotnie wyróżniany jako jeden z najlepszych barów w Europie."
         },
         {
           "id": "killruddery",
@@ -6435,7 +6523,8 @@
           "type": "art_culture",
           "websiteUrl": "http://www.killruddery.com/",
           "GoogleMapsLink": "https://maps.app.goo.gl/SeCUdmaVRZ8qWGnV9",
-          "image": "https://killruddery.com/cdn/shop/files/Killruddery-200_websize_2.jpg?v=1685455818&width=1500"
+          "image": "https://killruddery.com/cdn/shop/files/Killruddery-200_websize_2.jpg?v=1685455818&width=1500",
+          "summary": "Posiadłość rodu Brabazon w Bray z XVII-wiecznymi ogrodami formalnymi, jednymi z najstarszych w Irlandii."
         },
         {
           "id": "killruddery-farm-shop",
@@ -6448,7 +6537,8 @@
           "type": "shopping",
           "websiteUrl": "http://store.killruddery.com/",
           "image": "https://killruddery.com/cdn/shop/files/Farm_Shop_l.jpg?v=1720085822&width=1500",
-          "GoogleMapsLink": "https://maps.app.goo.gl/XuA5ocMsgSD9deEA7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/XuA5ocMsgSD9deEA7",
+          "summary": "Sklep farmy Killruddery z lokalnymi produktami z posiadłości — warzywa, przetwory i wyroby rzemieślnicze."
         },
         {
           "id": "the-grain-store-at-killruddery",
@@ -6461,7 +6551,8 @@
           "type": "restaurant",
           "websiteUrl": "https://killruddery.com/grain-store-cafe/",
           "image": "https://killruddery.com/cdn/shop/products/Killruddery_March-265_websize.jpg?v=1734535928&width=550",
-          "GoogleMapsLink": "https://maps.app.goo.gl/b3jX78Bn3kc68uQT6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/b3jX78Bn3kc68uQT6",
+          "summary": "Restauracja w zabytkowym spichlerzu posiadłości Killruddery z sezonowym menu z lokalnych produktów."
         },
         {
           "id": "powerscourt-house-gardens",
@@ -6474,7 +6565,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "https://powerscourt.com/",
           "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/74/94/6e.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/TAzK3KQhzbJFbguEA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/TAzK3KQhzbJFbguEA",
+          "summary": "Posiadłość z XVIII w. z jednymi z najpiękniejszych ogrodów tarasowych na Wyspach Brytyjskich."
         },
         {
           "id": "japanese-garden",
@@ -6487,7 +6579,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://scdn.aro.ie/Sites/50/powerscourthotel2021/uploads/images/Gallery/Thumbs/Powerscourt_Gardens_2.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/jDB9Z2N3M8i2tXTz8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/jDB9Z2N3M8i2tXTz8",
+          "summary": "Ogród japoński w Kildare symbolizujący życie człowieka, założony w latach 1906–1910 przez japońskich ogrodników."
         },
         {
           "id": "powerscourt-hotel-autograph-collection",
@@ -6500,7 +6593,8 @@
           "type": "hotel",
           "websiteUrl": "https://www.marriott.com/en-us/hotels/dubak-powerscourt-hotel-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/35/49/31/hotel-exterior.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/48jSnkm8m4WQp81k8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/48jSnkm8m4WQp81k8",
+          "summary": "Luksusowy hotel w posiadłości Powerscourt w Wicklow z widokiem na górę Sugar Loaf."
         },
         {
           "id": "powerscourt-distillery",
@@ -6513,7 +6607,8 @@
           "type": "shopping",
           "websiteUrl": "http://www.powerscourtdistillery.com/",
           "image": "https://www.thespiritsbusiness.com/content/uploads/2025/08/Powerscourt-Distillery.png",
-          "GoogleMapsLink": "https://maps.app.goo.gl/6kCK6iRptWzMuFR3A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/6kCK6iRptWzMuFR3A",
+          "summary": "Destylarnia whiskey w posiadłości Powerscourt w hrabstwie Wicklow, jeden z nowych browarów odradzającego się irlandzkiego whiskey."
         }
       ]
     },
@@ -6538,7 +6633,8 @@
           "type": "museum",
           "websiteUrl": "https://www.gpomuseum.ie/",
           "image": "https://assets-eu-01.kc-usercontent.com/aa24ba70-9a12-01ae-259b-7ef588a0b2ef/8e36d5e9-3a0a-4c23-a0cb-dbd3202088db/GPO-museum-facade.jpeg?w=1280&h=720&fm=jpg&fit=crop",
-          "GoogleMapsLink": "https://maps.app.goo.gl/DpR8xHdPYX9r2nk38"
+          "GoogleMapsLink": "https://maps.app.goo.gl/DpR8xHdPYX9r2nk38",
+          "summary": "Muzeum w dawnej Poczcie Głównej w Dublinie — centrum Powstania Wielkanocnego z 1916 roku."
         },
         {
           "id": "trinity-college-w-dublinie",
@@ -6551,7 +6647,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "https://www.tcd.ie/",
           "image": "https://www.visittrinity.ie/wp-content/uploads/2024/07/Trinity_00004_cad282.jpg?w=1920",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Sa9VJ8L6Nv3CWEQZ9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Sa9VJ8L6Nv3CWEQZ9",
+          "summary": "Najstarszy uniwersytet Irlandii z 1592 roku, słynący z biblioteki przechowującej Księgę z Kells."
         },
         {
           "id": "molly-malone-statue",
@@ -6564,7 +6661,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/56JDzZ4WPYX7TciH8",
-          "image": "https://m.media-amazon.com/images/I/716Io-19LgL.jpg"
+          "image": "https://m.media-amazon.com/images/I/716Io-19LgL.jpg",
+          "summary": "Kultowa rzeźba Molly Malone na Grafton Street w Dublinie, upamiętniająca bohaterkę irlandzkiej pieśni."
         },
         {
           "id": "st-stephen-s-green",
@@ -6577,7 +6675,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://www.sykescottages.co.uk/inspiration/wp-content/uploads/St-Stephens-Green-Dublin.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/RyscbpBYUrjMrRQs6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/RyscbpBYUrjMrRQs6",
+          "summary": "Zabytkowy park w centrum Dublina z XIX w., ulubione miejsce spacerów mieszkańców stolicy."
         },
         {
           "id": "constance-markievicz-statue",
@@ -6590,7 +6689,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/LM9xksB7Nxv5BQZb6",
-          "image": "https://www.buildingsofireland.ie/building-images-iiif/niah/images/survey_specific/original/50100272_2.jpg"
+          "image": "https://www.buildingsofireland.ie/building-images-iiif/niah/images/survey_specific/original/50100272_2.jpg",
+          "summary": "Pomnik Constance Markievicz — irlandzkiej rewolucjonistki i pierwszej kobiety wybranej do brytyjskiego parlamentu."
         },
         {
           "id": "o-sheas-restaurant",
@@ -6603,7 +6703,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.osheastemplebar.net/",
           "image": "https://eu-images.contentstack.com/v3/assets/bltd44a95fddc9e64be/bltbdd8fdef2bb89427/OSHEAS-RESTAURANT-EXT-001.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/6pdPcWLMZknPQkLS6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/6pdPcWLMZknPQkLS6",
+          "summary": "Restauracja w Irlandii serwująca tradycyjne dania kuchni irlandzkiej w domowej atmosferze."
         },
         {
           "id": "pearse-lyons-whiskey-distillery",
@@ -6616,7 +6717,8 @@
           "type": "shopping",
           "websiteUrl": "https://www.pearselyonsdistillery.com/",
           "GoogleMapsLink": "https://maps.app.goo.gl/Fo5JBnb6WvrHdoBH8",
-          "image": "https://www.whisky.com/fileadmin/web_data/irland/Pearse_Lyons/Pearse_Lyons_Distillery.jpg"
+          "image": "https://www.whisky.com/fileadmin/web_data/irland/Pearse_Lyons/Pearse_Lyons_Distillery.jpg",
+          "summary": "Destylarnia whiskey w zabytkowym kościele w Dublinie produkująca rzemieślnicze single malt."
         },
         {
           "id": "muzeum-browaru-guinnessa",
@@ -6629,7 +6731,8 @@
           "type": "museum",
           "websiteUrl": "https://www.guinness-storehouse.com/en/home?utm_source=Google&utm_medium=Organic&utm_campaign=gsh_google_my_business&utm_id=Google+My+Business+",
           "image": "https://www.podrozepoeuropie.pl/system/gallery/images/images/000/002/888/large/Dublin-wizyta-w-Guinness-Storehouse.JPG?1457822580",
-          "GoogleMapsLink": "https://maps.app.goo.gl/8M1sVS6ipX1QZvzU6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/8M1sVS6ipX1QZvzU6",
+          "summary": "Centrum wizytorów browaru Guinness w Dublinie z degustacją stoutu na szczycie budynku Storehouse."
         },
         {
           "id": "most-ha-penny",
@@ -6642,7 +6745,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/5HaPenny_Bridge13_%288158659077%29.jpg/1200px-5HaPenny_Bridge13_%288158659077%29.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Cv2uV6dvsLWPGcjp6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Cv2uV6dvsLWPGcjp6",
+          "summary": "Żeliwny most pieszy nad Liffey w Dublinie z 1816 roku, symbol miasta i popularny punkt spotkań."
         },
         {
           "id": "the-temple-bar-pub",
@@ -6655,7 +6759,8 @@
           "type": "restaurant",
           "websiteUrl": "https://thetemplebarpub.com/?utm_source=GoogleMyBusiness&utm_medium=Organic&utm_campaign=GMB&utm_id=GMB",
           "image": "https://ec2ggi9x8i8.exactdn.com/wp-content/uploads/2022/12/IMG_0232-1.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/j7ju7m3cTeSeuaUd6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/j7ju7m3cTeSeuaUd6",
+          "summary": "Ikoniczny pub w dzielnicy Temple Bar w Dublinie, jeden z symboli irlandzkiej kultury piwnej."
         },
         {
           "id": "the-old-spot",
@@ -6668,7 +6773,8 @@
           "type": "restaurant",
           "websiteUrl": "http://theoldspot.ie/",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/51/ed/30/the-old-spot.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/2VX5asgZ1pBEFs7T9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/2VX5asgZ1pBEFs7T9",
+          "summary": "Gastropub w Dublinie z wyraźnym naciskiem na lokalne produkty i tradycyjną kuchnię irlandzką."
         }
       ]
     },
@@ -6693,7 +6799,8 @@
           "type": "restaurant",
           "websiteUrl": "https://tannery.ie/",
           "image": "https://munstervales.com/assets/images/directory/_1200x630_crop_center-center_82_none/Tannery.jpg?mtime=1704383496",
-          "GoogleMapsLink": "https://maps.app.goo.gl/7D8kVqAnJWE84cUY6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/7D8kVqAnJWE84cUY6",
+          "summary": "Restauracja szefa Pawła Flynna w zabytkowej garbarni w Dungarvan z sezonowym menu i szkołą gotowania."
         },
         {
           "id": "the-spire",
@@ -6706,7 +6813,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://mediaim.expedia.com/destination/9/92df8209463bb23002cdc8c1067fb5ac.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/NbmtpEfj198PYDJj7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/NbmtpEfj198PYDJj7",
+          "summary": "Stalowa iglica z 2003 roku na O'Connell Street — najwyższy pomnik Dublina, 120 m ze stali nierdzewnej."
         }
       ]
     },
@@ -6742,7 +6850,8 @@
           "type": "nature",
           "websiteUrl": "https://www.cliffsofmoher.ie/",
           "image": "https://www.mamasaidbecool.pl/wp-content/uploads/2018/10/klify-moheru-800x533.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/LmutqyGQhG9229Ve7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/LmutqyGQhG9229Ve7",
+          "summary": "Klify na zachodnim wybrzeżu Irlandii o wysokości do 214 m — jedna z najsłynniejszych atrakcji kraju."
         },
         {
           "id": "wieza-o-briena",
@@ -6755,7 +6864,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/vcNLb6X7VETntnxa9",
-          "image": "https://img5.digsty.com/NHhOj4F-Or3To2hlUBO39PXOj-wsmKj32zwlCeXLQHs/rs:fit:800:800:1/g:fp:0.5:0.5/aHR0cHM6Ly91cGxvYWQud2lraW1lZGlhLm9yZy93aWtpcGVkaWEvY29tbW9ucy82LzY4L08lMjdCcmllbiUyN3NfVG93ZXIuanBn.jpg"
+          "image": "https://img5.digsty.com/NHhOj4F-Or3To2hlUBO39PXOj-wsmKj32zwlCeXLQHs/rs:fit:800:800:1/g:fp:0.5:0.5/aHR0cHM6Ly91cGxvYWQud2lraW1lZGlhLm9yZy93aWtpcGVkaWEvY29tbW9ucy82LzY4L08lMjdCcmllbiUyN3NfVG93ZXIuanBn.jpg",
+          "summary": "XIX-wieczna wieża obserwacyjna Sir Corneliusa O'Briena na szczycie Klifów Moheru z panoramą Atlantyku."
         },
         {
           "id": "zamek-krola-jana",
@@ -6768,7 +6878,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/ZZJmDSZW1gLn4pW9A",
-          "image": "https://us.123rf.com/450wm/patrykkosmider/patrykkosmider1603/patrykkosmider160300996/58699960-king-john-castle-in-limerick-ireland.jpg"
+          "image": "https://us.123rf.com/450wm/patrykkosmider/patrykkosmider1603/patrykkosmider160300996/58699960-king-john-castle-in-limerick-ireland.jpg",
+          "summary": "Normandzki zamek z XIII w. nad Shannonem w Limerick, jeden z największych zamków obronnych Irlandii."
         },
         {
           "id": "the-glen-tavern",
@@ -6781,7 +6892,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.glentavern.ie/",
           "image": "https://matchpint-cdn.matchpint.cloud/shared/img/pub/20119/131145762-1649089931_original.jpeg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/GorW5KxH1XsZ1Tw38"
+          "GoogleMapsLink": "https://maps.app.goo.gl/GorW5KxH1XsZ1Tw38",
+          "summary": "Tradycyjny pub w Limerick serwujący irlandzkie dania i lokalne piwa w przytulnej atmosferze."
         },
         {
           "id": "the-english-market",
@@ -6794,7 +6906,8 @@
           "type": "shopping",
           "websiteUrl": "http://www.englishmarket.ie/",
           "image": "https://www.doylecollection.com/var/doyle/storage/images/media/doyle-redesign/images/blog/river-lee/english-market-image-3/93682-2-eng-US/english-market-image-3.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/zu5ciQ6hH6798Mcs6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/zu5ciQ6hH6798Mcs6",
+          "summary": "Zabytkowy targ w Corku działający od 1788 roku z lokalnymi serami, mięsem, rybami i specjałami Irlandii."
         },
         {
           "id": "the-farmgate-cafe",
@@ -6807,7 +6920,8 @@
           "type": "restaurant",
           "websiteUrl": "http://farmgatecork.ie/",
           "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKaCeHCX3p9dIW8Wtqti1_wyPq-PRj8weLWhP1uRbwx4JL7awJLBRlnf7FnEIk8zmAHLSh0YQvWHS1pgAJJnSsaKiw3WC82IUUbEmuTdGT15AsWiQOZRTusi1U_7CLw2VGrx8Ls8v9LT0/s1600/1aCMK_General+View++copy.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/oVLccgPkPtFYyVrR7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/oVLccgPkPtFYyVrR7",
+          "summary": "Restauracja na pierwszym piętrze English Market w Corku z menu opartym na produktach targowych."
         },
         {
           "id": "butter-exchange",
@@ -6820,7 +6934,8 @@
           "type": "museum",
           "websiteUrl": "http://www.corkbutter.museum/",
           "GoogleMapsLink": "https://maps.app.goo.gl/P5y14nhV7p63JkDQ9",
-          "image": "https://www.irishexaminer.com/cms_media/module_img/6096/3048413_3_seoimage4x3_1036147.jpg"
+          "image": "https://www.irishexaminer.com/cms_media/module_img/6096/3048413_3_seoimage4x3_1036147.jpg",
+          "summary": "Muzeum w historycznej giełdzie masła w Corku z 1769 roku, centrum globalnego handlu masłem przez 150 lat."
         }
       ]
     },
@@ -6856,7 +6971,8 @@
           "type": "restaurant",
           "websiteUrl": "https://tavernalithos.gr/",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/c5/fd/46/lithos.jpg?w=500&h=-1&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/C1ViSSt7kPcLwU4x9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/C1ViSSt7kPcLwU4x9",
+          "summary": "Restauracja grecka serwująca tradycyjne dania śródziemnomorskie w otoczeniu kamiennej architektury."
         },
         {
           "id": "",
@@ -6882,7 +6998,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/0f/6b/f1/20180215-153936-largejpg.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/v69nquHjoERxcyZc7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/v69nquHjoERxcyZc7",
+          "summary": "Historyczne źródło w Grecji z krystaliczną wodą, od wieków punkt orientacyjny dla podróżnych."
         },
         {
           "id": "lasithi-plateau-windmills",
@@ -6895,7 +7012,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "image": "https://www.bookingcrete.eu/uploads/tour/destinations/gallery/912ee-lassithi-plateau-windmills.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/oguPpkWa1PXmLNAW9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/oguPpkWa1PXmLNAW9",
+          "summary": "Charakterystyczne wiatraki na Płaskowyżu Lasithi na Krecie, niegdyś pompujące wodę z doliny."
         },
         {
           "id": "forteca-spinalonga",
@@ -6908,7 +7026,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/YyaUX2tUvamdJt228",
-          "image": "https://www.destinationcrete.gr//wp-content/uploads/2021/04/view-of-the-island-of-spinalonga-with-calm-sea-here-were-isolated-lepers-humans-with-gm-1024x576.jpg"
+          "image": "https://www.destinationcrete.gr//wp-content/uploads/2021/04/view-of-the-island-of-spinalonga-with-calm-sea-here-were-isolated-lepers-humans-with-gm-1024x576.jpg",
+          "summary": "Wenecka forteca na wyspie Spinalonga koło Krety — ostatnia czynna kolonia trędowatych w Europie (do 1957 r.)."
         },
         {
           "id": "ta-kymata",
@@ -6921,7 +7040,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "image": "https://sithoniahotels.gr/media/com_mtree/images/listings/o/1485.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/G4BrFZcwbPYwpFw66"
+          "GoogleMapsLink": "https://maps.app.goo.gl/G4BrFZcwbPYwpFw66",
+          "summary": "Restauracja nad morzem w Chanii serwująca świeże owoce morza i tradycyjne dania kreteńskie."
         },
         {
           "id": "ajos-nikolaos-grecja",
@@ -6934,7 +7054,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/mvJ7wRTwT6Xb7ddTA",
-          "image": "https://traveltalks.esky.pl/wp-content/uploads/Port-Agios-Nikolaos-wyspa-Kreta-Grecja-©-Shutterstock.jpg"
+          "image": "https://traveltalks.esky.pl/wp-content/uploads/Port-Agios-Nikolaos-wyspa-Kreta-Grecja-©-Shutterstock.jpg",
+          "summary": "Malownicze miasteczko na wschodniej Krecie ze słynnym jeziorem Wulismeni połączonym kanałem z Morzem Egejskim."
         }
       ]
     },
@@ -6970,7 +7091,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://www.cyprusdigitalheritage.com/wp-content/uploads/2024/05/Optimized_New-Martinengo-Bastion-8.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/gJv2X65uMkSCA5fF8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/gJv2X65uMkSCA5fF8",
+          "summary": "Wenecki bastion z XVI w. w Heraklionie — miejsce pochówku pisarza Nikosa Kazantzakisa."
         },
         {
           "id": "nikos-kazantzakis-grave",
@@ -6983,7 +7105,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/nWCDJn67FiYepXzD6",
-          "image": "https://aboutheraklion.com/wp-content/uploads/2018/02/61894268_313113852956226_4748229202991909668_n.jpg"
+          "image": "https://aboutheraklion.com/wp-content/uploads/2018/02/61894268_313113852956226_4748229202991909668_n.jpg",
+          "summary": "Grób autora Greka Zorby na bastionie Martinengo z epitafium jego własnego autorstwa."
         },
         {
           "id": "venetian-fortress-rocca-a-mare",
@@ -6996,7 +7119,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "image": "https://i.redd.it/rocca-a-mare-fortress-heraklion-greece-v0-p2q6ip7398mb1.jpg?width=1024&format=pjpg&auto=webp&s=42261ad9d4354d50e0e15c761465e3452b262173",
-          "GoogleMapsLink": "https://maps.app.goo.gl/dtF1XRisAYWTgcYw5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/dtF1XRisAYWTgcYw5",
+          "summary": "Wenecka twierdza z XVI w. w porcie Herakliony, chroniąca miasto przed tureckimi atakami — dziś muzeum."
         },
         {
           "id": "traditional-seafood-market",
@@ -7009,7 +7133,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/ZRhTvrSTdTojqhv36",
-          "image": "/images/traditional-seafood-market.jpg"
+          "image": "/images/traditional-seafood-market.jpg",
+          "summary": "Tradycyjny grecki sklep rybny ze świeżymi owocami morza prosto z lokalnych połowów."
         },
         {
           "id": "venetian-loggia",
@@ -7022,7 +7147,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://www.destinationcrete.gr//wp-content/uploads/2020/10/venetian-loggia-heraklion-1024x576.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/v7fc7Vo2npgjPbMt8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/v7fc7Vo2npgjPbMt8",
+          "summary": "XVII-wieczna Loża Wenecka w Heraklionie, dawne centrum spotkań arystokracji — dziś siedziba instytucji."
         },
         {
           "id": "morosini-fountain",
@@ -7035,7 +7161,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/w5UResLL71ThCdDUA",
-          "image": "https://knossos-palace.gr/wp-content/uploads/2024/07/Jasper_2024-07-26T103A093A30.457Z.jpeg"
+          "image": "https://knossos-palace.gr/wp-content/uploads/2024/07/Jasper_2024-07-26T103A093A30.457Z.jpeg",
+          "summary": "Fontanna Morisiniego z 1628 roku na głównym placu Herakliony, symbol weneckiego panowania na Krecie."
         },
         {
           "id": "kirkor-bougatsa",
@@ -7048,7 +7175,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "image": "https://static.where-e.com/Greece/Heraklion/Kirkr-Bougatsa_ecf79c31af222fa227a7d2d9364b58aa.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/mAVQbmcd6zRtd87Z9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/mAVQbmcd6zRtd87Z9",
+          "summary": "Słynna bougatseria w Chanii serwująca ciepłą bougatsa z kremem lub serem — tradycyjne kreteńskie śniadanie."
         },
         {
           "id": "koscio-sw-tytusa",
@@ -7061,7 +7189,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/RyF9WdztCj4PBKTL7",
-          "image": "https://navicup.com//upload/map-files/images/1859/image_354.png"
+          "image": "https://navicup.com//upload/map-files/images/1859/image_354.png",
+          "summary": "Kościół z X w. w Heraklionie, wielokrotnie przebudowywany przez Wenecjan i Turków, przechowujący relikwię patrona Krety."
         },
         {
           "id": "pa-ac-minojski-w-knossos",
@@ -7074,7 +7203,8 @@
           "type": "art_culture",
           "websiteUrl": "http://odysseus.culture.gr/h/2/gh251.jsp?obj_id=716",
           "image": "https://tarkawdrodze.pl/wp-content/uploads/2024/12/Palac-minojski.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/dKpUuSrb4SA63EHLA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/dKpUuSrb4SA63EHLA",
+          "summary": "Pałac Minojski z XVI w. p.n.e. w Knossos — centrum cywilizacji kreteńskiej, mityczna siedziba Minotaura."
         }
       ]
     },
@@ -7099,7 +7229,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "image": "https://www.globtroter.pl/zdjecia/grecja/28638_grecja_kreta_rethymno.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/NEYpUg8wJK3EnTg1A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/NEYpUg8wJK3EnTg1A",
+          "summary": "Wenecka twierdza Fortezza z XVI w. w Rethymno, jeden z największych fortów z epoki weneckiej w Grecji."
         },
         {
           "id": "fontanna-wenecka-rimondi",
@@ -7112,7 +7243,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "image": "https://www.crete.pl/zdjecia/Fontanna-Rimondi/fontanna-rimondi2.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/RYuYSpsn8e1SoRj69"
+          "GoogleMapsLink": "https://maps.app.goo.gl/RYuYSpsn8e1SoRj69",
+          "summary": "Fontanna Rimondi z 1626 roku w centrum Rethymno, symbol weneckiej przeszłości kreteńskiego miasta."
         },
         {
           "id": "venetian-harbour",
@@ -7125,7 +7257,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://www.allincrete.com/wp-content/uploads/2020/11/Rethymno-Town-and-Port-Crete-Copyright-Allincrete.com-19.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ByPq7E3J3zVgXBWh9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ByPq7E3J3zVgXBWh9",
+          "summary": "Malowniczy port wenecki w Chanii z latarnią morską — jeden z najpiękniejszych portów Morza Śródziemnego."
         },
         {
           "id": "argyroupoli-waterfalls",
@@ -7138,7 +7271,8 @@
           "type": "nature",
           "websiteUrl": "",
           "image": "https://cdn.prod.website-files.com/629e1b4a73d10173b132470b/62e7fda1b1f2c139797d73ae_wycieczki-na-kreta-argyroupolis-cat03.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/3F4jRy9vZF55rDva6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/3F4jRy9vZF55rDva6",
+          "summary": "Wodospady w Argyroupoli na Krecie wytrysające spośród ruin starożytnego miasta Lappa."
         },
         {
           "id": "agia-dinamis",
@@ -7151,7 +7285,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/44/a2/30/the-best-place-to-be.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/hdHj7aH12WTpqw6d7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/hdHj7aH12WTpqw6d7",
+          "summary": "Mała tawerna przy zabytkowej kapliczce w Chanii serwująca tradycyjne kreteńskie mezedeki i lokalne wino."
         },
         {
           "id": "dourakis-winery",
@@ -7164,7 +7299,8 @@
           "type": "shopping",
           "websiteUrl": "http://www.dourakiswinery.gr/",
           "image": "https://platanias-taxi.gr/wp-content/uploads/2018/03/111.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/m1k4fz6a8JhAzHZt6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/m1k4fz6a8JhAzHZt6",
+          "summary": "Rodzinna winiarnia na Krecie produkująca wina z lokalnych odmian winorośli Vidiano i Kotsifali."
         },
         {
           "id": "the-beautiful-lake",
@@ -7177,7 +7313,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "image": "https://media-cdn.tripadvisor.com/media/photo-s/0b/f9/ac/4d/omorfi-limni.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/oU134RZwYi1AY6nU9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/oU134RZwYi1AY6nU9",
+          "summary": "Restauracja nad jeziorkiem w Grecji z lokalną kuchnią i spokojną atmosferą z dala od turystycznego zgiełku."
         }
       ]
     },
@@ -7202,7 +7339,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "image": "https://bazagdansk.pl/web_images/72_01.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/U3DzuzLQgMNUbwdU9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/U3DzuzLQgMNUbwdU9",
+          "summary": "Wenecka latarnia morska w porcie Chanii, jedna z najczęściej fotografowanych atrakcji Krety."
         },
         {
           "id": "arsenali-veneziani",
@@ -7215,7 +7353,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "image": "https://greece.terrabook.com/wp-content/uploads/5/enetika-newria-01.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/qSbM2hx1pK4K9ETC8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/qSbM2hx1pK4K9ETC8",
+          "summary": "Weneckie arsenały w Chanii z XIV–XVII w., gdzie budowano i remontowano okręty floty weneckiej na Krecie."
         },
         {
           "id": "kucuk-hasan-mosque",
@@ -7228,7 +7367,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "image": "https://live.staticflickr.com/4678/26631460238_d9d3017603_b.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ZD9FUYgUnKz7UM1V7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZD9FUYgUnKz7UM1V7",
+          "summary": "Meczet Küçük Hasan z XVII w. w porcie Chanii, symbol osmańskiej obecności na Krecie."
         },
         {
           "id": "synagoga-etz-chaim-w-chanii",
@@ -7241,7 +7381,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Kreta-Chania05.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/kzTs7bXSsnYQ8mdm7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/kzTs7bXSsnYQ8mdm7",
+          "summary": "Synagoga Etz Chaim w Chanii upamiętniająca żydowską społeczność Krety zagładzoną przez Niemców w 1944 r."
         },
         {
           "id": "bougatsa-iordanis",
@@ -7254,7 +7395,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.iordanis.gr/",
           "image": "https://www.greece-is.com/wp-content/uploads/2024/07/mpougatsa-iordanis-xania-kriti-30-gastronomos.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/gX7QeGcLmyBVXGCW8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/gX7QeGcLmyBVXGCW8",
+          "summary": "Legendarna bougatseria w Salonikach od 1926 roku serwująca tradycyjną bougatsa z serem lub kremem waniliowym."
         },
         {
           "id": "open-bazzar",
@@ -7267,7 +7409,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "image": "https://www.west-crete.com/excursion/chania/chania-street-market-13.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/18SxVbij8xgNj2Xq6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/18SxVbij8xgNj2Xq6",
+          "summary": "Otwarty bazar w Grecji z lokalnymi produktami spożywczymi, rękodzielnictwem i śródziemnomorskimi specjałami."
         },
         {
           "id": "grob-elefteriosa-wenizelosa",
@@ -7280,7 +7423,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "image": "https://bezkresnepodroze.pl/wp-content/uploads/2020/02/chapel-venizelos-chania-1.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/hZjjHi8gpGhHAvFR9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/hZjjHi8gpGhHAvFR9",
+          "summary": "Grób Elefteriosa Wenizelosa, greckiego premiera i bohatera narodowego, na wzgórzach nad Chanią."
         },
         {
           "id": "the-well-of-the-turk",
@@ -7293,7 +7437,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "image": "https://media-cdn.tripadvisor.com/media/photo-s/0c/53/fa/54/the-well-of-the-turk.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/P91QSyUEa3rSGRjs5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/P91QSyUEa3rSGRjs5",
+          "summary": "Restauracja w zabytkowym budynku dzielnicy Splantzia w Chanii serwująca dania kreteńsko-tureckie."
         },
         {
           "id": "najstarsze-na-swiecie-drzewo-oliwne",
@@ -7306,7 +7451,8 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/7swJqLRT7h1iP4Qz9",
-          "image": "https://static0.thetravelimages.com/wordpress/wp-content/uploads/2025/04/dreamstime_xxl_195993571-2.jpg"
+          "image": "https://static0.thetravelimages.com/wordpress/wp-content/uploads/2025/04/dreamstime_xxl_195993571-2.jpg",
+          "summary": "Drzewo oliwne w Anoii na Krecie szacowane na ponad 3000 lat — nadal owocujące i produkujące oliwę."
         }
       ]
     },
@@ -7331,7 +7477,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "image": "https://img.atlasobscura.com/HPPWihwF-Pkvy8SsNKSytSYt7ffNtE24OVHKSCMoHG4/rt:fit/w:1200/q:80/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy9teDNj/M2I0eWI2bTFhMGEz/ZDQ1YjVhZTZiZTQz/Yl9SZWZ1cmJpc2hl/ZCBUcmFpbiBpbiBX/YWRpIFJ1bSAxIC0g/TWFyayBJYW5kb2xv/LmpwZw.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/XZjwnwFeFy2cYS5W8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/XZjwnwFeFy2cYS5W8",
+          "summary": "Stacja kolejki Hejazańskiej w Wadi Rum, pamiątka osmańskiej linii kolejowej i epoki Lawrence'a z Arabii."
         },
         {
           "id": "jamal-rum-camp",
@@ -7344,7 +7491,8 @@
           "type": "hotel",
           "websiteUrl": "https://www.booking.com/hotel/jo/desert-trips.pl.html",
           "image": "https://sunset-camp.jordan-all-hotels.com/data/Pics/OriginalPhoto/13202/1320274/1320274591/jamal-rum-camp-wadi-rum-pic-73.JPEG",
-          "GoogleMapsLink": "https://maps.app.goo.gl/G4dPdZTgskGr4yEe8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/G4dPdZTgskGr4yEe8",
+          "summary": "Obóz beduiński na pustyni Wadi Rum z noclegami w namiotach pod rozgwieżdżonym jordańskim niebem."
         },
         {
           "id": "wadi-rum-desert",
@@ -7357,7 +7505,8 @@
           "type": "nature",
           "websiteUrl": "",
           "image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Mountain_in_Wadi_Rum%2C_Jordan.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/CZWo7enrNRT2cNob8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/CZWo7enrNRT2cNob8",
+          "summary": "Czerwona pustynna dolina w Jordanii z piaskowcowymi skałami i formacjami, wpisana na Listę UNESCO."
         },
         {
           "id": "aqaba-fort",
@@ -7370,7 +7519,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/f6/f3/87/aqaba-castle.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/aJLx94iMQGj7gnys5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/aJLx94iMQGj7gnys5",
+          "summary": "Fort mameluski z XIV w. w Akabie, świadek walk z okresu I wojny światowej i Rewolucji Arabskiej."
         },
         {
           "id": "arab-revolt-flagpole",
@@ -7383,7 +7533,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/UbUCgw5U4Xmfdwug9",
-          "image": "https://www.shutterstock.com/image-photo/great-arab-revolt-flag-symbol-600nw-412082575.jpg"
+          "image": "https://www.shutterstock.com/image-photo/great-arab-revolt-flag-symbol-600nw-412082575.jpg",
+          "summary": "Jeden z najwyższych masztów flagowych świata w Akabie, upamiętniający Wielką Rewolucję Arabską z 1916 roku."
         },
         {
           "id": "berenice-beach-resort",
@@ -7396,7 +7547,8 @@
           "type": "hotel",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/59/f6/96/berenice-beach-club.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ugYsKWc3SyuYzhsN7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ugYsKWc3SyuYzhsN7",
+          "summary": "Nadmorski ośrodek w Akabie nad Morzem Czerwonym z prywatną plażą i widokiem na cztery państwa."
         }
       ]
     },
@@ -7421,7 +7573,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "image": "https://universes.art/fileadmin/_processed_/4/1/csm_04-IMG_3076-A_0ecf4dbe4a.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/jTCS8Y6r9ZrzNzfR6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/jTCS8Y6r9ZrzNzfR6",
+          "summary": "Osmańska ulica łaźni w As-Salt z tradycyjnymi sklepami, historyczne centrum wpisane na Listę UNESCO."
         },
         {
           "id": "beit-aziz",
@@ -7434,7 +7587,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.instagram.com/beit_aziz/",
           "GoogleMapsLink": "https://maps.app.goo.gl/KU5kVRvx2xoo9qbEA",
-          "image": "/images/beit-aziz.jpg"
+          "image": "/images/beit-aziz.jpg",
+          "summary": "Restauracja w odrestaurowanym domu z 1905 roku w As-Salt z tradycyjną kuchnią jordańską."
         },
         {
           "id": "dead-sea-marriott-resort-spa",
@@ -7447,7 +7601,8 @@
           "type": "hotel",
           "websiteUrl": "https://www.marriott.com/en-us/hotels/qmdjv-dead-sea-marriott-resort-and-spa/overview/",
           "image": "https://singleflyer.com/wp-content/uploads/2022/07/Marriott_Dead_Sea_29_155512619.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/qUPMpXkaLsfw4hkAA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/qUPMpXkaLsfw4hkAA",
+          "summary": "Luksusowy resort nad Morzem Martwym z prywatną plażą i dostępem do słynnych wód najniżej położonego miejsca na Ziemi."
         },
         {
           "id": "petra",
@@ -7460,7 +7615,8 @@
           "type": "art_culture",
           "websiteUrl": "https://www.visitpetra.jo/",
           "image": "https://cdn.galleries.smcloud.net/t/galleries/gf-crAj-LCgq-E7G7_petra-perla-jordanii-cud-swiata-co-warto-o-niej-wiedziec-1920x1080-nocrop.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/uU5761gd4mTfoS4W8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/uU5761gd4mTfoS4W8",
+          "summary": "Nabatejskie miasto wykute w skale na południu Jordanii — jedno z Siedmiu Cudów Świata, wpisane na Listę UNESCO."
         }
       ]
     },
@@ -7485,7 +7641,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "image": "https://i0.wp.com/www.touristjordan.com/wp-content/uploads/2017/12/amman-citadel-jordan-travel.jpg?fit=1805%2C1205&ssl=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/2kVixrdAMuf5tPwG6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/2kVixrdAMuf5tPwG6",
+          "summary": "Cytadela na wzgórzu w Ammanie z ruinami kolejnych cywilizacji od neolitu przez Rzym po Umajjadów."
         },
         {
           "id": "roman-temple-of-hercules",
@@ -7498,7 +7655,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/6p59UWjZTqDQ8Vgu5",
-          "image": "/images/roman-temple-of-hercules.jpg"
+          "image": "/images/roman-temple-of-hercules.jpg",
+          "summary": "Pozostałości rzymskiej świątyni Herkulesa z II w. n.e. na szczycie cytadeli w Ammanie."
         },
         {
           "id": "early-bronze-age-cave",
@@ -7511,7 +7669,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "image": "https://universes.art/fileadmin/_processed_/f/1/csm_10-IMG_1434-A_ff66e72636.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/QJEhKMhtfDwcYVWL9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/QJEhKMhtfDwcYVWL9",
+          "summary": "Prehistoryczne jaskinie z wczesnej epoki brązu na cytadeli w Ammanie — najstarsze ślady osadnictwa."
         },
         {
           "id": "byzantine-church",
@@ -7524,7 +7683,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "image": "https://thumbs.dreamstime.com/b/ruins-byzantine-church-amman-citadel-jordan-76651557.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/os9e7PMDzQkWWQiD6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/os9e7PMDzQkWWQiD6",
+          "summary": "Ruiny kościoła bizantyjskiego na cytadeli w Ammanie z fragmentami mozaikowych posadzek."
         },
         {
           "id": "umayyad-palace",
@@ -7537,7 +7697,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "image": "https://www.cultech.net/sites/default/files/aa.PNG",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Lx5U8mhLg5ShnDEN6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Lx5U8mhLg5ShnDEN6",
+          "summary": "Pałac Umajjadów z VIII w. na szczycie cytadeli w Ammanie z odrestaurowaną kopułą i dziedzińcem."
         },
         {
           "id": "alzamer-restaurant",
@@ -7550,7 +7711,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "image": "/images/alzamer-restaurant.jpeg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/T98bkyEZtBMxrZbx5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/T98bkyEZtBMxrZbx5",
+          "summary": "Restauracja w Ammanie serwująca tradycyjne dania kuchni jordańskiej i arabskiej."
         },
         {
           "id": "sufra-restaurant",
@@ -7563,7 +7725,8 @@
           "type": "restaurant",
           "websiteUrl": "https://romerogroup.jo/restaurants/sufra/",
           "image": "https://www.theworlds50best.com/discovery/filestore/jpg/Sufra-Amman-Jordan%20(3)%20-%20Copy.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/bvMELLAKVFVYCgibA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/bvMELLAKVFVYCgibA",
+          "summary": "Restauracja w zabytkowej willi z lat 20. XX w. w Ammanie serwująca tradycyjną kuchnię lewantyńską."
         },
         {
           "id": "teatr-rzymski",
@@ -7576,7 +7739,8 @@
           "type": "art_culture",
           "websiteUrl": "http://roman-amphitheater.blogspot.com/",
           "image": "https://www.globtroter.pl/zdjecia/jordania/b281646_jordania_muhafaza_ma_an_dana.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/4bqN1Z3h5VuJtiEh8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/4bqN1Z3h5VuJtiEh8",
+          "summary": "Rzymski teatr z II w. n.e. w centrum Ammanu na 6000 widzów — jeden z symboli stolicy Jordanii."
         },
         {
           "id": "souq-al-sukar",
@@ -7589,7 +7753,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Souq_Al-Sukar.png",
-          "GoogleMapsLink": "https://maps.app.goo.gl/9PCfwtiAgBTAHZDZ7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/9PCfwtiAgBTAHZDZ7",
+          "summary": "Tradycyjny suk w centrum Ammanu z przyprawami, słodyczami i wyrobami rzemiosła arabskiego."
         },
         {
           "id": "iraq-el-amir-ladies-association",
@@ -7602,7 +7767,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://www.contiki.com/six-two/app/uploads/2023/01/celinecousteau-Jordan.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Q92cqQtQ5ftTveddA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Q92cqQtQ5ftTveddA",
+          "summary": "Stowarzyszenie kobiet z wioski Iraq el Amir tworzące i sprzedające tradycyjne wyroby rzemieślnicze."
         },
         {
           "id": "beit-sitti",
@@ -7615,7 +7781,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "http://www.beitsitti.com/",
           "image": "https://beitsitti.com/wp-content/uploads/2023/02/20220725-2022-07_BEIT-SITTI_PHOTOS_AmmanJO__JSofia_1022-1024x683.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/sRqD6aTQoRV9bo8U6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/sRqD6aTQoRV9bo8U6",
+          "summary": "Dom babci w Ammanie — szkoła gotowania ucząca domowych przepisów jordańskiej kuchni."
         },
         {
           "id": "k-k",
@@ -7628,7 +7795,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.facebook.com/KandKRestaurant/",
           "image": "/images/k-k.jpeg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/gaPoRCJqLG4Q2wWx9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/gaPoRCJqLG4Q2wWx9",
+          "summary": "Jordańska restauracja specjalizująca się w flaczkach i krowarstwach, tradycyjnych potrawach kuchni arabskiej."
         }
       ]
     },
@@ -7664,7 +7832,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.karczma-rzym.com/okarczmie.html",
           "image": "https://www.wbeskidzie.pl/wp-content/uploads/2022/01/2022-01-24-art-4-1024x576.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/MvB57y7npHYp8NeYA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/MvB57y7npHYp8NeYA",
+          "summary": "Historyczna karczma w Polsce słynąca z tradycyjnej kuchni regionalnej w zabytkowych wnętrzach."
         },
         {
           "id": "zamek-w-suchej-beskidzkiej",
@@ -7677,7 +7846,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "http://www.zameksucha.pl/",
           "image": "https://oliwiawpodrozy.pl/wp-content/uploads/2024/08/Zamek-Sucha-1-min.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/dkJkMtfesY7HynqH8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/dkJkMtfesY7HynqH8",
+          "summary": "Renesansowy zamek z XVII w. w Suchej Beskidzkiej zwany Małym Wawelem, z arkadowym dziedzińcem."
         },
         {
           "id": "kasper-suski-restauracja-i-hotel",
@@ -7690,7 +7860,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.kaspersuski.pl/",
           "image": "https://sucha24.pl/static/files/gallery/502/im_g_6634_3982.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/kqtrkH3ytVPgyZk68"
+          "GoogleMapsLink": "https://maps.app.goo.gl/kqtrkH3ytVPgyZk68",
+          "summary": "Restauracja i hotel w Suchej Beskidzkiej serwujący regionalne dania kuchni małopolskiej."
         },
         {
           "id": "klasztor-oo-bernardynow",
@@ -7703,7 +7874,8 @@
           "type": "art_culture",
           "websiteUrl": "http://www.kalwaria.eu/",
           "GoogleMapsLink": "https://maps.app.goo.gl/UmaFd66HruyLu7CK7",
-          "image": "https://kalwaria.eu/wp-content/themes/kalwaria/klasztor1.jpg"
+          "image": "https://kalwaria.eu/wp-content/themes/kalwaria/klasztor1.jpg",
+          "summary": "Bernardyński klasztor w Kalwarii Zebrzydowskiej z barokowym kościołem i kalwarią na Liście UNESCO."
         },
         {
           "id": "cmentarz-wojenny-z-i-wojny-swiatowej-1915-r",
@@ -7716,7 +7888,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "image": "https://www.miejscapamiecinarodowej.pl/images/malopolskie2/kalwaria_cment6.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/1fTFUMA93ZMssbP56"
+          "GoogleMapsLink": "https://maps.app.goo.gl/1fTFUMA93ZMssbP56",
+          "summary": "Cmentarz z I wojny światowej z 1915 roku, część szlaku galicyjskich cmentarzy wojennych w Karpatach."
         }
       ]
     },
@@ -7741,7 +7914,8 @@
           "type": "shopping",
           "websiteUrl": "https://swiezoizdrowo.pl/",
           "GoogleMapsLink": "https://maps.app.goo.gl/75DwPTHMgQkPr8vj6",
-          "image": "/images/swiezo-i-zdrowo-sklep-ze-zdrowa-zywnoscia.jpg"
+          "image": "/images/swiezo-i-zdrowo-sklep-ze-zdrowa-zywnoscia.jpg",
+          "summary": "Sklep z ekologiczną żywnością w Polsce z lokalnymi produktami i wyrobami małych wytwórców."
         }
       ]
     },
@@ -7766,7 +7940,8 @@
           "type": "shopping",
           "websiteUrl": "https://www.facebook.com/lanta.batik.3",
           "image": "https://images.musement.com/cover/0154/94/thumb_15393508_cover_header.jpg?q=50&fit=crop&auto=format&w=1024&h=400&dpr=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/kviuAyYvvYTuaFvM9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/kviuAyYvvYTuaFvM9",
+          "summary": "Pracownia batiku na Ko Lanta z tkaninami ręcznie barwionymi metodą tradycyjną."
         },
         {
           "id": "first-rubber-tree-in-thailand",
@@ -7779,7 +7954,8 @@
           "type": "nature",
           "websiteUrl": "",
           "image": "https://patricklepetit.jalbum.net/TRANG/PHOTOS/KATANG/The%20first%20rubber%20tree%20in%20Thailand/K0729042_resize.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Mh6rRakNLpmjA8qQ8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Mh6rRakNLpmjA8qQ8",
+          "summary": "Pierwsze drzewo kauczukowe w Tajlandii zasadzone w 1901 roku w Trang — matka całego tajskiego przemysłu gumowego."
         },
         {
           "id": "boone-slow-coffee-and-bar",
@@ -7792,7 +7968,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.facebook.com/BOONESLOWCOFFEEANDBAR/",
           "image": "https://i.imgur.com/YGQLosZ.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/LXeySXDTUmoGvcTu5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/LXeySXDTUmoGvcTu5",
+          "summary": "Kawiarnia na Ko Lanta serwująca ręcznie parzoną kawę w relaksującej atmosferze tropikalnej wyspy."
         },
         {
           "id": "ban-ao-thong",
@@ -7805,7 +7982,8 @@
           "type": "hotel",
           "websiteUrl": "http://www.facebook.com/banaothongandmyfriend",
           "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/286243438.jpg?k=bc68aa47581f25197a398f7dfbd911b5127b006b446627f93e90704636169e03&o=&hp=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/oJYfNcGPyqKJgUKH7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/oJYfNcGPyqKJgUKH7",
+          "summary": "Kameralny hotel na Ko Lanta z widokiem na Morze Andamańskie wśród tropikalnej roślinności."
         },
         {
           "id": "trang-clock-tower",
@@ -7818,7 +7996,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/d5/84/be/caption.jpg?w=1200&h=-1&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/wtgHSsUbt6UrQpNUA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/wtgHSsUbt6UrQpNUA",
+          "summary": "Wieża zegarowa na głównym placu Trang — symbol miasta i punkt orientacyjny centrum prowincji."
         },
         {
           "id": "center-point-market",
@@ -7831,7 +8010,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/0d/e9/ef/caption.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/KNux8f93HYDj5Jmd9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/KNux8f93HYDj5Jmd9",
+          "summary": "Nocny targ w Trang z lokalnymi potrawami, owocami i wyrobami tradycyjnymi prowincji."
         },
         {
           "id": "trang-city-municipality-market",
@@ -7844,7 +8024,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "image": "https://www.samuiislandexplorer.com/wp-content/uploads/2024/01/Market-Old-Town-Trang-01.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ctpyL6kUbBJEiGuj6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ctpyL6kUbBJEiGuj6",
+          "summary": "Miejski targ w Trang z lokalnymi produktami, dim sum i tradycyjnymi śniadaniami regionu."
         }
       ]
     },
@@ -7869,7 +8050,8 @@
           "type": "nature",
           "websiteUrl": "",
           "image": "https://media-cdn.tripadvisor.com/media/photo-s/12/49/a2/0f/nui-bay.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/2aAA3L3TiTEFTy3r6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/2aAA3L3TiTEFTy3r6",
+          "summary": "Ukryta plaża na Ko Lanta dostępna wąską ścieżką, z turkusową wodą i dziewiczą przyrodą."
         },
         {
           "id": "thung-yee-peng-pier",
@@ -7882,7 +8064,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://tcdn.mindtrip.ai/images/504607/83q69x.png",
-          "GoogleMapsLink": "https://maps.app.goo.gl/38M5wiXHj3hJPKkX6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/38M5wiXHj3hJPKkX6",
+          "summary": "Drewniane molo nad Morzem Andamańskim — punkt odpłynięcia do wysp archipelagu w prowincji Trang."
         },
         {
           "id": "thung-yee-peng-seafood",
@@ -7895,7 +8078,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "image": "https://img.restaurantguru.com/rab7-Thung-Yee-Peng-Seafood-facade-2022-11-2.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/mjXnqCK1QMFaimbPA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/mjXnqCK1QMFaimbPA",
+          "summary": "Restauracja owoców morza przy molo w prowincji Trang z rybami i krewetkami prosto z sieci."
         },
         {
           "id": "koh-ngai",
@@ -7908,7 +8092,8 @@
           "type": "nature",
           "websiteUrl": "",
           "image": "https://theetstory.blog/wp-content/uploads/2023/04/koh-ngai-25.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/YpH1JQKiVhXQo83c7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/YpH1JQKiVhXQo83c7",
+          "summary": "Dzika wyspa Ko Ngai w archipelagu Trang z rafami koralowymi i piaszczystymi plażami."
         }
       ]
     },
@@ -7933,7 +8118,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/CeHDYLPFxTKjh6Bo7",
-          "image": "https://bangkokattractions.com/wp-content/uploads/2019/05/ao-nang-to-koh-lanta-car-ferry.jpg"
+          "image": "https://bangkokattractions.com/wp-content/uploads/2019/05/ao-nang-to-koh-lanta-car-ferry.jpg",
+          "summary": "Przeprawa promowa z lądu do wysp archipelagu Ko Lanta w prowincji Trang."
         },
         {
           "id": "saturday-market",
@@ -7946,7 +8132,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "image": "https://ic.pics.livejournal.com/pushpitha/50334853/1396733/1396733_800.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/dHTDfYFu3CWkAuTu8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/dHTDfYFu3CWkAuTu8",
+          "summary": "Sobotni targ w Trang z lokalnymi produktami, przekąskami i wyrobami rzemiosła południowej Tajlandii."
         },
         {
           "id": "panpee-noodle-shop",
@@ -7959,7 +8146,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/Naxy85wpuSJgCnJT6",
-          "image": "/images/panpee-noodle-shop.jpg"
+          "image": "/images/panpee-noodle-shop.jpg",
+          "summary": "Rodzinny punkt z makaronem w Trang kultywujący od dekad tradycyjne receptury kuchni południowotajskiej."
         },
         {
           "id": "mango-sticky-rice-by-auntie-joy",
@@ -7972,7 +8160,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "image": "https://media.lul.la/wp-content/uploads/2022/04/15203535/272851276_506369950848781_3139198655177666712_n-1-1024x1024.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/vKzJXPy3Jhfx4oMv7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/vKzJXPy3Jhfx4oMv7",
+          "summary": "Uliczne stoisko Ciocia Joy z mango sticky rice — kleistym ryżem z mango i mlekiem kokosowym."
         },
         {
           "id": "lanta-old-town",
@@ -7985,7 +8174,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "image": "https://photos.smugmug.com/KohLantaOldTown/Koh-Lanta-Old-Town/i-v3Q2j7P/0/690x690/Lanta-Old-Town-63-L.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/optvTTLeVru8i5V98"
+          "GoogleMapsLink": "https://maps.app.goo.gl/optvTTLeVru8i5V98",
+          "summary": "Stara osada rybacka na Ko Lanta Noi z drewnianymi domami na palach, zamieszkana przez lud Chao Ley."
         },
         {
           "id": "long-beach-koh-lanta",
@@ -7998,7 +8188,8 @@
           "type": "nature",
           "websiteUrl": "",
           "image": "https://www.diveworldwide.com/images/galleries/asia_thailand_koh_lanta_long_beach_chalet_beach_gallery.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/RmT2eDHkZk42E2iD7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/RmT2eDHkZk42E2iD7",
+          "summary": "Długa piaszczysta plaża na zachodnim brzegu Ko Lanta, jedna z najpopularniejszych na wyspie."
         },
         {
           "id": "thai-cat-restaurant",
@@ -8011,7 +8202,8 @@
           "type": "restaurant",
           "websiteUrl": "http://facebook.com/Thaicatkohlanta/",
           "image": "https://media-cdn.tripadvisor.com/media/photo-s/03/49/69/48/thai-cat.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/iMZhVA21oVE8Bc227"
+          "GoogleMapsLink": "https://maps.app.goo.gl/iMZhVA21oVE8Bc227",
+          "summary": "Tajska restauracja serwująca regionalne dania kuchni południowej Tajlandii z lokalnych składników."
         }
       ]
     },
@@ -8036,7 +8228,8 @@
           "type": "nature",
           "websiteUrl": "https://www.cktravels.com/wp-content/uploads/2022/12/ao-nang-28.jpg",
           "image": "https://www.weseektravel.com/wp-content/uploads/2024/10/things-to-do-ao-nang-1.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/XjfvMy9g3NgGybgJ9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/XjfvMy9g3NgGybgJ9",
+          "summary": "Popularna plaża w Ao Nang w Krabi z turkusową wodą i widokiem na skalne formacje wapienne."
         },
         {
           "id": "railay-beach",
@@ -8049,7 +8242,8 @@
           "type": "nature",
           "websiteUrl": "",
           "image": "https://www.weseektravel.com/wp-content/uploads/2023/04/how-to-get-to-railay-beach-1.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/eH2eGwy76RS66dbs7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/eH2eGwy76RS66dbs7",
+          "summary": "Plaża Railay dostępna tylko łodzią, otoczona wapiennymi skałami — jedna z piękniejszych plaż Tajlandii."
         },
         {
           "id": "railay-stalactite",
@@ -8062,7 +8256,8 @@
           "type": "nature",
           "websiteUrl": "",
           "image": "https://mountain-penguin.com/wp-content/uploads/IMG_4575.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/9cL4HtrPtLKyTL4N9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/9cL4HtrPtLKyTL4N9",
+          "summary": "Formacje stalaktytowe w jaskiniach wapiennych w okolicach Railay Beach w Krabi."
         },
         {
           "id": "phra-nang-beach",
@@ -8075,7 +8270,8 @@
           "type": "nature",
           "websiteUrl": "",
           "image": "https://www.weseektravel.com/wp-content/uploads/2023/04/phra-nang-beach-krabi-1.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/RqkZeq8KkqFxvrNH7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/RqkZeq8KkqFxvrNH7",
+          "summary": "Jedna z najpiękniejszych plaż Tajlandii dostępna tylko łodzią, z białym piaskiem i turkusową wodą."
         },
         {
           "id": "princess-cave",
@@ -8088,7 +8284,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "image": "https://photos.smugmug.com/Thailand/Krabi/i-VC735xr/0/70101574/O/krabi-18.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/mtzK562oTXCR7xXN8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/mtzK562oTXCR7xXN8",
+          "summary": "Jaskinia Księżniczki na Phra Nang z sanktuarium rybaków proszących o dobre połowy, wypełniona wotami."
         },
         {
           "id": "highsiam-railay-weed-shop-cannabis-dispensary",
@@ -8101,7 +8298,8 @@
           "type": "shopping",
           "websiteUrl": "http://www.highsiam.com/",
           "image": "https://smokingcannabisthailand.com/wp-content/uploads/2024/07/AF1QipMNXC4C7qeB7DC1n3PSHDgIhL-naO43XSICUk9ww800-h500-k-no.jpeg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/8UxaTzkWiCN5CoBLA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/8UxaTzkWiCN5CoBLA",
+          "summary": "Legalny sklep z konopiami indiańskimi na Railay Beach, jeden z punktów tej branży w Tajlandii."
         },
         {
           "id": "family-thaifood-seafood",
@@ -8114,7 +8312,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/ce/58/9f/caption.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/CetVR5vdq9nWeVUP8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/CetVR5vdq9nWeVUP8",
+          "summary": "Rodzinna restauracja tajska serwująca owoce morza i dania kuchni południowej Tajlandii."
         },
         {
           "id": "centara-ao-nang-beach-resort-spa-krabi",
@@ -8127,7 +8326,8 @@
           "type": "hotel",
           "websiteUrl": "http://www.centarahotelsresorts.com/centara/cnk/",
           "image": "https://img.exim.pl/hotels/thajsko/oblast-krabi/krabi/centara-ao-nang-beach-resort-a-spa-krabi/323286a4ad6742a0765b29ef2a260fb3_kbvaona_21.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/yXH61rq3F5SNxVDBA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/yXH61rq3F5SNxVDBA",
+          "summary": "Resort przy plaży Ao Nang w Krabi z basenem i widokiem na wapienne klify Morza Andamańskiego."
         }
       ]
     },
@@ -8152,7 +8352,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "https://www.chooseplayadelcarmen.com/post/portal-maya-what-does-the-statue-in-playa-del-carmen-mean",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/fc/cb/f6/caption.jpg?w=1200&h=-1&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/wkWc6PSFS7dh39AMA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/wkWc6PSFS7dh39AMA",
+          "summary": "Monumentalna rzeźba Portal Maya w Playa del Carmen z 2010 roku, inspirowana kulturą cywilizacji Majów."
         },
         {
           "id": "capilla-de-nta-senora-del-carmen",
@@ -8165,7 +8366,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "https://www.facebook.com/iglesiadeplayadelcarmen/",
           "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Capilla_de_Nuestra_Señora_del_Carmen_%28Playa_del_Carmen%2C_QR%29_-_sanctuary.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/mX5nQosSyWYNPJkbA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/mX5nQosSyWYNPJkbA",
+          "summary": "Kaplica Matki Bożej z Karmelu w Playa del Carmen, patronki miasta i miejsca kultu lokalnych mieszkańców."
         },
         {
           "id": "quinta-avenida-playa-del-carmen-q-r-meksyk",
@@ -8178,7 +8380,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/M9RK2hKQddU6GMVA7",
-          "image": "https://travel.usnews.com/images/la_quinta_avenida_2_getty_m1KSC67.jpg"
+          "image": "https://travel.usnews.com/images/la_quinta_avenida_2_getty_m1KSC67.jpg",
+          "summary": "Główna promenada handlowa Playa del Carmen — 5. Aleja pełna restauracji, sklepów i kulturowego życia."
         }
       ]
     },
@@ -8203,7 +8406,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "http://www.merida.gob.mx/historia/lugares_plazagrande.html",
           "image": "https://yucatanmagazine.com/wp-content/uploads/2021/09/Depositphotos_Plaza-Grande-Merida-Tucatan-centro-historico-scaled-1-1024x672.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/VYSRNe77ynK3scAL7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/VYSRNe77ynK3scAL7",
+          "summary": "Główny plac Méridy otoczony katedrą i pałacem Montejo, centrum życia społecznego stolicy Jukatanu."
         },
         {
           "id": "museo-casa-montejo",
@@ -8216,7 +8420,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "https://fomentoculturalbanamex.org/casasdeculturabanamex/museocasamontejo/",
           "image": "https://sic.gob.mx/galeria_imagen/67dc73c0cf55ccasamontejo.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Y7SfxfGk1or29AyGA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Y7SfxfGk1or29AyGA",
+          "summary": "Renesansowy dom konkwistadora z 1549 roku w Mérydzie z piękną fasadą platereską — dziś muzeum."
         },
         {
           "id": "catedral-de-san-ildefonso",
@@ -8229,7 +8434,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "http://catedraldemerida.org.mx/",
           "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Catedral_de_San_Ildefonso_1.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/JFiw6gXEoD5jwkQ66"
+          "GoogleMapsLink": "https://maps.app.goo.gl/JFiw6gXEoD5jwkQ66",
+          "summary": "Katedra San Ildefonso w Mérydzie z 1598 roku, jedna z najstarszych katedr w Ameryce Północnej."
         },
         {
           "id": "parque-de-los-hidalgos",
@@ -8242,7 +8448,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "https://www.meridaenlahistoria.com.mx/2020/02/parque-de-los-hidalgos-no-hidalgo/",
           "image": "https://static.wixstatic.com/media/a6900c_c152d4a75e024a5dbbc1504b28f5165a~mv2.jpg/v1/fill/w_2560,h_1710,al_c,q_90/Parque%20Hidalgo%20(DSC_7145).jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/e5zhDn71NMNZLjAD9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/e5zhDn71NMNZLjAD9",
+          "summary": "Park Hidalgos w Mérydzie z fontanną i ciągiem ławek, ulubione miejsce spacerów mieszkańców Jukatanu."
         },
         {
           "id": "mercado-san-benito",
@@ -8255,7 +8462,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://icdn.descubro.mx/uploads/2019/09/mercados-de-Merida.jpg?strip=all&lossy=1&ssl=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/jyo2ddQaaKXxjP2z6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/jyo2ddQaaKXxjP2z6",
+          "summary": "Tradycyjny targ w Mérydzie z lokalnymi produktami, przyprawami i kuchnią jukatańską."
         },
         {
           "id": "p-de-montejo-zona-paseo-montejo-merida-yuc-meksyk",
@@ -8268,7 +8476,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/zwrduXRVDUMaNZKr9",
-          "image": "https://meridaelite.com/blog/images/paseomontejo-merida2.jpg"
+          "image": "https://meridaelite.com/blog/images/paseomontejo-merida2.jpg",
+          "summary": "Reprezentacyjna aleja Paseo de Montejo w Mérydzie z rezydencjami z epoki Belle Époque i konsulatami."
         },
         {
           "id": "archaeological-site-yucatan-ake",
@@ -8281,7 +8490,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://www.locogringo.com/sites/default/files/uploads/cp-akeruins_1.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/KggczE5Ry9sX8CJS8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/KggczE5Ry9sX8CJS8",
+          "summary": "Stanowisko archeologiczne Ake na Jukatanie z piramidami i kolumnadą Majów z okresu klasycznego."
         },
         {
           "id": "hacienda-ake",
@@ -8294,7 +8504,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/a6/b3/7a/hacienda-y-ruinas.jpg?w=1200&h=900&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/uoZS4qAV3pgQiGzh9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/uoZS4qAV3pgQiGzh9",
+          "summary": "Kolonialna hacjenda Ake zbudowana częściowo na fundamentach Majów z XIX-wieczną fabryką agawy henequen."
         },
         {
           "id": "flamingos",
@@ -8307,7 +8518,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://www.turismomexico.es/wp-content/uploads/2021/02/Celestun_mexico.jpeg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/JHKhbeMXvui1Dfn68"
+          "GoogleMapsLink": "https://maps.app.goo.gl/JHKhbeMXvui1Dfn68",
+          "summary": "Rezerwat biosfery Ría Celestún na Jukatanie z tysiącami różowych flamingów w namorzynowych lagunach."
         },
         {
           "id": "la-palapa-restaurante-snack-bar",
@@ -8320,7 +8532,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "image": "https://media-cdn.tripadvisor.com/media/photo-s/08/c0/6a/9f/la-palapa.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/c6Q5c5r15HcP2ULJ8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/c6Q5c5r15HcP2ULJ8",
+          "summary": "Nadmorska restauracja nad Zatoką Meksykańską serwująca owoce morza i dania kuchni jukatańskiej."
         }
       ]
     },
@@ -8345,7 +8558,8 @@
           "type": "hotel",
           "websiteUrl": "https://www.mesondelmarques.com",
           "image": "https://cdn.easy-rez.com/production/hotels/8700696094450c97c00b7f5c1e216f47/public/.crops/instalaciones_hotel/_mg_7436.jpg_1920x1080_0-100.67415730337079.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/TWyPT5CV1P6U1hm59"
+          "GoogleMapsLink": "https://maps.app.goo.gl/TWyPT5CV1P6U1hm59",
+          "summary": "Historyczny hotel w kolonialnej kamienicy na rynku Valladolid z restauracją z kuchnią jukatańską."
         },
         {
           "id": "carnes-concepcion-smoked-pork",
@@ -8358,7 +8572,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.facebook.com/share/zwaogFVVvYHtnpHb/?mibextid=WC7FNe",
           "image": "https://www.elcaminomascorto.es/wp-content/uploads/2016-09-07-14.15.18.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/WbFByxRGcqgd7Uu5A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/WbFByxRGcqgd7Uu5A",
+          "summary": "Lokal w Valladolid serwujący wędzoną wieprzowinę i kokhinitę — specjały tradycyjnej kuchni jukatańskiej."
         },
         {
           "id": "cenote-san-lorenzo-oxman",
@@ -8371,7 +8586,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/75/b1/0b/belleza-del-estado.jpg?w=1200&h=-1&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/UNzCAKBJCGb2tCEL9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/UNzCAKBJCGb2tCEL9",
+          "summary": "Cenote San Lorenzo Oxman koło Valladolid ze słynną liną do huśtania i turkusową wodą w skalnej studni."
         },
         {
           "id": "convento-de-san-antonio",
@@ -8384,7 +8600,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "https://en-yucatan.com.mx/izamal/convento-san-antonio-padua/",
           "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Templo_y_Ex_Convento_Franciscano_San_Antonio_de_Padua.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/5YzSKrjGccLVzJ2KA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/5YzSKrjGccLVzJ2KA",
+          "summary": "Franciszkański klasztor z XVI w. w żółtym Izamal, z ogromnym atrium i kościołem nad dawną piramidą Majów."
         },
         {
           "id": "zona-arqueologica-chaltun-ha",
@@ -8397,7 +8614,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://i1.wp.com/thehappening.com/wp-content/uploads/2019/05/chaltun-ha-izamal-zona-arqueologica.jpg?fit=620%2C420&ssl=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/LVhwrMKGw2T7gwgy8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/LVhwrMKGw2T7gwgy8",
+          "summary": "Strefa archeologiczna Majów Chaltún Há na Jukatanie z piramidami i świętym cenote."
         },
         {
           "id": "cementerio-hoctun",
@@ -8410,7 +8628,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://www.elmundoconella.com/wp-content/uploads/2023/02/Mausoleos-en-el-cementerio-de-Hoctun.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/iGDr7dnYm5SBE81t7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/iGDr7dnYm5SBE81t7",
+          "summary": "Kolorowy cmentarz w Hoctún z ozdobnymi grobowcami w tradycji meksykańskiego kultu Dnia Umarłych."
         },
         {
           "id": "hacienda-nohchan",
@@ -8423,7 +8642,8 @@
           "type": "hotel",
           "websiteUrl": "https://www.facebook.com/Hacienda-Nochan-1551888471513187/",
           "image": "https://www.swulinski.com/Images/MiddleAmerica/Mexico/HaciendaTemozon/HaciendaTemozon02-big.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/qDJ2SWrGpk2uVady7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/qDJ2SWrGpk2uVady7",
+          "summary": "Historyczna hacjenda na Jukatanie przekształcona w hotel z basenem w tropikalnych ogrodach."
         }
       ]
     },
@@ -8448,7 +8668,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "https://www.maravillasdeyucatan.com/destinos/parque-francisco-canton-rosado-valladolid-yucatan/",
           "image": "https://www.maravillasdeyucatan.com/wp-content/uploads/2019/08/Parque-Francisco-Cantón-Rosado-4.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/4NRz2P6BQfoGVaD39"
+          "GoogleMapsLink": "https://maps.app.goo.gl/4NRz2P6BQfoGVaD39",
+          "summary": "Główny plac Valladolid z fontanną i palmami, centrum życia kolonialnego miasta na Jukatanie."
         },
         {
           "id": "iglesia-de-san-servacio",
@@ -8461,7 +8682,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/3e/a3/33/catedral-de-san-servasio.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/j69FKCZRcZk1FEU59"
+          "GoogleMapsLink": "https://maps.app.goo.gl/j69FKCZRcZk1FEU59",
+          "summary": "Barokowy kościół San Servacio z XVII w. na głównym placu Valladolid, przebudowany po powstaniu Majów."
         },
         {
           "id": "tresvanbien-empanadas-argentinas-homebrewed-kombucha",
@@ -8474,7 +8696,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/a0/9b/75/caption.jpg?w=500&h=-1&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/B8aE88XHHDbc18oo6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/B8aE88XHHDbc18oo6",
+          "summary": "Lokal w Valladolid z argentyńskimi empanadami i domową kombuchą — niespodziewane połączenie smaków."
         },
         {
           "id": "convento-de-san-bernardino-de-siena",
@@ -8487,7 +8710,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/Z1Hn4yQXnwV9hB2A7",
-          "image": "/images/convento-de-san-bernardino-de-siena.jpg"
+          "image": "/images/convento-de-san-bernardino-de-siena.jpg",
+          "summary": "Franciszkański klasztor z połowy XVI w. w Valladolid, jeden z najważniejszych obiektów kolonialnych Jukatanu."
         },
         {
           "id": "casa-de-los-venados",
@@ -8500,7 +8724,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "http://www.casadelosvenados.com/",
           "image": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/245000/245768-Valladolid.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/1xKwb5mg5s5Wqc8i6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/1xKwb5mg5s5Wqc8i6",
+          "summary": "Prywatne muzeum sztuki ludowej w Valladolid z kolekcją ponad 3000 eksponatów meksykańskiej sztuki ludowej."
         },
         {
           "id": "loncheria-el-amigo-casiano",
@@ -8513,7 +8738,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/01/c0/c1/fresco.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/QMgGRnBz2KgH4yeq8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/QMgGRnBz2KgH4yeq8",
+          "summary": "Lokal w Valladolid działający od 1948 roku serwujący legendarne dania kuchni jukatańskiej."
         },
         {
           "id": "mercado-municipal-de-valladolid",
@@ -8526,7 +8752,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Mercado_de_Valladolid%2C_Yucatán%2C_Mx._-_panoramio.jpg/1280px-Mercado_de_Valladolid%2C_Yucatán%2C_Mx._-_panoramio.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/JnWtNY5zcYe2gtm7A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/JnWtNY5zcYe2gtm7A",
+          "summary": "Targ miejski w Valladolid z lokalnymi potrawami, przyprawami i produktami tradycyjnymi Jukatanu."
         },
         {
           "id": "destileria-artesanal-de-agave-mayapan",
@@ -8539,7 +8766,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "image": "https://valladolid.mx/func/resize/galery/800x600/c0a9826535a8807470d5be74c96f8218.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/oYmqxyyiNZcvJkno8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/oYmqxyyiNZcvJkno8",
+          "summary": "Rzemieślnicza destylarnia agawy Mayapán na Jukatanie produkująca sotol i tradycyjne trunki z agawy."
         }
       ]
     },
@@ -8564,7 +8792,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "https://www.inah.gob.mx/zonas/515-zona-arqueologica-de-coba",
           "GoogleMapsLink": "https://maps.app.goo.gl/nSkakRWWTTAUy4eq7",
-          "image": "https://expertvagabond.com/wp-content/uploads/coba-nohoch-mul-pyramid-XL-1-1.jpg"
+          "image": "https://expertvagabond.com/wp-content/uploads/coba-nohoch-mul-pyramid-XL-1-1.jpg",
+          "summary": "Stanowisko archeologiczne Cobá z piramidą Nohoch Mul — jednym z niewielu miejsc, na które wciąż można wejść."
         },
         {
           "id": "grupo-macanxoc",
@@ -8577,7 +8806,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://lugares.inah.gob.mx/sites/default/files/styles/max_1300x1300/public/2023-10/portada_macanxoc.jpeg?itok=c8hiqHi1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/YtKD9AMfiPTR8zrc7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/YtKD9AMfiPTR8zrc7",
+          "summary": "Starożytna grupa budowli Majów Macanxoc w Cobá z stelami i rzeźbami z okresu klasycznego."
         },
         {
           "id": "ahau-chooc-aldea-maya",
@@ -8590,7 +8820,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "https://sites.google.com/view/ahau-chooc-aldea-maya/p%C3%A1gina-principal",
           "image": "https://img.lajornadamaya.mx/710241634268660Facebook%20Ahau%20Chooc%20Aldea%20Maya%20(2).jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/AQemQcDifX47fg6B7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/AQemQcDifX47fg6B7",
+          "summary": "Wioska majańska Ahau Chooc prezentująca tradycyjny styl życia, rzemiosło i kuchnię cywilizacji Majów."
         },
         {
           "id": "chile-picante",
@@ -8603,7 +8834,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/e7/6e/4c/photo2jpg.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/8uEvPSZfHi9dKzWj7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/8uEvPSZfHi9dKzWj7",
+          "summary": "Meksykańska restauracja z ostrymi daniami w klimacie kuchni jukatańskiej i karaibskiej."
         }
       ]
     },
@@ -8628,7 +8860,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "https://www.inah.gob.mx/zonas/99-zona-arqueologica-de-tulum",
           "image": "https://www.encirclephotos.com/wp-content/uploads/Mexico-Tulum-Mayan-Ruins-El-Castillo-Full-View-1440x954.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/rpkRCgNh6SBdapuk6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/rpkRCgNh6SBdapuk6",
+          "summary": "Ruiny Majów w Tulum na klifie nad Morzem Karaibskim — jedno z najsłynniejszych stanowisk Meksyku."
         },
         {
           "id": "playa-pescadores-picture-perfect-beach",
@@ -8641,7 +8874,8 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/4gQwvLJfGTNESmsi9",
-          "image": "https://images.myguide-cdn.com/md/mexico/companies/n-a/large/n-a-716881.jpg"
+          "image": "https://images.myguide-cdn.com/md/mexico/companies/n-a/large/n-a-716881.jpg",
+          "summary": "Malownicza plaża rybacka Playa Pescadores w Tulum z turkusową wodą, spokojna i z dala od kurortu."
         },
         {
           "id": "arrecife-de-coral-de-tulum",
@@ -8654,7 +8888,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://info.inmobilia.mx/hubfs/blog/2020/Mayo%202020/gran-arrecife-maya.png",
-          "GoogleMapsLink": "https://maps.app.goo.gl/vhjURdbUSKJ95rWz7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/vhjURdbUSKJ95rWz7",
+          "summary": "Rafa koralowa u wybrzeży Tulum, idealna do snorkelingu w wodach Morza Karaibskiego."
         },
         {
           "id": "taqueria-honorio",
@@ -8667,7 +8902,8 @@
           "type": "restaurant",
           "websiteUrl": "https://taqueria-honorio.shop/",
           "image": "https://media-cdn.tripadvisor.com/media/photo-s/1c/c1/53/c8/taqueria-honorio.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/DvuZotYoev7nwaVp9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/DvuZotYoev7nwaVp9",
+          "summary": "Taqueria w Tulum serwująca od rana tacos z lokalnym mięsem i tradycyjnymi meksykańskimi sosami."
         },
         {
           "id": "mamazul-tulum-mezcaleria",
@@ -8680,7 +8916,8 @@
           "type": "restaurant",
           "websiteUrl": "https://mezcaleriamamazul.com/",
           "image": "https://mamazulrentals.com/wp-content/uploads/2024/11/Mamazul_Mezcaleria_0180.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/M3x9eo9v5o6qcwhn7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/M3x9eo9v5o6qcwhn7",
+          "summary": "Mezcaleria w Tulum z szerokim wyborem artezańskiego mezcal w tropikalnym otoczeniu dżungli."
         },
         {
           "id": "dreams-tulum-resort-spa",
@@ -8693,7 +8930,8 @@
           "type": "hotel",
           "websiteUrl": "https://www.hyattinclusivecollection.com/en/resorts-hotels/dreams/mexico/tulum-resort-spa/",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/44/c8/81/dreams-tulum-aerial-view.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/uoE2sH4iJ2nQrBv18"
+          "GoogleMapsLink": "https://maps.app.goo.gl/uoE2sH4iJ2nQrBv18",
+          "summary": "All-inclusive resort w Tulum z basenem i plażą nad Morzem Karaibskim, blisko ruin Majów."
         }
       ]
     },
@@ -8718,7 +8956,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "http://nereland.com/",
           "image": "https://nereland.com/wp-content/uploads/2025/04/20210827_175031.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/2n4Hcvaxmh7XdnAU7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/2n4Hcvaxmh7XdnAU7",
+          "summary": "Agro-etno park w Chorwacji z tradycyjnymi uprawami i pokazami lokalnej kultury dalmatyńskiej."
         },
         {
           "id": "jezero-kuti-tour",
@@ -8731,7 +8970,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "http://www.lifeandventures.com/",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Kuti.jpg/1200px-Kuti.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/EUfBK652yCkgxwCU7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/EUfBK652yCkgxwCU7",
+          "summary": "Kajakowe wycieczki po jeziorze Kuti przy ujściu Neretwy z obserwacją ptaków i przyrody."
         },
         {
           "id": "winery-rizman-b-b",
@@ -8744,7 +8984,8 @@
           "type": "hotel",
           "websiteUrl": "https://www.rizman.com.hr/",
           "image": "https://rizman.com.hr/wp-content/uploads/2017/11/posjet-vinariji-rizman.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/L2ZqxfPqbzqkhAJ48"
+          "GoogleMapsLink": "https://maps.app.goo.gl/L2ZqxfPqbzqkhAJ48",
+          "summary": "Winiarnia z noclegami na Pelješacu produkująca czerwone wina z odmiany Plavac Mali."
         }
       ]
     },
@@ -8769,7 +9010,8 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/gSqYwL3nVK5vQZJUA",
-          "image": "/images/pitztaler-gletscher.jpg"
+          "image": "/images/pitztaler-gletscher.jpg",
+          "summary": "Lodowiec Pitztal w Alpach Ötztalskich na wys. do 3440 m — jedna z najwyższych stacji narciarskich Austrii."
         },
         {
           "id": "cafe-3440-on-the-pitztal-glacier",
@@ -8782,7 +9024,8 @@
           "type": "cafe",
           "websiteUrl": "https://www.pitztaler-gletscher.at/cafe3440",
           "image": "https://images.squarespace-cdn.com/content/v1/61e9b1539516cb18da85d455/3d64fb4f-6881-4222-ac1f-0c457fe62db2/Cafe+3440+%283%29.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/XkPGcKpgqCk5vvcj7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/XkPGcKpgqCk5vvcj7",
+          "summary": "Kawiarnia na 3440 m n.p.m. na lodowcu Pitztal z panoramą ośnieżonych alpejskich szczytów."
         },
         {
           "id": "kapelle-des-weissen-lichts",
@@ -8795,7 +9038,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "https://www.pitztal.com/de/sommer/highlights/kapelle-des-weissen-lichtes",
           "image": "https://www.pitztaler-gletscher.at/mediatypes/imgGalleryLightBox/pitztaler_gletscher_20180825_82_von_309_.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/bRZ6Vxdao1cwnWJH8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/bRZ6Vxdao1cwnWJH8",
+          "summary": "Kaplica Białego Światła na lodowcu Pitztal — skromna alpejska kapliczka z wyjątkową panoramą."
         },
         {
           "id": "hexenkessl-almbar-pitztal",
@@ -8808,7 +9052,8 @@
           "type": "restaurant",
           "websiteUrl": "http://hexenkessl.at/",
           "image": "https://files.designer.hoststar.ch/c0/fb/c0fb020f-1853-43f6-b598-6b562089f3b8.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/4Y5nWuX9KpjUeV1g9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/4Y5nWuX9KpjUeV1g9",
+          "summary": "Górski bar Hexenkessl w Pitztal serwujący tradycyjne austriackie dania na stoku narciarskim."
         }
       ]
     },
@@ -8833,7 +9078,8 @@
           "type": "nature",
           "websiteUrl": "https://nordkette.com/de/",
           "image": "https://www.nordkette-innsbruck.de/wp-content/uploads/2024/08/Hafelekarspitze-1024x768.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/3XxzMrrJYUwe6gSS7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/3XxzMrrJYUwe6gSS7",
+          "summary": "Szczyt Hafelekar (2334 m) nad Innsbruckiem z panoramą Alp, dostępny kolejką linową z 1928 roku."
         },
         {
           "id": "restaurant-seegrube",
@@ -8846,7 +9092,8 @@
           "type": "restaurant",
           "websiteUrl": "https://seegrube.at/",
           "image": "https://seegrube.at/Content/uploads/2021/09/generated/UP_0615_Nordkette-6815-FIN-copy-min-1-480x204.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/cY2P3hCo7bhViEvm8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/cY2P3hCo7bhViEvm8",
+          "summary": "Restauracja na 1905 m n.p.m. nad Innsbruckiem, dostępna kolejką linową z historyczną tradycją."
         },
         {
           "id": "innsbruck-station-hungerburg",
@@ -8859,7 +9106,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://cdn.getyourguide.com/img/tour/b0bfe23d16a6e983ca23cc0b6b212f096395ae41c5a23d267e697c4f61130e1b.jpg/98.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/gg1Dk7vPzQWmA6TJ9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/gg1Dk7vPzQWmA6TJ9",
+          "summary": "Stacja Hungerburg kolejki Nordkettenbahn w Innsbrucku zaprojektowana przez Zahę Hadid."
         },
         {
           "id": "bergisel",
@@ -8872,7 +9120,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "https://www.bergisel.info/at/",
           "image": "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=auto,quality=60,width=450,height=450,dpr=2/tour_img/796e47dc6262fb3b5456b89a7a75193a6c8653453a52237af02d1b9d7281b08a.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/rVLZK1N3TcRJLtGcA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/rVLZK1N3TcRJLtGcA",
+          "summary": "Skocznia narciarska Bergisel w Innsbrucku z tarasem widokowym projektu Zahy Hadid i muzeum historii."
         },
         {
           "id": "andreas-hofer-monument",
@@ -8885,7 +9134,8 @@
           "type": "art_culture",
           "websiteUrl": "https://blog.innsbruck.info/de/kunst-kultur/auf-den-spuren-der-tiroler-freiheitskampfe-innsbruck/",
           "image": "https://www.sagen.at/doku/Andreas_Hofer/images/Andreas_Hofer_Berg_Isel.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/xzDgCEU3TLAkjFx37"
+          "GoogleMapsLink": "https://maps.app.goo.gl/xzDgCEU3TLAkjFx37",
+          "summary": "Pomnik Andreasa Hofera na Bergisel, bohatera tyrólskiego powstania przeciw Napoleonowi z 1809 roku."
         },
         {
           "id": "kaiserjagermuseum",
@@ -8898,7 +9148,8 @@
           "type": "museum",
           "websiteUrl": "http://www.kaiserjaegermuseum.org/",
           "image": "https://www.tiroler-landesmuseen.at/wp-content/uploads/2020/05/3_DAS_TIROL_PANORAMA_mit_Kaiserjaegermuseum_c_Alexander-Haiden-12.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/FtQoEJZGAZGuq5GX8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/FtQoEJZGAZGuq5GX8",
+          "summary": "Muzeum Cesarskich Strzelców Tyrólskich na Bergisel w Innsbrucku z ekspozycją militarną Austro-Węgier."
         },
         {
           "id": "golden-roof",
@@ -8911,7 +9162,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "https://www.innsbruck.gv.at/page.cfm?vpath=bildung--kultur/stadtmuseen--stadtgalerie/museum-goldenes-dachl",
           "image": "https://images.squarespace-cdn.com/content/v1/61e9b1539516cb18da85d455/1664904779168-KZMNK0A36Y6RMGVFSRSI/301600577_436613781829272_1050235792105665662_n.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/jMNiVfznUiYGovTG9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/jMNiVfznUiYGovTG9",
+          "summary": "Złoty Dach w Innsbrucku z 1500 r. pokryty 2738 pozłacanymi dachówkami — symbol miasta i balkony Maksymiliana I."
         },
         {
           "id": "innbrucke",
@@ -8924,7 +9176,8 @@
           "type": "art_culture",
           "websiteUrl": "https://www.innsbruck-altstadt.com/sehenswuerdigkeiten/innbruecke/",
           "image": "https://www.innsbruck-altstadt.com/wp-content/uploads/2024/10/Innbruecke.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/CNYxTatRuXA8p6hN8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/CNYxTatRuXA8p6hN8",
+          "summary": "Most nad rzeką Inn w Innsbrucku, od której pochodzi nazwa miasta, z widokiem na alpejską panoramę."
         },
         {
           "id": "ottoburg",
@@ -8937,7 +9190,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.ottoburg.at/",
           "GoogleMapsLink": "https://maps.app.goo.gl/3k33t55fXRyBU25Y9",
-          "image": "/images/ottoburg.jpg"
+          "image": "/images/ottoburg.jpg",
+          "summary": "Restauracja w gotyckiej wieży z XIV w. w centrum Innsbrucku — jedna z najstarszych restauracji Tyrolu."
         },
         {
           "id": "obstbau-und-edelbrande-draxl",
@@ -8950,7 +9204,8 @@
           "type": "shopping",
           "websiteUrl": "https://www.draxl-schnaps.at/",
           "image": "https://draxl-schnaps.at/themes/classic/assets/img/modules/appagebuilder/swiperCard/09364073531157f18fb31a50b04543a6343fcd65_DraxlSchnaps_21_001.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/2cRFKoSQcQNbYu2X9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/2cRFKoSQcQNbYu2X9",
+          "summary": "Rodzinne sady i gorzelnia Draxl w Tyrolu produkująca szlachetne destylaty z lokalnych jabłek i gruszek."
         }
       ]
     },
@@ -8975,7 +9230,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/KSHbW43FSXDtxcmWA",
-          "image": "https://image.bilety24.pl/nf_building_big/building/obiekt52.jpg"
+          "image": "https://image.bilety24.pl/nf_building_big/building/obiekt52.jpg",
+          "summary": "Zamek Krzyżacki z przełomu XIV i XV w. w Bytowie, jeden z niewielu gotyckich zamków zachowanych na Pomorzu."
         },
         {
           "id": "kaszubskie-zio-a",
@@ -8988,7 +9244,8 @@
           "type": "shopping",
           "websiteUrl": "https://kaszubskieziola.pl/",
           "image": "https://pomorskie-prestige.eu/wp-content/uploads/2021/05/Kaszubskie-Ziola-6.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/xvDS1g4gVsghERt96"
+          "GoogleMapsLink": "https://maps.app.goo.gl/xvDS1g4gVsghERt96",
+          "summary": "Sklep z kaszubskimi ziołami, nalewkami i lokalnymi wyrobami w Bytowie."
         },
         {
           "id": "lobeliowa-zatoka",
@@ -9001,7 +9258,8 @@
           "type": "hotel",
           "websiteUrl": "https://www.facebook.com/p/Lobeliowa-Zatoka-dom-na-Kaszubach-100063819318712/?_rdr",
           "image": "/images/lobeliowa-zatoka.jpeg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ch2r7nX8JLgTZM63A"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ch2r7nX8JLgTZM63A",
+          "summary": "Kameralny pensjonat nad kaszubskim jeziorem z unikatową roślinnością lobeliową."
         },
         {
           "id": "pa-ac-ebunia",
@@ -9014,7 +9272,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.palaclebunia.pl/",
           "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/385485935.jpg?k=71c0312e77a16a9d487d76b0996ae9600dc59fd1db8d6e3ca1454ae75295bc41&o=&hp=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/xwWmSBCVC5JkUShm9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/xwWmSBCVC5JkUShm9",
+          "summary": "Restauracja w neorenesansowym pałacu z 1885 roku w Łebuni na Kaszubach z regionalnym menu."
         }
       ]
     },
@@ -9039,7 +9298,8 @@
           "type": "art_culture",
           "websiteUrl": "http://www.slupsk.pl/",
           "GoogleMapsLink": "https://maps.app.goo.gl/MDvyaCUfk2hvEawdA",
-          "image": "https://www.slupsk.pl/var/site/storage/images/0/3/0/3/73030-1-pol-PL/107773749_684048852151583_8873759288623017196_n.jpg"
+          "image": "https://www.slupsk.pl/var/site/storage/images/0/3/0/3/73030-1-pol-PL/107773749_684048852151583_8873759288623017196_n.jpg",
+          "summary": "Neogotycki ratusz w Słupsku z XIV–XV w. z imponującą wieżą, symbol centrum administracyjnego Pomorza."
         },
         {
           "id": "omni-kaiser-patisserie",
@@ -9052,7 +9312,8 @@
           "type": "restaurant",
           "websiteUrl": "https://kaiserpatisserie.pl/",
           "image": "https://tuslupsk.pl/media/common/uploadedimages/2022/12/05/aee25d63-2434-4820-b3ee-2066252107fe.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/tjoa7NJQ4JgfQFy28"
+          "GoogleMapsLink": "https://maps.app.goo.gl/tjoa7NJQ4JgfQFy28",
+          "summary": "Cukiernia w Słupsku z wiedeńskim klimatem serwująca torty i ciastka w stylu austro-węgierskim."
         },
         {
           "id": "bgsw-baszta-tower",
@@ -9065,7 +9326,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "http://bgsw.pl/o-nas/baszta-czarownic/",
           "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Słupsk%2C_Baszta_Czarownic_%28HB1%29.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/3C21VkNByG6rrguu7"
+          "GoogleMapsLink": "https://maps.app.goo.gl/3C21VkNByG6rrguu7",
+          "summary": "Gotycka Baszta Czarownic z XIV w. w Słupsku, gdzie przetrzymywano kobiety oskarżone o czary."
         },
         {
           "id": "museum-of-central-pomerania-in-slupsk",
@@ -9078,7 +9340,8 @@
           "type": "museum",
           "websiteUrl": "http://www.muzeum.slupsk.pl/",
           "image": "https://muzeum.slupsk.pl/wp-content/uploads/2022/09/zamek.2020.07.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/sNYKtdWjia6APC1JA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/sNYKtdWjia6APC1JA",
+          "summary": "Muzeum Pomorza Środkowego w XVI-wiecznym zamku Słupska z największą kolekcją prac Witkacego."
         },
         {
           "id": "casa-italia",
@@ -9091,7 +9354,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.casaitalia.com.pl/",
           "image": "https://casaitalia.com.pl/wp-content/uploads/2017/06/9W2A5877.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/L8wF4C26UcEbZ8Nu8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/L8wF4C26UcEbZ8Nu8",
+          "summary": "Włoska restauracja w Słupsku serwująca autentyczne dania kuchni włoskiej z importowanymi składnikami."
         },
         {
           "id": "bio-italia-s-upsk",
@@ -9104,7 +9368,8 @@
           "type": "shopping",
           "websiteUrl": "https://www.instagram.com/bioitaliaslupsk/",
           "image": "https://d-art.ppstatic.pl/kadry/k/r/1/1c/d4/616e65b54ea7b_o_large.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/vjkruk7bvZt17ge26"
+          "GoogleMapsLink": "https://maps.app.goo.gl/vjkruk7bvZt17ge26",
+          "summary": "Sklep z włoskimi produktami ekologicznymi w Słupsku — makarony, oliwy, sery i specjały z importu."
         },
         {
           "id": "zagroda-nr-8-muzeum-kultury-ludowej-pomorza-w-swo-owie",
@@ -9117,7 +9382,8 @@
           "type": "museum",
           "websiteUrl": "https://muzeum.swolowo.pl/",
           "image": "https://muzeum.swolowo.pl/wp-content/uploads/2022/12/8_dom.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/VD1WEQUMgNmN9XBd8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/VD1WEQUMgNmN9XBd8",
+          "summary": "Zagroda nr 8 w skansenie Swołowo prezentująca tradycyjną zabudowę słupsko-holenderską Pomorza Środkowego."
         },
         {
           "id": "spizarnia-w-krate-gospoda-swo-owo",
@@ -9130,7 +9396,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.facebook.com/spizarniawkrate",
           "image": "https://www.rational-online.com/media/folder-for-subsidaries/pl-pl/pl-pl---references/gospoda-restaurant2-fix600x338.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/shouoMbh2L9HoTeb6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/shouoMbh2L9HoTeb6",
+          "summary": "Gospoda w Swołowie serwująca kaszubskie i pomorskie dania regionalne w Krainie w Kratę."
         },
         {
           "id": "restauracja-dym-na-wodzie",
@@ -9143,7 +9410,8 @@
           "type": "restaurant",
           "websiteUrl": "http://dymnawodzie.com/",
           "image": "https://pomorskie-prestige.eu/wp-content/uploads/2022/05/Dym-na-wodzie_wnetrza-4-1024x1024.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/LFxKw6pw46rMwar27"
+          "GoogleMapsLink": "https://maps.app.goo.gl/LFxKw6pw46rMwar27",
+          "summary": "Restauracja w Polsce serwująca dania z wędzonych ryb i owoców morza z lokalnych łowisk."
         }
       ]
     },
@@ -9168,7 +9436,8 @@
           "type": "restaurant",
           "websiteUrl": "http://canisrestaurant.pl/",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/42/d1/4d/wnetrze-restauracji.jpg?w=900&h=-1&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/nxT4ydJM5RvBcmq66"
+          "GoogleMapsLink": "https://maps.app.goo.gl/nxT4ydJM5RvBcmq66",
+          "summary": "Nowoczesna polska restauracja z pomysłowym menu dań mięsnych, rybnych i wegetariańskich."
         },
         {
           "id": "dom-uphagena-oddzia-muzeum-gdanska",
@@ -9181,7 +9450,8 @@
           "type": "museum",
           "websiteUrl": "https://muzeumgdansk.pl/oddzialy-muzeum/dom-uphagena/",
           "GoogleMapsLink": "https://maps.app.goo.gl/ezKdr1sopazcBfwg6",
-          "image": "/images/dom-uphagena-oddzia-muzeum-gdanska.jpg"
+          "image": "/images/dom-uphagena-oddzia-muzeum-gdanska.jpg",
+          "summary": "Zabytkowy dom mieszczański z XVIII w. w Gdańsku z oryginalnym wyposażeniem — oddział Muzeum Gdańska."
         },
         {
           "id": "muzeum-gdanska-ratusz-g-ownego-miasta",
@@ -9194,7 +9464,8 @@
           "type": "museum",
           "websiteUrl": "https://muzeumgdansk.pl/",
           "image": "https://dzieje.pl/sites/default/files/styles/open_article_750x0_/public/201702/ratusz.jpg?itok=pbBD4Jo2",
-          "GoogleMapsLink": "https://maps.app.goo.gl/j2HokgRTkkyJbvyM8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/j2HokgRTkkyJbvyM8",
+          "summary": "Gotycki Ratusz Głównego Miasta z XIV w. w Gdańsku z Salą Czerwoną i muzeum historii miasta."
         },
         {
           "id": "eliksir-restaurant-cocktailbar",
@@ -9207,7 +9478,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.eliksir.pl/",
           "image": "https://its-poland.com/files/services_photos/1439b658c400fef1bb694a8436a3a0eb.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/JiQAZ44eYG4QXchY9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/JiQAZ44eYG4QXchY9",
+          "summary": "Restauracja i cocktail bar w zabytkowych murach dawnego Garnizonu w centrum Gdańska."
         },
         {
           "id": "dar-m-odziezy",
@@ -9220,7 +9492,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/nYu9m8Enyh7HRDNk9",
-          "image": "/images/dar-m-odziezy.jpg"
+          "image": "/images/dar-m-odziezy.jpg",
+          "summary": "Trzymasztowy żaglowiec szkolny Dar Młodzieży z 1982 roku w Gdyni — flagowy okręt Akademii Morskiej."
         },
         {
           "id": "alga-street-food",
@@ -9233,7 +9506,8 @@
           "type": "restaurant",
           "websiteUrl": "http://algagdynia.pl/",
           "image": "https://www.kulinarnagdynia.pl/wp-content/uploads/2021/07/plik00001-scaled.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/SRWAeGuf9k6KLP6q6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/SRWAeGuf9k6KLP6q6",
+          "summary": "Street food w Polsce inspirowany kuchnią azjatycką z sezonowymi składnikami."
         },
         {
           "id": "sumo-ramen-gdynia",
@@ -9246,7 +9520,8 @@
           "type": "restaurant",
           "websiteUrl": "https://wolt.com/pl/pol/gdynia/restaurant/sumo-ramen",
           "image": "https://bi.im-g.pl/im/14/e3/17/z25047316IEG,Sumo-Ramen-w-Gdyni.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/HRx5jf87GKvhwJx99"
+          "GoogleMapsLink": "https://maps.app.goo.gl/HRx5jf87GKvhwJx99",
+          "summary": "Restauracja ramen w Gdyni serwująca japońskie zupy z bogatym bulionem i dodatkami."
         },
         {
           "id": "casa-cubeddu",
@@ -9259,7 +9534,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.casacubeddu.pl/",
           "image": "https://prestiztrojmiasto.pl/sites/default/files/2018/03/domenico_cubeddu.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Ti3ETyiDgrXuwQyz6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Ti3ETyiDgrXuwQyz6",
+          "summary": "Restauracja włoska w Polsce serwująca dania kuchni sardyńskiej z importowanymi produktami z wyspy."
         }
       ]
     },
@@ -9284,7 +9560,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/75/b8/22/12.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/MGeU4t75Mv5FL4Gt6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/MGeU4t75Mv5FL4Gt6",
+          "summary": "Restauracja w Grecji nawiązująca do dwunastu bogów olimpijskich z menu inspirowanym tradycją grecką."
         },
         {
           "id": "stavros-marina-sivota",
@@ -9297,7 +9574,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/ncmHiZnUfktsKFGE8",
-          "image": "https://s3-eu-west-1.amazonaws.com/zalinga/800x600/fb6ec18e-00b1-4670-a951-e3426cd0d446.jpg"
+          "image": "https://s3-eu-west-1.amazonaws.com/zalinga/800x600/fb6ec18e-00b1-4670-a951-e3426cd0d446.jpg",
+          "summary": "Marina w malowniczej zatoce Sivota na Epirze, popularny port jachtowy na Morzu Jońskim."
         }
       ]
     },
@@ -9322,7 +9600,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://cdn.zweb.gr/images/aef7ed92-e764-4c79-95de-1e20c2f46034.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/8tUcA5ak5bXj1WMv5"
+          "GoogleMapsLink": "https://maps.app.goo.gl/8tUcA5ak5bXj1WMv5",
+          "summary": "Malownicze miasteczko przy lagunie z błękitną wodą na Kefalonii z tradycyjną grecką architekturą."
         },
         {
           "id": "acropolis-of-ancient-sami",
@@ -9335,7 +9614,8 @@
           "type": "art_culture",
           "websiteUrl": "https://visitkefaloniaisland.gr/el/%CE%B1%CF%81%CF%87%CE%B1%CE%AF%CE%B1-%CE%B1%CE%BA%CF%81%CF%8C%CF%80%CE%BF%CE%BB%CE%B7-%CF%83%CE%AC%CE%BC%CE%B7%CF%82/",
           "image": "https://images.greeka.com/resized/user_images/rosemary/580/miggOmUGX.jpeg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/XnySh1poszUQjTTR6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/XnySh1poszUQjTTR6",
+          "summary": "Ruiny Akropolu Starożytnego Sami na Kefalonii z panoramą zatoki i pozostałościami murów obronnych."
         },
         {
           "id": "melissani-cave-lake",
@@ -9348,7 +9628,8 @@
           "type": "nature",
           "websiteUrl": "http://sami.gov.gr/",
           "image": "https://theworldtravelguy.com/wp-content/uploads/2022/11/DSCF5422_1200.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/ePWsYktjQ4yGuFVY6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/ePWsYktjQ4yGuFVY6",
+          "summary": "Podziemne jezioro w jaskini Melissani na Kefalonii z turkusową wodą rozświetlaną przez otwór w stropie."
         },
         {
           "id": "rassias",
@@ -9361,7 +9642,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/AHNveVZKJzCBAu3P9",
-          "image": "/images/rassias.jpg"
+          "image": "/images/rassias.jpg",
+          "summary": "Tradycyjny sklep rybny Rassias w Grecji z świeżymi owocami morza i solonymi rybami."
         }
       ]
     },
@@ -9386,7 +9668,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "https://www.d-marin.com/en/marinas/lefkas/?utm_source=googlemybusiness&utm_medium=organic&utm_campaign=lefkas",
           "GoogleMapsLink": "https://maps.app.goo.gl/JYuD4YSqB72BrZkbA",
-          "image": "https://cdn.dockwalk.com/files/2022/04/ff32a9d0-c626-11ec-b15c-7fce0aafb02a-D-Marin%20Lefkas%20Marina.jpg"
+          "image": "https://cdn.dockwalk.com/files/2022/04/ff32a9d0-c626-11ec-b15c-7fce0aafb02a-D-Marin%20Lefkas%20Marina.jpg",
+          "summary": "Marina D-Marin w Lefkas, jeden z największych portów jachtowych Morza Jońskiego."
         },
         {
           "id": "nikos-tavern",
@@ -9399,7 +9682,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/99/cd/11/restaurant-o-nikos.jpg?w=900&h=500&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/bNH2D8LJdwEZ99L49"
+          "GoogleMapsLink": "https://maps.app.goo.gl/bNH2D8LJdwEZ99L49",
+          "summary": "Tradycyjna tawerna Nikos w Grecji serwująca klasyczne dania kuchni greckiej z lokalnych składników."
         }
       ]
     },
@@ -9424,7 +9708,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "https://www.durresport.al/",
           "GoogleMapsLink": "https://maps.app.goo.gl/Upg66GFuVRNV4kdq6",
-          "image": "https://euronews.al/en/wp-content/uploads/2024/07/Porti-i-Durresit-1125-1068x635.jpg"
+          "image": "https://euronews.al/en/wp-content/uploads/2024/07/Porti-i-Durresit-1125-1068x635.jpg",
+          "summary": "Port w Durrës, jeden z najstarszych i największych portów Albanii z tradycją sięgającą starożytności."
         },
         {
           "id": "durres-beach",
@@ -9437,7 +9722,8 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/P4xGYmSwhgjvbZHG8",
-          "image": "https://albaniannight.com/wp-content/uploads/2025/02/Golem-Beach-scaled.jpeg"
+          "image": "https://albaniannight.com/wp-content/uploads/2025/02/Golem-Beach-scaled.jpeg",
+          "summary": "Popularna plaża w Durrës nad Adriatykiem, centrum turystyki nadmorskiej Albanii."
         },
         {
           "id": "most-gorica",
@@ -9450,7 +9736,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/k7vjUJkebLPNrjXF8",
-          "image": "/images/most-gorica.jpg"
+          "image": "/images/most-gorica.jpg",
+          "summary": "Historyczny most Gorica nad rzeką Osum w Beracie, łączący dwie dzielnice wpisanego na Listę UNESCO miasta."
         },
         {
           "id": "zamek-w-beracie",
@@ -9463,7 +9750,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/fctCZCgjEMTV3esb8",
-          "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/10/da/34/62.jpg"
+          "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/10/da/34/62.jpg",
+          "summary": "Zamek w Beracie z XIII w. z zamieszkałą do dziś dzielnicą wewnątrz murów, wpisany na Listę UNESCO."
         },
         {
           "id": "antigoni",
@@ -9476,7 +9764,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/01/d7/60/antigoni.jpg?w=900&h=-1&s=1",
-          "GoogleMapsLink": "https://maps.app.goo.gl/E87XUvnnZxVaQjMCA"
+          "GoogleMapsLink": "https://maps.app.goo.gl/E87XUvnnZxVaQjMCA",
+          "summary": "Restauracja w Gjirokastrze serwująca tradycyjne dania kuchni albańskiej."
         },
         {
           "id": "zamek-w-gjirokastrze",
@@ -9489,7 +9778,8 @@
           "type": "art_culture",
           "websiteUrl": "http://www.drtkgjirokaster.com/",
           "GoogleMapsLink": "https://maps.app.goo.gl/c3SfLduQ4Rnoy7JN7",
-          "image": "https://bartekwpodrozy.pl/wp-content/uploads/2024/01/Depositphotos_94122700_XL-2048x1367.jpg"
+          "image": "https://bartekwpodrozy.pl/wp-content/uploads/2024/01/Depositphotos_94122700_XL-2048x1367.jpg",
+          "summary": "Średniowieczny zamek dominujący nad Gjirokastrą wpisaną na Listę UNESCO, z muzeum broni i samolotami."
         },
         {
           "id": "cold-war-museum",
@@ -9502,7 +9792,8 @@
           "type": "museum",
           "websiteUrl": "",
           "image": "https://pine.al/uploads/images/2024/06/14/666c78fa7af9c-2023-07-23.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/Bs7o2wgqxYFBZ6r26"
+          "GoogleMapsLink": "https://maps.app.goo.gl/Bs7o2wgqxYFBZ6r26",
+          "summary": "Muzeum Zimnej Wojny w bunkrze w Gjirokastrze z czasów dyktatury Envera Hodży."
         }
       ]
     },
@@ -9527,7 +9818,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/9aR2hvXNmpQv2MiC7",
-          "image": "https://mdrealtyme4927e.zapwp.com/q:i/r:0/wp:1/w:1/u:https://mdrealty.me/wp-content/uploads/Курорт-Свети-Стефан-власти-ожидают-открытия-в-2021-году.jpg"
+          "image": "https://mdrealtyme4927e.zapwp.com/q:i/r:0/wp:1/w:1/u:https://mdrealty.me/wp-content/uploads/Курорт-Свети-Стефан-власти-ожидают-открытия-в-2021-году.jpg",
+          "summary": "Dawna rybacka wyspa-twierdza Sveti Stefan w Czarnogórze, dziś luksusowy hotel połączony groblą z lądem."
         },
         {
           "id": "jezioro-szkoderskie",
@@ -9540,7 +9832,8 @@
           "type": "nature",
           "websiteUrl": "",
           "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Skadar.murica.JPG",
-          "GoogleMapsLink": "https://maps.app.goo.gl/bLzvVF3vExEbKkAd8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/bLzvVF3vExEbKkAd8",
+          "summary": "Jezioro Szkoderskie na granicy Czarnogóry i Albanii — największe jezioro Bałkanów, rezerwat biosfery."
         },
         {
           "id": "restaurant-pelikan",
@@ -9553,7 +9846,8 @@
           "type": "restaurant",
           "websiteUrl": "http://www.pelikan-zec.com/",
           "image": "https://foodbook.me/storage/restaurants/482/Ih6nSQe3B71rRPIQ5KW17K720c6XU8qrr6AS2WYq.jpeg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/jxZmHdU1rKiDbost6"
+          "GoogleMapsLink": "https://maps.app.goo.gl/jxZmHdU1rKiDbost6",
+          "summary": "Restauracja nad Jeziorem Szkoderskim z tradycyjną kuchnią czarnogórską i świeżymi rybami jeziornymi."
         },
         {
           "id": "pelikan-boat-rental",
@@ -9566,7 +9860,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "http://www.pelikan-zec.com/",
           "image": "https://pix10.agoda.net/hotelImages/162/1622316/1622316_16111617090048783493.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/rgraWNLUfTgCapFU9"
+          "GoogleMapsLink": "https://maps.app.goo.gl/rgraWNLUfTgCapFU9",
+          "summary": "Wypożyczalnia łodzi na Jeziorze Szkoderskim umożliwiająca rejsy po największym jeziorze Bałkanów."
         },
         {
           "id": "zamek-w-rozafa",
@@ -9579,7 +9874,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/cyrqZrTRbYXHiZuv9",
-          "image": "https://dalekoniedaleko.pl/wp-content/uploads/2017/08/szkodra_06.jpg"
+          "image": "https://dalekoniedaleko.pl/wp-content/uploads/2017/08/szkodra_06.jpg",
+          "summary": "Iliryjski zamek Rozafa z III w. p.n.e. na wzgórzu w Szkodrze, legendarny obiekt z mityczną historią fundacji."
         }
       ]
     },
@@ -9604,7 +9900,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/nUGvzTxuCLTApEfJA",
-          "image": "https://images.rtl.hr/media/images/1106xX/Jul2022/cro-3ce7adca-1019-11ed-ac0a-8e19cfbaf23b_794231.jpeg"
+          "image": "https://images.rtl.hr/media/images/1106xX/Jul2022/cro-3ce7adca-1019-11ed-ac0a-8e19cfbaf23b_794231.jpeg",
+          "summary": "Dom rodzinny słynnego chorwackiego piosenkarza Olivera Dragojevića na wyspie Brač."
         },
         {
           "id": "monument-mosaic",
@@ -9617,7 +9914,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHksZEDZ8jlZRWVnmT14DScwk61qmwWolMnJ9Zj0entrIQKWiTu4A1HK_8X4giuVFmDw6RRD2_WjVLCOkylRaOMKxUr5KN4ukkS1lAu4N-zV7jN4cgYBFHmHucUbeapZD0Ynpwu_EjGag/s2048/20200819_193517.jpg",
-          "GoogleMapsLink": "https://maps.app.goo.gl/mdWUcHGV4PZdPyYf8"
+          "GoogleMapsLink": "https://maps.app.goo.gl/mdWUcHGV4PZdPyYf8",
+          "summary": "Mozaikowy monument w Chorwacji z artystyczną dekoracją ceramiczną, upamiętniający lokalną historię."
         },
         {
           "id": "church-of-the-all-saints-blato",
