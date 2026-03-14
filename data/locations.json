@@ -1,6 +1,57 @@
 {
   "videos": [
     {
+      "videoId": "gru84erNIf8",
+      "videoUrl": "https://www.youtube.com/watch?v=gru84erNIf8",
+      "title": "ROBERT MAKŁOWICZ POLSKA  odc.182  „Poznańskie ucztowanie\".",
+      "filterTitle": "Poznańskie ucztowanie. (odc. 182)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-05-31T15:00:08Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "restauracja-concordia-taste-poznan",
+          "name": "Restauracja Concordia Taste Poznań",
+          "description": "W Poznaniu, w zabytkowych murach dawnej drukarni z 1910 roku, gdzie niegdyś powstawały słowa drukowane, dziś pisze się zupełnie inną historię – tę smakowitą. Restauracja Concordia Taste to bowiem miejsce, gdzie tradycja spotyka się z awangardą, a szef kuchni z wirtuozerią łączy lokalne produkty z globalnymi inspiracjami. To prawdziwa uczta dla zmysłów, dowodząca, że nawet najstarsze mury potrafią tętnić nowoczesnym życiem i zaskakiwać podniebienia.",
+          "latitude": 52.40696141737067,
+          "longitude": 16.91083431243897,
+          "address": "Zeylanda 8, 60-808 Poznań, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/TcTde8bATzNDwr227",
+          "image": "/images/restauracja-concordia-taste-poznan.jpg"
+        },
+        {
+          "id": "muga",
+          "name": "Muga",
+          "description": "W sercu Polski, a konkretnie w Krakowie, odnajdziemy Mugę – miejsce, gdzie tradycja spotyka się z kulinarną fantazją. W wiekowej kamienicy, której mury z pewnością widziały niejedną historyczną dysputę i smakowitą biesiadę, dziś serwuje się dania, które z gracją opowiadają nową historię polskiej kuchni, zaskakując podniebienia nawet tych najbardziej wybrednych smakoszy. To prawdziwa perełka na kulinarnej mapie miasta, gdzie każdy kęs to podróż przez smaki i epoki.",
+          "latitude": 52.40395056191009,
+          "longitude": 16.929159164428714,
+          "address": "Ogrodowa 14B, 61-821 Poznań, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/acvzEF8Dn4NbJDsP7",
+          "image": "/images/muga.jpg"
+        },
+        {
+          "id": "fromazeria",
+          "name": "Fromażeria",
+          "description": "W kulinarnym krajobrazie Polski, Fromażeria jawi się niczym prawdziwa oaza dla miłośników sera, gdzie każdy kawałek to opowieść, a wręcz filozofia smaku. Z pewnością Robert Makłowicz doceniłby tę świątynię mlecznych cudów, gdzie w starych, choć niekoniecznie wiekowych, murach odnajdziemy zarówno lokalne skarby, jak i europejskie arcydzieła. To miejsce to prawdziwa enklawa dla każdego, kto poszukuje czegoś więcej niż tylko jedzenia – poszukuje kulinarnej przygody i odrobiny szaleństwa.",
+          "latitude": 52.40616290616256,
+          "longitude": 16.924942731857303,
+          "address": "Tadeusza Kościuszki 73, 61-892 Poznań, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/gp2g1z9VdLp6zK5M9",
+          "image": "/images/fromazeria.jpg"
+        }
+      ]
+    },
+    {
       "videoId": "CgVMg2BJoLA",
       "videoUrl": "https://www.youtube.com/watch?v=CgVMg2BJoLA&t=14s",
       "title": "ROBERT MAKŁOWICZ POŁUDNIOWY TYROL odc.181  „U najstarszego znajomego\".",
