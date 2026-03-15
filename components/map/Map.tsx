@@ -32,6 +32,8 @@ interface MapProps {
     userLat?: number;
     userLng?: number;
     leftPanelWidth?: number;
+    flyToLocation?: Location | null;
+    onFlyToComplete?: () => void;
 }
 
 // Tracks the pixel position of previewLocation as the map pans/zooms.
@@ -101,6 +103,16 @@ const PreviewPanner: React.FC<{ location: Location | null }> = ({ location }) =>
     return null;
 };
 
+const LocationFlyTo: React.FC<{ location: Location | null; onComplete: () => void }> = ({ location, onComplete }) => {
+    const map = useMap();
+    React.useEffect(() => {
+        if (!location) return;
+        map.flyTo([location.latitude, location.longitude], 14, { animate: true, duration: 1 });
+        onComplete();
+    }, [location]);
+    return null;
+};
+
 const ChangeView: React.FC<{ zoomLocations: Location[]; leftPanelWidth?: number }> = React.memo(
     ({ zoomLocations, leftPanelWidth = 0 }) => {
         const map = useMap();
@@ -131,6 +143,8 @@ const Map: React.FC<MapProps> = React.memo(({
     userLat,
     userLng,
     leftPanelWidth = 0,
+    flyToLocation,
+    onFlyToComplete,
 }) => {
     const { getIcon } = useIconCache();
     const [isMobile, setIsMobile] = React.useState(() => isMobileDevice());
@@ -245,6 +259,7 @@ const Map: React.FC<MapProps> = React.memo(({
                     onPositionUpdate={handlePositionUpdate}
                 />
                 <ChangeView zoomLocations={zoomLocations ?? locations} leftPanelWidth={leftPanelWidth} />
+                <LocationFlyTo location={flyToLocation ?? null} onComplete={onFlyToComplete ?? (() => {})} />
                 <PreviewPanner location={previewLocation} />
                 {userLat != null && userLng != null && (
                     <Marker

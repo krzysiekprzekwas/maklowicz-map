@@ -1,6 +1,6 @@
 import { Location } from '../../types/Location';
 import locationData from '../../data/locations.json';
-import { Share2, X } from 'lucide-react';
+import { MapPin, Share2, X } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { Sheet } from 'react-modal-sheet';
 import { TYPE_META } from '../../src/lib/locationTypeMeta';
@@ -9,11 +9,13 @@ import { trackShare, trackOutboundLink } from '../../src/lib/analytics';
 interface LocationDetailsProps {
   location: Location | null;
   onClose: () => void;
+  onShowOnMap?: () => void;
 }
 
 export function LocationDetails({
   location,
   onClose,
+  onShowOnMap,
 }: LocationDetailsProps) {
   const [isMobile, setIsMobile] = useState(false);
   const [isImageLoading, setIsImageLoading] = useState(true);
@@ -130,7 +132,16 @@ export function LocationDetails({
       )}
 
       {/* Action buttons */}
-      <div className="pb-6">
+      <div className="pb-6 flex flex-wrap gap-2">
+        {onShowOnMap && (
+          <button
+            onClick={onShowOnMap}
+            className="flex items-center justify-center gap-2 py-2.5 px-4 rounded-full border border-secondary-border bg-white text-primary text-sm hover:border-primary transition-colors"
+          >
+            <MapPin className="h-4 w-4 flex-shrink-0" />
+            Pokaż na mapie
+          </button>
+        )}
         <button
           onClick={() => {
             trackShare(location.name);

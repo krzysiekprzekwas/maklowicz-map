@@ -71,6 +71,17 @@ export default function Home() {
     return () => window.removeEventListener('resize', check);
   }, []);
 
+  const [flyToLocation, setFlyToLocation] = useState<import('../types/Location').Location | null>(null);
+
+  const handleShowOnMap = React.useCallback(() => {
+    if (!selectedLocation) return;
+    setFlyToLocation(selectedLocation);
+    if (isMobile) {
+      setActiveView('map');
+      setSelectedLocation(null);
+    }
+  }, [selectedLocation, isMobile, setActiveView, setSelectedLocation]);
+
   // Stable callbacks so Map's marker memo doesn't invalidate unnecessarily
   const handleLocationSelect = React.useCallback((loc: MapLocation) => {
     setSelectedLocation(loc);
@@ -198,6 +209,8 @@ export default function Home() {
             userLat={userLocation?.lat}
             userLng={userLocation?.lng}
             leftPanelWidth={isMobile ? 0 : 384}
+            flyToLocation={flyToLocation}
+            onFlyToComplete={() => setFlyToLocation(null)}
           />
 
           {/* Mobile list overlay — fades in over map */}
@@ -222,6 +235,7 @@ export default function Home() {
         <LocationDetails
           location={selectedLocation}
           onClose={() => setSelectedLocation(null)}
+          onShowOnMap={handleShowOnMap}
         />
       </div>
 
