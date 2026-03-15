@@ -53,6 +53,33 @@ export function LocationDetails({
             className={`w-full h-full object-cover transition-opacity duration-300 ${isImageLoading ? 'opacity-0' : 'opacity-100'}`}
             onLoad={() => setIsImageLoading(false)}
           />
+          {/* Bottom-left: type + country badges */}
+          <div className="absolute bottom-3 left-3 flex flex-wrap gap-1.5">
+            <span className="flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium bg-white/80 text-primary shadow-sm">
+              <TypeIcon className="h-3 w-3" />
+              {typeMeta.label}
+            </span>
+            <span className="flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-white/80 text-primary shadow-sm">
+              {location.country}
+            </span>
+          </div>
+
+          {/* Top-right: share + close */}
+          <button
+            onClick={() => {
+              trackShare(location.name);
+              navigator.share?.({
+                title: location.name,
+                text: `Sprawdź to miejsce: ${location.name}`,
+                url: `/?placeId=${encodeURIComponent(location.id)}`,
+              });
+            }}
+            disabled={typeof navigator !== 'undefined' && !navigator.share}
+            className="absolute top-3 right-12 w-8 h-8 flex items-center justify-center rounded-full bg-white/80 hover:bg-white transition-colors shadow-sm disabled:hidden"
+            aria-label="Udostępnij"
+          >
+            <Share2 className="h-4 w-4 text-gray-500" />
+          </button>
           <button
             onClick={onClose}
             className="absolute top-3 right-3 w-8 h-8 flex items-center justify-center rounded-full bg-white/80 hover:bg-white transition-colors shadow-sm"
@@ -76,20 +103,33 @@ export function LocationDetails({
       {/* Title */}
       <h2 className="text-2xl font-bold text-primary leading-tight mb-4">{location.name}</h2>
 
-      {/* Type + country pills */}
-      <div className="flex flex-wrap gap-2 mb-5">
-        <span className="flex items-center gap-1.5 px-3 py-1 rounded-full text-sm border border-secondary-border bg-secondary text-primary">
-          <TypeIcon className="h-3.5 w-3.5" />
-          {typeMeta.label}
-        </span>
-        <span className="flex items-center gap-1.5 px-3 py-1 rounded-full text-sm border border-secondary-border bg-secondary text-primary">
-          {location.country}
-        </span>
-      </div>
+      {/* Type + country pills — only shown when there's no image (otherwise they're image overlays) */}
+      {!location.image && (
+        <div className="flex flex-wrap gap-2 mb-5">
+          <span className="flex items-center gap-1.5 px-3 py-1 rounded-full text-sm border border-secondary-border bg-secondary text-primary">
+            <TypeIcon className="h-3.5 w-3.5" />
+            {typeMeta.label}
+          </span>
+          <span className="flex items-center gap-1.5 px-3 py-1 rounded-full text-sm border border-secondary-border bg-secondary text-primary">
+            {location.country}
+          </span>
+        </div>
+      )}
 
       {/* Opis */}
       <section className="pb-5">
-        <h3 className="font-bold text-primary mb-2">Opis</h3>
+        <div className="flex items-center justify-between mb-2">
+          <h3 className="font-bold text-primary">Opis</h3>
+          {onShowOnMap && (
+            <button
+              onClick={onShowOnMap}
+              className="flex items-center gap-1.5 px-3 py-1 rounded-full text-sm border border-primary bg-white text-primary hover:bg-secondary transition-colors"
+            >
+              <MapPin className="h-3.5 w-3.5" />
+              Pokaż na mapie
+            </button>
+          )}
+        </div>
         <p className="text-sm text-gray-600 leading-relaxed">{location.description}</p>
       </section>
       <hr className="border-secondary-border mb-5" />
@@ -131,33 +171,7 @@ export function LocationDetails({
         </>
       )}
 
-      {/* Action buttons */}
-      <div className="pb-6 flex flex-wrap gap-2">
-        {onShowOnMap && (
-          <button
-            onClick={onShowOnMap}
-            className="flex items-center justify-center gap-2 py-2.5 px-4 rounded-full border border-secondary-border bg-white text-primary text-sm hover:border-primary transition-colors"
-          >
-            <MapPin className="h-4 w-4 flex-shrink-0" />
-            Pokaż na mapie
-          </button>
-        )}
-        <button
-          onClick={() => {
-            trackShare(location.name);
-            navigator.share?.({
-              title: location.name,
-              text: `Sprawdź to miejsce: ${location.name}`,
-              url: `/?placeId=${encodeURIComponent(location.id)}`,
-            });
-          }}
-          disabled={typeof navigator !== 'undefined' && !navigator.share}
-          className="flex items-center justify-center gap-2 py-2.5 px-4 rounded-full border border-secondary-border bg-white text-primary text-sm hover:border-primary transition-colors disabled:opacity-40"
-        >
-          <Share2 className="h-4 w-4 flex-shrink-0" />
-          Udostępnij
-        </button>
-      </div>
+      <div className="pb-6" />
     </>
   );
 
