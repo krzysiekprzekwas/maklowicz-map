@@ -1,6 +1,60 @@
 {
   "videos": [
     {
+      "videoId": "jCsT1AGbf7E",
+      "videoUrl": "https://www.youtube.com/watch?v=jCsT1AGbf7E",
+      "title": "ROBERT MAKŁOWICZ POLSKA odc.183  „Grodzisz i biała parzona\".",
+      "filterTitle": "Grodzisz i biała parzona. (odc. 183)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-06-07T15:00:08Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "rynek-w-grodzisku-wielkopolskim",
+          "name": "Rynek w Grodzisku Wielkopolskim",
+          "description": "Na grodziskim Rynku, gdzie historia pisze się w bruku, a powietrze pachnie niegdysiejszymi opowieściami, pan Robert z pewnością odnalazłby coś więcej niż tylko urokliwy plac z ratuszem dumnie stojącym od 1835 roku. To właśnie tutaj bije serce legendarnego Piwa Grodziskiego, które niczym kulinarny wehikuł czasu przenosi w epokę smaków dawno zapomnianych, czyniąc to miejsce niebagatelnym przystankiem dla każdego smakosza i miłośnika historii.",
+          "latitude": 52.22357363697138,
+          "longitude": 16.365551948547367,
+          "address": "Stary Rynek 27, 62-065 Grodzisk Wielkopolski, Poland",
+          "country": "Polska",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/FJ7WeaRhN9UVnSsVA",
+          "image": "/images/rynek-w-grodzisku-wielkopolskim.jpg",
+          "summary": "Historyczny rynek w Grodzisku Wielkopolskim z ratuszem z 1835 roku."
+        },
+        {
+          "id": "browar-w-grodzisku-wielkopolskim",
+          "name": "Browar w Grodzisku Wielkopolskim",
+          "description": "W Grodzisku Wielkopolskim, gdzie historia spotyka się z niepowtarzalnym smakiem, odnajdujemy prawdziwą perłę polskiego browarnictwa. To tu, w murach browaru, wskrzeszono legendę piwa grodziskiego – trunku tak wyjątkowego, że swego czasu nazywano go „polskim szampanem”. Jego dymny aromat i delikatna pszeniczna nuta to podróż w czasie, świadectwo rzemieślniczej pasji, która przetrwała wieki i dziś znów cieszy podniebienia.",
+          "latitude": 52.22344876327053,
+          "longitude": 16.369156837463382,
+          "address": "Bernarda 15, 62-065 Grodzisk Wielkopolski, Poland",
+          "country": "Polska",
+          "type": "shopping",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/dgcFX9j5dAPugnYt5",
+          "image": "/images/browar-w-grodzisku-wielkopolskim.jpg",
+          "summary": "Browar tworzący piwo grodziskie, trunek z wędzonego słodu, zwanego polskim szampanem."
+        },
+        {
+          "id": "restauracja-alexandria-podroz-od-do",
+          "name": "Restauracja Alexandria",
+          "description": "W sercu Polski, niczym oaza smaków, rozkwita Restauracja Alexandria, która nazwą swą przywodzi na myśl starożytną stolicę wiedzy i kultury. W jej progach, niczym w dawnej Aleksandrii, gromadzone są skarby – lecz tym razem kulinarne, które z serca do serca wędrują, opowiadając o pasji i gościnności. Nie ma tu miejsca na kulinarną obojętność, a każdy kęs to mała lekcja historii smaku.",
+          "latitude": 52.22693852236459,
+          "longitude": 16.36673212051392,
+          "address": "Ogrodowa 20, 62-065 Grodzisk Wielkopolski, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/1kHTCtYrJfVMgj2v7",
+          "image": "/images/restauracja-alexandria-podroz-od-do.jpg",
+          "summary": "Restauracja w Grodzisku Wielkopolskim serwująca kuchnię bałkańską z pasją i gościnnością."
+        }
+      ]
+    },
+    {
       "videoId": "gru84erNIf8",
       "videoUrl": "https://www.youtube.com/watch?v=gru84erNIf8",
       "title": "ROBERT MAKŁOWICZ POLSKA  odc.182  „Poznańskie ucztowanie\".",
