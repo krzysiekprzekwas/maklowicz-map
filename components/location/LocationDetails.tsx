@@ -39,21 +39,9 @@ export function LocationDetails({
 
   const detailsContent = location && (
     <>
-      {/* Title + close */}
-      <div className="flex items-start justify-between gap-4 mb-4">
-        <h2 className="text-2xl font-bold text-primary leading-tight">{location.name}</h2>
-        <button
-          onClick={onClose}
-          className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors mt-0.5"
-          aria-label="Zamknij"
-        >
-          <X className="h-5 w-5 text-gray-500" />
-        </button>
-      </div>
-
-      {/* Image */}
-      {location.image && (
-        <div className="mb-4 rounded-xl overflow-hidden relative bg-secondary aspect-video">
+      {/* Image with X overlay, or standalone X when no image */}
+      {location.image ? (
+        <div className="mb-4 -mx-6 -mt-6 relative bg-secondary aspect-video">
           {isImageLoading && (
             <div className="absolute inset-0 bg-secondary animate-pulse" />
           )}
@@ -63,8 +51,28 @@ export function LocationDetails({
             className={`w-full h-full object-cover transition-opacity duration-300 ${isImageLoading ? 'opacity-0' : 'opacity-100'}`}
             onLoad={() => setIsImageLoading(false)}
           />
+          <button
+            onClick={onClose}
+            className="absolute top-3 right-3 w-8 h-8 flex items-center justify-center rounded-full bg-white/80 hover:bg-white transition-colors shadow-sm"
+            aria-label="Zamknij"
+          >
+            <X className="h-5 w-5 text-gray-500" />
+          </button>
+        </div>
+      ) : (
+        <div className="flex justify-end mb-4">
+          <button
+            onClick={onClose}
+            className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors"
+            aria-label="Zamknij"
+          >
+            <X className="h-5 w-5 text-gray-500" />
+          </button>
         </div>
       )}
+
+      {/* Title */}
+      <h2 className="text-2xl font-bold text-primary leading-tight mb-4">{location.name}</h2>
 
       {/* Type + country pills */}
       <div className="flex flex-wrap gap-2 mb-5">
@@ -147,7 +155,7 @@ export function LocationDetails({
       {/* Desktop sidebar */}
       {!isMobile && (
         <aside
-          className={`fixed md:top-[116px] bottom-0 right-0 md:w-96 bg-white shadow-xl
+          className={`fixed md:top-[116px] bottom-0 right-0 md:w-96 bg-white shadow-xl rounded-tl-2xl overflow-hidden
             h-[calc(100vh-116px)] max-h-screen
             transform transition-all duration-300 ease-in-out
             ${location ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0 pointer-events-none'}`}
