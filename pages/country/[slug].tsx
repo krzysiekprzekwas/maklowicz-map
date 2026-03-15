@@ -1,10 +1,17 @@
 import Head from 'next/head';
 import { GetStaticPaths, GetStaticProps } from 'next';
-import { motion } from 'framer-motion';
+import dynamic from 'next/dynamic';
+import { MapIcon } from 'lucide-react';
 import locationData from '../../data/locations.json';
+
+const CountryMiniMap = dynamic(() => import('../../components/country/CountryMiniMap'), { ssr: false });
 import { countrySlug, placeSlug } from '../../src/lib/slug';
 import { toLocative } from '../../src/lib/countryLocatives';
+import { TYPE_META } from '../../src/lib/locationTypeMeta';
 import type { Location, Video } from '../../types/Location';
+
+const PREVIEW_COUNT = 5;
+const VIDEO_PREVIEW_COUNT = 6;
 
 type Props = {
   country: string;
@@ -12,11 +19,73 @@ type Props = {
   videos: Video[];
 };
 
+function LocationCard({ loc, country }: { loc: Location; country: string }) {
+  const meta = TYPE_META[loc.type] ?? TYPE_META.tourist_attraction;
+  const TypeIcon = meta.icon;
+
+  return (
+    <a
+      href={`/?country=${encodeURIComponent(country)}&placeId=${encodeURIComponent(loc.id)}`}
+      className="flex overflow-hidden rounded-2xl border border-secondary-border bg-white hover:shadow-md transition-shadow"
+    >
+      <div className="flex-shrink-0 w-28 min-h-28 self-stretch bg-secondary flex items-center justify-center">
+        {loc.image ? (
+          <img
+            src={loc.image}
+            alt={loc.name}
+            loading="lazy"
+            className="w-full h-full object-cover"
+          />
+        ) : (
+          <TypeIcon className="h-8 w-8 text-primary opacity-30" />
+        )}
+      </div>
+      <div className="flex-1 min-w-0 p-3">
+        <div className="flex items-center gap-1.5 mb-0.5">
+          <TypeIcon className="h-3.5 w-3.5 text-primary flex-shrink-0" />
+          <span className="font-semibold text-primary text-sm line-clamp-1">{loc.name}</span>
+        </div>
+        <p className="text-xs text-gray-500 line-clamp-3">{loc.summary || loc.description || loc.address}</p>
+        <p className="text-xs text-gray-400 mt-0.5">{loc.country}</p>
+      </div>
+    </a>
+  );
+}
+
+function VideoCard({ video }: { video: Video }) {
+  return (
+    <a
+      href={video.videoUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex gap-3 rounded-2xl border border-secondary-border bg-white p-3 hover:shadow-md transition-shadow"
+    >
+      <div className="flex-shrink-0 w-24 h-16 rounded-lg overflow-hidden bg-secondary">
+        <img
+          src={`https://img.youtube.com/vi/${video.videoId}/mqdefault.jpg`}
+          alt={video.filterTitle}
+          loading="lazy"
+          className="w-full h-full object-cover"
+        />
+      </div>
+      <div className="flex-1 min-w-0">
+        <p className="font-semibold text-primary text-sm line-clamp-1 mb-1">{video.filterTitle}</p>
+        {video.date && <p className="text-xs text-gray-400">{video.date}</p>}
+        <p className="text-xs text-red-600 font-medium mt-1">YouTube ↗</p>
+      </div>
+    </a>
+  );
+}
+
 export default function CountryPage({ country, locations, videos }: Props) {
   const countryLoc = toLocative(country);
   const title = `${country} – śladami Roberta Makłowicza`;
   const description = `Miejsca z programu Roberta Makłowicza w ${countryLoc}. Zobacz restauracje, atrakcje i odcinki.`;
   const canonical = `https://sladami-roberta.pl/country/${countrySlug(country)}`;
+
+  const previewLocations = locations.slice(0, PREVIEW_COUNT);
+  const remaining = locations.length - PREVIEW_COUNT;
+  const previewVideos = videos.slice(0, VIDEO_PREVIEW_COUNT);
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -44,173 +113,85 @@ export default function CountryPage({ country, locations, videos }: Props) {
         <meta property="og:url" content={canonical} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       </Head>
-      <div className="container mx-auto px-6 py-12">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="max-w-3xl mx-auto"
-        >
-          <h1 className="text-4xl font-bold text-primary mb-8">{country}</h1>
 
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow duration-300"
+      <div className="container mx-auto px-4 sm:px-6 py-10 max-w-3xl">
+
+        {/* Hero */}
+        <div className="mb-8">
+          <h1 className="text-4xl font-bold text-primary mb-2">{country}</h1>
+          <p className="text-sm text-gray-500 mb-5">
+            <span className="font-semibold text-primary">{locations.length}</span> miejsc ·{' '}
+            <span className="font-semibold text-primary">{videos.length}</span> odcinków
+          </p>
+          <p className="text-gray-700 mb-6">
+            Robert Makłowicz odwiedził co najmniej <strong>{locations.length}</strong> miejsc w {countryLoc} — restauracje, atrakcje, miejsca historyczne i więcej. Przeglądaj je na interaktywnej mapie lub liście z filtrami.
+          </p>
+          <CountryMiniMap locations={locations} country={country} />
+        </div>
+
+        {/* Preview cards */}
+        <section className="mb-6">
+          <h2 className="text-xl font-bold text-primary mb-4">Miejsca w {countryLoc}</h2>
+          <div className="flex flex-col gap-3">
+            {previewLocations.map((loc) => (
+              <LocationCard key={loc.id} loc={loc} country={country} />
+            ))}
+          </div>
+        </section>
+
+        {/* Mid-page CTA */}
+        {remaining > 0 && (
+          <a
+            href={`/?country=${encodeURIComponent(country)}`}
+            className="flex items-center justify-between w-full px-5 py-4 rounded-2xl border-2 border-primary/20 bg-white hover:border-primary/40 hover:shadow-md transition-all mb-10 group"
           >
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.25 }}
-              className="text-primary-hover mb-6"
-            >
-              Robert Makłowicz odwiedził co najmniej <span className="font-semibold">{locations.length}</span> miejsc w {countryLoc} podczas <span className="font-semibold">{videos.length}</span> odcinków, które udokumentowaliśmy na tej stronie. Znajdź swoją następną przygodę — kulinarną, historyczną lub po prostu dla zabawy.
-            </motion.p>
+            <span className="text-primary font-semibold">
+              ...i jeszcze <strong>{remaining}</strong> miejsc w {countryLoc}
+            </span>
+            <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-white bg-primary px-4 py-2 rounded-lg group-hover:bg-primary/90 transition-colors whitespace-nowrap flex-shrink-0">
+              <MapIcon className="w-4 h-4" />
+              Otwórz mapę
+            </span>
+          </a>
+        )}
 
-            <div className="mb-8 p-4 bg-secondary rounded-md border border-primary/10">
-              <p className="text-primary-hover mb-3">Użyj mapy, aby zobaczyć wszystkie miejsca odwiedzone przez Roberta Makłowicza w {countryLoc}.</p>
-              <a
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-primary text-white hover:bg-primary-hover transition-colors"
-                href={`/?country=${encodeURIComponent(country)}`}
-              >
-                Przejdź do mapy
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
-                </svg>
-              </a>
+        {/* Videos */}
+        {previewVideos.length > 0 && (
+          <section className="mb-10">
+            <h2 className="text-xl font-bold text-primary mb-4">Odcinki z {countryLoc} ({videos.length})</h2>
+            <div className="flex flex-col gap-3">
+              {previewVideos.map((video) => (
+                <VideoCard key={video.videoId} video={video} />
+              ))}
             </div>
+            {videos.length > VIDEO_PREVIEW_COUNT && (
+              <p className="text-sm text-gray-500 mt-3 text-center">
+                + {videos.length - VIDEO_PREVIEW_COUNT} więcej odcinków —{' '}
+                <a href={`/?country=${encodeURIComponent(country)}`} className="text-primary font-medium underline underline-offset-2">
+                  filtruj na mapie
+                </a>
+              </p>
+            )}
+          </section>
+        )}
 
-            <motion.section
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.4 }}
-              className="mb-8"
-            >
-              <h2 className="text-2xl font-bold text-primary mb-6">Miejsca ({locations.length})</h2>
-              
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                {locations.map((loc, index) => (
-                  <motion.div
-                    key={loc.id}
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.5 + index * 0.1 }}
-                    whileHover={{ y: -4, scale: 1.02 }}
-                    className="group"
-                  >
-                    <a
-                      href={`/?country=${encodeURIComponent(country)}&placeId=${encodeURIComponent(loc.id)}`}
-                      className="block bg-white rounded-lg border border-gray-200 p-4 hover:border-primary/30 hover:shadow-lg transition-all duration-300 h-full"
-                    >
-                      <div className="flex items-start justify-between mb-3">
-                        <div className="flex items-center gap-2 flex-1 min-w-0">
-                          <div className={`flex items-center gap-1 bg-${loc.type} text-${loc.type}-text text-xs font-semibold border border-${loc.type}-border rounded-full px-2 py-1 flex-shrink-0`}>
-                            {loc.type === 'restaurant' ? (
-                              <svg className="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
-                              </svg>
-                            ) : loc.type === 'tourist_attraction' ? (
-                              <svg className="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                              </svg>
-                            ) : (
-                              <svg className="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                              </svg>
-                            )}
-                            {loc.type === 'restaurant' ? 'Restauracja' : loc.type === 'tourist_attraction' ? 'Atrakcja turystyczna' : 'Inne'}
-                          </div>
-                        </div>
-                      </div>
-                      
-                      <h3 className="font-semibold text-primary group-hover:text-primary-hover transition-colors text-sm mb-2 line-clamp-2">
-                        {loc.name}
-                      </h3>
-                      
-                      {loc.description && (
-                        <p className="text-gray-600 text-xs line-clamp-2 mb-3">
-                          {loc.description}
-                        </p>
-                      )}
-                      
-                      <div className="flex items-center justify-between text-xs text-gray-500">
-                        <span className="flex items-center gap-1">
-                          <svg className="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                          </svg>
-                          {loc.address}
-                        </span>
-                        <svg className="h-3 w-3 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
-                        </svg>
-                      </div>
-                    </a>
-                  </motion.div>
-                ))}
-              </div>
-            </motion.section>
+        {/* Full SEO location list */}
+        <section>
+          <h2 className="text-base font-semibold text-gray-500 mb-3">Wszystkie miejsca ({locations.length})</h2>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-x-4 gap-y-1">
+            {locations.map((loc) => (
+              <li key={loc.id}>
+                <a
+                  href={`/?country=${encodeURIComponent(country)}&placeId=${encodeURIComponent(loc.id)}`}
+                  className="text-xs text-gray-500 hover:text-primary transition-colors line-clamp-1"
+                >
+                  {loc.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
 
-            <motion.section
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.6 }}
-            >
-              <h2 className="text-2xl font-bold text-primary mb-6">Powiązane odcinki ({videos.length})</h2>
-              
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {videos.map((video, index) => (
-                  <motion.div
-                    key={video.videoId}
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.7 + index * 0.1 }}
-                    whileHover={{ y: -2, scale: 1.01 }}
-                    className="group"
-                  >
-                    <div className="bg-white rounded-lg border border-gray-200 p-4 hover:border-primary/30 hover:shadow-lg transition-all duration-300">
-                      <div className="flex items-start gap-3">
-                        <div className="flex-shrink-0">
-                          <div className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center group-hover:bg-red-700 transition-colors">
-                            <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                              <path d="M8 5v14l11-7z"/>
-                            </svg>
-                          </div>
-                        </div>
-                        
-                        <div className="flex-1 min-w-0">
-                          <h3 className="font-semibold text-primary group-hover:text-primary-hover transition-colors text-sm mb-1 line-clamp-2">
-                            {video.filterTitle}
-                          </h3>
-                          
-                          {video.date && (
-                            <p className="text-xs text-gray-500 mb-2">
-                              {video.date}
-                            </p>
-                          )}
-                          
-                          <a
-                            href={video.videoUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-flex items-center gap-1 text-xs text-red-600 hover:text-red-700 font-medium"
-                          >
-                            Obejrzyj na YouTube
-                            <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                            </svg>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </motion.div>
-                ))}
-              </div>
-            </motion.section>
-          </motion.div>
-        </motion.div>
       </div>
     </main>
   );
@@ -238,5 +219,3 @@ export const getStaticProps: GetStaticProps<Props> = async ({ params }) => {
     },
   };
 };
-
-
