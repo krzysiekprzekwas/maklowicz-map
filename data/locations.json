@@ -3811,10 +3811,9 @@
           "address": "Bakalarska 11/lok.HA3, 02-212 Warszawa, Poland",
           "country": "Polska",
           "type": "restaurant",
-          "websiteUrl": "https://halabakalarska.pl/wp-content/uploads/2021/01/DSC_0189-copy.jpg",
-          "image": "https://www.facebook.com/hanoigrill/",
+          "websiteUrl": "https://www.facebook.com/hanoigrill/",
           "GoogleMapsLink": "https://maps.app.goo.gl/DY6zc8kMaHDwWu5B6",
-          "summary": "Wietnamska restauracja grillowa w Polsce serwująca dania inspirowane kuchnią Hanoi."
+          "image": "/images/hanoi-grill.jpg"
         },
         {
           "id": "oh-my-pho",
@@ -8157,9 +8156,8 @@
           "country": "Tajlandia",
           "type": "hotel",
           "websiteUrl": "http://www.facebook.com/banaothongandmyfriend",
-          "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/286243438.jpg?k=bc68aa47581f25197a398f7dfbd911b5127b006b446627f93e90704636169e03&o=&hp=1",
           "GoogleMapsLink": "https://maps.app.goo.gl/oJYfNcGPyqKJgUKH7",
-          "summary": "Kameralny hotel na Ko Lanta z widokiem na Morze Andamańskie wśród tropikalnej roślinności."
+          "image": "/images/ban-ao-thong.jpg"
         },
         {
           "id": "trang-clock-tower",
