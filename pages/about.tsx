@@ -24,10 +24,10 @@ export default function About() {
         {/* Personal story */}
         <motion.div {...fadeUp(0.1)} className="mb-10 space-y-4">
           <p className="text-gray-700 leading-relaxed">
-            Programy Roberta Makłowicza towarzyszą mi od dziecka. Weekendowe wyprawy przed telewizorem były małym rytuałem, który zaszczepił we mnie ciekawość świata, ludzi i historii.
+            Programy <a href="https://www.maklowicz.pl" target="_blank" rel="noopener noreferrer" className="text-primary font-medium underline underline-offset-2 decoration-primary/30 hover:decoration-primary transition-colors">Roberta Makłowicza</a> towarzyszą mi od dziecka. Weekendowe wyprawy przed telewizorem były małym rytuałem, który zaszczepił we mnie ciekawość świata, ludzi i historii.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            Kiedy w czasach lockdownu Robert wrócił z kanałem na YouTube, poczułem to samo co kiedyś. Jakbym znowu jechał z nim w podróż. W pewnym momencie przyszła myśl:
+            Kiedy w czasach lockdownu Robert wrócił z <a href="https://www.youtube.com/@Robert_Maklowicz" target="_blank" rel="noopener noreferrer" className="text-primary font-medium underline underline-offset-2 decoration-primary/30 hover:decoration-primary transition-colors">kanałem na YouTube</a>, poczułem to samo co kiedyś. Jakbym znowu jechał z nim w podróż. W pewnym momencie przyszła myśl:
           </p>
           <blockquote className="border-l-2 border-primary/30 pl-4 text-gray-600">
             Fajnie byłoby zobaczyć na mapie wszystkie te miejsca. A przecież mogę to zbudować!
