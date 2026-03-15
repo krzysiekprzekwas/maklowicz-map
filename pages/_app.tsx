@@ -11,6 +11,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     if (!process.env.NEXT_PUBLIC_POSTHOG_KEY) return;
     posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY, {
       api_host: process.env.NEXT_PUBLIC_POSTHOG_HOST ?? 'https://eu.i.posthog.com',
+      capture_exceptions: true,
       loaded: (ph) => {
         if (process.env.NODE_ENV === 'development') ph.opt_out_capturing();
         if (typeof window !== 'undefined' &&
