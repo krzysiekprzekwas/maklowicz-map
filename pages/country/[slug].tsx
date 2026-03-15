@@ -28,7 +28,7 @@ function LocationCard({ loc, country }: { loc: Location; country: string }) {
       href={`/?country=${encodeURIComponent(country)}&placeId=${encodeURIComponent(loc.id)}`}
       className="flex overflow-hidden rounded-2xl border border-secondary-border bg-white hover:shadow-md transition-shadow"
     >
-      <div className="flex-shrink-0 w-28 min-h-28 self-stretch bg-secondary flex items-center justify-center">
+      <div className="flex-shrink-0 w-28 h-28 overflow-hidden bg-secondary flex items-center justify-center">
         {loc.image ? (
           <img
             src={loc.image}
