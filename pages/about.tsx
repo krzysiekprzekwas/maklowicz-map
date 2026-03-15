@@ -1,174 +1,68 @@
-import React from 'react';
-import { useLocations } from '../hooks/useLocations';
 import { motion } from 'framer-motion';
+import locationData from '../data/locations.json';
+import { MapIcon } from 'lucide-react';
+
+const fadeUp = (delay = 0) => ({
+  initial: { opacity: 0, y: 16 },
+  animate: { opacity: 1, y: 0 },
+  transition: { duration: 0.45, delay },
+});
+
+const totalLocations = locationData.videos.flatMap((v) => v.locations).length;
+const videoCount = locationData.videos.filter((v) => v.locations?.length > 0).length;
+const countryCount = new Set(locationData.videos.flatMap((v) => v.locations).map((l) => l.country)).size;
 
 export default function About() {
-
-  const { allLocations } = useLocations(null, []);
-  const totalLocations = allLocations.length;
-  const videoCount = (() => {
-    // Count from the same locationData used by the hook
-    return require('../data/locations.json').videos.filter((v: any) => v.locations?.length > 0).length;
-  })();
-
-
   return (
     <main className="flex flex-1 flex-col bg-secondary overflow-y-auto">
-      <div className="container mx-auto px-6 py-12">
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="max-w-3xl mx-auto"
-        >
-          <h2 className="text-4xl font-bold text-primary mb-8">O projekcie</h2>
-          
-          <motion.div 
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow duration-300 prose prose-lg prose-stone"
-          >
-            <motion.p 
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.4 }}
-              className="text-primary-hover mb-6"
-            >
-              "Śladami Roberta Makłowicza" to interaktywna mapa przedstawiająca wszystkie restauracje, 
-              kawiarnie i inne miejsca kulinarne, które odwiedził Robert Makłowicz w swoich programach. 
-              Projekt powstał z pasji do gotowania i podróżowania, inspirowany niezwykłymi przygodami 
-              kulinarnymi Roberta Makłowicza.
-            </motion.p>
+      <div className="container mx-auto px-4 sm:px-6 py-12 max-w-2xl">
 
-            <motion.p 
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.6 }}
-              className="text-primary-hover mb-6"
-            >
-              Mapa jest stale aktualizowana o nowe lokalizacje z najnowszych odcinków programu na YouTube. 
-              Każde miejsce zawiera szczegółowe informacje, w tym link do odcinka, w którym zostało 
-              zaprezentowane.
-            </motion.p>
+        <motion.h1 {...fadeUp(0)} className="text-4xl font-bold text-primary mb-10">
+          O projekcie
+        </motion.h1>
 
-            <motion.h3 
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.8 }}
-              className="text-2xl font-bold text-primary mt-8 mb-4"
-            >
-              Jak korzystać z mapy?
-            </motion.h3>
-            
-            <motion.ul 
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 1 }}
-              className="list-disc list-inside text-primary-hover space-y-2 mb-6"
-            >
-              <motion.li whileHover={{ x: 5 }} transition={{ type: "spring", stiffness: 300 }}>Przeglądaj wszystkie lokalizacje na mapie</motion.li>
-              <motion.li whileHover={{ x: 5 }} transition={{ type: "spring", stiffness: 300 }}>Filtruj miejsca według odcinków programu</motion.li>
-              <motion.li whileHover={{ x: 5 }} transition={{ type: "spring", stiffness: 300 }}>Kliknij w znacznik, aby zobaczyć szczegółowe informacje</motion.li>
-              <motion.li whileHover={{ x: 5 }} transition={{ type: "spring", stiffness: 300 }}>Oglądaj powiązane odcinki bezpośrednio na YouTube</motion.li>
-            </motion.ul>
-
-          <motion.h3 
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.2 }}
-            className="text-2xl font-bold text-primary mt-8 mb-4"
-          >
-            Dokąd chcesz wyruszyć?
-          </motion.h3>
-
-          <motion.p 
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.4 }}
-            className="text-primary-hover mb-6"
-          >
-            Odkryj kolejne przygody - skorzystaj z mapy i sprawdź kraje, które odwiedził Robert Makłowicz.
-          </motion.p>
-
-          <motion.div 
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 1.6 }}
-            className="grid grid-cols-1 sm:grid-cols-2 gap-4"
-          >
-            <a
-              href={`/?country=${encodeURIComponent('Polska')}`}
-              className="group flex items-center justify-between p-6 rounded-xl bg-primary text-white hover:bg-primary-hover shadow-lg transition-colors"
-            >
-              <span className="text-xl font-semibold">Polska</span>
-              <span className="text-3xl" aria-hidden>🇵🇱</span>
-            </a>
-            <a
-              href={`/?country=${encodeURIComponent('Chorwacja')}`}
-              className="group flex items-center justify-between p-6 rounded-xl bg-primary text-white hover:bg-primary-hover shadow-lg transition-colors"
-            >
-              <span className="text-xl font-semibold">Chorwacja</span>
-              <span className="text-3xl" aria-hidden>🇭🇷</span>
-            </a>
-            <a
-              href={`/?country=${encodeURIComponent('Włochy')}`}
-              className="group flex items-center justify-between p-6 rounded-xl bg-primary text-white hover:bg-primary-hover shadow-lg transition-colors"
-            >
-              <span className="text-xl font-semibold">Włochy</span>
-              <span className="text-3xl" aria-hidden>🇮🇹</span>
-            </a>
-            <a
-              href={`/?country=${encodeURIComponent('Austria')}`}
-              className="group flex items-center justify-between p-6 rounded-xl bg-primary text-white hover:bg-primary-hover shadow-lg transition-colors"
-            >
-              <span className="text-xl font-semibold">Austria</span>
-              <span className="text-3xl" aria-hidden>🇦🇹</span>
-            </a>
-          </motion.div>
-
-            <motion.h3 
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 1.8 }}
-              className="text-2xl font-bold text-primary mt-8 mb-4"
-            >
-              Ile jest lokalizacji?
-            </motion.h3>
-            
-            <motion.p 
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 2.0 }}
-              className="text-primary-hover mb-6"
-            >
-              Będąc projektem hobbistycznym, mapa może mieć braki względem całej twórczości Roberta Makłowicza. Staramy się jednak regularnie dodawać nowe lokalizacje, aby mapa była jak najbardziej kompletna. Na dziś przetworzylismy:
-            </motion.p>
-            
-            <motion.ul 
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 2.2 }}
-              className="list-disc list-inside text-primary-hover space-y-2 mb-6"
-            >
-              <motion.li 
-                whileHover={{ x: 5 }} 
-                transition={{ type: "spring", stiffness: 300 }}
-                className="flex items-center gap-2"
-              >
-                <span className="font-bold">{totalLocations}</span> Lokalizacji
-              </motion.li>
-              <motion.li 
-                whileHover={{ x: 5 }} 
-                transition={{ type: "spring", stiffness: 300 }}
-                className="flex items-center gap-2"
-              >
-                <span className="font-bold">{videoCount}</span> Filmów
-              </motion.li>
-            </motion.ul>
-          </motion.div>
+        {/* Personal story */}
+        <motion.div {...fadeUp(0.1)} className="mb-10 space-y-4">
+          <p className="text-gray-700 leading-relaxed">
+            Programy Roberta Makłowicza towarzyszą mi od dziecka. Weekendowe wyprawy przed telewizorem były małym rytuałem, który zaszczepił we mnie ciekawość świata, ludzi i historii.
+          </p>
+          <p className="text-gray-700 leading-relaxed">
+            Kiedy w czasach lockdownu Robert wrócił z kanałem na YouTube, poczułem to samo co kiedyś. Jakbym znowu jechał z nim w podróż. W pewnym momencie przyszła myśl:
+          </p>
+          <blockquote className="border-l-2 border-primary/30 pl-4 text-gray-600">
+            Fajnie byłoby zobaczyć na mapie wszystkie te miejsca. A przecież mogę to zbudować!
+          </blockquote>
+          <p className="text-gray-700 leading-relaxed">
+            Tak powstała ta mapa. Oglądam odcinki, mapuję miejsca, dodaję opisy. Projekt jest hobbistyczny i może nie obejmować całej twórczości Roberta, ale staram się go regularnie uzupełniać. Dla wszystkich, którzy chcą podążać jego śladami.
+          </p>
         </motion.div>
+
+        {/* Stats */}
+        <motion.div {...fadeUp(0.2)} className="grid grid-cols-3 gap-3 mb-10">
+          {[
+            { value: totalLocations, label: 'miejsc' },
+            { value: videoCount, label: 'odcinków' },
+            { value: countryCount, label: 'krajów' },
+          ].map(({ value, label }) => (
+            <div key={label} className="bg-white rounded-2xl border border-secondary-border px-4 py-5 text-center">
+              <p className="text-3xl font-bold text-primary">{value}</p>
+              <p className="text-sm text-gray-500 mt-0.5">{label}</p>
+            </div>
+          ))}
+        </motion.div>
+
+        {/* CTA */}
+        <motion.div {...fadeUp(0.25)}>
+          <a
+            href="/"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-primary text-white font-semibold hover:bg-primary/90 transition-colors shadow-sm"
+          >
+            <MapIcon className="w-5 h-5" />
+            Odkryj mapę
+          </a>
+        </motion.div>
+
       </div>
     </main>
   );
-} 
+}
