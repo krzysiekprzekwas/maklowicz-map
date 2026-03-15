@@ -7917,9 +7917,8 @@
           "country": "Jordania",
           "type": "art_culture",
           "websiteUrl": "http://roman-amphitheater.blogspot.com/",
-          "image": "https://www.globtroter.pl/zdjecia/jordania/b281646_jordania_muhafaza_ma_an_dana.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/4bqN1Z3h5VuJtiEh8",
-          "summary": "Rzymski teatr z II w. n.e. w centrum Ammanu na 6000 widzów — jeden z symboli stolicy Jordanii."
+          "image": "/images/teatr-rzymski.jpg"
         },
         {
           "id": "souq-al-sukar",
@@ -9997,8 +9996,7 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/9aR2hvXNmpQv2MiC7",
-          "image": "https://mdrealtyme4927e.zapwp.com/q:i/r:0/wp:1/w:1/u:https://mdrealty.me/wp-content/uploads/Курорт-Свети-Стефан-власти-ожидают-открытия-в-2021-году.jpg",
-          "summary": "Dawna rybacka wyspa-twierdza Sveti Stefan w Czarnogórze, dziś luksusowy hotel połączony groblą z lądem."
+          "image": "/images/sveti-stefan-czarnogora.jpg"
         },
         {
           "id": "jezioro-szkoderskie",
@@ -10473,9 +10471,8 @@
           "country": "Włochy",
           "type": "hotel",
           "websiteUrl": "http://www.bellagiosilvio.com/",
-          "image": "https://www.bellagiosilvio.com/wp-content/uploads/2018/02/Terrazzino-.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/Jj9QdTGDHkmugXSBA",
-          "summary": "Rodzinny hotel z restauracją nad Jeziorem Como serwujący świeże ryby i regionalne dania."
+          "image": "/images/hotel-silvio.jpg"
         }
       ]
     },
