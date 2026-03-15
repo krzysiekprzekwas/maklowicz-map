@@ -2155,10 +2155,9 @@
           "address": "Pl. Theatrou 1, Athina 105 52, Greece",
           "country": "Grecja",
           "type": "cafe",
-          "image": "https://mindtrip.ai/cdn-cgi/image/format=webp,w=720/https://tcdn.mindtrip.ai/images/252614/1i0w5wp.png",
           "websiteUrl": "https://mokka.coffee/",
           "GoogleMapsLink": "https://maps.app.goo.gl/agPSJwr9SGHUDqxF9",
-          "summary": "Kawiarnia speciality w Atenach parząca kawę z brazylijskich i etiopskich plantacji."
+          "image": "/images/mokka-specialty-coffee-s-a.jpg"
         },
         {
           "id": "stani",
@@ -4018,8 +4017,7 @@
           "type": "art_culture",
           "websiteUrl": "https://whc.unesco.org/en/list/1259",
           "GoogleMapsLink": "https://maps.app.goo.gl/7e86oNZ2bgT3fYfBA",
-          "image": "https://www.cipdh.gob.ar/memorias-situadas/wp-content/uploads/2019/02/IMG-20190218-WA0007.jpg",
-          "summary": "Skalny przylądek na Liście UNESCO — symbol walki maurytyjskich niewolników o wolność w XVIII i XIX w."
+          "image": "/images/le-morne-world-heritage-site.jpg"
         },
         {
           "id": "rhumerie-de-chamarel-restaurant-rum-distillery",
@@ -6265,7 +6263,7 @@
       "locations": [
         {
           "id": "vidikovac-kamenjak",
-          "name": "Vidikovac, Kamenjak",
+          "name": "Vidikovac Kamenjak",
           "description": "Na chorwackim przylądku Kamenjak, gdzie natura wciąż rządzi, leży Vidikovac – miejsce, z którego roztacza się panorama, co to człowiekowi od razu poprawia humor. Tu, wśród dzikiej roślinności i szumu fal, można nie tylko podziwiać błękit Adriatyku, ale i poczuć ten niepowtarzalny aromat lata, który aż prosi się o talerz świeżych kalmarów i kieliszek czegoś orzeźwiającego. To widok, który smakuje!",
           "latitude": 43.89370606197725,
           "longitude": 15.610087127641071,
@@ -6273,9 +6271,8 @@
           "country": "Chorwacja",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "image": "https://travelcroatia.live/wp-content/uploads/2021/12/thumb_6519_1170x0_0_0_auto.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/qh8Ru3uMa1srburC8",
-          "summary": "Punkt widokowy na przylądku Kamenjak w Istrii z panoramą na Adriatyk i pobliskie wyspy."
+          "image": "/images/vidikovac-kamenjak.jpg"
         },
         {
           "id": "church-of-the-all-saints",
@@ -6547,9 +6544,8 @@
           "country": "Chorwacja",
           "type": "tourist_attraction",
           "websiteUrl": "",
-          "image": "https://www.globtroter.pl/zdjecia/chorwacja/b218188_chorwacja_peljesac_port_w_trpanj.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/r1QvKENEoGXhrBFS6",
-          "summary": "Atrakcja turystyczna na chorwackim wybrzeżu Adriatyku z widokiem na morze i okoliczne wyspy."
+          "image": "/images/zvijezda-mora.jpg"
         }
       ]
     },
@@ -7404,9 +7400,8 @@
           "country": "Grecja",
           "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://www.globtroter.pl/zdjecia/grecja/28638_grecja_kreta_rethymno.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/NEYpUg8wJK3EnTg1A",
-          "summary": "Wenecka twierdza Fortezza z XVI w. w Rethymno, jeden z największych fortów z epoki weneckiej w Grecji."
+          "image": "/images/wenecka-forteca.jpg"
         },
         {
           "id": "fontanna-wenecka-rimondi",
@@ -8049,8 +8044,7 @@
           "type": "art_culture",
           "websiteUrl": "http://www.kalwaria.eu/",
           "GoogleMapsLink": "https://maps.app.goo.gl/UmaFd66HruyLu7CK7",
-          "image": "https://kalwaria.eu/wp-content/themes/kalwaria/klasztor1.jpg",
-          "summary": "Bernardyński klasztor w Kalwarii Zebrzydowskiej z barokowym kościołem i kalwarią na Liście UNESCO."
+          "image": "/images/klasztor-oo-bernardynow.jpg"
         },
         {
           "id": "cmentarz-wojenny-z-i-wojny-swiatowej-1915-r",
@@ -8537,11 +8531,10 @@
           "longitude": -87.07512765168534,
           "address": "Mercado Xaman-Ha, Quinta Avenida 4, Solidaridad, 77713 Playa del Carmen, Q.R., Mexico",
           "country": "Meksyk",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://www.facebook.com/iglesiadeplayadelcarmen/",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Capilla_de_Nuestra_Señora_del_Carmen_%28Playa_del_Carmen%2C_QR%29_-_sanctuary.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/mX5nQosSyWYNPJkbA",
-          "summary": "Kaplica Matki Bożej z Karmelu w Playa del Carmen, patronki miasta i miejsca kultu lokalnych mieszkańców."
+          "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Capilla_de_Nuestra_Señora_del_Carmen_%28Playa_del_Carmen%2C_QR%29_-_sanctuary.jpg"
         },
         {
           "id": "quinta-avenida-playa-del-carmen-q-r-meksyk",
@@ -8554,8 +8547,7 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/M9RK2hKQddU6GMVA7",
-          "image": "https://travel.usnews.com/images/la_quinta_avenida_2_getty_m1KSC67.jpg",
-          "summary": "Główna promenada handlowa Playa del Carmen — 5. Aleja pełna restauracji, sklepów i kulturowego życia."
+          "image": "/images/quinta-avenida-playa-del-carmen-q-r-meksyk.jpg"
         }
       ]
     },
@@ -9225,9 +9217,8 @@
           "country": "Austria",
           "type": "restaurant",
           "websiteUrl": "http://hexenkessl.at/",
-          "image": "https://files.designer.hoststar.ch/c0/fb/c0fb020f-1853-43f6-b598-6b562089f3b8.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/4Y5nWuX9KpjUeV1g9",
-          "summary": "Górski bar Hexenkessl w Pitztal serwujący tradycyjne austriackie dania na stoku narciarskim."
+          "image": "/images/hexenkessl-almbar-pitztal.jpg"
         }
       ]
     },
@@ -15787,10 +15778,9 @@
           "address": "Obala kralja Petra Krešimira IV 2, 23000, Zadar, Croatia",
           "country": "Chorwacja",
           "type": "art_culture",
-          "image": "https://mindtrip.ai/cdn-cgi/image/format=webp,w=720/https://images.mindtrip.ai/attractions/0916/bb9a/8641/bc3d/b1ed/f8df/048a/ebdc",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/LBtnd9ietjwdG3xk9",
-          "summary": "Fragmenty średniowiecznych murów obronnych cytadeli chroniących historyczne centrum Zadaru."
+          "image": "/images/grudobran-citadela.jpg"
         },
         {
           "id": "brama-miejska-zadar",

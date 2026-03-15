@@ -10,7 +10,8 @@
     "sitemap": "next-sitemap",
     "parse-location": "cd scripts/location-parser && npx ts-node src/index.ts",
     "parse-video": "cd scripts/video-parser && npx ts-node src/index.ts",
-    "backfill-websites": "node scripts/backfill-websites.js"
+    "backfill-websites": "node scripts/backfill-websites.js",
+    "check-images": "node scripts/check-images.js"
   },
   "dependencies": {
     "@google/genai": "^0.10.0",
