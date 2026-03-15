@@ -1885,10 +1885,9 @@
           "address": "Carrera 2 #32-50, Calle del Triunfo, El Centro, Provincia de Cartagena, Bolívar",
           "country": "Kolumbia",
           "type": "hotel",
-          "image": "https://www.movichhotels.com/storage/2025/09/movich-ctg-01-1.webp",
           "websiteUrl": "https://www.movichhotels.com/cartagena",
           "GoogleMapsLink": "https://maps.app.goo.gl/ZXCPp3Q1MeTtWkn28",
-          "summary": "Butikowy hotel w centrum historycznej Kartageny z tarasową restauracją z widokiem na miasto."
+          "image": "/images/hotel-movich-cartagena-de-indias.jpg"
         }
       ]
     },

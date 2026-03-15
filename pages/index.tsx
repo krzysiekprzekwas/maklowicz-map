@@ -211,6 +211,7 @@ export default function Home() {
             leftPanelWidth={isMobile ? 0 : 384}
             flyToLocation={flyToLocation}
             onFlyToComplete={() => setFlyToLocation(null)}
+            rightPanelWidth={isMobile ? 0 : 384}
           />
 
           {/* Mobile list overlay — fades in over map */}

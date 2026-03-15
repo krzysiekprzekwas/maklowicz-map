@@ -34,6 +34,7 @@ interface MapProps {
     leftPanelWidth?: number;
     flyToLocation?: Location | null;
     onFlyToComplete?: () => void;
+    rightPanelWidth?: number;
 }
 
 // Tracks the pixel position of previewLocation as the map pans/zooms.
@@ -103,11 +104,17 @@ const PreviewPanner: React.FC<{ location: Location | null }> = ({ location }) =>
     return null;
 };
 
-const LocationFlyTo: React.FC<{ location: Location | null; onComplete: () => void }> = ({ location, onComplete }) => {
+const LocationFlyTo: React.FC<{ location: Location | null; rightPanelWidth: number; onComplete: () => void }> = ({ location, rightPanelWidth, onComplete }) => {
     const map = useMap();
     React.useEffect(() => {
         if (!location) return;
-        map.flyTo([location.latitude, location.longitude], 14, { animate: true, duration: 1 });
+        const zoom = 14;
+        // Offset the target point leftward by half the right panel width so the
+        // pin lands in the centre of the visible map area, not behind the panel.
+        const targetPt = map.project([location.latitude, location.longitude], zoom);
+        targetPt.x += rightPanelWidth / 2;
+        const adjustedLatLng = map.unproject(targetPt, zoom);
+        map.flyTo(adjustedLatLng, zoom, { animate: true, duration: 1 });
         onComplete();
     }, [location]);
     return null;
@@ -145,6 +152,7 @@ const Map: React.FC<MapProps> = React.memo(({
     leftPanelWidth = 0,
     flyToLocation,
     onFlyToComplete,
+    rightPanelWidth = 0,
 }) => {
     const { getIcon } = useIconCache();
     const [isMobile, setIsMobile] = React.useState(() => isMobileDevice());
@@ -259,7 +267,7 @@ const Map: React.FC<MapProps> = React.memo(({
                     onPositionUpdate={handlePositionUpdate}
                 />
                 <ChangeView zoomLocations={zoomLocations ?? locations} leftPanelWidth={leftPanelWidth} />
-                <LocationFlyTo location={flyToLocation ?? null} onComplete={onFlyToComplete ?? (() => {})} />
+                <LocationFlyTo location={flyToLocation ?? null} rightPanelWidth={rightPanelWidth} onComplete={onFlyToComplete ?? (() => {})} />
                 <PreviewPanner location={previewLocation} />
                 {userLat != null && userLng != null && (
                     <Marker
