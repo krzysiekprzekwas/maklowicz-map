@@ -21,7 +21,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/dGKGAUDH9SoaWhwj9",
-          "image": "/images/chiesa-della-badia-di-sant-agata.jpg"
+          "image": "/images/chiesa-della-badia-di-sant-agata.jpg",
+          "summary": "Barokowy kościół z XVII wieku poświęcony patronce Katanii, św. Agacie."
         },
         {
           "id": "via-etnea-catania-ct-w-ochy",
@@ -34,7 +35,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/ZemiHdEP3SiFhHN56",
-          "image": "/images/via-etnea-catania-ct-w-ochy.jpg"
+          "image": "/images/via-etnea-catania-ct-w-ochy.jpg",
+          "summary": "Główna ulica Katanii ciągnąca się ku Etnie, serce barokowej odbudowy miasta."
         },
         {
           "id": "fontana-dell-elefante-u-liotru",
@@ -47,7 +49,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/S5XXjzuycKo6dny97",
-          "image": "/images/fontana-dell-elefante-u-liotru.jpg"
+          "image": "/images/fontana-dell-elefante-u-liotru.jpg",
+          "summary": "Symbol Katanii – fontanna z figurą słonia wykutego z czarnej lawy wulkanicznej."
         },
         {
           "id": "fontana-dell-amenano",
@@ -60,7 +63,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/UnyCVsf54zkcs8uE8",
-          "image": "/images/fontana-dell-amenano.jpg"
+          "image": "/images/fontana-dell-amenano.jpg",
+          "summary": "Neoklasycystyczna fontanna z 1867 roku przy katańskim targu rybnym."
         },
         {
           "id": "catania-fish-market",
@@ -73,7 +77,8 @@
           "type": "shopping",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/KagbntqCZW4cCCbBA",
-          "image": "/images/catania-fish-market.jpg"
+          "image": "/images/catania-fish-market.jpg",
+          "summary": "Historyczny targ rybny w sercu Katanii, tętniący życiem od wieków."
         },
         {
           "id": "mm-trattoria",
@@ -86,7 +91,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/9Caprjzdz3voqdwf6",
-          "image": "/images/mm-trattoria.jpg"
+          "image": "/images/mm-trattoria.jpg",
+          "summary": "Trattoria w Katanii serwująca tradycyjne sycylijskie dania."
         },
         {
           "id": "prestipino-cafe",
@@ -99,7 +105,8 @@
           "type": "cafe",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/mAu3PrGYUX6bD6cN9",
-          "image": "/images/prestipino-cafe.jpg"
+          "image": "/images/prestipino-cafe.jpg",
+          "summary": "Historyczna kawiarnia w Katanii działająca nieprzerwanie od 1860 roku."
         },
         {
           "id": "teatro-massimo-bellini",
@@ -112,7 +119,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/TPe1iUW4yR2ExCjQ8",
-          "image": "/images/teatro-massimo-bellini.jpg"
+          "image": "/images/teatro-massimo-bellini.jpg",
+          "summary": "Opera w Katanii otwarta w 1890 roku, hołd dla kompozytora Vincenza Belliniego."
         },
         {
           "id": "willa-bellini",
@@ -125,7 +133,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/VY6sfowYnKAL5HTA7",
-          "image": "/images/willa-bellini.jpg"
+          "image": "/images/willa-bellini.jpg",
+          "summary": "Zabytkowy park miejski w Katanii z malowniczymi ogrodami i widokami."
         },
         {
           "id": "artemisia-caffetteria-bistro",
@@ -138,12 +147,13 @@
           "type": "cafe",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/qbYQjX2LxdCQkVqh8",
-          "image": "/images/artemisia-caffetteria-bistro.jpg"
+          "image": "/images/artemisia-caffetteria-bistro.jpg",
+          "summary": "Kawiarnia-bistro w Katanii łącząca sycylijską tradycję z nowoczesnością."
         },
         {
           "id": "u-sapuritu",
           "name": "U Sapuritu",
-          "description": "W Palermo, gdzie słońce hojnie obdarza ziemię, a historia szepta z każdego kamienia, odnajdziemy U Sapuritu – miejsce, które z dumą pielęgnuje esencję sycylijskiej gościnności. Tu, gdzie każdy kęs to opowieść o wyspie, smaki Morza Śródziemnego splatają się z dziedzictwem kultur, które przez wieki kształtowały Palermo – od arabskich przypraw po normańską solidność. To właśnie w takich miejscach człowiek uświadamia sobie, że prawdziwe \"sapuritu\" to nie tylko smak na języku, ale i cała magia otoczenia, która sprawia, że życie staje się po prostu... smaczniejsze.",
+          "description": "W Katanii, gdzie słońce hojnie obdarza ziemię, a historia szepta z każdego kamienia, odnajdziemy U Sapuritu – miejsce, które z dumą pielęgnuje esencję sycylijskiej gościnności. Tu, gdzie każdy kęs to opowieść o wyspie, smaki Morza Śródziemnego splatają się z dziedzictwem kultur, które przez wieki kształtowały Palermo – od arabskich przypraw po normańską solidność. To właśnie w takich miejscach człowiek uświadamia sobie, że prawdziwe \"sapuritu\" to nie tylko smak na języku, ale i cała magia otoczenia, która sprawia, że życie staje się po prostu... smaczniejsze.",
           "latitude": 37.50855561950953,
           "longitude": 15.084952712059023,
           "address": "Via Nino Martoglio, 21, 95124 Catania CT, Italy",
@@ -151,7 +161,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/PpE9AAfxBCv5yugTA",
-          "image": "/images/u-sapuritu.jpg"
+          "image": "/images/u-sapuritu.jpg",
+          "summary": "Restauracja w Katanii pielęgnująca esencję sycylijskiej kuchni i gościnności."
         }
       ]
     },
@@ -1822,7 +1833,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/myv6TWG5WAp4vLuS9",
-          "image": "https://www.theviewpalm.ae/sites/default/files/ewkutxqfbcv5yl0mts4k.webp"
+          "image": "https://www.theviewpalm.ae/sites/default/files/ewkutxqfbcv5yl0mts4k.webp",
+          "summary": "Przeszklony taras widokowy z panoramą na Wyspy Palmowe i zatokę."
         }
       ]
     },
@@ -2041,7 +2053,8 @@
           "type": "hotel",
           "websiteUrl": "https://www.movichhotels.com/cartagena",
           "GoogleMapsLink": "https://maps.app.goo.gl/ZXCPp3Q1MeTtWkn28",
-          "image": "/images/hotel-movich-cartagena-de-indias.jpg"
+          "image": "/images/hotel-movich-cartagena-de-indias.jpg",
+          "summary": "Klimatyczny hotel w centrum Kartageny z restauracją na dachu."
         }
       ]
     },
@@ -2312,7 +2325,8 @@
           "type": "cafe",
           "websiteUrl": "https://mokka.coffee/",
           "GoogleMapsLink": "https://maps.app.goo.gl/agPSJwr9SGHUDqxF9",
-          "image": "/images/mokka-specialty-coffee-s-a.jpg"
+          "image": "/images/mokka-specialty-coffee-s-a.jpg",
+          "summary": "Ateńska kawiarnia speciality serwująca kawę parzoną tradycyjnie na piasku."
         },
         {
           "id": "stani",
@@ -3967,7 +3981,8 @@
           "type": "restaurant",
           "websiteUrl": "https://www.facebook.com/hanoigrill/",
           "GoogleMapsLink": "https://maps.app.goo.gl/DY6zc8kMaHDwWu5B6",
-          "image": "/images/hanoi-grill.jpg"
+          "image": "/images/hanoi-grill.jpg",
+          "summary": "Wietnamska restauracja w Warszawie z autentycznymi smakami Hanoi."
         },
         {
           "id": "oh-my-pho",
@@ -4172,7 +4187,8 @@
           "type": "art_culture",
           "websiteUrl": "https://whc.unesco.org/en/list/1259",
           "GoogleMapsLink": "https://maps.app.goo.gl/7e86oNZ2bgT3fYfBA",
-          "image": "/images/le-morne-world-heritage-site.jpg"
+          "image": "/images/le-morne-world-heritage-site.jpg",
+          "summary": "Góra na Mauritiusie wpisana na listę UNESCO, symbol walki z niewolnictwem."
         },
         {
           "id": "rhumerie-de-chamarel-restaurant-rum-distillery",
@@ -6427,7 +6443,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/qh8Ru3uMa1srburC8",
-          "image": "/images/vidikovac-kamenjak.jpg"
+          "image": "/images/vidikovac-kamenjak.jpg",
+          "summary": "Punkt widokowy na przylądku Kamenjak z panoramą na Adriatyk."
         },
         {
           "id": "church-of-the-all-saints",
@@ -6604,7 +6621,8 @@
           "type": "nature",
           "websiteUrl": "http://www.pvdp.hr/",
           "GoogleMapsLink": "https://maps.app.goo.gl/P6bhkGhodJxDyj3R9",
-          "image": "/images/trsteno-arboretum.jpg"
+          "image": "/images/trsteno-arboretum.jpg",
+          "summary": "Arboretum z końca XV wieku na chorwackim wybrzeżu, jedno z najstarszych w Europie."
         },
         {
           "id": "vidikovac-lozica",
@@ -6699,7 +6717,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/r1QvKENEoGXhrBFS6",
-          "image": "/images/zvijezda-mora.jpg"
+          "image": "/images/zvijezda-mora.jpg",
+          "summary": "Nadmorska atrakcja na chorwackim wybrzeżu – „Gwiazda Morza”."
         }
       ]
     },
@@ -7042,7 +7061,8 @@
           "type": "shopping",
           "websiteUrl": "https://www.pearselyonsdistillery.com/",
           "GoogleMapsLink": "https://maps.app.goo.gl/Fo5JBnb6WvrHdoBH8",
-          "image": "/images/pearse-lyons-whiskey-distillery.jpg"
+          "image": "/images/pearse-lyons-whiskey-distillery.jpg",
+          "summary": "Destylarnia whiskey w Dublinie mieszcząca się w odrestaurowanym kościele św. Jakuba."
         },
         {
           "id": "muzeum-browaru-guinnessa",
@@ -7554,7 +7574,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/NEYpUg8wJK3EnTg1A",
-          "image": "/images/wenecka-forteca.jpg"
+          "image": "/images/wenecka-forteca.jpg",
+          "summary": "Wenecka twierdza na Krecie, świadectwo panowania Republiki Weneckiej."
         },
         {
           "id": "fontanna-wenecka-rimondi",
@@ -8063,7 +8084,8 @@
           "type": "art_culture",
           "websiteUrl": "http://roman-amphitheater.blogspot.com/",
           "GoogleMapsLink": "https://maps.app.goo.gl/4bqN1Z3h5VuJtiEh8",
-          "image": "/images/teatr-rzymski.jpg"
+          "image": "/images/teatr-rzymski.jpg",
+          "summary": "Monumentalny amfiteatr z II wieku w centrum Ammanu, doskonale zachowany."
         },
         {
           "id": "souq-al-sukar",
@@ -8197,7 +8219,8 @@
           "type": "art_culture",
           "websiteUrl": "http://www.kalwaria.eu/",
           "GoogleMapsLink": "https://maps.app.goo.gl/UmaFd66HruyLu7CK7",
-          "image": "/images/klasztor-oo-bernardynow.jpg"
+          "image": "/images/klasztor-oo-bernardynow.jpg",
+          "summary": "Zabytkowy klasztor z XV wieku w Beskidach, perła sakralnej architektury."
         },
         {
           "id": "cmentarz-wojenny-z-i-wojny-swiatowej-1915-r",
@@ -8304,7 +8327,8 @@
           "type": "hotel",
           "websiteUrl": "http://www.facebook.com/banaothongandmyfriend",
           "GoogleMapsLink": "https://maps.app.goo.gl/oJYfNcGPyqKJgUKH7",
-          "image": "/images/ban-ao-thong.jpg"
+          "image": "/images/ban-ao-thong.jpg",
+          "summary": "Kameralny hotel nad zatoką w otoczeniu wapiennych skał tajlandzkiego wybrzeża."
         },
         {
           "id": "trang-clock-tower",
@@ -8619,7 +8643,8 @@
           "type": "shopping",
           "websiteUrl": "http://www.highsiam.com/",
           "GoogleMapsLink": "https://maps.app.goo.gl/8UxaTzkWiCN5CoBLA",
-          "image": "/images/highsiam-railay-weed-shop-cannabis-dispensary.jpg"
+          "image": "/images/highsiam-railay-weed-shop-cannabis-dispensary.jpg",
+          "summary": "Sklep z legalnymi produktami konopnymi na plaży Railay w Tajlandii."
         },
         {
           "id": "family-thaifood-seafood",
@@ -8686,7 +8711,8 @@
           "type": "art_culture",
           "websiteUrl": "https://www.facebook.com/iglesiadeplayadelcarmen/",
           "GoogleMapsLink": "https://maps.app.goo.gl/mX5nQosSyWYNPJkbA",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Capilla_de_Nuestra_Señora_del_Carmen_%28Playa_del_Carmen%2C_QR%29_-_sanctuary.jpg"
+          "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Capilla_de_Nuestra_Señora_del_Carmen_%28Playa_del_Carmen%2C_QR%29_-_sanctuary.jpg",
+          "summary": "Urokliwa kaplica w Playa del Carmen poświęcona Matce Boskiej z Góry Karmel."
         },
         {
           "id": "quinta-avenida-playa-del-carmen-q-r-meksyk",
@@ -8699,7 +8725,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/M9RK2hKQddU6GMVA7",
-          "image": "/images/quinta-avenida-playa-del-carmen-q-r-meksyk.jpg"
+          "image": "/images/quinta-avenida-playa-del-carmen-q-r-meksyk.jpg",
+          "summary": "Tętniący życiem deptak w Playa del Carmen pełen restauracji i sklepów."
         }
       ]
     },
@@ -9370,7 +9397,8 @@
           "type": "restaurant",
           "websiteUrl": "http://hexenkessl.at/",
           "GoogleMapsLink": "https://maps.app.goo.gl/4Y5nWuX9KpjUeV1g9",
-          "image": "/images/hexenkessl-almbar-pitztal.jpg"
+          "image": "/images/hexenkessl-almbar-pitztal.jpg",
+          "summary": "Górski bar-restauracja „Czarci Kocioł” w dolinie Pitztal w austriackich Alpach."
         }
       ]
     },
@@ -10135,7 +10163,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/9aR2hvXNmpQv2MiC7",
-          "image": "/images/sveti-stefan-czarnogora.jpg"
+          "image": "/images/sveti-stefan-czarnogora.jpg",
+          "summary": "Malownicza wysepka-kurort na czarnogórskim wybrzeżu, dawna wioska rybacka z XV wieku."
         },
         {
           "id": "jezioro-szkoderskie",
@@ -10611,7 +10640,8 @@
           "type": "hotel",
           "websiteUrl": "http://www.bellagiosilvio.com/",
           "GoogleMapsLink": "https://maps.app.goo.gl/Jj9QdTGDHkmugXSBA",
-          "image": "/images/hotel-silvio.jpg"
+          "image": "/images/hotel-silvio.jpg",
+          "summary": "Włoski hotel nad jeziorem Como z tradycyjną atmosferą i widokami na jezioro."
         }
       ]
     },
@@ -13132,7 +13162,8 @@
           "type": "shopping",
           "websiteUrl": "https://www.norcineriaansuini.it/menu/",
           "GoogleMapsLink": "https://maps.app.goo.gl/HbGX1e2nUDVfWhPF7",
-          "image": "/images/norcineria-ansuini-brothers-mastro-peppe.jpg"
+          "image": "/images/norcineria-ansuini-brothers-mastro-peppe.jpg",
+          "summary": "Tradycyjne delikatesy w Umbrii specjalizujące się w lokalnych wędlinach i specjałach."
         }
       ]
     },
@@ -15931,7 +15962,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/LBtnd9ietjwdG3xk9",
-          "image": "/images/grudobran-citadela.jpg"
+          "image": "/images/grudobran-citadela.jpg",
+          "summary": "Pozostałości weneckiej cytadeli w Zadarze, świadek burzliwej historii miasta."
         },
         {
           "id": "brama-miejska-zadar",
