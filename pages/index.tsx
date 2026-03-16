@@ -10,7 +10,7 @@ import { LocationDetails } from '../components/location/LocationDetails';
 import { LocationList } from '../components/location/LocationList';
 import { ViewToggle } from '../components/ViewToggle';
 import type { Location as MapLocation } from '../types/Location';
-import { trackLocationSelect, trackCountryFilter, trackTypeFilter, trackNearbySearch, trackViewToggle, trackShowOnMap } from '../src/lib/analytics';
+import { trackLocationSelect, trackCountryFilter, trackTypeFilter, trackNearbySearch, trackViewToggle, trackShowOnMap, trackLocationPreview } from '../src/lib/analytics';
 
 const Map = dynamic(() => import('../components/map/Map'), {
   ssr: false,
@@ -91,6 +91,7 @@ export default function Home() {
   }, [setSelectedLocation, setPreviewLocation]);
 
   const handleLocationPreview = React.useCallback((loc: MapLocation) => {
+    trackLocationPreview(loc.name);
     setPreviewLocation(loc);
   }, [setPreviewLocation]);
 

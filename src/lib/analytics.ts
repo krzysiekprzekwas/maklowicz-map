@@ -23,3 +23,6 @@ export const trackOutboundLink = (destination: 'google_maps' | 'youtube', locati
 
 export const trackShowOnMap = (locationName: string) =>
   posthog.capture('show_on_map', { locationName });
+
+export const trackLocationPreview = (locationName: string) =>
+  posthog.capture('location_preview', { locationName });
