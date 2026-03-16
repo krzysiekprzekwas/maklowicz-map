@@ -10,7 +10,7 @@ import { LocationDetails } from '../components/location/LocationDetails';
 import { LocationList } from '../components/location/LocationList';
 import { ViewToggle } from '../components/ViewToggle';
 import type { Location as MapLocation } from '../types/Location';
-import { trackLocationSelect, trackCountryFilter, trackTypeFilter, trackNearbySearch, trackViewToggle } from '../src/lib/analytics';
+import { trackLocationSelect, trackCountryFilter, trackTypeFilter, trackNearbySearch, trackViewToggle, trackShowOnMap } from '../src/lib/analytics';
 
 const Map = dynamic(() => import('../components/map/Map'), {
   ssr: false,
@@ -75,6 +75,7 @@ export default function Home() {
 
   const handleShowOnMap = React.useCallback(() => {
     if (!selectedLocation) return;
+    trackShowOnMap(selectedLocation.name);
     setFlyToLocation(selectedLocation);
     if (isMobile) {
       setActiveView('map');
