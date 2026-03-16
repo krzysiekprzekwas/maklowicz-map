@@ -1,6 +1,161 @@
 {
   "videos": [
     {
+      "videoId": "02AVkYHO_-U",
+      "videoUrl": "https://www.youtube.com/watch?v=02AVkYHO_-U",
+      "title": "ROBERT MAKŁOWICZ WŁOCHY odc .185  „Słodki biust św. Agaty\".",
+      "filterTitle": "Słodki biust św. Agaty. (odc. 185)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-06-21T15:00:07Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "chiesa-della-badia-di-sant-agata",
+          "name": "Chiesa della Badia di Sant'Agata",
+          "description": "W sycylijskiej Katanii, gdzie kamień pamięta smaki minionych wieków, wznosi się Chiesa della Badia di Sant'Agata – prawdziwa perła baroku, której fasada, niczym misternie zdobiony tort, zachwyca od 1767 roku. To arcydzieło Giovanni Battisty Vaccariniego, ukończone po wielkim trzęsieniu ziemi, oferuje nie tylko ucztę dla oczu w postaci architektury, ale i widok z kopuły, który zadowoli nawet najbardziej wybrednego konesera panoramy.",
+          "latitude": 37.5029416,
+          "longitude": 15.0881405,
+          "address": "Via Vittorio Emanuele II, 182, 95131 Catania CT, Italy",
+          "country": "Włochy",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/dGKGAUDH9SoaWhwj9",
+          "image": "/images/chiesa-della-badia-di-sant-agata.jpg"
+        },
+        {
+          "id": "via-etnea-catania-ct-w-ochy",
+          "name": "Via Etnea",
+          "description": "W Katanii, Via Etnea to ulica, która niczym czarny, wulkaniczny dywan rozciąga się wprost ku majestatycznej Etnie, stanowiąc serce barokowej odbudowy miasta po trzęsieniu ziemi z 1693 roku. Wśród tych imponujących fasad, gdzie każdy kamień zdaje się opowiadać historię, z łatwością można dać się porwać zapachom sycylijskich przysmaków, od słodkiej granity po pikantne arancini, które tylko czekają, by umilić spacer.",
+          "latitude": 37.505878930408215,
+          "longitude": 15.086588859558105,
+          "address": "Salita S. Camillo, 21, 95124 Catania CT, Italy",
+          "country": "Włochy",
+          "type": "tourist_attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZemiHdEP3SiFhHN56",
+          "image": "/images/via-etnea-catania-ct-w-ochy.jpg"
+        },
+        {
+          "id": "fontana-dell-elefante-u-liotru",
+          "name": "Fontana dell'Elefante",
+          "description": "W sycylijskiej Katanii, gdzie słońce hojnie obdarza smakiem i aromatem, wznosi się niezwykła Fontana dell'Elefante, pieszczotliwie zwana „u’ Liotru”. Ten kamienny jegomość, wykuty z czarnej lawy Etny, dźwiga na swym grzbiecie egipski obelisk, a cała ta kompozycja, odtworzona przez Vaccariniego w 1736 roku, stała się sercem miasta i jego niezmiennym symbolem. Patrząc na niego, aż chce się usiąść w cieniu i delektować smakiem arancini, zastanawiając się, ileż to historii widział ten dostojny zwierz.",
+          "latitude": 37.502482929167755,
+          "longitude": 15.086905360221865,
+          "address": "Piazza del Duomo, 11/12/13, 95124 Catania CT, Italy",
+          "country": "Włochy",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/S5XXjzuycKo6dny97",
+          "image": "/images/fontana-dell-elefante-u-liotru.jpg"
+        },
+        {
+          "id": "fontana-dell-amenano",
+          "name": "Fontana dell’Amenano",
+          "description": "Oto, proszę państwa, w sercu sycylijskiej Katanii, tuż obok gwarnego targu, gdzie świeże ryby kuszą zapachem, znajdziemy Fontanę dell’Amenano. Ta neoklasycystyczna piękność z 1867 roku to prawdziwy fenomen, bowiem wypływa z niej rzeka Amenano, która przez większość swej drogi płynie pod ziemią, niczym ukryty skarb. Woda, spływająca tu niczym białe prześcieradło, nie tylko orzeźwia, ale i opowiada cichą historię miasta, które od wieków czerpało z niej życie.",
+          "latitude": 37.502019052345695,
+          "longitude": 15.08700728416443,
+          "address": "Via Giuseppe Garibaldi, 1, 95121 Catania CT, Italy",
+          "country": "Włochy",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/UnyCVsf54zkcs8uE8",
+          "image": "/images/fontana-dell-amenano.jpg"
+        },
+        {
+          "id": "catania-fish-market",
+          "name": "Catania Fish Market",
+          "description": "W samym sercu sycylijskiej Catanii, tuż za katedrą, od wieków pulsuje miejsce tak niezwykłe jak słynny targ rybny. Od setek lat, w labiryncie uliczek, rozbrzmiewają tu okrzyki sprzedawców, oferujących świeżo złowione skarby Morza Śródziemnego, tworząc niezapomniany spektakl smaków i zapachów. Prawdziwa gratka dla podniebienia i oka, gdzie nawet najbardziej wybredny koneser znajdzie coś dla siebie, by potem móc z dumą przygotować sycylijską ucztę.",
+          "latitude": 37.501674334675556,
+          "longitude": 15.086733698844911,
+          "address": "Piazza Alonzo di Benedetto, 19, 95121 Catania CT, Italy",
+          "country": "Włochy",
+          "type": "shopping",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/KagbntqCZW4cCCbBA",
+          "image": "/images/catania-fish-market.jpg"
+        },
+        {
+          "id": "mm-trattoria",
+          "name": "mm!! Trattoria",
+          "description": "Oto Włochy, gdzie każda uliczka kryje kulinarną obietnicę, a \"mm!! Trattoria\" jawi się jako nie lada gratka dla podniebienia. W jej murach, być może pamiętających czasy, gdy życie toczyło się niespiesznie, tradycja włoskiej kuchni zyskuje współczesny, acz bezpretensjonalny sznyt, a każdy kęs to mała podróż przez smaki regionu. Z pewnością niejeden koneser, w tym i nasz podróżnik, z zadowoleniem mruknąłby \"mm!!\" po skosztowaniu tutejszych specjałów.",
+          "latitude": 37.50125726672479,
+          "longitude": 15.086824893951418,
+          "address": "V. Gisira, 70, 95121 Catania CT, Italy",
+          "country": "Włochy",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/9Caprjzdz3voqdwf6",
+          "image": "/images/mm-trattoria.jpg"
+        },
+        {
+          "id": "prestipino-cafe",
+          "name": "Prestipino Cafè",
+          "description": "W sycylijskiej Katanii, gdzie historia od wieków wyznacza rytm życia, od 1860 roku dumnie stoi Prestipino Cafè. To prawdziwa enklawa smaku, gdzie czas zdaje się zwalniać przy filiżance doskonałego espresso, a sycylijskie specjały, od orzeźwiającej granity po wyborne arancini, opowiadają historię wyspy lepiej niż niejeden przewodnik.",
+          "latitude": 37.503661759132534,
+          "longitude": 15.084829330444338,
+          "address": "Via Rotonda, 12, 95124 Catania CT, Italy",
+          "country": "Włochy",
+          "type": "cafe",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/mAu3PrGYUX6bD6cN9",
+          "image": "/images/prestipino-cafe.jpg"
+        },
+        {
+          "id": "teatro-massimo-bellini",
+          "name": "Teatro Massimo Bellini",
+          "description": "W Catanii, gdzie słońce hojnie obdarza ziemię, a smak sycylijskich cytrusów kusi podniebienia, stoi gmach, który sam w sobie jest symfonią. To słynne Teatro Massimo Bellini, otwarte w 1890 roku, hołd złożony wielkiemu kompozytorowi, którego nuty wciąż unoszą się w powietrzu, niczym aromat świeżo parzonej kawy po udanym spektaklu.",
+          "latitude": 37.50426180622602,
+          "longitude": 15.090408325195314,
+          "address": "Via Crociferi, 36, 95124 Catania CT, Italy",
+          "country": "Włochy",
+          "type": "tourist_attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/TPe1iUW4yR2ExCjQ8",
+          "image": "/images/teatro-massimo-bellini.jpg"
+        },
+        {
+          "id": "willa-bellini",
+          "name": "Willa Bellini",
+          "description": "Willa Bellini, gdzieś w sercu słonecznych Włoch, to prawdziwa perła, której nazwa być może szepcze o dawnych melodiach, ale to, co naprawdę gra tu pierwsze skrzypce, to symfonia smaków i widoków. Ponoć mury tej urokliwej posiadłości, pamiętające niejedną epokę, były świadkiem niezliczonych biesiad, gdzie proste, lokalne składniki zamieniały się w prawdziwe arcydzieła na talerzu, a wszystko to w otoczeniu, które sprawia, że nawet najzwyklejszy makaron smakuje jak ambrozja.",
+          "latitude": 37.5105986,
+          "longitude": 15.084408,
+          "address": "Centro, 95124, 95124 Catania CT, Italy",
+          "country": "Włochy",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/VY6sfowYnKAL5HTA7",
+          "image": "/images/willa-bellini.jpg"
+        },
+        {
+          "id": "artemisia-caffetteria-bistro",
+          "name": "Artemisia Caffetteria Bistrò",
+          "description": "Włochy, kraina, gdzie nawet najzwyklejszy kamień ma swoją opowieść, a kulinarna tradycja jest niemalże religią, skrywają takie perełki jak Artemisia Caffetteria Bistrò. To miejsce, choć na pierwszy rzut oka skromne, urzeka niezobowiązującą elegancją i smakami, które z gracją łączą lokalne dziedzictwo z nowoczesnym podejściem do kuchni. Prawdziwa gratka dla podniebienia i ducha, gdzie każda filiżanka kawy czy kęs potrawy to mała celebracja życia, jak to we Włoszech bywa.",
+          "latitude": 37.5112747650074,
+          "longitude": 15.08727550506592,
+          "address": "Via Etnea, 227, 95125 Catania CT, Italy",
+          "country": "Włochy",
+          "type": "cafe",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/qbYQjX2LxdCQkVqh8",
+          "image": "/images/artemisia-caffetteria-bistro.jpg"
+        },
+        {
+          "id": "u-sapuritu",
+          "name": "U Sapuritu",
+          "description": "W Palermo, gdzie słońce hojnie obdarza ziemię, a historia szepta z każdego kamienia, odnajdziemy U Sapuritu – miejsce, które z dumą pielęgnuje esencję sycylijskiej gościnności. Tu, gdzie każdy kęs to opowieść o wyspie, smaki Morza Śródziemnego splatają się z dziedzictwem kultur, które przez wieki kształtowały Palermo – od arabskich przypraw po normańską solidność. To właśnie w takich miejscach człowiek uświadamia sobie, że prawdziwe \"sapuritu\" to nie tylko smak na języku, ale i cała magia otoczenia, która sprawia, że życie staje się po prostu... smaczniejsze.",
+          "latitude": 37.50855561950953,
+          "longitude": 15.084952712059023,
+          "address": "Via Nino Martoglio, 21, 95124 Catania CT, Italy",
+          "country": "Włochy",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/PpE9AAfxBCv5yugTA",
+          "image": "/images/u-sapuritu.jpg"
+        }
+      ]
+    },
+    {
       "videoId": "TWHwhPkIeTg",
       "videoUrl": "https://www.youtube.com/watch?v=TWHwhPkIeTg",
       "title": "ROBERT MAKŁOWICZ POLSKA odc.184  „Paprykarz w stolicy Gryfitów\".",
@@ -6449,8 +6604,7 @@
           "type": "nature",
           "websiteUrl": "http://www.pvdp.hr/",
           "GoogleMapsLink": "https://maps.app.goo.gl/P6bhkGhodJxDyj3R9",
-          "image": "https://excursionmania.com/cdn-cgi/image/quality=75,format=webp,w=auto,h=auto,fit=scale-down,trim=border/https://excursionmania.com/uploads/blog/gallery/1253/17369424644.jpg",
-          "summary": "Jedno z najstarszych arboretów świata w Trsteno, założone przez dubrownicką szlachtę w XV w."
+          "image": "/images/trsteno-arboretum.jpg"
         },
         {
           "id": "vidikovac-lozica",
@@ -6888,8 +7042,7 @@
           "type": "shopping",
           "websiteUrl": "https://www.pearselyonsdistillery.com/",
           "GoogleMapsLink": "https://maps.app.goo.gl/Fo5JBnb6WvrHdoBH8",
-          "image": "https://www.whisky.com/fileadmin/web_data/irland/Pearse_Lyons/Pearse_Lyons_Distillery.jpg",
-          "summary": "Destylarnia whiskey w zabytkowym kościele w Dublinie produkująca rzemieślnicze single malt."
+          "image": "/images/pearse-lyons-whiskey-distillery.jpg"
         },
         {
           "id": "muzeum-browaru-guinnessa",
@@ -8379,7 +8532,7 @@
       "videoId": "3i1lvY3kJpg",
       "videoUrl": "https://www.youtube.com/watch?v=3i1lvY3kJpg",
       "title": "ROBERT MAKŁOWICZ  TAJLANDIA odc.120 „Uroki andamańskich plaż”.",
-      "filterTitle": "Uroki andamańskich plaż”. (odc. 120)",
+      "filterTitle": "Uroki andamańskich plaż. (odc. 120)",
       "playlistId": "",
       "playlistTitle": "",
       "date": "2023-02-03T16:00:09Z",
@@ -8465,9 +8618,8 @@
           "country": "Tajlandia",
           "type": "shopping",
           "websiteUrl": "http://www.highsiam.com/",
-          "image": "https://smokingcannabisthailand.com/wp-content/uploads/2024/07/AF1QipMNXC4C7qeB7DC1n3PSHDgIhL-naO43XSICUk9ww800-h500-k-no.jpeg",
           "GoogleMapsLink": "https://maps.app.goo.gl/8UxaTzkWiCN5CoBLA",
-          "summary": "Legalny sklep z konopiami indiańskimi na Railay Beach, jeden z punktów tej branży w Tajlandii."
+          "image": "/images/highsiam-railay-weed-shop-cannabis-dispensary.jpg"
         },
         {
           "id": "family-thaifood-seafood",
@@ -12978,10 +13130,9 @@
           "address": "Via Roma, 1A, 06046 Norcia PG, Italy",
           "country": "Włochy",
           "type": "shopping",
-          "image": "https://www.norcineriaansuini.it/wp-content/uploads/2012/04/ansuini-norcineria.jpg",
           "websiteUrl": "https://www.norcineriaansuini.it/menu/",
           "GoogleMapsLink": "https://maps.app.goo.gl/HbGX1e2nUDVfWhPF7",
-          "summary": "Norcineria Ansuini w Nursji ze specjałami tradycyjnej norczyńskiej wędliniarki: salami i prosciutto."
+          "image": "/images/norcineria-ansuini-brothers-mastro-peppe.jpg"
         }
       ]
     },
