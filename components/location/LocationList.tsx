@@ -176,7 +176,7 @@ export function LocationList({
                   type="text"
                   readOnly={locationStatus === 'loading' || locationStatus === 'granted'}
                   className="flex-1 text-sm text-primary outline-none bg-transparent placeholder-gray-400"
-                  placeholder="Szukaj w pobliżu mojej lokalizacji"
+                  placeholder="Szukaj w danym regionie"
                   value={
                     locationStatus === 'loading' ? 'Uzyskiwanie lokalizacji…' :
                     locationStatus === 'granted' ? 'Moja lokalizacja' :
