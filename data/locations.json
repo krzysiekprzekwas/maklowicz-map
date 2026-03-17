@@ -1,6 +1,130 @@
 {
   "videos": [
     {
+      "videoId": "CDlJd5x0iJc",
+      "videoUrl": "https://www.youtube.com/watch?v=CDlJd5x0iJc",
+      "title": "ROBERT MAKŁOWICZ WŁOCHY odc.186  „Don Vito i Biały Lotos\".",
+      "filterTitle": "Don Vito i Biały Lotos. (odc. 186)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-06-28T15:00:08Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "koscio-pw-sw-katarzyny-aleksandryjskiej",
+          "name": "Kościół pw. św. Katarzyny Aleksandryjskiej",
+          "description": "Oto Kościół pw. św. Katarzyny Aleksandryjskiej, gdzieś w sercu słonecznej Italii – prawdziwa perła, która niczym starannie dojrzewające wino, przez wieki nabierała szlachetności i głębi. Każdy kamień tej budowli, prawdopodobnie pamiętającej odległe stulecia, opowiada smakowitą historię sztuki i duchowości, stanowiąc ucztę dla oczu i ducha. Po takiej wizycie człowiek czuje, że nie tylko dusza, ale i apetyt na piękno zostały w pełni nasycone.",
+          "latitude": 37.8538059,
+          "longitude": 15.2882219,
+          "address": "Via Fratelli Ingegnere, 12, 98039 Taormina ME, Italy",
+          "country": "Włochy",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/2zGXsZz4mfppBSgr7",
+          "image": "/images/koscio-pw-sw-katarzyny-aleksandryjskiej.jpg",
+          "summary": "Zabytkowy kościół w sercu Taorminy, perła sycylijskiej architektury sakralnej."
+        },
+        {
+          "id": "corso-umberto-98039-taormina-me-w-ochy",
+          "name": "Corso Umberto",
+          "description": "Corso Umberto w Taorminie to nic innego jak pulsujące serce tego sycylijskiego klejnotu, gdzie historia, niczym dobra oliwa, przesiąka każdy kamień. Spacerując tą elegancką arterią, która od wieków łączy dwie bramy miasta, można nie tylko podziwiać zapierające dech w piersiach widoki, ale i oddać się słodkiej pokusie lokalnych przysmaków, delektując się każdą chwilą niczym wybornym winem. To tutaj, wśród zabytkowych fasad i gwaru kawiarni, czas zdaje się płynąć wolniej, zapraszając do niespiesznego chłonięcia śródziemnomorskiej atmosfery.",
+          "latitude": 37.8516818,
+          "longitude": 15.2840677,
+          "address": "Corso Umberto, 15, 98039 Taormina ME, Italy",
+          "country": "Włochy",
+          "type": "shopping",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/qkYMQooABpEEQnnP6",
+          "image": "/images/corso-umberto-98039-taormina-me-w-ochy.jpg",
+          "summary": "Główny deptak Taorminy z zabytkowymi fasadami, kawiarniami i widokiem na morze."
+        },
+        {
+          "id": "belvedere-di-taormina",
+          "name": "Belvedere di Taormina",
+          "description": "Z Belvedere di Taormina roztacza się widok, który sam w sobie jest niczym wykwintne danie główne, serwowane od wieków. Patrząc na błękit Morza Jońskiego i majestatyczną Etnę, nawet najbardziej zatwardziały sceptyk zapomniałby o codziennych troskach, a z pewnością chętnie sięgnąłby po kieliszek lokalnego wina, by uczcić ten niebagatelny spektakl natury i historii. To miejsce, gdzie czas płynie wolniej, a każdy kęs i każdy oddech smakują wyjątkowo.",
+          "latitude": 37.85147567194626,
+          "longitude": 15.285721421241762,
+          "address": "Via Roma, 31, 98039 Taormina ME, Italy",
+          "country": "Włochy",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/b9UG7Ho7UV4j1zWSA",
+          "image": "/images/belvedere-di-taormina.jpg",
+          "summary": "Punkt widokowy w Taorminie z panoramą na Morze Jońskie i Etnę."
+        },
+        {
+          "id": "minotauro-pastry-shop",
+          "name": "Minotauro Pastry Shop",
+          "description": "W słonecznej Italii, gdzie historia miesza się z zapachem świeżo parzonej kawy i słodkich wypieków, Robert Makłowicz natrafił na miejsce o wyjątkowym charakterze – cukiernię Minotauro. W jej wnętrzu, niczym w labiryncie mitycznego Minotaura, kryją się słodkie tajemnice, pieczołowicie strzeżone przez pokolenia mistrzów cukiernictwa, którzy od wieków doskonalą swoje rzemiosło. Trudno się dziwić, że nawet najbardziej wytrawny smakosz, jak nasz podróżnik, z rozkoszą zatraca się w tych smakach, zapominając o całym świecie i oddając się czystej, słodkiej przyjemności.",
+          "latitude": 37.85365705925706,
+          "longitude": 15.288687944412233,
+          "address": "Via Circonvallazione, 29, 98039 Taormina ME, Italy",
+          "country": "Włochy",
+          "type": "cafe",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/vfC49Kw9pdT7smty7",
+          "image": "/images/minotauro-pastry-shop.jpg",
+          "summary": "Legendarna cukiernia w Taorminie słynąca z tradycyjnych sycylijskich słodkości."
+        },
+        {
+          "id": "teatro-antico-di-taormina",
+          "name": "Teatro Antico di Taormina",
+          "description": "W Taorminie, na Sycylii, Podróżnik z pewnością przystanąłby przy Teatrze Antycznym, budowli z III wieku przed naszą erą, gdzie historia pachnie i smakuje wyjątkowo. Stąd, z widokiem na dymiącą Etnę i błękitne morze, każdy spektakl staje się ucztą dla zmysłów, a opowieści starożytnych dojrzewają w słońcu niczym najlepsze sycylijskie pomarańcze.",
+          "latitude": 37.852204220129394,
+          "longitude": 15.291852951049806,
+          "address": "Via Teatro Greco, 55, 98039 Taormina ME, Italy",
+          "country": "Włochy",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/y43KwSFWcrDrR1Rd9",
+          "image": "/images/teatro-antico-di-taormina.jpg",
+          "summary": "Antyczny teatr grecki z III w. p.n.e. z widokiem na Etnę i Morze Jońskie."
+        },
+        {
+          "id": "vista-di-corleone-dal-film-il-padrino",
+          "name": "Kadr \"Corleone\" z Ojca Chrzestnego",
+          "description": "Ach, sycylijska prowincja, która na srebrnym ekranie stała się legendarnym Corleone – miejscem, gdzie włoska gościnność miesza się z dreszczem filmowych intryg. Realnie mieścina ta nosi nazwę Motta Camastra. Z tego wzgórza, wśród gajów oliwnych i zapachu świeżo parzonej kawy, można niemal poczuć ducha dawnych czasów i zastanowić się, czy aby na pewno nie czeka gdzieś na nas talerz pysznych arancini.",
+          "latitude": 37.89177220345577,
+          "longitude": 15.170016288757326,
+          "address": "Via Roma, 90, 98030 Motta Camastra ME, Italy",
+          "country": "Włochy",
+          "type": "tourist_attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/tJr8oSybfvPFebWq9",
+          "image": "/images/vista-di-corleone-dal-film-il-padrino.jpg",
+          "summary": "Motta Camastra – sycylijska miejscowość uwieczniona jako Corleone w Ojcu Chrzestnym."
+        },
+        {
+          "id": "trattoria-rapisardi",
+          "name": "Trattoria Rapisardi",
+          "description": "W sercu sycylijskiej Francavilla di Sicilia, gdzie słońce pieści kamienne mury, odnajdziemy Trattorię Rapisardi – prawdziwą kulinarną ostoję, która od dziesięcioleci karmi pokolenia autentycznymi smakami wyspy. To miejsce, gdzie czas zdaje się zwalniać, a na talerzu ląduje coś, co dla wielu może być intrygującą nowością, lecz dla Sycylijczyków to kwintesencja lokalnej tradycji i prawdziwy smak historii.",
+          "latitude": 37.90162701551068,
+          "longitude": 15.134332180023195,
+          "address": "Via Roma, 54, 98034 Francavilla di Sicilia ME, Italy",
+          "country": "Włochy",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/hw72n4DwgYrdSntR9",
+          "image": "/images/trattoria-rapisardi.jpg",
+          "summary": "Rodzinna trattoria we Francavilla di Sicilia z autentyczną kuchnią sycylijską."
+        },
+        {
+          "id": "portorosa-marina-yachting",
+          "name": "Portorosa Marina Yachting",
+          "description": "W słonecznej Italii, gdzie błękit morza spotyka się z zielenią śródziemnomorskiej roślinności, rozłożyła się Portorosa Marina Yachting – miejsce, które od lat 70. XX wieku z rozmachem kreuje własną, wodną utopię. To nie tylko luksusowe nabrzeże, ale prawdziwa oaza, gdzie zapach świeżych owoców morza miesza się z szumem fal, a wśród cumujących jachtów czuć puls współczesnej sycylijskiej gościnności, z gracją łączącej dawne tradycje z nowoczesnym komfortem.",
+          "latitude": 38.121964648372305,
+          "longitude": 15.112295150756838,
+          "address": "Complesso Turistico Portorosa, 98054 Furnari ME, Italy",
+          "country": "Włochy",
+          "type": "tourist_attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/3yp22xDi4if1CooL8",
+          "image": "/images/portorosa-marina-yachting.jpg",
+          "summary": "Luksusowa marina jachtowa na Sycylii, działająca od lat 70. XX wieku."
+        }
+      ]
+    },
+    {
       "videoId": "02AVkYHO_-U",
       "videoUrl": "https://www.youtube.com/watch?v=02AVkYHO_-U",
       "title": "ROBERT MAKŁOWICZ WŁOCHY odc .185  „Słodki biust św. Agaty\".",
@@ -15100,8 +15224,7 @@
           "type": "art_culture",
           "websiteUrl": "https://muzeumgdansk.pl/wizyta-w-muzeum-gdanska/oddzialy/",
           "GoogleMapsLink": "https://maps.app.goo.gl/gzgefpSULKyjmUjU9",
-          "image": "https://tourguideservicegdansk.pl/wp-content/uploads/2019/02/Dwór-Artusa-w-Gdańsku-Ania-Anna-Kotula-przewodnik-po-Gdansku.jpg",
-          "summary": "Gotycka siedziba bractw kupieckich na Długim Targu, dziś oddział Muzeum Gdańska ze zdobionymi wnętrzami."
+          "image": "/images/dwor-artusa-oddzia-muzeum-gdanska.jpg"
         },
         {
           "id": "bazylika-mariacka-wniebowziecia-najswietszej-maryi-panny-w-gdansku",
