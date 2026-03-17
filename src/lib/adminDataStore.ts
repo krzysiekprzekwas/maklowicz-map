@@ -1,6 +1,7 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import type { Location, LocationData, LocationType, Video } from '../../types/Location';
+import { toSlug } from './slug';
 
 const DATA_PATH = path.join(process.cwd(), 'data', 'locations.json');
 const BACKUP_PATH = path.join(process.cwd(), 'data', 'locations.backup.json');
@@ -47,12 +48,7 @@ export function flattenLocations(data: LocationData): LocationRow[] {
 }
 
 export function generateSlugId(name: string): string {
-  return name
-    .toLowerCase()
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]+/g, '')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/(^-|-$)+/g, '');
+  return toSlug(name);
 }
 
 export function ensureUniqueLocationId(baseId: string, takenIds: Set<string>): string {

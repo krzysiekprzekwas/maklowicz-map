@@ -2,6 +2,7 @@ import * as path from 'path';
 import { Client } from '@googlemaps/google-maps-services-js';
 import * as dotenv from 'dotenv';
 import axios from 'axios';
+import anyAscii from 'any-ascii';
 import { Location } from '../../../types/Location';
 
 import {GoogleGenAI} from '@google/genai';
@@ -82,12 +83,10 @@ interface AddressComponent {
 }
 
 function generateId(name: string): string {
-  return name
+  return anyAscii(name)
     .toLowerCase()
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '') // Remove diacritics
-    .replace(/[^a-z0-9]+/g, '-') // Replace special chars with hyphens
-    .replace(/^-+|-+$/g, ''); // Remove leading/trailing hyphens
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)+/g, '');
 }
 
 function determineLocationType(types: string[]): 'restaurant' | 'tourist_attraction' {
