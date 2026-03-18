@@ -1,6 +1,88 @@
 {
   "videos": [
     {
+      "videoId": "exC02tFKOys",
+      "videoUrl": "https://www.youtube.com/watch?v=exC02tFKOys&t=1666s",
+      "title": "ROBERT MAKŁOWICZ WŁOCHY odc.187  „Gdzie Tyfon pluje ogniem\".",
+      "filterTitle": "Gdzie Tyfon pluje ogniem. (odc. 187)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-07-05T15:00:07Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "ristorante-da-filippino-a-lipari",
+          "name": "Ristorante da Filippino a Lipari",
+          "description": "W sercu urokliwej Lipari, od 1929 roku, niezmiennie króluje Ristorante da Filippino – miejsce, gdzie historia splata się ze smakiem, a morska bryza niesie zapach prawdziwej sycylijskiej gościnności. To nie tylko restauracja, to prawdziwa instytucja kulinarna, gdzie wędrowiec znajdzie ukojenie w świeżości owoców morza i tradycyjnych przepisach, które z pokolenia na pokolenie opowiadają smakowitą historię Wysp Eolskich.",
+          "latitude": 38.468802912626245,
+          "longitude": 14.956351518630983,
+          "address": "Salita Santa Margherita, 2, 98050 Lipari ME, Italy",
+          "country": "Włochy",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/mGQ2FmqLQ8Fm1x3R6",
+          "image": "/images/ristorante-da-filippino-a-lipari.jpg",
+          "summary": "Historyczna restauracja na Lipari serwująca kuchnię eolską od 1929 roku."
+        },
+        {
+          "id": "museo-archeologico-eoliano-luigi-bernabo-brea",
+          "name": "Museo Archeologico Eoliano \"Luigi Bernabò Brea\"",
+          "description": "Na malowniczej Lipari, jednej z wulkanicznych pereł archipelagu Wysp Eolskich, w murach starożytnego zamku mieści się prawdziwa skarbnica przeszłości – Museo Archeologico Eoliano \"Luigi Bernabò Brea\". To miejsce, gdzie od prehistorii po czasy rzymskie, każda amfora i każdy fragment ceramiki opowiada historię z apetytem godnym najlepszej sycylijskiej uczty, przenosząc w świat, gdzie czas płynął nieco inaczej.",
+          "latitude": 38.46699686637063,
+          "longitude": 14.957091808319094,
+          "address": "Via Panarea, 114, 98055 Lipari ME, Italy",
+          "country": "Włochy",
+          "type": "museum",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/s2VAgQsFn7Z9Ew1C6",
+          "image": "/images/museo-archeologico-eoliano-luigi-bernabo-brea.jpg",
+          "summary": "Muzeum archeologiczne na Lipari z bogatą kolekcją artefaktów Wysp Eolskich."
+        },
+        {
+          "id": "konkatedra-sw-bartlomieja-w-lipari",
+          "name": "Konkatedra św. Bartłomieja w Lipari",
+          "description": "Na wyspie Lipari, niczym dojrzałe wino, wznosi się Konkatedra św. Bartłomieja, której korzenie sięgają XI wieku. Przez stulecia, niczym dobrze przyprawiona potrawa, nabierała smaku kolejnych epok i architektonicznych warstw. Dziś to prawdziwa perła, świadectwo ludzkiej wiary i niezwykłej historii, która przetrwała nawet wulkaniczne kaprysy natury.",
+          "latitude": 38.46648444500992,
+          "longitude": 14.957081079483034,
+          "address": "Via Panarea, 114, 98055 Lipari ME, Italy",
+          "country": "Włochy",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/q6WPqQde4vck8c7CA",
+          "image": "/images/konkatedra-sw-bartlomieja-w-lipari.jpg",
+          "summary": "Romańska konkatedra z XI wieku na wyspie Lipari, wielokrotnie przebudowywana."
+        },
+        {
+          "id": "chiesa-dell-annunziata",
+          "name": "Chiesa dell'Annunziata",
+          "description": "Robert Makłowicz, z nieodłącznym uśmiechem konesera, zawitał do Chiesa dell'Annunziata – miejsca, gdzie historia smakuje równie wybornie jak lokalne przysmaki. Ta urokliwa świątynia, której kamienne mury pamiętają początki XV wieku, to prawdziwa perełka, opowiadająca o dawnych czasach, gdy po porannej mszy zapach świeżo pieczonego chleba mieszał się z aromatem wina z pobliskiej trattorii. Nic, tylko zanurzyć się w ten niezwykły klimat!",
+          "latitude": 38.47203688243727,
+          "longitude": 14.93947505950928,
+          "address": "FWCQ+JG Annunziata-Raviola, Metropolitan City of Messina, Italy",
+          "country": "Włochy",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/frrTySxFSDqFSzTY8",
+          "image": "/images/chiesa-dell-annunziata.jpg",
+          "summary": "Zabytkowy kościół Zwiastowania Pańskiego na jednej z Wysp Eolskich."
+        },
+        {
+          "id": "sciara-del-fuoco",
+          "name": "Sciara del Fuoco",
+          "description": "Sciara del Fuoco to prawdziwa uczta dla oczu, gdzie Stromboli, niczym wiekowy, acz wciąż pełen werwy kucharz, od tysięcy lat serwuje ogniste spektakle. To właśnie tutaj, na zboczach wulkanu, lawa z majestatycznym hukiem spływa prosto do morza, tworząc widowisko tak pierwotne i porywające, że nawet najwytworniejsze trufle bledną przy tym spektaklu natury.",
+          "latitude": 38.79804549268472,
+          "longitude": 15.207395553588869,
+          "address": "Q5VW+62 Ginostra, Metropolitan City of Messina, Italy",
+          "country": "Włochy",
+          "type": "nature",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/t1SCAHv6Bt981CSV9",
+          "image": "/images/sciara-del-fuoco.jpg",
+          "summary": "Aktywny żleb lawowy na zboczu Stromboli, widoczny z morza podczas erupcji."
+        }
+      ]
+    },
+    {
       "videoId": "CDlJd5x0iJc",
       "videoUrl": "https://www.youtube.com/watch?v=CDlJd5x0iJc",
       "title": "ROBERT MAKŁOWICZ WŁOCHY odc.186  „Don Vito i Biały Lotos\".",
@@ -15224,7 +15306,8 @@
           "type": "art_culture",
           "websiteUrl": "https://muzeumgdansk.pl/wizyta-w-muzeum-gdanska/oddzialy/",
           "GoogleMapsLink": "https://maps.app.goo.gl/gzgefpSULKyjmUjU9",
-          "image": "/images/dwor-artusa-oddzia-muzeum-gdanska.jpg"
+          "image": "/images/dwor-artusa-oddzia-muzeum-gdanska.jpg",
+          "summary": "Gotycki Dwór Artusa na gdańskim Długim Targu, dawne centrum życia patrycjuszy."
         },
         {
           "id": "bazylika-mariacka-wniebowziecia-najswietszej-maryi-panny-w-gdansku",
@@ -15839,8 +15922,8 @@
           "type": "tourist_attraction",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/KZrzbQitUxYU1tQn9",
-          "image": "https://www.malypodroznik.pl/wp-content/uploads/2025/02/most-Krka-TP-1.jpg",
-          "summary": "Widowiskowy wiadukt autostradowy nad przełomem rzeki Krki w okolicach Šibenika."
+          "image": "/images/most-krka.jpg",
+          "summary": "Imponujący most nad przełomem rzeki Krki na chorwackiej autostradzie."
         },
         {
           "id": "aci-marina-skradin",
