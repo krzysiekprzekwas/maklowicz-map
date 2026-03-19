@@ -1,6 +1,44 @@
 {
   "videos": [
     {
+      "videoId": "xhzYuwDvzRw",
+      "videoUrl": "https://www.youtube.com/watch?v=xhzYuwDvzRw",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc.190 „ Sekrety Orebića\".",
+      "filterTitle": "Sekrety Orebića. (odc. 190)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-07-26T15:00:08Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "groblje-podgorje",
+          "name": "Groblje Podgorje",
+          "description": "W chorwackim Podgorju, gdzie słońce hojnie muska wzgórza, znajduje się Groblje – cmentarz, który nie jest jedynie nekropolią, lecz prawdziwą opowieścią o lokalnym życiu, pisaną przez wieki. To tu, wśród wiekowych nagrobków, można odkryć prawdziwy *terroir* ludzkich losów – mieszankę smaków historii, od słodkich wspomnień po gorzkie pożegnania, które tworzą unikalną mozaikę chorwackiego ducha. Od wieków to miejsce stanowiło cichy świadek przemijania i trwania, oferując refleksję nad tym, co w życiu najcenniejsze.",
+          "latitude": 42.977532,
+          "longitude": 17.1539734,
+          "address": "Celestinov put 16, 20250, Podgorje, Croatia",
+          "country": "Chorwacja",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/H7xtgbDuCor7f4g26",
+          "image": "/images/groblje-podgorje.jpg"
+        },
+        {
+          "id": "guesthouse-mimbelli",
+          "name": "Guesthouse Mimbelli",
+          "description": "W Chorwacji, gdzie słońce hojnie obdarza winorośl i oliwki, Robert Makłowicz natrafił na prawdziwą perłę – Guesthouse Mimbelli. To miejsce, gdzie czas zdaje się płynąć wolniej, a kamienne mury, pamiętające pewnie czasy weneckich kupców, szepczą opowieści o minionych wiekach. W jego progach zaś, obok serdeczności gospodarzy, czeka na gości nie lada gratka dla podniebienia – smaki Morza Adriatyckiego, doprawione słońcem i tradycją.",
+          "latitude": 42.9742261,
+          "longitude": 17.1793958,
+          "address": "Trg Mimbeli 7, 20250, Orebić, Croatia",
+          "country": "Chorwacja",
+          "type": "hotel",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/u2ivMr1Pqm67Tz5Y9",
+          "image": "/images/guesthouse-mimbelli.jpg"
+        }
+      ]
+    },
+    {
       "videoId": "exC02tFKOys",
       "videoUrl": "https://www.youtube.com/watch?v=exC02tFKOys&t=1666s",
       "title": "ROBERT MAKŁOWICZ WŁOCHY odc.187  „Gdzie Tyfon pluje ogniem\".",
