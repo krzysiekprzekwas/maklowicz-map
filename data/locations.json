@@ -1,6 +1,60 @@
 {
   "videos": [
     {
+      "videoId": "blIu5kKG-JA",
+      "videoUrl": "https://www.youtube.com/watch?v=blIu5kKG-JA",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc.193 „Neretwa żywicielka\".",
+      "filterTitle": "Neretwa żywicielka. (odc. 193)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-08-16T15:00:37Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "restoran-duda-i-mate",
+          "name": "Restoran Đuđa i Mate",
+          "description": "W chorwackim Stonie, tym urokliwym zakątku, gdzie czas zdaje się płynąć wolniej niż strumień oliwy, a mury obronne szepczą historie sprzed wieków, Robert Makłowicz z pewnością przystanąłby w Restoranie Đuđa i Mate. To bowiem miejsce, gdzie kulinarna tradycja Dalmacji jest pielęgnowana z pieczołowitością, a świeże ostrygi prosto z zatoki, podane z prostotą i szacunkiem, smakują jak esencja całego Adriatyku.",
+          "latitude": 43.080243652020975,
+          "longitude": 17.628539800643924,
+          "address": "Gradina 13, 20350, Vid, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Tq7Wrvajhmg6h3Di8",
+          "image": "/images/restoran-duda-i-mate.jpg",
+          "summary": "Dalmatyńska restauracja w Stonie słynąca ze świeżych ostryg z zatoki."
+        },
+        {
+          "id": "arheoloski-muzej-narona",
+          "name": "Arheološki muzej Narona",
+          "description": "W Chorwacji, nieopodal Neretwy, gdzie historia dosłownie wychodzi spod ziemi, rozpościera się Arheološki muzej Narona. To placówka absolutnie wyjątkowa, bo zbudowana wprost na ruinach rzymskiego forum i świątyni Augusta, co pozwala podziwiać antyczne skarby w ich oryginalnym kontekście. Otwarty w 2007 roku, ten nowoczesny gmach to prawdziwa gratka dla miłośników dawnych smaków życia – można tu niemal usłyszeć gwar rzymskiego targu i poczuć aromat potraw, które przed wiekami syciły mieszkańców Narony.",
+          "latitude": 43.080345524078474,
+          "longitude": 17.628057003021244,
+          "address": "Hrvatskih mučenika 2/2, 20352, Vid, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/5aQfY78GJQamySom7",
+          "image": "/images/arheoloski-muzej-narona.jpg",
+          "summary": "Muzeum zbudowane na ruinach rzymskiego forum i świątyni Augusta z 2007 roku."
+        },
+        {
+          "id": "metkovic",
+          "name": "Stacja Kolejowa Metković",
+          "description": "Stacja kolejowa w Metkovićiu, u wrót delty Neretwy, to miejsce naznaczone wielką historią – to właśnie stąd w czerwcu 1914 roku arcyksiążę Franciszek Ferdynand wyruszył pociągiem do Sarajewa, gdzie czekał go zamach, który rozpętał pierwszą wojnę światową. Dziś ten urokliwy dworzec, otoczony bujną zielenią i bliskością rzeki, stanowi cichy pomnik jednej z najbardziej przełomowych podróży w dziejach Europy.",
+          "latitude": 43.056267664141515,
+          "longitude": 17.646081447601322,
+          "address": "Metković, 20350, Metković, Croatia",
+          "country": "Chorwacja",
+          "type": "tourist_attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/e91fKzGRUki7GryBA",
+          "image": "/images/metkovic.jpg",
+          "summary": "Stacja kolejowa w Metkovićiu u wrót delty Neretwy."
+        }
+      ]
+    },
+    {
       "videoId": "_3u66XevCPo",
       "videoUrl": "https://www.youtube.com/watch?v=_3u66XevCPo&t=5s",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc.192  „Gdzie zakwita solny kwiat\".",
