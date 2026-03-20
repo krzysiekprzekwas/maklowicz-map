@@ -1,6 +1,74 @@
 {
   "videos": [
     {
+      "videoId": "_3u66XevCPo",
+      "videoUrl": "https://www.youtube.com/watch?v=_3u66XevCPo&t=5s",
+      "title": "ROBERT MAKŁOWICZ DALMACJA odc.192  „Gdzie zakwita solny kwiat\".",
+      "filterTitle": "Gdzie zakwita solny kwiat. (odc. 192)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-08-09T15:00:07Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "gastro-mare-kobas",
+          "name": "Gastro mare Kobaš",
+          "description": "W ukrytej zatoce Kobaš, na półwyspie Pelješac, Robert Makłowicz odnalazł prawdziwy raj dla podniebienia – Gastro mare Kobaš. To miejsce, gdzie Adriatyk szepcze kulinarne sekrety, a świeżość ryb i owoców morza, przygotowanych z szacunkiem dla tradycji, staje się esencją dalmatyńskiej gościnności. Tu, pośród prostych chat i szumu fal, historia smaku pisze się na nowo z każdym kęsem, z dala od zgiełku świata.",
+          "latitude": 42.8039278,
+          "longitude": 17.7432407,
+          "address": "Kobaš 2B, 20230, Broce, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/E6txbFsXS9XMBKcY8",
+          "image": "/images/gastro-mare-kobas.jpg",
+          "summary": "Restauracja z owocami morza w zatoce Kobaš na półwyspie Pelješac."
+        },
+        {
+          "id": "kastio-fort",
+          "name": "Kaštio Fort",
+          "description": "W Zadarze, gdzie historia splata się z błękitem Adriatyku, wznosi się Kaštio Fort – dumny świadek wieków, którego korzenie sięgają aż XIII stulecia, gdy Wenecjanie z rozmachem umacniali swoje panowanie. Z jego murów roztacza się widok, który z pewnością pobudziłby apetyt na opowieści o dawnych czasach i świeże owoce morza, prosto z pobliskiego targu, idealne dla każdego smakosza życia.",
+          "latitude": 42.83685988906183,
+          "longitude": 17.696657180786136,
+          "address": "Jurja Dalmatinca 3, 20230, Ston, Croatia",
+          "country": "Chorwacja",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/rY4BDPzYBKHc1eKN8",
+          "image": "/images/kastio-fort.jpg",
+          "summary": "XIII-wieczna wenecka fortyfikacja w Stonie z widokiem na Adriatyk."
+        },
+        {
+          "id": "marlais-winery",
+          "name": "Marlais Winery",
+          "description": "W słonecznej Istrii, gdzie Adriatyk szepcze do winorośli, odnajdujemy Marlais Winery – miejsce, które z wdziękiem łączy wiekową tradycję chorwackiego winiarstwa z nowoczesnym zacięciem. To tutaj, w otoczeniu zielonych wzgórz, rodzą się trunki o smaku słońca i historii, opowiadając o dziedzictwie regionu, które sięga zamierzchłych czasów.",
+          "latitude": 42.841202528120114,
+          "longitude": 17.633485794067386,
+          "address": "25, 20230, Metohija, Croatia",
+          "country": "Chorwacja",
+          "type": "shopping",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/usqHW9MWbYo49xY69",
+          "image": "/images/marlais-winery.jpg",
+          "summary": "Winiarnia na półwyspie Pelješac łącząca tradycję z nowoczesnym rzemiosłem."
+        },
+        {
+          "id": "sea-food-sutvid",
+          "name": "Sea food \"SUTVID\"",
+          "description": "Gdzieś na chorwackim wybrzeżu, tam gdzie słońce grzeje kamień, a Adriatyk szepcze stare opowieści, odnajdziemy \"SUTVID\". To nie byle jaka tawerna, lecz prawdziwa świątynia morskich smaków, gdzie ryby i owoce morza lądują na stole prosto z sieci, nieskażone zbędnymi udziwnieniami. Można by rzec, że to miejsce, którego duch, niczym ten święty Wit, czuwa nad autentycznością każdego kęsa, a tradycja jest tu równie świeża jak poranny połów.",
+          "latitude": 42.914776399066774,
+          "longitude": 17.469763755798343,
+          "address": "D414 10, 20246, Drače, Croatia",
+          "country": "Chorwacja",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/5GMSUdLw26yT6uPa9",
+          "image": "/images/sea-food-sutvid.jpg",
+          "summary": "Tawerna w Drače serwująca świeże ryby i owoce morza prosto z połowu."
+        }
+      ]
+    },
+    {
       "videoId": "P5uhw0I4NhA",
       "videoUrl": "https://www.youtube.com/watch?v=P5uhw0I4NhA",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc.191  „Pandą przez półwysep”.",
@@ -9898,8 +9966,7 @@
           "type": "art_culture",
           "websiteUrl": "http://www.slupsk.pl/",
           "GoogleMapsLink": "https://maps.app.goo.gl/MDvyaCUfk2hvEawdA",
-          "image": "https://www.slupsk.pl/var/site/storage/images/0/3/0/3/73030-1-pol-PL/107773749_684048852151583_8873759288623017196_n.jpg",
-          "summary": "Neogotycki ratusz w Słupsku z XIV–XV w. z imponującą wieżą, symbol centrum administracyjnego Pomorza."
+          "image": "/images/ratusz-w-s-upsku.jpg"
         },
         {
           "id": "omni-kaiser-patisserie",
