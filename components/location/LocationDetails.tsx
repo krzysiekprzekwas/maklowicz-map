@@ -67,7 +67,7 @@ export function LocationDetails({
           {/* Top-right: share + close */}
           <button
             onClick={() => {
-              trackShare(location.name);
+              trackShare(location.id);
               navigator.share?.({
                 title: location.name,
                 text: `Sprawdź to miejsce: ${location.name}`,

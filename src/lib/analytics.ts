@@ -15,14 +15,14 @@ export const trackNearbySearch = (radiusKm: number) =>
 export const trackViewToggle = (view: 'map' | 'list') =>
   posthog.capture('view_toggle', { view });
 
-export const trackShare = (locationName: string) =>
-  posthog.capture('share', { locationName });
+export const trackShare = (locationId: string) =>
+  posthog.capture('share', { placeId: locationId });
 
 export const trackOutboundLink = (destination: 'google_maps' | 'youtube', locationName: string) =>
   posthog.capture('outbound_link', { destination, locationName });
 
-export const trackShowOnMap = (locationName: string) =>
-  posthog.capture('show_on_map', { locationName });
+export const trackShowOnMap = (locationId: string) =>
+  posthog.capture('show_on_map', { placeId: locationId });
 
-export const trackLocationPreview = (locationName: string) =>
-  posthog.capture('location_preview', { locationName });
+export const trackLocationPreview = (loc: { name: string; type: string; country: string; id: string }) =>
+  posthog.capture('location_preview', { name: loc.name, type: loc.type, country: loc.country, placeId: loc.id });

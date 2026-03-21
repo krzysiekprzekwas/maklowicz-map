@@ -75,7 +75,7 @@ export default function Home() {
 
   const handleShowOnMap = React.useCallback(() => {
     if (!selectedLocation) return;
-    trackShowOnMap(selectedLocation.name);
+    trackShowOnMap(selectedLocation.id);
     setFlyToLocation(selectedLocation);
     if (isMobile) {
       setActiveView('map');
@@ -91,7 +91,7 @@ export default function Home() {
   }, [setSelectedLocation, setPreviewLocation]);
 
   const handleLocationPreview = React.useCallback((loc: MapLocation) => {
-    trackLocationPreview(loc.name);
+    trackLocationPreview(loc);
     setPreviewLocation(loc);
   }, [setPreviewLocation]);
 
