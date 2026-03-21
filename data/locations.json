@@ -1,6 +1,102 @@
 {
   "videos": [
     {
+      "videoId": "BGA5LDo0ZDs",
+      "videoUrl": "https://www.youtube.com/watch?v=BGA5LDo0ZDs",
+      "title": "ROBERT MAKŁOWICZ BOŚNIA odc.194  „Wysokogórska Hercegowina\".",
+      "filterTitle": "Wysokogórska Hercegowina. (odc. 194)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-08-23T15:00:08Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "kocusa-waterfall",
+          "name": "Wodospad Koćuša",
+          "description": "Gdzieś w chorwackim słońcu, z dala od zgiełku najsłynniejszych kaskad, czeka na odkrycie Koćuša Waterfall – prawdziwa perła, która urzeka nie tylko szumem wody, ale i spokojem. To miejsce, gdzie czas zdaje się płynąć wolniej, a stare młyny wodne, pamiętające pewnie czasy, gdy mąka na domowy chleb pachniała tu najintensywniej, dodają mu niezwykłego uroku. Idealne do niespiesznej kontemplacji nad filiżanką kawy, a może i kieliszkiem lokalnego wina, z dala od pośpiechu współczesnego świata.",
+          "latitude": 43.249266484344645,
+          "longitude": 17.452039718627933,
+          "address": "66XM+P3 Hvar, Croatia",
+          "country": "Chorwacja",
+          "type": "nature",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/9cGxzP49ZMaFu2Bc6",
+          "image": "/images/kocusa-waterfall.jpg",
+          "summary": "Malowniczy wodospad w Hercegowinie otoczony starymi młynami wodnymi."
+        },
+        {
+          "id": "konoba-kocusa",
+          "name": "Konoba Koćuša",
+          "description": "W sercu Bośni i Hercegowiny, tam gdzie rzeka Trebižat swobodnie spada kaskadami, odnajduje się Konoba Koćuša. To nie tylko restauracja, to wręcz kulinarna oaza, gdzie szum wodospadu Koćuša staje się akompaniamentem do uczty. Wiekowe kamienne mury kryją smaki prawdziwej Hercegowiny: od świeżo złowionych pstrągów po pieczoną jagnięcinę spod sača, wszystko z duszą i lokalnym charakterem.",
+          "latitude": 43.246671959697544,
+          "longitude": 17.454957962036136,
+          "address": "6CVW+P3 Veljaci, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/QJrjTbp21LvUen4SA",
+          "image": "/images/konoba-kocusa.jpg",
+          "summary": "Hercegowińska konoba przy wodospadzie serwująca pstrągi i jagnięcinę spod sača."
+        },
+        {
+          "id": "blidinje-nature-park",
+          "name": "Blidinje Nature Park",
+          "description": "W sercu Bośni i Hercegowiny, między potężnymi szczytami, rozciąga się Park Przyrody Blidinje – prawdziwa oaza spokoju, gdzie powietrze, przesycone zapachem endemicznej sosny Munika, natychmiast zaostrza apetyt na przygodę. To miejsce, gdzie lodowcowe jezioro Blidinje sąsiaduje z tajemniczymi nekropoliami średniowiecznych stećci, wpisanymi na listę UNESCO, oferując podróżnikom nie tylko ucztę dla oczu, ale i obietnicę prostych, lokalnych smaków, które najlepiej smakują po długim spacerze.",
+          "latitude": 43.5864542,
+          "longitude": 17.6189572,
+          "address": "HJP9+HH Striževo, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "nature",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Xukr5tbPg37i3BJFA",
+          "image": "/images/blidinje-nature-park.jpg",
+          "summary": "Park przyrody w Bośni z endemiczną sosną Muniką i nekropoliami stećci z listy UNESCO."
+        },
+        {
+          "id": "blidinje-jezero",
+          "name": "Blidinje jezero",
+          "description": "W Bośni i Hercegowinie, między majestatycznymi szczytami Vran i Čvrsnicy, rozciąga się Blidinje jezero – miejsce, gdzie czas płynie wolniej, a natura gra pierwsze skrzypce. To nie tylko zbiornik wodny, lecz prawdziwa oaza spokoju, która szepcze historie o dawnych pasterzach i ich życiu w zgodzie z rytmem gór, a po dniu pełnym wrażeń, niejeden podróżnik z pewnością doceniłby prostą, lecz sycącą kuchnię regionu, pachnącą górskimi ziołami.",
+          "latitude": 43.608301597268,
+          "longitude": 17.49160766601563,
+          "address": "JF4P+F2 Bare, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "nature",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/4MjhZwbcwKsXMVXq8",
+          "image": "/images/blidinje-jezero.jpg",
+          "summary": "Lodowcowe jezioro między szczytami Vran i Čvrsnica w bośniackich górach."
+        },
+        {
+          "id": "hajducke-vrleti",
+          "name": "Hajdučke vrleti",
+          "description": "W sercu Bośni i Hercegowiny, pośród majestatycznych gór, gdzie niegdyś hajducy znajdowali schronienie, rozpościera się niezwykła oaza smaku i tradycji – Hajdučke vrleti. Od 1999 roku, niczym bastion lokalnej kuchni, wita gości ciepłem kominka i aromatami, które przenoszą w czasie. To właśnie tam, w cieniu dawnych opowieści, kulinarna prostota spotyka się z autentycznym duchem regionu, oferując podróżnikom niezapomniane doznania.",
+          "latitude": 43.65234810085349,
+          "longitude": 17.53177642822266,
+          "address": "MG3J+65 Bare, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/1tZA7R1WvnKVX7bp6",
+          "image": "/images/hajducke-vrleti.jpg",
+          "summary": "Górska restauracja w Bośni w krajobrazie dawnych hajduckich kryjówek."
+        },
+        {
+          "id": "necropolis-dugo-polje",
+          "name": "Necropolis Dugo polje",
+          "description": "W Bośni i Hercegowinie, gdzie kamień przemawia głosem wieków, Robert Makłowicz odkrył Necropolis Dugo polje – nekropolię z XII-XVI wieku, której *stećci* to prawdziwe arcydzieła. Te średniowieczne nagrobki, często zdobione tajemniczymi symbolami, to niczym przyprawy czasu, które dodają smaku opowieściom o minionych pokoleniach, a ich monumentalność budzi apetyt na głębsze poznanie historii.",
+          "latitude": 43.6632858,
+          "longitude": 17.5404732,
+          "address": "MG7R+85 Bare, Bosnia and Herzegovina",
+          "country": "Bośnia i Hercegowina",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/k4HmqJxhnzWj2ACCA",
+          "image": "/images/necropolis-dugo-polje.jpg",
+          "summary": "Średniowieczna nekropolia z XII–XVI w. ze stećci zdobionymi tajemniczymi symbolami."
+        }
+      ]
+    },
+    {
       "videoId": "blIu5kKG-JA",
       "videoUrl": "https://www.youtube.com/watch?v=blIu5kKG-JA",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc.193 „Neretwa żywicielka\".",
@@ -154,7 +250,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/H7xtgbDuCor7f4g26",
-          "image": "/images/groblje-podgorje.jpg"
+          "image": "/images/groblje-podgorje.jpg",
+          "summary": "Zabytkowy cmentarz w chorwackim Podgorju z bogatą historią i architekturą."
         },
         {
           "id": "guesthouse-mimbelli",
@@ -167,7 +264,8 @@
           "type": "hotel",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/u2ivMr1Pqm67Tz5Y9",
-          "image": "/images/guesthouse-mimbelli.jpg"
+          "image": "/images/guesthouse-mimbelli.jpg",
+          "summary": "Kameralny pensjonat w Orebić na chorwackim półwyspie Pelješac."
         }
       ]
     },
