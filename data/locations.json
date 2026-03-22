@@ -1,6 +1,135 @@
 {
   "videos": [
     {
+      "videoId": "GqVrs9-gEyI",
+      "videoUrl": "https://www.youtube.com/watch?v=GqVrs9-gEyI",
+      "title": "ROBERT MAKŁOWICZ CZECHY odc.198  „W czeskim raju\".",
+      "filterTitle": "W czeskim raju. (odc. 198)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2024-10-04T15:00:28Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "liberec-main-square",
+          "name": "Plac Główny Liberec",
+          "description": "Liberecki rynek to prawdziwa perła, gdzie historia spotyka się z apetytem na życie. Wzrok od razu przyciąga neorenesansowy ratusz, wzniesiony z rozmachem w 1893 roku, który do dziś jest świadectwem dawnej świetności i bogactwa miasta. Po spacerze wśród jego dostojnych fasad, aż prosi się o chwilę wytchnienia przy jakimś lokalnym smakołyku, najlepiej z widokiem na ten architektoniczny majstersztyk.",
+          "latitude": 50.76926724846608,
+          "longitude": 15.05807161331177,
+          "address": "nám. Dr. E. Beneše 13, Perštýn, 460 01 Liberec, Czechia",
+          "country": "Czechia",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/P6n2ndBwWiSZp9196",
+          "image": "/images/liberec-main-square.jpg"
+        },
+        {
+          "id": "cafe-bar-praha-liberec",
+          "name": "Cafe Bar Praha",
+          "description": "W czeskim Libercu, w dostojnym gmachu z początku XX wieku, mieści się Cafe Bar Praha – miejsce, gdzie historia splata się z aromatem świeżo parzonej kawy. To przestrzeń, która z pewnością zachwyciłaby każdego poszukiwacza smaków i opowieści, oferując chwilę wytchnienia w otoczeniu klasycznej elegancji. Można tu z łatwością zapomnieć o pędzie współczesności, delektując się każdą filiżanką i obserwując świat zza okna.",
+          "latitude": 50.769660799863324,
+          "longitude": 15.057653188705446,
+          "address": "Mistrovský vrch 349/2, Nové Město, 460 01 Liberec, Czechia",
+          "country": "Czechia",
+          "type": "cafe",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/KGNcWR1cTcXzP8Bq9",
+          "image": "/images/cafe-bar-praha-liberec.jpg"
+        },
+        {
+          "id": "rodny-dum-ferdinanda-porscheho",
+          "name": "Rodný dům Ferdinanda Porscheho",
+          "description": "W malowniczej, czeskiej krainie, gdzie powietrze pachnie chmielem i historią, znajduje się pewien dom, który dla miłośników motoryzacji jest niczym najprzedniejszy deser – to Rodný dům Ferdinanda Porscheho. W tych skromnych progach, postawionych w 1875 roku, przyszedł na świat człowiek, który zrewolucjonizował świat na czterech kołach, niczym mistrz kuchni, który z prostych składników wyczarowuje arcydzieło.",
+          "latitude": 50.745390129433325,
+          "longitude": 15.086159706115724,
+          "address": "Na Rozcestí 639, Vratislavice nad Nisou, 463 11 Liberec-Liberec 30, Czechia",
+          "country": "Czechia",
+          "type": "museum",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/rSJAGzKFitL1wqG38",
+          "image": "/images/rodny-dum-ferdinanda-porscheho.jpg"
+        },
+        {
+          "id": "moc-liberec-prava-vietnamska-kuchyne",
+          "name": "Môc",
+          "description": "W sercu czeskiego Liberca, miastach o bogatej historii, odnaleźć można prawdziwą kulinarną perłę – Môc Liberec, miejsce, gdzie wietnamska kuchnia objawia się w swej najczystszej formie. Nie jest to bynajmniej przypadek, wszak Czechy od dekad goszczą liczną wietnamską diasporę, która z pietyzmem kultywuje swoje kulinarne tradycje, serwując je z taką autentycznością, że niejeden podróżnik poczułby się jak w Hanoi, a nie w środku Europy.",
+          "latitude": 50.77325010721347,
+          "longitude": 15.061601400375368,
+          "address": "Ostašovská 83/57, Růžodol I, 460 01 Liberec, Czechia",
+          "country": "Czechia",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/kLBYQ4K5dEPxUFQYA",
+          "image": "/images/moc-liberec-prava-vietnamska-kuchyne.jpg"
+        },
+        {
+          "id": "zamek-trosky",
+          "name": "Zamek Trosky",
+          "description": "Ach, Zamek Trosky! Te dwie wieże, Panna i Baba, niczym pieczołowicie wypieczone bułeczki wyrastające z czeskiej ziemi, od końca XIV wieku królują nad okolicą. To miejsce, gdzie historia ma swój niepowtarzalny aromat, a każdy widok z góry smakuje jak starannie skomponowane danie, pełne opowieści i minionych wieków.",
+          "latitude": 50.516332795791286,
+          "longitude": 15.231642723083498,
+          "address": "Krčkovice 21, 511 01 Hrubá Skála-Turnov 1, Czechia",
+          "country": "Czechia",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/JAcanD6xFhsZop3GA",
+          "image": "/images/zamek-trosky.jpg"
+        },
+        {
+          "id": "cesky-raj",
+          "name": "Český ráj",
+          "description": "W Czeskim Raju, tej geologicznej perle Czech, gdzie piaskowcowe miasta i zielone doliny tworzą krajobraz niczym z baśni, podróżnik z pewnością poczułby się jak w krainie, gdzie natura z fantazją rzeźbiła przez miliony lat, a historyczne zamki od wieków strzegą tych urokliwych terenów. To przecież pierwszy w Czechach geopark UNESCO, miejsce o niezaprzeczalnej urodzie, gdzie po solidnej wędrówce po skalnych labiryntach, z pewnością zasmakowałby wyśmienicie chłodny kufel lokalnego piwa i solidna porcja knedlików, które smakują tu wyjątkowo.",
+          "latitude": 50.6054314,
+          "longitude": 15.2087218,
+          "address": "J646+45, 511 01 Klokočí-Turnov 1, Czechia",
+          "country": "Czechia",
+          "type": "nature",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/cpMZjUA6owwe9e916",
+          "image": "/images/cesky-raj.jpg"
+        },
+        {
+          "id": "restaurace-u-koubusu",
+          "name": "Restaurace U Koubusů",
+          "description": "W urokliwych zakątkach Czech, gdzie każda uliczka opowiada inną historię, a zapach smażonego sera unosi się w powietrzu, czeka na odkrycie Restaurace U Koubusů. To prawdziwa ostroja tradycji, gdzie od pokoleń serwuje się klasyczne czeskie specjały, takie jak gulasz czy knedliki, w otoczeniu, które z dumą nosi ślady minionych wieków. Tutaj każda wizyta to podróż w czasie, okraszona solidną porcją lokalnego humoru i niezapomnianych smaków, które rozgrzewają duszę i podniebienie.",
+          "latitude": 50.573664297454116,
+          "longitude": 15.157721042633058,
+          "address": "Mašov 73, 511 01 Turnov-Turnov 1, Czechia",
+          "country": "Czechia",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/797wCCUs2gzGJjoE6",
+          "image": "/images/restaurace-u-koubusu.jpg"
+        },
+        {
+          "id": "valdstejn-castle",
+          "name": "Valdštejn Castle",
+          "description": "W sercu malowniczego Czeskiego Raju, niczym doskonale skomponowane danie, od wieków króluje zamek Valdštejn – prawdziwy nestor, którego mury pamiętają początki XIII wieku. To nie tylko najstarsza perła regionu, ale i świadectwo niezwykłego kunsztu budowniczych, którzy wkomponowali go w skalny krajobraz tak, że aż dech zapiera, a spacer po jego dziedzińcach to prawdziwa uczta dla ducha.",
+          "latitude": 50.56237259448226,
+          "longitude": 15.167248249053957,
+          "address": "Kadeřavec 24, 511 01 Turnov-Turnov 1, Czechia",
+          "country": "Czechia",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/BpKSyDRVKz87tQ9c8",
+          "image": "/images/valdstejn-castle.jpg"
+        },
+        {
+          "id": "zamek-hruba-skala",
+          "name": "Zámek Hrubá Skála",
+          "description": "Zámek Hrubá Skála, majestatycznie osadzony na piaskowcowej skale w sercu Czeskiego Raju, to widok, który od XIV wieku, niczym wyborne wino, dojrzewał w pamięci podróżników. Dziś, zamiast rycerskich potyczek, można tu delektować się zapierającą dech panoramą skalnych labiryntów, a może i skosztować lokalnych specjałów, które z pewnością zaspokoją nawet najbardziej wyrafinowane podniebienia.",
+          "latitude": 50.54478567814355,
+          "longitude": 15.193426609039308,
+          "address": "Hrubá Skála 6, 511 01 Hrubá Skála, Czechia",
+          "country": "Czechia",
+          "type": "hotel",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/tFpqCGkA7bkN2A7u6",
+          "image": "/images/zamek-hruba-skala.jpg"
+        }
+      ]
+    },
+    {
       "videoId": "BGA5LDo0ZDs",
       "videoUrl": "https://www.youtube.com/watch?v=BGA5LDo0ZDs",
       "title": "ROBERT MAKŁOWICZ BOŚNIA odc.194  „Wysokogórska Hercegowina\".",
@@ -152,7 +281,7 @@
     },
     {
       "videoId": "_3u66XevCPo",
-      "videoUrl": "https://www.youtube.com/watch?v=_3u66XevCPo&t=5s",
+      "videoUrl": "https://www.youtube.com/watch?v=_3u66XevCPo",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc.192  „Gdzie zakwita solny kwiat\".",
       "filterTitle": "Gdzie zakwita solny kwiat. (odc. 192)",
       "playlistId": "",
@@ -271,7 +400,7 @@
     },
     {
       "videoId": "exC02tFKOys",
-      "videoUrl": "https://www.youtube.com/watch?v=exC02tFKOys&t=1666s",
+      "videoUrl": "https://www.youtube.com/watch?v=exC02tFKOys",
       "title": "ROBERT MAKŁOWICZ WŁOCHY odc.187  „Gdzie Tyfon pluje ogniem\".",
       "filterTitle": "Gdzie Tyfon pluje ogniem. (odc. 187)",
       "playlistId": "",
@@ -875,7 +1004,7 @@
     },
     {
       "videoId": "CgVMg2BJoLA",
-      "videoUrl": "https://www.youtube.com/watch?v=CgVMg2BJoLA&t=14s",
+      "videoUrl": "https://www.youtube.com/watch?v=CgVMg2BJoLA",
       "title": "ROBERT MAKŁOWICZ POŁUDNIOWY TYROL odc.181  „U najstarszego znajomego\".",
       "filterTitle": "U najstarszego znajomego. (odc. 181)",
       "playlistId": "",
@@ -15183,7 +15312,7 @@
     },
     {
       "videoId": "MAxZe3QONbM",
-      "videoUrl": "https://www.youtube.com/watch?v=MAxZe3QONbM&t=818s",
+      "videoUrl": "https://www.youtube.com/watch?v=MAxZe3QONbM",
       "title": "ROBERT MAKŁOWICZ DALMACJA odc.55 „Mój winny półwysep\".",
       "filterTitle": "Mój winny półwysep. (odc. 55)",
       "playlistId": "",
