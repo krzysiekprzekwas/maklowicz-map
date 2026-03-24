@@ -1,6 +1,186 @@
 {
   "videos": [
     {
+      "videoId": "tW2D9h5sy1c",
+      "videoUrl": "https://www.youtube.com/watch?v=tW2D9h5sy1c",
+      "title": "„ W drodze do Medellin\" - ROBERT MAKŁOWICZ KOLUMBIA odc.214",
+      "filterTitle": "W drodze do Medellin (odc. 214)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2025-01-24T16:00:07Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "la-vaca-original-autopista-del-cafe",
+          "name": "La Vaca Original Autopista del Cafe",
+          "description": "W malowniczym sercu kolumbijskiego Eje Cafetero, tam gdzie Autostrada Kawy oplata zielone wzgórza, Robert Makłowicz natrafił na wyjątkową oazę smaku – La Vaca Original. To miejsce, choć z pozoru skromne, od dekad stanowi kulinarny drogowskaz dla podróżnych i lokalnych bywalców, serwując esencję regionalnej kuchni. Prawdziwa gratka dla podniebienia, gdzie tradycja i bezpretensjonalny urok spotykają się w jednym, smakowitym uścisku.",
+          "latitude": 4.6572488,
+          "longitude": -75.6006822,
+          "address": "29, Circasia, Quindío, Colombia",
+          "country": "Colombia",
+          "type": "cafe",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/UvvRsRrx7vwpEKoG6",
+          "image": "/images/la-vaca-original-autopista-del-cafe.jpg",
+          "summary": "Przydrożna kawiarnia na Autostradzie Kawy w regionie Eje Cafetero."
+        },
+        {
+          "id": "calle-del-tiempo-detenido",
+          "name": "Calle del tiempo Detenido",
+          "description": "Istnieją na świecie zakątki, gdzie zegary zdają się bić w innym rytmie, a czasem wręcz milkną zupełnie – takim jest właśnie kolumbijska Calle del tiempo Detenido, Ulica Zatrzymanego Czasu. Wśród kolonialnych murów Barichary, wzniesionych w dużej mierze w XVIII wieku, gdzie słońce pieści kamienne fasady, czuć zapach dawnych epok i świeżo parzonej kawy. To miejsce, gdzie pośpiech jest pojęciem obcym, a każdy krok smakuje jak chwila autentycznego, niespiesznego życia.",
+          "latitude": 4.675215063904887,
+          "longitude": -75.65880775451662,
+          "address": "Cl. 6 #669, Filandia, Quindío, Colombia",
+          "country": "Colombia",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/WerSZP4z26KjsPQq9",
+          "image": "/images/calle-del-tiempo-detenido.jpg",
+          "summary": "Artystyczna uliczka w kolumbijskim miasteczku, gdzie czas się zatrzymał."
+        },
+        {
+          "id": "la-casa-del-pandebono",
+          "name": "La Casa del Pandebono",
+          "description": "W Kolumbii, gdzie słońce pieści ziemię, a smaki tańczą na podniebieniu, odnaleźć można prawdziwą perłę kulinarną – La Casa del Pandebono. To tutaj, w sercu lokalnej tradycji, od dekad pielęgnuje się sekret idealnego pandebono, tej serowej bułeczki o niebiańskim smaku, która z każdym kęsem opowiada historię regionu Valle del Cauca. Ponoć sam zapach świeżo pieczonego pieczywa potrafi zawrócić w głowie, a smak... cóż, ten smak to już czysta poezja, która sprawia, że człowiek na moment zapomina o całym świecie.",
+          "latitude": 4.674787338237703,
+          "longitude": -75.65859317779542,
+          "address": "Cl. 6 # 7-37, Filandia, Quindío, Colombia",
+          "country": "Colombia",
+          "type": "cafe",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/cgNBg8cKpw7QrbMo9",
+          "image": "/images/la-casa-del-pandebono.jpg",
+          "summary": "Kawiarnia specjalizująca się w pandebono – kolumbijskim chlebku serowym."
+        },
+        {
+          "id": "araucarias-park",
+          "name": "Araucarias Park",
+          "description": "W kolumbijskim Parku Araukarii Robert Makłowicz z pewnością odnalazłby nie tylko wytchnienie od słońca, ale i coś znacznie więcej. Te prastare drzewa, niczym żywe skamieliny, opowiadają o niegdysiejszych czasach i niezwykłej witalności tej ziemi, która przecież rodzi kawę o tak głębokim smaku. Można by tu godzinami rozmyślać o życiu, popijając lokalny napój i podziwiając ich architektoniczną wręcz urodę.",
+          "latitude": 4.864970835901574,
+          "longitude": -75.62117099761964,
+          "address": "Cra. 15 #12-64, Santa Rosa de Cabal, Risaralda, Colombia",
+          "country": "Colombia",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/EnudB4MTksVswiYWA",
+          "image": "/images/araucarias-park.jpg",
+          "summary": "Park z imponującymi araukariami w kolumbijskim krajobrazie."
+        },
+        {
+          "id": "mirador-del-cauca-parador",
+          "name": "Mirador del Cauca Parador",
+          "description": "Ach, cóż to za widok! Z Mirador del Cauca Parador rozciąga się panorama, która zaiste potrafi ukoić duszę i rozbudzić apetyt na kolumbijskie smaki, wabiąc podróżnych od lat, a może i wieków, by zatrzymali się na chwilę. To nie tylko przystanek w podróży, ale wręcz kulinarna oaza, gdzie tradycja gościnności splata się z lokalnymi specjałami, oferując podniebieniu pocieszenie w cieniu majestatycznych gór.",
+          "latitude": 5.7333888,
+          "longitude": -75.6008542,
+          "address": "La Pintada - La Felisa #107, La Pintada, Antioquia, Colombia",
+          "country": "Colombia",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/jekkhPuvsNmSyitU7",
+          "image": "/images/mirador-del-cauca-parador.jpg",
+          "summary": "Restauracja z panoramicznym widokiem na dolinę rzeki Cauca."
+        },
+        {
+          "id": "escalator-comuna-13",
+          "name": "Escalator Comuna 13",
+          "description": "W kolumbijskim Medellín, w miejscu, gdzie niegdyś dominowały cienie i skomplikowane losy, ruchome schody Comuna 13 to prawdziwa urbanistyczna przyprawa, która całkowicie odmieniła smak życia lokalnej społeczności. Otworzone w 2011 roku, te niezwykłe, plenerowe konstrukcje nie tylko ułatwiły mieszkańcom codzienne podróże, ale stały się też barwnym płótnem dla sztuki ulicy, opowiadającej historie o nadziei i odrodzeniu. To miejsce, gdzie historia miesza się z nowoczesnością, a każdy zakręt oferuje nowe, wizualne doznania, niczym dobrze skomponowane danie.",
+          "latitude": 6.2479497,
+          "longitude": -75.6253059,
+          "address": "Cra. 112C # 34CC-37, La Independencia, Medellín, San Javier, Medellín, Antioquia, Colombia",
+          "country": "Colombia",
+          "type": "tourist_attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/M8FLMuxWk86A7RYNA",
+          "image": "/images/escalator-comuna-13.jpg",
+          "summary": "Ruchome schody łączące dzielnice Comuna 13 w Medellín – symbol transformacji miasta."
+        },
+        {
+          "id": "berracas-de-la-13",
+          "name": "Berracas de la 13",
+          "description": "W tętniącym życiem kolumbijskim Medellín, w miejscu, gdzie historia Comuna 13 pisze dziś zupełnie nowy rozdział, znajduje się kulinarny fenomen – \"Berracas de la 13\". To miejsce, powstałe niczym feniks z popiołów burzliwej przeszłości dzielnicy, oferuje nie tylko wyborne empanady, ale i świadectwo niezwykłej ludzkiej siły. Z pewnością niejeden podróżnik, szukający autentycznych doznań, z uśmiechem odkryłby, że prostota tutejszych smaków to esencja kolumbijskiej gościnności i niezwykłej historii.",
+          "latitude": 6.2485676,
+          "longitude": -75.6276118,
+          "address": "Cl. 36C # 115B-7, La Independencia, Medellín, San Javier, Medellín, Antioquia, Colombia",
+          "country": "Colombia",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/2JP1TnTRJgGTA3289",
+          "image": "/images/berracas-de-la-13.jpg",
+          "summary": "Restauracja w tętniącej życiem dzielnicy Comuna 13 w Medellín."
+        },
+        {
+          "id": "san-javier-j",
+          "name": "San Javier J",
+          "description": "W barwnej Kolumbii, gdzie słońce pieści kawowe plantacje i tętni życie, Robert Makłowicz zawitał do San Javier J – miejsca, które, choć niepozorne, kryje w sobie prawdziwą esencję lokalnego ducha. Z pewnością docenił tamtejsze smaki, opowiadające historię regionu, a może i sam budynek, który, choć jego dokładna data powstania ginie w annałach czasu, z pewnością widział niejedno i pamięta smak wielu pokoleń. To prawdziwa perła, gdzie kulinaria splatają się z codziennością, tworząc niezapomniane wrażenia.",
+          "latitude": 6.256687374250586,
+          "longitude": -75.61355352401735,
+          "address": "San Javier J, El Danubio, San Javier, Medellín, Antioquia, Colombia",
+          "country": "Colombia",
+          "type": "tourist_attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/AYKPRo5ps2C8u5mx7",
+          "image": "/images/san-javier-j.jpg",
+          "summary": "Stacja kolejki linowej w dzielnicy San Javier w Medellín."
+        },
+        {
+          "id": "restaurante-hatoviejo-centro",
+          "name": "Restaurante Hatoviejo Centro",
+          "description": "W samym sercu kolumbijskiego Medellín, gdzie historia miasta wciąż pulsuje w zabytkowych murach, odkryć można Restaurante Hatoviejo Centro – prawdziwą ostoję tradycyjnych smaków. To tutaj, w otoczeniu, które zdaje się pamiętać dawne czasy, serwuje się autentyczną kuchnię regionu Antioquia, z legendarną *bandeja paisa* na czele, która potrafi zaskoczyć obfitością i bogactwem smaków, zapraszając do niespiesznej podróży przez kulinarne dziedzictwo Kolumbii.",
+          "latitude": 6.2497331,
+          "longitude": -75.5681666,
+          "address": "Parque Berrio II, La Candelaria, Medellín, Antioquia, Colombia",
+          "country": "Colombia",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/f7hWXwkygiHcNEE9A",
+          "image": "/images/restaurante-hatoviejo-centro.jpg",
+          "summary": "Tradycyjna restauracja z kuchnią regionu Antioquia w centrum Medellín."
+        },
+        {
+          "id": "plaza-de-mercado-la-america",
+          "name": "PLAZA DE MERCADO LA AMÉRICA",
+          "description": "W Kolumbii, na Plaza de Mercado La América, odnajduje się prawdziwe serce lokalnej kultury, pulsujące rytmem codziennego życia i zapachami niezwykłych smaków. To tutaj, wśród feerii barw egzotycznych owoców i gwaru sprzedawców, snuje się opowieść o pokoleniach, które od lat karmią się tym, co najlepsze w kolumbijskiej ziemi. Nie ma co ukrywać, że dla smakosza to prawdziwy raj, gdzie nawet najzwyklejszy banan nabiera królewskiego majestatu.",
+          "latitude": 6.251824143052563,
+          "longitude": -75.59876918792726,
+          "address": "Cra. 45 #79A-100, Los Pinos, Medellín, La América, Medellín, Antioquia, Colombia",
+          "country": "Colombia",
+          "type": "shopping",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/VHDEFmFpcexVnYM18",
+          "image": "/images/plaza-de-mercado-la-america.jpg",
+          "summary": "Targ miejski w Medellín z lokalną żywnością i kolumbijskim kolorytem."
+        },
+        {
+          "id": "palace-of-culture-rafael-uribe-uribe",
+          "name": "Palace of Culture Rafaél Uribe Uribe",
+          "description": "W kolumbijskim Medellín, gdzie powietrze pachnie kawą i przygodą, Robert Makłowicz z pewnością zwróciłby uwagę na niebagatelny Pałac Kultury Rafaela Uribe Uribe. Ten architektoniczny majstersztyk, wzniesiony w 1925 roku, z jego charakterystyczną czarno-białą elewacją, jest niczym doskonale skomponowane danie – zaskakujące i pełne smaku. W jego wnętrzu kipi życie kulturalne, niczym w najlepszej kuchni regionu, serwując co rusz nowe doznania dla duszy i umysłu.",
+          "latitude": 6.251621507437707,
+          "longitude": -75.56823492050171,
+          "address": "Tv. 74 # 37-67, Laureles - Estadio, Medellín, Laureles, Medellín, Antioquia, Colombia",
+          "country": "Colombia",
+          "type": "museum",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/wrB4cgKU4pBL1JY5A",
+          "image": "/images/palace-of-culture-rafael-uribe-uribe.jpg",
+          "summary": "Neogotycki pałac kultury na Plaza Botero w Medellín, dziś muzeum i galeria."
+        },
+        {
+          "id": "plaza-botero-medellin-antioquia",
+          "name": "Plaza Botero",
+          "description": "W kolumbijskim Medellín, wśród miejskiego zgiełku, rozpościera się miejsce niezwykłe, gdzie sam Fernando Botero, niczym hojny gospodarz, zaserwował światu prawdziwą ucztę dla oczu. Na Plaza Botero, otwartej dla publiczności w 2002 roku, podziwiać można kilkadziesiąt jego słynnych, obfitych rzeźb – każda z nich pulchna, jakby dopiero co syto zjadła najlepsze lokalne przysmaki, i pełna życia, niczym barwny korowód, zapraszający do niespiesznego spaceru i kontemplacji. To prawdziwy festiwal formy, gdzie sztuka staje się częścią codziennego, radosnego rytmu miasta.",
+          "latitude": 6.251898798259295,
+          "longitude": -75.56896448135376,
+          "address": "Cra. 53 #52 14, La Candelaria, Medellín, La Candelaria, Medellín, Antioquia, Colombia",
+          "country": "Colombia",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/bjkYpfr9MxPbT22eA",
+          "image": "/images/plaza-botero-medellin-antioquia.jpg",
+          "summary": "Plac w Medellín z monumentalnymi rzeźbami Fernando Botero."
+        }
+      ]
+    },
+    {
       "videoId": "GqVrs9-gEyI",
       "videoUrl": "https://www.youtube.com/watch?v=GqVrs9-gEyI",
       "title": "ROBERT MAKŁOWICZ CZECHY odc.198  „W czeskim raju\".",
@@ -21,7 +201,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/P6n2ndBwWiSZp9196",
-          "image": "/images/liberec-main-square.jpg"
+          "image": "/images/liberec-main-square.jpg",
+          "summary": "Neorenesansowy rynek w Libercu z imponującym ratuszem z XIX wieku."
         },
         {
           "id": "cafe-bar-praha-liberec",
@@ -34,7 +215,8 @@
           "type": "cafe",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/KGNcWR1cTcXzP8Bq9",
-          "image": "/images/cafe-bar-praha-liberec.jpg"
+          "image": "/images/cafe-bar-praha-liberec.jpg",
+          "summary": "Kawiarnia w zabytkowym gmachu z początku XX wieku w Libercu."
         },
         {
           "id": "rodny-dum-ferdinanda-porscheho",
@@ -47,7 +229,8 @@
           "type": "museum",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/rSJAGzKFitL1wqG38",
-          "image": "/images/rodny-dum-ferdinanda-porscheho.jpg"
+          "image": "/images/rodny-dum-ferdinanda-porscheho.jpg",
+          "summary": "Dom rodzinny Ferdinanda Porschego w czeskim Libercu, dziś muzeum."
         },
         {
           "id": "moc-liberec-prava-vietnamska-kuchyne",
@@ -60,7 +243,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/kLBYQ4K5dEPxUFQYA",
-          "image": "/images/moc-liberec-prava-vietnamska-kuchyne.jpg"
+          "image": "/images/moc-liberec-prava-vietnamska-kuchyne.jpg",
+          "summary": "Wietnamska restauracja w Libercu serwująca autentyczną kuchnię Wietnamu."
         },
         {
           "id": "zamek-trosky",
@@ -73,7 +257,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/JAcanD6xFhsZop3GA",
-          "image": "/images/zamek-trosky.jpg"
+          "image": "/images/zamek-trosky.jpg",
+          "summary": "Ruiny zamku z dwiema wieżami na bazaltowych skałach w Czeskim Raju."
         },
         {
           "id": "cesky-raj",
@@ -86,7 +271,8 @@
           "type": "nature",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/cpMZjUA6owwe9e916",
-          "image": "/images/cesky-raj.jpg"
+          "image": "/images/cesky-raj.jpg",
+          "summary": "Geopark UNESCO z piaskowcowymi miastami skalnymi i zielonymi dolinami."
         },
         {
           "id": "restaurace-u-koubusu",
@@ -99,7 +285,8 @@
           "type": "restaurant",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/797wCCUs2gzGJjoE6",
-          "image": "/images/restaurace-u-koubusu.jpg"
+          "image": "/images/restaurace-u-koubusu.jpg",
+          "summary": "Czeska restauracja z tradycyjną kuchnią w malowniczym Czeskim Raju."
         },
         {
           "id": "valdstejn-castle",
@@ -112,7 +299,8 @@
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/BpKSyDRVKz87tQ9c8",
-          "image": "/images/valdstejn-castle.jpg"
+          "image": "/images/valdstejn-castle.jpg",
+          "summary": "Najstarszy zamek Czeskiego Raju, założony w XIII wieku na piaskowcowej skale."
         },
         {
           "id": "zamek-hruba-skala",
@@ -125,7 +313,8 @@
           "type": "hotel",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/tFpqCGkA7bkN2A7u6",
-          "image": "/images/zamek-hruba-skala.jpg"
+          "image": "/images/zamek-hruba-skala.jpg",
+          "summary": "Zamek z XIV wieku na piaskowcowej skale, dziś hotel z widokiem na Czeski Raj."
         }
       ]
     },
@@ -10247,7 +10436,8 @@
           "type": "art_culture",
           "websiteUrl": "http://www.slupsk.pl/",
           "GoogleMapsLink": "https://maps.app.goo.gl/MDvyaCUfk2hvEawdA",
-          "image": "/images/ratusz-w-s-upsku.jpg"
+          "image": "/images/ratusz-w-s-upsku.jpg",
+          "summary": "Neogotycki ratusz w Słupsku z imponującą wieżą zegarową."
         },
         {
           "id": "omni-kaiser-patisserie",
