@@ -96,13 +96,13 @@ export function Filters({
 
   // ─── Mobile top bar ───────────────────────────────────────────────────────
   const mobileTopBar = (
-    <div className="absolute top-4 left-4 right-4 z-[9998] flex items-center gap-2 md:hidden">
+    <div className="absolute top-4 left-4 right-4 z-[9998] md:hidden">
       {hasActiveFilters ? (
-        <>
+        <div className="bg-neutral-0 rounded-full shadow-lg px-2 py-2 flex items-center gap-2">
           {/* Scrollable chips + inline count */}
-          <div className="flex-1 bg-white rounded-2xl shadow-lg min-w-0 overflow-hidden flex items-center">
+          <div className="flex-1 min-w-0 overflow-hidden flex items-center border border-neutral-300 rounded-full px-3">
             <div
-              className="flex flex-1 gap-2 overflow-x-auto px-3 py-2.5 min-w-0"
+              className="flex flex-1 gap-2 overflow-x-auto py-2 min-w-0"
               style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' } as React.CSSProperties}
             >
               {locationStatus === 'granted' ? (
@@ -137,45 +137,43 @@ export function Filters({
                 );
               })}
             </div>
-            {/* Gradient — normal flex child, overlaps chips via -ml-10 */}
-            <div className="flex-shrink-0 self-stretch w-10 bg-gradient-to-r from-transparent to-white -ml-10 relative z-10 pointer-events-none" />
+            {/* Gradient fade */}
+            <div className="flex-shrink-0 self-stretch w-10 bg-gradient-to-r from-transparent to-neutral-0 -ml-10 relative z-10 pointer-events-none" />
             {/* Count */}
-            <span className="flex-shrink-0 relative z-10 text-xs text-gray-400 whitespace-nowrap pl-1 pr-3 bg-white">
+            <span className="flex-shrink-0 relative z-10 text-xs text-neutral-300 whitespace-nowrap pl-1 bg-neutral-0">
               {filteredCount.toLocaleString('pl-PL')} {pluralMiejsc(filteredCount)}
             </span>
           </div>
           {/* Filter icon — active (dark fill) */}
           <button
             onClick={onToggleFilters}
-            className="bg-primary text-secondary rounded-2xl shadow-lg w-12 h-12 flex-shrink-0 flex items-center justify-center"
+            className="bg-primary text-secondary rounded-full w-10 h-10 flex-shrink-0 flex items-center justify-center"
             aria-label="Zmień filtry"
           >
             <SlidersHorizontal className="h-5 w-5" />
           </button>
-        </>
+        </div>
       ) : (
-        <>
-          {/* CTA search bar */}
+        /* Pill container: search input + filter icon */
+        <div className="flex-1 bg-neutral-0 rounded-full shadow-lg px-2 py-2 flex items-center gap-2">
+          {/* Search input area */}
           <button
             onClick={onToggleFilters}
-            className="flex-1 bg-white rounded-2xl shadow-lg px-4 py-3 flex items-center gap-3 text-left"
+            className="flex-1 min-w-0 border border-neutral-300 rounded-full px-4 py-2.5 flex items-center gap-3 text-left bg-neutral-0"
             aria-label="Otwórz filtry"
           >
-            <Search className="h-4 w-4 text-gray-400 flex-shrink-0" />
-            <span className="flex-1 text-gray-400 text-sm truncate">Szukaj restauracji, muzeów…</span>
-            <span className="text-xs text-gray-400 flex-shrink-0">
-              {filteredCount.toLocaleString('pl-PL')} miejsc
-            </span>
+            <Search className="h-4 w-4 text-neutral-300 flex-shrink-0" />
+            <span className="flex-1 text-neutral-300 text-sm truncate">Wybierz kraj</span>
           </button>
-          {/* Filter icon — inactive (white bg) */}
+          {/* Filter icon — circular */}
           <button
             onClick={onToggleFilters}
-            className="bg-white rounded-2xl shadow-lg w-12 h-12 flex-shrink-0 flex items-center justify-center"
+            className="bg-neutral-200 rounded-full w-10 h-10 flex-shrink-0 flex items-center justify-center"
             aria-label="Filtry"
           >
-            <SlidersHorizontal className="h-5 w-5 text-primary" />
+            <SlidersHorizontal className="h-5 w-5 text-neutral-900" />
           </button>
-        </>
+        </div>
       )}
     </div>
   );
@@ -200,17 +198,17 @@ export function Filters({
         <div className="space-y-2">
           <span className="text-xs font-semibold text-primary uppercase tracking-wide">Lokalizacja</span>
           <div className="relative" ref={dropdownRef}>
-            <div className="flex items-center border border-secondary-border rounded-lg px-3 py-2.5 gap-2 bg-white">
+            <div className="flex items-center border border-secondary-border rounded-lg px-3 py-2.5 gap-2 bg-neutral-0">
               {locationStatus === 'loading'
-                ? <Loader2 className="h-4 w-4 animate-spin text-gray-400 flex-shrink-0" />
+                ? <Loader2 className="h-4 w-4 animate-spin text-neutral-300 flex-shrink-0" />
                 : locationStatus === 'granted'
                   ? <MapPin className="h-4 w-4 text-primary flex-shrink-0" />
-                  : <Search className="h-4 w-4 text-gray-400 flex-shrink-0" />
+                  : <Search className="h-4 w-4 text-neutral-300 flex-shrink-0" />
               }
               <input
                 type="text"
                 readOnly={locationStatus === 'loading' || locationStatus === 'granted'}
-                className="flex-1 text-sm text-primary outline-none bg-transparent placeholder-gray-400"
+                className="flex-1 text-sm text-primary outline-none bg-transparent placeholder-neutral-300"
                 placeholder="Szukaj w danym regionie"
                 value={
                   locationStatus === 'loading' ? 'Uzyskiwanie lokalizacji…' :
@@ -241,12 +239,12 @@ export function Filters({
                   onClick={locationStatus === 'granted' ? onClearNearby : handleClearCountry}
                   aria-label="Wyczyść"
                 >
-                  <X className="h-4 w-4 text-gray-400 hover:text-primary" />
+                  <X className="h-4 w-4 text-neutral-300 hover:text-primary" />
                 </button>
               )}
             </div>
             {isCountryDropdownOpen && (
-              <div className="absolute z-50 top-full left-0 right-0 mt-1 bg-white border border-secondary-border rounded-lg shadow-lg max-h-48 overflow-y-auto">
+              <div className="absolute z-50 top-full left-0 right-0 mt-1 bg-neutral-0 border border-secondary-border rounded-lg shadow-lg max-h-48 overflow-y-auto">
                 {/* "Moja lokalizacja" as first option */}
                 <button
                   onClick={() => {
@@ -268,11 +266,11 @@ export function Filters({
                       className="w-full text-left px-3 py-2 text-sm text-primary hover:bg-secondary flex justify-between items-center"
                     >
                       <span>{c.name}</span>
-                      <span className="text-xs text-gray-400">({c.count})</span>
+                      <span className="text-xs text-neutral-300">({c.count})</span>
                     </button>
                   ))
                 ) : (
-                  <div className="px-3 py-2 text-sm text-gray-400">Brak wyników</div>
+                  <div className="px-3 py-2 text-sm text-neutral-300">Brak wyników</div>
                 )}
               </div>
             )}
@@ -280,7 +278,7 @@ export function Filters({
           {/* Radius slider — shown when nearby is active */}
           {locationStatus === 'granted' && (
             <div>
-              <div className="flex justify-between text-xs text-gray-400 mb-1">
+              <div className="flex justify-between text-xs text-neutral-300 mb-1">
                 <span>Zasięg</span><span>{nearbyRadius} km</span>
               </div>
               <input
@@ -288,7 +286,7 @@ export function Filters({
                 onChange={e => onSetNearbyRadius(Number(e.target.value))}
                 className="w-full accent-primary"
               />
-              <div className="flex justify-between text-xs text-gray-400 mt-0.5">
+              <div className="flex justify-between text-xs text-neutral-300 mt-0.5">
                 <span>10 km</span><span>100 km</span>
               </div>
             </div>
@@ -314,7 +312,7 @@ export function Filters({
                 >
                   <Icon className="h-3.5 w-3.5" />
                   {label}
-                  <span className={active ? 'opacity-70' : 'text-gray-400'}>({count})</span>
+                  <span className={active ? 'opacity-70' : 'text-neutral-300'}>({count})</span>
                 </button>
               );
             })}
@@ -324,7 +322,7 @@ export function Filters({
 
       {/* Fixed bottom */}
       <div
-        className="flex items-center justify-between gap-3 p-4 bg-white shadow-[0_-4px_16px_rgba(0,0,0,0.08)]"
+        className="flex items-center justify-between gap-3 p-4 bg-neutral-0 shadow-[0_-4px_16px_rgba(0,0,0,0.08)]"
         onClick={e => e.stopPropagation()}
       >
         {hasActiveFilters ? (

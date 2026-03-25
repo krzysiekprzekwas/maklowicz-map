@@ -31,7 +31,6 @@ export function LocationDetails({
     return () => window.removeEventListener('resize', checkIfMobile);
   }, []);
 
-  // Reset image loading state when location changes
   useEffect(() => {
     setIsImageLoading(true);
   }, [location?.id]);
@@ -41,133 +40,119 @@ export function LocationDetails({
 
   const detailsContent = location && (
     <>
-      {/* Image with X overlay, or standalone X when no image */}
+      {/* Hero image — inset with rounded corners, share/X overlaid */}
       {location.image ? (
-        <div className="mb-4 -mx-6 -mt-6 relative bg-secondary aspect-video">
+        <div className="mb-3 relative">
           {isImageLoading && (
-            <div className="absolute inset-0 bg-secondary animate-pulse" />
+            <div className="absolute inset-0 bg-neutral-200 animate-pulse rounded-xl" />
           )}
           <img
             src={location.image}
             alt={location.name}
-            className={`w-full h-full object-cover transition-opacity duration-300 ${isImageLoading ? 'opacity-0' : 'opacity-100'}`}
+            className={`w-full aspect-video object-cover rounded-xl transition-opacity duration-300 ${isImageLoading ? 'opacity-0' : 'opacity-100'}`}
             onLoad={() => setIsImageLoading(false)}
           />
-          {/* Bottom-left: type + country badges */}
-          <div className="absolute bottom-3 left-3 flex flex-wrap gap-1.5">
-            <span className="flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium bg-white/80 text-primary shadow-sm">
-              <TypeIcon className="h-3 w-3" />
-              {typeMeta.label}
-            </span>
-            <span className="flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-white/80 text-primary shadow-sm">
-              {location.country}
-            </span>
+          {/* Share + close on image */}
+          <div className="absolute top-2.5 right-2.5 flex items-center gap-1.5">
+            <button
+              onClick={() => {
+                trackShare(location.id);
+                navigator.share?.({
+                  title: location.name,
+                  text: `Sprawdź to miejsce: ${location.name}`,
+                  url: `/?placeId=${encodeURIComponent(location.id)}`,
+                });
+              }}
+              disabled={typeof navigator !== 'undefined' && !navigator.share}
+              className="w-[42px] h-[42px] flex items-center justify-center rounded-full bg-neutral-0/80 hover:bg-neutral-0 transition-colors shadow-sm disabled:hidden"
+              aria-label="Udostępnij"
+            >
+              <Share2 className="h-5 w-5 text-neutral-500" />
+            </button>
+            <button
+              onClick={onClose}
+              className="w-[42px] h-[42px] flex items-center justify-center rounded-full bg-neutral-0/80 hover:bg-neutral-0 transition-colors shadow-sm"
+              aria-label="Zamknij"
+            >
+              <X className="h-5 w-5 text-neutral-500" />
+            </button>
           </div>
-
-          {/* Top-right: share + close */}
-          <button
-            onClick={() => {
-              trackShare(location.id);
-              navigator.share?.({
-                title: location.name,
-                text: `Sprawdź to miejsce: ${location.name}`,
-                url: `/?placeId=${encodeURIComponent(location.id)}`,
-              });
-            }}
-            disabled={typeof navigator !== 'undefined' && !navigator.share}
-            className="absolute top-3 right-12 w-8 h-8 flex items-center justify-center rounded-full bg-white/80 hover:bg-white transition-colors shadow-sm disabled:hidden"
-            aria-label="Udostępnij"
-          >
-            <Share2 className="h-4 w-4 text-gray-500" />
-          </button>
-          <button
-            onClick={onClose}
-            className="absolute top-3 right-3 w-8 h-8 flex items-center justify-center rounded-full bg-white/80 hover:bg-white transition-colors shadow-sm"
-            aria-label="Zamknij"
-          >
-            <X className="h-5 w-5 text-gray-500" />
-          </button>
         </div>
       ) : (
-        <div className="flex justify-end mb-4">
+        <div className="flex justify-end mb-3">
           <button
             onClick={onClose}
-            className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors"
+            className="w-[42px] h-[42px] flex items-center justify-center rounded-full hover:bg-neutral-200 transition-colors"
             aria-label="Zamknij"
           >
-            <X className="h-5 w-5 text-gray-500" />
+            <X className="h-4 w-4 text-neutral-300" />
           </button>
         </div>
       )}
 
-      {/* Title */}
-      <h2 className="text-2xl font-bold text-primary leading-tight mb-4">{location.name}</h2>
+      {/* Pill badges — below image */}
+      <div className="flex flex-wrap gap-1.5 mb-3">
+        <span className="flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium bg-accent-pink/30 text-neutral-1000">
+          <TypeIcon className="h-3 w-3" />
+          {typeMeta.label}
+        </span>
+        <span className="flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-accent-pink/30 text-neutral-1000">
+          {location.country}
+        </span>
+      </div>
 
-      {/* Type + country pills — only shown when there's no image (otherwise they're image overlays) */}
-      {!location.image && (
-        <div className="flex flex-wrap gap-2 mb-5">
-          <span className="flex items-center gap-1.5 px-3 py-1 rounded-full text-sm border border-secondary-border bg-secondary text-primary">
-            <TypeIcon className="h-3.5 w-3.5" />
-            {typeMeta.label}
-          </span>
-          <span className="flex items-center gap-1.5 px-3 py-1 rounded-full text-sm border border-secondary-border bg-secondary text-primary">
-            {location.country}
-          </span>
-        </div>
+      {/* Title */}
+      <h2 className="text-xl font-bold text-neutral-1000 leading-tight mb-3">{location.name}</h2>
+
+      {/* Description */}
+      <p className="text-sm text-neutral-500 leading-relaxed mb-5">{location.description}</p>
+
+      {/* Show on map button — outline style */}
+      {onShowOnMap && (
+        <button
+          onClick={onShowOnMap}
+          className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-full text-sm font-medium border border-neutral-300 text-neutral-500 bg-neutral-0 hover:bg-bg-primary transition-colors mb-5"
+        >
+          <MapPin className="h-4 w-4" />
+          Zobacz na mapie
+        </button>
       )}
 
-      {/* Opis */}
-      <section className="pb-5">
-        <div className="flex items-center justify-between mb-2">
-          <h3 className="font-bold text-primary">Opis</h3>
-          {onShowOnMap && (
-            <button
-              onClick={onShowOnMap}
-              className="flex items-center gap-1.5 px-3 py-1 rounded-full text-sm border border-primary bg-white text-primary hover:bg-secondary transition-colors"
-            >
-              <MapPin className="h-3.5 w-3.5" />
-              Pokaż na mapie
-            </button>
-          )}
-        </div>
-        <p className="text-sm text-gray-600 leading-relaxed">{location.description}</p>
-      </section>
-      <hr className="border-secondary-border mb-5" />
+      <hr className="border-neutral-200 mb-4" />
 
-      {/* Adres */}
-      <section className="pb-5">
-        <h3 className="font-bold text-primary mb-2">Adres</h3>
-        <p className="text-sm text-gray-700 mb-3 leading-relaxed">{location.address}</p>
+      {/* Address */}
+      <section className="mb-4">
+        <h3 className="font-semibold text-neutral-1000 text-sm mb-1.5">Adres</h3>
+        <p className="text-sm text-neutral-500 leading-relaxed">{location.address}</p>
         {location.GoogleMapsLink && (
           <a
             href={location.GoogleMapsLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm text-primary underline underline-offset-2"
+            className="inline-block mt-2 text-sm text-neutral-500 underline underline-offset-2 hover:text-neutral-900"
             onClick={() => trackOutboundLink('google_maps', location.name)}
           >
             Znajdź lokalizację na Google Maps
           </a>
         )}
       </section>
-      <hr className="border-secondary-border mb-5" />
 
-      {/* Miejsce z odcinka */}
+      {/* Video link */}
       {video && (
         <>
-          <section className="pb-5">
-            <h3 className="font-bold text-primary mb-2">Miejsce z odcinka</h3>
+          <hr className="border-neutral-200 mb-4" />
+          <section className="mb-4">
+            <h3 className="font-semibold text-neutral-1000 text-sm mb-1.5">Miejsce z odcinka</h3>
             <a
               href={video.videoUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm text-primary underline underline-offset-2"
+              className="text-sm text-neutral-500 underline underline-offset-2 hover:text-neutral-900"
               onClick={() => trackOutboundLink('youtube', location.name)}
             >
               {video.filterTitle}
             </a>
           </section>
-          <hr className="border-secondary-border mb-5" />
         </>
       )}
 
@@ -180,13 +165,13 @@ export function LocationDetails({
       {/* Desktop sidebar */}
       {!isMobile && (
         <aside
-          className={`fixed md:top-[116px] bottom-0 right-0 md:w-96 bg-white shadow-xl rounded-tl-2xl overflow-hidden
+          className={`fixed md:top-[116px] bottom-0 right-0 md:w-96 bg-neutral-0 shadow-xl rounded-tl-2xl overflow-hidden
             h-[calc(100vh-116px)] max-h-screen
             transform transition-all duration-300 ease-in-out
             ${location ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0 pointer-events-none'}`}
           style={{ zIndex: 9999 }}
         >
-          <div className="p-6 h-full overflow-y-auto">
+          <div className="p-5 h-full overflow-y-auto">
             {detailsContent}
           </div>
         </aside>
@@ -202,7 +187,7 @@ export function LocationDetails({
           <Sheet.Container>
             <Sheet.Header />
             <Sheet.Content>
-              <div className="p-6 max-h-[85vh] overflow-y-auto">
+              <div className="p-5 max-h-[85vh] overflow-y-auto">
                 {detailsContent}
               </div>
             </Sheet.Content>

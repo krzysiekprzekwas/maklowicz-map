@@ -26,8 +26,8 @@ export function LocationPreview({
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.15, borderRadius: 130 }}
-      animate={{ opacity: 1, scale: 1,    borderRadius: 16  }}
-      exit={{    opacity: 0, scale: 0.1,  borderRadius: 130 }}
+      animate={{ opacity: 1, scale: 1, borderRadius: 16 }}
+      exit={{ opacity: 0, scale: 0.1, borderRadius: 130 }}
       transition={{
         type: 'spring',
         stiffness: 380,
@@ -38,50 +38,53 @@ export function LocationPreview({
         position: 'absolute',
         left: pixelPosition.x,
         top: pixelPosition.y - 8,
-        width: 260,
+        width: 240,
         zIndex: 9000,
         transformOrigin: 'center bottom',
         x: '-50%',
         y: '-100%',
         overflow: 'hidden',
         backgroundColor: 'white',
-        boxShadow: '0 8px 32px rgba(0,0,0,0.18)',
+        boxShadow: '0 4px 24px rgba(0,0,0,0.12)',
         pointerEvents: 'auto',
       }}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
     >
-      {/* Close button — top-right corner */}
-      <button
-        onClick={e => { e.stopPropagation(); onClose(); }}
-        className="absolute top-2 right-2 w-7 h-7 flex items-center justify-center rounded-full bg-white/80 hover:bg-white transition-colors shadow-sm z-10"
-        aria-label="Zamknij"
-      >
-        <X className="h-4 w-4 text-gray-500" />
-      </button>
-
-      {/* Image (only when present) */}
+      {/* Inset image with rounded corners */}
       {location.image && (
-        <img
-          src={location.image}
-          alt={location.name}
-          className="w-full h-36 object-cover block cursor-pointer"
-          onClick={onOpenDetails}
-        />
+        <div className="px-2.5 pt-2.5 relative">
+          <img
+            src={location.image}
+            alt={location.name}
+            className="w-full h-32 object-cover rounded-xl block cursor-pointer"
+            onClick={onOpenDetails}
+          />
+          {/* Close button — on image */}
+          <button
+            onClick={e => { e.stopPropagation(); onClose(); }}
+            className="absolute top-4 right-4 w-[42px] h-[42px] flex items-center justify-center rounded-full bg-white/80 hover:bg-white transition-colors shadow-sm"
+            aria-label="Zamknij"
+          >
+            <X className="h-5 w-5 text-neutral-500" />
+          </button>
+        </div>
       )}
 
-      {/* Info row — tap/click opens full details */}
+      {/* Info */}
       <div
-        className="px-3 py-2.5 cursor-pointer hover:bg-secondary transition-colors"
+        className="px-3 py-2.5 cursor-pointer hover:bg-bg-primary transition-colors"
         onClick={onOpenDetails}
       >
         <div className="flex items-center gap-1.5">
-          <TypeIcon className="h-3.5 w-3.5 text-primary flex-shrink-0" />
-          <span className="font-bold text-primary text-sm leading-snug line-clamp-1 flex-1">
+          <span className="w-8 h-8 flex items-center justify-center rounded-full bg-accent flex-shrink-0">
+            <TypeIcon className="h-4 w-4 text-neutral-1000" />
+          </span>
+          <span className="font-semibold text-neutral-1000 text-sm leading-snug line-clamp-1 flex-1">
             {location.name}
           </span>
         </div>
-        <p className="text-xs text-gray-500 leading-relaxed line-clamp-3 mt-0.5">
+        <p className="text-xs text-neutral-500 leading-relaxed line-clamp-2 mt-0.5">
           {location.summary || location.address}
         </p>
       </div>

@@ -86,14 +86,16 @@ export function LocationList({
   );
 
   return (
-    <div className="flex flex-col w-full h-full min-h-0 bg-white">
+    <div className="flex flex-col w-full h-full min-h-0 bg-neutral-0">
       {showInlineFilters && (
-        <div className="sticky top-0 z-10 bg-white border-b border-secondary-border flex-shrink-0">
+        <div className="sticky top-0 z-10 bg-neutral-0 border-b border-secondary-border flex-shrink-0">
           {/* Header */}
           <div className="px-4 pt-4 pb-3 flex items-center justify-between">
-            <span className="font-bold text-primary text-lg">Lokalizacje</span>
-            <span className="text-xs bg-secondary text-primary px-2.5 py-1 rounded-full font-medium">
-              {filteredCount?.toLocaleString('pl-PL')} Miejsc
+            <span className="font-bold text-primary text-lg">
+              {selectedCountry || 'Lokalizacje'}
+            </span>
+            <span className="text-sm text-neutral-500">
+              <span className="font-semibold text-primary">{filteredCount?.toLocaleString('pl-PL')}</span> miejsc
             </span>
           </div>
 
@@ -139,7 +141,7 @@ export function LocationList({
                 <div className="absolute inset-0 bg-gradient-to-r from-white via-white/80 to-transparent" />
                 <button
                   onClick={() => scrollChips('left')}
-                  className="relative ml-1 w-7 h-7 bg-white border border-secondary-border rounded-full shadow-sm flex items-center justify-center pointer-events-auto hover:bg-secondary transition-colors"
+                  className="relative ml-1 w-7 h-7 bg-neutral-0 border border-secondary-border rounded-full shadow-sm flex items-center justify-center pointer-events-auto hover:bg-secondary transition-colors"
                   aria-label="Przewiń w lewo"
                 >
                   <ChevronLeft className="h-4 w-4 text-primary" />
@@ -153,7 +155,7 @@ export function LocationList({
                 <div className="absolute inset-0 bg-gradient-to-l from-white via-white/80 to-transparent" />
                 <button
                   onClick={() => scrollChips('right')}
-                  className="relative mr-1 w-7 h-7 bg-white border border-secondary-border rounded-full shadow-sm flex items-center justify-center pointer-events-auto hover:bg-secondary transition-colors"
+                  className="relative mr-1 w-7 h-7 bg-neutral-0 border border-secondary-border rounded-full shadow-sm flex items-center justify-center pointer-events-auto hover:bg-secondary transition-colors"
                   aria-label="Przewiń w prawo"
                 >
                   <ChevronRight className="h-4 w-4 text-primary" />
@@ -165,17 +167,17 @@ export function LocationList({
           {/* Country / nearby search */}
           <div className="px-4 pb-3">
             <div className="relative" ref={dropdownRef}>
-              <div className="flex items-center border border-secondary-border rounded-lg px-3 py-2.5 gap-2 bg-white">
+              <div className="flex items-center border border-secondary-border rounded-lg px-3 py-2.5 gap-2 bg-neutral-0">
                 {locationStatus === 'loading'
-                  ? <Loader2 className="h-4 w-4 animate-spin text-gray-400 flex-shrink-0" />
+                  ? <Loader2 className="h-4 w-4 animate-spin text-neutral-300 flex-shrink-0" />
                   : locationStatus === 'granted'
                     ? <MapPin className="h-4 w-4 text-primary flex-shrink-0" />
-                    : <Search className="h-4 w-4 text-gray-400 flex-shrink-0" />
+                    : <Search className="h-4 w-4 text-neutral-300 flex-shrink-0" />
                 }
                 <input
                   type="text"
                   readOnly={locationStatus === 'loading' || locationStatus === 'granted'}
-                  className="flex-1 text-sm text-primary outline-none bg-transparent placeholder-gray-400"
+                  className="flex-1 text-sm text-primary outline-none bg-transparent placeholder-neutral-300"
                   placeholder="Szukaj w danym regionie"
                   value={
                     locationStatus === 'loading' ? 'Uzyskiwanie lokalizacji…' :
@@ -210,12 +212,12 @@ export function LocationList({
                     onClick={locationStatus === 'granted' ? onClearNearby : () => { onCountrySelect?.(null); setCountrySearch(''); setIsCountryDropdownOpen(false); }}
                     aria-label="Wyczyść"
                   >
-                    <X className="h-4 w-4 text-gray-400 hover:text-primary" />
+                    <X className="h-4 w-4 text-neutral-300 hover:text-primary" />
                   </button>
                 )}
               </div>
               {isCountryDropdownOpen && (
-                <div className="absolute z-50 top-full left-0 right-0 mt-1 bg-white border border-secondary-border rounded-lg shadow-lg max-h-48 overflow-y-auto">
+                <div className="absolute z-50 top-full left-0 right-0 mt-1 bg-neutral-0 border border-secondary-border rounded-lg shadow-lg max-h-48 overflow-y-auto">
                   <button
                     onClick={() => { setIsCountryDropdownOpen(false); onRequestLocation?.(); }}
                     className="w-full text-left px-3 py-2 text-sm text-primary hover:bg-secondary flex items-center gap-2"
@@ -233,11 +235,11 @@ export function LocationList({
                         className="w-full text-left px-3 py-2 text-sm text-primary hover:bg-secondary flex justify-between items-center"
                       >
                         <span>{c.name}</span>
-                        <span className="text-xs text-gray-400">({c.count})</span>
+                        <span className="text-xs text-neutral-300">({c.count})</span>
                       </button>
                     ))
                   ) : (
-                    <div className="px-3 py-2 text-sm text-gray-400">Brak wyników</div>
+                    <div className="px-3 py-2 text-sm text-neutral-300">Brak wyników</div>
                   )}
                 </div>
               )}
@@ -245,7 +247,7 @@ export function LocationList({
             {/* Radius slider */}
             {locationStatus === 'granted' && (
               <div className="mt-2">
-                <div className="flex justify-between text-xs text-gray-400 mb-1">
+                <div className="flex justify-between text-xs text-neutral-300 mb-1">
                   <span>Zasięg</span><span>{nearbyRadius} km</span>
                 </div>
                 <input
@@ -253,7 +255,7 @@ export function LocationList({
                   onChange={e => onSetNearbyRadius?.(Number(e.target.value))}
                   className="w-full accent-primary"
                 />
-                <div className="flex justify-between text-xs text-gray-400 mt-0.5">
+                <div className="flex justify-between text-xs text-neutral-300 mt-0.5">
                   <span>10 km</span><span>100 km</span>
                 </div>
               </div>
@@ -267,7 +269,7 @@ export function LocationList({
       <div className="flex-1 min-h-0 overflow-y-auto pt-1 pb-20">
         {!showInlineFilters && <div className="h-20" />}
         {locations.length === 0 ? (
-          <div className="flex flex-col items-center justify-center h-64 text-gray-400 gap-3">
+          <div className="flex flex-col items-center justify-center h-64 text-neutral-300 gap-3">
             <p className="text-sm">Brak miejsc spełniających kryteria</p>
             <button
               onClick={onClearFilters}
