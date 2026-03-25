@@ -38,7 +38,7 @@ export function Header() {
     <header ref={headerRef} className="bg-primary text-secondary relative z-[10000]">
       {/* Mobile layout */}
       <div className="md:hidden flex items-center justify-center h-16 px-4 bg-bg-primary">
-        <span className="font-handwritten text-2xl font-bold text-accent-blue">Śladami Roberta Makłowicza</span>
+        <img src="/new_logo.svg" alt="Śladami Roberta Makłowicza" className="h-8" />
       </div>
 
       {/* Desktop layout */}

@@ -160,9 +160,8 @@ export default function Home() {
           }}
           onToggleFilters={() => setIsFiltersOpen(!isFiltersOpen)}
           onResetFilters={() => {
-            setSelectedCountry(null);
             setSelectedLocationTypes([]);
-            clearUserLocation();
+            setNearbyRadius(50);
           }}
           onRequestLocation={requestUserLocation}
           onSetNearbyRadius={setNearbyRadius}

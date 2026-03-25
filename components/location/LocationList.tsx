@@ -86,7 +86,7 @@ export function LocationList({
   );
 
   return (
-    <div className="flex flex-col w-full h-full min-h-0 bg-neutral-0">
+    <div className="flex flex-col w-full h-full min-h-0 bg-bg-primary">
       {showInlineFilters && (
         <div className="sticky top-0 z-10 bg-neutral-0 border-b border-secondary-border flex-shrink-0">
           {/* Header */}

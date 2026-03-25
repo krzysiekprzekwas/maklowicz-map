@@ -12,8 +12,6 @@ module.exports = {
         body: ['"Inter"', 'sans-serif'],
       },
       colors: {
-        /* ── Figma Design System ── */
-
         // Neutrals
         neutral: {
           0:    '#FFFFFF',
@@ -42,9 +40,6 @@ module.exports = {
         bg: {
           primary: '#F6F5F2',
         },
-
-        // Shadow token (reference only, used via boxShadow)
-        // shadow-200: 0px 1px 4px rgba(12,12,13,0.05), 0px 1px 4px rgba(12,12,13,0.1)
 
         /* ── Legacy location-type colors (used by safelist pattern) ── */
         restaurant:         { DEFAULT: '#fff3cd', border: '#f59e0b', text: '#78350f' },
