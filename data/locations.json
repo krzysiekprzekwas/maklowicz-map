@@ -1,6 +1,142 @@
 {
   "videos": [
     {
+      "videoId": "2BqozOrtVTU",
+      "videoUrl": "https://www.youtube.com/watch?v=2BqozOrtVTU",
+      "title": "„Produkcja od kuchni\" - ROBERT MAKŁOWICZ KOLUMBIA odc.216",
+      "filterTitle": "Produkcja od kuchni (odc. 216)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2025-02-07T16:00:07Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "restaurante-peru-fusion",
+          "name": "Restaurante Perú Fusión",
+          "description": "Restaurante Perú Fusión to miejsce, gdzie kulinarny świat, zdawałoby się, stanął na głowie, by zaoferować coś absolutnie wyjątkowego. To właśnie tutaj, w Kolumbii, peruwiańskie ceviche i ají de gallina zyskują nowy, intrygujący wymiar, niczym egzotyczne rośliny, które z powodzeniem zakorzeniły się w nowym, żyznym gruncie. Prawdziwa gratka dla poszukiwaczy smaków, którzy cenią sobie kulinarne podróże bez konieczności pakowania walizek.",
+          "latitude": 10.424170187599955,
+          "longitude": -75.55082738399507,
+          "address": "CCFJ+M3 Turbaco, Bolivar, Colombia",
+          "country": "Colombia",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/HaBpCB3L94AF7V87A",
+          "image": "/images/restaurante-peru-fusion.jpg",
+          "summary": "Restauracja z kuchnią peruwiańsko-kolumbijską w Medellín."
+        }
+      ]
+    },
+    {
+      "videoId": "1QF33GkKi70",
+      "videoUrl": "https://www.youtube.com/watch?v=1QF33GkKi70",
+      "title": "„El Poblado i wielki monolit\"  ROBERT MAKŁOWICZ KOLUMBIA odc.215",
+      "filterTitle": "El Poblado i wielki monolit (odc. 215)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2025-01-31T16:00:08Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "lleras-park",
+          "name": "Lleras Park",
+          "description": "W kolumbijskim Medellín, Lleras Park jawi się podróżnikowi jako barwny plac zabaw dla zmysłów, gdzie wieczorami powietrze gęstnieje od gwaru rozmów i zapachów wyśmienitej kuchni. To miejsce, choć bez wiekowych murów, stanowi współczesne centrum kulturalnego tygla, gdzie każda chwila smakuje jak najlepsza opowieść, a lokalne przysmaki kuszą, by zatrzymać się na dłużej.",
+          "latitude": 6.208874306643278,
+          "longitude": -75.56777358055116,
+          "address": "Cra. 38 # 8A-42, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+          "country": "Colombia",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/RgiUD5XeWdBNTVp48",
+          "image": "/images/lleras-park.jpg",
+          "summary": "Tętniący życiem nocnym park w dzielnicy El Poblado w Medellín."
+        },
+        {
+          "id": "restaurante-mondongo-s-el-poblado",
+          "name": "Restaurante Mondongo's El Poblado",
+          "description": "Otóż, w sercu kolumbijskiego Medellín, w dzielnicy El Poblado, rozpościera się Restaurante Mondongo's – prawdziwa świątynia smaku, gdzie historia kuchni regionu Antioquia opowiadana jest na talerzu. Od 1976 roku, z niezmienną pasją, serwuje się tu *mondongo* – zupę z flaków, która dla wielu jest kwintesencją lokalnego kulinarium, a dla innych... cóż, wyzwaniem, choć zawsze nagradzanym. To właśnie tutaj, wśród gwaru rozmów i zapachu przypraw, można poczuć puls miasta i zrozumieć, dlaczego Kolumbijczycy tak dumnie pielęgnują swoje gastronomiczne dziedzictwo.",
+          "latitude": 6.209743577029776,
+          "longitude": -75.56784868240358,
+          "address": "Cl 10 #40-37, El Poblado, Envigado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+          "country": "Colombia",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/U85NSLP2CSoJ9fJP8",
+          "image": "/images/restaurante-mondongo-s-el-poblado.jpg",
+          "summary": "Kultowa restauracja w El Poblado serwująca mondongo – kolumbijską zupę z flaczków."
+        },
+        {
+          "id": "la-causa",
+          "name": "La Causa",
+          "description": "W Kolumbii, krainie kawy i niezliczonych smaków, Robert Makłowicz z prawdziwą ciekawością zawitał do „La Causa” – miejsca, które z finezją przenosi gości wprost do kulinarnego serca Peru. Można by rzec, że to nie tylko przystanek na mapie, lecz prawdziwa manifestacja smaku i historii, gdzie tytułowa *causa* – ziemniaczana potrawa z duszą – opowiada własną, pikantną opowieść, łącząc tradycję z kolumbijską radością życia.",
+          "latitude": 6.208175689525851,
+          "longitude": -75.56467294692995,
+          "address": "Cra. 42 #816, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+          "country": "Colombia",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/J5DawaLcBf1sQZBH8",
+          "image": "/images/la-causa.jpg",
+          "summary": "Restauracja z kuchnią peruwiańską w Medellín, specjalizująca się w ceviche."
+        },
+        {
+          "id": "el-penon-de-guatape",
+          "name": "El Peñón de Guatapé",
+          "description": "W sercu Kolumbii, niczym kamienny kolos wyrasta El Peñón de Guatapé – monolit tak potężny, że aż prosi się o zdobycie, by z góry podziwiać świat, który zdaje się tam smakować zupełnie inaczej. Wspinaczka po setkach schodów to niczym degustacja przygody, a nagrodą jest panorama jezior i wysepek, która zapiera dech w piersiach, budząc apetyt na dalsze odkrycia i uświadamiając, jak od wieków ten naturalny strażnik okolicy inspiruje podróżników.",
+          "latitude": 6.223838355951414,
+          "longitude": -75.1789712905884,
+          "address": "6RF6+7HC, Guatapé, Antioquia, Colombia",
+          "country": "Colombia",
+          "type": "nature",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZJAyNpbngq49Y5DD7",
+          "image": "/images/el-penon-de-guatape.jpg",
+          "summary": "Monumentalny monolit z 740 schodami i panoramicznym widokiem na jeziora."
+        },
+        {
+          "id": "plazoleta-de-los-zocalos",
+          "name": "Plazoleta de Los Zócalos",
+          "description": "W kolumbijskim Guatapé, gdzie barwy grają pierwsze skrzypce, znajduje się miejsce absolutnie wyjątkowe – Plazoleta de Los Zócalos. Tutaj, na każdej fasadzie, rozkwitają słynne zócalos – te trójwymiarowe, malowane opowieści. Niczym najlepsze menu degustacyjne, serwują one historię i duszę regionu, a każda z nich zdaje się szeptać inną, smakowitą przypowieść o życiu.",
+          "latitude": 6.233223999808398,
+          "longitude": -75.15809297561647,
+          "address": "Cra. 31 # 30-11, Guatape, Guatapé, Antioquia, Colombia",
+          "country": "Colombia",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ZzjG6yc4ajN91yEZ9",
+          "image": "/images/plazoleta-de-los-zocalos.jpg",
+          "summary": "Kolorowy placyk w Guatapé z tradycyjnymi zócalos – malowanymi płaskorzeźbami."
+        },
+        {
+          "id": "la-tiendita-de-chocolate",
+          "name": "La Tiendita de Chocolate",
+          "description": "W Kolumbii, gdzie słońce hojnie obdarza ziemię, a historia kakaa sięga zamierzchłych czasów, odnajdziemy La Tiendita de Chocolate. To nie jest po prostu sklepik, lecz prawdziwa świątynia smaku, gdzie ziarno, od wieków cenione przez rdzennych mieszkańców, wciąż gra główną rolę, oferując czekoladowe cuda, które potrafią rozgrzać serce nawet największego sceptyka. W tym miejscu, gdzie tradycja spotyka się z pasją, można delektować się specjałami, które z pewnością rozgrzeją duszę i przypomną o prostych, a jakże wyrafinowanych przyjemnościach życia.",
+          "latitude": 6.233885254750866,
+          "longitude": -75.16073226928712,
+          "address": "Cl. 30 # 30-57, Guatape, Guatapé, Antioquia, Colombia",
+          "country": "Colombia",
+          "type": "shopping",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/YzWEdtAqfkTp3Yjs7",
+          "image": "/images/la-tiendita-de-chocolate.jpg",
+          "summary": "Sklep z kolumbijską czekoladą i wyrobami kakaowymi w Guatapé."
+        },
+        {
+          "id": "parque-la-manuela-pablo-escobar",
+          "name": "Parque La Manuela: Pablo Escobar",
+          "description": "Ależ proszę państwa, w Kolumbii, nieopodal Medellín, rozciąga się Parque La Manuela – niegdyś imponująca posiadłość Pablo Escobara, wzniesiona w latach 80. ubiegłego stulecia. Dziś to malownicze ruiny, które niczym najlepsze danie z historią w tle, opowiadają o burzliwych losach kraju, skrywając wspomnienia o niejednym zakazanym bankiecie. Aż chciałoby się tam usiąść z filiżanką wyśmienitej kawy i podumać nad przemijaniem.",
+          "latitude": 6.234973123971369,
+          "longitude": -75.22111415863039,
+          "address": "6QJG+CP Peñol, Antioquia, Colombia",
+          "country": "Colombia",
+          "type": "tourist_attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/T8QKdF5gP39psS3w8",
+          "image": "/images/parque-la-manuela-pablo-escobar.jpg",
+          "summary": "Ruiny dawnej posiadłości Pablo Escobara nad jeziorem Guatapé."
+        }
+      ]
+    },
+    {
       "videoId": "tW2D9h5sy1c",
       "videoUrl": "https://www.youtube.com/watch?v=tW2D9h5sy1c",
       "title": "„ W drodze do Medellin\" - ROBERT MAKŁOWICZ KOLUMBIA odc.214",
