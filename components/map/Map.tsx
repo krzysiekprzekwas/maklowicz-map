@@ -256,10 +256,11 @@ const Map: React.FC<MapProps> = React.memo(({
                 renderer={canvasRenderer}
             >
                 <TileLayer
-                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                    url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"
-                    maxZoom={maxZoomValue}
-                    maxNativeZoom={maxZoomValue}
+                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+                    url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
+                    subdomains="abcd"
+                    maxZoom={20}
+                    maxNativeZoom={20}
                 />
                 <MapClickCloser onClose={onClosePreview} />
                 <PositionTracker
