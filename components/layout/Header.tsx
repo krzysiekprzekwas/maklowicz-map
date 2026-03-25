@@ -30,29 +30,23 @@ export function Header() {
   }, [pathname]);
 
   const linkClass = (href: string) =>
-    `transition-colors border-b-2 border-primary hover:border-secondary-darker ${
-      pathname === href ? "border-secondary-darker text-secondary-darker font-bold" : ""
+    `transition-colors border-b-2 hover:border-neutral-1000 ${
+      pathname === href ? "border-neutral-1000 font-bold" : "border-transparent"
     }`;
 
   return (
-    <header ref={headerRef} className="bg-primary text-secondary relative z-[10000]">
+    <header ref={headerRef} className="bg-bg-primary relative z-[10000]">
       {/* Mobile layout */}
-      <div className="md:hidden flex items-center justify-center h-16 px-4 bg-bg-primary">
+      <div className="md:hidden flex items-center justify-center h-16 px-4">
         <img src="/new_logo.svg" alt="Śladami Roberta Makłowicza" className="h-8" />
       </div>
 
       {/* Desktop layout */}
       <div className="hidden md:block container mx-auto px-6 py-4">
         <div className="flex flex-row justify-between items-center gap-4">
-          <div className="flex items-center gap-4">
-            <img src="/hat.svg" alt="Logo" className="w-12 h-auto invert" />
-            <div>
-              <h1 className="font-handwritten text-4xl leading-none mb-2">Śladami Roberta Makłowicza</h1>
-              <p className="text-lg opacity-90">Mapa miejsc odwiedzonych przez Roberta Makłowicza</p>
-            </div>
-          </div>
+          <img src="/new_logo.svg" alt="Śladami Roberta Makłowicza" className="h-8" />
           <nav>
-            <ul className="flex space-x-6 items-center text-lg">
+            <ul className="flex space-x-6 items-center text-lg text-neutral-1000">
               {navLinks.map(({ href, label }) => (
                 <li key={href}>
                   <Link href={href} className={linkClass(href)}>
