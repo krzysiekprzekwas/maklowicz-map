@@ -1,269 +1,144 @@
-import React, { useEffect, useState } from 'react';
-import { useRouter } from 'next/router';
-import dynamic from 'next/dynamic';
-import { AnimatePresence, motion } from 'framer-motion';
-import { useLocations } from '../hooks/useLocations';
-import Head from 'next/head';
-import { useLocationState } from '../hooks/useLocationState';
-import { Filters } from '../components/filters/Filters';
-import { LocationDetails } from '../components/location/LocationDetails';
-import { LocationList } from '../components/location/LocationList';
-import { ViewToggle } from '../components/ViewToggle';
-import type { Location as MapLocation } from '../types/Location';
-import { trackLocationSelect, trackCountryFilter, trackTypeFilter, trackNearbySearch, trackViewToggle, trackShowOnMap, trackLocationPreview } from '../src/lib/analytics';
+import Link from 'next/link';
+import { motion } from 'framer-motion';
+import { MapPin, Mail } from 'lucide-react';
+import locationData from '../data/locations.json';
+import type { LocationData } from '../types/Location';
+import { LandingSearch } from '../components/filters/LandingSearch';
+import { FeaturedCarousel } from '../components/landing/FeaturedCarousel';
 
-const Map = dynamic(() => import('../components/map/Map'), {
-  ssr: false,
-  loading: () => (
-    <div className="w-full h-full flex items-center justify-center bg-secondary">
-      <div className="text-primary text-xl">Loading map...</div>
-    </div>
-  ),
+const typedData = locationData as LocationData;
+
+const allLocations = typedData.videos.flatMap((v) => v.locations);
+const totalLocations = allLocations.length;
+const videoCount = typedData.videos.filter((v) => v.locations?.length > 0).length;
+const countryCount = new Set(allLocations.map((l) => l.country)).size;
+
+const countries = Object.entries(
+  allLocations.reduce<Record<string, number>>((acc, l) => {
+    acc[l.country] = (acc[l.country] || 0) + 1;
+    return acc;
+  }, {})
+)
+  .map(([name, count]) => ({ name, count }))
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+// Most recent locations — sorted by parent video date, filtered to ones with images + summaries
+const sortedVideos = [...typedData.videos].sort(
+  (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+);
+const featured = sortedVideos
+  .flatMap((v) => v.locations)
+  .filter((l) => l.image && l.summary)
+  .slice(0, 12);
+
+const fadeUp = (delay = 0) => ({
+  initial: { opacity: 0, y: 20 },
+  animate: { opacity: 1, y: 0 },
+  transition: { duration: 0.5, delay },
 });
 
-export default function Home() {
-  const router = useRouter();
-  const {
-    selectedLocation,
-    setSelectedLocation,
-    previewLocation,
-    setPreviewLocation,
-    selectedCountry,
-    setSelectedCountry,
-    selectedLocationTypes,
-    setSelectedLocationTypes,
-    isFiltersOpen,
-    setIsFiltersOpen,
-    toggleLocationType,
-    userLocation,
-    locationStatus,
-    nearbyRadius,
-    setNearbyRadius,
-    requestUserLocation,
-    clearUserLocation,
-    activeView,
-    setActiveView,
-  } = useLocationState();
-
-  const { countries, filteredLocations, locationTypeCounts, allLocations, zoomLocations } =
-    useLocations(
-      selectedCountry,
-      selectedLocationTypes,
-      userLocation?.lat,
-      userLocation?.lng,
-      locationStatus === 'granted' ? nearbyRadius : undefined
-    );
-
-  // Track nearby search when geolocation is granted
-  useEffect(() => {
-    if (locationStatus === 'granted') {
-      trackNearbySearch(nearbyRadius);
-    }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [locationStatus]);
-
-  // Detect mobile for list view animation variant
-  const [isMobile, setIsMobile] = useState(false);
-  useEffect(() => {
-    const check = () => setIsMobile(window.innerWidth < 768);
-    check();
-    window.addEventListener('resize', check);
-    return () => window.removeEventListener('resize', check);
-  }, []);
-
-  const [flyToLocation, setFlyToLocation] = useState<import('../types/Location').Location | null>(null);
-
-  const handleShowOnMap = React.useCallback(() => {
-    if (!selectedLocation) return;
-    trackShowOnMap(selectedLocation.id);
-    setFlyToLocation(selectedLocation);
-    if (isMobile) {
-      setActiveView('map');
-      setSelectedLocation(null);
-    }
-  }, [selectedLocation, isMobile, setActiveView, setSelectedLocation]);
-
-  // Stable callbacks so Map's marker memo doesn't invalidate unnecessarily
-  const handleLocationSelect = React.useCallback((loc: MapLocation) => {
-    setSelectedLocation(loc);
-    setPreviewLocation(null);
-    trackLocationSelect(loc);
-  }, [setSelectedLocation, setPreviewLocation]);
-
-  const handleLocationPreview = React.useCallback((loc: MapLocation) => {
-    trackLocationPreview(loc);
-    setPreviewLocation(loc);
-  }, [setPreviewLocation]);
-
-  const handleClosePreview = React.useCallback(() => {
-    setPreviewLocation(null);
-  }, [setPreviewLocation]);
-
-  React.useEffect(() => {
-    if (!router.isReady) return;
-    const countryParam = router.query.country;
-    if (typeof countryParam === 'string' && countryParam.trim()) {
-      setSelectedCountry(decodeURIComponent(countryParam));
-    }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [router.isReady, router.query.country]);
-
-  React.useEffect(() => {
-    if (!router.isReady) return;
-    const placeIdParam = router.query.placeId;
-    if (typeof placeIdParam !== 'string' || !placeIdParam.trim()) return;
-    const target = allLocations.find((l) => l.id === placeIdParam);
-    if (!target) return;
-    setSelectedLocation(target);
-    if (selectedCountry !== target.country) {
-      setSelectedCountry(target.country);
-    }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [router.isReady, router.query.placeId, allLocations]);
-
-  const listProps = {
-    locations: filteredLocations,
-    onLocationSelect: handleLocationSelect,
-    onClearFilters: () => {
-      setSelectedCountry(null);
-      setSelectedLocationTypes([]);
-      clearUserLocation();
-    },
-  };
-
+export default function LandingPage() {
   return (
-    <main className="flex-1 flex flex-col bg-secondary overflow-hidden">
-      {selectedLocation && (
-        <Head>
-          <title>{`${selectedLocation.name} | Śladami Roberta Makłowicza`}</title>
-        </Head>
-      )}
-      <div className="flex flex-1 relative overflow-hidden">
-        {/* Mobile: overlay search bar + filter sheet */}
-        {isMobile && (
-          <Filters
-            isOpen={isFiltersOpen}
-            countries={countries}
-            selectedCountry={selectedCountry}
-            selectedLocationTypes={selectedLocationTypes}
-            filteredCount={filteredLocations.length}
-            locationTypeCounts={locationTypeCounts}
-            locationStatus={locationStatus}
-            nearbyRadius={nearbyRadius}
-            onCountrySelect={(country) => {
-              setSelectedCountry(country);
-              if (country) clearUserLocation();
-              trackCountryFilter(country);
-            }}
-            onToggleLocationType={(type) => {
-              const isActive = !selectedLocationTypes.includes(type);
-              toggleLocationType(type);
-              trackTypeFilter(type, isActive);
-            }}
-            onToggleFilters={() => setIsFiltersOpen(!isFiltersOpen)}
-            onResetFilters={() => {
-              setSelectedLocationTypes([]);
-              setNearbyRadius(50);
-            }}
-            onRequestLocation={requestUserLocation}
-            onSetNearbyRadius={setNearbyRadius}
-            onClearNearby={clearUserLocation}
-            variant="overlay"
-          />
-        )}
+    <main className="flex-1 flex flex-col bg-bg-primary">
+      {/* Hero */}
+      <section className="relative z-10 px-4 pt-8 pb-6 md:pt-16 md:pb-10 max-w-3xl mx-auto w-full">
+        <motion.h1
+          {...fadeUp(0)}
+          className="font-heading text-2xl md:text-4xl text-primary leading-[120%] mb-6 text-center px-4 md:px-8"
+        >
+          <span className="font-light">Odkrywaj miejsca, historie i{' '}smaki znane z podróży</span>
+          <br />
+          <span className="font-bold">Roberta Makłowicza</span>
+        </motion.h1>
 
-        {/* Desktop list panel — permanent, always visible */}
-        {!isMobile && (
-          <div className="w-96 flex-shrink-0 h-full overflow-hidden bg-bg-primary border-r border-neutral-200 shadow-xl flex flex-col">
-            <Filters
-              isOpen={isFiltersOpen}
-              countries={countries}
-              selectedCountry={selectedCountry}
-              selectedLocationTypes={selectedLocationTypes}
-              filteredCount={filteredLocations.length}
-              locationTypeCounts={locationTypeCounts}
-              locationStatus={locationStatus}
-              nearbyRadius={nearbyRadius}
-              onCountrySelect={(country) => {
-                setSelectedCountry(country);
-                if (country) clearUserLocation();
-                trackCountryFilter(country);
-              }}
-              onToggleLocationType={(type) => {
-                const isActive = !selectedLocationTypes.includes(type);
-                toggleLocationType(type);
-                trackTypeFilter(type, isActive);
-              }}
-              onToggleFilters={() => setIsFiltersOpen(!isFiltersOpen)}
-              onResetFilters={() => {
-                setSelectedLocationTypes([]);
-                setNearbyRadius(50);
-              }}
-              onRequestLocation={requestUserLocation}
-              onSetNearbyRadius={setNearbyRadius}
-              onClearNearby={clearUserLocation}
-              variant="inline"
-            />
-            <LocationList
-              {...listProps}
-              filteredCount={filteredLocations.length}
-              selectedCountry={selectedCountry}
-            />
-          </div>
-        )}
+        <motion.div {...fadeUp(0.1)} className="mb-6">
+          <LandingSearch countries={countries} filteredCount={totalLocations} />
+        </motion.div>
+      </section>
 
-        <div className="flex-1 relative overflow-hidden">
-          <Map
-            locations={filteredLocations}
-            zoomLocations={zoomLocations}
-            selectedLocation={selectedLocation}
-            previewLocation={previewLocation}
-            onLocationSelect={handleLocationSelect}
-            onLocationPreview={handleLocationPreview}
-            onClosePreview={handleClosePreview}
-            userLat={userLocation?.lat}
-            userLng={userLocation?.lng}
-            leftPanelWidth={isMobile ? 0 : 384}
-            flyToLocation={flyToLocation}
-            onFlyToComplete={() => setFlyToLocation(null)}
-            rightPanelWidth={isMobile ? 0 : 384}
-          />
+      {/* Featured locations carousel */}
+      <section className="py-6 md:py-10">
+        <motion.div {...fadeUp(0.15)} className="max-w-3xl mx-auto w-full mb-4 px-4">
+          <h2 className="text-lg font-bold text-primary">Niedawno odwiedzone</h2>
+        </motion.div>
+        <motion.div {...fadeUp(0.2)}>
+          <FeaturedCarousel locations={featured} />
+        </motion.div>
+      </section>
 
-          {/* Mobile list overlay — fades in over map */}
-          {isMobile && (
-            <AnimatePresence>
-              {activeView === 'list' && (
-                <motion.div
-                  key="list-mobile"
-                  className="absolute inset-0 z-[9980] bg-white"
-                  initial={{ opacity: 0, y: 8 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: 8 }}
-                  transition={{ duration: 0.18, ease: 'easeOut' }}
-                >
-                  <LocationList {...listProps} filteredCount={filteredLocations.length} selectedCountry={selectedCountry} topPadding />
-                </motion.div>
-              )}
-            </AnimatePresence>
-          )}
+      {/* Stats + CTA */}
+      <section className="px-4 py-10 md:py-16">
+        <div className="max-w-3xl mx-auto w-full text-center">
+          <motion.p
+            {...fadeUp(0.1)}
+            className="text-lg md:text-xl text-primary font-medium mb-8 max-w-md mx-auto"
+          >
+            Mapa miejsc odwiedzonych przez Roberta Makłowicza pozwala eksplorować!
+          </motion.p>
+
+          <motion.div {...fadeUp(0.15)} className="grid grid-cols-3 gap-3 mb-8 max-w-sm mx-auto">
+            {[
+              { value: totalLocations, label: 'Miejsc' },
+              { value: videoCount, label: 'Odcinków' },
+              { value: countryCount, label: 'Krajów' },
+            ].map(({ value, label }) => (
+              <div key={label} className="bg-neutral-0 rounded-2xl border border-neutral-200 px-3 py-4">
+                <p className="text-3xl font-bold text-primary">{value}</p>
+                <p className="text-sm text-neutral-500 mt-0.5">{label}</p>
+              </div>
+            ))}
+          </motion.div>
+
+          <motion.div {...fadeUp(0.2)}>
+            <Link
+              href="/map"
+              className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl bg-accent text-neutral-1000 font-semibold hover:bg-accent/90 transition-colors text-base shadow-sm"
+            >
+              <MapPin className="w-4 h-4" />
+              Szukaj na mapie
+            </Link>
+          </motion.div>
         </div>
+      </section>
 
-        <LocationDetails
-          location={selectedLocation}
-          onClose={() => setSelectedLocation(null)}
-          onShowOnMap={handleShowOnMap}
-        />
-      </div>
+      {/* O Projekcie */}
+      <section className="px-4 py-10 md:py-16 bg-neutral-0">
+        <div className="max-w-3xl mx-auto w-full">
+          <motion.h2 {...fadeUp(0)} className="text-2xl font-bold text-primary mb-6">
+            O Projekcie
+          </motion.h2>
+          <motion.div {...fadeUp(0.1)} className="space-y-4 text-neutral-500 leading-relaxed">
+            <p>
+              Programy Roberta Makłowicza towarzyszą mi od dziecka. Weekendowe wyprawy przed telewizorem były małym rytuałem, który zaszczepił we mnie ciekawość świata, ludzi i historii.
+            </p>
+            <p>
+              Kiedy w czasach lockdownu Robert wrócił z kanałem na YouTube, poczułem to samo co kiedyś. Jakbym znowu jechał z nim w podróż. W pewnym momencie przyszła myśl:
+            </p>
+            <blockquote className="border-l-2 border-primary/30 pl-4 italic">
+              Fajnie byłoby zobaczyć na mapie wszystkie te miejsca. A przecież mogę to zbudować!
+            </blockquote>
+            <p>
+              Tak powstała ta mapa. Oglądam odcinki, mapuję miejsca, dodaję opisy. Projekt jest hobbistyczny i może nie obejmować całej twórczości Roberta, ale staram się go regularnie uzupełniać.
+            </p>
+          </motion.div>
+        </div>
+      </section>
 
-      {isMobile && (
-        <ViewToggle
-          activeView={activeView}
-          onViewChange={(view) => {
-            setActiveView(view);
-            trackViewToggle(view);
-          }}
-        />
-      )}
+      {/* Contact CTA */}
+      <section className="px-4 py-10 md:py-14">
+        <div className="max-w-3xl mx-auto w-full text-center">
+          <motion.div {...fadeUp(0)}>
+            <p className="text-sm font-medium text-neutral-500 mb-3">Napisz do mnie</p>
+            <a
+              href="mailto:przekwaskrzysiek@gmail.com"
+              className="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-xl bg-accent-blue text-neutral-0 font-semibold hover:bg-accent-blue/90 transition-colors shadow-sm"
+            >
+              <Mail className="w-4 h-4" />
+              przekwaskrzysiek@gmail.com
+            </a>
+          </motion.div>
+        </div>
+      </section>
     </main>
   );
 }

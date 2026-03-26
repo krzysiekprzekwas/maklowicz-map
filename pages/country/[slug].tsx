@@ -25,7 +25,7 @@ function LocationCard({ loc, country }: { loc: Location; country: string }) {
 
   return (
     <a
-      href={`/?country=${encodeURIComponent(country)}&placeId=${encodeURIComponent(loc.id)}`}
+      href={`/map?country=${encodeURIComponent(country)}&placeId=${encodeURIComponent(loc.id)}`}
       className="flex overflow-hidden rounded-2xl border border-secondary-border bg-white hover:shadow-md transition-shadow"
     >
       <div className="flex-shrink-0 w-28 h-28 overflow-hidden bg-secondary flex items-center justify-center">
@@ -142,7 +142,7 @@ export default function CountryPage({ country, locations, videos }: Props) {
         {/* Mid-page CTA */}
         {remaining > 0 && (
           <a
-            href={`/?country=${encodeURIComponent(country)}`}
+            href={`/map?country=${encodeURIComponent(country)}`}
             className="flex items-center justify-between w-full px-5 py-4 rounded-2xl border-2 border-primary/20 bg-white hover:border-primary/40 hover:shadow-md transition-all mb-10 group"
           >
             <span className="text-primary font-semibold">
@@ -167,7 +167,7 @@ export default function CountryPage({ country, locations, videos }: Props) {
             {videos.length > VIDEO_PREVIEW_COUNT && (
               <p className="text-sm text-gray-500 mt-3 text-center">
                 + {videos.length - VIDEO_PREVIEW_COUNT} więcej odcinków —{' '}
-                <a href={`/?country=${encodeURIComponent(country)}`} className="text-primary font-medium underline underline-offset-2">
+                <a href={`/map?country=${encodeURIComponent(country)}`} className="text-primary font-medium underline underline-offset-2">
                   filtruj na mapie
                 </a>
               </p>
@@ -182,7 +182,7 @@ export default function CountryPage({ country, locations, videos }: Props) {
             {locations.map((loc) => (
               <li key={loc.id}>
                 <a
-                  href={`/?country=${encodeURIComponent(country)}&placeId=${encodeURIComponent(loc.id)}`}
+                  href={`/map?country=${encodeURIComponent(country)}&placeId=${encodeURIComponent(loc.id)}`}
                   className="text-xs text-gray-500 hover:text-primary transition-colors line-clamp-1"
                 >
                   {loc.name}

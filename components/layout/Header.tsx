@@ -4,9 +4,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { useState, useEffect, useRef } from "react";
 
 const navLinks = [
-  { href: "/", label: "Mapa" },
-  { href: "/about", label: "O projekcie" },
-  { href: "/contact", label: "Kontakt" },
+  { href: "/map", label: "Mapa" },
 ];
 
 export function Header() {
@@ -35,16 +33,24 @@ export function Header() {
     }`;
 
   return (
-    <header ref={headerRef} className="bg-bg-primary relative z-[10000]">
+    <header ref={headerRef} className={`${pathname === "/" ? "bg-transparent" : "bg-bg-primary"} relative z-[10000]`}>
       {/* Mobile layout */}
-      <div className="md:hidden flex items-center justify-center h-16 px-4">
-        <img src="/new_logo.svg" alt="Śladami Roberta Makłowicza" className="h-8" />
+      <div className={`md:hidden flex items-center justify-center px-4 ${pathname === "/" ? "pt-4 h-20" : "h-16"}`}>
+        <Link href="/">
+          <img
+            src={pathname === "/" ? "/main_mobile_header.svg" : "/new_logo.svg"}
+            alt="Śladami Roberta Makłowicza"
+            className={pathname === "/" ? "h-16" : "h-8"}
+          />
+        </Link>
       </div>
 
       {/* Desktop layout */}
       <div className="hidden md:block container mx-auto px-6 py-4">
         <div className="flex flex-row justify-between items-center gap-4">
-          <img src="/new_logo_desktop.svg" alt="Śladami Roberta Makłowicza" className="h-8" />
+          <Link href="/">
+            <img src="/new_logo_desktop.svg" alt="Śladami Roberta Makłowicza" className="h-8" />
+          </Link>
           <nav>
             <ul className="flex space-x-6 items-center text-lg text-neutral-1000">
               {navLinks.map(({ href, label }) => (

@@ -60,7 +60,7 @@ export function LocationDetails({
                 navigator.share?.({
                   title: location.name,
                   text: `Sprawdź to miejsce: ${location.name}`,
-                  url: `/?placeId=${encodeURIComponent(location.id)}`,
+                  url: `/map?placeId=${encodeURIComponent(location.id)}`,
                 }).catch(() => {});
               }}
               disabled={typeof navigator !== 'undefined' && !navigator.share}

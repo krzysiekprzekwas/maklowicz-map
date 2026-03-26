@@ -64,7 +64,7 @@ interface Props {
 export default function CountryMiniMap({ locations, country }: Props) {
   return (
     <a
-      href={`/?country=${encodeURIComponent(country)}`}
+      href={`/map?country=${encodeURIComponent(country)}`}
       className="block relative rounded-2xl overflow-hidden border border-secondary-border group"
       style={{ height: 220 }}
     >
