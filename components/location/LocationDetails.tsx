@@ -177,12 +177,13 @@ export function LocationDetails({
         </aside>
       )}
 
-      {/* Mobile bottom sheet */}
+      {/* Mobile bottom sheet — covers navbar */}
       {isMobile && (
         <Sheet
           isOpen={!!location}
           onClose={onClose}
-          detent="content-height"
+          detent="full-height"
+          style={{ zIndex: 10001 }}
         >
           <Sheet.Container>
             <Sheet.Header />

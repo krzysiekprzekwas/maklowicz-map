@@ -241,7 +241,7 @@ export default function Home() {
                   exit={{ opacity: 0, y: 8 }}
                   transition={{ duration: 0.18, ease: 'easeOut' }}
                 >
-                  <LocationList {...listProps} />
+                  <LocationList {...listProps} filteredCount={filteredLocations.length} selectedCountry={selectedCountry} topPadding />
                 </motion.div>
               )}
             </AnimatePresence>

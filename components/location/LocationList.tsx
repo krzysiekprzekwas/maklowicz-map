@@ -7,6 +7,8 @@ interface LocationListProps {
   onClearFilters: () => void;
   filteredCount?: number;
   selectedCountry?: string | null;
+  /** Add top padding to clear the absolute-positioned filter bar (mobile list) */
+  topPadding?: boolean;
 }
 
 export function LocationList({
@@ -15,9 +17,12 @@ export function LocationList({
   onClearFilters,
   filteredCount,
   selectedCountry,
+  topPadding,
 }: LocationListProps) {
   return (
     <div className="flex flex-col w-full h-full min-h-0 bg-bg-primary">
+      {/* Spacer for mobile filter bar */}
+      {topPadding && <div className="h-20 flex-shrink-0" />}
       {/* Header */}
       <div className="px-4 pt-4 pb-3 flex items-center justify-between flex-shrink-0">
         <span className="font-bold text-neutral-1000 text-lg">

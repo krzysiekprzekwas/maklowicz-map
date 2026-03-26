@@ -330,14 +330,14 @@ export function Filters({
         {searchBar}
       </div>
 
-      {/* Filter sheet — mobile only */}
+      {/* Filter sheet — mobile only, above navbar */}
       <Sheet
         isOpen={isOpen}
         onClose={onToggleFilters}
         detent="full-height"
+        style={{ zIndex: 10001 }}
       >
-        <Sheet.Container>
-          <Sheet.Header />
+        <Sheet.Container style={{ borderRadius: 0 }}>
           <Sheet.Content style={{ display: 'flex', flexDirection: 'column' }}>
             {filterDrawerContent}
           </Sheet.Content>
