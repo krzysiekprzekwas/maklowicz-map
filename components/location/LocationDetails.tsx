@@ -61,7 +61,7 @@ export function LocationDetails({
                   title: location.name,
                   text: `Sprawdź to miejsce: ${location.name}`,
                   url: `/?placeId=${encodeURIComponent(location.id)}`,
-                });
+                }).catch(() => {});
               }}
               disabled={typeof navigator !== 'undefined' && !navigator.share}
               className="w-[42px] h-[42px] flex items-center justify-center rounded-full bg-neutral-0/80 hover:bg-neutral-0 transition-colors shadow-sm disabled:hidden"
