@@ -38,18 +38,19 @@ export function LocationPreview({
         position: 'absolute',
         left: pixelPosition.x,
         top: pixelPosition.y - 8,
-        width: 240,
+        width: 264,
         zIndex: 9000,
         transformOrigin: 'center bottom',
         x: '-50%',
         y: '-100%',
         overflow: 'hidden',
-        backgroundColor: 'white',
         boxShadow: '0 4px 24px rgba(0,0,0,0.12)',
         pointerEvents: 'auto',
       }}
+      className="cursor-pointer group bg-neutral-0 hover:bg-bg-primary transition-colors"
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
+      onClick={onOpenDetails}
     >
       {/* Inset image with rounded corners */}
       {location.image && (
@@ -57,13 +58,12 @@ export function LocationPreview({
           <img
             src={location.image}
             alt={location.name}
-            className="w-full h-32 object-cover rounded-xl block cursor-pointer"
-            onClick={onOpenDetails}
+            className="w-full h-32 object-cover rounded-xl block"
           />
           {/* Close button — on image */}
           <button
             onClick={e => { e.stopPropagation(); onClose(); }}
-            className="absolute top-4 right-4 w-[42px] h-[42px] flex items-center justify-center rounded-full bg-white/80 hover:bg-white transition-colors shadow-sm"
+            className="absolute top-4 right-4 w-[42px] h-[42px] flex items-center justify-center rounded-full bg-neutral-0/80 hover:bg-neutral-0 transition-colors shadow-sm"
             aria-label="Zamknij"
           >
             <X className="h-5 w-5 text-neutral-500" />
@@ -72,10 +72,7 @@ export function LocationPreview({
       )}
 
       {/* Info */}
-      <div
-        className="px-3 py-2.5 cursor-pointer hover:bg-bg-primary transition-colors"
-        onClick={onOpenDetails}
-      >
+      <div className="px-3 py-2.5">
         <div className="flex items-center gap-1.5">
           <span className="w-8 h-8 flex items-center justify-center rounded-full bg-accent flex-shrink-0">
             <TypeIcon className="h-4 w-4 text-neutral-1000" />
