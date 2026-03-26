@@ -53,7 +53,7 @@ interface FeaturedCarouselProps {
 export function FeaturedCarousel({ locations }: FeaturedCarouselProps) {
   const [emblaRef, emblaApi] = useEmblaCarousel(
     { loop: true, align: 'start', skipSnaps: false },
-    [Autoplay({ delay: 2000, stopOnInteraction: false, stopOnMouseEnter: true })]
+    [Autoplay({ delay: 3000, stopOnInteraction: false, stopOnMouseEnter: true })]
   );
 
   const [selectedIndex, setSelectedIndex] = useState(0);

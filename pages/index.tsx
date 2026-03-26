@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { MapPin, Mail } from 'lucide-react';
+import { MapPin } from 'lucide-react';
 import locationData from '../data/locations.json';
 import type { LocationData } from '../types/Location';
 import { LandingSearch } from '../components/filters/LandingSearch';
@@ -41,7 +41,7 @@ export default function LandingPage() {
   return (
     <main className="flex-1 flex flex-col bg-bg-primary">
       {/* Hero */}
-      <section className="relative z-10 px-4 pt-8 pb-6 md:pt-16 md:pb-10 max-w-3xl mx-auto w-full">
+      <section className="relative z-10 px-4 pt-8 md:pt-16 md:pb-10 max-w-3xl mx-auto w-full">
         <motion.h1
           {...fadeUp(0)}
           className="font-heading text-2xl md:text-4xl text-primary leading-[120%] mb-6 text-center px-4 md:px-8"
@@ -57,7 +57,7 @@ export default function LandingPage() {
       </section>
 
       {/* Featured locations carousel */}
-      <section className="py-6 md:py-10">
+      <section className="pb-4 md:py-10">
         <motion.div {...fadeUp(0.15)} className="max-w-3xl mx-auto w-full mb-4 px-4">
           <h2 className="text-lg font-bold text-primary">Niedawno odwiedzone</h2>
         </motion.div>
@@ -67,24 +67,28 @@ export default function LandingPage() {
       </section>
 
       {/* Stats + CTA */}
-      <section className="px-4 py-10 md:py-16">
+      <section className="px-4 py-12 md:py-20 bg-neutral-0">
         <div className="max-w-3xl mx-auto w-full text-center">
+          <motion.div {...fadeUp(0.1)} className="flex justify-center mb-4">
+            <img src="/red_pin.svg" alt="" aria-hidden className="w-10 h-11" />
+          </motion.div>
+
           <motion.p
-            {...fadeUp(0.1)}
-            className="text-lg md:text-xl text-primary font-medium mb-8 max-w-md mx-auto"
+            {...fadeUp(0.12)}
+            className="text-lg font-medium text-neutral-1000 mb-8"
           >
-            Mapa miejsc odwiedzonych przez Roberta Makłowicza pozwala eksplorować!
+            Na mapie znajdziesz
           </motion.p>
 
-          <motion.div {...fadeUp(0.15)} className="grid grid-cols-3 gap-3 mb-8 max-w-sm mx-auto">
+          <motion.div {...fadeUp(0.15)} className="grid grid-cols-3 gap-3 mb-10 max-w-md mx-auto">
             {[
               { value: totalLocations, label: 'Miejsc' },
               { value: videoCount, label: 'Odcinków' },
               { value: countryCount, label: 'Krajów' },
             ].map(({ value, label }) => (
-              <div key={label} className="bg-neutral-0 rounded-2xl border border-neutral-200 px-3 py-4">
-                <p className="text-3xl font-bold text-primary">{value}</p>
-                <p className="text-sm text-neutral-500 mt-0.5">{label}</p>
+              <div key={label} className="px-3 py-2">
+                <p className="text-4xl md:text-5xl font-bold text-neutral-1000">{value}</p>
+                <p className="text-sm text-neutral-500 mt-1">{label}</p>
               </div>
             ))}
           </motion.div>
@@ -92,7 +96,7 @@ export default function LandingPage() {
           <motion.div {...fadeUp(0.2)}>
             <Link
               href="/map"
-              className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl bg-accent text-neutral-1000 font-semibold hover:bg-accent/90 transition-colors text-base shadow-sm"
+              className="inline-flex items-center gap-2.5 px-8 py-4 rounded-full bg-neutral-1000 text-neutral-0 font-semibold hover:bg-neutral-1000/90 transition-colors text-base"
             >
               <MapPin className="w-4 h-4" />
               Szukaj na mapie
@@ -102,43 +106,45 @@ export default function LandingPage() {
       </section>
 
       {/* O Projekcie */}
-      <section className="px-4 py-10 md:py-16 bg-neutral-0">
+      <section className="px-4 py-10 md:py-16 bg-bg-primary">
         <div className="max-w-3xl mx-auto w-full">
           <motion.h2 {...fadeUp(0)} className="text-2xl font-bold text-primary mb-6">
             O Projekcie
           </motion.h2>
           <motion.div {...fadeUp(0.1)} className="space-y-4 text-neutral-500 leading-relaxed">
             <p>
-              Programy Roberta Makłowicza towarzyszą mi od dziecka. Weekendowe wyprawy przed telewizorem były małym rytuałem, który zaszczepił we mnie ciekawość świata, ludzi i historii.
+              Programy <a href="https://www.maklowicz.pl/" target="_blank" rel="noopener noreferrer" className="text-primary font-medium underline underline-offset-2 decoration-primary/30 hover:decoration-primary transition-colors">Roberta Makłowicza</a> towarzyszą mi od dziecka. Weekendowe wyprawy przed telewizorem były małym rytuałem, który zaszczepił we mnie ciekawość świata, ludzi i historii.
             </p>
             <p>
-              Kiedy w czasach lockdownu Robert wrócił z kanałem na YouTube, poczułem to samo co kiedyś. Jakbym znowu jechał z nim w podróż. W pewnym momencie przyszła myśl:
+              Kiedy w czasach lockdownu Robert wrócił z <a href="https://www.youtube.com/@Robert_Maklowicz" target="_blank" rel="noopener noreferrer" className="text-primary font-medium underline underline-offset-2 decoration-primary/30 hover:decoration-primary transition-colors">kanałem na YouTube</a>, poczułem to samo co kiedyś. Jakbym znowu jechał z nim w podróż. W pewnym momencie przyszła myśl:
             </p>
             <blockquote className="border-l-2 border-primary/30 pl-4 italic">
-              Fajnie byłoby zobaczyć na mapie wszystkie te miejsca. A przecież mogę to zbudować!
+              Chciałbym kiedyś odwiedzić te miejsca. I zobaczyć je na własne oczy.
             </blockquote>
             <p>
-              Tak powstała ta mapa. Oglądam odcinki, mapuję miejsca, dodaję opisy. Projekt jest hobbistyczny i może nie obejmować całej twórczości Roberta, ale staram się go regularnie uzupełniać.
+              Tak powstała ta mapa. Oglądam odcinki, mapuję miejsca, dodaję opisy. Projekt jest hobbistyczny i może nie obejmować całej twórczości Roberta, ale staram się go regularnie uzupełniać. Dla wszystkich, którzy chcą podążać jego śladami.
             </p>
           </motion.div>
         </div>
       </section>
 
-      {/* Contact CTA */}
-      <section className="px-4 py-10 md:py-14">
-        <div className="max-w-3xl mx-auto w-full text-center">
-          <motion.div {...fadeUp(0)}>
-            <p className="text-sm font-medium text-neutral-500 mb-3">Napisz do mnie</p>
-            <a
-              href="mailto:przekwaskrzysiek@gmail.com"
-              className="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-xl bg-accent-blue text-neutral-0 font-semibold hover:bg-accent-blue/90 transition-colors shadow-sm"
-            >
-              <Mail className="w-4 h-4" />
-              przekwaskrzysiek@gmail.com
-            </a>
-          </motion.div>
-        </div>
-      </section>
+      {/* Contact CTA + Footer pins */}
+      <motion.a
+        {...fadeUp(0)}
+        href="mailto:przekwaskrzysiek@gmail.com"
+        className="block bg-accent-blue rounded-t-3xl px-6 py-12 md:py-16 text-center hover:bg-accent-blue/95 transition-colors"
+      >
+        <h2 className="text-2xl md:text-3xl font-bold text-neutral-0 mb-3">Napisz do mnie</h2>
+        <p className="text-neutral-0/80 text-base md:text-lg">przekwaskrzysiek@gmail.com</p>
+      </motion.a>
+      <div className="w-full overflow-hidden mt-6">
+        <img
+          src="/footer_pins.svg"
+          alt=""
+          aria-hidden
+          className="w-full min-w-[393px] select-none"
+        />
+      </div>
     </main>
   );
 }
