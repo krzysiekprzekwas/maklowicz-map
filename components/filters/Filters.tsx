@@ -19,6 +19,8 @@ interface FiltersProps {
   onRequestLocation: () => void;
   onSetNearbyRadius: (radius: number) => void;
   onClearNearby: () => void;
+  /** "overlay" = absolute over map (mobile), "inline" = in-flow (desktop list panel) */
+  variant?: 'overlay' | 'inline';
 }
 
 export function Filters({
@@ -37,38 +39,18 @@ export function Filters({
   onRequestLocation,
   onSetNearbyRadius,
   onClearNearby,
+  variant = 'overlay',
 }: FiltersProps) {
-  const [isMobile, setIsMobile] = useState(false);
   const [countrySearch, setCountrySearch] = useState('');
   const [isCountryDropdownOpen, setIsCountryDropdownOpen] = useState(false);
-  const [isCountryDropdownOpenDesktop, setIsCountryDropdownOpenDesktop] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
-  const mobileDropdownRef = useRef<HTMLDivElement>(null);
   const searchInputRef = useRef<HTMLInputElement>(null);
 
-  useEffect(() => {
-    const checkIfMobile = () => setIsMobile(window.innerWidth < 768);
-    checkIfMobile();
-    window.addEventListener('resize', checkIfMobile);
-    return () => window.removeEventListener('resize', checkIfMobile);
-  }, []);
-
-  // Close desktop dropdown when clicking outside
-  useEffect(() => {
-    if (!isCountryDropdownOpenDesktop) return;
-    const handleOutside = (e: MouseEvent) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node))
-        setIsCountryDropdownOpenDesktop(false);
-    };
-    document.addEventListener('mousedown', handleOutside);
-    return () => document.removeEventListener('mousedown', handleOutside);
-  }, [isCountryDropdownOpenDesktop]);
-
-  // Close mobile dropdown when clicking outside
+  // Close dropdown when clicking outside
   useEffect(() => {
     if (!isCountryDropdownOpen) return;
     const handleOutside = (e: MouseEvent) => {
-      if (mobileDropdownRef.current && !mobileDropdownRef.current.contains(e.target as Node))
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node))
         setIsCountryDropdownOpen(false);
     };
     document.addEventListener('mousedown', handleOutside);
@@ -112,36 +94,17 @@ export function Filters({
     setIsCountryDropdownOpen(false);
   };
 
-  const handleDesktopCountryInputChange = (value: string) => {
-    setCountrySearch(value);
-    setIsCountryDropdownOpenDesktop(true);
-    if (!value) onCountrySelect(null);
-  };
-
-  const handleDesktopCountryPick = (name: string) => {
-    onCountrySelect(name);
-    setCountrySearch('');
-    setIsCountryDropdownOpenDesktop(false);
-  };
-
-  const handleDesktopClearCountry = () => {
-    onCountrySelect(null);
-    setCountrySearch('');
-    setIsCountryDropdownOpenDesktop(false);
-  };
-
   const openCountryDropdown = () => {
     setCountrySearch('');
     setIsCountryDropdownOpen(true);
-    // Focus the input after render
     setTimeout(() => searchInputRef.current?.focus(), 50);
   };
 
-  // ─── Mobile top bar ───────────────────────────────────────────────────────
-  const mobileTopBar = (
-    <div className="absolute top-4 left-4 right-4 z-[9998] md:hidden" ref={mobileDropdownRef}>
+  // ─── Search bar content (shared between overlay & inline) ───────────────
+  const searchBar = (
+    <div ref={dropdownRef}>
       {/* Pill bar */}
-      <div className="bg-neutral-0 rounded-full shadow-lg px-2 py-2 flex items-center gap-2">
+      <div className={`bg-neutral-0 rounded-full ${variant === 'overlay' ? 'shadow-lg' : 'shadow-200'} px-2 py-2 flex items-center gap-2`}>
         {isCountryDropdownOpen ? (
           /* Active search input */
           <div className="flex-1 min-w-0 border border-neutral-1000 rounded-full px-4 py-2.5 flex items-center gap-3 bg-neutral-0">
@@ -166,7 +129,7 @@ export function Filters({
             </button>
           </div>
         ) : hasActiveFilters && (selectedCountry || locationStatus === 'granted') ? (
-          /* Show selected country/nearby as clickable area in the search bar */
+          /* Show selected country/nearby */
           <div className="flex-1 min-w-0 border border-neutral-300 rounded-full px-4 py-2.5 flex items-center gap-3 bg-neutral-0 cursor-pointer">
             <div className="flex-1 min-w-0 flex items-center gap-3" onClick={openCountryDropdown}>
               <Search className="h-4 w-4 text-neutral-300 flex-shrink-0" />
@@ -253,7 +216,7 @@ export function Filters({
     </div>
   );
 
-  // ─── Filter drawer content (sheet on mobile) ───────────────────────────
+  // ─── Filter drawer content ─────────────────────────────────────────────
   const filterDrawerContent = (
     <div className="w-full flex flex-col h-full bg-bg-primary">
       <div className="flex-1 overflow-y-auto px-5 pt-2 pb-6 space-y-6">
@@ -335,191 +298,51 @@ export function Filters({
     </div>
   );
 
-  // ─── Desktop full filter panel (sidebar — includes country + types) ─────
-  const desktopFilterContent = (
-    <div className="w-full flex flex-col h-full">
-      <div className="flex-1 overflow-y-auto p-4 space-y-5">
-        {/* Header */}
-        <div className="flex items-center justify-between">
-          <span className="font-bold text-primary text-lg">Filtry</span>
-          <button
-            onClick={onToggleFilters}
-            className="p-1 rounded hover:bg-secondary transition-colors"
-            aria-label="Zamknij filtry"
-          >
-            <X className="h-5 w-5 text-primary" />
-          </button>
-        </div>
-
-        {/* Lokalizacja */}
-        <div className="space-y-2">
-          <span className="text-xs font-semibold text-primary uppercase tracking-wide">Lokalizacja</span>
-          <div className="relative" ref={dropdownRef}>
-            <div className="flex items-center border border-secondary-border rounded-lg px-3 py-2.5 gap-2 bg-neutral-0">
-              {locationStatus === 'loading'
-                ? <Loader2 className="h-4 w-4 animate-spin text-neutral-300 flex-shrink-0" />
-                : locationStatus === 'granted'
-                  ? <MapPin className="h-4 w-4 text-primary flex-shrink-0" />
-                  : <Search className="h-4 w-4 text-neutral-300 flex-shrink-0" />
-              }
-              <input
-                type="text"
-                readOnly={locationStatus === 'loading' || locationStatus === 'granted'}
-                className="flex-1 text-sm text-primary outline-none bg-transparent placeholder-neutral-300"
-                placeholder="Szukaj w danym regionie"
-                value={
-                  locationStatus === 'loading' ? 'Uzyskiwanie lokalizacji…' :
-                  locationStatus === 'granted' ? 'Moja lokalizacja' :
-                  selectedCountry && !isCountryDropdownOpenDesktop ? selectedCountry : countrySearch
-                }
-                onMouseDown={(e) => {
-                  if (locationStatus === 'loading') { e.preventDefault(); return; }
-                  if (isCountryDropdownOpenDesktop) {
-                    e.preventDefault();
-                    setIsCountryDropdownOpenDesktop(false);
-                  }
-                }}
-                onFocus={() => {
-                  if (locationStatus === 'loading') return;
-                  if (locationStatus === 'granted') {
-                    onClearNearby();
-                    setIsCountryDropdownOpenDesktop(true);
-                    return;
-                  }
-                  setCountrySearch('');
-                  setIsCountryDropdownOpenDesktop(true);
-                }}
-                onChange={e => handleDesktopCountryInputChange(e.target.value)}
-              />
-              {(selectedCountry || locationStatus === 'granted') && (
-                <button
-                  onClick={locationStatus === 'granted' ? onClearNearby : handleDesktopClearCountry}
-                  aria-label="Wyczyść"
-                >
-                  <X className="h-4 w-4 text-neutral-300 hover:text-primary" />
-                </button>
-              )}
-            </div>
-            {isCountryDropdownOpenDesktop && (
-              <div className="absolute z-50 top-full left-0 right-0 mt-1 bg-neutral-0 border border-secondary-border rounded-lg shadow-lg max-h-48 overflow-y-auto">
-                <button
-                  onClick={() => {
-                    setIsCountryDropdownOpenDesktop(false);
-                    onRequestLocation();
-                  }}
-                  className="w-full text-left px-3 py-2 text-sm text-primary hover:bg-secondary flex items-center gap-2"
-                >
-                  <MapPin className="h-3.5 w-3.5 flex-shrink-0" />
-                  <span className="flex-1">Moja lokalizacja</span>
-                  {locationStatus === 'denied' && <span className="text-xs text-red-500">Brak dostępu</span>}
-                </button>
-                <div className="border-t border-secondary-border mx-2" />
-                {filteredCountries.length > 0 ? (
-                  filteredCountries.map(c => (
-                    <button
-                      key={c.name}
-                      onClick={() => handleDesktopCountryPick(c.name)}
-                      className="w-full text-left px-3 py-2 text-sm text-primary hover:bg-secondary flex justify-between items-center"
-                    >
-                      <span>{c.name}</span>
-                      <span className="text-xs text-neutral-300">({c.count})</span>
-                    </button>
-                  ))
-                ) : (
-                  <div className="px-3 py-2 text-sm text-neutral-300">Brak wyników</div>
-                )}
-              </div>
-            )}
-          </div>
-          {/* Radius slider — shown when nearby is active */}
-          {locationStatus === 'granted' && (
-            <div>
-              <div className="flex justify-between text-xs text-neutral-300 mb-1">
-                <span>Zasięg</span><span>{nearbyRadius} km</span>
-              </div>
-              <input
-                type="range" min={10} max={100} step={5} value={nearbyRadius}
-                onChange={e => onSetNearbyRadius(Number(e.target.value))}
-                className="w-full accent-primary"
-              />
-              <div className="flex justify-between text-xs text-neutral-300 mt-0.5">
-                <span>10 km</span><span>100 km</span>
-              </div>
-            </div>
-          )}
-        </div>
-
-        {/* Rodzaj lokacji */}
-        <div className="space-y-2">
-          <span className="text-xs font-semibold text-primary uppercase tracking-wide">Rodzaj lokacji</span>
-          <div className="flex flex-wrap gap-2">
-            {LOCATION_TYPES.map(({ type, label, icon: Icon }) => {
-              const active = selectedLocationTypes.includes(type);
-              const count = locationTypeCounts[type] ?? 0;
-              return (
-                <button
-                  key={type}
-                  onClick={() => onToggleLocationType(type)}
-                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs border transition-colors ${
-                    active
-                      ? 'bg-primary text-secondary border-primary'
-                      : 'border-secondary-border text-primary hover:bg-secondary'
-                  }`}
-                >
-                  <Icon className="h-3.5 w-3.5" />
-                  {label}
-                  <span className={active ? 'opacity-70' : 'text-neutral-300'}>({count})</span>
-                </button>
-              );
-            })}
-          </div>
-        </div>
-      </div>
-
-      {/* Fixed bottom */}
-      <div
-        className="flex items-center justify-between gap-3 p-4 bg-neutral-0 shadow-[0_-4px_16px_rgba(0,0,0,0.08)]"
-        onClick={e => e.stopPropagation()}
-      >
-        {hasActiveFilters ? (
-          <button onClick={onResetFilters} className="text-sm text-primary hover:underline flex-shrink-0">
-            Wyczyść
-          </button>
-        ) : (
-          <div />
-        )}
-        <button
-          onClick={onToggleFilters}
-          className="bg-primary text-secondary py-2.5 px-5 rounded-xl font-semibold text-sm hover:bg-primary-darker transition-colors flex-shrink-0"
-        >
-          Pokaż {filteredCount.toLocaleString('pl-PL')}{' '}
-          {filteredCount === 1 ? 'miejsce' : filteredCount < 5 ? 'miejsca' : 'miejsc'}
-        </button>
+  // ─── Desktop modal ───────────────────────────────────────────────────────
+  const desktopModal = isOpen && variant === 'inline' && (
+    <div className="fixed inset-0 z-[10001] flex items-center justify-center">
+      {/* Backdrop */}
+      <div className="absolute inset-0 bg-neutral-1000/40" onClick={onToggleFilters} />
+      {/* Modal */}
+      <div className="relative bg-bg-primary rounded-2xl shadow-xl w-full max-w-lg mx-4 overflow-hidden">
+        {filterDrawerContent}
       </div>
     </div>
   );
 
+  // ─── Render ─────────────────────────────────────────────────────────────
+  if (variant === 'inline') {
+    return (
+      <>
+        <div className="px-3 pt-3 pb-1 flex-shrink-0">
+          {searchBar}
+        </div>
+        {desktopModal}
+      </>
+    );
+  }
+
   return (
     <>
       {/* Mobile top bar — absolute overlay with inline dropdown */}
-      {mobileTopBar}
+      <div className="absolute top-4 left-4 right-4 z-[9998] md:hidden">
+        {searchBar}
+      </div>
 
-      {/* Filter sheet — mobile only (type filters + radius) */}
-      {isMobile && (
-        <Sheet
-          isOpen={isOpen}
-          onClose={onToggleFilters}
-          detent="full-height"
-        >
-          <Sheet.Container>
-            <Sheet.Header />
-            <Sheet.Content style={{ display: 'flex', flexDirection: 'column' }}>
-              {filterDrawerContent}
-            </Sheet.Content>
-          </Sheet.Container>
-          <Sheet.Backdrop onTap={onToggleFilters} />
-        </Sheet>
-      )}
+      {/* Filter sheet — mobile only */}
+      <Sheet
+        isOpen={isOpen}
+        onClose={onToggleFilters}
+        detent="full-height"
+      >
+        <Sheet.Container>
+          <Sheet.Header />
+          <Sheet.Content style={{ display: 'flex', flexDirection: 'column' }}>
+            {filterDrawerContent}
+          </Sheet.Content>
+        </Sheet.Container>
+        <Sheet.Backdrop onTap={onToggleFilters} />
+      </Sheet>
     </>
   );
 }

@@ -139,47 +139,51 @@ export default function Home() {
         </Head>
       )}
       <div className="flex flex-1 relative overflow-hidden">
-        <Filters
-          isOpen={isFiltersOpen}
-          countries={countries}
-          selectedCountry={selectedCountry}
-          selectedLocationTypes={selectedLocationTypes}
-          filteredCount={filteredLocations.length}
-          locationTypeCounts={locationTypeCounts}
-          locationStatus={locationStatus}
-          nearbyRadius={nearbyRadius}
-          onCountrySelect={(country) => {
-            setSelectedCountry(country);
-            if (country) clearUserLocation();
-            trackCountryFilter(country);
-          }}
-          onToggleLocationType={(type) => {
-            const isActive = !selectedLocationTypes.includes(type);
-            toggleLocationType(type);
-            trackTypeFilter(type, isActive);
-          }}
-          onToggleFilters={() => setIsFiltersOpen(!isFiltersOpen)}
-          onResetFilters={() => {
-            setSelectedLocationTypes([]);
-            setNearbyRadius(50);
-          }}
-          onRequestLocation={requestUserLocation}
-          onSetNearbyRadius={setNearbyRadius}
-          onClearNearby={clearUserLocation}
-        />
+        {/* Mobile: overlay search bar + filter sheet */}
+        {isMobile && (
+          <Filters
+            isOpen={isFiltersOpen}
+            countries={countries}
+            selectedCountry={selectedCountry}
+            selectedLocationTypes={selectedLocationTypes}
+            filteredCount={filteredLocations.length}
+            locationTypeCounts={locationTypeCounts}
+            locationStatus={locationStatus}
+            nearbyRadius={nearbyRadius}
+            onCountrySelect={(country) => {
+              setSelectedCountry(country);
+              if (country) clearUserLocation();
+              trackCountryFilter(country);
+            }}
+            onToggleLocationType={(type) => {
+              const isActive = !selectedLocationTypes.includes(type);
+              toggleLocationType(type);
+              trackTypeFilter(type, isActive);
+            }}
+            onToggleFilters={() => setIsFiltersOpen(!isFiltersOpen)}
+            onResetFilters={() => {
+              setSelectedLocationTypes([]);
+              setNearbyRadius(50);
+            }}
+            onRequestLocation={requestUserLocation}
+            onSetNearbyRadius={setNearbyRadius}
+            onClearNearby={clearUserLocation}
+            variant="overlay"
+          />
+        )}
 
         {/* Desktop list panel — permanent, always visible */}
         {!isMobile && (
-          <div className="w-96 flex-shrink-0 h-full overflow-hidden bg-white border-r border-secondary-border shadow-xl">
-            <LocationList
-              {...listProps}
-              showInlineFilters
-              filteredCount={filteredLocations.length}
+          <div className="w-96 flex-shrink-0 h-full overflow-hidden bg-bg-primary border-r border-neutral-200 shadow-xl flex flex-col">
+            <Filters
+              isOpen={isFiltersOpen}
+              countries={countries}
               selectedCountry={selectedCountry}
               selectedLocationTypes={selectedLocationTypes}
+              filteredCount={filteredLocations.length}
+              locationTypeCounts={locationTypeCounts}
               locationStatus={locationStatus}
               nearbyRadius={nearbyRadius}
-              countries={countries}
               onCountrySelect={(country) => {
                 setSelectedCountry(country);
                 if (country) clearUserLocation();
@@ -190,10 +194,20 @@ export default function Home() {
                 toggleLocationType(type);
                 trackTypeFilter(type, isActive);
               }}
-              onClearNearby={clearUserLocation}
+              onToggleFilters={() => setIsFiltersOpen(!isFiltersOpen)}
+              onResetFilters={() => {
+                setSelectedLocationTypes([]);
+                setNearbyRadius(50);
+              }}
               onRequestLocation={requestUserLocation}
               onSetNearbyRadius={setNearbyRadius}
-              onClearLocationTypes={() => setSelectedLocationTypes([])}
+              onClearNearby={clearUserLocation}
+              variant="inline"
+            />
+            <LocationList
+              {...listProps}
+              filteredCount={filteredLocations.length}
+              selectedCountry={selectedCountry}
             />
           </div>
         )}
