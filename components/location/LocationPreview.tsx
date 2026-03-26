@@ -84,7 +84,7 @@ export function LocationPreview({
             {location.name}
           </span>
         </div>
-        <p className="text-xs text-neutral-500 leading-relaxed line-clamp-2 mt-0.5">
+        <p className="text-xs text-neutral-500 leading-relaxed line-clamp-3 mt-0.5">
           {location.summary || location.address}
         </p>
       </div>
