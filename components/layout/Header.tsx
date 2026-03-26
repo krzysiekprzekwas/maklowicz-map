@@ -44,7 +44,7 @@ export function Header() {
       {/* Desktop layout */}
       <div className="hidden md:block container mx-auto px-6 py-4">
         <div className="flex flex-row justify-between items-center gap-4">
-          <img src="/new_logo.svg" alt="Śladami Roberta Makłowicza" className="h-8" />
+          <img src="/new_logo_desktop.svg" alt="Śladami Roberta Makłowicza" className="h-8" />
           <nav>
             <ul className="flex space-x-6 items-center text-lg text-neutral-1000">
               {navLinks.map(({ href, label }) => (

@@ -165,8 +165,8 @@ export function LocationDetails({
       {/* Desktop sidebar */}
       {!isMobile && (
         <aside
-          className={`fixed md:top-[116px] bottom-0 right-0 md:w-96 bg-neutral-0 shadow-xl rounded-tl-2xl overflow-hidden
-            h-[calc(100vh-116px)] max-h-screen
+          className={`fixed md:top-[64px] bottom-0 right-0 md:w-96 bg-neutral-0 shadow-xl rounded-tl-2xl overflow-hidden
+            h-[calc(100vh-64px)] max-h-screen
             transform transition-all duration-300 ease-in-out
             ${location ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0 pointer-events-none'}`}
           style={{ zIndex: 9999 }}
