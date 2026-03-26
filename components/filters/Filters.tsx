@@ -162,14 +162,15 @@ export function Filters({
         {/* Filter icon — opens drawer */}
         <button
           onClick={onToggleFilters}
-          className={`rounded-full w-10 h-10 flex-shrink-0 flex items-center justify-center ${
-            hasActiveTypeFilters
-              ? 'bg-primary text-neutral-0'
-              : 'bg-neutral-200 text-neutral-900'
-          }`}
+          className="relative rounded-full w-10 h-10 flex-shrink-0 flex items-center justify-center bg-neutral-200 text-neutral-900"
           aria-label="Filtry"
         >
           <SlidersHorizontal className="h-5 w-5" />
+          {selectedLocationTypes.length > 0 && (
+            <span className="absolute -top-1 -right-1 w-5 h-5 rounded-full bg-neutral-1000 text-neutral-0 text-[10px] font-bold flex items-center justify-center">
+              {selectedLocationTypes.length}
+            </span>
+          )}
         </button>
       </div>
 
