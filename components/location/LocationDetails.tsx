@@ -185,10 +185,10 @@ export function LocationDetails({
           detent="full-height"
           style={{ zIndex: 10001 }}
         >
-          <Sheet.Container>
-            <Sheet.Header />
+          <Sheet.Container className="!bg-bg-primary">
+            <Sheet.Header className="!bg-bg-primary" />
             <Sheet.Content>
-              <div className="p-5 max-h-[85vh] overflow-y-auto">
+              <div className="p-5 max-h-[85vh] overflow-y-auto bg-bg-primary">
                 {detailsContent}
               </div>
             </Sheet.Content>
