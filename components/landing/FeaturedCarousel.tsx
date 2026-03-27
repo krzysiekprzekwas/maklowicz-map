@@ -1,8 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import useEmblaCarousel from 'embla-carousel-react';
-import Autoplay from 'embla-carousel-autoplay';
-import { ChevronRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { TYPE_META } from '../../src/lib/locationTypeMeta';
 import type { Location } from '../../types/Location';
 
@@ -52,59 +51,74 @@ interface FeaturedCarouselProps {
 
 export function FeaturedCarousel({ locations }: FeaturedCarouselProps) {
   const [emblaRef, emblaApi] = useEmblaCarousel(
-    { loop: true, align: 'start', skipSnaps: false }
+    { align: 'start', skipSnaps: false, containScroll: 'trimSnaps' }
   );
 
-  const [selectedIndex, setSelectedIndex] = useState(0);
-  const [scrollSnaps, setScrollSnaps] = useState<number[]>([]);
+  const [canScrollPrev, setCanScrollPrev] = useState(false);
+  const [canScrollNext, setCanScrollNext] = useState(false);
 
   const onSelect = useCallback(() => {
     if (!emblaApi) return;
-    setSelectedIndex(emblaApi.selectedScrollSnap());
+    setCanScrollPrev(emblaApi.canScrollPrev());
+    setCanScrollNext(emblaApi.canScrollNext());
   }, [emblaApi]);
 
   useEffect(() => {
     if (!emblaApi) return;
-    setScrollSnaps(emblaApi.scrollSnapList());
     emblaApi.on('select', onSelect);
     onSelect();
     return () => { emblaApi.off('select', onSelect); };
   }, [emblaApi, onSelect]);
 
   return (
-    <div className="relative">
-      {/* Carousel viewport */}
-      <div ref={emblaRef} className="overflow-hidden">
-        <div className="flex gap-4 pl-4 md:pl-[max(1rem,calc((100%-48rem)/2+1rem))]">
-          {locations.map((loc) => (
-            <div key={loc.id} className="flex-[0_0_75%] min-w-0 md:flex-[0_0_320px]">
-              <LocationCard location={loc} />
-            </div>
-          ))}
+    <div>
+      {/* Carousel viewport with edge fades */}
+      <div className="relative">
+        <div ref={emblaRef} className="overflow-hidden">
+          <div className="flex gap-4 pl-4 md:pl-[max(1rem,calc((100%-48rem)/2+1rem))]">
+            {locations.map((loc) => (
+              <div key={loc.id} className="flex-[0_0_75%] min-w-0 md:flex-[0_0_320px]">
+                <LocationCard location={loc} />
+              </div>
+            ))}
+          </div>
         </div>
+
+        {/* Left fade */}
+        {canScrollPrev && (
+          <div
+            className="pointer-events-none absolute inset-y-0 left-0 w-16"
+            style={{ background: 'linear-gradient(to right, #F6F5F2, transparent)' }}
+          />
+        )}
+
+        {/* Right fade */}
+        {canScrollNext && (
+          <div
+            className="pointer-events-none absolute inset-y-0 right-0 w-16"
+            style={{ background: 'linear-gradient(to left, #F6F5F2, transparent)' }}
+          />
+        )}
       </div>
 
-      {/* Next arrow */}
-      <button
-        onClick={() => emblaApi?.scrollNext()}
-        className="absolute right-3 top-[calc(50%-28px)] -translate-y-1/2 w-10 h-10 rounded-full bg-neutral-1000/70 text-neutral-0 flex items-center justify-center shadow-lg backdrop-blur-sm hover:bg-neutral-1000/90 transition-colors"
-        aria-label="Następny"
-      >
-        <ChevronRight className="w-5 h-5" />
-      </button>
-
-      {/* Dots */}
-      <div className="flex justify-center gap-1.5 mt-4">
-        {scrollSnaps.map((_, i) => (
-          <button
-            key={i}
-            onClick={() => emblaApi?.scrollTo(i)}
-            className={`w-2 h-2 rounded-full transition-colors ${
-              i === selectedIndex ? 'bg-neutral-1000' : 'bg-neutral-300'
-            }`}
-            aria-label={`Slajd ${i + 1}`}
-          />
-        ))}
+      {/* Navigation buttons — below carousel, right-aligned */}
+      <div className="flex justify-end gap-2 mt-4 pr-4 md:pr-[max(1rem,calc((100%-48rem)/2+1rem))]">
+        <button
+          onClick={() => emblaApi?.scrollPrev()}
+          disabled={!canScrollPrev}
+          className="w-10 h-10 rounded-full flex items-center justify-center transition-colors disabled:bg-neutral-200 disabled:text-neutral-300 bg-neutral-1000 text-neutral-0 hover:bg-neutral-1000/80"
+          aria-label="Poprzedni"
+        >
+          <ChevronLeft className="w-5 h-5" />
+        </button>
+        <button
+          onClick={() => emblaApi?.scrollNext()}
+          disabled={!canScrollNext}
+          className="w-10 h-10 rounded-full flex items-center justify-center transition-colors disabled:bg-neutral-200 disabled:text-neutral-300 bg-neutral-1000 text-neutral-0 hover:bg-neutral-1000/80"
+          aria-label="Następny"
+        >
+          <ChevronRight className="w-5 h-5" />
+        </button>
       </div>
     </div>
   );
