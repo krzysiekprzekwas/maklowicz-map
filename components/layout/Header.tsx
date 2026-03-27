@@ -45,8 +45,8 @@ export function Header() {
         </Link>
       </div>
 
-      {/* Desktop layout */}
-      <div className="hidden md:flex items-center justify-center px-6 h-20">
+      {/* Desktop layout — hidden on /map where the logo is in the map's own top bar */}
+      <div className={`hidden ${pathname === "/map" ? "" : "md:flex"} items-center justify-center px-6 h-20`}>
         <Link href="/">
           <img src="/main_mobile_header.svg" alt="Śladami Roberta Makłowicza" className="h-16" />
         </Link>

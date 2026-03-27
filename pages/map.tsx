@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
+import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useLocations } from '../hooks/useLocations';
@@ -131,6 +132,40 @@ export default function Home() {
     },
   };
 
+  // Shared filter callbacks
+  const filterHandlers = {
+    onCountrySelect: (country: string | null) => {
+      setSelectedCountry(country);
+      if (country) clearUserLocation();
+      trackCountryFilter(country);
+    },
+    onToggleLocationType: (type: string) => {
+      const isActive = !selectedLocationTypes.includes(type);
+      toggleLocationType(type);
+      trackTypeFilter(type, isActive);
+    },
+    onToggleFilters: () => setIsFiltersOpen(!isFiltersOpen),
+    onResetFilters: () => {
+      setSelectedLocationTypes([]);
+      setNearbyRadius(50);
+    },
+    onRequestLocation: requestUserLocation,
+    onSetNearbyRadius: setNearbyRadius,
+    onClearNearby: clearUserLocation,
+  };
+
+  const filterProps = {
+    isOpen: isFiltersOpen,
+    countries,
+    selectedCountry,
+    selectedLocationTypes,
+    filteredCount: filteredLocations.length,
+    locationTypeCounts,
+    locationStatus,
+    nearbyRadius,
+    ...filterHandlers,
+  };
+
   return (
     <main className="flex-1 flex flex-col bg-secondary overflow-hidden">
       {selectedLocation && (
@@ -138,76 +173,35 @@ export default function Home() {
           <title>{`${selectedLocation.name} | Śladami Roberta Makłowicza`}</title>
         </Head>
       )}
+
+      {/* Desktop top bar — logo + search + filter button */}
+      {!isMobile && (
+        <div className="flex-shrink-0 flex items-center gap-4 pl-8 pr-4 py-2 bg-bg-primary border-b border-neutral-200 shadow-[0_2px_8px_rgba(0,0,0,0.06)] z-[10000]">
+          <Link href="/" className="flex-shrink-0">
+            <img src="/main_mobile_header.svg" alt="Śladami Roberta Makłowicza" className="h-14" />
+          </Link>
+          <div className="flex-1 max-w-[400px] mx-auto">
+            <Filters {...filterProps} variant="inline" />
+          </div>
+        </div>
+      )}
+
       <div className="flex flex-1 relative overflow-hidden">
         {/* Mobile: overlay search bar + filter sheet */}
         {isMobile && (
-          <Filters
-            isOpen={isFiltersOpen}
-            countries={countries}
-            selectedCountry={selectedCountry}
-            selectedLocationTypes={selectedLocationTypes}
-            filteredCount={filteredLocations.length}
-            locationTypeCounts={locationTypeCounts}
-            locationStatus={locationStatus}
-            nearbyRadius={nearbyRadius}
-            onCountrySelect={(country) => {
-              setSelectedCountry(country);
-              if (country) clearUserLocation();
-              trackCountryFilter(country);
-            }}
-            onToggleLocationType={(type) => {
-              const isActive = !selectedLocationTypes.includes(type);
-              toggleLocationType(type);
-              trackTypeFilter(type, isActive);
-            }}
-            onToggleFilters={() => setIsFiltersOpen(!isFiltersOpen)}
-            onResetFilters={() => {
-              setSelectedLocationTypes([]);
-              setNearbyRadius(50);
-            }}
-            onRequestLocation={requestUserLocation}
-            onSetNearbyRadius={setNearbyRadius}
-            onClearNearby={clearUserLocation}
-            variant="overlay"
-          />
+          <Filters {...filterProps} variant="overlay" />
         )}
 
         {/* Desktop list panel — permanent, always visible */}
         {!isMobile && (
-          <div className="w-96 flex-shrink-0 h-full overflow-hidden bg-bg-primary border-r border-neutral-200 shadow-xl flex flex-col">
-            <Filters
-              isOpen={isFiltersOpen}
-              countries={countries}
-              selectedCountry={selectedCountry}
-              selectedLocationTypes={selectedLocationTypes}
-              filteredCount={filteredLocations.length}
-              locationTypeCounts={locationTypeCounts}
-              locationStatus={locationStatus}
-              nearbyRadius={nearbyRadius}
-              onCountrySelect={(country) => {
-                setSelectedCountry(country);
-                if (country) clearUserLocation();
-                trackCountryFilter(country);
-              }}
-              onToggleLocationType={(type) => {
-                const isActive = !selectedLocationTypes.includes(type);
-                toggleLocationType(type);
-                trackTypeFilter(type, isActive);
-              }}
-              onToggleFilters={() => setIsFiltersOpen(!isFiltersOpen)}
-              onResetFilters={() => {
-                setSelectedLocationTypes([]);
-                setNearbyRadius(50);
-              }}
-              onRequestLocation={requestUserLocation}
-              onSetNearbyRadius={setNearbyRadius}
-              onClearNearby={clearUserLocation}
-              variant="inline"
-            />
+          <div className="w-96 flex-shrink-0 h-full overflow-hidden bg-bg-primary shadow-xl flex flex-col">
             <LocationList
               {...listProps}
               filteredCount={filteredLocations.length}
               selectedCountry={selectedCountry}
+              selectedLocationTypes={selectedLocationTypes}
+              onToggleLocationType={filterHandlers.onToggleLocationType}
+              isNearby={locationStatus === 'granted'}
             />
           </div>
         )}
