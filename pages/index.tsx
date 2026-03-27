@@ -1,9 +1,12 @@
+import { useState, useCallback } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import { motion } from 'framer-motion';
 import { Map } from 'lucide-react';
 import locationData from '../data/locations.json';
 import type { LocationData } from '../types/Location';
 import { LandingSearch } from '../components/filters/LandingSearch';
+import { Filters } from '../components/filters/Filters';
 import { FeaturedCarousel } from '../components/landing/FeaturedCarousel';
 
 const typedData = locationData as LocationData;
@@ -38,6 +41,45 @@ const fadeUp = (delay = 0) => ({
 });
 
 export default function LandingPage() {
+  const router = useRouter();
+  const [filtersOpen, setFiltersOpen] = useState(false);
+  const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
+  const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
+
+  const navigateToMap = useCallback((country?: string | null, types?: string[]) => {
+    const params = new URLSearchParams();
+    const c = country !== undefined ? country : selectedCountry;
+    if (c) params.set('country', c);
+    router.push(`/map${params.toString() ? `?${params}` : ''}`);
+  }, [router, selectedCountry]);
+
+  const handleCountrySelect = useCallback((country: string | null) => {
+    setSelectedCountry(country);
+    if (country) navigateToMap(country);
+  }, [navigateToMap]);
+
+  const handleToggleType = useCallback((type: string) => {
+    setSelectedTypes(prev => {
+      const next = prev.includes(type) ? prev.filter(t => t !== type) : [...prev, type];
+      return next;
+    });
+  }, []);
+
+  const handleToggleFilters = useCallback(() => {
+    setFiltersOpen(prev => {
+      // If closing the filter drawer and types are selected, navigate to map
+      if (prev && selectedTypes.length > 0) {
+        navigateToMap();
+      }
+      return !prev;
+    });
+  }, [selectedTypes, navigateToMap]);
+
+  const handleResetFilters = useCallback(() => {
+    setSelectedCountry(null);
+    setSelectedTypes([]);
+  }, []);
+
   return (
     <main className="flex-1 flex flex-col bg-bg-primary">
       {/* Hero */}
@@ -52,7 +94,31 @@ export default function LandingPage() {
         </motion.h1>
 
         <motion.div {...fadeUp(0.1)} className="mb-6 md:max-w-[480px] md:mx-auto">
-          <LandingSearch countries={countries} filteredCount={totalLocations} />
+          {/* Mobile: LandingSearch with sheet */}
+          <div className="md:hidden">
+            <LandingSearch countries={countries} filteredCount={totalLocations} />
+          </div>
+          {/* Desktop: same Filters component as /map */}
+          <div className="hidden md:block">
+            <Filters
+              isOpen={filtersOpen}
+              countries={countries}
+              selectedCountry={selectedCountry}
+              selectedLocationTypes={selectedTypes}
+              filteredCount={totalLocations}
+              locationTypeCounts={{}}
+              locationStatus="idle"
+              nearbyRadius={50}
+              onCountrySelect={handleCountrySelect}
+              onToggleLocationType={handleToggleType}
+              onToggleFilters={handleToggleFilters}
+              onResetFilters={handleResetFilters}
+              onRequestLocation={() => {}}
+              onSetNearbyRadius={() => {}}
+              onClearNearby={() => {}}
+              variant="inline"
+            />
+          </div>
         </motion.div>
       </section>
 

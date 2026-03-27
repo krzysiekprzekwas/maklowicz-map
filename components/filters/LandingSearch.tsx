@@ -19,6 +19,14 @@ export function LandingSearch({ countries, filteredCount }: LandingSearchProps) 
   const countryDropdownRef = useRef<HTMLDivElement>(null);
   const countryInputRef = useRef<HTMLInputElement>(null);
   const [navigating, setNavigating] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 768);
+    check();
+    window.addEventListener('resize', check);
+    return () => window.removeEventListener('resize', check);
+  }, []);
 
   const filteredCountries = countries.filter((c) =>
     c.name.toLowerCase().includes(countrySearch.toLowerCase())
@@ -261,22 +269,24 @@ export function LandingSearch({ countries, filteredCount }: LandingSearchProps) 
   return (
     <>
       {pillBar}
-      {desktopModal}
+      {!isMobile && desktopModal}
 
       {/* Mobile sheet */}
-      <Sheet
-        isOpen={isOpen}
-        onClose={() => setIsOpen(false)}
-        detent="full-height"
-        style={{ zIndex: 10001 }}
-      >
-        <Sheet.Container style={{ borderRadius: 0 }} className="md:hidden">
-          <Sheet.Content style={{ display: 'flex', flexDirection: 'column' }}>
-            {drawerContent}
-          </Sheet.Content>
-        </Sheet.Container>
-        <Sheet.Backdrop onTap={() => setIsOpen(false)} />
-      </Sheet>
+      {isMobile && (
+        <Sheet
+          isOpen={isOpen}
+          onClose={() => setIsOpen(false)}
+          detent="full-height"
+          style={{ zIndex: 10001 }}
+        >
+          <Sheet.Container style={{ borderRadius: 0 }}>
+            <Sheet.Content style={{ display: 'flex', flexDirection: 'column' }}>
+              {drawerContent}
+            </Sheet.Content>
+          </Sheet.Container>
+          <Sheet.Backdrop onTap={() => setIsOpen(false)} />
+        </Sheet>
+      )}
     </>
   );
 }
