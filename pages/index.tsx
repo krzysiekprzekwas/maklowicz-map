@@ -51,7 +51,7 @@ export default function LandingPage() {
           <span className="font-bold">Roberta Makłowicza</span>
         </motion.h1>
 
-        <motion.div {...fadeUp(0.1)} className="mb-6">
+        <motion.div {...fadeUp(0.1)} className="mb-6 md:max-w-[480px] md:mx-auto">
           <LandingSearch countries={countries} filteredCount={totalLocations} />
         </motion.div>
       </section>
@@ -67,7 +67,7 @@ export default function LandingPage() {
       </section>
 
       {/* Stats + CTA */}
-      <section className="px-4 md:px-24 py-12 md:py-20">
+      <section className="px-4 md:px-24 py-12">
           <div className="bg-neutral-0 rounded-3xl px-6 py-10 md:px-10 md:py-14 text-center">
             <motion.div {...fadeUp(0.1)} className="flex justify-center mb-4">
             <img src="/red_pin.svg" alt="" aria-hidden className="w-10 h-11" />
@@ -106,12 +106,12 @@ export default function LandingPage() {
       </section>
 
       {/* O projekcie */}
-      <section className="px-4 md:px-24 py-10 md:py-16 bg-bg-primary">
+      <section className="px-4 md:px-24 py-10 md:py-12 md:pb-16 bg-bg-primary">
         <div className="md:grid md:grid-cols-2 md:gap-10 md:items-start">
           {/* Illustration — desktop left column */}
           <motion.div {...fadeUp(0)} className="hidden md:block">
             <img
-              src="/kristof_main.jpg"
+              src="/kristof_main.png"
               alt="O projekcie"
               className="w-full rounded-2xl object-cover"
             />
@@ -150,7 +150,7 @@ export default function LandingPage() {
       <motion.a
         {...fadeUp(0)}
         href="mailto:przekwaskrzysiek@gmail.com"
-        className="block bg-accent-blue rounded-t-3xl px-6 py-12 md:py-16 text-center hover:bg-accent-blue/95 transition-colors"
+        className="block bg-accent-blue rounded-t-3xl px-6 py-8 text-center hover:bg-accent-blue/95 transition-colors"
       >
         <h2 className="text-2xl md:text-3xl font-bold text-neutral-0 mb-3">Napisz do mnie</h2>
         <p className="text-neutral-0/80 text-base md:text-lg">przekwaskrzysiek@gmail.com</p>

@@ -78,57 +78,73 @@ export function FeaturedCarousel({ locations }: FeaturedCarouselProps) {
     <div>
       {/* Carousel viewport with edge fades */}
       <div className="relative">
-        <div ref={emblaRef} className="overflow-hidden md:ml-24">
+        <div ref={emblaRef} className="overflow-hidden">
           <div className="flex">
-            {locations.map((loc) => (
-              <div key={loc.id} className="flex-[0_0_75%] min-w-0 md:flex-[0_0_320px] pl-4 last:pr-4">
+            {locations.map((loc, i) => (
+              <div
+                key={loc.id}
+                className={`flex-[0_0_75%] min-w-0 md:flex-[0_0_320px] pl-4 last:pr-4${
+                  i === 0 ? ' md:pl-24' : ''
+                }`}
+              >
                 <LocationCard location={loc} />
               </div>
             ))}
           </div>
         </div>
 
+        {/* Left fade — desktop only */}
+        {canScrollPrev && (
+          <div
+            className="pointer-events-none absolute inset-y-0 left-0 w-24 hidden md:block"
+            style={{ background: 'linear-gradient(to right, #F6F5F2, transparent)' }}
+          />
+        )}
+
         {/* Right fade */}
         {canScrollNext && (
           <div
-            className="pointer-events-none absolute inset-y-0 right-0 w-16"
+            className="pointer-events-none absolute inset-y-0 right-0 w-16 md:w-24"
             style={{ background: 'linear-gradient(to left, #F6F5F2, transparent)' }}
           />
         )}
       </div>
 
       {/* Navigation — dots (desktop only) + buttons */}
-      <div className="flex items-center justify-end gap-2 mt-4 pr-4 md:pr-24">
+      <div className="flex items-center justify-center gap-2 mt-4 px-4 md:px-24 relative">
         {/* Dots — desktop only */}
-        <div className="hidden md:flex items-center gap-1.5 mr-auto pl-24">
+        <div className="hidden md:flex items-center gap-1.5">
           {scrollSnaps.map((_, i) => (
             <button
               key={i}
               onClick={() => emblaApi?.scrollTo(i)}
-              className={`w-2 h-2 rounded-full transition-colors ${
-                i === selectedIndex ? 'bg-neutral-1000' : 'bg-neutral-300'
+              className={`w-3 h-3 rounded-full border-[1.5px] border-neutral-1000 transition-colors ${
+                i === selectedIndex ? 'bg-neutral-300' : 'bg-transparent'
               }`}
               aria-label={`Slajd ${i + 1}`}
             />
           ))}
         </div>
 
-        <button
-          onClick={() => emblaApi?.scrollPrev()}
-          disabled={!canScrollPrev}
-          className="w-10 h-10 rounded-full flex items-center justify-center transition-colors disabled:bg-neutral-200 disabled:text-neutral-300 bg-neutral-1000 text-neutral-0 hover:bg-neutral-1000/80"
-          aria-label="Poprzedni"
-        >
-          <ChevronLeft className="w-5 h-5" />
-        </button>
-        <button
-          onClick={() => emblaApi?.scrollNext()}
-          disabled={!canScrollNext}
-          className="w-10 h-10 rounded-full flex items-center justify-center transition-colors disabled:bg-neutral-200 disabled:text-neutral-300 bg-neutral-1000 text-neutral-0 hover:bg-neutral-1000/80"
-          aria-label="Następny"
-        >
-          <ChevronRight className="w-5 h-5" />
-        </button>
+        {/* Buttons — absolute right on desktop, inline on mobile */}
+        <div className="flex gap-2 md:absolute md:right-24">
+          <button
+            onClick={() => emblaApi?.scrollPrev()}
+            disabled={!canScrollPrev}
+            className="w-10 h-10 rounded-full flex items-center justify-center transition-colors disabled:bg-neutral-200 disabled:text-neutral-300 bg-neutral-1000 text-neutral-0 hover:bg-neutral-1000/80"
+            aria-label="Poprzedni"
+          >
+            <ChevronLeft className="w-5 h-5" />
+          </button>
+          <button
+            onClick={() => emblaApi?.scrollNext()}
+            disabled={!canScrollNext}
+            className="w-10 h-10 rounded-full flex items-center justify-center transition-colors disabled:bg-neutral-200 disabled:text-neutral-300 bg-neutral-1000 text-neutral-0 hover:bg-neutral-1000/80"
+            aria-label="Następny"
+          >
+            <ChevronRight className="w-5 h-5" />
+          </button>
+        </div>
       </div>
     </div>
   );
