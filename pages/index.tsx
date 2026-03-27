@@ -57,7 +57,7 @@ export default function LandingPage() {
       </section>
 
       {/* Featured locations carousel */}
-      <section className="pb-12 md:py-10">
+      <section className="pb-4 md:pb-12 md:py-10">
         <motion.div {...fadeUp(0.15)} className="mb-4 px-4 md:px-24">
           <h2 className="text-lg font-bold text-primary">Niedawno odwiedzone</h2>
         </motion.div>
@@ -67,7 +67,7 @@ export default function LandingPage() {
       </section>
 
       {/* Stats + CTA */}
-      <section className="px-4 md:px-24 py-12">
+      <section className="px-4 md:px-24 py-4 md:py-12">
           <div className="bg-neutral-0 rounded-3xl px-6 py-10 md:px-10 md:py-14 text-center">
             <motion.div {...fadeUp(0.1)} className="flex justify-center mb-4">
             <img src="/red_pin.svg" alt="" aria-hidden className="w-10 h-11" />

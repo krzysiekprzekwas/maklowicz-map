@@ -226,7 +226,7 @@ export default function Home() {
             onClosePreview={handleClosePreview}
             userLat={userLocation?.lat}
             userLng={userLocation?.lng}
-            leftPanelWidth={isMobile ? 0 : 384}
+            leftPanelWidth={0}
             flyToLocation={flyToLocation}
             onFlyToComplete={() => setFlyToLocation(null)}
             rightPanelWidth={isMobile ? 0 : 384}

@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { Sheet } from 'react-modal-sheet';
+import { motion, AnimatePresence } from 'framer-motion';
 import { X, SlidersHorizontal, Search, MapPin, Loader2, Check } from 'lucide-react';
 import { LOCATION_TYPES } from '../../src/lib/locationTypeMeta';
 
@@ -362,15 +363,32 @@ export function Filters({
   );
 
   // ─── Desktop modal ───────────────────────────────────────────────────────
-  const desktopModal = isOpen && variant === 'inline' && (
-    <div className="fixed inset-0 z-[10001] flex items-center justify-center">
-      {/* Backdrop */}
-      <div className="absolute inset-0 bg-neutral-1000/40" onClick={onToggleFilters} />
-      {/* Modal */}
-      <div className="relative bg-bg-primary rounded-2xl shadow-xl w-full max-w-lg mx-4 overflow-hidden">
-        {filterDrawerContent}
-      </div>
-    </div>
+  const desktopModal = variant === 'inline' && (
+    <AnimatePresence>
+      {isOpen && (
+        <div className="fixed inset-0 z-[10001] flex items-center justify-center">
+          {/* Backdrop */}
+          <motion.div
+            className="absolute inset-0 bg-neutral-1000/40"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            onClick={onToggleFilters}
+          />
+          {/* Modal */}
+          <motion.div
+            className="relative bg-bg-primary rounded-2xl shadow-xl w-full max-w-lg mx-4 overflow-hidden"
+            initial={{ opacity: 0, scale: 0.97 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.97 }}
+            transition={{ duration: 0.2, ease: [0.4, 0, 0.2, 1] }}
+          >
+            {filterDrawerContent}
+          </motion.div>
+        </div>
+      )}
+    </AnimatePresence>
   );
 
   // ─── Render ─────────────────────────────────────────────────────────────

@@ -111,7 +111,7 @@ export function FeaturedCarousel({ locations }: FeaturedCarouselProps) {
       </div>
 
       {/* Navigation — dots (desktop only) + buttons */}
-      <div className="flex items-center justify-center gap-2 mt-4 px-4 md:px-24 relative">
+      <div className="flex items-center justify-end md:justify-center gap-2 mt-4 px-4 md:px-24 relative">
         {/* Dots — desktop only */}
         <div className="hidden md:flex items-center gap-1.5">
           {scrollSnaps.map((_, i) => (
@@ -127,7 +127,7 @@ export function FeaturedCarousel({ locations }: FeaturedCarouselProps) {
         </div>
 
         {/* Buttons — absolute right on desktop, inline on mobile */}
-        <div className="flex gap-2 md:absolute md:right-24">
+        <div className="flex gap-2 justify-end md:absolute md:right-24">
           <button
             onClick={() => emblaApi?.scrollPrev()}
             disabled={!canScrollPrev}
