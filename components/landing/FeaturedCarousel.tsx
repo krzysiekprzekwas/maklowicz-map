@@ -56,15 +56,19 @@ export function FeaturedCarousel({ locations }: FeaturedCarouselProps) {
 
   const [canScrollPrev, setCanScrollPrev] = useState(false);
   const [canScrollNext, setCanScrollNext] = useState(false);
+  const [selectedIndex, setSelectedIndex] = useState(0);
+  const [scrollSnaps, setScrollSnaps] = useState<number[]>([]);
 
   const onSelect = useCallback(() => {
     if (!emblaApi) return;
     setCanScrollPrev(emblaApi.canScrollPrev());
     setCanScrollNext(emblaApi.canScrollNext());
+    setSelectedIndex(emblaApi.selectedScrollSnap());
   }, [emblaApi]);
 
   useEffect(() => {
     if (!emblaApi) return;
+    setScrollSnaps(emblaApi.scrollSnapList());
     emblaApi.on('select', onSelect);
     onSelect();
     return () => { emblaApi.off('select', onSelect); };
@@ -74,10 +78,10 @@ export function FeaturedCarousel({ locations }: FeaturedCarouselProps) {
     <div>
       {/* Carousel viewport with edge fades */}
       <div className="relative">
-        <div ref={emblaRef} className="overflow-hidden">
+        <div ref={emblaRef} className="overflow-hidden md:ml-24">
           <div className="flex">
             {locations.map((loc) => (
-              <div key={loc.id} className="flex-[0_0_75%] min-w-0 md:flex-[0_0_320px] pl-4 last:pr-4 md:first:pl-[max(1rem,calc((100vw-48rem)/2+1rem))]">
+              <div key={loc.id} className="flex-[0_0_75%] min-w-0 md:flex-[0_0_320px] pl-4 last:pr-4">
                 <LocationCard location={loc} />
               </div>
             ))}
@@ -93,8 +97,22 @@ export function FeaturedCarousel({ locations }: FeaturedCarouselProps) {
         )}
       </div>
 
-      {/* Navigation buttons — below carousel, right-aligned */}
-      <div className="flex justify-end gap-2 mt-4 pr-4 md:pr-[max(1rem,calc((100%-48rem)/2+1rem))]">
+      {/* Navigation — dots (desktop only) + buttons */}
+      <div className="flex items-center justify-end gap-2 mt-4 pr-4 md:pr-24">
+        {/* Dots — desktop only */}
+        <div className="hidden md:flex items-center gap-1.5 mr-auto pl-24">
+          {scrollSnaps.map((_, i) => (
+            <button
+              key={i}
+              onClick={() => emblaApi?.scrollTo(i)}
+              className={`w-2 h-2 rounded-full transition-colors ${
+                i === selectedIndex ? 'bg-neutral-1000' : 'bg-neutral-300'
+              }`}
+              aria-label={`Slajd ${i + 1}`}
+            />
+          ))}
+        </div>
+
         <button
           onClick={() => emblaApi?.scrollPrev()}
           disabled={!canScrollPrev}

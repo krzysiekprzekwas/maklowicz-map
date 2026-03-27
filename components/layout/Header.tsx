@@ -46,23 +46,10 @@ export function Header() {
       </div>
 
       {/* Desktop layout */}
-      <div className="hidden md:block container mx-auto px-6 py-4">
-        <div className="flex flex-row justify-between items-center gap-4">
-          <Link href="/">
-            <img src="/new_logo_desktop.svg" alt="Śladami Roberta Makłowicza" className="h-8" />
-          </Link>
-          <nav>
-            <ul className="flex space-x-6 items-center text-lg text-neutral-1000">
-              {navLinks.map(({ href, label }) => (
-                <li key={href}>
-                  <Link href={href} className={linkClass(href)}>
-                    {label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </nav>
-        </div>
+      <div className="hidden md:flex items-center justify-center px-6 h-20">
+        <Link href="/">
+          <img src="/main_mobile_header.svg" alt="Śladami Roberta Makłowicza" className="h-16" />
+        </Link>
       </div>
 
       <Analytics mode={process.env.NODE_ENV as "development" | "production"} />

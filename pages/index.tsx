@@ -58,7 +58,7 @@ export default function LandingPage() {
 
       {/* Featured locations carousel */}
       <section className="pb-12 md:py-10">
-        <motion.div {...fadeUp(0.15)} className="max-w-3xl mx-auto w-full mb-4 px-4">
+        <motion.div {...fadeUp(0.15)} className="mb-4 px-4 md:px-24">
           <h2 className="text-lg font-bold text-primary">Niedawno odwiedzone</h2>
         </motion.div>
         <motion.div {...fadeUp(0.2)}>
@@ -67,70 +67,82 @@ export default function LandingPage() {
       </section>
 
       {/* Stats + CTA */}
-      <section className="px-4 py-12 md:py-20 bg-neutral-0">
-        <div className="max-w-3xl mx-auto w-full text-center">
-          <motion.div {...fadeUp(0.1)} className="flex justify-center mb-4">
+      <section className="px-4 md:px-24 py-12 md:py-20">
+          <div className="bg-neutral-0 rounded-3xl px-6 py-10 md:px-10 md:py-14 text-center">
+            <motion.div {...fadeUp(0.1)} className="flex justify-center mb-4">
             <img src="/red_pin.svg" alt="" aria-hidden className="w-10 h-11" />
-          </motion.div>
+            </motion.div>
 
-          <motion.p
-            {...fadeUp(0.12)}
-            className="text-lg font-medium text-neutral-1000 mb-8"
-          >
-            Na mapie znajdziesz
-          </motion.p>
-
-          <motion.div {...fadeUp(0.15)} className="grid grid-cols-3 gap-3 mb-10 max-w-md mx-auto">
-            {[
-              { value: totalLocations, label: 'Miejsc' },
-              { value: videoCount, label: 'Odcinków' },
-              { value: countryCount, label: 'Krajów' },
-            ].map(({ value, label }) => (
-              <div key={label} className="px-3 py-2">
-                <p className="text-4xl md:text-5xl font-bold text-neutral-1000">{value}</p>
-                <p className="text-sm text-neutral-500 mt-1">{label}</p>
-              </div>
-            ))}
-          </motion.div>
-
-          <motion.div {...fadeUp(0.2)}>
-            <Link
-              href="/map"
-              className="inline-flex items-center gap-2.5 px-8 py-4 rounded-full bg-neutral-1000 text-neutral-0 font-semibold hover:bg-neutral-1000/90 transition-colors text-base"
+            <motion.p
+              {...fadeUp(0.12)}
+              className="text-lg font-semibold text-neutral-1000 mb-8"
             >
-              <Map className="w-4 h-4" />
-              Szukaj na mapie
-            </Link>
-          </motion.div>
-        </div>
+              Na mapie znajdziesz
+            </motion.p>
+
+            <motion.div {...fadeUp(0.15)} className="grid grid-cols-3 gap-3 mb-10 max-w-md mx-auto">
+              {[
+                { value: totalLocations, label: 'Miejsc' },
+                { value: videoCount, label: 'Odcinków' },
+                { value: countryCount, label: 'Krajów' },
+              ].map(({ value, label }) => (
+                <div key={label} className="px-3 py-2">
+                  <p className="text-4xl md:text-5xl font-bold text-neutral-1000">{value}</p>
+                  <p className="text-sm text-neutral-500 mt-1">{label}</p>
+                </div>
+              ))}
+            </motion.div>
+
+            <motion.div {...fadeUp(0.2)}>
+              <Link
+                href="/map"
+                className="inline-flex items-center gap-2.5 px-8 py-4 rounded-full bg-neutral-1000 text-neutral-0 font-semibold hover:bg-neutral-1000/90 transition-colors text-base"
+              >
+                <Map className="w-4 h-4" />
+                Szukaj na mapie
+              </Link>
+            </motion.div>
+          </div>
       </section>
 
-      {/* O Projekcie */}
-      <section className="px-4 py-10 md:py-16 bg-bg-primary">
-        <div className="max-w-3xl mx-auto w-full">
-          <motion.h2 {...fadeUp(0)} className="text-2xl font-bold text-primary mb-6">
-            O Projekcie
-          </motion.h2>
-          <motion.div {...fadeUp(0.1)} className="space-y-4 text-neutral-500 leading-relaxed">
-            <p>
-              Programy <a href="https://www.maklowicz.pl/" target="_blank" rel="noopener noreferrer" className="text-primary font-medium underline underline-offset-2 decoration-primary/30 hover:decoration-primary transition-colors">Roberta Makłowicza</a> towarzyszą mi od dziecka. Weekendowe wyprawy przed telewizorem były małym rytuałem, który zaszczepił we mnie ciekawość świata, ludzi i historii.
-            </p>
-            <p>
-              Kiedy Robert wrócił z <a href="https://www.youtube.com/@Robert_Maklowicz" target="_blank" rel="noopener noreferrer" className="text-primary font-medium underline underline-offset-2 decoration-primary/30 hover:decoration-primary transition-colors">kanałem na YouTube</a>, poczułem to samo co kiedyś. Jakbym znowu jechał z nim w podróż.
-            </p>
-            <blockquote className="border-l-2 border-primary/30 pl-4 italic">
-              Chciałbym kiedyś odwiedzić te miejsca. I zobaczyć je na własne oczy.
-            </blockquote>
-            <p>
-              Tak powstała ta mapa. Oglądam odcinki, mapuję miejsca, dodaję opisy. Projekt jest hobbistyczny i może nie obejmować całej twórczości Roberta, ale staram się go regularnie uzupełniać.
-            </p>
-            <p>
-              Dla wszystkich, którzy chcą podążać jego śladami.
-            </p>
-            <p className="mt-2 text-right">
-              — <a href="https://kristof.pro" target="_blank" rel="noopener noreferrer" className="text-primary font-medium underline underline-offset-2 decoration-primary/30 hover:decoration-primary transition-colors">Krzysiek</a>
-            </p>
+      {/* O projekcie */}
+      <section className="px-4 md:px-24 py-10 md:py-16 bg-bg-primary">
+        <div className="md:grid md:grid-cols-2 md:gap-10 md:items-start">
+          {/* Illustration — desktop left column */}
+          <motion.div {...fadeUp(0)} className="hidden md:block">
+            <img
+              src="/kristof_main.jpg"
+              alt="O projekcie"
+              className="w-full rounded-2xl object-cover"
+            />
           </motion.div>
+
+          {/* Text — right column on desktop, full width on mobile */}
+          <div>
+            <motion.h2 {...fadeUp(0)} className="text-2xl font-bold text-primary mb-6">
+              O projekcie
+            </motion.h2>
+            <motion.div {...fadeUp(0.1)} className="space-y-4 text-neutral-500 leading-relaxed">
+              <p>
+                Programy <a href="https://www.maklowicz.pl/" target="_blank" rel="noopener noreferrer" className="text-primary font-medium underline underline-offset-2 decoration-primary/30 hover:decoration-primary transition-colors">Roberta Makłowicza</a> towarzyszą mi od dziecka. Weekendowe wyprawy przed telewizorem były małym rytuałem, który zaszczepił we mnie ciekawość świata, ludzi i historii.
+              </p>
+              <p>
+                Kiedy Robert wrócił z <a href="https://www.youtube.com/@Robert_Maklowicz" target="_blank" rel="noopener noreferrer" className="text-primary font-medium underline underline-offset-2 decoration-primary/30 hover:decoration-primary transition-colors">kanałem na YouTube</a>, poczułem to samo co kiedyś. Jakbym znowu jechał z nim w podróż.
+              </p>
+              <blockquote className="border-l-2 border-primary/30 pl-4 italic">
+                Chciałbym kiedyś odwiedzić te miejsca. I zobaczyć je na własne oczy.
+              </blockquote>
+              <p>
+                Tak powstała ta mapa. Oglądam odcinki, mapuję miejsca, dodaję opisy. Projekt jest hobbistyczny i może nie obejmować całej twórczości Roberta, ale staram się go regularnie uzupełniać.
+              </p>
+              <p>
+                Dla wszystkich, którzy chcą podążać jego śladami.
+              </p>
+              <p className="mt-2 text-right">
+                — <a href="https://kristof.pro" target="_blank" rel="noopener noreferrer" className="text-primary font-medium underline underline-offset-2 decoration-primary/30 hover:decoration-primary transition-colors">Krzysiek</a>
+              </p>
+            </motion.div>
+          </div>
         </div>
       </section>
 
@@ -148,7 +160,13 @@ export default function LandingPage() {
           src="/footer_pins.svg"
           alt=""
           aria-hidden
-          className="w-full min-w-[393px] select-none"
+          className="w-full min-w-[393px] select-none md:hidden"
+        />
+        <img
+          src="/desktop_footer.svg"
+          alt=""
+          aria-hidden
+          className="w-full select-none hidden md:block"
         />
       </div>
     </main>
