@@ -6,14 +6,16 @@
     height: 30px;
     border-radius: 50%;
     background-color: #E1DEE2;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    border: 2px solid #685F6D;
+    box-shadow: none;
     transition: all 0.2s ease-in-out;
   }
 
   /* Disable transitions on mobile for better performance */
   @media (max-width: 767px) {
     .customMarkerIcon,
-    .customMarkerIcon::after {
+    .customMarkerIcon::after,
+    .customMarkerIcon::before {
       transition: none !important;
     }
   }
@@ -24,22 +26,33 @@
       color: #00071A;
   }
 
-  /* --- Pointer Triangle --- */
+  /* --- Pointer Triangle (rotated square with border) --- */
   .customMarkerIcon::after {
     content: '';
     position: absolute;
-    bottom: -8px;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 12px;
+    height: 12px;
+    background-color: #E1DEE2;
+    border-right: 2px solid #685F6D;
+    border-bottom: 2px solid #685F6D;
+    transition: all 0.2s ease-in-out;
+  }
+
+  /* --- Oval shadow beneath pin --- */
+  .customMarkerIcon::before {
+    content: '';
+    position: absolute;
+    bottom: -14px;
     left: 50%;
     transform: translateX(-50%);
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 10px 8px 0 8px;
-    border-left-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    border-top-color: #E1DEE2;
-    transition: all 0.2s ease-in-out;
+    width: 14px;
+    height: 5px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.18);
+    filter: blur(1px);
   }
 
   /* All type classes now share the same neutral pin color */
@@ -53,7 +66,7 @@
   .markerCulture::after,
   .markerNature::after,
   .markerExplore::after {
-      border-top-color: #E1DEE2;
+      background-color: #E1DEE2;
   }
   .markerFood .markerIconContent,
   .markerCulture .markerIconContent,
@@ -74,7 +87,8 @@
   }
 
   .selectedHighlight::after {
-    border-top-color: #00071A;
+    background-color: #00071A;
+    border-color: #00071A;
   }
 
 .filteredOut {

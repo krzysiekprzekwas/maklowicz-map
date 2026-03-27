@@ -66,7 +66,7 @@ const createCustomIcon = (
         className: `${finalClassName}`,
         html: iconHtml,
         iconSize: [34, 34],
-        iconAnchor: [17, 42],
+        iconAnchor: [17, 46],
         popupAnchor: [0, -50],
     };
 
