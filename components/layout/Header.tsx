@@ -35,12 +35,12 @@ export function Header() {
   return (
     <header ref={headerRef} className={`${pathname === "/" ? "bg-transparent" : "bg-bg-primary"} relative z-[10000]`}>
       {/* Mobile layout */}
-      <div className={`md:hidden flex items-center justify-center px-4 ${pathname === "/" ? "pt-4 h-20" : "h-16"}`}>
+      <div className={`md:hidden flex items-center justify-center px-4 ${pathname === "/" ? "pt-4" : ""} h-20`}>
         <Link href="/">
           <img
-            src={pathname === "/" ? "/main_mobile_header.svg" : "/new_logo.svg"}
+            src="/main_mobile_header.svg"
             alt="Śladami Roberta Makłowicza"
-            className={pathname === "/" ? "h-16" : "h-8"}
+            className="h-16"
           />
         </Link>
       </div>
