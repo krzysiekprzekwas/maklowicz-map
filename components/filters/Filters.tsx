@@ -100,79 +100,141 @@ export function Filters({
     setTimeout(() => searchInputRef.current?.focus(), 50);
   };
 
+  // ─── Country search input (reused in both layouts) ─────────────────────
+  const countryInput = isCountryDropdownOpen ? (
+    <div className="flex-1 min-w-0 border border-neutral-1000 rounded-full px-4 py-2.5 flex items-center gap-3 bg-neutral-0">
+      <Search className="h-4 w-4 text-neutral-300 flex-shrink-0" />
+      <input
+        ref={searchInputRef}
+        type="text"
+        className="flex-1 min-w-0 text-sm text-neutral-1000 outline-none bg-transparent placeholder-neutral-300"
+        placeholder="Wybierz kraj"
+        value={countrySearch}
+        onChange={e => handleCountryInputChange(e.target.value)}
+        autoFocus
+      />
+      <button
+        onClick={() => {
+          setIsCountryDropdownOpen(false);
+          setCountrySearch('');
+        }}
+        aria-label="Zamknij"
+      >
+        <X className="h-4 w-4 text-neutral-500" />
+      </button>
+    </div>
+  ) : hasActiveFilters && (selectedCountry || locationStatus === 'granted') ? (
+    <div className="flex-1 min-w-0 border border-neutral-300 rounded-full px-4 py-2.5 flex items-center gap-3 bg-neutral-0 cursor-pointer">
+      <div className="flex-1 min-w-0 flex items-center gap-3" onClick={openCountryDropdown}>
+        <Search className="h-4 w-4 text-neutral-300 flex-shrink-0" />
+        <span className="flex-1 text-neutral-1000 text-sm truncate font-medium">
+          {locationStatus === 'granted' ? `W pobliżu (${nearbyRadius} km)` : selectedCountry}
+        </span>
+      </div>
+      <button
+        onClick={() => {
+          if (locationStatus === 'granted') onClearNearby();
+          else handleClearCountry();
+        }}
+        aria-label="Wyczyść"
+      >
+        <X className="h-4 w-4 text-neutral-500" />
+      </button>
+    </div>
+  ) : (
+    <button
+      onClick={openCountryDropdown}
+      className="flex-1 min-w-0 border border-neutral-300 rounded-full px-4 py-2.5 flex items-center gap-3 text-left bg-neutral-0"
+      aria-label="Wybierz kraj"
+    >
+      <Search className="h-4 w-4 text-neutral-300 flex-shrink-0" />
+      <span className="flex-1 text-neutral-300 text-sm truncate">Wybierz kraj</span>
+    </button>
+  );
+
+  // ─── Filter button (icon-only for mobile, text+badge for desktop inline) ──
+  const filterButtonMobile = (
+    <button
+      onClick={onToggleFilters}
+      className="relative rounded-full w-10 h-10 flex-shrink-0 flex items-center justify-center bg-neutral-200 text-neutral-900"
+      aria-label="Filtry"
+    >
+      <SlidersHorizontal className="h-5 w-5" />
+      {selectedLocationTypes.length > 0 && (
+        <span className="absolute -top-1 -right-1 w-5 h-5 rounded-full bg-neutral-1000 text-neutral-0 text-[10px] font-bold flex items-center justify-center">
+          {selectedLocationTypes.length}
+        </span>
+      )}
+    </button>
+  );
+
+  const filterButtonDesktop = (
+    <button
+      onClick={onToggleFilters}
+      className="flex items-center gap-2 rounded-full bg-neutral-200 px-4 py-2.5 text-sm text-neutral-1000 font-medium whitespace-nowrap"
+      aria-label="Filtry"
+    >
+      <SlidersHorizontal className="h-4 w-4" />
+      <span>Filtry</span>
+      {selectedLocationTypes.length > 0 && (
+        <span className="w-5 h-5 rounded-full bg-neutral-1000 text-neutral-0 text-[10px] font-bold flex items-center justify-center">
+          {selectedLocationTypes.length}
+        </span>
+      )}
+    </button>
+  );
+
   // ─── Search bar content (shared between overlay & inline) ───────────────
   const searchBar = (
     <div ref={dropdownRef} className="relative">
-      {/* Pill bar */}
-      <div className={`bg-neutral-0 rounded-full ${variant === 'overlay' ? 'shadow-lg' : 'shadow-200'} px-2 py-2 flex items-center gap-2`}>
-        {isCountryDropdownOpen ? (
-          /* Active search input */
-          <div className="flex-1 min-w-0 border border-neutral-1000 rounded-full px-4 py-2.5 flex items-center gap-3 bg-neutral-0">
-            <Search className="h-4 w-4 text-neutral-300 flex-shrink-0" />
-            <input
-              ref={searchInputRef}
-              type="text"
-              className="flex-1 min-w-0 text-sm text-neutral-1000 outline-none bg-transparent placeholder-neutral-300"
-              placeholder="Wybierz kraj"
-              value={countrySearch}
-              onChange={e => handleCountryInputChange(e.target.value)}
-              autoFocus
-            />
-            <button
-              onClick={() => {
-                setIsCountryDropdownOpen(false);
-                setCountrySearch('');
-              }}
-              aria-label="Zamknij"
-            >
-              <X className="h-4 w-4 text-neutral-500" />
-            </button>
-          </div>
-        ) : hasActiveFilters && (selectedCountry || locationStatus === 'granted') ? (
-          /* Show selected country/nearby */
-          <div className="flex-1 min-w-0 border border-neutral-300 rounded-full px-4 py-2.5 flex items-center gap-3 bg-neutral-0 cursor-pointer">
-            <div className="flex-1 min-w-0 flex items-center gap-3" onClick={openCountryDropdown}>
-              <Search className="h-4 w-4 text-neutral-300 flex-shrink-0" />
-              <span className="flex-1 text-neutral-1000 text-sm truncate font-medium">
-                {locationStatus === 'granted' ? `W pobliżu (${nearbyRadius} km)` : selectedCountry}
-              </span>
-            </div>
-            <button
-              onClick={() => {
-                if (locationStatus === 'granted') onClearNearby();
-                else handleClearCountry();
-              }}
-              aria-label="Wyczyść"
-            >
-              <X className="h-4 w-4 text-neutral-500" />
-            </button>
-          </div>
-        ) : (
-          /* Default "Wybierz kraj" button */
-          <button
-            onClick={openCountryDropdown}
-            className="flex-1 min-w-0 border border-neutral-300 rounded-full px-4 py-2.5 flex items-center gap-3 text-left bg-neutral-0"
-            aria-label="Wybierz kraj"
-          >
-            <Search className="h-4 w-4 text-neutral-300 flex-shrink-0" />
-            <span className="flex-1 text-neutral-300 text-sm truncate">Wybierz kraj</span>
-          </button>
-        )}
+      {/* Mobile: grouped pill bar */}
+      {variant === 'overlay' && (
+        <div className="bg-neutral-0 rounded-full shadow-lg px-2 py-2 flex items-center gap-2">
+          {countryInput}
+          {filterButtonMobile}
+        </div>
+      )}
 
-        {/* Filter icon — opens drawer */}
-        <button
-          onClick={onToggleFilters}
-          className="relative rounded-full w-10 h-10 flex-shrink-0 flex items-center justify-center bg-neutral-200 text-neutral-900"
-          aria-label="Filtry"
-        >
-          <SlidersHorizontal className="h-5 w-5" />
-          {selectedLocationTypes.length > 0 && (
-            <span className="absolute -top-1 -right-1 w-5 h-5 rounded-full bg-neutral-1000 text-neutral-0 text-[10px] font-bold flex items-center justify-center">
-              {selectedLocationTypes.length}
-            </span>
-          )}
-        </button>
-      </div>
+      {/* Desktop inline: two separate boxes */}
+      {variant === 'inline' && (
+        <div className="flex items-center gap-3">
+          <div className="flex-1 min-w-0 bg-neutral-0 rounded-full border border-neutral-300 px-4 py-2.5 flex items-center gap-3">
+            {isCountryDropdownOpen ? (
+              <>
+                <Search className="h-4 w-4 text-neutral-300 flex-shrink-0" />
+                <input
+                  ref={searchInputRef}
+                  type="text"
+                  className="flex-1 min-w-0 text-sm text-neutral-1000 outline-none bg-transparent placeholder-neutral-300"
+                  placeholder="Wybierz kraj"
+                  value={countrySearch}
+                  onChange={e => handleCountryInputChange(e.target.value)}
+                  autoFocus
+                />
+                <button onClick={() => { setIsCountryDropdownOpen(false); setCountrySearch(''); }} aria-label="Zamknij">
+                  <X className="h-4 w-4 text-neutral-1000" />
+                </button>
+              </>
+            ) : hasActiveFilters && (selectedCountry || locationStatus === 'granted') ? (
+              <>
+                <Search className="h-4 w-4 text-neutral-300 flex-shrink-0 cursor-pointer" onClick={openCountryDropdown} />
+                <span className="flex-1 text-neutral-1000 text-sm truncate font-medium cursor-pointer" onClick={openCountryDropdown}>
+                  {locationStatus === 'granted' ? `W pobliżu (${nearbyRadius} km)` : selectedCountry}
+                </span>
+                <button onClick={() => { if (locationStatus === 'granted') onClearNearby(); else handleClearCountry(); }} aria-label="Wyczyść">
+                  <X className="h-4 w-4 text-neutral-1000" />
+                </button>
+              </>
+            ) : (
+              <div className="flex-1 flex items-center gap-3 cursor-pointer" onClick={openCountryDropdown}>
+                <Search className="h-4 w-4 text-neutral-300 flex-shrink-0" />
+                <span className="flex-1 text-neutral-300 text-sm truncate">Wybierz kraj</span>
+              </div>
+            )}
+          </div>
+          {filterButtonDesktop}
+        </div>
+      )}
 
       {/* Country dropdown — below the pill bar */}
       {isCountryDropdownOpen && (
