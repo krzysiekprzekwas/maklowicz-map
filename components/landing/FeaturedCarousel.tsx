@@ -75,22 +75,14 @@ export function FeaturedCarousel({ locations }: FeaturedCarouselProps) {
       {/* Carousel viewport with edge fades */}
       <div className="relative">
         <div ref={emblaRef} className="overflow-hidden">
-          <div className="flex gap-4 pl-4 md:pl-[max(1rem,calc((100%-48rem)/2+1rem))]">
+          <div className="flex">
             {locations.map((loc) => (
-              <div key={loc.id} className="flex-[0_0_75%] min-w-0 md:flex-[0_0_320px]">
+              <div key={loc.id} className="flex-[0_0_75%] min-w-0 md:flex-[0_0_320px] pl-4 last:pr-4 md:first:pl-[max(1rem,calc((100vw-48rem)/2+1rem))]">
                 <LocationCard location={loc} />
               </div>
             ))}
           </div>
         </div>
-
-        {/* Left fade */}
-        {canScrollPrev && (
-          <div
-            className="pointer-events-none absolute inset-y-0 left-0 w-16"
-            style={{ background: 'linear-gradient(to right, #F6F5F2, transparent)' }}
-          />
-        )}
 
         {/* Right fade */}
         {canScrollNext && (

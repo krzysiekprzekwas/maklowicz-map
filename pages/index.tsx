@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { MapPin } from 'lucide-react';
+import { Map } from 'lucide-react';
 import locationData from '../data/locations.json';
 import type { LocationData } from '../types/Location';
 import { LandingSearch } from '../components/filters/LandingSearch';
@@ -57,7 +57,7 @@ export default function LandingPage() {
       </section>
 
       {/* Featured locations carousel */}
-      <section className="pb-4 md:py-10">
+      <section className="pb-12 md:py-10">
         <motion.div {...fadeUp(0.15)} className="max-w-3xl mx-auto w-full mb-4 px-4">
           <h2 className="text-lg font-bold text-primary">Niedawno odwiedzone</h2>
         </motion.div>
@@ -98,7 +98,7 @@ export default function LandingPage() {
               href="/map"
               className="inline-flex items-center gap-2.5 px-8 py-4 rounded-full bg-neutral-1000 text-neutral-0 font-semibold hover:bg-neutral-1000/90 transition-colors text-base"
             >
-              <MapPin className="w-4 h-4" />
+              <Map className="w-4 h-4" />
               Szukaj na mapie
             </Link>
           </motion.div>
@@ -116,13 +116,19 @@ export default function LandingPage() {
               Programy <a href="https://www.maklowicz.pl/" target="_blank" rel="noopener noreferrer" className="text-primary font-medium underline underline-offset-2 decoration-primary/30 hover:decoration-primary transition-colors">Roberta Makłowicza</a> towarzyszą mi od dziecka. Weekendowe wyprawy przed telewizorem były małym rytuałem, który zaszczepił we mnie ciekawość świata, ludzi i historii.
             </p>
             <p>
-              Kiedy w czasach lockdownu Robert wrócił z <a href="https://www.youtube.com/@Robert_Maklowicz" target="_blank" rel="noopener noreferrer" className="text-primary font-medium underline underline-offset-2 decoration-primary/30 hover:decoration-primary transition-colors">kanałem na YouTube</a>, poczułem to samo co kiedyś. Jakbym znowu jechał z nim w podróż. W pewnym momencie przyszła myśl:
+              Kiedy Robert wrócił z <a href="https://www.youtube.com/@Robert_Maklowicz" target="_blank" rel="noopener noreferrer" className="text-primary font-medium underline underline-offset-2 decoration-primary/30 hover:decoration-primary transition-colors">kanałem na YouTube</a>, poczułem to samo co kiedyś. Jakbym znowu jechał z nim w podróż.
             </p>
             <blockquote className="border-l-2 border-primary/30 pl-4 italic">
               Chciałbym kiedyś odwiedzić te miejsca. I zobaczyć je na własne oczy.
             </blockquote>
             <p>
-              Tak powstała ta mapa. Oglądam odcinki, mapuję miejsca, dodaję opisy. Projekt jest hobbistyczny i może nie obejmować całej twórczości Roberta, ale staram się go regularnie uzupełniać. Dla wszystkich, którzy chcą podążać jego śladami.
+              Tak powstała ta mapa. Oglądam odcinki, mapuję miejsca, dodaję opisy. Projekt jest hobbistyczny i może nie obejmować całej twórczości Roberta, ale staram się go regularnie uzupełniać.
+            </p>
+            <p>
+              Dla wszystkich, którzy chcą podążać jego śladami.
+            </p>
+            <p className="mt-2 text-right">
+              — <a href="https://kristof.pro" target="_blank" rel="noopener noreferrer" className="text-primary font-medium underline underline-offset-2 decoration-primary/30 hover:decoration-primary transition-colors">Krzysiek</a>
             </p>
           </motion.div>
         </div>
