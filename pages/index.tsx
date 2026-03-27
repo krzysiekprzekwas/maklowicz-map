@@ -45,6 +45,7 @@ export default function LandingPage() {
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
   const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
+  const [locationStatus, setLocationStatus] = useState<'idle' | 'loading' | 'granted' | 'denied'>('idle');
 
   const navigateToMap = useCallback((country?: string | null, types?: string[]) => {
     const params = new URLSearchParams();
@@ -52,6 +53,23 @@ export default function LandingPage() {
     if (c) params.set('country', c);
     router.push(`/map${params.toString() ? `?${params}` : ''}`);
   }, [router, selectedCountry]);
+
+  const handleRequestLocation = useCallback(() => {
+    setLocationStatus('loading');
+    navigator.geolocation.getCurrentPosition(
+      () => {
+        setLocationStatus('granted');
+        router.push('/map?nearby=1');
+      },
+      () => {
+        setLocationStatus('denied');
+      }
+    );
+  }, [router]);
+
+  const handleClearNearby = useCallback(() => {
+    setLocationStatus('idle');
+  }, []);
 
   const handleCountrySelect = useCallback((country: string | null) => {
     setSelectedCountry(country);
@@ -107,15 +125,15 @@ export default function LandingPage() {
               selectedLocationTypes={selectedTypes}
               filteredCount={totalLocations}
               locationTypeCounts={{}}
-              locationStatus="idle"
+              locationStatus={locationStatus}
               nearbyRadius={50}
               onCountrySelect={handleCountrySelect}
               onToggleLocationType={handleToggleType}
               onToggleFilters={handleToggleFilters}
               onResetFilters={handleResetFilters}
-              onRequestLocation={() => {}}
+              onRequestLocation={handleRequestLocation}
               onSetNearbyRadius={() => {}}
-              onClearNearby={() => {}}
+              onClearNearby={handleClearNearby}
               variant="inline"
             />
           </div>

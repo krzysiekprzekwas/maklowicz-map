@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { useRouter } from 'next/router';
 import { Sheet } from 'react-modal-sheet';
-import { X, Search, Check } from 'lucide-react';
+import { X, Search, Check, MapPin, Loader2 } from 'lucide-react';
 import { LOCATION_TYPES } from '../../src/lib/locationTypeMeta';
 
 interface LandingSearchProps {
@@ -20,6 +20,7 @@ export function LandingSearch({ countries, filteredCount }: LandingSearchProps) 
   const countryInputRef = useRef<HTMLInputElement>(null);
   const [navigating, setNavigating] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
+  const [locationStatus, setLocationStatus] = useState<'idle' | 'loading' | 'granted' | 'denied'>('idle');
 
   useEffect(() => {
     const check = () => setIsMobile(window.innerWidth < 768);
@@ -96,6 +97,21 @@ export function LandingSearch({ countries, filteredCount }: LandingSearchProps) 
     setCountrySearch('');
     setIsCountryDropdownOpen(false);
   };
+
+  const handleRequestLocation = useCallback(() => {
+    setLocationStatus('loading');
+    navigator.geolocation.getCurrentPosition(
+      () => {
+        setLocationStatus('granted');
+        setIsCountryDropdownOpen(false);
+        setNavigating(true);
+        router.push('/map?nearby=1');
+      },
+      () => {
+        setLocationStatus('denied');
+      }
+    );
+  }, [router]);
 
   // ─── Pill bar ──────────────────────────────────────────────────────────
   const pillBar = (
@@ -188,6 +204,21 @@ export function LandingSearch({ countries, filteredCount }: LandingSearchProps) 
             {/* Floating dropdown */}
             {isCountryDropdownOpen && (
               <div className="absolute left-0 right-0 mt-2 bg-neutral-0 rounded-2xl shadow-lg border border-neutral-200 max-h-72 overflow-y-auto z-50">
+                {/* Nearby option */}
+                <button
+                  onClick={handleRequestLocation}
+                  className="w-full text-left px-4 py-3 text-sm text-neutral-500 hover:bg-bg-primary flex items-center gap-2 border-b border-neutral-200"
+                >
+                  {locationStatus === 'loading' ? (
+                    <Loader2 className="h-4 w-4 animate-spin flex-shrink-0" />
+                  ) : (
+                    <MapPin className="h-4 w-4 flex-shrink-0" />
+                  )}
+                  <span className="flex-1">Szukaj w pobliżu mojej lokalizacji</span>
+                  {locationStatus === 'denied' && <span className="text-xs text-red-500">Brak dostępu</span>}
+                  {locationStatus === 'granted' && <Check className="h-4 w-4 text-primary" />}
+                </button>
+
                 {filteredCountries.length > 0 ? (
                   filteredCountries.map((c) => (
                     <button

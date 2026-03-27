@@ -109,6 +109,15 @@ export default function Home() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [router.isReady, router.query.country]);
 
+  // Auto-trigger nearby geolocation when navigated from landing with ?nearby=1
+  React.useEffect(() => {
+    if (!router.isReady) return;
+    if (router.query.nearby === '1' && locationStatus === 'idle') {
+      requestUserLocation();
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [router.isReady, router.query.nearby]);
+
   React.useEffect(() => {
     if (!router.isReady) return;
     const placeIdParam = router.query.placeId;
