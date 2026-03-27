@@ -67,7 +67,7 @@ const MapClickCloser: React.FC<{ onClose: () => void }> = ({ onClose }) => {
     return null;
 };
 
-const PreviewPanner: React.FC<{ location: Location | null }> = ({ location }) => {
+const PreviewPanner: React.FC<{ location: Location | null; topSafeArea?: number }> = ({ location, topSafeArea = 0 }) => {
     const map = useMap();
 
     React.useEffect(() => {
@@ -85,7 +85,7 @@ const PreviewPanner: React.FC<{ location: Location | null }> = ({ location }) =>
         const cardRight  = pt.x + CARD_WIDTH / 2;
 
         const mapEl = map.getContainer();
-        const safeTop    = PADDING;
+        const safeTop    = PADDING + topSafeArea;
         const safeBottom = mapEl.clientHeight - PADDING;
         const safeLeft   = PADDING;
         const safeRight  = mapEl.clientWidth  - PADDING;
@@ -99,7 +99,7 @@ const PreviewPanner: React.FC<{ location: Location | null }> = ({ location }) =>
         if (dx !== 0 || dy !== 0) {
             map.panBy([dx, dy], { animate: true });
         }
-    }, [location, map]);
+    }, [location, map, topSafeArea]);
 
     return null;
 };
@@ -269,7 +269,7 @@ const Map: React.FC<MapProps> = React.memo(({
                 />
                 <ChangeView zoomLocations={zoomLocations ?? locations} leftPanelWidth={leftPanelWidth} />
                 <LocationFlyTo location={flyToLocation ?? null} rightPanelWidth={rightPanelWidth} onComplete={onFlyToComplete ?? (() => {})} />
-                <PreviewPanner location={previewLocation} />
+                <PreviewPanner location={previewLocation} topSafeArea={isMobile ? 96 : 24} />
                 {userLat != null && userLng != null && (
                     <Marker
                         position={[userLat, userLng]}
