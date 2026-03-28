@@ -1,13 +1,13 @@
 import Head from 'next/head';
 import { GetStaticPaths, GetStaticProps } from 'next';
 import dynamic from 'next/dynamic';
-import { MapIcon } from 'lucide-react';
+import { ArrowLeft, MapIcon } from 'lucide-react';
 import locationData from '../../data/locations.json';
 
 const CountryMiniMap = dynamic(() => import('../../components/country/CountryMiniMap'), { ssr: false });
 import { countrySlug, placeSlug } from '../../src/lib/slug';
 import { toLocative } from '../../src/lib/countryLocatives';
-import { TYPE_META } from '../../src/lib/locationTypeMeta';
+import { LocationListItem } from '../../components/location/LocationListItem';
 import type { Location, Video } from '../../types/Location';
 
 const PREVIEW_COUNT = 5;
@@ -19,48 +19,15 @@ type Props = {
   videos: Video[];
 };
 
-function LocationCard({ loc, country }: { loc: Location; country: string }) {
-  const meta = TYPE_META[loc.type] ?? TYPE_META.tourist_attraction;
-  const TypeIcon = meta.icon;
-
-  return (
-    <a
-      href={`/?country=${encodeURIComponent(country)}&placeId=${encodeURIComponent(loc.id)}`}
-      className="flex overflow-hidden rounded-2xl border border-secondary-border bg-white hover:shadow-md transition-shadow"
-    >
-      <div className="flex-shrink-0 w-28 h-28 overflow-hidden bg-secondary flex items-center justify-center">
-        {loc.image ? (
-          <img
-            src={loc.image}
-            alt={loc.name}
-            loading="lazy"
-            className="w-full h-full object-cover"
-          />
-        ) : (
-          <TypeIcon className="h-8 w-8 text-primary opacity-30" />
-        )}
-      </div>
-      <div className="flex-1 min-w-0 p-3">
-        <div className="flex items-center gap-1.5 mb-0.5">
-          <TypeIcon className="h-3.5 w-3.5 text-primary flex-shrink-0" />
-          <span className="font-semibold text-primary text-sm line-clamp-1">{loc.name}</span>
-        </div>
-        <p className="text-xs text-gray-500 line-clamp-3">{loc.summary || loc.description || loc.address}</p>
-        <p className="text-xs text-gray-400 mt-0.5">{loc.country}</p>
-      </div>
-    </a>
-  );
-}
-
 function VideoCard({ video }: { video: Video }) {
   return (
     <a
       href={video.videoUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className="flex gap-3 rounded-2xl border border-secondary-border bg-white p-3 hover:shadow-md transition-shadow"
+      className="flex gap-3 rounded-2xl border border-neutral-200 bg-white p-3 hover:shadow-md transition-shadow"
     >
-      <div className="flex-shrink-0 w-24 h-16 rounded-lg overflow-hidden bg-secondary">
+      <div className="flex-shrink-0 w-24 h-16 rounded-lg overflow-hidden bg-bg-primary">
         <img
           src={`https://img.youtube.com/vi/${video.videoId}/mqdefault.jpg`}
           alt={video.filterTitle}
@@ -70,7 +37,7 @@ function VideoCard({ video }: { video: Video }) {
       </div>
       <div className="flex-1 min-w-0">
         <p className="font-semibold text-primary text-sm line-clamp-1 mb-1">{video.filterTitle}</p>
-        {video.date && <p className="text-xs text-gray-400">{video.date}</p>}
+        {video.date && <p className="text-xs text-gray-400">{new Date(video.date).toLocaleDateString('pl-PL', { day: 'numeric', month: 'long', year: 'numeric' })}</p>}
         <p className="text-xs text-red-600 font-medium mt-1">YouTube ↗</p>
       </div>
     </a>
@@ -102,7 +69,7 @@ export default function CountryPage({ country, locations, videos }: Props) {
   };
 
   return (
-    <main className="flex flex-1 flex-col bg-secondary overflow-y-auto">
+    <main className="flex flex-1 flex-col bg-bg-primary overflow-y-auto">
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
@@ -118,7 +85,12 @@ export default function CountryPage({ country, locations, videos }: Props) {
 
         {/* Hero */}
         <div className="mb-8">
-          <h1 className="text-4xl font-bold text-primary mb-2">{country}</h1>
+          <div className="flex items-center gap-3 mb-2">
+            <a href="/" className="flex-shrink-0 w-10 h-10 rounded-full bg-neutral-200 flex items-center justify-center hover:bg-neutral-300 transition-colors" aria-label="Wróć">
+              <ArrowLeft className="w-5 h-5 text-neutral-1000" />
+            </a>
+            <h1 className="text-4xl font-bold text-primary">{country}</h1>
+          </div>
           <p className="text-sm text-gray-500 mb-5">
             <span className="font-semibold text-primary">{locations.length}</span> miejsc ·{' '}
             <span className="font-semibold text-primary">{videos.length}</span> odcinków
@@ -134,7 +106,7 @@ export default function CountryPage({ country, locations, videos }: Props) {
           <h2 className="text-xl font-bold text-primary mb-4">Miejsca w {countryLoc}</h2>
           <div className="flex flex-col gap-3">
             {previewLocations.map((loc) => (
-              <LocationCard key={loc.id} loc={loc} country={country} />
+              <LocationListItem key={loc.id} location={loc} href={`/map?placeId=${encodeURIComponent(loc.id)}`} />
             ))}
           </div>
         </section>
@@ -142,13 +114,13 @@ export default function CountryPage({ country, locations, videos }: Props) {
         {/* Mid-page CTA */}
         {remaining > 0 && (
           <a
-            href={`/?country=${encodeURIComponent(country)}`}
+            href={`/map?country=${encodeURIComponent(country)}`}
             className="flex items-center justify-between w-full px-5 py-4 rounded-2xl border-2 border-primary/20 bg-white hover:border-primary/40 hover:shadow-md transition-all mb-10 group"
           >
             <span className="text-primary font-semibold">
               ...i jeszcze <strong>{remaining}</strong> miejsc w {countryLoc}
             </span>
-            <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-white bg-primary px-4 py-2 rounded-lg group-hover:bg-primary/90 transition-colors whitespace-nowrap flex-shrink-0">
+            <span className="inline-flex items-center gap-2.5 px-8 py-4 rounded-full bg-neutral-1000 text-neutral-0 font-semibold text-base hover:bg-neutral-1000/90 transition-colors whitespace-nowrap flex-shrink-0">
               <MapIcon className="w-4 h-4" />
               Otwórz mapę
             </span>
@@ -167,7 +139,7 @@ export default function CountryPage({ country, locations, videos }: Props) {
             {videos.length > VIDEO_PREVIEW_COUNT && (
               <p className="text-sm text-gray-500 mt-3 text-center">
                 + {videos.length - VIDEO_PREVIEW_COUNT} więcej odcinków —{' '}
-                <a href={`/?country=${encodeURIComponent(country)}`} className="text-primary font-medium underline underline-offset-2">
+                <a href={`/map?country=${encodeURIComponent(country)}`} className="text-primary font-medium underline underline-offset-2">
                   filtruj na mapie
                 </a>
               </p>
@@ -182,7 +154,7 @@ export default function CountryPage({ country, locations, videos }: Props) {
             {locations.map((loc) => (
               <li key={loc.id}>
                 <a
-                  href={`/?country=${encodeURIComponent(country)}&placeId=${encodeURIComponent(loc.id)}`}
+                  href={`/map?country=${encodeURIComponent(country)}&placeId=${encodeURIComponent(loc.id)}`}
                   className="text-xs text-gray-500 hover:text-primary transition-colors line-clamp-1"
                 >
                   {loc.name}

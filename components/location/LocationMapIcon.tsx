@@ -1,17 +1,5 @@
 import L from 'leaflet';
-import ReactDOMServer from 'react-dom/server';
-import { Utensils, Coffee, TreePine, Palette, Landmark, ShoppingBag, Hotel, Compass, LucideProps } from 'lucide-react';
-
-const iconComponentMap: Partial<Record<LocationType, React.ComponentType<LucideProps>>> = {
-    restaurant: Utensils,
-    cafe: Coffee,
-    tourist_attraction: Compass,
-    museum: Landmark,
-    art_culture: Palette,
-    nature: TreePine,
-    shopping: ShoppingBag,
-    hotel: Hotel,
-};
+import { TYPE_META } from '../../src/lib/locationTypeMeta';
 
 const colorClassMap: Partial<Record<LocationType, keyof typeof styles>> = {
     restaurant: 'markerFood',
@@ -34,23 +22,19 @@ const createCustomIcon = (
     isFilteredOut: boolean = false,
     isMobile: boolean = false
 ): L.DivIcon => {
-    const IconComponent = iconComponentMap[type] ?? (() => <span>?</span>);
-    if (iconComponentMap[type] === undefined) {
+    const meta = TYPE_META[type];
+    const iconSrc = meta?.iconPath ?? '';
+    if (!meta) {
         console.warn(`No icon found for type: ${type}`);
     }
     const colorClassNameKey = colorClassMap[type] ?? 'markerExplore';
     const colorModuleClass = styles[colorClassNameKey];
 
-    // Don't render tooltips on mobile for better performance
-    const iconHtml = ReactDOMServer.renderToString(
-        <>
-          <div>
-            <IconComponent className={styles.markerIconContent} />
-            {!isMobile && title && <div className={styles.markerTooltip}>{title}</div>}
-          </div>
-        </>
-      );
-      
+    const tooltipHtml = !isMobile && title
+        ? `<div class="${styles.markerTooltip}">${title}</div>`
+        : '';
+
+    const iconHtml = `<div><img src="${iconSrc}" alt="" class="${styles.markerIconContent}" />${tooltipHtml}</div>`;
 
     const baseClassName = `${styles.customMarkerIcon} ${colorModuleClass}`;
 
@@ -61,12 +45,12 @@ const createCustomIcon = (
     } else if (isFilteredOut) {
         finalClassName = `${baseClassName} ${styles.filteredOut}`;
     }
-      
+
     const options: L.DivIconOptions = {
         className: `${finalClassName}`,
         html: iconHtml,
         iconSize: [34, 34],
-        iconAnchor: [17, 42],
+        iconAnchor: [17, 46],
         popupAnchor: [0, -50],
     };
 

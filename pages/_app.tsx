@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { useRouter } from 'next/router';
 import type { AppProps } from 'next/app';
 import '../styles/globals.css';
 import { Header } from '../components/layout/Header';
@@ -7,6 +8,7 @@ import { Analytics } from '@vercel/analytics/next';
 import posthog from 'posthog-js';
 
 function MyApp({ Component, pageProps }: AppProps) {
+  const router = useRouter();
   useEffect(() => {
     if (!process.env.NEXT_PUBLIC_POSTHOG_KEY) return;
     posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY, {
@@ -24,7 +26,23 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <>
-      <div className="h-full flex flex-col">
+      <div className={`flex flex-col ${router.pathname === '/' ? 'min-h-full overflow-y-auto relative bg-bg-primary' : 'h-full'}`}>
+        {router.pathname === '/' && (
+          <>
+            <img
+              src="/pink_right.svg"
+              alt=""
+              aria-hidden
+              className="pointer-events-none absolute top-0 left-0 w-32 md:w-44 select-none z-0"
+            />
+            <img
+              src="/red_left.svg"
+              alt=""
+              aria-hidden
+              className="pointer-events-none absolute top-0 right-0 w-36 md:w-44 select-none z-0"
+            />
+          </>
+        )}
         <Head>
           <title>Śladami Roberta Makłowicza</title>
           <meta name="description" content="Interaktywna mapa restauracji i atrakcji odwiedzonych przez Roberta Makłowicza."/>
