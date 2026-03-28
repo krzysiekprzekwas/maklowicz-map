@@ -9719,10 +9719,10 @@
           "longitude": -89.62260453930882,
           "address": "Segundo Piso, C. 62 496, Centro, 97000 Mérida, Yuc., Mexico",
           "country": "Meksyk",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://www.meridaenlahistoria.com.mx/2020/02/parque-de-los-hidalgos-no-hidalgo/",
-          "image": "https://static.wixstatic.com/media/a6900c_c152d4a75e024a5dbbc1504b28f5165a~mv2.jpg/v1/fill/w_2560,h_1710,al_c,q_90/Parque%20Hidalgo%20(DSC_7145).jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/e5zhDn71NMNZLjAD9",
+          "image": "https://static.wixstatic.com/media/a6900c_c152d4a75e024a5dbbc1504b28f5165a~mv2.jpg/v1/fill/w_2560,h_1710,al_c,q_90/Parque%20Hidalgo%20(DSC_7145).jpg",
           "summary": "Park Hidalgos w Mérydzie z fontanną i ciągiem ławek, ulubione miejsce spacerów mieszkańców Jukatanu."
         },
         {
@@ -9775,10 +9775,10 @@
           "longitude": -89.30084234008444,
           "address": "Ake, Yucatan, Mexico",
           "country": "Meksyk",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/a6/b3/7a/hacienda-y-ruinas.jpg?w=1200&h=900&s=1",
           "GoogleMapsLink": "https://maps.app.goo.gl/uoZS4qAV3pgQiGzh9",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/a6/b3/7a/hacienda-y-ruinas.jpg?w=1200&h=900&s=1",
           "summary": "Kolonialna hacjenda Ake zbudowana częściowo na fundamentach Majów z XIX-wieczną fabryką agawy henequen."
         },
         {
@@ -9871,10 +9871,10 @@
           "longitude": -89.01888644721343,
           "address": "Parque 5 de Mayo, C. 30 31a, Centro, 97540 Izamal, Yuc., Mexico",
           "country": "Meksyk",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://en-yucatan.com.mx/izamal/convento-san-antonio-padua/",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Templo_y_Ex_Convento_Franciscano_San_Antonio_de_Padua.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/5YzSKrjGccLVzJ2KA",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Templo_y_Ex_Convento_Franciscano_San_Antonio_de_Padua.jpg",
           "summary": "Franciszkański klasztor z XVI w. w żółtym Izamal, z ogromnym atrium i kościołem nad dawną piramidą Majów."
         },
         {
@@ -9885,10 +9885,10 @@
           "longitude": -89.02546566562616,
           "address": "C. 40 319, San Román, 97540 Izamal, Yuc., Mexico",
           "country": "Meksyk",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "",
-          "image": "https://i1.wp.com/thehappening.com/wp-content/uploads/2019/05/chaltun-ha-izamal-zona-arqueologica.jpg?fit=620%2C420&ssl=1",
           "GoogleMapsLink": "https://maps.app.goo.gl/LVhwrMKGw2T7gwgy8",
+          "image": "https://i1.wp.com/thehappening.com/wp-content/uploads/2019/05/chaltun-ha-izamal-zona-arqueologica.jpg?fit=620%2C420&ssl=1",
           "summary": "Strefa archeologiczna Majów Chaltún Há na Jukatanie z piramidami i świętym cenote."
         },
         {
@@ -9899,10 +9899,10 @@
           "longitude": -89.2101164329723,
           "address": "C. 23 556, Hoctún, 97480 Hoctún, Yuc., Mexico",
           "country": "Meksyk",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://www.elmundoconella.com/wp-content/uploads/2023/02/Mausoleos-en-el-cementerio-de-Hoctun.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/iGDr7dnYm5SBE81t7",
+          "image": "https://www.elmundoconella.com/wp-content/uploads/2023/02/Mausoleos-en-el-cementerio-de-Hoctun.jpg",
           "summary": "Kolorowy cmentarz w Hoctún z ozdobnymi grobowcami w tradycji meksykańskiego kultu Dnia Umarłych."
         },
         {
@@ -9939,10 +9939,10 @@
           "longitude": -88.20170741364457,
           "address": "Tizimin - Valladolid 195a, Centro, 97780 Valladolid, Yuc., Mexico",
           "country": "Meksyk",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://www.maravillasdeyucatan.com/destinos/parque-francisco-canton-rosado-valladolid-yucatan/",
-          "image": "https://www.maravillasdeyucatan.com/wp-content/uploads/2019/08/Parque-Francisco-Cantón-Rosado-4.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/4NRz2P6BQfoGVaD39",
+          "image": "https://www.maravillasdeyucatan.com/wp-content/uploads/2019/08/Parque-Francisco-Cantón-Rosado-4.jpg",
           "summary": "Główny plac Valladolid z fontanną i palmami, centrum życia kolonialnego miasta na Jukatanie."
         },
         {
@@ -10057,13 +10057,13 @@
       "locations": [
         {
           "id": "coba-archaeological-site-77793-q-r-meksyk",
-          "name": "Coba archaeological site",
+          "name": "Stanowisko archeologiczne Coba",
           "description": "Gdzieś w sercu meksykańskiej dżungli, tam gdzie słońce praży niczym na rozgrzanym comalu, Robert Makłowicz zawitał do Coby. To prekolumbijskie miasto Majów, z monumentalną piramidą Nohoch Mul na czele, pamięta czasy, gdy po kamiennych drogach, niczym po nitce do kłębka, wędrowały tu zapewne karawany pełne kakao i kukurydzy. Człowiek od razu czuje, że historia ma tu swój niepowtarzalny, wilgotny aromat.",
           "latitude": 20.491168628606744,
           "longitude": -87.72603824658567,
           "address": "Coba, Quintana Roo, Mexico",
           "country": "Meksyk",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://www.inah.gob.mx/zonas/515-zona-arqueologica-de-coba",
           "GoogleMapsLink": "https://maps.app.goo.gl/nSkakRWWTTAUy4eq7",
           "image": "https://expertvagabond.com/wp-content/uploads/coba-nohoch-mul-pyramid-XL-1-1.jpg",
@@ -11199,10 +11199,10 @@
           "longitude": 16.792450580398814,
           "address": "85. Ul. 3, 20271, Blato, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "http://www.facebook.com/zupasvihsvetih.blato",
-          "image": "https://tzo-blato.hr/images/stories/povijesna_bastina/zupna_crkva/1.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/E6JH1piupXtb9nCB6",
+          "image": "https://tzo-blato.hr/images/stories/povijesna_bastina/zupna_crkva/1.jpg",
           "summary": "Kościół Wszystkich Świętych w Blato na Korčuli z XII w., cenny zabytek romańskiej Dalmacji."
         },
         {
@@ -11253,10 +11253,10 @@
           "longitude": 17.308074353422057,
           "address": "Oskorušno, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://jasniepanstwo.pl/wp-content/uploads/2023/09/kosciol-sw-Mikolaja-800x1067.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/8d5Ftsueqh2mqCam8",
+          "image": "https://jasniepanstwo.pl/wp-content/uploads/2023/09/kosciol-sw-Mikolaja-800x1067.jpg",
           "summary": "Romański kościół św. Mikołaja z XI/XII w. w Oskoruśno na Korčuli, jeden z najstarszych na wyspie."
         },
         {
@@ -11360,10 +11360,10 @@
           "longitude": 11.12707924169801,
           "address": "Piazzetta Niccolò Rasmo, 64, 38122 Trento TN, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "http://www.buonconsiglio.it/",
-          "image": "https://www.cultura.trentino.it/var/001/storage/images/media/images/castello-del-buonconsiglio/16382371-1-ita-IT/Castello-del-Buonconsiglio_imagefullwide.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/3eVXpnEL1eqrfN8y5",
+          "image": "https://www.cultura.trentino.it/var/001/storage/images/media/images/castello-del-buonconsiglio/16382371-1-ita-IT/Castello-del-Buonconsiglio_imagefullwide.jpg",
           "summary": "Zamek Buonconsiglio z XIV w. w Trydencie, dawna rezydencja biskupów — dziś muzeum z kolekcją sztuki."
         },
         {
@@ -11442,10 +11442,10 @@
           "longitude": 10.840053337623585,
           "address": "Riva del Garda, Autonomous Province of Trento, Italy",
           "country": "Włochy",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "http://www.museoaltogarda.it/",
-          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/a4/1f/48/torre-apponale.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/R6ogC95U1dghqxjv7",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/a4/1f/48/torre-apponale.jpg",
           "summary": "Wieża Apponale z XIII w. w Riva del Garda z tarasem widokowym na północny skraj Jeziora Garda."
         },
         {
@@ -11922,10 +11922,10 @@
           "longitude": 8.418558126282761,
           "address": "8F59PM4X+P8",
           "country": "Tunezja",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "image": "https://s12.flog.pl/media/foto/8929176_-wielki-szott-chott-el-jerid-to-slone-bezodplywowe-jezioro-znajdujace-sie-w-srodkowozachodniej-tunezji.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/Fo5CQc6xgGZYyebD8",
+          "image": "https://s12.flog.pl/media/foto/8929176_-wielki-szott-chott-el-jerid-to-slone-bezodplywowe-jezioro-znajdujace-sie-w-srodkowozachodniej-tunezji.jpg",
           "summary": "Chott el Djerid w Tunezji — największe słone jezioro Afryki z mirażami i halitowymi kryształami."
         },
         {
@@ -11964,10 +11964,10 @@
           "longitude": 8.146921386579045,
           "address": "Tozeur, Tunisia",
           "country": "Tunezja",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "http://www.eden-palm.com/",
-          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/fb/dd/99/eden-palm-tresors-de.jpg?w=1200&h=-1&s=1",
           "GoogleMapsLink": "https://maps.app.goo.gl/XQwMfQHub73f6oGr6",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/fb/dd/99/eden-palm-tresors-de.jpg?w=1200&h=-1&s=1",
           "summary": "Ogród palmowy w oazie Tozeur z tropikalną roślinnością i tradycyjną architekturą arabską."
         },
         {
@@ -12032,10 +12032,10 @@
           "longitude": 10.276852205557102,
           "address": "Chenini, Tunisia",
           "country": "Tunezja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Chenini_2021.jpg/1200px-Chenini_2021.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/uG5qXqg8Hrreq87s6",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Chenini_2021.jpg/1200px-Chenini_2021.jpg",
           "summary": "Starożytna berberyjska wioska Chenini osadzona na skalistym zboczu w górach południowej Tunezji."
         },
         {
@@ -12046,10 +12046,10 @@
           "longitude": 10.342709281490386,
           "address": "Ksar El Ferech, Tunisia",
           "country": "Tunezja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Ksar_el-ferch-stegop-14.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/cgASEP4qpKEPUPvX6",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Ksar_el-ferch-stegop-14.jpg",
           "summary": "Stary berberyjski ksar (warowny spichlerz) w południowej Tunezji, przykład unikalnej architektury saharyskiej."
         },
         {
@@ -12442,10 +12442,10 @@
           "longitude": 23.981740833390568,
           "address": "Senoji g. 1, 57247 Kėdainiai, Lithuania",
           "country": "Litwa",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://kurierwilenski.lt/wp-content/uploads/2024/09/kiejdany-2024-09-07-1.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/LPeGNqLLWumBVV3FA",
+          "image": "https://kurierwilenski.lt/wp-content/uploads/2024/09/kiejdany-2024-09-07-1.jpg",
           "summary": "Pomnik-szkatuła poświęcony rodowi Radziwiłłów, upamiętniający dzieje potężnej polsko-litewskiej rodziny."
         },
         {
@@ -12774,7 +12774,7 @@
           "longitude": 25.28951288640458,
           "address": "Bazilijonų g. 6B, 01303 Vilnius, Lithuania",
           "country": "Litwa",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/pbrphJsCszsMnTWX7",
           "image": "/images/gate-of-dawn.jpg",
@@ -12788,7 +12788,7 @@
           "longitude": 25.287664459912985,
           "address": "Gedimino prospektas 2/1-28, 01103 Vilnius, Lithuania",
           "country": "Litwa",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/G2Xu68GaQDisSwiG6",
           "image": "/images/vilnius-cathedral.jpg",
@@ -12816,7 +12816,7 @@
           "longitude": 25.28600448284102,
           "address": "Presidential Park, Liejyklos g. 10, 01122 Vilnius, Lithuania",
           "country": "Litwa",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/eBYtrg5EbvV9m3sc9",
           "image": "/images/office-of-the-president-of-the-republic-of-lithuania.jpg",
@@ -12830,7 +12830,7 @@
           "longitude": 25.28763329191612,
           "address": "Prezidentūra, Universiteto g., 01122 Vilnius, Lithuania",
           "country": "Litwa",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/6q7FCFmHMkrVLpZw9",
           "image": "/images/vilnius-university.jpg",
