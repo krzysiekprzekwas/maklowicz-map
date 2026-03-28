@@ -122,8 +122,11 @@ export function LocationDetails({
 
       {/* Address */}
       <section className="mb-4">
-        <h3 className="font-semibold text-neutral-1000 text-sm mb-1.5">Adres</h3>
-        <p className="text-sm text-neutral-500 leading-relaxed">{location.address}</p>
+        <h3 className="flex items-center gap-2 font-semibold text-neutral-1000 text-sm mb-1.5">
+          <img src="/icons/pin.svg" alt="" className="h-5 w-5" />
+          Adres
+        </h3>
+        <p className="text-sm text-neutral-900 leading-relaxed">{location.address}</p>
         {location.GoogleMapsLink && (
           <a
             href={location.GoogleMapsLink}
@@ -132,7 +135,7 @@ export function LocationDetails({
             className="inline-block mt-2 text-sm text-accent-blue font-semibold underline underline-offset-2 hover:text-accent-blue/80"
             onClick={() => trackOutboundLink('google_maps', location.name)}
           >
-            Znajdź lokalizację na Google Maps
+            Zobacz lokalizację na Google Maps
           </a>
         )}
       </section>
@@ -142,7 +145,10 @@ export function LocationDetails({
         <>
           <hr className="border-neutral-200 mb-4" />
           <section className="mb-4">
-            <h3 className="font-semibold text-neutral-1000 text-sm mb-1.5">Miejsce z odcinka</h3>
+            <h3 className="flex items-center gap-2 font-semibold text-neutral-1000 text-sm mb-1.5">
+              <img src="/icons/youtube.svg" alt="" className="h-5 w-5" />
+              Miejsce z odcinka
+            </h3>
             <a
               href={video.videoUrl}
               target="_blank"
