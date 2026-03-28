@@ -9789,10 +9789,10 @@
           "longitude": -90.3546839,
           "address": "San Isidro Miramar, Yuc., Mexico",
           "country": "Meksyk",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "image": "https://www.turismomexico.es/wp-content/uploads/2021/02/Celestun_mexico.jpeg",
           "GoogleMapsLink": "https://maps.app.goo.gl/JHKhbeMXvui1Dfn68",
+          "image": "https://www.turismomexico.es/wp-content/uploads/2021/02/Celestun_mexico.jpeg",
           "summary": "Rezerwat biosfery Ría Celestún na Jukatanie z tysiącami różowych flamingów w namorzynowych lagunach."
         },
         {
@@ -9857,10 +9857,10 @@
           "longitude": -88.23006637258452,
           "address": "Valladolid, Yucatan, Mexico",
           "country": "Meksyk",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/75/b1/0b/belleza-del-estado.jpg?w=1200&h=-1&s=1",
           "GoogleMapsLink": "https://maps.app.goo.gl/UNzCAKBJCGb2tCEL9",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/75/b1/0b/belleza-del-estado.jpg?w=1200&h=-1&s=1",
           "summary": "Cenote San Lorenzo Oxman koło Valladolid ze słynną liną do huśtania i turkusową wodą w skalnej studni."
         },
         {
@@ -9953,10 +9953,10 @@
           "longitude": -88.20194340752678,
           "address": "C. 41 16, Centro, 97780 Valladolid, Yuc., Mexico",
           "country": "Meksyk",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/3e/a3/33/catedral-de-san-servasio.jpg?w=900&h=500&s=1",
           "GoogleMapsLink": "https://maps.app.goo.gl/j69FKCZRcZk1FEU59",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/3e/a3/33/catedral-de-san-servasio.jpg?w=900&h=500&s=1",
           "summary": "Barokowy kościół San Servacio z XVII w. na głównym placu Valladolid, przebudowany po powstaniu Majów."
         },
         {
@@ -9995,10 +9995,10 @@
           "longitude": -88.20091058747522,
           "address": "C. 44 201C, Centro, 97780 Centro, Yuc., Mexico",
           "country": "Meksyk",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "http://www.casadelosvenados.com/",
-          "image": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/245000/245768-Valladolid.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/1xKwb5mg5s5Wqc8i6",
+          "image": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/245000/245768-Valladolid.jpg",
           "summary": "Prywatne muzeum sztuki ludowej w Valladolid z kolekcją ponad 3000 eksponatów meksykańskiej sztuki ludowej."
         },
         {
@@ -10023,10 +10023,10 @@
           "longitude": -88.19534469558444,
           "address": "97780, Sta Ana, 97780 Valladolid, Yuc., Mexico",
           "country": "Meksyk",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Mercado_de_Valladolid%2C_Yucatán%2C_Mx._-_panoramio.jpg/1280px-Mercado_de_Valladolid%2C_Yucatán%2C_Mx._-_panoramio.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/JnWtNY5zcYe2gtm7A",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Mercado_de_Valladolid%2C_Yucatán%2C_Mx._-_panoramio.jpg/1280px-Mercado_de_Valladolid%2C_Yucatán%2C_Mx._-_panoramio.jpg",
           "summary": "Targ miejski w Valladolid z lokalnymi potrawami, przyprawami i produktami tradycyjnymi Jukatanu."
         },
         {
@@ -10077,10 +10077,10 @@
           "longitude": -87.72280672839337,
           "address": "Quintana Roo Nuevo Durango - Coba 175, 77793 Cobá, Q.R., Mexico",
           "country": "Meksyk",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "",
-          "image": "https://lugares.inah.gob.mx/sites/default/files/styles/max_1300x1300/public/2023-10/portada_macanxoc.jpeg?itok=c8hiqHi1",
           "GoogleMapsLink": "https://maps.app.goo.gl/YtKD9AMfiPTR8zrc7",
+          "image": "https://lugares.inah.gob.mx/sites/default/files/styles/max_1300x1300/public/2023-10/portada_macanxoc.jpeg?itok=c8hiqHi1",
           "summary": "Starożytna grupa budowli Majów Macanxoc w Cobá z stelami i rzeźbami z okresu klasycznego."
         },
         {
@@ -10091,10 +10091,10 @@
           "longitude": -87.75689262902586,
           "address": "Nueva Unión, Q.R., Mexico",
           "country": "Meksyk",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "https://sites.google.com/view/ahau-chooc-aldea-maya/p%C3%A1gina-principal",
-          "image": "https://img.lajornadamaya.mx/710241634268660Facebook%20Ahau%20Chooc%20Aldea%20Maya%20(2).jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/AQemQcDifX47fg6B7",
+          "image": "https://img.lajornadamaya.mx/710241634268660Facebook%20Ahau%20Chooc%20Aldea%20Maya%20(2).jpg",
           "summary": "Wioska majańska Ahau Chooc prezentująca tradycyjny styl życia, rzemiosło i kuchnię cywilizacji Majów."
         },
         {
@@ -10131,10 +10131,10 @@
           "longitude": -87.42942908048862,
           "address": "Tulum, Quintana Roo, Mexico",
           "country": "Meksyk",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "https://www.inah.gob.mx/zonas/99-zona-arqueologica-de-tulum",
-          "image": "https://www.encirclephotos.com/wp-content/uploads/Mexico-Tulum-Mayan-Ruins-El-Castillo-Full-View-1440x954.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/rpkRCgNh6SBdapuk6",
+          "image": "https://www.encirclephotos.com/wp-content/uploads/Mexico-Tulum-Mayan-Ruins-El-Castillo-Full-View-1440x954.jpg",
           "summary": "Ruiny Majów w Tulum na klifie nad Morzem Karaibskim — jedno z najsłynniejszych stanowisk Meksyku."
         },
         {
@@ -10159,10 +10159,10 @@
           "longitude": -87.42185958883238,
           "address": "Tulum, Quintana Roo, Mexico",
           "country": "Meksyk",
-          "type": "tourist_attraction",
+          "type": "nature",
           "websiteUrl": "",
-          "image": "https://info.inmobilia.mx/hubfs/blog/2020/Mayo%202020/gran-arrecife-maya.png",
           "GoogleMapsLink": "https://maps.app.goo.gl/vhjURdbUSKJ95rWz7",
+          "image": "https://info.inmobilia.mx/hubfs/blog/2020/Mayo%202020/gran-arrecife-maya.png",
           "summary": "Rafa koralowa u wybrzeży Tulum, idealna do snorkelingu w wodach Morza Karaibskiego."
         },
         {
