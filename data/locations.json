@@ -9691,10 +9691,10 @@
           "longitude": -89.62405373172071,
           "address": "C. 63 506j, Centro, 97000 Mérida, Yuc., Mexico",
           "country": "Meksyk",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "https://fomentoculturalbanamex.org/casasdeculturabanamex/museocasamontejo/",
-          "image": "https://sic.gob.mx/galeria_imagen/67dc73c0cf55ccasamontejo.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/Y7SfxfGk1or29AyGA",
+          "image": "https://sic.gob.mx/galeria_imagen/67dc73c0cf55ccasamontejo.jpg",
           "summary": "Renesansowy dom konkwistadora z 1549 roku w Mérydzie z piękną fasadą platereską — dziś muzeum."
         },
         {
@@ -9705,10 +9705,10 @@
           "longitude": -89.6228570547625,
           "address": "C. 62 503 C, Centro, 97000 Mérida, Yuc., Mexico",
           "country": "Meksyk",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "http://catedraldemerida.org.mx/",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Catedral_de_San_Ildefonso_1.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/JFiw6gXEoD5jwkQ66",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Catedral_de_San_Ildefonso_1.jpg",
           "summary": "Katedra San Ildefonso w Mérydzie z 1598 roku, jedna z najstarszych katedr w Ameryce Północnej."
         },
         {
@@ -9733,10 +9733,10 @@
           "longitude": -89.6206393146081,
           "address": "C. 69 483, Centro, 97000 Mérida, Yuc., Mexico",
           "country": "Meksyk",
-          "type": "tourist_attraction",
+          "type": "shopping",
           "websiteUrl": "",
-          "image": "https://icdn.descubro.mx/uploads/2019/09/mercados-de-Merida.jpg?strip=all&lossy=1&ssl=1",
           "GoogleMapsLink": "https://maps.app.goo.gl/jyo2ddQaaKXxjP2z6",
+          "image": "https://icdn.descubro.mx/uploads/2019/09/mercados-de-Merida.jpg?strip=all&lossy=1&ssl=1",
           "summary": "Tradycyjny targ w Mérydzie z lokalnymi produktami, przyprawami i kuchnią jukatańską."
         },
         {
@@ -9761,10 +9761,10 @@
           "longitude": -89.30011716803435,
           "address": "Nunkiní, Camp., Mexico",
           "country": "Meksyk",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "",
-          "image": "https://www.locogringo.com/sites/default/files/uploads/cp-akeruins_1.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/KggczE5Ry9sX8CJS8",
+          "image": "https://www.locogringo.com/sites/default/files/uploads/cp-akeruins_1.jpg",
           "summary": "Stanowisko archeologiczne Ake na Jukatanie z piramidami i kolumnadą Majów z okresu klasycznego."
         },
         {
@@ -12456,7 +12456,7 @@
           "longitude": 23.980247827137518,
           "address": "Senoji g. 4, 57255 Kėdainiai, Lithuania",
           "country": "Litwa",
-          "type": "tourist_attraction",
+          "type": "museum",
           "websiteUrl": "",
           "image": "https://lh3.googleusercontent.com/p/AF1QipPbvazULSH3B1SpNrH-xx9gogCMq9T4eKe0pi-e=s1360-w1360-h1020",
           "GoogleMapsLink": "https://maps.app.goo.gl/1SqkPqVMN7rV6FWL9",
@@ -13158,7 +13158,7 @@
           "longitude": 13.632782387765271,
           "address": "Kidričeva cesta 7, 5213 Kanal, Slovenia",
           "country": "Słowenia",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/b2v2QwrE3miN8pDg6",
           "image": "/images/most-kanal.jpg",
@@ -14168,10 +14168,10 @@
           "longitude": 19.041071179772352,
           "address": "Listopadowa 21, 43-300 Bielsko-Biała, Poland",
           "country": "Polska",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://bik.luteranie.pl/wp-content/uploads/2025/09/pomnik-marcina-lutra-w-bielsku-1024x683.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/8VxteYXBunkX4ivZ8",
+          "image": "https://bik.luteranie.pl/wp-content/uploads/2025/09/pomnik-marcina-lutra-w-bielsku-1024x683.jpg",
           "summary": "Pomnik Marcina Lutra w Bielsku-Białej, upamiętniający rolę reformatora i historię lutheranizmu na Śląsku."
         },
         {
@@ -15328,7 +15328,7 @@
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/SfNjZmHMNadmPHP36",
           "image": "/images/cevabdzinica-zeljo.jpg",
-          "summary": "Kultowa ćevabdžinica Željo na Baščaršiji w budynku z 1896 roku — legenda sarajewskiej kuchni."
+          "summary": "Kultowa restauracja na Baščaršiji w historycznym budynku z 1896 roku, legenda sarajewskiej kuchni."
         },
         {
           "id": "butik-badem",
@@ -19088,16 +19088,16 @@
         },
         {
           "id": "korcula-town-gate",
-          "name": "Korcula Town Gate",
+          "name": "Brama Miejska Korcula",
           "description": "Oto Korčulańska Brama Miejska, wzniesiona dumnie w 1648 roku, niczym potężny strażnik, który przez wieki czuwał nad skarbami miasta i jego smakami. Przechodząc przez nią, człowiek od razu czuje, że wkracza w świat, gdzie czas płynie wolniej, a w powietrzu unosi się obietnica wyśmienitych dań i niezapomnianych opowieści.",
           "latitude": 42.960805590991725,
           "longitude": 17.135723560032726,
           "address": "Pod Fortecom 1, 20260, Korčula, Croatia",
           "country": "Chorwacja",
-          "type": "tourist_attraction",
+          "type": "art_culture",
           "websiteUrl": "",
-          "image": "https://www.seascapekorcula.eu/wp-content/uploads/2019/11/The-Revelin-Tower-Korcula.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/yZk7yPbdGxPtRzt17",
+          "image": "https://www.seascapekorcula.eu/wp-content/uploads/2019/11/The-Revelin-Tower-Korcula.jpg",
           "summary": "Renesansowa brama miejska z 1648 r. prowadząca do ufortyfikowanego historycznego centrum Korčuli."
         },
         {

@@ -76,6 +76,7 @@ export function sanitizeLocationInput(input: Partial<Location>): Location {
     websiteUrl: `${input.websiteUrl ?? ''}`.trim(),
     GoogleMapsLink: `${input.GoogleMapsLink ?? ''}`.trim(),
     image: `${input.image ?? ''}`.trim(),
+    ...(input.summary !== undefined ? { summary: `${input.summary}`.trim() } : {}),
   };
 }
 
