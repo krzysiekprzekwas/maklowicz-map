@@ -33,7 +33,7 @@ module.exports = {
 
         // Primary
         primary: {
-          DEFAULT: '#001A5C',
+          DEFAULT: '#00071A',
         },
 
         // Background

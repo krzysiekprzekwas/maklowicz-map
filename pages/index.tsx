@@ -155,7 +155,7 @@ export default function LandingPage() {
         <h2 className="text-2xl md:text-3xl font-bold text-neutral-0 mb-3">Napisz do mnie</h2>
         <p className="text-neutral-0/80 text-base md:text-lg">przekwaskrzysiek@gmail.com</p>
       </motion.a>
-      <div className="w-full overflow-hidden mt-6">
+      <div className="w-full overflow-hidden">
         <img
           src="/footer_pins.svg"
           alt=""
