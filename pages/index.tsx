@@ -41,7 +41,7 @@ export default function LandingPage() {
   return (
     <main className="flex-1 flex flex-col bg-bg-primary">
       {/* Hero */}
-      <section className="relative z-10 px-4 pt-8 md:pt-16 md:pb-10 max-w-3xl mx-auto w-full">
+      <section className="relative z-10 px-4 pt-8 md:pt-16 md:pb-8 max-w-3xl mx-auto w-full">
         <motion.h1
           {...fadeUp(0)}
           className="font-heading text-2xl md:text-4xl text-primary leading-[120%] mb-6 text-center px-4 md:px-8"
