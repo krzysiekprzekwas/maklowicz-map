@@ -89,8 +89,9 @@
   }
 
   .selectedHighlight::after {
-    background-color: #00071A;
+    background-color: #FFFFFF;
     border-color: #00071A;
+    border-width: 0px 3px 3px 0px;
   }
 
 .filteredOut {

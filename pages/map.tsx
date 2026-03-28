@@ -125,9 +125,6 @@ export default function Home() {
     const target = allLocations.find((l) => l.id === placeIdParam);
     if (!target) return;
     setSelectedLocation(target);
-    if (selectedCountry !== target.country) {
-      setSelectedCountry(target.country);
-    }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [router.isReady, router.query.placeId, allLocations]);
 

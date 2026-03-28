@@ -111,7 +111,7 @@ export function LocationDetails({
       {onShowOnMap && (
         <button
           onClick={onShowOnMap}
-          className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-full text-sm font-medium border border-neutral-300 text-neutral-500 bg-neutral-0 hover:bg-bg-primary transition-colors mb-5"
+          className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-full text-sm font-medium border border-neutral-300 text-neutral-1000 bg-neutral-0 hover:bg-bg-primary transition-colors mb-5"
         >
           <MapPin className="h-4 w-4" />
           Zobacz na mapie

@@ -96,7 +96,7 @@ export default function CountryMiniMap({ locations, country }: Props) {
         className="absolute inset-x-0 bottom-0 h-24 flex items-end justify-center pb-4 bg-gradient-to-t from-black/50 to-transparent"
         style={{ zIndex: 1000 }}
       >
-        <span className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-primary text-white font-semibold text-sm shadow-lg group-hover:bg-primary/90 transition-colors">
+        <span className="inline-flex items-center gap-2.5 px-8 py-4 rounded-full bg-neutral-1000 text-neutral-0 font-semibold text-base hover:bg-neutral-1000/90 transition-colors">
           <MapIcon className="w-4 h-4" />
           Odkryj wszystkie miejsca na mapie
         </span>
