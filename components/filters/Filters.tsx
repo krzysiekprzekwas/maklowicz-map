@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Sheet } from 'react-modal-sheet';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, SlidersHorizontal, Search, MapPin, Loader2, Check } from 'lucide-react';
+import { X, Search, MapPin, Loader2, Check } from 'lucide-react';
 import { LOCATION_TYPES } from '../../src/lib/locationTypeMeta';
 
 interface FiltersProps {
@@ -160,7 +160,7 @@ export function Filters({
       className="relative rounded-full w-10 h-10 flex-shrink-0 flex items-center justify-center bg-neutral-200 text-neutral-900"
       aria-label="Filtry"
     >
-      <SlidersHorizontal className="h-5 w-5" />
+      <img src="/icons/filters.svg" alt="" className="h-6 w-6" />
       {selectedLocationTypes.length > 0 && (
         <span className="absolute -top-1 -right-1 w-5 h-5 rounded-full bg-neutral-1000 text-neutral-0 text-[10px] font-bold flex items-center justify-center">
           {selectedLocationTypes.length}
@@ -175,7 +175,7 @@ export function Filters({
       className="flex items-center gap-2 rounded-full bg-neutral-200 px-4 py-2.5 text-sm text-neutral-1000 font-medium whitespace-nowrap"
       aria-label="Filtry"
     >
-      <SlidersHorizontal className="h-4 w-4" />
+      <img src="/icons/filters.svg" alt="" className="h-5 w-5" />
       <span>Filtry</span>
       {selectedLocationTypes.length > 0 && (
         <span className="w-5 h-5 rounded-full bg-neutral-1000 text-neutral-0 text-[10px] font-bold flex items-center justify-center">

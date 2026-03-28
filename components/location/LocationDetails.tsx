@@ -129,7 +129,7 @@ export function LocationDetails({
             href={location.GoogleMapsLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block mt-2 text-sm text-neutral-500 underline underline-offset-2 hover:text-neutral-900"
+            className="inline-block mt-2 text-sm text-accent-blue font-semibold underline underline-offset-2 hover:text-accent-blue/80"
             onClick={() => trackOutboundLink('google_maps', location.name)}
           >
             Znajdź lokalizację na Google Maps
@@ -147,7 +147,7 @@ export function LocationDetails({
               href={video.videoUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm text-neutral-500 underline underline-offset-2 hover:text-neutral-900"
+              className="text-sm text-accent-blue font-semibold underline underline-offset-2 hover:text-accent-blue/80"
               onClick={() => trackOutboundLink('youtube', location.name)}
             >
               {video.filterTitle}

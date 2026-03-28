@@ -124,10 +124,10 @@ export default function LandingPage() {
             </motion.h2>
             <motion.div {...fadeUp(0.1)} className="space-y-4 text-neutral-500 leading-relaxed">
               <p>
-                Programy <a href="https://www.maklowicz.pl/" target="_blank" rel="noopener noreferrer" className="text-primary font-medium underline underline-offset-2 decoration-primary/30 hover:decoration-primary transition-colors">Roberta Makłowicza</a> towarzyszą mi od dziecka. Weekendowe wyprawy przed telewizorem były małym rytuałem, który zaszczepił we mnie ciekawość świata, ludzi i historii.
+                Programy <a href="https://www.maklowicz.pl/" target="_blank" rel="noopener noreferrer" className="text-accent-blue font-semibold underline underline-offset-2 decoration-accent-blue/30 hover:decoration-accent-blue transition-colors">Roberta Makłowicza</a> towarzyszą mi od dziecka. Weekendowe wyprawy przed telewizorem były małym rytuałem, który zaszczepił we mnie ciekawość świata, ludzi i historii.
               </p>
               <p>
-                Kiedy Robert wrócił z <a href="https://www.youtube.com/@Robert_Maklowicz" target="_blank" rel="noopener noreferrer" className="text-primary font-medium underline underline-offset-2 decoration-primary/30 hover:decoration-primary transition-colors">kanałem na YouTube</a>, poczułem to samo co kiedyś. Jakbym znowu jechał z nim w podróż.
+                Kiedy Robert wrócił z <a href="https://www.youtube.com/@Robert_Maklowicz" target="_blank" rel="noopener noreferrer" className="text-accent-blue font-semibold underline underline-offset-2 decoration-accent-blue/30 hover:decoration-accent-blue transition-colors">kanałem na YouTube</a>, poczułem to samo co kiedyś. Jakbym znowu jechał z nim w podróż.
               </p>
               <blockquote className="border-l-2 border-primary/30 pl-4 italic">
                 Chciałbym kiedyś odwiedzić te miejsca. I zobaczyć je na własne oczy.
@@ -139,7 +139,7 @@ export default function LandingPage() {
                 Dla wszystkich, którzy chcą podążać jego śladami.
               </p>
               <p className="mt-2 text-right">
-                — <a href="https://kristof.pro" target="_blank" rel="noopener noreferrer" className="text-primary font-medium underline underline-offset-2 decoration-primary/30 hover:decoration-primary transition-colors">Krzysiek</a>
+                — <a href="https://kristof.pro" target="_blank" rel="noopener noreferrer" className="text-accent-blue font-semibold underline underline-offset-2 decoration-accent-blue/30 hover:decoration-accent-blue transition-colors">Krzysiek</a>
               </p>
             </motion.div>
           </div>

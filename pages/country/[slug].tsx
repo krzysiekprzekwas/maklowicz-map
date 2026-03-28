@@ -139,7 +139,7 @@ export default function CountryPage({ country, locations, videos }: Props) {
             {videos.length > VIDEO_PREVIEW_COUNT && (
               <p className="text-sm text-gray-500 mt-3 text-center">
                 + {videos.length - VIDEO_PREVIEW_COUNT} więcej odcinków —{' '}
-                <a href={`/map?country=${encodeURIComponent(country)}`} className="text-primary font-medium underline underline-offset-2">
+                <a href={`/map?country=${encodeURIComponent(country)}`} className="text-accent-blue font-semibold underline underline-offset-2">
                   filtruj na mapie
                 </a>
               </p>
