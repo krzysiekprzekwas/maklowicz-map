@@ -96,7 +96,7 @@ export default function LandingPage() {
             <motion.div {...fadeUp(0.2)}>
               <Link
                 href="/map"
-                className="inline-flex items-center gap-2.5 px-8 py-4 rounded-full bg-neutral-1000 text-neutral-0 font-semibold hover:bg-neutral-1000/90 transition-colors text-base"
+                className="inline-flex items-center gap-2.5 px-8 py-4 rounded-full bg-neutral-1000 text-neutral-0 font-semibold hover:bg-accent-blue transition-colors text-base"
               >
                 <Map className="w-4 h-4" />
                 Szukaj na mapie

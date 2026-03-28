@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { X } from 'lucide-react';
 import { Location } from '../../types/Location';
 import { TYPE_META } from '../../src/lib/locationTypeMeta';
 
@@ -66,7 +65,7 @@ export function LocationPreview({
             className="absolute top-4 right-4 w-[42px] h-[42px] flex items-center justify-center rounded-full bg-neutral-0/80 hover:bg-neutral-0 transition-colors shadow-sm"
             aria-label="Zamknij"
           >
-            <X className="h-5 w-5 text-neutral-500" />
+            <img src="/icons/close.svg" alt="" className="h-6 w-6" />
           </button>
         </div>
       )}

@@ -120,7 +120,7 @@ export default function CountryPage({ country, locations, videos }: Props) {
             <span className="text-primary font-semibold">
               ...i jeszcze <strong>{remaining}</strong> miejsc w {countryLoc}
             </span>
-            <span className="inline-flex items-center gap-2.5 px-8 py-4 rounded-full bg-neutral-1000 text-neutral-0 font-semibold text-base hover:bg-neutral-1000/90 transition-colors whitespace-nowrap flex-shrink-0">
+            <span className="inline-flex items-center gap-2.5 px-8 py-4 rounded-full bg-neutral-1000 text-neutral-0 font-semibold text-base hover:bg-accent-blue transition-colors whitespace-nowrap flex-shrink-0">
               <MapIcon className="w-4 h-4" />
               Otwórz mapę
             </span>

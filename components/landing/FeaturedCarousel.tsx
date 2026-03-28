@@ -131,7 +131,7 @@ export function FeaturedCarousel({ locations }: FeaturedCarouselProps) {
           <button
             onClick={() => emblaApi?.scrollPrev()}
             disabled={!canScrollPrev}
-            className="w-10 h-10 rounded-full flex items-center justify-center transition-colors disabled:bg-neutral-200 disabled:text-neutral-300 bg-neutral-1000 text-neutral-0 hover:bg-neutral-1000/80"
+            className="w-10 h-10 rounded-full flex items-center justify-center transition-colors disabled:bg-neutral-200 disabled:text-neutral-300 bg-neutral-1000 text-neutral-0 hover:bg-accent-blue transition-colors"
             aria-label="Poprzedni"
           >
             <ChevronLeft className="w-5 h-5" />
@@ -139,7 +139,7 @@ export function FeaturedCarousel({ locations }: FeaturedCarouselProps) {
           <button
             onClick={() => emblaApi?.scrollNext()}
             disabled={!canScrollNext}
-            className="w-10 h-10 rounded-full flex items-center justify-center transition-colors disabled:bg-neutral-200 disabled:text-neutral-300 bg-neutral-1000 text-neutral-0 hover:bg-neutral-1000/80"
+            className="w-10 h-10 rounded-full flex items-center justify-center transition-colors disabled:bg-neutral-200 disabled:text-neutral-300 bg-neutral-1000 text-neutral-0 hover:bg-accent-blue transition-colors"
             aria-label="Następny"
           >
             <ChevronRight className="w-5 h-5" />
