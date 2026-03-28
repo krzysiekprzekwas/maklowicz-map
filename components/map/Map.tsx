@@ -229,8 +229,7 @@ const Map: React.FC<MapProps> = React.memo(({
             if (zoom <= 9)  return Math.round(55 * m);
             if (zoom <= 11) return Math.round(40 * m);
             if (zoom <= 13) return Math.round(25 * m);
-            if (zoom <= 15) return Math.round(15 * m);
-            return Math.round(10 * m);
+            return 0;
         };
     }, [isMobile]);
 
