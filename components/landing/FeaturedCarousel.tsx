@@ -84,7 +84,7 @@ export function FeaturedCarousel({ locations }: FeaturedCarouselProps) {
               <div
                 key={loc.id}
                 className={`flex-[0_0_75%] min-w-0 md:flex-[0_0_320px] pl-4 last:pr-4${
-                  i === 0 ? ' md:pl-24' : ''
+                  i === 0 ? ' md:ml-24' : ''
                 }`}
               >
                 <LocationCard location={loc} />
