@@ -12,7 +12,7 @@ const ICON_PATHS: Record<string, string> = {
   museum:             '/icons/museum.svg',
   shopping:           '/icons/shopping.svg',
   hotel:              '/icons/hotel.svg',
-  tourist_attraction: '/icons/tourist attraction.svg',
+  tourist_attraction: '/icons/tourist-attraction.svg',
 };
 
 function createIconComponent(src: string): ComponentType<IconProps> {

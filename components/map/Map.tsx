@@ -242,7 +242,7 @@ const Map: React.FC<MapProps> = React.memo(({
     }), []);
 
     return (
-        <div className="w-full h-full relative bg-secondary">
+        <div className="w-full h-full relative bg-bg-primary">
             <MapContainer
                 zoom={4}
                 style={{ height: '100%', width: '100%', background: '#f8f5f0' }}

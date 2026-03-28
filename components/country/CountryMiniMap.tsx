@@ -65,7 +65,7 @@ export default function CountryMiniMap({ locations, country }: Props) {
   return (
     <a
       href={`/map?country=${encodeURIComponent(country)}`}
-      className="block relative rounded-2xl overflow-hidden border border-secondary-border group"
+      className="block relative rounded-2xl overflow-hidden border border-neutral-200 group"
       style={{ height: 220 }}
     >
       {/* Map — pointer-events disabled so clicks pass through to the <a> */}

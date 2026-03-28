@@ -15,7 +15,7 @@ export function LocationListItem({ location, onClick, href }: LocationListItemPr
     <div className="flex">
       {/* Inset thumbnail */}
       <div className="flex-shrink-0 w-36 p-2.5">
-        <div className="w-full h-full rounded-xl overflow-hidden bg-secondary flex items-center justify-center aspect-square">
+        <div className="w-full h-full rounded-xl overflow-hidden bg-bg-primary flex items-center justify-center aspect-square">
           {location.image ? (
             <img
               src={location.image}

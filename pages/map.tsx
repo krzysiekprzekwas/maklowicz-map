@@ -16,7 +16,7 @@ import { trackLocationSelect, trackCountryFilter, trackTypeFilter, trackNearbySe
 const Map = dynamic(() => import('../components/map/Map'), {
   ssr: false,
   loading: () => (
-    <div className="w-full h-full flex items-center justify-center bg-secondary">
+    <div className="w-full h-full flex items-center justify-center bg-bg-primary">
       <div className="text-primary text-xl">Loading map...</div>
     </div>
   ),
@@ -125,6 +125,9 @@ export default function Home() {
     const target = allLocations.find((l) => l.id === placeIdParam);
     if (!target) return;
     setSelectedLocation(target);
+    if (selectedCountry !== target.country) {
+      setSelectedCountry(target.country);
+    }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [router.isReady, router.query.placeId, allLocations]);
 
@@ -152,8 +155,9 @@ export default function Home() {
     },
     onToggleFilters: () => setIsFiltersOpen(!isFiltersOpen),
     onResetFilters: () => {
+      setSelectedCountry(null);
       setSelectedLocationTypes([]);
-      setNearbyRadius(50);
+      clearUserLocation();
     },
     onRequestLocation: requestUserLocation,
     onSetNearbyRadius: setNearbyRadius,
@@ -173,7 +177,7 @@ export default function Home() {
   };
 
   return (
-    <main className="flex-1 flex flex-col bg-secondary overflow-hidden">
+    <main className="flex-1 flex flex-col bg-bg-primary overflow-hidden">
       {selectedLocation && (
         <Head>
           <title>{`${selectedLocation.name} | Śladami Roberta Makłowicza`}</title>
@@ -223,7 +227,7 @@ export default function Home() {
             onClosePreview={handleClosePreview}
             userLat={userLocation?.lat}
             userLng={userLocation?.lng}
-            leftPanelWidth={0}
+            leftPanelWidth={isMobile ? 0 : 384}
             flyToLocation={flyToLocation}
             onFlyToComplete={() => setFlyToLocation(null)}
             rightPanelWidth={isMobile ? 0 : 384}

@@ -25,9 +25,9 @@ function VideoCard({ video }: { video: Video }) {
       href={video.videoUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className="flex gap-3 rounded-2xl border border-secondary-border bg-white p-3 hover:shadow-md transition-shadow"
+      className="flex gap-3 rounded-2xl border border-neutral-200 bg-white p-3 hover:shadow-md transition-shadow"
     >
-      <div className="flex-shrink-0 w-24 h-16 rounded-lg overflow-hidden bg-secondary">
+      <div className="flex-shrink-0 w-24 h-16 rounded-lg overflow-hidden bg-bg-primary">
         <img
           src={`https://img.youtube.com/vi/${video.videoId}/mqdefault.jpg`}
           alt={video.filterTitle}
@@ -69,7 +69,7 @@ export default function CountryPage({ country, locations, videos }: Props) {
   };
 
   return (
-    <main className="flex flex-1 flex-col bg-secondary overflow-y-auto">
+    <main className="flex flex-1 flex-col bg-bg-primary overflow-y-auto">
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
