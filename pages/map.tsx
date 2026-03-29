@@ -118,19 +118,43 @@ export default function Home() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [router.isReady, router.query.nearby]);
 
+  // Restore location from URL on initial load
+  const [initialPlaceIdHandled, setInitialPlaceIdHandled] = useState(false);
   React.useEffect(() => {
-    if (!router.isReady) return;
+    if (!router.isReady || initialPlaceIdHandled) return;
     const placeIdParam = router.query.placeId;
-    if (typeof placeIdParam !== 'string' || !placeIdParam.trim()) return;
+    if (typeof placeIdParam !== 'string' || !placeIdParam.trim()) {
+      setInitialPlaceIdHandled(true);
+      return;
+    }
     const target = allLocations.find((l) => l.id === placeIdParam);
     if (!target) return;
+    setInitialPlaceIdHandled(true);
     setSelectedLocation(target);
     setFlyToLocation(target);
     if (selectedCountry !== target.country) {
       setSelectedCountry(target.country);
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [router.isReady, router.query.placeId, allLocations]);
+  }, [router.isReady, allLocations]);
+
+  // Sync placeId to URL when selectedLocation changes
+  React.useEffect(() => {
+    if (!router.isReady || !initialPlaceIdHandled) return;
+    const currentPlaceId = router.query.placeId as string | undefined;
+    const newPlaceId = selectedLocation?.id;
+
+    if (currentPlaceId === newPlaceId) return;
+
+    const query = { ...router.query };
+    if (newPlaceId) {
+      query.placeId = newPlaceId;
+    } else {
+      delete query.placeId;
+    }
+    router.replace({ pathname: router.pathname, query }, undefined, { shallow: true });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedLocation, initialPlaceIdHandled]);
 
   const listProps = {
     locations: filteredLocations,
