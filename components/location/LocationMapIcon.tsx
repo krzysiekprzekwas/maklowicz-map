@@ -1,17 +1,6 @@
 import L from 'leaflet';
 import { TYPE_META } from '../../src/lib/locationTypeMeta';
 
-const colorClassMap: Partial<Record<LocationType, keyof typeof styles>> = {
-    restaurant: 'markerFood',
-    cafe:        'markerFood',
-    art_culture: 'markerCulture',
-    museum:      'markerCulture',
-    nature:      'markerNature',
-    tourist_attraction: 'markerExplore',
-    hotel:    'markerExplore',
-    shopping: 'markerExplore',
-};
-
 import styles from './LocationMapIcon.module.css';
 import { LocationType } from '../../types/Location';
 
@@ -27,8 +16,6 @@ const createCustomIcon = (
     if (!meta) {
         console.warn(`No icon found for type: ${type}`);
     }
-    const colorClassNameKey = colorClassMap[type] ?? 'markerExplore';
-    const colorModuleClass = styles[colorClassNameKey];
 
     const tooltipHtml = !isMobile && title
         ? `<div class="${styles.markerTooltip}">${title}</div>`
@@ -36,22 +23,20 @@ const createCustomIcon = (
 
     const iconHtml = `<div><img src="${iconSrc}" alt="" class="${styles.markerIconContent}" />${tooltipHtml}</div>`;
 
-    const baseClassName = `${styles.customMarkerIcon} ${colorModuleClass}`;
-
-    let finalClassName = baseClassName;
+    let finalClassName = styles.customMarkerIcon;
 
     if (isSelected) {
-        finalClassName = `${baseClassName} ${styles.selectedHighlight}`;
+        finalClassName = `${styles.customMarkerIcon} ${styles.selectedHighlight}`;
     } else if (isFilteredOut) {
-        finalClassName = `${baseClassName} ${styles.filteredOut}`;
+        finalClassName = `${styles.customMarkerIcon} ${styles.filteredOut}`;
     }
 
     const options: L.DivIconOptions = {
-        className: `${finalClassName}`,
+        className: finalClassName,
         html: iconHtml,
-        iconSize: [34, 34],
-        iconAnchor: [17, 46],
-        popupAnchor: [0, -50],
+        iconSize: [40, 45],
+        iconAnchor: [20, 45],
+        popupAnchor: [0, -45],
     };
 
   return L.divIcon(options);

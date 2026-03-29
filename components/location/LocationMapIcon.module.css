@@ -2,11 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #E1DEE2;
-    border: 2px solid #685F6D;
+    width: 40px;
+    height: 45px;
+    background-image: url('/icons/pin_normal.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
     box-shadow: none;
     transition: all 0.2s ease-in-out;
   }
@@ -14,7 +16,6 @@
   /* Disable transitions on mobile for better performance */
   @media (max-width: 767px) {
     .customMarkerIcon,
-    .customMarkerIcon::after,
     .customMarkerIcon::before {
       transition: none !important;
     }
@@ -23,31 +24,17 @@
   .markerIconContent {
       position: relative;
       z-index: 1;
-      width: 1.1rem;
-      height: 1.1rem;
+      width: 26px;
+      height: 26px;
       color: #00071A;
-  }
-
-  /* --- Pointer Triangle (rotated square with border) --- */
-  .customMarkerIcon::after {
-    content: '';
-    position: absolute;
-    bottom: -6px;
-    left: 50%;
-    transform: translateX(-50%) rotate(45deg);
-    width: 12px;
-    height: 12px;
-    background-color: #E1DEE2;
-    border-right: 2px solid #685F6D;
-    border-bottom: 2px solid #685F6D;
-    transition: all 0.2s ease-in-out;
+      margin-bottom: 6px;
   }
 
   /* --- Oval shadow beneath pin --- */
   .customMarkerIcon::before {
     content: '';
     position: absolute;
-    bottom: -14px;
+    bottom: -4px;
     left: 50%;
     transform: translateX(-50%);
     width: 14px;
@@ -57,48 +44,21 @@
     filter: blur(1px);
   }
 
-  /* All type classes now share the same neutral pin color */
-  .markerFood,
-  .markerCulture,
-  .markerNature,
-  .markerExplore {
-      background-color: #E1DEE2;
-  }
-  .markerFood::after,
-  .markerCulture::after,
-  .markerNature::after,
-  .markerExplore::after {
-      background-color: #E1DEE2;
-  }
-  .markerFood .markerIconContent,
-  .markerCulture .markerIconContent,
-  .markerNature .markerIconContent,
-  .markerExplore .markerIconContent {
-      color: #00071A;
-  }
-
-
-/* --- Leaflet Global Override --- */
-  /* Note: Global styles moved to globals.css due to Next.js 16 CSS module restrictions */
-
+/* --- Selected State --- */
 .selectedHighlight {
-    background-color: #FFFFFF;
-    border: 4px solid #00071A;
+    background-image: url('/icons/pin_active.svg');
     transform: scale(1.15);
     z-index: 1000 !important;
   }
 
-  .selectedHighlight::after {
-    background-color: #FFFFFF;
-    border-color: #00071A;
-    border-width: 0px 3px 3px 0px;
+  .selectedHighlight .markerIconContent {
+    /* Icon stays dark — the active pin has a white inner circle */
   }
 
 .filteredOut {
     filter: grayscale(100%);
     opacity: 0.55;
   }
-
 
 
 /* --- Tooltip Styles --- */
