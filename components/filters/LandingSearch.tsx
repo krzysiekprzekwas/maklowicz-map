@@ -117,10 +117,11 @@ export function LandingSearch({ countries }: LandingSearchProps) {
 
         <button
           onClick={() => router.push(buildMapUrl())}
-          className="rounded-full w-10 h-10 flex-shrink-0 flex items-center justify-center bg-accent text-neutral-1000"
+          className="rounded-full flex-shrink-0 flex items-center justify-center bg-neutral-1000 text-neutral-0 md:px-6 md:py-2.5 md:text-sm md:font-semibold w-10 h-10 md:w-auto md:h-auto"
           aria-label="Szukaj na mapie"
         >
-          <Search className="h-5 w-5" />
+          <Search className="h-5 w-5 md:hidden" />
+          <span className="hidden md:inline">Szukaj na mapie</span>
         </button>
       </div>
 
