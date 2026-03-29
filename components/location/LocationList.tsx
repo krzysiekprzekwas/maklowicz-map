@@ -32,11 +32,10 @@ export function LocationList({
   onToggleLocationType,
   isNearby,
 }: LocationListProps) {
-  const isMobilePaginated = !!topPadding;
   const [currentPage, setCurrentPage] = useState(1);
   const scrollRef = useRef<HTMLDivElement>(null);
 
-  const totalPages = isMobilePaginated ? Math.max(1, Math.ceil(locations.length / ITEMS_PER_PAGE)) : 1;
+  const totalPages = Math.max(1, Math.ceil(locations.length / ITEMS_PER_PAGE));
 
   // Reset to page 1 when locations change (filters applied)
   useEffect(() => {
@@ -44,10 +43,10 @@ export function LocationList({
   }, [locations.length, selectedCountry, isNearby]);
 
   const visibleLocations = useMemo(() => {
-    if (!isMobilePaginated) return locations;
     const start = (currentPage - 1) * ITEMS_PER_PAGE;
     return locations.slice(start, start + ITEMS_PER_PAGE);
-  }, [locations, currentPage, isMobilePaginated]);
+  }, [locations, currentPage]);
+
 
   const goToPage = (page: number) => {
     setCurrentPage(page);
@@ -98,7 +97,7 @@ export function LocationList({
 
       {/* Scrollable list */}
       <div className="relative flex-1 min-h-0">
-        <div ref={scrollRef} className="h-full overflow-y-auto pt-1 pb-20">
+        <div ref={scrollRef} className="h-full overflow-y-auto pt-1 pb-20 md:pb-0">
           {locations.length === 0 ? (
             <div className="flex flex-col items-center justify-center h-64 text-neutral-300 gap-3">
               <p className="text-sm">Brak miejsc spełniających kryteria</p>
@@ -115,8 +114,8 @@ export function LocationList({
             ))
           )}
 
-          {/* Pagination — mobile only */}
-          {isMobilePaginated && totalPages > 1 && locations.length > 0 && (
+          {/* Pagination */}
+          {totalPages > 1 && locations.length > 0 && (
             <Pagination currentPage={currentPage} totalPages={totalPages} onPageChange={goToPage} />
           )}
         </div>
@@ -150,7 +149,7 @@ function Pagination({
       const show = new Set<number>();
       show.add(1);
       show.add(totalPages);
-      for (let i = Math.max(1, currentPage - 1); i <= Math.min(totalPages, currentPage + 2); i++) {
+      for (let i = Math.max(1, currentPage - 1); i <= Math.min(totalPages, currentPage + 1); i++) {
         show.add(i);
       }
       const sorted = Array.from(show).sort((a, b) => a - b);
@@ -163,11 +162,11 @@ function Pagination({
   }, [currentPage, totalPages]);
 
   return (
-    <div className="flex items-center justify-center gap-1 py-6 px-4">
+    <div className="relative z-10 flex items-center justify-center gap-1 py-6 px-4 bg-bg-primary">
       <button
         onClick={() => onPageChange(currentPage - 1)}
         disabled={currentPage === 1}
-        className="w-10 h-10 flex items-center justify-center rounded-full border border-neutral-200 text-neutral-1000 disabled:opacity-30"
+        className="w-10 h-10 flex-shrink-0 flex items-center justify-center rounded-full border border-neutral-200 text-neutral-1000 disabled:opacity-30"
         aria-label="Poprzednia strona"
       >
         <ChevronLeft className="h-5 w-5" />
@@ -183,7 +182,7 @@ function Pagination({
             <button
               key={p}
               onClick={() => onPageChange(p)}
-              className={`w-8 h-8 flex items-center justify-center rounded-full text-sm font-medium transition-colors ${
+              className={`w-8 h-8 flex-shrink-0 flex items-center justify-center rounded-full text-sm font-medium transition-colors ${
                 p === currentPage
                   ? 'bg-neutral-1000 text-neutral-0'
                   : 'text-neutral-500 hover:bg-neutral-200'
@@ -198,7 +197,7 @@ function Pagination({
       <button
         onClick={() => onPageChange(currentPage + 1)}
         disabled={currentPage === totalPages}
-        className="w-10 h-10 flex items-center justify-center rounded-full border border-neutral-200 text-neutral-1000 disabled:opacity-30"
+        className="w-10 h-10 flex-shrink-0 flex items-center justify-center rounded-full border border-neutral-200 text-neutral-1000 disabled:opacity-30"
         aria-label="Następna strona"
       >
         <ChevronRight className="h-5 w-5" />
