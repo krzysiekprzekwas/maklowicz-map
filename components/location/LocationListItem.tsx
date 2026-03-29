@@ -33,7 +33,7 @@ export function LocationListItem({ location, onClick, href }: LocationListItemPr
       <div className="flex-1 min-w-0 py-3 pr-3">
         <div className="flex items-center gap-2 mb-1">
           <span className="w-7 h-7 flex items-center justify-center rounded-full bg-accent flex-shrink-0">
-            <TypeIcon className="h-3.5 w-3.5 text-neutral-1000" />
+            <TypeIcon className="h-5 w-5 text-neutral-1000" />
           </span>
           <span className="font-semibold text-neutral-1000 text-sm line-clamp-1">
             {location.name}

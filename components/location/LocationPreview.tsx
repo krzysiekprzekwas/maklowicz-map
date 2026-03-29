@@ -74,7 +74,7 @@ export function LocationPreview({
       <div className="px-3 py-2.5">
         <div className="flex items-center gap-1.5">
           <span className="w-8 h-8 flex items-center justify-center rounded-full bg-accent flex-shrink-0">
-            <TypeIcon className="h-4 w-4 text-neutral-1000" />
+            <TypeIcon className="h-5 w-5 text-neutral-1000" />
           </span>
           <span className="font-semibold text-neutral-1000 text-sm leading-snug line-clamp-1 flex-1">
             {location.name}
