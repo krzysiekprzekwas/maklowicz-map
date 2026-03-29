@@ -2,9 +2,10 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { Map, Instagram, Mail } from 'lucide-react';
 import locationData from '../data/locations.json';
-import type { LocationData } from '../types/Location';
+import type { LocationData, Location } from '../types/Location';
 import { LandingSearch } from '../components/filters/LandingSearch';
 import { FeaturedCarousel } from '../components/landing/FeaturedCarousel';
+import FEATURED_LOCATION_IDS from '../data/featured';
 
 const typedData = locationData as LocationData;
 
@@ -22,14 +23,11 @@ const countries = Object.entries(
   .map(([name, count]) => ({ name, count }))
   .sort((a, b) => a.name.localeCompare(b.name));
 
-// Most recent locations — sorted by parent video date, filtered to ones with images + summaries
-const sortedVideos = [...typedData.videos].sort(
-  (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
-);
-const featured = sortedVideos
-  .flatMap((v) => v.locations)
-  .filter((l) => l.image && l.summary)
-  .slice(0, 12);
+// Featured locations — configured in data/featured.ts, preserving the configured order
+const locationById = Object.fromEntries(allLocations.map((l) => [l.id, l]));
+const featured = FEATURED_LOCATION_IDS
+  .map((id) => locationById[id])
+  .filter((l): l is Location => !!l && !!l.image && !!l.summary);
 
 const fadeUp = (delay = 0) => ({
   initial: { opacity: 0, y: 20 },
@@ -59,7 +57,7 @@ export default function LandingPage() {
       {/* Featured locations carousel */}
       <section className="pb-4 md:pb-12 md:py-10">
         <motion.div {...fadeUp(0.15)} className="mb-4 px-4 md:px-24">
-          <h2 className="text-lg font-bold text-primary">Niedawno odwiedzone</h2>
+          <h2 className="text-lg font-bold text-primary">Polecane miejsca</h2>
         </motion.div>
         <motion.div {...fadeUp(0.2)}>
           <FeaturedCarousel locations={featured} />
