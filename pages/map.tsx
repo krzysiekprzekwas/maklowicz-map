@@ -125,6 +125,7 @@ export default function Home() {
     const target = allLocations.find((l) => l.id === placeIdParam);
     if (!target) return;
     setSelectedLocation(target);
+    setFlyToLocation(target);
     if (selectedCountry !== target.country) {
       setSelectedCountry(target.country);
     }
