@@ -1300,7 +1300,7 @@
         {
           "id": "muga",
           "name": "Muga",
-          "description": "W sercu Polski, a konkretnie w Krakowie, odnajdziemy Mugę – miejsce, gdzie tradycja spotyka się z kulinarną fantazją. W wiekowej kamienicy, której mury z pewnością widziały niejedną historyczną dysputę i smakowitą biesiadę, dziś serwuje się dania, które z gracją opowiadają nową historię polskiej kuchni, zaskakując podniebienia nawet tych najbardziej wybrednych smakoszy. To prawdziwa perełka na kulinarnej mapie miasta, gdzie każdy kęs to podróż przez smaki i epoki.",
+          "description": "W samym sercu Poznania, przy ulicy Ogrodowej, odnajdziemy Mugę – miejsce, gdzie tradycja spotyka się z kulinarną fantazją. W klimatycznym wnętrzu serwuje się dania, które z gracją opowiadają nową historię polskiej kuchni, zaskakując podniebienia nawet tych najbardziej wybrednych smakoszy. To prawdziwa perełka na kulinarnej mapie miasta, gdzie każdy kęs to podróż przez smaki i epoki.",
           "latitude": 52.40395056191009,
           "longitude": 16.929159164428714,
           "address": "Ogrodowa 14B, 61-821 Poznań, Poland",
@@ -1309,7 +1309,7 @@
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/acvzEF8Dn4NbJDsP7",
           "image": "/images/muga.jpg",
-          "summary": "Krakowska restauracja łącząca polską tradycję kulinarną z nowoczesnym podejściem do kuchni."
+          "summary": "Poznańska restauracja łącząca polską tradycję kulinarną z nowoczesnym podejściem do kuchni."
         },
         {
           "id": "fromazeria",
@@ -7501,7 +7501,7 @@
         },
         {
           "id": "bijavka-beach",
-          "name": "Bijavka Beach",
+          "name": "Plaża Bijavka",
           "description": "Na plaży Bijavka w Chorwacji, gdzie Adriatyk, jak przystało na starego gawędziarza, szepcze swoje odwieczne historie, człowiek, leżąc na rozgrzanych słońcem kamykach, z łatwością wyobraża sobie, jak rybacy od wieków wracali z połowu, by potem, z godnością, delektować się tym, co morze szczodrze ofiarowało. To wszakże idealna sceneria, by po orzeźwiającej kąpieli, z apetytem godnym cesarza rzymskiego, który wszakże i tu bywał, zasiąść do talerza świeżych kalmarów, popijając lokalne wino, które, co tu kryć, zawsze smakuje najlepiej.",
           "latitude": 43.00353883908789,
           "longitude": 17.283988493060555,
@@ -7509,8 +7509,8 @@
           "country": "Chorwacja",
           "type": "nature",
           "websiteUrl": "",
-          "image": "https://www.putovnica.net/images/480/382097-trpanj-plaza-luka-istok.jpg",
           "GoogleMapsLink": "https://maps.app.goo.gl/cpLFXF9Y7ye88tVj9",
+          "image": "/images/bijavka-beach.jpg",
           "summary": "Dzika plaża na chorwackim wybrzeżu z krystaliczną wodą, spokojna i z dala od tłumów."
         }
       ]
@@ -12449,17 +12449,17 @@
           "summary": "Pomnik-szkatuła poświęcony rodowi Radziwiłłów, upamiętniający dzieje potężnej polsko-litewskiej rodziny."
         },
         {
-          "id": "mauzoleum-ksiazat-radziwi-ow",
+          "id": "mauzoleum-ksiazat-radziwilow",
           "name": "Mauzoleum książąt Radziwiłłów",
           "description": "Oto miejsce na Litwie, gdzie historia szeptem opowiada o książętach Radziwiłłach – rodzie tak potężnym, że ich nazwisko brzmiało jak dzwon na całą Rzeczpospolitą. To mauzoleum, pamiętające czasy ich świetności, być może nawet z XVI wieku, jest świadectwem epoki, gdy Radziwiłłowie nie tylko budowali zamki, ale i stoły zastawiali z rozmachem godnym książąt.",
           "latitude": 55.28552594326804,
           "longitude": 23.980247827137518,
-          "address": "Senoji g. 4, 57255 Kėdainiai, Lithuania",
+          "address": "Senoji g. 4, 57255 Kėdainiai, Litwa",
           "country": "Litwa",
           "type": "museum",
           "websiteUrl": "",
-          "image": "https://lh3.googleusercontent.com/p/AF1QipPbvazULSH3B1SpNrH-xx9gogCMq9T4eKe0pi-e=s1360-w1360-h1020",
           "GoogleMapsLink": "https://maps.app.goo.gl/1SqkPqVMN7rV6FWL9",
+          "image": "/images/mauzoleum-ksiazat-radziwi-ow.jpg",
           "summary": "Mauzoleum rodu Radziwiłłów na Litwie, miejsce spoczynku jednego z najpotężniejszych rodów Rzeczpospolitej."
         },
         {
@@ -14180,12 +14180,12 @@
           "description": "Polska kryje w sobie miejsca o intrygujących nazwach, jak choćby Studnia Pastorów. W rzeczywistości to malownicze ruiny ewangelickiego kościoła z 1743 roku, które opowiadają historie o dawnych mieszkańcach i ich losach. Choć to nie studnia w tradycyjnym sensie, można by rzec, że to głęboka studnia historii i atmosfery, która z pewnością pobudza zmysły.",
           "latitude": 49.82263843861024,
           "longitude": 19.040126163582453,
-          "address": "Plac Lutra 3, 43-300 Bielsko-Biała, Poland",
+          "address": "Plac Lutra 3, 43-300 Bielsko-Biała, Polska",
           "country": "Polska",
           "type": "art_culture",
           "websiteUrl": "",
           "GoogleMapsLink": "https://maps.app.goo.gl/3kaCFz4kDHm7T4fB8",
-          "image": "https://lh5.googleusercontent.com/proxy/nBsxJH5rtJhbYpKOP9qlZl4uk0qKaSulLWTlbhxoHLEPVqbzXdUsovH7kbR41m0sZZt-J-QFzeV4RzhB8oAeVieyIa8_kr-fVVrJ07vXT6d7",
+          "image": "/images/studnia-pastorow.jpg",
           "summary": "Historyczna Studnia Pastorów w Bielsku-Białej, pamiątka wielowyznaniowej tradycji śląskiego miasta."
         },
         {
