@@ -1,6 +1,88 @@
 {
   "videos": [
     {
+      "videoId": "lCYemzkMjZA",
+      "videoUrl": "https://www.youtube.com/watch?v=lCYemzkMjZA",
+      "title": "„Do Czarnogóry!\" - ROBERT MAKŁOWICZ CZARNOGÓRA odc.238",
+      "filterTitle": "Do Czarnogóry! (odc. 238)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2025-08-01T15:00:27Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "spomenik-palim-borcima-novj-i-zrtvama-fasizma",
+          "name": "Spomenik palim borcima NOVJ i žrtvama fašizma",
+          "description": "W Chorwacji, gdzie słońce pieści winnice i gaje oliwne, natknąć się można na obiekty, które, choć nie do skonsumowania, stanowią wyborną strawę dla umysłu. Jednym z nich jest monumentalny Spomenik palim borcima NOVJ i žrtvama fašizma – dzieło, które swoją surową, brutalistyczną formą, niczym dobrze doprawiona potrawa, zostawia niezatarte wrażenie. Wzniesiony najczęściej w latach 60. i 70. XX wieku, ten architektoniczny kolos to nie tylko hołd dla poległych w walce z faszyzmem, ale także świadectwo pewnej epoki, która, niczym dobrze uleżakowane wino, ma swój specyficzny bukiet, a po chwili zadumy nad nim, Pan Robert z pewnością z jeszcze większą ochotą sięgnąłby po talerz lokalnych przysmaków.",
+          "latitude": 42.9395442,
+          "longitude": 17.3760479,
+          "address": "W9QG+RC Pijavičino, Croatia",
+          "country": "Chorwacja",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/LFQ5nroRnMjPC2MJ6",
+          "image": "/images/spomenik-palim-borcima-novj-i-zrtvama-fasizma.jpg",
+          "summary": "Brutalistyczny pomnik z lat 60./70. upamiętniający ofiary faszyzmu w Chorwacji."
+        },
+        {
+          "id": "rotonda-oslje",
+          "name": "Rotonda",
+          "description": "W urokliwym Ošlje, gdzie czas zdaje się płynąć własnym rytmem, wzrok z pewnością przykuwa intrygująca Rotonda. Ta architektoniczna perełka, której korzenie sięgają prawdopodobnie wczesnego średniowiecza, widziała już niejedno i opowiada historie, które Makłowicz z pewnością chętnie by smakował. Z kieliszkiem lokalnego wina i talerzem świeżych owoców morza, podziwiając jej wiekowy urok, każdy kęs nabiera tu dodatkowego wymiaru.",
+          "latitude": 42.8927067,
+          "longitude": 17.7378296,
+          "address": "VPVQ+34 Ošlje, Croatia",
+          "country": "Chorwacja",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/vQXuTXGieb28kXbE6",
+          "image": "/images/rotonda-oslje.jpg",
+          "summary": "Wczesnośredniowieczna rotunda w Ošlje na półwyspie Pelješac."
+        },
+        {
+          "id": "novakovo-greblje-stecci",
+          "name": "Novakovo greblje stećci",
+          "description": "W Chorwacji, gdzie słońce pieści winnice i oliwne gaje, podróżnik natrafia na Novakovo greblje – nekropolię, gdzie czas zatrzymał się na kamiennych stećciach. Te monumentalne, średniowieczne nagrobki, datowane na XII-XVI wiek, niczym dobrze doprawione danie, opowiadają o dawnych dziejach, serwując esencję minionych wieków. Ich surowe piękno i tajemnicze rzeźby to prawdziwa uczta dla oczu i ducha, przypominająca, że historia ma swój niepowtarzalny smak.",
+          "latitude": 42.84941494575809,
+          "longitude": 17.83613204956055,
+          "address": "VR67+63 Točionik, Croatia",
+          "country": "Chorwacja",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/SDjHBbdeD24xVFZ49",
+          "image": "/images/novakovo-greblje-stecci.jpg",
+          "summary": "Średniowieczna nekropolia z kamiennymi stećciami z XII–XVI wieku."
+        },
+        {
+          "id": "slano-lake-viewpoint",
+          "name": "Slano Lake Viewpoint",
+          "description": "Z tego miejsca, gdzie powietrze pachnie już nieco inaczej, a słońce leniwie muska górskie szczyty, rozpościera się panorama jeziora Slano – niczym misternie przygotowany deser, którego smak najlepiej docenić z oddali. To właśnie tutaj, w sercu Czarnogóry, natura spotyka się z ludzką pomysłowością, tworząc akwen, który od lat 50. ubiegłego wieku, niczym dobrze skomponowane danie, syci wzrok i duszę. Z tego punktu widokowego, gdzie czas zdaje się płynąć wolniej, można delektować się nie tylko pejzażem, ale i myślą o tym, jak wiele smaków i historii kryje się w tej niewielkiej, lecz niezwykłej krainie.",
+          "latitude": 42.755709764278606,
+          "longitude": 18.820331096649173,
+          "address": "QR58+FX Ponikvica, Montenegro",
+          "country": "Czarnogóra",
+          "type": "nature",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/pdVJxJxqxaQHzjrG7",
+          "image": "/images/slano-lake-viewpoint.jpg",
+          "summary": "Punkt widokowy na sztuczne jezioro Slano w czarnogórskich górach."
+        },
+        {
+          "id": "lower-ostrog-monastery",
+          "name": "Monastyr Ostrog",
+          "description": "Podróżując po Czarnogórze, Robert Makłowicz docenił z pewnością Monaster Ostrog Dolny – miejsce, które jawi się niczym kulinarny rarytas, wykuty w skalnym zboczu. Ten XVII-wieczny przybytek, gdzie historia i duchowość splatają się w niezwykłą opowieść, to prawdziwa uczta dla zmysłów, niczym starannie przygotowany posiłek po długiej wędrówce. Tu każdy kamień ma swój smak, a widoki karmią duszę równie syto, co najlepsza bałkańska kuchnia.",
+          "latitude": 42.6749594,
+          "longitude": 19.027776,
+          "address": "M2FH+X4 Dabovići, Montenegro",
+          "country": "Czarnogóra",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/45CZY6x3gmcGcGVa7",
+          "image": "/images/lower-ostrog-monastery.jpg",
+          "summary": "XVII-wieczny monaster wykuty w skalnym zboczu, jedno z najważniejszych miejsc pielgrzymkowych Bałkanów."
+        }
+      ]
+    },
+    {
       "videoId": "9SOBucbqNRw",
       "videoUrl": "https://www.youtube.com/watch?v=9SOBucbqNRw",
       "title": "„Pływając po Bangkoku\" - ROBERT MAKŁOWICZ TAJLANDIA odc.217",
