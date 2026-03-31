@@ -70,6 +70,12 @@ const countryTranslations: Record<string, string> = {
   "Liechtenstein": "Liechtenstein",
   "San Marino": "San Marino",
   "Vatican City": "Watykan",
+  "Thailand": "Tajlandia",
+  "Vietnam": "Wietnam",
+  "Colombia": "Kolumbia",
+  "Mexico": "Meksyk",
+  "United Arab Emirates": "Zjednoczone Emiraty Arabskie",
+  "Mauritius": "Mauritius",
 };
 
 function translateCountryName(country: string): string {
