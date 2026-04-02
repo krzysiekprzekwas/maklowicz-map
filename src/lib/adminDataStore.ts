@@ -1,6 +1,7 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import type { Location, LocationData, LocationType, Video } from '../../types/Location';
+import { translateCountryName } from './countryTranslations';
 import { toSlug } from './slug';
 
 const DATA_PATH = path.join(process.cwd(), 'data', 'locations.json');
@@ -71,7 +72,7 @@ export function sanitizeLocationInput(input: Partial<Location>): Location {
     latitude: Number(input.latitude ?? 0),
     longitude: Number(input.longitude ?? 0),
     address: `${input.address ?? ''}`.trim(),
-    country: `${input.country ?? ''}`.trim(),
+    country: translateCountryName(`${input.country ?? ''}`.trim()),
     type: ALLOWED_LOCATION_TYPES.includes(type) ? type : 'tourist_attraction',
     websiteUrl: `${input.websiteUrl ?? ''}`.trim(),
     GoogleMapsLink: `${input.GoogleMapsLink ?? ''}`.trim(),

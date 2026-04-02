@@ -4,6 +4,7 @@ import { google } from 'googleapis';
 import { GoogleGenAI } from '@google/genai';
 import type { Location, Video } from '../../types/Location';
 import { generateSlugId } from './adminDataStore';
+import { translateCountryName } from './countryTranslations';
 
 async function generateDescription(name: string, country: string): Promise<string> {
   if (!process.env.GEMINI_API_KEY) return '';
@@ -22,65 +23,6 @@ async function generateDescription(name: string, country: string): Promise<strin
   } catch {
     return '';
   }
-}
-
-const countryTranslations: Record<string, string> = {
-  'United States': 'Stany Zjednoczone',
-  Germany: 'Niemcy',
-  France: 'Francja',
-  Italy: 'Włochy',
-  Spain: 'Hiszpania',
-  Poland: 'Polska',
-  'United Kingdom': 'Wielka Brytania',
-  Canada: 'Kanada',
-  Australia: 'Australia',
-  Japan: 'Japonia',
-  Jordan: 'Jordania',
-  China: 'Chiny',
-  Austria: 'Austria',
-  Belgium: 'Belgia',
-  'Czech Republic': 'Czechy',
-  Denmark: 'Dania',
-  Estonia: 'Estonia',
-  Finland: 'Finlandia',
-  Greece: 'Grecja',
-  Hungary: 'Węgry',
-  Iceland: 'Islandia',
-  Ireland: 'Irlandia',
-  Latvia: 'Łotwa',
-  Lithuania: 'Litwa',
-  Luxembourg: 'Luksemburg',
-  Netherlands: 'Holandia',
-  Norway: 'Norwegia',
-  Portugal: 'Portugalia',
-  Romania: 'Rumunia',
-  Slovakia: 'Słowacja',
-  Slovenia: 'Słowenia',
-  Sweden: 'Szwecja',
-  Switzerland: 'Szwajcaria',
-  Turkey: 'Turcja',
-  Tunisia: 'Tunezja',
-  Ukraine: 'Ukraina',
-  Russia: 'Rosja',
-  Croatia: 'Chorwacja',
-  Serbia: 'Serbia',
-  'Bosnia and Herzegovina': 'Bośnia i Hercegowina',
-  Montenegro: 'Czarnogóra',
-  Albania: 'Albania',
-  Bulgaria: 'Bułgaria',
-  Moldova: 'Mołdawia',
-  Belarus: 'Białoruś',
-  Malta: 'Malta',
-  Cyprus: 'Cypr',
-  Andorra: 'Andora',
-  Monaco: 'Monako',
-  Liechtenstein: 'Liechtenstein',
-  'San Marino': 'San Marino',
-  'Vatican City': 'Watykan',
-};
-
-function translateCountryName(country: string): string {
-  return countryTranslations[country] || country;
 }
 
 function filterTitle(title: string): string {

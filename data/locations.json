@@ -1,6 +1,88 @@
 {
   "videos": [
     {
+      "videoId": "ftvvXzRkZ7s",
+      "videoUrl": "https://www.youtube.com/watch?v=ftvvXzRkZ7s",
+      "title": "„Łodzią i tratwą\" - ROBERT MAKŁOWICZ TAJLANDIA odc.219",
+      "filterTitle": "Łodzią i tratwą (odc. 219)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2025-03-07T16:00:07Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "port-lotniczy-bangkok-don-muang",
+          "name": "Port lotniczy Bangkok-Don Muang",
+          "description": "Port lotniczy Bangkok-Don Muang, otwarty już w 1914 roku, to prawdziwy weteran azjatyckiego nieba, gdzie historia lotnictwa splata się z nowoczesnym zgiełkiem. To właśnie tutaj, w tym wiekowym, a wciąż tętniącym życiem porcie, niejeden podróżnik po raz pierwszy poczuł zapach Tajlandii, zanim ruszył w głąb kulinarnych przygód, a być może i spróbował pierwszego, pikantnego dania.",
+          "latitude": 13.9150187,
+          "longitude": 100.6006114,
+          "address": "2 to Domestic Terminal Khwaeng Sanambin, Khet Don Mueang, Krung Thep Maha Nakhon 10210, Thailand",
+          "country": "Tajlandia",
+          "type": "tourist_attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/Q8HBZSMVjokisv38A",
+          "image": "/images/port-lotniczy-bangkok-don-muang.jpg",
+          "summary": "Jedno z najstarszych lotnisk w Azji, działające nieprzerwanie od 1914 roku."
+        },
+        {
+          "id": "wind-song-bar-restaurant",
+          "name": "Wind Song Bar & Restaurant",
+          "description": "Gdzieś w dalekiej Tajlandii, tam gdzie wiatr zdaje się nucić pradawne pieśni, odnajdujemy Wind Song Bar & Restaurant. To miejsce, które z pewnością przykułoby uwagę konesera smaków i widoków, oferując nie tylko kulinarną podróż przez tajskie aromaty, ale i niezapomniane chwile kontemplacji nad bezkresem. Prawdziwa perła w koronie tamtejszej gościnności, gdzie każda potrawa opowiada historię słońca i przypraw.",
+          "latitude": 8.91114696016705,
+          "longitude": 98.52406024932863,
+          "address": "WG7F+5JR, Khlong Sok, Phanom District, Surat Thani 84250, Thailand",
+          "country": "Tajlandia",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/oYos5sR4kPkJTPLo6",
+          "image": "/images/wind-song-bar-restaurant.jpg",
+          "summary": "Restauracja w prowincji Surat Thani z tajską kuchnią i widokiem na dżunglę."
+        },
+        {
+          "id": "park-narodowy-khao-sok",
+          "name": "Park Narodowy Khao Sok",
+          "description": "Zapewne niejeden koneser dzikiej przyrody, a i smaków życia, z rozrzewnieniem wspomniałby Park Narodowy Khao Sok w Tajlandii – miejsce, gdzie czas zdaje się płynąć wedle własnego, prastarego rytmu. To tu, pośród wapiennych ostańców, które niczym potężne zęby smoka wyrosły z zielonej dżungli, rozciąga się jeden z najstarszych lasów deszczowych świata, oficjalnie chroniony od roku 1980, oferujący widoki tak sycące, że aż człowiek zapomina o głodzie.",
+          "latitude": 8.9777187,
+          "longitude": 98.635613,
+          "address": "XJHP+36 Khao Phang, Ban Ta Khun District, Surat Thani, Thailand",
+          "country": "Tajlandia",
+          "type": "nature",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/o9tcxs6527ExCVUM9",
+          "image": "/images/park-narodowy-khao-sok.jpg",
+          "summary": "Jeden z najstarszych lasów deszczowych świata, chroniony od 1980 roku."
+        },
+        {
+          "id": "aephphutawan-ekhueonrachchprapha",
+          "name": "Phutawan Khao Sok",
+          "description": "Oto przed Państwem miejsce, gdzie natura z inżynierią zagrały w niezwykłą partię szachów – แพภูตะวัน เขื่อนรัชชประภา. Zrodzone w 1982 roku, gdy tama Ratchaprapha zatopiła kawał dżungli, ustępując miejsca szmaragdowej tafli jeziora i wapiennym ostańcom, oferuje widoki, które każą zapomnieć o całym świecie. A do tego kulinarne doznania, gdzie świeżo złowiona ryba z jeziora staje się poezją podniebienia, a każdy kęs to opowieść o tajskiej gościnności.",
+          "latitude": 9.0492467,
+          "longitude": 98.7772064,
+          "address": "2QXG+MV Khao Phang, Ban Ta Khun District, Surat Thani, Thailand",
+          "country": "Tajlandia",
+          "type": "hotel",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/qpTwYgUXXhaW31fY7",
+          "image": "/images/aephphutawan-ekhueonrachchprapha.jpg",
+          "summary": "Pływający hotel na jeziorze przy tamie Ratchaprapha, otoczony wapiennymi skałami."
+        },
+        {
+          "id": "khao-sok-river-canoe-and-bamboo-rafting",
+          "name": "Khao-Sok River Canoe and Bamboo Rafting",
+          "description": "Khao-Sok River Canoe and Bamboo Rafting to esencja tajskiej przygody, gdzie czas zdaje się płynąć równie leniwie co najdelikatniejszy kokosowy sos. W tym prastarym zakątku świata, pośród bujnej dżungli, można doświadczyć podróży tradycyjną bambusową tratwą, co jest przeżyciem równie autentycznym, co smak świeżo złowionej ryby z chili i limonką. To prawdziwa uczta dla duszy i oczu, niczym starannie przygotowane danie, które pamięta się długo po ostatnim kęsie.",
+          "latitude": 8.8996183,
+          "longitude": 98.6275848,
+          "address": "VJXH+R2W, Khlong Sok, Phanom District, Surat Thani 84250, Thailand",
+          "country": "Tajlandia",
+          "type": "tourist_attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/hwiAcm4yn5qPmEyq5",
+          "image": "/images/khao-sok-river-canoe-and-bamboo-rafting.jpg",
+          "summary": "Spływy kajakowe i bambusowe raftingi po rzece w sercu dżungli Khao Sok."
+        }
+      ]
+    },
+    {
       "videoId": "GOJNvBM-DIA",
       "videoUrl": "https://www.youtube.com/watch?v=GOJNvBM-DIA",
       "title": "„Powrót do Dalmacji\" - ROBERT MAKŁOWICZ CZARNOGÓRA odc.241",
