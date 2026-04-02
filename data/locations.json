@@ -1,6 +1,60 @@
 {
   "videos": [
     {
+      "videoId": "GOJNvBM-DIA",
+      "videoUrl": "https://www.youtube.com/watch?v=GOJNvBM-DIA",
+      "title": "„Powrót do Dalmacji\" - ROBERT MAKŁOWICZ CZARNOGÓRA odc.241",
+      "filterTitle": "Powrót do Dalmacji (odc. 241)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2025-08-22T15:00:07Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "luka-s-oyster-farm",
+          "name": "Luka's Oyster farm",
+          "description": "W czarnogórskiej zatoce, gdzie historia splata się z błękitem Adriatyku, Robert Makłowicz trafił na Luka's Oyster Farm. To miejsce, gdzie tradycja hodowli ostryg, głęboko zakorzeniona w regionie Boki Kotorskiej od wieków, jest pielęgnowana z niezwykłą pasją. Tutaj, prosto z chłodnych wód, na stół trafiają morskie skarby, oferując doznania kulinarne w najczystszej, nieudawanej formie.",
+          "latitude": 42.47464505476592,
+          "longitude": 18.764648437500004,
+          "address": "FMGX+56P, Donji Stoliv, Montenegro",
+          "country": "Czarnogóra",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/FMhHaAFR8C5LAhqZA",
+          "image": "/images/luka-s-oyster-farm.jpg",
+          "summary": "Farma ostryg w Zatoce Kotorskiej z tradycją hodowli sięgającą wieków."
+        },
+        {
+          "id": "forte-mare",
+          "name": "Forte Mare",
+          "description": "W Czarnogórze, gdzie Adriatyk spotyka historię, natrafiamy na Forte Mare – warownię z końca XVII wieku, która niczym wytrawny gawędziarz opowiada o burzliwych dziejach. Z jej kamiennych murów, pamiętających osmańskie i weneckie wpływy, roztacza się widok, który z pewnością skłoniłby do refleksji nad świeżością lokalnych ryb i winem. To miejsce, gdzie morska bryza niesie zapach minionych epok, a każdy kamień szepcze o dawnych ucztach i strategicznych posunięciach.",
+          "latitude": 42.44999807991003,
+          "longitude": 18.53598475456238,
+          "address": "55 Partizanski Put, Herceg - Novi, Montenegro",
+          "country": "Czarnogóra",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/pn47Nsov5T7nSWLn7",
+          "image": "/images/forte-mare.jpg",
+          "summary": "Twierdza z XVII wieku w Herceg Novi z widokiem na Adriatyk."
+        },
+        {
+          "id": "belavista-square",
+          "name": "Belavista Square",
+          "description": "W Czarnogórze, gdzie Adriatyk szepcze stare opowieści, Makłowicz z pewnością odnalazłby Belavista Square – prawdziwą perłę Herceg Novi. To tutaj, u stóp wieży zegarowej z 1667 roku, której mury pamiętają tureckie czasy, życie toczy się niespiesznie, idealnie smakując kawę i obserwując świat. Plac, będący sercem miasta, zaprasza do chwili refleksji nad historią, a może i do skosztowania lokalnych przysmaków, choćby tylko wzrokiem.",
+          "latitude": 42.45141510847381,
+          "longitude": 18.537599444389347,
+          "address": "FG2P+GRW, Njegoševa, Herceg - Novi, Montenegro",
+          "country": "Czarnogóra",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/NNPpcvYvydHHEPGu8",
+          "image": "/images/belavista-square.jpg",
+          "summary": "Historyczny plac w Herceg Novi u stóp wieży zegarowej z 1667 roku."
+        }
+      ]
+    },
+    {
       "videoId": "mRV9w2cdXcw",
       "videoUrl": "https://www.youtube.com/watch?v=mRV9w2cdXcw",
       "title": "„Jedzenie ulicy\" - ROBERT MAKŁOWICZ TAJLANDIA odc.218",
