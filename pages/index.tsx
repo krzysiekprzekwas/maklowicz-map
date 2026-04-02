@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { Map, Instagram, Mail } from 'lucide-react';
+import { Map } from 'lucide-react';
 import locationData from '../data/locations.json';
 import type { LocationData, Location } from '../types/Location';
 import { LandingSearch } from '../components/filters/LandingSearch';
@@ -145,30 +145,14 @@ export default function LandingPage() {
       </section>
 
       {/* Contact CTA + Footer pins */}
-      <motion.div
+      <motion.a
         {...fadeUp(0)}
-        className="bg-accent-blue rounded-t-3xl px-6 py-8 text-center"
+        href="mailto:przekwaskrzysiek@gmail.com"
+        className="block bg-accent-blue rounded-t-3xl px-6 py-8 text-center hover:bg-accent-blue/95 transition-colors"
       >
-        <h2 className="text-2xl md:text-3xl font-bold text-neutral-0 mb-5">Napisz do mnie</h2>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5">
-          <a
-            href="mailto:przekwaskrzysiek@gmail.com"
-            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-neutral-0/15 text-neutral-0 hover:bg-neutral-0/25 transition-colors text-sm md:text-base"
-          >
-            <Mail className="w-4 h-4" />
-            przekwaskrzysiek@gmail.com
-          </a>
-          <a
-            href="https://www.instagram.com/sladami_roberta/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-neutral-0/15 text-neutral-0 hover:bg-neutral-0/25 transition-colors text-sm md:text-base"
-          >
-            <Instagram className="w-4 h-4" />
-            @sladami_roberta
-          </a>
-        </div>
-      </motion.div>
+        <h2 className="text-2xl md:text-3xl font-bold text-neutral-0 mb-3">Napisz do mnie</h2>
+        <p className="text-neutral-0/80 text-base md:text-lg">przekwaskrzysiek@gmail.com</p>
+      </motion.a>
       <div className="w-full overflow-hidden">
         <img
           src="/footer_pins.svg"
