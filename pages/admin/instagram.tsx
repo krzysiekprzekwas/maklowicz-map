@@ -43,7 +43,8 @@ const FORMAT_DIMS: Record<Format, { w: number; h: number; label: string }> = {
 type VariantId =
   | 'bold' | 'split' | 'polaroid' | 'frame' | 'magazine' | 'minimal'
   | 'overlay' | 'card' | 'duo' | 'stamp' | 'cinematic' | 'quote'
-  | 'mapPin' | 'mapCard' | 'mapSplit' | 'mapCircle';
+  | 'mapPin' | 'mapCard' | 'mapSplit' | 'mapCircle'
+  | 'infoClean' | 'infoDark' | 'infoQuote' | 'infoSplit';
 
 const VARIANTS: { id: VariantId; name: string; group?: string }[] = [
   { id: 'bold', name: 'Bold' },
@@ -62,6 +63,10 @@ const VARIANTS: { id: VariantId; name: string; group?: string }[] = [
   { id: 'mapCard', name: 'Map Card', group: 'map' },
   { id: 'mapSplit', name: 'Map Split', group: 'map' },
   { id: 'mapCircle', name: 'Map Circle', group: 'map' },
+  { id: 'infoClean', name: 'Info Clean', group: 'info' },
+  { id: 'infoDark', name: 'Info Dark', group: 'info' },
+  { id: 'infoQuote', name: 'Info Quote', group: 'info' },
+  { id: 'infoSplit', name: 'Info Split', group: 'info' },
 ];
 
 const ACCENT_COLORS = ['#C2FF4E', '#0016DE', '#FF4C19', '#FF87CD'];
@@ -827,6 +832,160 @@ function TemplateMapCircle({ location, format, accent, mapZoom = 12, nearbyLocat
 }
 
 /* ------------------------------------------------------------------ */
+/*  INFO TEMPLATES (carousel slide — description / episode)            */
+/* ------------------------------------------------------------------ */
+
+/**
+ * INFO CLEAN — Cream bg, large summary, episode pill, type badge, blobs + pins
+ */
+function TemplateInfoClean({ location, format, accent }: TP) {
+  const { w, h } = dims(format);
+  const tall = format !== 'square';
+  return (
+    <div style={{ width: w, height: h, background: '#F6F5F2', display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: tall ? '72px 68px' : '56px 60px', position: 'relative', overflow: 'hidden' }}>
+      {/* Blobs */}
+      <div style={{ position: 'absolute', top: -50, right: -60, pointerEvents: 'none' }}><BlobPink size={tall ? 300 : 250} /></div>
+      <div style={{ position: 'absolute', bottom: tall ? 120 : 60, left: -10, pointerEvents: 'none', opacity: 0.3 }}><PinScatter size={tall ? 44 : 36} /></div>
+      {/* Episode pill at top */}
+      <div style={{ background: accent, color: textOn(accent), padding: '12px 28px', borderRadius: 100, fontSize: 24, fontWeight: 600, fontFamily: 'Inter, sans-serif', alignSelf: 'flex-start', marginBottom: 32, position: 'relative', zIndex: 1 }}>
+        {location.videoTitle}
+      </div>
+      {/* Header: type badge + name */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: 18, marginBottom: 20, position: 'relative', zIndex: 1 }}>
+        <TypeBadge type={location.type} badgeColor={accent} size={72} />
+        <div>
+          <div style={{ fontSize: tall ? 56 : 48, fontWeight: 700, color: '#00071A', fontFamily: 'Work Sans, sans-serif', lineHeight: 1.15 }}>{location.name}</div>
+          <div style={{ fontSize: 26, color: '#685F6D', fontFamily: 'Inter, sans-serif', marginTop: 6 }}>{location.country} · {TYPE_LABELS[location.type]}</div>
+        </div>
+      </div>
+      {/* Accent divider */}
+      <div style={{ width: 80, height: 5, background: accent, borderRadius: 3, marginBottom: 32, position: 'relative', zIndex: 1 }} />
+      {/* Description — large text filling space */}
+      <div style={{ fontSize: tall ? 40 : 36, color: '#00071A', fontFamily: 'Inter, sans-serif', lineHeight: 1.7, position: 'relative', zIndex: 1, display: '-webkit-box', WebkitLineClamp: tall ? 14 : 10, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
+        {location.description}
+      </div>
+      {/* Bottom */}
+      <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', marginTop: 'auto', paddingTop: 32, position: 'relative', zIndex: 1 }}>
+        <PinRow count={5} size={24} gap={12} />
+        <Logo width={160} style={{ opacity: 0.35 }} />
+      </div>
+    </div>
+  );
+}
+
+/**
+ * INFO DARK — Dark navy bg, white text, accent highlights, episode info
+ */
+function TemplateInfoDark({ location, format, accent }: TP) {
+  const { w, h } = dims(format);
+  const tall = format !== 'square';
+  return (
+    <div style={{ width: w, height: h, background: '#00071A', display: 'flex', flexDirection: 'column', padding: tall ? '72px 68px' : '56px 60px', position: 'relative', overflow: 'hidden' }}>
+      {/* Decorative pin scatter */}
+      <div style={{ position: 'absolute', top: 40, right: 40, pointerEvents: 'none', opacity: 0.15 }}><PinScatter size={tall ? 52 : 42} /></div>
+      {/* Episode label at top */}
+      <div style={{ background: 'rgba(255,255,255,0.08)', padding: '12px 24px', borderRadius: 100, fontSize: 22, color: accent, fontFamily: 'Inter, sans-serif', fontWeight: 600, alignSelf: 'flex-start', marginBottom: 36, position: 'relative', zIndex: 1 }}>
+        {location.videoTitle}
+      </div>
+      {/* Name */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: 20, marginBottom: 28, position: 'relative', zIndex: 1 }}>
+        <TypeBadge type={location.type} badgeColor={accent} size={68} />
+        <div>
+          <div style={{ fontSize: tall ? 52 : 46, fontWeight: 700, color: '#fff', fontFamily: 'Work Sans, sans-serif', lineHeight: 1.15 }}>{location.name}</div>
+          <div style={{ fontSize: 24, color: 'rgba(255,255,255,0.45)', fontFamily: 'Inter, sans-serif', marginTop: 6 }}>{location.country} · {TYPE_LABELS[location.type]}</div>
+        </div>
+      </div>
+      {/* Accent line */}
+      <div style={{ width: 80, height: 5, background: accent, borderRadius: 3, marginBottom: 32, position: 'relative', zIndex: 1 }} />
+      {/* Summary */}
+      <div style={{ fontSize: tall ? 32 : 28, color: 'rgba(255,255,255,0.75)', fontFamily: 'Inter, sans-serif', lineHeight: 1.7, flex: 1, position: 'relative', zIndex: 1, display: '-webkit-box', WebkitLineClamp: tall ? 12 : 8, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
+        {location.description}
+      </div>
+      {/* Bottom */}
+      <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', marginTop: 32, position: 'relative', zIndex: 1 }}>
+        <PinRow count={6} size={26} gap={14} />
+        <Logo width={170} style={{ opacity: 0.35, filter: 'brightness(10)' }} />
+      </div>
+    </div>
+  );
+}
+
+/**
+ * INFO QUOTE — Summary as a large quote with accent quotation marks, episode below
+ */
+function TemplateInfoQuote({ location, format, accent }: TP) {
+  const { w, h } = dims(format);
+  const tall = format !== 'square';
+  return (
+    <div style={{ width: w, height: h, background: '#F6F5F2', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: tall ? '80px 72px' : '60px 64px', position: 'relative', overflow: 'hidden' }}>
+      {/* Blobs */}
+      <div style={{ position: 'absolute', top: -50, right: -60, pointerEvents: 'none' }}><BlobPink size={tall ? 280 : 240} /></div>
+      {/* Large accent quote mark */}
+      <div style={{ fontFamily: 'Work Sans, sans-serif', fontSize: 200, fontWeight: 700, color: accent, lineHeight: 0.8, marginBottom: -20, opacity: 0.5, position: 'relative', zIndex: 1 }}>"</div>
+      {/* Summary as quote */}
+      <div style={{ fontSize: tall ? 38 : 32, color: '#00071A', fontFamily: 'Inter, sans-serif', lineHeight: 1.65, textAlign: 'center', maxWidth: w - 160, position: 'relative', zIndex: 1, display: '-webkit-box', WebkitLineClamp: tall ? 10 : 6, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
+        {location.description}
+      </div>
+      {/* Divider */}
+      <div style={{ width: 60, height: 5, background: accent, borderRadius: 3, marginTop: 40, marginBottom: 32, position: 'relative', zIndex: 1 }} />
+      {/* Location info */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: 16, marginBottom: 12, position: 'relative', zIndex: 1 }}>
+        <TypeBadge type={location.type} badgeColor={accent} size={52} />
+        <div style={{ textAlign: 'left' }}>
+          <div style={{ fontSize: tall ? 36 : 32, fontWeight: 700, color: '#00071A', fontFamily: 'Work Sans, sans-serif', lineHeight: 1.2 }}>{location.name}</div>
+          <div style={{ fontSize: 22, color: '#685F6D', fontFamily: 'Inter, sans-serif', marginTop: 4 }}>{location.country}</div>
+        </div>
+      </div>
+      {/* Episode pill */}
+      <div style={{ background: accent, color: textOn(accent), padding: '10px 28px', borderRadius: 100, fontSize: 22, fontWeight: 600, fontFamily: 'Inter, sans-serif', marginTop: 16, position: 'relative', zIndex: 1 }}>
+        {location.videoTitle}
+      </div>
+      {/* Pin row footer */}
+      <div style={{ position: 'absolute', bottom: tall ? 52 : 36, left: 0, right: 0, display: 'flex', justifyContent: 'center', zIndex: 1 }}>
+        <PinRow count={tall ? 12 : 10} size={26} gap={18} />
+      </div>
+    </div>
+  );
+}
+
+/**
+ * INFO SPLIT — Accent top band with episode + type, cream bottom with large summary
+ */
+function TemplateInfoSplit({ location, format, accent }: TP) {
+  const { w, h } = dims(format);
+  const tall = format !== 'square';
+  return (
+    <div style={{ width: w, height: h, display: 'flex', flexDirection: tall ? 'column' : 'row', overflow: 'hidden' }}>
+      {/* Accent side/top — compact header */}
+      <div style={{ flex: tall ? '0 0 auto' : '0 0 38%', background: accent, padding: tall ? '48px 64px 44px' : '48px 44px', display: 'flex', flexDirection: 'column', justifyContent: tall ? 'flex-start' : 'center', position: 'relative', overflow: 'hidden' }}>
+        <div style={{ position: 'absolute', top: -30, right: -40, pointerEvents: 'none', opacity: 0.15 }}><BlobPink size={tall ? 200 : 180} /></div>
+        <div style={{ background: textOn(accent), color: accent, padding: '8px 22px', borderRadius: 100, fontSize: 20, fontWeight: 600, fontFamily: 'Inter, sans-serif', display: 'inline-block', alignSelf: 'flex-start', marginBottom: 20, position: 'relative', zIndex: 1 }}>
+          {location.videoTitle}
+        </div>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 16, position: 'relative', zIndex: 1 }}>
+          <TypeBadge type={location.type} badgeColor={textOn(accent)} size={56} />
+          <div>
+            <div style={{ fontSize: tall ? 44 : 38, fontWeight: 700, color: textOn(accent), fontFamily: 'Work Sans, sans-serif', lineHeight: 1.15 }}>{location.name}</div>
+            <div style={{ fontSize: 22, color: subtleOn(accent), fontFamily: 'Inter, sans-serif', marginTop: 4 }}>{location.country}</div>
+          </div>
+        </div>
+      </div>
+      {/* Cream body — description fills the space */}
+      <div style={{ flex: 1, background: '#F6F5F2', padding: tall ? '44px 64px' : '48px 44px', display: 'flex', flexDirection: 'column', justifyContent: 'center', position: 'relative', overflow: 'hidden' }}>
+        <div style={{ position: 'absolute', bottom: tall ? 80 : 40, right: -10, pointerEvents: 'none', opacity: 0.25 }}><PinScatter size={tall ? 44 : 36} /></div>
+        <div style={{ fontSize: tall ? 38 : 34, color: '#00071A', fontFamily: 'Inter, sans-serif', lineHeight: 1.7, position: 'relative', zIndex: 1, display: '-webkit-box', WebkitLineClamp: tall ? 16 : 10, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
+          {location.description}
+        </div>
+        <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', marginTop: 'auto', paddingTop: 24, position: 'relative', zIndex: 1 }}>
+          <PinRow count={tall ? 6 : 4} size={24} gap={12} />
+          <Logo width={150} style={{ opacity: 0.35 }} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------------ */
 /*  TEMPLATE ROUTER                                                    */
 /* ------------------------------------------------------------------ */
 
@@ -849,6 +1008,10 @@ function Template({ variant, location, format, accent, mapZoom, nearbyLocations 
     case 'mapCard': return <TemplateMapCard {...props} />;
     case 'mapSplit': return <TemplateMapSplit {...props} />;
     case 'mapCircle': return <TemplateMapCircle {...props} />;
+    case 'infoClean': return <TemplateInfoClean {...props} />;
+    case 'infoDark': return <TemplateInfoDark {...props} />;
+    case 'infoQuote': return <TemplateInfoQuote {...props} />;
+    case 'infoSplit': return <TemplateInfoSplit {...props} />;
   }
 }
 
@@ -989,6 +1152,7 @@ export default function InstagramPage() {
                 {[
                   { key: 'photo', label: 'Photo Templates', items: VARIANTS.filter((v) => !v.group) },
                   { key: 'map', label: 'Map Templates (carousel slide)', items: VARIANTS.filter((v) => v.group === 'map') },
+                  { key: 'info', label: 'Info Templates (carousel slide)', items: VARIANTS.filter((v) => v.group === 'info') },
                 ].map((section) => (
                   <div key={section.key} style={{ marginBottom: 48 }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: 24, marginBottom: 20, flexWrap: 'wrap' }}>
