@@ -42,9 +42,10 @@ const FORMAT_DIMS: Record<Format, { w: number; h: number; label: string }> = {
 
 type VariantId =
   | 'bold' | 'split' | 'polaroid' | 'frame' | 'magazine' | 'minimal'
-  | 'overlay' | 'card' | 'duo' | 'stamp' | 'cinematic' | 'quote';
+  | 'overlay' | 'card' | 'duo' | 'stamp' | 'cinematic' | 'quote'
+  | 'mapPin' | 'mapCard' | 'mapSplit' | 'mapCircle';
 
-const VARIANTS: { id: VariantId; name: string }[] = [
+const VARIANTS: { id: VariantId; name: string; group?: string }[] = [
   { id: 'bold', name: 'Bold' },
   { id: 'split', name: 'Split' },
   { id: 'polaroid', name: 'Polaroid' },
@@ -57,6 +58,10 @@ const VARIANTS: { id: VariantId; name: string }[] = [
   { id: 'stamp', name: 'Stamp' },
   { id: 'cinematic', name: 'Cinematic' },
   { id: 'quote', name: 'Quote' },
+  { id: 'mapPin', name: 'Map Pin', group: 'map' },
+  { id: 'mapCard', name: 'Map Card', group: 'map' },
+  { id: 'mapSplit', name: 'Map Split', group: 'map' },
+  { id: 'mapCircle', name: 'Map Circle', group: 'map' },
 ];
 
 const ACCENT_COLORS = ['#C2FF4E', '#0016DE', '#FF4C19', '#FF87CD'];
@@ -67,6 +72,8 @@ interface TP {
   location: LocationWithVideo;
   format: Format;
   accent: string;
+  mapZoom?: number;
+  nearbyLocations?: LocationWithVideo[];
 }
 
 /** Resolve canvas dimensions */
@@ -564,11 +571,267 @@ function TemplateQuote({ location, format, accent }: TP) {
 }
 
 /* ------------------------------------------------------------------ */
+/*  STATIC MAP COMPONENT                                               */
+/* ------------------------------------------------------------------ */
+
+const TILE_SIZE = 256;
+const TILE_URL = 'https://a.basemaps.cartocdn.com/rastertiles/voyager';
+
+function lat2tile(lat: number, zoom: number) {
+  return (1 - Math.log(Math.tan(lat * Math.PI / 180) + 1 / Math.cos(lat * Math.PI / 180)) / Math.PI) / 2 * Math.pow(2, zoom);
+}
+function lng2tile(lng: number, zoom: number) {
+  return (lng + 180) / 360 * Math.pow(2, zoom);
+}
+
+/**
+ * Renders a static map from CARTO tiles centered on lat/lng.
+ * Returns a div of exact width x height filled with tile images.
+ * Optionally renders nearby location pins (grayed out).
+ */
+function StaticMap({ lat, lng, zoom, width, height, style, nearbyLocations }: {
+  lat: number; lng: number; zoom: number; width: number; height: number; style?: React.CSSProperties;
+  nearbyLocations?: { latitude: number; longitude: number }[];
+}) {
+  const centerTileX = lng2tile(lng, zoom);
+  const centerTileY = lat2tile(lat, zoom);
+
+  // Pixel position of center within its tile
+  const centerPixelX = (centerTileX % 1) * TILE_SIZE;
+  const centerPixelY = (centerTileY % 1) * TILE_SIZE;
+
+  const baseTileX = Math.floor(centerTileX);
+  const baseTileY = Math.floor(centerTileY);
+
+  // How many tiles we need in each direction
+  const tilesLeft = Math.ceil((width / 2 - centerPixelX) / TILE_SIZE) + 1;
+  const tilesRight = Math.ceil((width / 2 - (TILE_SIZE - centerPixelX)) / TILE_SIZE) + 1;
+  const tilesUp = Math.ceil((height / 2 - centerPixelY) / TILE_SIZE) + 1;
+  const tilesDown = Math.ceil((height / 2 - (TILE_SIZE - centerPixelY)) / TILE_SIZE) + 1;
+
+  const maxTile = Math.pow(2, zoom);
+  const tiles: { x: number; y: number; left: number; top: number }[] = [];
+
+  for (let dx = -tilesLeft; dx <= tilesRight; dx++) {
+    for (let dy = -tilesUp; dy <= tilesDown; dy++) {
+      const tx = ((baseTileX + dx) % maxTile + maxTile) % maxTile;
+      const ty = baseTileY + dy;
+      if (ty < 0 || ty >= maxTile) continue;
+      tiles.push({
+        x: tx,
+        y: ty,
+        left: width / 2 - centerPixelX + dx * TILE_SIZE,
+        top: height / 2 - centerPixelY + dy * TILE_SIZE,
+      });
+    }
+  }
+
+  return (
+    <div style={{ width, height, position: 'relative', overflow: 'hidden', ...style }}>
+      {tiles.map((t) => (
+        <img
+          key={`${t.x}-${t.y}`}
+          src={`${TILE_URL}/${zoom}/${t.x}/${t.y}@2x.png`}
+          alt=""
+          crossOrigin="anonymous"
+          style={{
+            position: 'absolute',
+            left: t.left,
+            top: t.top,
+            width: TILE_SIZE,
+            height: TILE_SIZE,
+            imageRendering: 'auto',
+          }}
+        />
+      ))}
+      {/* Nearby location pins (grayed out) */}
+      {nearbyLocations?.map((nl, i) => {
+        const nlTileX = lng2tile(nl.longitude, zoom);
+        const nlTileY = lat2tile(nl.latitude, zoom);
+        const px = width / 2 + (nlTileX - centerTileX) * TILE_SIZE;
+        const py = height / 2 + (nlTileY - centerTileY) * TILE_SIZE;
+        // Skip if outside visible area (with margin)
+        if (px < -30 || px > width + 30 || py < -30 || py > height + 30) return null;
+        return (
+          <div key={i} style={{ position: 'absolute', left: px, top: py, transform: 'translate(-50%, -85%)', opacity: 0.55 }}>
+            <Pin color="#685F6D" dotColor="#E1DEE2" size={42} />
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/*  MAP TEMPLATES                                                      */
+/* ------------------------------------------------------------------ */
+
+/**
+ * MAP PIN — Full map with large branded pin centered, name + country bar at bottom
+ */
+function TemplateMapPin({ location, format, accent, mapZoom = 12, nearbyLocations }: TP) {
+  const { w, h } = dims(format);
+  const tall = format !== 'square';
+  return (
+    <div style={{ width: w, height: h, position: 'relative', overflow: 'hidden' }}>
+      <StaticMap lat={location.latitude} lng={location.longitude} zoom={mapZoom} width={w} height={h} nearbyLocations={nearbyLocations} />
+      {/* Large pin at center */}
+      <div style={{ position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%, -85%)' }}>
+        <Pin color={accent} dotColor={pinDot(accent)} size={120} />
+      </div>
+      {/* Bottom bar */}
+      <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, background: '#00071A', padding: tall ? '44px 60px' : '36px 56px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 20 }}>
+          <TypeBadge type={location.type} badgeColor={accent} size={64} />
+          <div>
+            <div style={{ fontSize: tall ? 48 : 42, fontWeight: 700, color: '#fff', fontFamily: 'Work Sans, sans-serif', lineHeight: 1.15 }}>{location.name}</div>
+            <div style={{ fontSize: 26, color: 'rgba(255,255,255,0.55)', fontFamily: 'Inter, sans-serif', marginTop: 6 }}>{location.country}</div>
+          </div>
+        </div>
+        <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', marginTop: 24 }}>
+          <PinRow count={5} size={24} gap={12} />
+          <Logo width={150} style={{ opacity: 0.4 }} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/**
+ * MAP CARD — Map background, floating white card with name/type/summary
+ */
+function TemplateMapCard({ location, format, accent, mapZoom = 11, nearbyLocations }: TP) {
+  const { w, h } = dims(format);
+  const tall = format !== 'square';
+  const cardW = w - 120;
+  return (
+    <div style={{ width: w, height: h, position: 'relative', overflow: 'hidden' }}>
+      <StaticMap lat={location.latitude} lng={location.longitude} zoom={mapZoom} width={w} height={h} nearbyLocations={nearbyLocations} />
+      {/* Pin above the card */}
+      <div style={{ position: 'absolute', left: '50%', top: tall ? '28%' : '22%', transform: 'translate(-50%, -85%)' }}>
+        <Pin color={accent} dotColor={pinDot(accent)} size={90} />
+      </div>
+      {/* Card at bottom */}
+      <div style={{ position: 'absolute', bottom: tall ? 60 : 48, left: 60, right: 60 }}>
+        <div style={{ background: 'rgba(255,255,255,0.96)', borderRadius: 28, padding: tall ? '44px 48px' : '36px 44px', boxShadow: '0 12px 48px rgba(0,0,0,0.15)' }}>
+          {/* Accent top line */}
+          <div style={{ position: 'absolute', top: 0, left: 48, right: 48, height: 5, background: accent, borderRadius: '0 0 3px 3px' }} />
+          <div style={{ display: 'flex', alignItems: 'center', gap: 18, marginBottom: 16 }}>
+            <TypeBadge type={location.type} badgeColor={accent} size={58} />
+            <div>
+              <div style={{ fontSize: tall ? 44 : 38, fontWeight: 700, color: '#00071A', fontFamily: 'Work Sans, sans-serif', lineHeight: 1.15 }}>{location.name}</div>
+              <div style={{ fontSize: 24, color: '#685F6D', fontFamily: 'Inter, sans-serif', marginTop: 4 }}>{location.country} · {TYPE_LABELS[location.type]}</div>
+            </div>
+          </div>
+          {location.summary && (
+            <div style={{ fontSize: 23, color: '#B4ADB8', fontFamily: 'Inter, sans-serif', lineHeight: 1.55, display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden', marginBottom: 16 }}>{location.summary}</div>
+          )}
+          <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between' }}>
+            <PinRow count={4} size={20} gap={10} />
+            <Logo width={130} style={{ opacity: 0.3 }} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/**
+ * MAP SPLIT — Left/top map with pin, right/bottom accent panel with info
+ */
+function TemplateMapSplit({ location, format, accent, mapZoom = 11, nearbyLocations }: TP) {
+  const { w, h } = dims(format);
+  const vertical = format === 'story';
+  return (
+    <div style={{ width: w, height: h, display: 'flex', flexDirection: vertical ? 'column' : 'row', overflow: 'hidden' }}>
+      {/* Map side */}
+      <div style={{ flex: vertical ? '0 0 55%' : '0 0 55%', position: 'relative' }}>
+        <StaticMap
+          lat={location.latitude}
+          lng={location.longitude}
+          zoom={mapZoom}
+          width={vertical ? w : w * 0.55}
+          height={vertical ? h * 0.55 : h}
+          nearbyLocations={nearbyLocations}
+        />
+        {/* Pin at center of map */}
+        <div style={{ position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%, -85%)' }}>
+          <Pin color={accent} dotColor={pinDot(accent)} size={80} />
+        </div>
+      </div>
+      {/* Info side */}
+      <div style={{ flex: 1, background: accent, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: vertical ? '44px 56px' : '44px 48px', position: 'relative', overflow: 'hidden' }}>
+        <div style={{ position: 'absolute', top: -30, right: -40, pointerEvents: 'none', opacity: 0.15 }}>
+          <BlobPink size={vertical ? 220 : 180} />
+        </div>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 16, marginBottom: 24, position: 'relative', zIndex: 1 }}>
+          <TypeBadge type={location.type} badgeColor={textOn(accent)} size={56} />
+          <span style={{ fontSize: 24, fontWeight: 600, color: subtleOn(accent), fontFamily: 'Inter, sans-serif' }}>{TYPE_LABELS[location.type]}</span>
+        </div>
+        <div style={{ fontSize: vertical ? 52 : 46, fontWeight: 700, color: textOn(accent), fontFamily: 'Work Sans, sans-serif', lineHeight: 1.15, marginBottom: 16, position: 'relative', zIndex: 1 }}>{location.name}</div>
+        <div style={{ fontSize: 26, color: subtleOn(accent), fontFamily: 'Inter, sans-serif', position: 'relative', zIndex: 1 }}>{location.country}</div>
+        {location.summary && (
+          <div style={{ fontSize: 23, color: textOn(accent), opacity: 0.55, fontFamily: 'Inter, sans-serif', lineHeight: 1.55, marginTop: 20, display: '-webkit-box', WebkitLineClamp: vertical ? 3 : 2, WebkitBoxOrient: 'vertical', overflow: 'hidden', position: 'relative', zIndex: 1 }}>{location.summary}</div>
+        )}
+        <div style={{ marginTop: 'auto', paddingTop: 28, display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', position: 'relative', zIndex: 1 }}>
+          <PinRow count={vertical ? 4 : 3} size={24} gap={12} />
+          <Logo width={140} style={{ opacity: accent === '#C2FF4E' ? 0.25 : 0.45, filter: accent === '#C2FF4E' ? 'none' : 'brightness(10)' }} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/**
+ * MAP CIRCLE — Cream bg, map in large circle, text above/below, pin decorations
+ */
+function TemplateMapCircle({ location, format, accent, mapZoom = 12, nearbyLocations }: TP) {
+  const { w, h } = dims(format);
+  const tall = format !== 'square';
+  const circleSize = tall ? 700 : 620;
+  return (
+    <div style={{ width: w, height: h, background: '#F6F5F2', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', position: 'relative', overflow: 'hidden' }}>
+      {/* Blob decoration */}
+      <div style={{ position: 'absolute', top: -50, right: -60, pointerEvents: 'none' }}>
+        <BlobPink size={tall ? 280 : 240} />
+      </div>
+      <div style={{ position: 'absolute', bottom: tall ? 120 : 60, left: 20, pointerEvents: 'none', opacity: 0.3 }}>
+        <PinScatter size={tall ? 44 : 36} />
+      </div>
+      {/* Type + label above */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 28, position: 'relative', zIndex: 1 }}>
+        <TypeBadge type={location.type} badgeColor={accent} size={52} />
+        <span style={{ fontSize: 26, fontWeight: 600, color: '#685F6D', fontFamily: 'Inter, sans-serif' }}>{TYPE_LABELS[location.type]}</span>
+      </div>
+      {/* Name above circle */}
+      <div style={{ fontSize: tall ? 56 : 48, fontWeight: 700, color: '#00071A', fontFamily: 'Work Sans, sans-serif', textAlign: 'center', lineHeight: 1.15, marginBottom: 36, maxWidth: w - 120, position: 'relative', zIndex: 1 }}>{location.name}</div>
+      {/* Map circle */}
+      <div style={{ width: circleSize, height: circleSize, borderRadius: '50%', overflow: 'hidden', boxShadow: '0 12px 48px rgba(0,0,0,0.1)', border: `6px solid ${accent}`, position: 'relative', zIndex: 1 }}>
+        <StaticMap lat={location.latitude} lng={location.longitude} zoom={mapZoom} width={circleSize} height={circleSize} nearbyLocations={nearbyLocations} />
+        {/* Pin at center */}
+        <div style={{ position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%, -85%)' }}>
+          <Pin color={accent} dotColor={pinDot(accent)} size={72} />
+        </div>
+      </div>
+      {/* Country below */}
+      <div style={{ marginTop: 28, display: 'flex', alignItems: 'center', gap: 12, position: 'relative', zIndex: 1 }}>
+        <Pin color={accent} dotColor={pinDot(accent)} size={28} />
+        <span style={{ fontSize: 28, color: '#685F6D', fontFamily: 'Inter, sans-serif', fontWeight: 500 }}>{location.country}</span>
+      </div>
+      {/* Pin row footer */}
+      <div style={{ position: 'absolute', bottom: tall ? 52 : 36, left: 0, right: 0, display: 'flex', justifyContent: 'center', zIndex: 1 }}>
+        <PinRow count={tall ? 12 : 10} size={26} gap={18} />
+      </div>
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------------ */
 /*  TEMPLATE ROUTER                                                    */
 /* ------------------------------------------------------------------ */
 
-function Template({ variant, location, format, accent }: { variant: VariantId; location: LocationWithVideo; format: Format; accent: string }) {
-  const props = { location, format, accent };
+function Template({ variant, location, format, accent, mapZoom, nearbyLocations }: { variant: VariantId; location: LocationWithVideo; format: Format; accent: string; mapZoom?: number; nearbyLocations?: LocationWithVideo[] }) {
+  const props = { location, format, accent, mapZoom, nearbyLocations };
   switch (variant) {
     case 'bold': return <TemplateBold {...props} />;
     case 'split': return <TemplateSplit {...props} />;
@@ -582,6 +845,10 @@ function Template({ variant, location, format, accent }: { variant: VariantId; l
     case 'stamp': return <TemplateStamp {...props} />;
     case 'cinematic': return <TemplateCinematic {...props} />;
     case 'quote': return <TemplateQuote {...props} />;
+    case 'mapPin': return <TemplateMapPin {...props} />;
+    case 'mapCard': return <TemplateMapCard {...props} />;
+    case 'mapSplit': return <TemplateMapSplit {...props} />;
+    case 'mapCircle': return <TemplateMapCircle {...props} />;
   }
 }
 
@@ -595,10 +862,18 @@ export default function InstagramPage() {
   const [format, setFormat] = useState<Format>('portrait');
   const [accentIdx, setAccentIdx] = useState(0);
   const [downloading, setDownloading] = useState<string | null>(null);
+  const [mapZoom, setMapZoom] = useState(12);
+  const [showNearby, setShowNearby] = useState(false);
   const templateRefs = useRef<Record<string, HTMLDivElement | null>>({});
 
   const accent = ACCENT_COLORS[accentIdx];
   const { w: canvasW, h: canvasH } = dims(format);
+
+  // Compute nearby locations (exclude the selected one)
+  const nearbyLocations = React.useMemo(() => {
+    if (!showNearby || !selectedLocation) return undefined;
+    return allLocations.filter((l) => l.id !== selectedLocation.id);
+  }, [showNearby, selectedLocation]);
 
   const filtered = search.trim()
     ? allLocations
@@ -710,29 +985,66 @@ export default function InstagramPage() {
             {!selectedLocation ? (
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%', color: '#B4ADB8', fontSize: 18 }}>Wybierz miejsce z listy po lewej</div>
             ) : (
-              <div style={{ display: 'grid', gridTemplateColumns: `repeat(auto-fill, minmax(${canvasW * scale + 16}px, 1fr))`, gap: 32 }}>
-                {VARIANTS.map((v) => (
-                  <div key={v.id} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                    <div style={{ marginBottom: 12, display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%', maxWidth: canvasW * scale }}>
-                      <span style={{ fontSize: 16, fontWeight: 700, color: '#00071A', fontFamily: 'Work Sans, sans-serif' }}>{v.name}</span>
-                      <button
-                        onClick={() => handleDownload(v.id)}
-                        disabled={downloading === v.id}
-                        style={{ padding: '6px 18px', borderRadius: 100, border: 'none', background: '#00071A', color: '#fff', fontSize: 13, fontWeight: 600, cursor: 'pointer', opacity: downloading === v.id ? 0.5 : 1 }}
-                      >
-                        {downloading === v.id ? 'Generuję...' : '↓ PNG'}
-                      </button>
+              <>
+                {[
+                  { key: 'photo', label: 'Photo Templates', items: VARIANTS.filter((v) => !v.group) },
+                  { key: 'map', label: 'Map Templates (carousel slide)', items: VARIANTS.filter((v) => v.group === 'map') },
+                ].map((section) => (
+                  <div key={section.key} style={{ marginBottom: 48 }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: 24, marginBottom: 20, flexWrap: 'wrap' }}>
+                      <div style={{ fontSize: 13, fontWeight: 700, color: '#B4ADB8', fontFamily: 'Work Sans, sans-serif', textTransform: 'uppercase', letterSpacing: 2 }}>{section.label}</div>
+                      {section.key === 'map' && (
+                        <>
+                          <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                            <span style={{ fontSize: 12, color: '#685F6D', fontWeight: 600 }}>Zoom</span>
+                            <input
+                              type="range"
+                              min={4}
+                              max={16}
+                              value={mapZoom}
+                              onChange={(e) => setMapZoom(Number(e.target.value))}
+                              style={{ width: 120, accentColor: '#0016DE' }}
+                            />
+                            <span style={{ fontSize: 12, color: '#685F6D', fontFamily: 'monospace', minWidth: 20 }}>{mapZoom}</span>
+                          </div>
+                          <label style={{ display: 'flex', alignItems: 'center', gap: 8, cursor: 'pointer', fontSize: 12, color: '#685F6D', fontWeight: 600 }}>
+                            <input
+                              type="checkbox"
+                              checked={showNearby}
+                              onChange={(e) => setShowNearby(e.target.checked)}
+                              style={{ accentColor: '#0016DE', width: 16, height: 16 }}
+                            />
+                            Inne lokalizacje
+                          </label>
+                        </>
+                      )}
                     </div>
-                    <div style={{ width: canvasW * scale, height: canvasH * scale, overflow: 'hidden', borderRadius: 12, boxShadow: '0 4px 24px rgba(0,0,0,0.1)' }}>
-                      <div style={{ transform: `scale(${scale})`, transformOrigin: 'top left', width: canvasW, height: canvasH }}>
-                        <div ref={(el) => { templateRefs.current[v.id] = el; }}>
-                          <Template variant={v.id} location={selectedLocation} format={format} accent={accent} />
+                    <div style={{ display: 'grid', gridTemplateColumns: `repeat(auto-fill, minmax(${canvasW * scale + 16}px, 1fr))`, gap: 32 }}>
+                      {section.items.map((v) => (
+                        <div key={v.id} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                          <div style={{ marginBottom: 12, display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%', maxWidth: canvasW * scale }}>
+                            <span style={{ fontSize: 16, fontWeight: 700, color: '#00071A', fontFamily: 'Work Sans, sans-serif' }}>{v.name}</span>
+                            <button
+                              onClick={() => handleDownload(v.id)}
+                              disabled={downloading === v.id}
+                              style={{ padding: '6px 18px', borderRadius: 100, border: 'none', background: '#00071A', color: '#fff', fontSize: 13, fontWeight: 600, cursor: 'pointer', opacity: downloading === v.id ? 0.5 : 1 }}
+                            >
+                              {downloading === v.id ? 'Generuję...' : '↓ PNG'}
+                            </button>
+                          </div>
+                          <div style={{ width: canvasW * scale, height: canvasH * scale, overflow: 'hidden', borderRadius: 12, boxShadow: '0 4px 24px rgba(0,0,0,0.1)' }}>
+                            <div style={{ transform: `scale(${scale})`, transformOrigin: 'top left', width: canvasW, height: canvasH }}>
+                              <div ref={(el) => { templateRefs.current[v.id] = el; }}>
+                                <Template variant={v.id} location={selectedLocation} format={format} accent={accent} {...(v.group === 'map' ? { mapZoom, nearbyLocations } : {})} />
+                              </div>
+                            </div>
+                          </div>
                         </div>
-                      </div>
+                      ))}
                     </div>
                   </div>
                 ))}
-              </div>
+              </>
             )}
           </div>
         </div>
