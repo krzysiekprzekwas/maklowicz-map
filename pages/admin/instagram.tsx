@@ -720,7 +720,6 @@ function TemplateMapPin({ location, format, accent, mapZoom = 12, nearbyLocation
 function TemplateMapCard({ location, format, accent, mapZoom = 11, nearbyLocations }: TP) {
   const { w, h } = dims(format);
   const tall = format !== 'square';
-  const cardW = w - 120;
   return (
     <div style={{ width: w, height: h, position: 'relative', overflow: 'hidden' }}>
       <StaticMap lat={location.latitude} lng={location.longitude} zoom={mapZoom} width={w} height={h} nearbyLocations={nearbyLocations} />
@@ -1004,7 +1003,7 @@ function TemplateInfoSplit({ location, format, accent }: TP) {
 /**
  * CTA CLEAN — Big logo, URL, clean branded design
  */
-function TemplateCtaClean({ location, format, accent }: TP) {
+function TemplateCtaClean({ format, accent }: TP) {
   const { w, h } = dims(format);
   const tall = format !== 'square';
   return (
@@ -1071,7 +1070,7 @@ function TemplateCtaCountry({ location, format, accent }: TP) {
 /**
  * CTA GLOBAL — "Odkryj X lokalizacji na całym świecie"
  */
-function TemplateCtaGlobal({ location, format, accent }: TP) {
+function TemplateCtaGlobal({ format, accent }: TP) {
   const { w, h } = dims(format);
   const tall = format !== 'square';
   return (
@@ -1105,7 +1104,7 @@ function TemplateCtaGlobal({ location, format, accent }: TP) {
 /**
  * CTA STATS — Stats grid (locations, countries, episodes) + logo + URL
  */
-function TemplateCtaStats({ location, format, accent }: TP) {
+function TemplateCtaStats({ format, accent }: TP) {
   const { w, h } = dims(format);
   const tall = format !== 'square';
   const stats = [
@@ -1190,7 +1189,6 @@ export default function InstagramPage() {
   const [downloading, setDownloading] = useState<string | null>(null);
   const [mapZoom, setMapZoom] = useState(12);
   const [showNearby, setShowNearby] = useState(false);
-  const templateRefs = useRef<Record<string, HTMLDivElement | null>>({});
 
   const accent = ACCENT_COLORS[accentIdx];
   const { w: canvasW, h: canvasH } = dims(format);
@@ -1211,13 +1209,50 @@ export default function InstagramPage() {
         .slice(0, 50)
     : allLocations.slice(0, 50);
 
+  const downloadContainerRef = useRef<HTMLDivElement>(null);
+
   const handleDownload = useCallback(
     async (variantId: string) => {
-      const el = templateRefs.current[variantId];
-      if (!el || !selectedLocation) return;
+      if (!selectedLocation || !downloadContainerRef.current) return;
       setDownloading(variantId);
       try {
-        const canvas = await html2canvas(el, { scale: 1, useCORS: true, allowTaint: true, backgroundColor: null });
+        const container = downloadContainerRef.current;
+        // Render template at full size into the hidden container
+        const { createRoot } = await import('react-dom/client');
+        const wrapper = document.createElement('div');
+        wrapper.style.width = `${canvasW}px`;
+        wrapper.style.height = `${canvasH}px`;
+        container.appendChild(wrapper);
+
+        const variant = variantId as VariantId;
+        const isMap = VARIANTS.find(v => v.id === variant)?.group === 'map';
+        const root = createRoot(wrapper);
+        await new Promise<void>((resolve) => {
+          root.render(
+            <Template
+              variant={variant}
+              location={selectedLocation}
+              format={format}
+              accent={accent}
+              {...(isMap ? { mapZoom, nearbyLocations } : {})}
+            />
+          );
+          // Wait for images to load
+          setTimeout(resolve, 1500);
+        });
+
+        const canvas = await html2canvas(wrapper, {
+          scale: 1,
+          useCORS: true,
+          allowTaint: true,
+          backgroundColor: null,
+          width: canvasW,
+          height: canvasH,
+        });
+
+        root.unmount();
+        container.removeChild(wrapper);
+
         const link = document.createElement('a');
         const slug = selectedLocation.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').slice(0, 40);
         link.download = `ig-${variantId}-${format}-${slug}.png`;
@@ -1230,7 +1265,7 @@ export default function InstagramPage() {
         setDownloading(null);
       }
     },
-    [selectedLocation, format]
+    [selectedLocation, format, accent, canvasW, canvasH, mapZoom, nearbyLocations]
   );
 
   const scale = format === 'story' ? 0.26 : format === 'portrait' ? 0.3 : 0.35;
@@ -1238,6 +1273,8 @@ export default function InstagramPage() {
   return (
     <>
       <Head><title>Instagram Templates – Admin</title></Head>
+      {/* Hidden off-screen container for full-size rendering during download */}
+      <div ref={downloadContainerRef} style={{ position: 'fixed', left: '-9999px', top: 0, zIndex: -1 }} />
       <div style={{ minHeight: '100vh', background: '#F6F5F2', fontFamily: 'Inter, sans-serif' }}>
         {/* Header */}
         <div style={{ background: '#00071A', color: '#fff', padding: '20px 32px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
@@ -1360,9 +1397,9 @@ export default function InstagramPage() {
                               {downloading === v.id ? 'Generuję...' : '↓ PNG'}
                             </button>
                           </div>
-                          <div style={{ width: canvasW * scale, height: canvasH * scale, overflow: 'hidden', borderRadius: 12, boxShadow: '0 4px 24px rgba(0,0,0,0.1)' }}>
+                          <div style={{ width: canvasW * scale, height: canvasH * scale, overflow: 'hidden', boxShadow: '0 4px 24px rgba(0,0,0,0.1)' }}>
                             <div style={{ transform: `scale(${scale})`, transformOrigin: 'top left', width: canvasW, height: canvasH }}>
-                              <div ref={(el) => { templateRefs.current[v.id] = el; }}>
+                              <div>
                                 <Template variant={v.id} location={selectedLocation} format={format} accent={accent} {...(v.group === 'map' ? { mapZoom, nearbyLocations } : {})} />
                               </div>
                             </div>
