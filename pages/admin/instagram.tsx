@@ -6,6 +6,13 @@ import type { LocationData, Location } from '../../types/Location';
 
 const typedData = locationData as LocationData;
 
+const everyLocation = typedData.videos.flatMap((v) => v.locations);
+const totalLocationCount = everyLocation.length;
+const totalCountryCount = new Set(everyLocation.map((l) => l.country)).size;
+const totalEpisodeCount = typedData.videos.filter((v) => v.locations?.length > 0).length;
+const countryLocationCounts: Record<string, number> = {};
+everyLocation.forEach((l) => { countryLocationCounts[l.country] = (countryLocationCounts[l.country] || 0) + 1; });
+
 const allLocations = typedData.videos
   .flatMap((v) => v.locations.map((l) => ({ ...l, videoTitle: v.filterTitle })))
   .filter((l) => !!l.image);
@@ -44,7 +51,8 @@ type VariantId =
   | 'bold' | 'split' | 'polaroid' | 'frame' | 'magazine' | 'minimal'
   | 'overlay' | 'card' | 'duo' | 'stamp' | 'cinematic' | 'quote'
   | 'mapPin' | 'mapCard' | 'mapSplit' | 'mapCircle'
-  | 'infoClean' | 'infoDark' | 'infoQuote' | 'infoSplit';
+  | 'infoClean' | 'infoDark' | 'infoQuote' | 'infoSplit'
+  | 'ctaClean' | 'ctaCountry' | 'ctaGlobal' | 'ctaStats';
 
 const VARIANTS: { id: VariantId; name: string; group?: string }[] = [
   { id: 'bold', name: 'Bold' },
@@ -67,6 +75,10 @@ const VARIANTS: { id: VariantId; name: string; group?: string }[] = [
   { id: 'infoDark', name: 'Info Dark', group: 'info' },
   { id: 'infoQuote', name: 'Info Quote', group: 'info' },
   { id: 'infoSplit', name: 'Info Split', group: 'info' },
+  { id: 'ctaClean', name: 'CTA Clean', group: 'cta' },
+  { id: 'ctaCountry', name: 'CTA Country', group: 'cta' },
+  { id: 'ctaGlobal', name: 'CTA Global', group: 'cta' },
+  { id: 'ctaStats', name: 'CTA Stats', group: 'cta' },
 ];
 
 const ACCENT_COLORS = ['#C2FF4E', '#0016DE', '#FF4C19', '#FF87CD'];
@@ -986,6 +998,153 @@ function TemplateInfoSplit({ location, format, accent }: TP) {
 }
 
 /* ------------------------------------------------------------------ */
+/*  CTA TEMPLATES (last carousel slide)                                */
+/* ------------------------------------------------------------------ */
+
+/**
+ * CTA CLEAN — Big logo, URL, clean branded design
+ */
+function TemplateCtaClean({ location, format, accent }: TP) {
+  const { w, h } = dims(format);
+  const tall = format !== 'square';
+  return (
+    <div style={{ width: w, height: h, background: '#F6F5F2', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', position: 'relative', overflow: 'hidden' }}>
+      <div style={{ position: 'absolute', top: -50, right: -60, pointerEvents: 'none' }}><BlobPink size={tall ? 340 : 280} /></div>
+      <div style={{ position: 'absolute', bottom: tall ? 160 : 100, left: -10, pointerEvents: 'none', opacity: 0.3 }}><PinScatter size={tall ? 52 : 42} /></div>
+      {/* Logo */}
+      <Logo width={tall ? 520 : 480} style={{ marginBottom: 48, position: 'relative', zIndex: 1 }} />
+      {/* Tagline */}
+      <div style={{ fontSize: tall ? 44 : 38, fontWeight: 300, color: '#00071A', fontFamily: 'Work Sans, sans-serif', textAlign: 'center', lineHeight: 1.4, maxWidth: w - 160, position: 'relative', zIndex: 1, marginBottom: 48 }}>
+        Odkrywaj miejsca, historie i smaki znane z podróży <span style={{ fontWeight: 700 }}>Roberta Makłowicza</span>
+      </div>
+      {/* URL button */}
+      <div style={{ background: accent, color: textOn(accent), padding: '20px 48px', borderRadius: 100, fontSize: 32, fontWeight: 700, fontFamily: 'Work Sans, sans-serif', position: 'relative', zIndex: 1 }}>
+        sladami-maklowicza.pl
+      </div>
+      {/* Pin row */}
+      <div style={{ position: 'absolute', bottom: tall ? 60 : 40, left: 0, right: 0, display: 'flex', justifyContent: 'center', zIndex: 1 }}>
+        <PinRow count={tall ? 14 : 12} size={28} gap={18} />
+      </div>
+    </div>
+  );
+}
+
+/**
+ * CTA COUNTRY — "Odkryj tę i X innych miejsc w [country]"
+ */
+function TemplateCtaCountry({ location, format, accent }: TP) {
+  const { w, h } = dims(format);
+  const tall = format !== 'square';
+  const countryCount = countryLocationCounts[location.country] || 0;
+  const otherCount = Math.max(0, countryCount - 1);
+  const accentText = accent === '#C2FF4E' ? '#0016DE' : accent;
+  return (
+    <div style={{ width: w, height: h, background: '#F6F5F2', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: tall ? '80px 72px' : '60px 64px', position: 'relative', overflow: 'hidden' }}>
+      {/* Blobs */}
+      <div style={{ position: 'absolute', top: -50, right: -60, pointerEvents: 'none' }}><BlobPink size={tall ? 320 : 270} /></div>
+      <div style={{ position: 'absolute', bottom: tall ? 140 : 80, left: -10, pointerEvents: 'none', opacity: 0.3 }}><PinScatter size={tall ? 52 : 42} /></div>
+      {/* Logo */}
+      <Logo width={tall ? 440 : 400} style={{ marginBottom: 56, position: 'relative', zIndex: 1 }} />
+      {/* Big country count */}
+      <div style={{ fontSize: tall ? 120 : 100, fontWeight: 700, color: accentText, fontFamily: 'Work Sans, sans-serif', lineHeight: 1, position: 'relative', zIndex: 1 }}>
+        {otherCount}+
+      </div>
+      {/* Main CTA text */}
+      <div style={{ fontSize: tall ? 46 : 40, fontWeight: 700, color: '#00071A', fontFamily: 'Work Sans, sans-serif', textAlign: 'center', lineHeight: 1.35, maxWidth: w - 140, position: 'relative', zIndex: 1, marginTop: 12, marginBottom: 16 }}>
+        miejsc do odkrycia w&nbsp;{location.country}
+      </div>
+      <div style={{ fontSize: 28, color: '#B4ADB8', fontFamily: 'Inter, sans-serif', textAlign: 'center', position: 'relative', zIndex: 1, marginBottom: 48 }}>
+        Restauracje, atrakcje, muzea i więcej — wszystko na jednej mapie
+      </div>
+      {/* URL button */}
+      <div style={{ background: '#00071A', color: '#fff', padding: '20px 48px', borderRadius: 100, fontSize: 32, fontWeight: 700, fontFamily: 'Work Sans, sans-serif', position: 'relative', zIndex: 1 }}>
+        sladami-maklowicza.pl
+      </div>
+      {/* Pin row */}
+      <div style={{ position: 'absolute', bottom: tall ? 60 : 40, left: 0, right: 0, display: 'flex', justifyContent: 'center', zIndex: 1 }}>
+        <PinRow count={tall ? 14 : 12} size={28} gap={18} />
+      </div>
+    </div>
+  );
+}
+
+/**
+ * CTA GLOBAL — "Odkryj X lokalizacji na całym świecie"
+ */
+function TemplateCtaGlobal({ location, format, accent }: TP) {
+  const { w, h } = dims(format);
+  const tall = format !== 'square';
+  return (
+    <div style={{ width: w, height: h, background: accent, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: tall ? '80px 72px' : '60px 64px', position: 'relative', overflow: 'hidden' }}>
+      {/* Blob */}
+      <div style={{ position: 'absolute', top: -40, right: -60, pointerEvents: 'none', opacity: 0.15 }}><BlobPink size={tall ? 320 : 260} /></div>
+      {/* Logo */}
+      <Logo width={tall ? 460 : 420} style={{ marginBottom: 56, position: 'relative', zIndex: 1, filter: accent === '#C2FF4E' ? 'none' : 'brightness(10)' }} />
+      {/* Big number */}
+      <div style={{ fontSize: tall ? 140 : 120, fontWeight: 700, color: textOn(accent), fontFamily: 'Work Sans, sans-serif', lineHeight: 1, position: 'relative', zIndex: 1, opacity: 0.9 }}>
+        {totalLocationCount}
+      </div>
+      <div style={{ fontSize: tall ? 40 : 34, fontWeight: 600, color: textOn(accent), fontFamily: 'Work Sans, sans-serif', textAlign: 'center', lineHeight: 1.35, maxWidth: w - 160, position: 'relative', zIndex: 1, marginTop: 8, marginBottom: 16 }}>
+        miejsc do odkrycia na całym świecie
+      </div>
+      <div style={{ fontSize: 26, color: subtleOn(accent), fontFamily: 'Inter, sans-serif', textAlign: 'center', position: 'relative', zIndex: 1, marginBottom: 48 }}>
+        {totalCountryCount} krajów · {totalEpisodeCount} odcinków
+      </div>
+      {/* URL */}
+      <div style={{ background: textOn(accent), color: accent, padding: '20px 48px', borderRadius: 100, fontSize: 32, fontWeight: 700, fontFamily: 'Work Sans, sans-serif', position: 'relative', zIndex: 1 }}>
+        sladami-maklowicza.pl
+      </div>
+      {/* Pin row */}
+      <div style={{ position: 'absolute', bottom: tall ? 60 : 40, left: 0, right: 0, display: 'flex', justifyContent: 'center', zIndex: 1 }}>
+        <PinRow count={tall ? 14 : 12} size={28} gap={18} />
+      </div>
+    </div>
+  );
+}
+
+/**
+ * CTA STATS — Stats grid (locations, countries, episodes) + logo + URL
+ */
+function TemplateCtaStats({ location, format, accent }: TP) {
+  const { w, h } = dims(format);
+  const tall = format !== 'square';
+  const stats = [
+    { value: totalLocationCount, label: 'Miejsc' },
+    { value: totalCountryCount, label: 'Krajów' },
+    { value: totalEpisodeCount, label: 'Odcinków' },
+  ];
+  return (
+    <div style={{ width: w, height: h, background: '#F6F5F2', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: tall ? '80px 64px' : '56px 56px', position: 'relative', overflow: 'hidden' }}>
+      <div style={{ position: 'absolute', top: -50, right: -60, pointerEvents: 'none' }}><BlobPink size={tall ? 300 : 250} /></div>
+      <div style={{ position: 'absolute', bottom: tall ? 140 : 80, left: -10, pointerEvents: 'none', opacity: 0.25 }}><PinScatter size={tall ? 48 : 38} /></div>
+      {/* Logo */}
+      <Logo width={tall ? 420 : 380} style={{ marginBottom: tall ? 56 : 44, position: 'relative', zIndex: 1 }} />
+      {/* Stats row */}
+      <div style={{ display: 'flex', gap: tall ? 48 : 36, marginBottom: tall ? 48 : 36, position: 'relative', zIndex: 1 }}>
+        {stats.map((s) => (
+          <div key={s.label} style={{ textAlign: 'center' }}>
+            <div style={{ fontSize: tall ? 72 : 60, fontWeight: 700, color: accent === '#C2FF4E' ? '#00071A' : accent, fontFamily: 'Work Sans, sans-serif', lineHeight: 1.1 }}>{s.value}</div>
+            <div style={{ fontSize: tall ? 24 : 20, color: '#685F6D', fontFamily: 'Inter, sans-serif', fontWeight: 600, marginTop: 4, textTransform: 'uppercase', letterSpacing: 2 }}>{s.label}</div>
+          </div>
+        ))}
+      </div>
+      {/* Tagline */}
+      <div style={{ fontSize: tall ? 36 : 30, fontWeight: 300, color: '#00071A', fontFamily: 'Work Sans, sans-serif', textAlign: 'center', lineHeight: 1.45, maxWidth: w - 160, position: 'relative', zIndex: 1, marginBottom: 44 }}>
+        Znajdź najlepsze restauracje, atrakcje i ukryte perełki <span style={{ fontWeight: 700 }}>Roberta Makłowicza</span>
+      </div>
+      {/* URL button */}
+      <div style={{ background: '#00071A', color: '#fff', padding: '20px 48px', borderRadius: 100, fontSize: 32, fontWeight: 700, fontFamily: 'Work Sans, sans-serif', position: 'relative', zIndex: 1 }}>
+        sladami-maklowicza.pl
+      </div>
+      {/* Pin row */}
+      <div style={{ position: 'absolute', bottom: tall ? 56 : 36, left: 0, right: 0, display: 'flex', justifyContent: 'center', zIndex: 1 }}>
+        <PinRow count={tall ? 14 : 12} size={28} gap={18} />
+      </div>
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------------ */
 /*  TEMPLATE ROUTER                                                    */
 /* ------------------------------------------------------------------ */
 
@@ -1012,6 +1171,10 @@ function Template({ variant, location, format, accent, mapZoom, nearbyLocations 
     case 'infoDark': return <TemplateInfoDark {...props} />;
     case 'infoQuote': return <TemplateInfoQuote {...props} />;
     case 'infoSplit': return <TemplateInfoSplit {...props} />;
+    case 'ctaClean': return <TemplateCtaClean {...props} />;
+    case 'ctaCountry': return <TemplateCtaCountry {...props} />;
+    case 'ctaGlobal': return <TemplateCtaGlobal {...props} />;
+    case 'ctaStats': return <TemplateCtaStats {...props} />;
   }
 }
 
@@ -1153,6 +1316,7 @@ export default function InstagramPage() {
                   { key: 'photo', label: 'Photo Templates', items: VARIANTS.filter((v) => !v.group) },
                   { key: 'map', label: 'Map Templates (carousel slide)', items: VARIANTS.filter((v) => v.group === 'map') },
                   { key: 'info', label: 'Info Templates (carousel slide)', items: VARIANTS.filter((v) => v.group === 'info') },
+                  { key: 'cta', label: 'CTA Templates (last carousel slide)', items: VARIANTS.filter((v) => v.group === 'cta') },
                 ].map((section) => (
                   <div key={section.key} style={{ marginBottom: 48 }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: 24, marginBottom: 20, flexWrap: 'wrap' }}>
