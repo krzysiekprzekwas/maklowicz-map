@@ -3,6 +3,7 @@ import Head from 'next/head';
 import html2canvas from 'html2canvas';
 import locationData from '../../data/locations.json';
 import type { LocationData, Location } from '../../types/Location';
+import { toLocative } from '../../src/lib/countryLocatives';
 
 const typedData = locationData as LocationData;
 
@@ -1050,7 +1051,7 @@ function TemplateCtaCountry({ location, format, accent }: TP) {
       </div>
       {/* Main CTA text */}
       <div style={{ fontSize: tall ? 46 : 40, fontWeight: 700, color: '#00071A', fontFamily: 'Work Sans, sans-serif', textAlign: 'center', lineHeight: 1.35, maxWidth: w - 140, position: 'relative', zIndex: 1, marginTop: 12, marginBottom: 16 }}>
-        miejsc do odkrycia w&nbsp;{location.country}
+        miejsc do odkrycia w&nbsp;{toLocative(location.country)}
       </div>
       <div style={{ fontSize: 28, color: '#B4ADB8', fontFamily: 'Inter, sans-serif', textAlign: 'center', position: 'relative', zIndex: 1, marginBottom: 48 }}>
         Restauracje, atrakcje, muzea i więcej — wszystko na jednej mapie
