@@ -1,6 +1,102 @@
 {
   "videos": [
     {
+      "videoId": "oSyVW9G68TM",
+      "videoUrl": "https://www.youtube.com/watch?v=oSyVW9G68TM",
+      "title": "„Kuracyjny Kraków\" - ROBERT MAKŁOWICZ POLSKA odc.223",
+      "filterTitle": "Kuracyjny Kraków (odc. 223)",
+      "playlistId": "",
+      "playlistTitle": "",
+      "date": "2025-04-04T15:00:08Z",
+      "show": "Robert Makłowicz w podróży",
+      "locations": [
+        {
+          "id": "palac-wielopolskich-urzad-miasta",
+          "name": "Pałac Wielopolskich (Urząd Miasta)",
+          "description": "W Pałacu Wielopolskich, którego korzenie sięgają XVI wieku, gdzie niegdyś szeleszczące jedwabie i dostojne rozmowy wypełniały komnaty, dziś, o ironio, urzęduje miasto. To prawdziwa architektoniczna opowieść, przyprawiona wiekami i licznymi przebudowami, gdzie każdy zakamarek zdaje się szeptać o dawnych splendorach Wielopolskich i współczesnych dylematach, tworząc niezwykłą mieszankę smaków historii i biurokracji.",
+          "latitude": 50.0583084,
+          "longitude": 19.9354884,
+          "address": "Franciszkańska 6, 31-004 Kraków, Poland",
+          "country": "Polska",
+          "type": "art_culture",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/VpWkHiwYQSSVuAEc6",
+          "image": "/images/palac-wielopolskich-urzad-miasta.jpg",
+          "summary": "XVI-wieczny pałac przy ul. Franciszkańskiej, dziś siedziba Urzędu Miasta Krakowa."
+        },
+        {
+          "id": "park-zdrojowy-mateczny",
+          "name": "Park Zdrojowy Mateczny",
+          "description": "Park Zdrojowy Mateczny to miejsce, gdzie historia z naturą splata się w niezwykły sposób, oferując wytchnienie od zgiełku świata. Od końca XIX wieku, mniej więcej od 1898 roku, z głębi ziemi wypływa tu woda o cudownych właściwościach, która niegdyś przyciągała kuracjuszy niczym magnes do wykwintnego stołu. To prawdziwa oaza spokoju, gdzie każdy łyk Matecznej wody zdaje się przygotowywać podniebienie na kolejne kulinarne odkrycia, a spacer po alejkach koi duszę po miejskim zgiełku.",
+          "latitude": 50.03756551330833,
+          "longitude": 19.938136339187626,
+          "address": "Rydlówka 23, 30-363 Kraków, Poland",
+          "country": "Polska",
+          "type": "nature",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/tcg8NAtGx92sDPiD6",
+          "image": "/images/park-zdrojowy-mateczny.jpg",
+          "summary": "Zabytkowy park z naturalnym źródłem wody mineralnej Matecznej, czynnym od 1898 roku."
+        },
+        {
+          "id": "krakowska-pijalnia-zdrojowa",
+          "name": "Krakowska Pijalnia Zdrojowa",
+          "description": "Otóż, w Krakowie, gdzie historia wciąż szepcze z kamienic, Krakowska Pijalnia Zdrojowa jawi się jako przystań dla spragnionych nie tylko orzeźwienia, ale i autentycznego smaku. To miejsce, które, choć może nie pamięta średniowiecznych biesiad, z pewnością duchem nawiązuje do dawnych uzdrowiskowych tradycji, oferując wodę źródlaną, której każdy łyk to mała, mineralna opowieść o ziemi. Zaiste, kto by pomyślał, że woda, ta najprostsza z cieczy, potrafi tak pięknie opowiadać!",
+          "latitude": 50.036635222962936,
+          "longitude": 19.939906597137455,
+          "address": "Rydlówka 5G, 30-363 Kraków, Poland",
+          "country": "Polska",
+          "type": "shopping",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/HJKGBW4oWgx8LrFv7",
+          "image": "/images/krakowska-pijalnia-zdrojowa.jpg",
+          "summary": "Pijalnia wód mineralnych w krakowskiej dzielnicy Mateczny."
+        },
+        {
+          "id": "restauracja-rodzinna-manufaktura-pieroga",
+          "name": "Restauracja rodzinna Manufaktura Pieroga",
+          "description": "W Polsce, gdzie pieróg to kwintesencja domowego ciepła i kulinarnego kunsztu, Restauracja rodzinna Manufaktura Pieroga jawi się jako miejsce niezwykłe. Tutaj, w murach, które choć nie pamiętają zamierzchłych wieków, z pokolenia na pokolenie lepi się te małe arcydzieła, według receptur przekazywanych z dziada pradziada. I oto, proszę państwa, każdy talerz to dowód na to, że prawdziwa, szczera polska kuchnia wciąż ma się doskonale, ku uciesze podniebienia i pokrzepieniu serca.",
+          "latitude": 50.037923842558705,
+          "longitude": 19.93803977966309,
+          "address": "Rydlówka 5H, 30-363 Kraków, Poland",
+          "country": "Polska",
+          "type": "restaurant",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/sofmNZzF96o2C3dU9",
+          "image": "/images/restauracja-rodzinna-manufaktura-pieroga.jpg",
+          "summary": "Rodzinna restauracja w Krakowie specjalizująca się w tradycyjnych pierogach."
+        },
+        {
+          "id": "park-zdrojowy-w-swoszowicach",
+          "name": "Park Zdrojowy w Swoszowicach",
+          "description": "W Swoszowicach, niczym dobrze ukryta przyprawa w spiżarni pod Krakowem, rozpościera się Park Zdrojowy – świadectwo wielowiekowej tradycji uzdrowiskowej, sięgającej XV wieku. To tu, wśród zieleni i kojącej ciszy, człowiek odnajduje nie tylko spokój, ale i posmak historii, która przez stulecia nasycała to miejsce opowieściami o kuracjuszach i ich poszukiwaniu zdrowia.",
+          "latitude": 49.99311885591272,
+          "longitude": 19.933598041534427,
+          "address": "Piłkarska 2, 30-698 Kraków, Poland",
+          "country": "Polska",
+          "type": "nature",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/jcxogQ6ha2fW4SNe6",
+          "image": "/images/park-zdrojowy-w-swoszowicach.jpg",
+          "summary": "Zabytkowy park uzdrowiskowy w Swoszowicach z tradycją sięgającą XV wieku."
+        },
+        {
+          "id": "uzdrowisko-krakow-swoszowice",
+          "name": "Uzdrowisko Kraków Swoszowice",
+          "description": "Niedaleko tętniącego życiem Krakowa, kryje się prawdziwa perełka – Uzdrowisko Kraków Swoszowice, którego siarkowe źródła już od wieków, a formalnie od 1807 roku, przyciągały spragnionych regeneracji. To wszak idealne miejsce, by w spokoju ducha i ciała przygotować się na kolejne smakowite eskapady po Małopolsce, niczym wytrawny koneser, który wie, że po dobrym posiłku należy się też odpowiedni relaks.",
+          "latitude": 49.991739366147286,
+          "longitude": 19.934327602386478,
+          "address": "Piłkarska 6, 30-698 Kraków, Poland",
+          "country": "Polska",
+          "type": "tourist_attraction",
+          "websiteUrl": "",
+          "GoogleMapsLink": "https://maps.app.goo.gl/ag4LpBgzUWbw3LRV7",
+          "image": "/images/uzdrowisko-krakow-swoszowice.jpg",
+          "summary": "Uzdrowisko siarkowe pod Krakowem działające formalnie od 1807 roku."
+        }
+      ]
+    },
+    {
       "videoId": "ZttUsBUlhjA",
       "videoUrl": "https://www.youtube.com/watch?v=ZttUsBUlhjA",
       "title": "„ Pustynia i morze\" - ROBERT MAKŁOWICZ DUBAJ odc.222",
